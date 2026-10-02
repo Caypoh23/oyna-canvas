@@ -1,0 +1,3136 @@
+{
+  "generated_at": "2026-10-02T10:51:43.132028+00:00",
+  "source_commit": "6889d1fd217e366b26735348be2cff2b79aa281b",
+  "source_branch": "redesign-parent-flow",
+  "fixture_note": "Текущие снимки получены из Flutter с тестовыми данными. Макеты и архивные кадры отмечены отдельно; это не подтверждение выпуска приложения или работы живого сервера.",
+  "cards": {
+    "start-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "0157aef8d7123e1cb0755d9c8dc644472e44b84de92373ac08370fca5e9ed629",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "1df84332065b60ac95da706b32c1bdd018c26a33283989bec6f33bc39db59524",
+      "poster_sha256": "67df0a5d630e8072eeaa0d7bf60465b0138c9e06865b6f738c848156b96d747b"
+    },
+    "start-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "ac883d7c7f0500ace5bd5188fe30ca1366eefa9d51e703a4680637deeb745e5b",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "c6c19e589ed7120172a2d114af71234b3a29d2393ff7a3db804681eaba5f8a5f",
+      "poster_sha256": "7c41f68d6afaeebfe74a0fb11da6df5eef00e88b5648a76bf9cf4aaaeed664d4"
+    },
+    "start-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "8d7ca3a8277be048ad1f7ee572c0d22aa07a7979a086f1cb70ef2274ceb2f6f3",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "879df819f7346bbc7f44e3250a58fc5a54548f1906160268fd9469c330d7af9a",
+      "poster_sha256": "32f412a8f61e508df3472924783e7828066ab16394e7d72257d099908d0ec1b6"
+    },
+    "start-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e8f7b1b372d4ba98393dd10ec7f38977bc9535ce06157ca5bdfe2899249276ea",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "f655db72257403efc8e2e4549c9a918ca48c2776517a251c62a70a6b373cc3a1",
+      "poster_sha256": "0dbbca38c56f8cbfac951dd62f792b24b637ece975d91efae27569410d06af78"
+    },
+    "start-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:26.866761+00:00",
+      "image_sha256": "571d96b48b250d77a562cab473ca5129151c3cdc138c55302c712fceb74b5afa",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "a08613b84c3f35d89c822bd1a632e6ce5daa346b99e512e9608a9dcc3a5e95a0",
+      "poster_sha256": "3e9db69fee25bab1bf4c033295fc2cb6e3e186b8f73fec25fd6a773e2cd3ee78"
+    },
+    "start-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:48.724040+00:00",
+      "image_sha256": "cb045390a7e3c724ef119307c89d4e3253715e8b79e0632162865aabf724d666",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6ca6153aae8763f73e3b14ac52f3ec5011bca80eea390621ee327c821a419d36",
+      "poster_sha256": "54560a164c2ee8b7f7f7716667309b5c4a930477ab4d06e02144110a2040112f"
+    },
+    "start-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.141735+00:00",
+      "image_sha256": "fcb9b33ba18b9d3cca79260346154aad3f855bca19d2536a86201b8a478665cc",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d54bf1413cc9064d4c6ab4aefbdcead7bc89427b034dcdb9fbb45b15db9f767a",
+      "poster_sha256": "d955a5f6db0268960553de53dd0cca2b573aa0dab9ea61a7769d29d519d9c70f"
+    },
+    "start-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.271272+00:00",
+      "image_sha256": "f54b24413bc12dc2994892a430e59687b2ebf1167ab6bc10e65dc6ebc35527f7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4d99b16b54fea0d9b37f17d09eaed7f01ad170a137fb68c961bf593b205dfae4",
+      "poster_sha256": "9447595ca7ff74163fec6f5270185199655e0cb4c015e590f82c3afbf40a4163"
+    },
+    "start-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:52.197484+00:00",
+      "image_sha256": "2f5d9541a9eef8457bccd42aa41d8ed864ad39c13d5cf01997bad8da7f8c508e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c5de7e596af3ac28baabd4eacc6033efeaf318c41399f5297de6f069110d8a62",
+      "poster_sha256": "059751d42dd50a52d4ccddd3468894f99c28b1be4a66fb9a3069071121a39ea5"
+    },
+    "start-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:52.307298+00:00",
+      "image_sha256": "8f451eb5b2ab8decb45663b9b14f330606a49cd7b744623d969c7700bcb3a249",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d469a5559da1f4749fd52fa225c513284275c7e6723d94e5b24f9b05d8c6ff14",
+      "poster_sha256": "9b964d39028a60e6f97ee302043779940fe69c695cf8977edb7ba39faa218851"
+    },
+    "start-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "7337cff63094d3f9b3cc1163c49d40eadc93508ffc726c66fbc8106f41b4d460",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "3911539c578c16bb4e57518ed404292e830815a8815c62c442ea409263910f21",
+      "poster_sha256": "da471da5b4c0bf3322fdf47926a0145e38bb588c3d151d9c096af3acc29def04"
+    },
+    "start-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "1b9118f28e966bface7bd5017ac74119007bb750cce9c26c2641a52f5b98d017",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "175094daced122d98734aa58edc47afb352b76f3bfd0a05c0ab796c8282c6223",
+      "poster_sha256": "a320f61acf4a2881a257267ff1cc6133020021208fbfaab3dec645df611e6a0f"
+    },
+    "start-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "4ef3a6e33c7b67caa808e6aefac2c5e895bb2693f5b2225ad4975d3427d83587",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "66b23746d80cc47918d201d11a8a0ccc5432263cfddd0dcb5d87ba1b7f72df25",
+      "poster_sha256": "e0c4d53129d3fbeee82ea914d66a65f507ae45db35e0f14664aa265e11fcd3a2"
+    },
+    "p-auth-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "5cc1717e3abd3025a4260cfc57e844b5d1d81a23aa470244ace51ac4e6b97d66",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "6da8de05c02b7e37f5bd11f56ba26e852d282861fcca26db317d0dc4d4014d99",
+      "poster_sha256": "7ddc780a515156327f2e06886f70f751b7ffa83aee9604ea1f4e14806a50b0e1"
+    },
+    "p-auth-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "4287b70758bfc6151ceb512344049e929d676ed901b8891f0957e7b43aa7f1ce",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "1a861a39e3d3ff5a925c8500304ae45ca7f8fc20afbab43b71c7d050c676d4c9",
+      "poster_sha256": "d04f4b76394d4c9f0b045534336d2621656eb73ebbe630feee769b362df0af85"
+    },
+    "p-auth-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b49b795d8fbe083b9d6061515c5a24947a23040454597dd59a1ab71322bc3d5f",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "0d6f4ae1166b49d52ba9ace49c764248344afd36bd6fd55eebad16231b888a6f",
+      "poster_sha256": "6e09f230b75d191bbf595d578466ea0f2cc23c1300d950408623d1c1bfe403cb"
+    },
+    "p-auth-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "7afaa0f2d78efbe64a1ad92f9ff89c75018f788396a9cd8a4f5c4f73a91b90c3",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "0fa236d7632f9e21a72619a5b699e1abc26ce7d3dbacc3573b5ae7bc8c4a563d",
+      "poster_sha256": "1227207b6ddda2c7900c44fe0c2e99e8b5646d84110cad40f40177076099f64c"
+    },
+    "p-auth-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "0f79ddd7c3fe7677fc98ef42620b1734bd1fe33835bd3857e768bd04802af8b5",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "fabcdebdbb67453536bbc9429d8ed05852ccb77062abe9c6e0a9c727437f5d8d",
+      "poster_sha256": "74c1be70fefd3eb4a2321ca9eca8226d123a55b135c91c154063b8ce9b65b7ff"
+    },
+    "p-auth-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:48.960760+00:00",
+      "image_sha256": "a16052af60177147b0eeffd256cc1077448eb812b772f429ca1bdc743c418c35",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "89c0343f31c7f550f50c9381b01028961aba908e8ce8e81d23bb4a24c8bae823",
+      "poster_sha256": "2c2254d6e55ece44f779d535cccf9400cdd2a7c84e133dd687d0c4c4f6c389a2"
+    },
+    "p-auth-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.507355+00:00",
+      "image_sha256": "11ae1e66dd5d6ebd1ff4025e3491d789d8255acfefe40d147e4716b7c6b52ca6",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5eac97ff32ecacfed9da05950a6e0384359c43f6d3e4ec826342355990e467be",
+      "poster_sha256": "bf14ce7bd11359cf3252e4950540d0f28555a278d945e834fd7114e25340b522"
+    },
+    "p-auth-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.605490+00:00",
+      "image_sha256": "db240ecc98bcc500f150f1f58ca713783131f68dcbb7a239f92ab9f7b09ae7a7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "dbdc4d404e83456355c06e3b69b0f8f63546a36762b7365f397f087ee64e1dd6",
+      "poster_sha256": "e88b0b35ecbd389e523d4b13ebd913e223145837046ae1184d4e187da81bd4b3"
+    },
+    "p-auth-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.764208+00:00",
+      "image_sha256": "5bcec89f99a18cab28537d70ec20e55c5757bca722e8befa6d4d9aac3af0cf26",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9e469f3b9a1aeb733aa176eb6fee1b832b3fe46b499b49d21291f71561e6b260",
+      "poster_sha256": "05e5390b65820fa2af878f0245655a4e38c145175c39be72c8db3185f4d79f27"
+    },
+    "p-auth-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:49.913565+00:00",
+      "image_sha256": "09d9b7cb8a0afb32c9fcd726ee3233173425bb2b9783511f2e7766f277dc69ab",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4b7525c7f2352004bd420b515c7a93774297704da9089d2c0cb3900cf314fa81",
+      "poster_sha256": "6318e5a4d6992460d1764a0892a63962dfad692dcc17f1087d46dd30e1e06b26"
+    },
+    "p-auth-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.445543+00:00",
+      "image_sha256": "cfc2d29a62016096a6c0db19fb2fcc954a0da4873d985ee782b8dfa9f6333ac7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9fb512f933a0cc0531b31558b1c8dd70d8a91cbf4e8d20fbdd6605d73afe859f",
+      "poster_sha256": "2282d56f90ad200c87c6346cc2b4b45899e0244da8ff19299f3ba728730561f2"
+    },
+    "p-auth-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.040514+00:00",
+      "image_sha256": "566603762884ce70882f12d7660a2a184e7376524a78ed547bef551d92179780",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d418e0f753f0f61a905ffe35284700efc1a149700b9200d02ff5e9a84ad777b8",
+      "poster_sha256": "7e2a62d8d3d25ab955d33e14133928b46e154af14f8bfd14bfe645fa309b8d76"
+    },
+    "p-auth-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.571432+00:00",
+      "image_sha256": "fc2dd83a817a31492ed6291a232b742f2aae2818520c92030d632b0d41c8c741",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "df230d3d6e8a4c1a99b7a447e8b4006bdf101fbe6b0db57f1e078dad32f70d9a",
+      "poster_sha256": "a96a64e131ae0d69f06c17b8a6262f242248950dc056833cada4c96517da2dd3"
+    },
+    "p-auth-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.184602+00:00",
+      "image_sha256": "1eca80353155049d52e4c50082b9569e58550a106648d9dfd533ec30130bc5f4",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e4bdd0e879a6b44a88769af1cb6e006f7019ed9d30691da45c94d82ad152aa5e",
+      "poster_sha256": "94a210e968e0a60f6e6ba4d5b04808f2a69a513fecd1d0315b82adafe182a689"
+    },
+    "p-auth-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.302043+00:00",
+      "image_sha256": "7f3df94990b6972b11df5dae22085c4201d80633d35eed6200aac17f643af9ba",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "441f225a3cbced47714cf5811c586a96b0d307d54a6e5f3c5ca06bd47701ef05",
+      "poster_sha256": "d15304c44aff767045fc39c0cb2dcbf85d77417a23617badb2472faac89fadac"
+    },
+    "p-auth-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.963417+00:00",
+      "image_sha256": "9609eaebacd641b5e757dcc0d805a9595e4a9cf1d515b247182a445fb9bbe216",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4ec3d002592de2667511e7a0ca9151a96b08c6aff87725c702fdd7d72283e8c6",
+      "poster_sha256": "a1f4f837fa676ca3375d73cefc966f0515be2c3515a89b37176886a32b13813b"
+    },
+    "p-auth-app-11": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.726067+00:00",
+      "image_sha256": "cbcf4fd23a9fbb8c8fecbdb7a05793a17b0b5d376e5198f86d78ee4bbf6db011",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "35238ec363a05816366c2c151d52a98bf6f0863960a1a24f0cc9fa07dbf56a94",
+      "poster_sha256": "e115d4312ed15a98de5e9e1f411e1a9720cbb22f9d6d32be5efd0c9769341615"
+    },
+    "p-auth-app-12": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.840111+00:00",
+      "image_sha256": "ac8b83708fd77181a8c4b2d93d3b762aeb79a85b029dbc5a1fd6c9f0968795b5",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "30e55a5d444427a9123e81f5aa83a262ba052bf1c4480ad135456cc9c9c90303",
+      "poster_sha256": "9a455f001d2e67e05801d213aebd0315dbcefbd5d2b33010b2496ff6b6533cc8"
+    },
+    "p-auth-app-13": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.245016+00:00",
+      "image_sha256": "bd3470021ff5d9b8241b1b1feef0019d7e1db5bc97478424a62e87e1c2c482fe",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d7362024f2ee240d18faad5891e8e3845b6984c3cac72037782a97fbd6114c50",
+      "poster_sha256": "645676d180f2ef3f4b32c19ca42dc39778fe6a458ddb8d2f295ecaa0de485c64"
+    },
+    "p-auth-app-14": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.130500+00:00",
+      "image_sha256": "d218d0a28efc538e581bacafb86d3b6aad74741e2d6a5798d3977abde8eabfcf",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "7b8b767e3308d200d8e8b26b194c5d4eec9257c23d7eb8dd6dcdef505f8a4960",
+      "poster_sha256": "63b73e8b69466f0d1132f320799bf57f11bf6f598019b63977435286081dbe41"
+    },
+    "p-auth-app-15": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:50.956319+00:00",
+      "image_sha256": "da8990501a5c4fdda4362799c7a5b22abcbe5500b9ba63deaa953b1c5c892ac1",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9baaa5666047a266eebaf90ed1cb7c4ec65df1c5215be88a2d506f7f83c372ff",
+      "poster_sha256": "4a7167257175a5e5bd92d78e6becb96433564d397b5427c08e3ab4a19d37a198"
+    },
+    "p-auth-app-16": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.555300+00:00",
+      "image_sha256": "a93e9b55cf0dc41b2b9a358be1025d087addbe6f4beabe78babf5a0da8f04de9",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "1e31e9e4de752b620fc8b41652939bfe3e22b5eac4d60e9f14c29e9652285c44",
+      "poster_sha256": "14f8b29fbcd00e835ae2a3601a2d668fe8b1d771b84eb166d6ece33ff31f9a3b"
+    },
+    "p-auth-app-17": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.692222+00:00",
+      "image_sha256": "d727f86f1e6234b680b4c9f27de516e58fe307bce2d90e6cefdc29c556708146",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "51c9e20984eebdc9140c13564d9c8cd6440876c1922c77c297658e539575b0d0",
+      "poster_sha256": "f447a17e4c3084716f376de073dc5872b623af395572e9d67874d03ac1dfaf32"
+    },
+    "p-auth-app-18": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:51.410017+00:00",
+      "image_sha256": "f78ce8b0070aa9815ec5a95edcf70aa3719d520c500b1094acc2c4e726b32850",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "eb0ada51e443ec865c3d62e82eda0e1f97454ab7d64494be078afe9aa7ca8114",
+      "poster_sha256": "55ff084a0db6527323333895b24e335c7d26346e6896add3dcd725269a559999"
+    },
+    "p-auth-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "88cae591c1296e37107d7327ef27dc135eeec3c1a69b2abdd3d553d1e17ab797",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "dc113633516917e01dbafa1dc331bffe24590ef6edce8349d407ead18a573a48",
+      "poster_sha256": "6b3b587c9b214e8f236544e88b356f472dff68f0194ec5334bba800e9841c13d"
+    },
+    "p-auth-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "7f41d7ee37d9e5ee59aacab3cef6c991788340460a5008456d33d138a9e8347a",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "c9c0b4d1658c1e620b5308fdf6c55c1a5291f9e124b324707cf5cbd93f06f5de",
+      "poster_sha256": "c95448a2e6abc18a3ecf250f9de3608ff9504e0cbc61d7198cfd0af6cc588ac6"
+    },
+    "p-auth-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "c801192d05a83d5f0c6d949b93b9306e16948f98bea407937b4023fa8914541a",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "3f96ee486ff0481cbff426a6b2abffebe7cc0548f985ee74e267914278e89252",
+      "poster_sha256": "aced4c17f44a5c4c1222450c6d90d58895f1a690f6d9e8ef48f945425a9b4bcb"
+    },
+    "p-home-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "77d008f8dcb2b881ed82a7ce395711a0e78c80a5cfb44ff88d19607fba57d6a0",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "3ee9ab4aec4a80027dacbff8b183d852a25522e33c9084e4389843ee2a2245a4",
+      "poster_sha256": "093dda2ec0f8c45fe64e2c92e39199b59476d033a4487f41199c15161355a048"
+    },
+    "p-home-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "4fc85b78c5a487563fcb511b31c573e417d34bef6a55e6dcc0047061af5f1a4e",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "5a13d564a995ab6cbd801c1846ca6ef0f3678efc8ac618d4d22ec111993d59fc",
+      "poster_sha256": "cf9d044d755b1c2ee30d1f06bca2a2d9deb16eabe242395dac66663771dbe28e"
+    },
+    "p-home-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a5d13cdd928ca5031da1a24f485de1d757dac1734d87bf45cbf7904b4511a60d",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "526f825a565b2c45f1a92bea87811aabd66cfb19eeff555dbfef9a9a73625470",
+      "poster_sha256": "963ed8779592a18dce93b68c76f448e1f9952e78d7545fd882338c90ab8af300"
+    },
+    "p-home-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "93ed74c73fff22cc34b7c469245716c1429265543efa16834bc775a2f37dd97f",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "6a8d791ba2e6bb77b5b64335c8560c6f7dc36b1b4dc694eb6e97db6ccaa3061f",
+      "poster_sha256": "41c316ff0552f048f11615e43a0516c648675e7351ad152d94f3e3f989ad8a9e"
+    },
+    "p-home-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:54.157619+00:00",
+      "image_sha256": "9ee699b5277d91b2af3916b4925ed62b3ee07ca3aa7ec32fabfccff2c882c577",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9e7244a428e68d8da0a4fd33d95fff3fcf7262a64cc86cb4c9c66b474f88573b",
+      "poster_sha256": "88fee92cff13ccfac66d7cfa035d747f8037e9ee02c3202d15bfa96e65716c8a"
+    },
+    "p-home-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:54.434746+00:00",
+      "image_sha256": "a5981d532af82855e4596deb4be3ede00f71795a3f4625943c2eb903ca0cecea",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "368c4d539847e915be194e2e1fdaf5b3fa5b902638081114b098d78ed10976a4",
+      "poster_sha256": "7d722971b641da94e489fe34d9eebcf4cd888704565a89a52b43b6b7a5e8e19a"
+    },
+    "p-home-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:54.605556+00:00",
+      "image_sha256": "c65b736cde13297c61337d41669902879a33434d06e1781f44a1bf53d428e4a9",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "30bc162aced645f98bced51f91127bcd1407647ddc6c9496977e64808e391479",
+      "poster_sha256": "800191c93b10a7f4ebf120c0918736447d23ef1466dfae49656abc0760b49283"
+    },
+    "p-home-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "4fd5ccad863eea05be24a6e4ba11e98ed9f28f47808e2c01fa9f11264a77e66e",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "2758b03843c46b7a9ce0a182076470a3e843a3491018e199c6555c988780ce00",
+      "poster_sha256": "db6728a1033f615fe7c8f4190ef6e6c9522d616e57be7d4e9f0512475a8ecba3"
+    },
+    "p-home-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "f19a487c983eed8f8891daefdffa79c878039dc0146e91cdb085a6528b7031f8",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "641941011918034c6a53653649a334b78526c5486b6a7a0078a43afe8e1280cb",
+      "poster_sha256": "6f0c1eada12a83637f65460497fdcd760fa9e768e9e6b7304a138b56f061bb4b"
+    },
+    "p-home-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "aff9b5e25984abab6b4e33eb529736e16c79d2f034e71b1e96ac0dee6484ed95",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "93b41324634b07c11eaf87d51cae0c1202ed025ec96b1669233de61c9a022a36",
+      "poster_sha256": "231549f27928e1e4d8d28ca1617ad8a3668e5411bbe6ffb12da169ea419a6019"
+    },
+    "p-home-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "a2159ba30f83aff662e0097bf654b45abdc47d0118baf9ae40bf05066a4d1c5f",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "9036b519e1582e877752a9ad372d5d6b9248c3b72e144e43451344a2763c34af",
+      "poster_sha256": "84784bb29e5a0bc6fe79bbce881f098e03f540f8c12723b1a815846aaa6da86c"
+    },
+    "p-child-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a4a944e0e2893c3fff39a98636265b223e9aa482a7cf1864b033e8a239b791e5",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "4e8169243ca75a704ac261e5d776e0237b7316c07c4b7adb04376953a20a9c32",
+      "poster_sha256": "ee9f7b39759b32bb40234da770dc09f0fd75fbef06f1b2e0eeabe7fe5b907a96"
+    },
+    "p-child-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:55.833250+00:00",
+      "image_sha256": "a2fca9d35fc8bb35fed562ba862cfb39e2dc220f49ec292c991fa1eaa10f588a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e1837c2f75a9afd170594494085be8ad52d2fae4eab61306497f346bfe1f8114",
+      "poster_sha256": "f5951bad7ccc2a55005023385614051afbfccf39eb4dd9af663cdc6f172ab423"
+    },
+    "p-child-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:55.997071+00:00",
+      "image_sha256": "dd2fb54a9b87c5dd1ab7475f49da0bbbb2804d122823cb1518064811c90862ca",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "49cad651defeeb5779d83cffcf6d44cdfcf0e7072266d95d5b82d6e057f3c9ad",
+      "poster_sha256": "3fa377ef0a57dea68f31129d7de071359717cf28c791aeeb8a2e951638bc46c1"
+    },
+    "p-child-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:36.130225+00:00",
+      "image_sha256": "8eb1c0df4fb77ace7f6bf5ef459d5274cdd98597d950401f3dc7a963ebcafe79",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "216426aa6a30247f3246a0ac8562e7d3fd6c6bacf5e4e3f8c172936b2cad2070",
+      "poster_sha256": "2da4f0b1fab6101660a23bddb4819793f836131f68ddfa76c88d03782d6805d6"
+    },
+    "p-child-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "a6fce129bf7ef2dddbd84c2406a97791712a535430e4ba5e4bc440f9b2096c53",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "fc066e3ed2e2b42f19d82ea56557acb80e6e8470a7cc9560f569a4e2ff4cccaa",
+      "poster_sha256": "9cadbfcc589526cccbf08e793f8d5dcd7c87e395dc36b5f87c5017c37785639b"
+    },
+    "p-child-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "27662e4f916c4bfbc891f5bb5a5d69ad93c1c33d1a5d8cdb6a0f3c219eea3000",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "0e155e11eedc3251e396164fa2ae565c5afe311f372315d3fb2f377839d1fe96",
+      "poster_sha256": "c29c29f7e1cb796fbcf8625eb492aa1b6adad05b53c33fea41c69e474e25bd44"
+    },
+    "p-child-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "25981e97ccd4f6232915d58f774f1ffc2b47d3a6011182906d45c24d4379ba11",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b6d10ccb3aa869921a96fac9c855302dab47797dd606bdcb4c1a27089dd892fe",
+      "poster_sha256": "3c7f5f7ad2e62682b3a7db3d3e8d95b2ade17775948abc5b68ac2470b484ceb6"
+    },
+    "p-tasks-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "ba75e902ece07f2a805b94d467c03843447cbf5c62ca5a79479852c3a3d2d5fc",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "559272e2134b7345acc861f8ef244fc90935d60d6ead541a8cfe198649835571",
+      "poster_sha256": "d0e3bed3e4990f08cdc6a6629a55e9cd6e537bfb3d79eba90dad620931124b84"
+    },
+    "p-tasks-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "7eafc08a8850b6bdfc19170548d3fbff1956234660d5e6a52c9bd947f88cabef",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "58d216619f3d8ba0a94eca70f8df8806a51426df372a9cd5b946035340abb575",
+      "poster_sha256": "53a6ba0b4f3a8b8d55b07629a1968a057e60b9cf94f3755c4b94aa9ac0280fb5"
+    },
+    "p-tasks-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "76bccc40851e8e5918b9f1ce086161ef7da0f8438ad2965633d842fe825dfea0",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "ba73d03a401cd416e4978a457f10d089c0b985809d776377b87e905e0ebaef61",
+      "poster_sha256": "bc82119025b4f6281ef619d98799fd8fcef2e72586dabbe4f60736592fa874e5"
+    },
+    "p-tasks-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e3ab49b9ecd0e61a5c9a9fc2c1264a4e2926ca97eb523a8ee3d7db0c277eb2a4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "08b75bb8c2cb2853db7d2d2e1eae3a87c67306d6e2f62e98267f2e56f2240ac7",
+      "poster_sha256": "804d8f13ebecbd23516d159f6ba880c5750e9f3eb4f1b8dcfbc909ba56ab4005"
+    },
+    "p-tasks-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e3ab49b9ecd0e61a5c9a9fc2c1264a4e2926ca97eb523a8ee3d7db0c277eb2a4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "08b75bb8c2cb2853db7d2d2e1eae3a87c67306d6e2f62e98267f2e56f2240ac7",
+      "poster_sha256": "804d8f13ebecbd23516d159f6ba880c5750e9f3eb4f1b8dcfbc909ba56ab4005"
+    },
+    "p-tasks-figma-05": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "fc90e59c20a358b83007a5d5be8e6e9651d98b91e05f3a1a9d37b0ff63cf3ed8",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "3fa1348e3d0b3c9ca0b603040e64d7e90d2c1bc62f4b74772e11d6637cc2b125",
+      "poster_sha256": "ce7ffdbe98ed69492addb7054863db7e7184a786117a0f5c73c407f873aceb42"
+    },
+    "p-tasks-figma-06": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "fc90e59c20a358b83007a5d5be8e6e9651d98b91e05f3a1a9d37b0ff63cf3ed8",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "3fa1348e3d0b3c9ca0b603040e64d7e90d2c1bc62f4b74772e11d6637cc2b125",
+      "poster_sha256": "ce7ffdbe98ed69492addb7054863db7e7184a786117a0f5c73c407f873aceb42"
+    },
+    "p-tasks-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:37.946822+00:00",
+      "image_sha256": "75731af8ed053d2c84da64f075c49267141c4e0bca74bfc95d31ca34ec1fc0bd",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4542cdcb95d113473e2fbbf02c240311dab5670b6151cb5e7ac9157978be2251",
+      "poster_sha256": "02412c0135babf36c804d9595417fa5bc63c9636695bd225325489af6b80bc1c"
+    },
+    "p-tasks-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:38.287931+00:00",
+      "image_sha256": "fdb162445a114375bdb02c34a0336e154044bfca875ed289fdee4e44a4540f0a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "10c5a665b8750f3d2d4805c8a3399537ddd1d4afb6d3a38defa4e4e7df8e952a",
+      "poster_sha256": "a0d5ab339b5c6fb81a9cac98654d97ea1f7a71f1fa94231528c8e633f2beb51a"
+    },
+    "p-tasks-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:38.447054+00:00",
+      "image_sha256": "d562f9607a26256bb4fc95e657e8e2e5ca36bb0c6ab467a6569f3e77d4abf2ef",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5b808b8820fe0ba69b312515cdc08bd4a9ccda22801dea346f1217422f5ec67f",
+      "poster_sha256": "a8548a25fcbb554672669158b4654f20bf6a6d9798f8e62a9da6823afe32a9e9"
+    },
+    "p-tasks-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:38.759413+00:00",
+      "image_sha256": "c7b97b90f3d1e21e1b7a385d761b23c5b189388b69cf1f465096ea3679cd435b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "cbdd93529289e67640c289d72b92494270a49fd1413bfcf0213cf83847f7a54a",
+      "poster_sha256": "dce8eeceae37dd27d20b165281e0a775580f52e3a5652b8f6f88920763afdfac"
+    },
+    "p-tasks-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:38.976227+00:00",
+      "image_sha256": "309c02e823092deed61db860a90085526ce09ce28251166d925957542ddaad64",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "468b5e52b3e5606c1f5788e6e9fb3507df3c27a63f3fb04353150c1cd742c737",
+      "poster_sha256": "57ecbb1f79014ef716aebbbcdb1920825d6a1552fc71162cff943317a026bdbb"
+    },
+    "p-tasks-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:39.183922+00:00",
+      "image_sha256": "78c2921f7941a0673d46b5d9345feb81449cb1f5f72ecbc7d069612e725d3236",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "57fa1fe5070db655a78888cfa22ecd1578c696bd08af1320bb070c8e16ae1ab7",
+      "poster_sha256": "9ba26ded3da767669841638eb0ed6ef73f1b6d91eea9c5ed9083b62eee1d6ec7"
+    },
+    "p-tasks-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:39.371378+00:00",
+      "image_sha256": "2bc4dc4d48ea63251408e821fae02ede97a5cdf31b191af0be9e147899dc4fff",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6123a1af4c3b45bbde14cd3e6b5c42ada9ad7ada944e5f17663b6f519e805a43",
+      "poster_sha256": "5c10a096ad350d11377d2c72e52b6b756e3feeccc2693f024dc7ad69b8730cc3"
+    },
+    "p-tasks-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "58940ae2712e47cc6ed60b9e160c9d034f7bd1a22817f1bb0766b8a03b8099fa",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "8e661cae25e03163743134bed9f6b3f7f72db2fb644052e1c3ac16fe14ca93c2",
+      "poster_sha256": "c9fd23b5c96a9c2079d75cbce8f694739becf992a4a2a1e5cd0673a33454fd31"
+    },
+    "p-tasks-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "cf4eb8180c00a14789c75711130be9eb90304912aa405d22ed7214519d1f1ec2",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "2e28280a9dfad7f7b9eae5503276735005b46a53f615e7b861d135669abd8f4c",
+      "poster_sha256": "d1b481026af587d0786b131682bee5c020ddf13ea2ee7b2f6a6388446b16e871"
+    },
+    "p-tasks-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "3040226c0e127438af1ea199f197c5501efcd4a02693e35233bfd52ac641a165",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "ddf5349e083e1e79581de8df79f7822fc4808fe9725ab2f3778519a333c5c7f0",
+      "poster_sha256": "adb8ea113ca73407c9a54bb7019ed38f3103ebdb72ae12e35872384457e25062"
+    },
+    "p-tasks-motion-03": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "f41d5488959c9e057a8feb8bb3f75c0c08ce778bdf707623e393cdbe7499c7a0",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "8f9215ec9118bee7652668ed5cd3ac4f00f77075a4ddc2c80d2d81058aa3f37e",
+      "poster_sha256": "dd53af4a266c328542baaaeb785fd35d62cc09b9472f1713e1291a34b632852a"
+    },
+    "p-tasks-motion-04": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "6aa6082d9c6d3baaf3968647fee8947ed381999777bcd09602ec20d4ea7ee6a5",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "eeab41f80a0bbd4b224ada0a0bb1fa6ad08408ce6e85b5bb3bc01822edd32cf8",
+      "poster_sha256": "f513783abd4daee8da21ffcb9dba12641e6bd72771188645fbbc4f4e8977ac21"
+    },
+    "p-tasks-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "e20a929017666a3ac6a591fc4866176246e4004fa68da1b6c608998cd6b24d4a",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b351ae502444b2828db819537588390abf5bb4fd202ec924db7b7734d3f90230",
+      "poster_sha256": "d758eac7c3e6ba9a0bd0cc2ed6b62c33e08d8a29504838e2177d32694c012357"
+    },
+    "p-tasks-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "01aa423e29e517640fb291c7a4975158784eb39cf4d12efcf2e4f1638e1235a3",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "fa610088eda29e5f42acf4d2dd496eceacf730641e0e280045fe3ee963a62754",
+      "poster_sha256": "5a6ac8dc8063d60417b7e9604e62a004e6646fa6908df8ad2c640f24e3ae633a"
+    },
+    "p-tasks-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "9abff8f4f016197e7e8bbb925d2ff84a6dfe84bd6ed066878b73d9111c0fed57",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "0667160a2b3fc34f413717916a38080b734250b547800fba256944f9b2966190",
+      "poster_sha256": "52c3cf8b5e9c87cb99a040b58a3188898eaeab6867ebc7f2debcb5d2b4e66475"
+    },
+    "p-tasks-device-03": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "b02fd3a28d5a333fac8ed4dbf6aaed857d32e3670fb94009c57d2bff6753d1dd",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "597028a7e352c4537d44b99eb1181860ff53e37ce1965b3ef7672344e0bc8c8c",
+      "poster_sha256": "3285a11c9e4c7b81888c1532a7ff7f212d5c750f999a7654bb79c2f13f129820"
+    },
+    "p-tasks-device-04": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "b02fd3a28d5a333fac8ed4dbf6aaed857d32e3670fb94009c57d2bff6753d1dd",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "597028a7e352c4537d44b99eb1181860ff53e37ce1965b3ef7672344e0bc8c8c",
+      "poster_sha256": "3285a11c9e4c7b81888c1532a7ff7f212d5c750f999a7654bb79c2f13f129820"
+    },
+    "p-review-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c4c2e39bfd1c1b3cb17a14652dd5c77c14e3668b89290471378b5cc1ef5d62c6",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "1da2ba65bb0df848f1bc6c404e0603bae13dd214f3b4df0ac4063857b6d5a158",
+      "poster_sha256": "f60b55914aa66c566d378648b7be40e71185bcb656caba88af63225759900f4a"
+    },
+    "p-review-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "de7dacd249f02c94cff5a20f0c1b53e05b9b23150671641781ad9117fccfc4f6",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "28a36ec8636aadc2475473f3af758fb1ab82c1da258e276ae5c30db10fc4029e",
+      "poster_sha256": "3422b73e02ede2e4297988234f0202fa0e705887d720a0a7c2d2531dbb86769f"
+    },
+    "p-review-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b72ec1483a44892dea20845619b8347ddd6790ef48aad4aa71783ea8f4e5edea",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "75ad339abf4dadd000fb5f40bde9afc75aaf388a58d7a7f573fe2f18a80826c3",
+      "poster_sha256": "c8699598b5db5080058d7aa37f6ba0f81013e44c4c1b3e6db9c2733501203c4b"
+    },
+    "p-review-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "d7decb3a5e9379fa94452c62fb9425b3f686171babc68c2859954adf97fc44b0",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "3ac60a27d4814224be030a57d51cc66b8b0a9a26ffc2751b72ab0c0ee904d050",
+      "poster_sha256": "c7aa5e613141043aa858f8669a0b9c828c32f5476ca261d4bea12d091c5924fe"
+    },
+    "p-review-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "2e75efdae1c45fd9dbbdfb7fdf06e1d16563d3f2c0bacffcc27f5179675ad784",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "17523510875eec10740ae7fba650a069e45d50f4c34b26c7ad3fe0a1cc9ca9e3",
+      "poster_sha256": "5184b3c8f5d0db6c0f077831d73a388a1c9e6269b428b3c0d887ea3f295bc15f"
+    },
+    "p-review-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:38.119669+00:00",
+      "image_sha256": "c017cc2b17ee99fa5db1b14c60e1cd9f0b0af5d5735309ba3965d6a33b773031",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "fbd83c60cef67025fb015f6a2f7624a5c4a35fdf621276276826a367f4e12dff",
+      "poster_sha256": "b6bc4e5a8389ea280affec5531863219b890205c8cf1c7a748291e7cba7a8f42"
+    },
+    "p-review-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:39.550165+00:00",
+      "image_sha256": "1a73a7a952480dd2e0174e79b9352b53e01b9683a64b837aae195ce7dab68888",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f79752f207a50f5ba45117b6362c7ea62aeca91e25d087a37dc7e3685c744a59",
+      "poster_sha256": "2842149cba072c8401f1aa0b94b118981473f1909923583bd342e23dba7c2571"
+    },
+    "p-review-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:39.771706+00:00",
+      "image_sha256": "bcafeee0d8ba6648be8b1e631bc39f7a5e2234e95611a68a5438e7b41789924f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "82798e8ef696817b583543ccef309b525817f7d4915e7e6bdfd680a7c3418f84",
+      "poster_sha256": "6fa7dc5714097941d8ee5850da70d10f39262a52ba500b4e63201f5cfd5e2066"
+    },
+    "p-review-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:40.045926+00:00",
+      "image_sha256": "9611111d56a5550b7b3a2bad5fbe8f1c061b0117f5b3e4f3e17858b2ebd7b46a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "536b5083ee16a5cbe18f5d1e14a5123cf281dadd2bd9f10127e5603b4239cd2b",
+      "poster_sha256": "a888079677734f53122d255581e5e74e4be2a8b615dd9dffb1714373ddfb7f99"
+    },
+    "p-review-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "12f96aa45202763ed7e4514a1dd17c26a637b3e96f0cec9789c4574af0d670e6",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "3dc9aa78e802061a1499a9452b18a53adae1f802af71e89d924e21052d8b5aa6",
+      "poster_sha256": "e78e810e6b45a2b959d681d647f5b8813dbe02506b6ce589c5df255b0631da6a"
+    },
+    "p-review-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "a36f01b6d715d135c67e709cceed675472e3135d4bd7a989afe0ae846c04297b",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "39373a846cfd4ad205d21f8351879bc5865a347d4fb08ee25593b91f9da1ad23",
+      "poster_sha256": "208bf7e0e654b771ccbce47801a2d2c612e2e739989d0ffc4f5d0bbc57fe0c0b"
+    },
+    "p-review-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "64572c02e46c3b45c4d2ae1031af59e0f0c5a2c2f90ecb9ce095cbe68750a48f",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "27f2ff554ccbb6b2517e74270ea064a10d5d7492beacd8abd67e0dab1225c390",
+      "poster_sha256": "d2ca42e4a5f484e44561cef2996bd8c6fb19f11adb6398e4205f3998601215d5"
+    },
+    "p-review-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "8651009db10dbab0dd3f941115647d7946c1fd2096f3a6d4de2b97b787a623ec",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "d1966246e1a445cca8eea250f9da7b4a21d45c2dcaea17e0b53bbdb0e2afa0f5",
+      "poster_sha256": "dfd5ddae9b5ee88bd1152dc9f3c5d4160835a12ec8b8098023f63ffdee50211e"
+    },
+    "p-review-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "6da89299085e1655c7480ebfec1a961d4a48a8f32db9b980924519e3ea9db48f",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "050c6e466b84e38513e0256cf9d6ec217296167d4d8d027e017a1e85288217b7",
+      "poster_sha256": "09263fcbc32d2b12988411501b3e058d8b7cfcdaaea13ceba64246fbd180c7af"
+    },
+    "p-rewards-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "5359dc30afca1bb3171d2434c4529115e7e96e2779469fc7f71d48689729c763",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "b70b86c81367a1aa61dbddc2b8e4dc6f1e2099cc34a013003dbd2b9a5925267e",
+      "poster_sha256": "ff973fc23a6bcbda8f588d271b6a551b38ece369ec5ec94c4da44e1081104a43"
+    },
+    "p-rewards-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "75e3d82edcae9d8d48a30e5637bee4b9eae57b6118f3004fc41feb5a8c941e95",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "76d7ba2f5ead30e972db15b8f8e3a625a0a8c6c489569b14bd53cde12c58327b",
+      "poster_sha256": "7365af6e66b91b86016f93c7845cf2e4093aeae515453f413f6eea5d1a799ff1"
+    },
+    "p-rewards-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "5d9921922aac8b1035224f8aa0d4192e222364abc0fc4d7dd39d97c8595fe34a",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "14f163949aeb84c6229f914d180402d7728c8d5e6e49ac7e5e328f88fcbaf23a",
+      "poster_sha256": "0409e89c23232a622451bb705d8237ead80f253ae87136e584feaf9d75232475"
+    },
+    "p-rewards-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "620cef5d595463e5b3d5e050684858344be590824d64799abc7102923097fefc",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "7613af46cf8c9d6f0f08de34c6bf23b7f068ec2dde8ee3d22c2b5df0edfc36ae",
+      "poster_sha256": "b9a6e5c5e50890a279c2df0f6c75128c1a8e44edcbffa4f6ecd97c96c920be6a"
+    },
+    "p-rewards-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:41.883739+00:00",
+      "image_sha256": "3106efedd80e02e859e3e60f359e6a74305a6637f5c11aaa132ed61841a09391",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "21a8a4b982482d3fbadb70d1ba0de5e188addbdd9216c18c1ab4e5ace80e6c77",
+      "poster_sha256": "d6c95f222dc206056e20bc379b9d10aecee6dac31da2a71dab7d7e403543f469"
+    },
+    "p-rewards-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:42.352574+00:00",
+      "image_sha256": "ea4d0c59007f37c75ec57c351433941f9a197f83e7602fe2d8077bc63120ebed",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ed08344ea81a37bf40d043bb21196a7113169e66d35a6070bea015c3e52e87ff",
+      "poster_sha256": "8cce73f57ca18ee76165a347ca5e8c54ab654ffca1725a391700a8123ce3bfd3"
+    },
+    "p-rewards-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:42.631374+00:00",
+      "image_sha256": "5ad7f68de8383ec6880e40759b6f1b77b8cfaf872c8c96cd871870111631e80e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "72faac8b76fa0b633d779e8a51537280b1263026c8954f4a5da58acf729b58c2",
+      "poster_sha256": "f8b5a2185c3da21509e3a5385957bd6be1cb8456de9128d3f3dd54b727ebab70"
+    },
+    "p-rewards-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:42.822668+00:00",
+      "image_sha256": "d42ac8d1dec3c8bf967e6f6785b3cc4f06892a088e15837e69a77cdd9304b24e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "894e3d1bc1b62375874881de78a7b07ccd27672568f2980e215b13d0779ee929",
+      "poster_sha256": "419605bb9cec39fbcf0cde88f3596e5834c5ab5871c67e4f2eb3a03b79b965b1"
+    },
+    "p-rewards-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "25d15845a022f4bef00383f3cc99082b0a0d4643d54fa54b474dcaed1e7c1fdf",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "1114b35ab536a8ad26fcf2e30a8e29c1135180b2c659f234cac0c683f45cf535",
+      "poster_sha256": "d6e93c725a2c5e70220d5aa2505547a5746a845c8431448ad36a8d74740d0610"
+    },
+    "p-rewards-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "2dda69d82050f8482050a72f17c9448a6d3e7c2cfa01ea74d9c72a7f8c7728b7",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "2f6f547a62b5f4235d8fb76acc2df18819159685ad8ae28dec085f7b341ebeeb",
+      "poster_sha256": "1154a03d8876bd4c0976206fd0ff0a4928e42237148c7a781952b576351d23a1"
+    },
+    "p-rewards-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "564bd75e373bcaf43eaa72e41ae81c6a93e16783511dfddddab51cf9273270d6",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "5ade5411b756915173daf3f1a656abc1a2f41a24afb6c1dbbd0657e58249f20b",
+      "poster_sha256": "ad8a39a7e517457ebc40eeb1b3706197ac72d6f6009fc636b669b147113bb496"
+    },
+    "p-rewards-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "e428a8089256e59602d27f732c92ee9684b522ea39bfb94b8ff4820a3d8bd67f",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "9a8dc77a9aecd6e2415bceb4d2216353b1dd710f8c506eea1d4309a22cd25b48",
+      "poster_sha256": "d6d426e48fd71670e549364f3b681b9b8bf186bec5ecc14a455250312037dbfb"
+    },
+    "p-rewards-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "1fb30e8ffd7e55cd085c15adcbc88ebdb2eee3880b32b3ae842aee966c0c0cc1",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b26db9cd9d0a219814afda1117c60c452d3f9e8ca865932ea178f5b53e0907e3",
+      "poster_sha256": "0f9ca7c108ca42380a9dac74db181250e0ff9593da7c14f726163ea234707e01"
+    },
+    "p-rewards-device-03": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "1fb30e8ffd7e55cd085c15adcbc88ebdb2eee3880b32b3ae842aee966c0c0cc1",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b26db9cd9d0a219814afda1117c60c452d3f9e8ca865932ea178f5b53e0907e3",
+      "poster_sha256": "0f9ca7c108ca42380a9dac74db181250e0ff9593da7c14f726163ea234707e01"
+    },
+    "p-requests-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "d3038ea038469acdd6a423e77af06d6acb71b1f2773372e44bb16140aae39f97",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "d33017c31e7814b4108cf5d3ccda8dfffc3d25cf789e4eacef7b5ae7649eba6d",
+      "poster_sha256": "c7641c58160beefd56b52ad9cf5ad4d342408efdd4a77695215b3982327b3e96"
+    },
+    "p-requests-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "508762b585103b8c48cd0d56391a6448c756c1794414d640e31c24444f4783b9",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a69c14978a94ec395cedbcff2ec04924604c6f07d3ef2049272bf1d5273b46e9",
+      "poster_sha256": "a003a2534d578f015f3d7f21522c2dd7dd61fd2279f05607e48c325aefb86619"
+    },
+    "p-requests-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c529ce896c5d5bc31786dcbed120afa730822e9b691c22d85bb490d6ccfe84cc",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "9c7a3c9fadcfbc07d6bd1f413bb207e4426112634b3dea1ae0b741e5ed1b4da1",
+      "poster_sha256": "3578201e0258eab3695457e897fc7e822b3ec8564821327b294aee4f2a9453b9"
+    },
+    "p-requests-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "38602f9d3cfa54595c213353e829fece09fc3c894a5a82e127e8da80725c7e41",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a95bb08d952f04d9572fdfca76e9bda5340eb1b1de989b28223718a3969aab64",
+      "poster_sha256": "b5b64f9d32b91d862f386eb49871690f3ce7b4c474584d7b78557c4177596128"
+    },
+    "p-requests-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "90f23a3830798e2f8880b60bc8fd98927758286a4c73d735bfcf7b3adfcc20e5",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "054eb5c4dc7c7a89922d93ff41b0a691fa5b84755599ebd85d9219bd016ffbe6",
+      "poster_sha256": "1b441c1b1fd663709ac8e2ba1ff3ee9c49f150a9e779f24a8d7cb9e8be4a9fc5"
+    },
+    "p-requests-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:42.102786+00:00",
+      "image_sha256": "b1bfb96ab9281590049c592dba07d8f803ccdc3b1322d689e32e6883cf6b84a8",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "0f58c88a9e3a69e3c5d69042e147638d59515a108f3ad460e8ca71ed24322a34",
+      "poster_sha256": "acc322aaac5ea8124be6a8f6db3bb3fe8b8fa9d865fb4f5e1bfca3e3892d3924"
+    },
+    "p-requests-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:42.976670+00:00",
+      "image_sha256": "5b3bb04d2c02f69f28c6a30e790cea2d9613488e22439f0cc595385dde191b77",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "92b514f7355e26d742e2151b4263d9662e5e9edd4cb709a1742243583aa06139",
+      "poster_sha256": "682844dcf64bf7bc0178e7c1d3f6c8ddc9a30a6f4c0a663b5183e722e530ed9c"
+    },
+    "p-requests-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:43.143066+00:00",
+      "image_sha256": "732000197326d22a5b46d80e859e00a36dd7d3aeaf643efb4d42245560d6c56c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "95dbc908a9e0415b9151a972ed7b07e7fa8c07f5ec05a937dce6c7fd37489642",
+      "poster_sha256": "14a4b59be53900aa2bd746c1aa00fb39a4a6e5f8f820a47ba83cffa8c3c74a80"
+    },
+    "p-requests-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:43.337791+00:00",
+      "image_sha256": "2352f815a50a6273ccd7b9ed870f4d6cc57f3a87df87d49c33afb2bf67399746",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "87eddbd47cd911d30ea6dfd10b325f4bfd3434eb343987d249904b7285bb3426",
+      "poster_sha256": "3dce02ee89d0e6554165f8f72c3334b676c1fddb926eda798c1303bf96ca60b1"
+    },
+    "p-requests-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "61bcfcea064638d02c19795789f644f66abb238bb44e6b4b12224cc84b354f3b",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "01905ddeb42f74d5af41f72cf227045f2537d0bb24af6271c0a8681bcfc942a3",
+      "poster_sha256": "efb93e1b5b6e1366538710c17a724b8c97eef0273c7081dd68acbffb0cc373cc"
+    },
+    "p-requests-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "874938f205dfca130ac454aebfddc8a3676ad6e30ddbeb9f7246d32e7e247ed0",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "0897136b8a80112044853b165a4219db2ce9799c378c370664889de948d249cf",
+      "poster_sha256": "e37ec0af2dec69627213f4a4fe946bccef66846f64ac132d5988a0bb727b9d72"
+    },
+    "p-requests-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "c7a5bcababcb7eb542b3e359e803904598dd10a4c71b9319a17f71b97c16d6cd",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "bcd3af21ed2d5597667d3ca8ed7e75a19b91292e9ae60d8a45b0218a17144819",
+      "poster_sha256": "7ffa0def69c1fe833e1196db74d5389e37670b10a2b17c670aa017a1dfb7d842"
+    },
+    "p-requests-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "73612be2bf8e456fe5ba4b68a89eb395bc34f3d7793da1057a86e02bd7e40630",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "472555dc85bc23e0663178820fa64ac9eb970a0cd8024190a52b74b2f1d00ee3",
+      "poster_sha256": "8093e1eeea7cfda9d038dc5a8e9bd59d0750e68e6b209355f8dd3c8d95affd66"
+    },
+    "p-requests-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "50131c4e01d722f5ee222516238fbf7114007bbf3685c7f80c68994c5ffb3b72",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "8c9eb785d13ab4c2b13a45467d061fe887fd35a1a39873b29d5ad9b81a18ebcd",
+      "poster_sha256": "c4b9b4c736ef052e33fd9e5973b751841f57c2060e385959d72609e7fffbd10b"
+    },
+    "p-family-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "7ba04a3a0d348b5ad126d3151ddcd7036dadc623bed38531c0da637660bdf851",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "495f5f446dab8c9cd5732f11b6a821f9e47d7522486fbf02fafcebcf3a7a1f29",
+      "poster_sha256": "b209bd2752981eab57a3279d17209082c563d9e80635cd75e3e9599d062c0f04"
+    },
+    "p-family-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "2b791f7b04b3048bd88ab48186f499b46f75cd34b87071f9f3051b50ebe70322",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "574a8f15f7b1d665050a0e17617106242a7f1eb7c6e90231b5ffdf83b59f3313",
+      "poster_sha256": "b6a7337e442093c2fd35c358459bc685281bac11d3b1e7a5de513745222f4cdc"
+    },
+    "p-family-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:35.671755+00:00",
+      "image_sha256": "37e6b524bb8a3378053e8da7957d507dc6fbdc085808ef7b580ddd0dc8bf9709",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "759d86475b6fd1f54a28ad5e34c3852b597f00bf1520d8dcc6e80077d792705d",
+      "poster_sha256": "f2ee2c930d82a03ae39f1ba34305b24ef6cb6853017b541f4a7f6d953a819a0d"
+    },
+    "p-family-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:35.818109+00:00",
+      "image_sha256": "15700ebd8670787ff8e35b619b7950756a939cfeea58c5a7b2f718ceeed004e2",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "20ee55cbcc81d76523fd77f6c5a828fa91d45efe7da78236342dab548d35af44",
+      "poster_sha256": "a7a0540f74d8fb3a76c75844ae62c3fbdf083fe03b0e5e6d9d7664468d0c8b0a"
+    },
+    "p-family-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:35.970448+00:00",
+      "image_sha256": "713c1922ef3631d343e5514264f562ee4bfb2cc589ec791dfb027ca4b7537014",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b4dd0819bb8d9b431de0b17cedb1e172e66c2d7e269dd3062377df50b81e3f37",
+      "poster_sha256": "811c5ebae09a8072bca1bbf8f4a07c22fb919e840db9df5c42d379150ba9d66c"
+    },
+    "p-family-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:36.257485+00:00",
+      "image_sha256": "b509b7f88f0c5c789643a55d450e23d51a238b0f2dc3a5cb8560254b44398a6c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f18e0b6cd8c2401f6fa8499ccf6a91c2f9860cd3f11975560a06751505ee94d2",
+      "poster_sha256": "c18ff09b9574f880a2dda6e90b5014562d29d61f49b9b9b8fbed9b4e8e137744"
+    },
+    "p-family-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "e19711a0b3debc03f7993b1c83a8efc93c7e3eb4bd0713e099f7b3b436808499",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "715c4388cfce8fdbb73d797f980b9781efe238666a0d83a4c0aca4f271ef8863",
+      "poster_sha256": "c5a0171f32ea274c3f365c33fd7775045c5a511ee36f5d290b731ee2756e8743"
+    },
+    "p-family-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "2ff5b7ff37137df283ac2cb06f55015814fd73286db1476188f51b10811717a2",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "96ef8e5afa77586f9dac4631643b0d86c7cc37969a6532caac653164c788b7cb",
+      "poster_sha256": "4ade92d7e5d2b5a5a2779b024173a6718eba04505acaf02263d7ba94e8609407"
+    },
+    "p-family-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "e5666a21e3ebd58bbda2a16d8178046c5ecf8244704ef14dc0ffe63d0cd31224",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "fd579b88d8a4ac71036eca2fbbcd9c4f88a2411f9a478b8a9e756d89ddbca5df",
+      "poster_sha256": "ffdf251fe258d9703bfdd0645966ad197eb855fdb1a475bb90c2dbb6f107c035"
+    },
+    "p-family-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "a735c12d754eec3b1fcd33c74ed1f7dc1393531225658634b2dffa086e6f1940",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b5c54a44af1781ee2ad4bb65e3913c10b7a6cfc66c0b1f2b3b6e703d87b1b209",
+      "poster_sha256": "f7e606c554b21037c3e85f22f10bb33469245ecf8e967e121c5953ed0eddf0fe"
+    },
+    "p-assistant-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "dc1122cd98b9e1b036a44c66174c5885307f13230e1ee3cd25195c8c36bfa3b7",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "4ddde46214242132617afbae51162c7e156f76822b5b4b140b7a225b55c8563a",
+      "poster_sha256": "16277ed079f1a129b2b655409413500d8401a924311415164f82513cebdf4b31"
+    },
+    "p-assistant-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a994196924ca154458ae7e9beb13ac73f791e89361b90a2f866e7d324680a2c8",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "8bd44a89e8af8b6d849d98d4db77bf58a9b251f42f1332467eabaabe5f05779f",
+      "poster_sha256": "b694eee7ff6346d867c76dc758abceb2fbc8c4655a5f8c07a5a6160f1bd4ebc5"
+    },
+    "p-assistant-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:55.028634+00:00",
+      "image_sha256": "d0a326ced123bd6a45c13289bac91c37aa49249556c082b458ff10eb28dbc7e9",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5fd2ccabafea85a588b3623e8ce2664b901b965329943ce571c77dd76c538f3c",
+      "poster_sha256": "b5861212226ca7b13051cfa3fcf6b633da37ab964a8482308a5e5e4ade9eee2e"
+    },
+    "p-assistant-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:55.217915+00:00",
+      "image_sha256": "e12865603f29e62ec75ce7b1fb3143dd05c0ab71ea5173df88d0cf79cbbd4860",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "81c34aebc0528238fed2452ec88e7cca51c36fb92bea6195f62d6729afb7c302",
+      "poster_sha256": "e3b88388dd3221159a31428627e132701beb22587fe190af14e288cef30b3177"
+    },
+    "p-assistant-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:55.449739+00:00",
+      "image_sha256": "bbf83d2c7f9ce5a833e6816f15336213a17f5e6e20447fb61c3618766b738f2f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "a1a19e7f57de72658023656978ac9447ff58c133aefc5ff152f4d74d910dc959",
+      "poster_sha256": "59736eead2b6b4dd4ce312d585ef60abce5e69639e69db860b69bf3edb7d59dd"
+    },
+    "p-assistant-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:55.864520+00:00",
+      "image_sha256": "7badf968abd47612c245d0db1cde14983d47df75d4b332307fe3171d31007a99",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ab4e335743eedd88216922197ae8efb7da98512f242f824cb68931343663dfc9",
+      "poster_sha256": "6e347e8d09fe5803da4a322d84a569296443e68ea1c17b8557580f5f68f207a2"
+    },
+    "p-assistant-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:55.650747+00:00",
+      "image_sha256": "4c8cb7717f28416d15f01ae0d80e514132126fa05c6b862768cb40fe02a3cb25",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d12e0595c440b1ac67ec328294b4e2950a8a7e81cbe3b3d4f4c2e214f2bc3571",
+      "poster_sha256": "dbc61d7a715caabf15fa0713c4dcbdc903614c3be4b22bf6f73fd6530bf91ffb"
+    },
+    "p-assistant-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "eff42e3dfb5b4ef1f408d4e9dcf62e7b6d7154cf28b997af98cb3eaa528c648e",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "d3d8eed8b3ab9fdf2f02163e2456aade25f48b234f77cc30d652b9dbb9a004e8",
+      "poster_sha256": "1059a87e6516b17c293c61e0d84ea055560e2e2b68e7126c9caaca09136ddf60"
+    },
+    "p-assistant-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "a0426ef3026a03919c35bca38376eb1cf164a13f07365f190d6435a78eccda68",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "0dc35c0c9f0ac54426f9a571a9348b4eec911ed89606505654d65ebad3bf89f7",
+      "poster_sha256": "aa3ce8a8bf885c214c07c69c2aec171c57c52041601ab7ce4fbc54141575c131"
+    },
+    "p-assistant-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "43e1c3cf2a6f3ad6d038fd85f42a6a5678911752ba19cf1606484debafa6c912",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "15edaafef4d79266e8d0b97cbfbde86e17b0d19cca6a5d9e2019b3354996975b",
+      "poster_sha256": "6b862afcedd49a59b6e5d216a57c1e9479a6cc57eda323730a97e164b6929874"
+    },
+    "p-chat-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:02.445713+00:00",
+      "image_sha256": "a6b583f51edbe97f3a27fe64c00cf2c52b58b2dc30bac8d90de11b1832b6ee99",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "33fe30eea692d06d72b1a71a42f06e3660406216c99c9d87ed5b96dfc270e263",
+      "poster_sha256": "5e3bd2fee4b4804e2c7e0700daf4f7b43bf12ecb09c358f8221deefff3be8dc6"
+    },
+    "p-chat-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:02.671366+00:00",
+      "image_sha256": "61953115c65d7fe90eddb7bbed62eac41d0b5cb1965a5fd874b43cbd3131449f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9ca691632f7d93be519f395eadf60045a3149c6084643fdb6bdada36bd9a794e",
+      "poster_sha256": "07ecf6d047e30a364745a726457a2b0bc5301e4d7b83a9bd2dd13cdb01524ff3"
+    },
+    "p-chat-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:02.853573+00:00",
+      "image_sha256": "2f53c31ff902b19d4612899f6f30d6ada7c7f346c8a7f1942bb9c2d19b3b791e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e9d6a55c5fbc3fbe21bbf6b4f14185b5496f2e6dd053aabcca6dc04e69a91039",
+      "poster_sha256": "d2e880e15529f724c9727d73c95d798a3771a02ab25feff70cabb4727147d0f0"
+    },
+    "p-chat-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "78b9889714874a2e3b535be9343ed0a8cb67563ed4191ee0034576f201a4e608",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "87a60f5c3415248493901c1c0cf74bb0fedca3c004239148b4c731ec4536ccb0",
+      "poster_sha256": "efd15f8df82aa295ad824d47a430859eedb556aaa3cfff842fb3505fa38214d0"
+    },
+    "p-chat-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "a2b8b28a07fbd4da5171f8543ea17c33b176b12550cd83d2ac9444f433ab042d",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "0c8e60d6536d4bcadeaa00c126471df90cae3ac9454f476dc03327abeec40bea",
+      "poster_sha256": "657c974835ec0f0e6e3f2fdf61f087d26503d4ad0befb89f071c8fda95279c72"
+    },
+    "p-chat-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "e4a84453fa5c0134df970386a52ec1ceece2b420f64b43d1af23dede5b77456d",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "7c3275be04a1eb3c74bbd215c6fb2a86cb0d42b1384f91c7b5fff386d1954478",
+      "poster_sha256": "9f0d26a82661fff8cd803101ecd91bcaef7f6589819a6c83541be04efe657349"
+    },
+    "p-feed-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:56.924368+00:00",
+      "image_sha256": "2227954a9575af3ccdc762e66658660f3a80325883f08feba841d2a9276911f0",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d3121461d05d3af8f2984eb3f9db8ef1d9501a4de86ce2895ec4ea64141c4292",
+      "poster_sha256": "dc60e1217e3b0bd5ffbbe494b3cfed375d0aa6b531febbb8f46b1aace972b015"
+    },
+    "p-feed-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "4bef97129feb1512b5df446fa8f4a9cba24c5d093a2335e0f36ea685c42986f9",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "1e1669dcbff0a29bdc73d5c1b45420567f36ac6b6f0395fa6b6b964e6d7aad1f",
+      "poster_sha256": "2e4ab00a4b7c5e18b1f20c42c9e5a45197e68f847572f219484dfa8cd5042b0e"
+    },
+    "p-feed-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "c337cddb0319705343cc676288374700f3036d0df52d30403df46a52036441bc",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "bd02f89f6b15a57a29389b5aa377f05526c1951df9bd59792e54182098f2f3a4",
+      "poster_sha256": "74d494cb9f1d6d829a8d32d0168a591c457678cb501b29ce9a2940da6d937931"
+    },
+    "p-profile-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e8eb7e89f54078aea8a0813fcc5a38200d4b05ee1d507a1fa44e227f01d7ce94",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "302c0b9092aed99c58fcb89cdfb46a92cd16266a131ad30c70c2090bdd959da1",
+      "poster_sha256": "7d9664eae8411db785819a04c165d281ed8e37a86fe153b682d3e824a2a81793"
+    },
+    "p-profile-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "1c73d389d9ae629b84655f09efda88ee0d991a0c882d63adb7e3edad2950fa24",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "1b82ca0e36a96e1b41881d4450d562fc327a9e696a7087a6db06e8f89801c5d5",
+      "poster_sha256": "1128283ffdb468a546471181759749448bc9c88139ad2f4300d26a2858ecfb36"
+    },
+    "p-profile-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "6d201e22a45459269aa3d11f27751315abb42a3da2f2e223cf6d8544c0cebd91",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "ea6e96595b4b6afa46e77a69fb12f4ac0c3f068343ac41d499eca4bfb2e5699f",
+      "poster_sha256": "cf67a09dd8b908bdea5964516eddaeb0b4ed9614f9ad6642f3eeffcfda79bc81"
+    },
+    "p-profile-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "caea962fe065ce4b2ad5c170d1a8bce49d0484b7e79cb93890a3ef9ed906abb2",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "2acc9d2b9b718c43223689a2749ea02507558ea3fca78fcf8dffd1a256c9ecf6",
+      "poster_sha256": "6953ed6d63bedd085576744aebdc6ba62c4a8d7fab56fc7223230b1e0047b55a"
+    },
+    "p-profile-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c89a4d6a73e8381a6abae5148eccfc6bd81fd329705a6d4035f4cec32a9e4182",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "e02f552cbdd178f8ec6b90959077523e325bce5a11b7dbec5fe5989e0d3c0ac3",
+      "poster_sha256": "8f4cc6aa571fabc3d22fe73f14733a4fb33d16ff44e885586b855a6a4c2dc36b"
+    },
+    "p-profile-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:57.838561+00:00",
+      "image_sha256": "502060767bd04aed6877e84b27435f254074d7e4e69a44cfb09571c4d9174ad8",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "8e107494dcafca1a780337e9bca0dba62126647b9e78198a46bf753dd1df5059",
+      "poster_sha256": "f990e556822f3fa4a257841cb260df8c5623da7f88aafd8d1c3db8d432956065"
+    },
+    "p-profile-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:58.088956+00:00",
+      "image_sha256": "7ff22f79f952e47aaff7602ded22db7ca0c3d182eb992aafb5507624d2aebd68",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "732714af2128ca14f927a34c771c33b695ccd93dd685e363c3736600c0fa7a17",
+      "poster_sha256": "c2e2e854b2c88fd99f2d80c1d01b3cf2240009660b3adbc73a3a55908b696232"
+    },
+    "p-profile-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:58.195352+00:00",
+      "image_sha256": "e085436287b5d10a971bbc6b17c7cc764d4234b7070287d19ea1a6d0c435e18d",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "fbeb3ce5e3f2617f6c5ea6a7c593e86fd302bfa3093dca33d438097702a6f95c",
+      "poster_sha256": "3501b6ae615bb9775ecf0eec1475af80b436c2c0da77040dcf83c1abcdd7baf1"
+    },
+    "p-profile-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:58.609575+00:00",
+      "image_sha256": "809035a0e1ed184ac964cfbd59970e3714d948c8a725d212f11795511f9616ca",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5e778e4c966c741e9feb55e37ca246a09d4faf8e998782d39e27a37c22ae25b9",
+      "poster_sha256": "70f645166a469b8e4814de3696142ed8a0726714022b6f6546f5305373f579dd"
+    },
+    "p-profile-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:43:58.457309+00:00",
+      "image_sha256": "cd1978ccc5c27fcab3de6d88389abd33a739264710fad9b6c6c03b3efa8d7ab4",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "440c250af1976bec5d39c87026dc1723ce7e46914e67d06ef04d78de58bab458",
+      "poster_sha256": "102067c8852aca0bd10178f47073abe304269147f139f998703f5fc3e90a71b2"
+    },
+    "p-profile-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "36bd1cdfdaec4254a349ca55e9b4bd8b78ca97020f6cdac3b206fa21d3eb18ee",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "c1e960edd2f3c95fde553548a837db80ae14026d9c0b407746f837460eb9ab28",
+      "poster_sha256": "b9d2122d2ed46b2a5105179f79df64b9aec87a303eb48b849530950991170653"
+    },
+    "p-profile-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "79d6a5b368acc650bf1fad78a7ccee143dfe9ac834367af3c4e89067cd95bcbf",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "39854b349f9bca5591dd05c8b794dfd6996e3837c0821bcfbd84407d687ed3e2",
+      "poster_sha256": "e80ca3630e04bb13a8000c6e46a75ea2af157ca1d9f32e2f9d6546f5b44cac89"
+    },
+    "p-profile-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "4dee13822233473ae13584066a07815a2cde5f3756a063d5f77c849a7b2599f9",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "8c103ab7d138da90223ec232ee3d8b32582628d3ea72955081af1d24e8a3f955",
+      "poster_sha256": "f505a88a2ec5d228221fd45663569dd3a19b188450c3a8d877498611c0021d40"
+    },
+    "p-profile-device-01": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "bb869b5b745be2b65db42bd7b9e7c6baa9c51d787ff37ec29a38ef7870962abf",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "b0cf68f9085a9297887b1e51c02145bea7be295216afa69415f78c628cdcaf80",
+      "poster_sha256": "5e763ead18188dcc1656680589bcd7186deeb29e46096e466e4d65aa93061140"
+    },
+    "p-profile-device-02": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "0a45fd786f98525177bd3b634050e4935992359f78c7b352db8dd98bcfad3e23",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "d4dbce9f70f8e44b0a5ab04cb5ee2338a77bf4932c4f78c20955ca2ae6942809",
+      "poster_sha256": "4f6d1599171f31af7de63d4cef7a252dac88480c049c120548a6f31122bcb16f"
+    },
+    "p-paywall-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "8801ac0d7d4cf27ffdfddcc16a52df1d1b581373fe6707153960be41d7930496",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a70c7881cfff9fe134de2f5d375256c0fe705e848dd8d1929c318f5d6a4e0895",
+      "poster_sha256": "18d1f633279b16fe15d301e26aeeba5e1b5afea2dde429f3288aa4234ee89f06"
+    },
+    "p-paywall-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.204643+00:00",
+      "image_sha256": "85a8274e6f1da99beec23232784b3cdf3e3496a35110c7865c2462706dbe9678",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "32722732ee53372f484154ae6a712016659bd5cb96a08fae1c4fe658a33f723d",
+      "poster_sha256": "f9f486644d12b6791b79f470b08f434b7e2bd1387e6c176351340935e6179919"
+    },
+    "p-paywall-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.346209+00:00",
+      "image_sha256": "2981a2b4c75738ce9152fd083a7af2040755e317585f91c4461677c092045950",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "631b707f7ba07bc65b16049fbf8290582c286b9004cd6da0c6ec01b2a57f016f",
+      "poster_sha256": "408e7a42444b95a787fc5411bbe0d392f680f0ff24a998e9d2918d29b4942b66"
+    },
+    "p-paywall-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.626390+00:00",
+      "image_sha256": "d168255b38d79816566f6302a0df75b157785ac8c22bad889fb00315d206de59",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4cb898f8ac412a24c507c701c346f3397337b4705a37d4aa74d52654e5c079ef",
+      "poster_sha256": "01e794b40713cd4c72bd96020fb59ffc10f3dea465e23c31316ae9623b32964f"
+    },
+    "p-paywall-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.761422+00:00",
+      "image_sha256": "80bf8badceeeea20c7175d390b2a754fa6a5b47d6fb45bd6cada552d0604bf2e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9f3be078b6cb58f798a5b494e9c3ab83643dd69d5a34aa5d8f133be57c029665",
+      "poster_sha256": "3a27a0568a0012fc0a0c774676e4771452a84faa1d2cd5c81b29ce57d73da886"
+    },
+    "p-paywall-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.486553+00:00",
+      "image_sha256": "1d31c4d0559ae93fae78af79d778e17e991338349c2b5c593b045388c1d76172",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "77a8602ee57cff828cb3ea35d18104dd396c84c7286414a67953b3e422c59a91",
+      "poster_sha256": "41008254c273e74bdf7f78d10d4214a2fc4be4b8d406d0ae36e009909faea550"
+    },
+    "p-paywall-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:54.003749+00:00",
+      "image_sha256": "dcfa2d17c355601e9f6af4a795feac779576e320c03910eeb15bbd4eb9a723aa",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "0b8e6e6a3f41688dd22c8952260bb75c9aab4923905a24ce4dad0c999af99a51",
+      "poster_sha256": "93257808d2d4006838c9c17be86cea8d669b68c8b05b6dc6fa69c9f622bda162"
+    },
+    "p-paywall-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:48:51.531419+00:00",
+      "image_sha256": "f4e3e29919e4d91f962cc73c0d5e1b6208723b39405fbec662362e1a3b378a2b",
+      "note": "Текущий экран OYNA: загрузка или ошибка оплаты. WebView заменён тестовой заглушкой; банковская страница и сама оплата не проверялись.",
+      "thumbnail_sha256": "09b23ba284f438ff258187f446756ba98d06179b3a67cc524b07f6b8c0d72416",
+      "poster_sha256": "e3f7a5214d1d32bf8fd92e12766d60a0c6bbc58d0925ed8fd9f988c3aa64a1fe"
+    },
+    "p-paywall-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:48:51.632538+00:00",
+      "image_sha256": "c5f47610b1a6e32036ca13e38c70dd8cd63e8d3d6bb756715d0bdbeab3d4df7d",
+      "note": "Текущий экран OYNA: загрузка или ошибка оплаты. WebView заменён тестовой заглушкой; банковская страница и сама оплата не проверялись.",
+      "thumbnail_sha256": "a6430cec7ecfee7bade2df303cfcfbf061c0218478c60a75d082b8164d8d8eec",
+      "poster_sha256": "898feb6e61639402045e0b52e1f4af7293937b5a85165bb388bdfb8470e4336c"
+    },
+    "p-paywall-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "adfb72e232424f90364af0d93d7123f09d739af0746f803a8a50565bb5d72fc1",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "a9100032b8bacaa779994c575b226d7ad6ddce64537ad44de2ad90ea15254ec6",
+      "poster_sha256": "a7136a250e38eb50b5300a0509b5b77ba9c296d143119bb8f2b16b72fe4ea119"
+    },
+    "p-paywall-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "ff5dc86fe3dcedb963bdba3148cac81e19f5fbe378cc3c6a2cbc538e1160f43d",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "013338770e27716426e4e6e549201765cd35eea314f159f4c91a4e4513769c52",
+      "poster_sha256": "b5bb49a3b566f321840142067cae2df9ae1db99934fa69de0d976757e61342e8"
+    },
+    "p-paywall-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "6f744d242c31f006256b3702806c10d55deec268bf52c6acc9d9d9403fe6c114",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "4f327a35078d357ea76fe3eb761e21ae72b23a2545c52c795bf25273663d6852",
+      "poster_sha256": "0d95f832a051e7ebd955acb19096d4fef4c9407d65b508c92b6a34813232b870"
+    },
+    "p-paywall-motion-03": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "4421efe046e4fd1384528e17a5636ec5a7c6cd60b07e993d6623eed367a6dace",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "eea3fa4513e81e46be46b010a98ce4a3a9f121d42572bac68868dae16cd06a46",
+      "poster_sha256": "63f04ff1350709bde7de21684c44d42c3928ee4ce8d95596a073d1c55a42f8cf"
+    },
+    "p-paywall-device-00": {
+      "kind": "historical_runtime",
+      "captured_at": null,
+      "image_sha256": "d2bd118ba8b25138439c8493e69e9a27c558953c1ef8f6bfca181e7300f298e7",
+      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
+      "thumbnail_sha256": "4356bd40576121c942c857a729d24c57538a14ed5402ed3786e97065498bea4b",
+      "poster_sha256": "567944fc5fddb893736b0dd7300ce8ddca778e77aeb97bbed644df791b3f45fe"
+    },
+    "p-analytics-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "14709d17421c2051f7bdb8e1e8d317f3aa8b662da7b3b509b74051fc478eed91",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "32d30c408532d047223250f41007495f47d85450bb91193d6bc07609d89c9b1c",
+      "poster_sha256": "631db68125b6e26166353f17f0acf82e6732c55ad87d9a47cb911286cf0ec04b"
+    },
+    "p-analytics-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e0ef588e46984857daa2d0a2f2475ca52b5d64d5b0b164045543246cf9432126",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "b5fb6907659fabde6c859a3408ff05f511eb96d5b3e04e8892b0d223e1aa2dbe",
+      "poster_sha256": "f4caeb0c2ae0b0ba4516c2e9fa239a7b7d3a1141fd474408d04b4c03e85c42ee"
+    },
+    "p-analytics-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:00.374049+00:00",
+      "image_sha256": "24c71684124bf704148e8d585ab2ad0cd321589808dc85b40cb8f7b55f954c2a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "79da1c9bfe5caeb1acb890a416b4d7bfe31da0b590cc46aa6f2466b2b96fa980",
+      "poster_sha256": "d1676ff4dba68fc819b5a2d4371b45f4d729c1cd702c0af7fb8b961a891d7479"
+    },
+    "p-health-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "7775f5af3a1290a20ab7220d0ebe5335b2c1d629addebe7668b199d12720af0b",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "95bc8cbe321a2c9a32cc65ed7158e2e58372046835a6aa491bc93ae50f23b241",
+      "poster_sha256": "47ada9b43aaeabc2a97b7ea3976270fe4246bd02a0640c4415415f55462da750"
+    },
+    "p-health-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a5a85ffc9ded35fe2dd55458d4b51f5091f2c2bce5ec3c8565b28393ff7e9e64",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "507b6ffbf48b1f299848963c619b1c558ec09e5fe432497da268a51a26feb6c5",
+      "poster_sha256": "7277d89dacef7261160e5f77691757ff29e6b496f10fd93264d09496a9f6c643"
+    },
+    "p-health-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "e499226c7fa1fe2d39aea6ce038bbd8f4df3d1ebfcbafed2e69b20117c4d3ee9",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "dbdbef7b265b874b866cb9b856cc5c29a13987e5403ebdeb6f02f4384bc15e25",
+      "poster_sha256": "772109f0a4c98f441dd2024da3bc7d895fbaf9e22792b556ee0c9820ac954d31"
+    },
+    "c-onboarding-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "62028a37f69ba1ac00f669cbf0620256d8abba5dd14d3704fa1ce1a39f7452f0",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "47a096cdfed20aee1fac6bd8d47b5e91ece82acd71ec273d1ba092eaafb0d365",
+      "poster_sha256": "5c54e0683b27e0434e6bad98e8c8e10f4d31f3f11b7c39932b54df8107907035"
+    },
+    "c-onboarding-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "df072cdd97e2b6e2dbb669770771242ddd7b373b5bec99b0e1b6d74817b825b4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "72475eeb46ff748b57285266bae43915de8b18955297eb9d175bc0a8e44bd5ef",
+      "poster_sha256": "88474d830f4be8d3838893f13a8fa17b50a671c4ef15a1e1d3c21c4a35c4fa51"
+    },
+    "c-onboarding-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c9536b9ea2f838678f58e848dbded9c3b6868cfb136641ddb93f18098a9038d4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "851e9eb2a19597aebd35ea78924f9977ee1b9e4cfcb43b6722389f1779b88903",
+      "poster_sha256": "5f7571b6291a0b468ec8ded4e919a844c264dc43327611b406a66cd390a63623"
+    },
+    "c-onboarding-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "22f0ccbe4c24939eab0bcf2a4667448117691ab112dfc070c0aed0268a79d09f",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "874da36b586d904f9776235b386ce039b6ceccadedbc604c93d7680f36f2d089",
+      "poster_sha256": "3ffff9e95f838c1e5c98269cd2383312dd30cba9b932f6ee56765eb7eaab2500"
+    },
+    "c-onboarding-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "47f32983775026e9c8a042856e617d91f1cb46f3e92cc8613282502a36f24570",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "bc5412c9ab1365688cc59a2c20be91fd85ece9be172a7aec34fd9ad3c75b4bf1",
+      "poster_sha256": "488c16826a6db707fe885e8946dc474623ef7e5215d70bcd0fde699156a8d990"
+    },
+    "c-onboarding-figma-05": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "1a9d5c461904474706885af2a75102dfb6c4d4d4e50f21525368e7900649d997",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "6917218ed43003c2f56e23bc877a31640115faf08e1c1b8f3df0d261e8a15e24",
+      "poster_sha256": "02b48ad68eeb98484bed771960407832dcf78b0b79aeedd941ec4b0dacf69267"
+    },
+    "c-onboarding-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:30.523208+00:00",
+      "image_sha256": "b312615ddafcaee6512dc0847aafbccd016ec842a8a76b08441098598ae5ef65",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "a0056104991a6a5d90e918f58281b11e9ad2f51885f080be973acfc742252942",
+      "poster_sha256": "6adc7bae3530a35b3156dd24e832feab643202cd368e912a1ede09158b8a741d"
+    },
+    "c-onboarding-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:30.648966+00:00",
+      "image_sha256": "7f68b0cc09c70c5ccbe76cfb254c1e5e5068e39fa8b24ffe4da36db2b69d9c9f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "0538bb376ba936b0eeedc315225364f6fe6de9cce13049a9243470ef55cbcb26",
+      "poster_sha256": "d3dc914fcb80d27bc29ca7406d830238d98219c3da7a5170a4c40963be3c66a5"
+    },
+    "c-onboarding-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:27.208427+00:00",
+      "image_sha256": "6b46e9026240bbe68da2d6b99826017c676c64d1248120f8b2188283bdbaf796",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3a6346ae0d9d4a2e4937b2d05b2ef07607aef51025380b4f1b386070b69f7082",
+      "poster_sha256": "cd4485fa2de03a889bca7e334d6e716f5a98336506b05bca21af929eb9a0117a"
+    },
+    "c-onboarding-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:27.160239+00:00",
+      "image_sha256": "db06b1be3f9b93f0fd431beb3b933c8940e0503e8ea6d448af9f5419cc9c6d51",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f6a5ef594f192616ad609a01b75299392a89b2187b430e809a205de5436eb108",
+      "poster_sha256": "2d2fd8c3104bfab65a5cb002649f531adf084a638c8db960f29b841c6989b399"
+    },
+    "c-onboarding-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:27.173748+00:00",
+      "image_sha256": "b2c993904018bfdbbbd7aa13cd891ae8ec802877db76afe893069eaf2d0f3bbb",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f1f1c590a2695919edb55c2724add15860afab571d2982e30fbdb3109b01483f",
+      "poster_sha256": "0b170ebea74a7d9b977dd37d14b61b5a2648d45730cfc1d1b484b9d693c9151d"
+    },
+    "c-onboarding-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:30.739713+00:00",
+      "image_sha256": "5f591b868fdc0a65cf598be73c349ddefdeec6229242bbb44f3f36f2c28b1951",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b9358299aff929194abbb141efd0ffeb2e596365dff7c6953aa6d0bbc134c69e",
+      "poster_sha256": "a2a0c60d2e1f60b4ee8ba8abded2d1e63afd6a2d743848456a6a333c77f368d1"
+    },
+    "c-onboarding-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:31.363195+00:00",
+      "image_sha256": "a8238e32a9f484379ce8ab9e3ea1e15233cbb7988de567b4b84b8c8669eee818",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f68fccfe6e6037070f71df3160122e47ffff8f6702be78489795c1bd86ecea38",
+      "poster_sha256": "9b61110b2d7dacb5c6172a33f64b70eba40f61b542b65cfe4cd896f62219f9be"
+    },
+    "c-onboarding-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "118b5bda17e9d29fa7158675af5b100e9ad20369cbf056a9adbf973e8e65be39",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "759b650606d6b6db6b309d0c08b1a4791d6479179a30c4758c07b0caff3e9977",
+      "poster_sha256": "e44bd3cb7b0aa1da42f54befc774f9256bb1a685ad4b759dc0bdbfacdeafba3c"
+    },
+    "c-onboarding-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "52cf45f01d1bf2188e73166c94b1fc726b1cc9e2430bdc0f28ced89b8ee3da2f",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "03f472180686de8adbf0accb82d2789154a8ae45445a48c4c8778fe6fffb6a89",
+      "poster_sha256": "2eb6da5d1684943494e0dafd77df59d68373f7a420fbd8c79e7be689130bd16f"
+    },
+    "c-home-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "9ab5996ee68ea1188fe3bce8032fc6d0c449b4278197e91736e4534d33fdcf63",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "2bfdb6370cd0e6fcae91575426d4fb093ac4c22f03f56e0d7c73976fb41c027c",
+      "poster_sha256": "794758e9d57ddd2450a8c37e8b517e9da640c1905614aaa9c863c4bb2d6efece"
+    },
+    "c-home-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.160223+00:00",
+      "image_sha256": "a53aca8488c6cf87605df8609f62f8165f05c35fa2ffb5bae2d2c8e3fbd951ea",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d6507ffe284febb7517a564f6ed6d606d71f722c5c2d4ea56c3a75e6f72e7ea2",
+      "poster_sha256": "c14888839a3d1d82cbe9a163ca3ae5ff375a8b3b860b3a3aa5d9d0384ccbded2"
+    },
+    "c-home-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.775056+00:00",
+      "image_sha256": "20cd30940188f479489fcd64fe74617fd97fbc304cac0d2c8ecdf8974fd7c0e3",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "118dc99f58f3d98d0d25be31b3a05d9b1d16636b9c5c429d2e156d00e5981316",
+      "poster_sha256": "f624b1b9e99d3872b78b4630a46a2f4574662e570af3db2fc1caedcb869cc6a0"
+    },
+    "c-home-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:46.366479+00:00",
+      "image_sha256": "73ddb5e94b60e211079dd2c0345f05644eda5fedd6d94ab4da3106e3e703ea44",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "49897b67ad233f72cdd600e27ba9503c609a24e4be7b9e5ef01099a6f3ae3b94",
+      "poster_sha256": "07349cf0fab65d43517fecc071588a65853834becef1cfb1f32ea33a99c34d58"
+    },
+    "c-home-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:46.478329+00:00",
+      "image_sha256": "a703fa0ac5426f7ea2145d1824b682baf616bdac6d0f193c45bc46f54ff3e492",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "fbb14dded513d1166b0a4b4d604c825b7f46e5f5d1bc861e80d942f36abb8878",
+      "poster_sha256": "47d6f1a814f430e09d9c0d344ac00f43a27db4973ef398613462e8988beaf936"
+    },
+    "c-home-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.237343+00:00",
+      "image_sha256": "02fa591f69265deccf620c56d246615cba5187abeeadbf2ee19f24fefd73537a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f0b046647719c05aa7ae7760ca7fd3ec6458548c8c2bee81d1c98fd7a9d8ee18",
+      "poster_sha256": "13a33a5f825e1cd6b0dca3f5b21798ceaae597a7a2ac0e482ba4f6b6d6d698cb"
+    },
+    "c-home-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.474272+00:00",
+      "image_sha256": "d717b8e7878c45a97d79581e9eeb5651b2c6b04ceae8de540f2eaed1b4d59cfd",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "92898c2051a9992f3ef3024907656cb2fb2479f3d2a08b53a5c1cc14b08857e3",
+      "poster_sha256": "c5aff8bac099bc89343e3f952b3323546580aa48806062b39324807a5ec12c76"
+    },
+    "c-home-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.323085+00:00",
+      "image_sha256": "0b1f07b924145dfe4e2864c69a97d62c3c8a5fa4276d411fbfc5d3847e3b640e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "1410ea12539e59470b0b59702d1a428f0fc5537737132f6e041dfa652b787b48",
+      "poster_sha256": "efde77572ff983cc93cbb8a09d14c7e1f5709b8461ed89555b931229b54fe43b"
+    },
+    "c-home-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.399148+00:00",
+      "image_sha256": "a16ee627006621c57af9a2df37d4c2e8dc09d2acb00076ba50acdc36ef2ade85",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b9e476794f3ff07d55139a61795464ec3be9309b04cb38b3c4fb7e79fa0d6c3a",
+      "poster_sha256": "67799a66b96e8e0bc6df579fb898e88951a629b985f78646eb7e999509acaf4d"
+    },
+    "c-home-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.849223+00:00",
+      "image_sha256": "8e644ebf43f0ef62f270163641d4044edd0769ca49fa7ffab93ef2f1966d8d69",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "2b4736181a8a6b318b619fd2a389955a27bb0ec306c35f860c67733e85110d6f",
+      "poster_sha256": "cd1849189449c42a74523d64ee1f5a02749c1767dfa687692da871cf0987b6fb"
+    },
+    "c-home-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:46.081065+00:00",
+      "image_sha256": "463eb8047f11f9c73aa6a78e88250601dcc52bfb37e0c19afb31ed914a197dda",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6de9205c33e617c55728f33154b38ae06be21b86788c1c3f449833a9d2485e11",
+      "poster_sha256": "dbaf94582383226b594f066ae8611443c8940b4cee421da5f21d16ed2412f3e7"
+    },
+    "c-home-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:45.929011+00:00",
+      "image_sha256": "9981b54be458ba9dc91c33cd72354cb72ea9e7cce5de155618dd62af958a2795",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ae9a212a7aa87903d1d0d64416725d9d1fc2f5551150106bddae51745118f5af",
+      "poster_sha256": "f52e5046f138449e37da821463fae1ab41055cbfb4cc546a9d5dfaf89b33efdf"
+    },
+    "c-home-app-11": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:46.005431+00:00",
+      "image_sha256": "da8b6051d2a1dec51127b259d128a16c8b4252c285806ce291159940a6e5bd96",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3167692c08719dcfc0e3bf089d2010841919a37134dbc111ec095f70018ba856",
+      "poster_sha256": "608542a2154936c471b61955ab45eb817bb7e8af5e4915baef686d81aa293bb0"
+    },
+    "c-home-app-12": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:47.935359+00:00",
+      "image_sha256": "a5961a3b0c2e83a0d1aa23ea1492c4e82c3ea7124972bc656b0c632ec5ddd4c7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5667a64dbfae84be8cc8372578fa3e9361dac9a1cbf3d1866bc4ecdf9729610e",
+      "poster_sha256": "16507095dba1c980e46c03ef7ffc7850a878b400390b351a26cbe0d590977d96"
+    },
+    "c-home-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "53876226635b126ea2cadcfe1384a9d3789d6623fcac1c242c387275b51d38bd",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "abd59e96e88cafe19a1ee9c2240d47201002099064bc72465033828829c4c8f8",
+      "poster_sha256": "99fccff02746f1fadc72f1dcb4f0cb8d7b3ce8b042b7fba34e0796d08016d299"
+    },
+    "c-home-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "66f6c16040e549e42cac0b65ddf703ec6970bb4fbc18c5661a5ec416ce4dbc27",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "1046e4843f5176c334cebcb429efb7e6ba1383fc3c8a38f4e87724c656e15ba4",
+      "poster_sha256": "0096de2a1658d0c84e312794b00c6dfe68d1972c896c2d88f6708763f492e4f5"
+    },
+    "c-home-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "eab0b36de5f2630ce7313810667c815d6b11eae6c68d30c870926bf82e8879ae",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "0d803e204f004befc1c6cd500c6884717382b159fe9479a5e623f7a55a16e737",
+      "poster_sha256": "ba1c3952977634e6a8b4cce3d829ed94e020f2cac64726819a1c77349ebee92f"
+    },
+    "c-home-motion-03": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "bb0877638bf7bdf2046e50a3c3d25feb32e473a04cebf8b321a3178b4a6b3ef7",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "c31cdacf98fbb51fd340e77ea857d68718a6be5822603c1d4b45790aad67cad7",
+      "poster_sha256": "2220147bdae3104a4c70291cf7e5b69a14094873be18884daf3fed5f30a6602c"
+    },
+    "c-tasks-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "1aec0227e8ade28daacdc9c570a7d8bcb63a01d611a1bb9610a4364b5d926ca0",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "416fdc0df650cda5c4859d72f3bb8ea4f6ea7e000802bfa8a853f154123c3b34",
+      "poster_sha256": "b37a19a04f378b35c554a23af69eff9453c8fa93d05b18d07393c2c0f2f3f9ce"
+    },
+    "c-tasks-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b6326c1383f47ac1979d9574ea436799466d2009db34353f24721adc8facf4ce",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "bd5537fea5a3937ec318d49ad174d833b96d9259a0b0377626e4723302ed4060",
+      "poster_sha256": "138fd76b2050cef61a617b7c0b3413eedb9750c59dce19a148be4202d578c5f4"
+    },
+    "c-tasks-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b9b3021616d32eec9f05220a02a9572f9e7b8c31b1239c92e839307b67885494",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "9b3eb95e94217e61fec9a84bad4287c44cd10676938d8d9f8f6ccc648a34e724",
+      "poster_sha256": "a9a53527ede3b26170a704da65a8f2577e8427806a8b9e4d3da061f684e3eb9f"
+    },
+    "c-tasks-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "cedecff74e389b7facf2f2b7d2440bf42a49a4f089d987f92c4aa13aa66d5d69",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "b66eac45e759f7b95a36903abe113d0ffd7dd2ff3b18c6b382f71ba99ca8c90e",
+      "poster_sha256": "f1d2473108fc04ac0add9f51a27f8cd349edb8ca25e6d424891b1e92e0bf8380"
+    },
+    "c-tasks-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "be26807e9073b5fbd44d9ab25b959f0ce525a4a3a91ef5e91552fb23d4d9346c",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "455fa86d328c554393dcd5808248a31a8e518560c3f9505216b459051a24d77f",
+      "poster_sha256": "b2c1cae3e7f7d7148bcbdb7dbd2ba6af2db8e8c4a709edc1cbc9fd1c1fd88ffb"
+    },
+    "c-tasks-figma-05": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "97acbb34ef3dc7dbdbdf5be802be6684a89bfeafde092f1a11f3e6c3926ea0b5",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "80c837e3d93e2477469cf9d2686b64bbfd6ce0891372d3ac78f38343f690278a",
+      "poster_sha256": "a11f432e8c378e271782e1b90977e5f3e0f7a8eaa2ecce7ea9f3a03d7e33b21e"
+    },
+    "c-tasks-figma-06": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "48319aadeb10de527f344af09a87f4661430791dfeb87616a0806dc72718cb39",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "23ace327545c065e13f3e7fcc039301cd5906d93c7ca315a43404dfcaab8ba3d",
+      "poster_sha256": "589086d1fb9fbc8d997bc8a6ace5bbc26eca446e058afd21447500586129ce00"
+    },
+    "c-tasks-figma-07": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "7d45fe7797d0843ab90256ebedeafb9620e32bebd4ff87ad87a518fd1cb69ae3",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "ecc67a22afa30465367ab8c504a5d554a858d3254d8d35c023d4e98255425cc3",
+      "poster_sha256": "5d6adb4a84ad53a6a2ff52030f4139173718ae32c5c5ae77bf33589ceed167fb"
+    },
+    "c-tasks-figma-08": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a693e7e387e32697ecfa255e11fcaa2fd367df223fb93a1789d1470291620ce3",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "38fa5db079db33af9d53871e21963924d2d17bf256c341839bfa905eff4621c1",
+      "poster_sha256": "65d43adc5e7fb85345d98af3f00f1a9f7b910e37636a8b06305ea48c75a3b8f4"
+    },
+    "c-tasks-figma-09": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "5a626479db220fcc0e02eeb35d18ac92b780026e7caab0d4866a994130a94606",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "dff705022ef61e975b584ecd9b712971fe426617791ae05398d11c161f5bc89b",
+      "poster_sha256": "602b9db085f1509feda3328a85f17cc11146800323817c500fc660184180e096"
+    },
+    "c-tasks-figma-10": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "72d45df8e1b5650db262d21fe8dc216e95dd8288da0dd802e21a6494f4a05866",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "2acb7350c2f120edbb72bf70dd551cb845ccb49ee67bd5a70f038eea36b81fcd",
+      "poster_sha256": "93596640ef5bacf54b778e3e72863667e9a033e1116a0275359faaaceae95f10"
+    },
+    "c-tasks-figma-11": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "9842c89b71a63caa30b1e6dc2ee427eb93269961bf23c9b5c6bcf41e3d449f5b",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "7e086a9c651e90a7a804b872bba2110ea36aa9a80f95fdaf015cbd7b65c3f978",
+      "poster_sha256": "fb74b6ed12b7746853d08c73dc5cdd0e4fc6d72918c9c80cfb1dd4a2efbc77f2"
+    },
+    "c-tasks-figma-12": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c82151a5babc5847342dbeb3e45df723d354ad777beafcd857d14542c6d0c8cc",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "4dda756eddb790ac7bcf1050b47f2bdaeca58dea726ca5c3b88ff64187f6aff6",
+      "poster_sha256": "869b49bb165f9c288d75d7ec89882a65b278d2261517fff4f5f81927e590e85b"
+    },
+    "c-tasks-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:45.320075+00:00",
+      "image_sha256": "6d6239e0919b6a4d364f1cb2030e9cd6a129f87024fb82f1a91d9d5985d639b1",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "13844136ad90f42005fad74624225a878b6bb1b0f27f3b8c9a32d53c83950ecc",
+      "poster_sha256": "0ee2935b300ecf4a0c04d4082d7e8aa3651a514237965e89f3a8b2484168840f"
+    },
+    "c-tasks-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:45.556119+00:00",
+      "image_sha256": "af8ffc89cd03217769c9bf9aa3ea565c4e3e01e78d97dab7581e193fe4a12d45",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d57f303147b1cb87c317b55b7173bdecb9e3df02219752a2644a06f7cc9dd8d7",
+      "poster_sha256": "4586a2fab7398a3ec196f73872d559e10c7d9f49342b84253b96cf2e8391671c"
+    },
+    "c-tasks-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:45.773398+00:00",
+      "image_sha256": "8f69b95c67ffa42a6306f216272b0329b0290216adff4738ccf5be84a6a7fd58",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "eac09cd99a4618b512799008374765a7a9cb9c5690db05b2aa389565f258ceb6",
+      "poster_sha256": "c44aaa3855d58bf24a18d73426cfde8a057e247a6ce16fa5f9839f7f8bc1db00"
+    },
+    "c-tasks-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:46.420804+00:00",
+      "image_sha256": "9fce2de7298780c73899af675c37424856cc8b71bb5d35274924dc7d67cb4427",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c5a303dd94090eea255715c6a2cdf5256d100ff0e7e85efda91aa988d051b008",
+      "poster_sha256": "ddd99dbe282032a40483a0c6955e1d450ccda7238eab996338d8894c78091e2f"
+    },
+    "c-tasks-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:46.807373+00:00",
+      "image_sha256": "0366b93fcbc21ec2d76e759db94747a9c23957d10048e3110eabb4e4d2557ae8",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "8ab7fd3b8a395b8858305e8f998403f7ee6f381837024da08f48b6159fe901c5",
+      "poster_sha256": "52618c82a8dff903d4c87ed4f274d6ff0c4bc231f8c822e80925d0aebf85dd29"
+    },
+    "c-tasks-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:47.148205+00:00",
+      "image_sha256": "114536bb34d0d3a56ebb93d2aa43b0244e0d542a6a8aaf73410a56f30ec5d303",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "11c8f07ebc2b8654662dcfb43aad26c732c46523dd419d2c05ad65e128af6d8b",
+      "poster_sha256": "f504f82b4ea80a321e8c1748d6fb1050dcaf8b744400e7165011ea68c4034595"
+    },
+    "c-tasks-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:47.352729+00:00",
+      "image_sha256": "f2b700f6e7cea0f88645102a22b3a0f5d10cf9d25cf489d500c31b37ef0acb96",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d243d852f6e23f7cbd48637eb4fa3da162d4bf2b069617da568f4216670a055a",
+      "poster_sha256": "7cfa185568e9bf0acb4dcb60d9904776ccd81fd62f5cd1d8ebc3689a430be726"
+    },
+    "c-tasks-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:47.571823+00:00",
+      "image_sha256": "dda0f3837606d7dbce3e0739bbef8714db03e8977c3f4d14930c801dd8e853ef",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b1bcadbd23ca92ac63f95873992ea9fdbe83ca97d9d44e0321379a047f8d55b6",
+      "poster_sha256": "652e2a5d62eed8d3522466647421ec74aa4a40e3294e5aac24571efd8aa92d59"
+    },
+    "c-tasks-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:47.726225+00:00",
+      "image_sha256": "c672634d066922e8d5869f18976b53bcb399ccc2eefee900d7e0a377160adbe3",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c542dfc18431f9c18228a0e8b2848b28d7b487d14b611aa06526da515c402615",
+      "poster_sha256": "d0be0202768176cbdc737389b30fd3dbcd27a407eb442552ab2fd010205c0d82"
+    },
+    "c-tasks-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:38.735382+00:00",
+      "image_sha256": "9867e9e7f0644df03022bd3939e445b1b633635e126c427ccb5384443bb7f827",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "15f5470dbf77575cf65c9eb79d81ec5408530ad740e413848193a712c7ced574",
+      "poster_sha256": "04ff59aa9a2b2e1e3e9120bb17372c37c7ffd35bd684eaeda40d9f6becba9002"
+    },
+    "c-tasks-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.755014+00:00",
+      "image_sha256": "2a9d5330587fc6bf5876ef5be1fb80f760a68101388ecb4bdb7b54519ca3fdbd",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6aaa6127e7a2dae2099a580fa79da8a4f1c8a093a1dc173ead920a73e9971bc9",
+      "poster_sha256": "91b4a45a4ea283c4554811ac1b44c7a502a35c65709b5077b4977ea23c811441"
+    },
+    "c-tasks-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "c507d759b8999d01b6cafc0b2cd63911d62aab584eb344c57288b2e6d9afd22b",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "67c6a9656e6d6e9286252be6a84d8d0c8bfdfd6ed376fa43576ae26ab4673ae2",
+      "poster_sha256": "38092d2b14a3dcfef86c9d511dfb300b7f570d1748766762f50a8031d6c43621"
+    },
+    "c-tasks-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "eacdb6139e4ad741b09cfdfefc5a20a11dd0d880a235d6c1eb9d1448c327a93a",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "408f70a89bfd76bd1e1043a45b49eb2fea753fcd8da7a6a724b81b37782479f8",
+      "poster_sha256": "7ef0a6f2bfae48da854ce38e929d5b8a1f8c4432c07f022914563879ecaebebc"
+    },
+    "c-tasks-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "fa3856f7f81bad19cf4fedb0c35b7d8be2e058f17c19130c7d3edf2ec5d5efa5",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "c3fe371d42dc64971fbfe91bf4d8e3f04467090354a878a9d5f5f3c24e0e27f2",
+      "poster_sha256": "2f256b6341f75d0db9c430c53af65938b282efa3882a8b888ddbb05bf42e6696"
+    },
+    "c-market-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b5ec97b17ec772d3fdf57cf925ad1e91b74a200a2c7429427e58445342d6be17",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "62a10d68d6f9c6dff0cb5b1d2eb8204e8b60693e11aca5de19ddd44b3077bbac",
+      "poster_sha256": "bd06156269ce53e4e05859fae4755bd8b5dc02277c34ea20182c179141c6d86d"
+    },
+    "c-market-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b82a5765e0e28390ce2e74e6ef2bf389ca9c1a302596c7c6d941e94720237eef",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a54c93bce8325ba96dc63d1896efc69c1ebf90bd1ccba1937cb29b5073016b56",
+      "poster_sha256": "d0a63c2a7f409653678460c3b196115b15197581f7259a9fc31249faa07de9e5"
+    },
+    "c-market-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "3ad483202f13810451fdbfcd42b7e4b6c5721e42354b93be7a38cf3658ac461e",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "b377884fa0fb2ab01661a60275a83a8d3feab7fad96dca863eba971f948b682b",
+      "poster_sha256": "d6ea3c2cfb84f6875447d5f23cd2a3c47b5e5ed3c87d3cbb2be0554da5137e72"
+    },
+    "c-market-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "91ed736318a2dfa4c98187ed236c1f13bf86b1edd8b2a79afd12a84bc0bafb08",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "78b9c1317b1543b0dc39341f604924b0c9b8c51c03d1296d192208d696fcc8dc",
+      "poster_sha256": "13209df0c7af8772071f03ae278706ff37c98076913b5f7c7fa50ff0d3c62fcd"
+    },
+    "c-market-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "b20b68264c9a2f55e73f7290edba8155d2ebc5746833b6145c234a97859192d3",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "84a9dcb194e319f1447d651af6c8c6ba5e1e6af7ec676480cb2f97e4fe13e146",
+      "poster_sha256": "230a7143b67114c3e0e2e421d775f93d9034eb095b6323d558713e0ce59c80cb"
+    },
+    "c-market-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:51.300710+00:00",
+      "image_sha256": "5260ab0aaecb3e95b33a53dba0bce43670dffbd8882de255f96293ced738a07b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f45ce91adc08dcaf77f42910e5d2252aa70db89370100b4c31cf0ec05ccfb937",
+      "poster_sha256": "0fe958a8a1d8f4d931b6df88bffd0816ebb77b3bf4fcebf00f3d4eff7b2c2acc"
+    },
+    "c-market-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:51.709553+00:00",
+      "image_sha256": "d228e2de257697a98e456e6c3d1fa2a6de5e47559d1847ff1e148ac10b338d1b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c46fbaf13be00df10318e4b0a3f1aa94b312698ef6bc04ea531d9945468e094a",
+      "poster_sha256": "dc5d2301cbb7e628667e34cb282ca131186ef272a7d4c28215ed656ed20d705c"
+    },
+    "c-market-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:52.124020+00:00",
+      "image_sha256": "22bada872b49e5ed405bf73275b2399ba9cb095dde4a44cca3fd14317189097a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "98570c62ad6490a05f0b70cc3c4e530b3ac31f4db033a3b504e42a5a1a4f99e6",
+      "poster_sha256": "e991ea70603c6804b13d99ae7bf7bcc58cd712f6ec1f2feeb0a9a170818ede0d"
+    },
+    "c-market-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:52.552401+00:00",
+      "image_sha256": "06bbce41f2c88293b05621e66eb832df4f00992440a171e0a60fe7ff7db19e45",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "7c72381e47f55399d3fcb8e352141daa335e92e13a2cdfc04cc47db0c0fe5396",
+      "poster_sha256": "bd3e189399e8aff60ea4f674ca40d646a794b4b638da4eeea8ef899f8d2e9a90"
+    },
+    "c-market-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:50.863256+00:00",
+      "image_sha256": "0277e7bab0fb0edf4d35d663a941b23d5f5e9c5ccc24230e94cbe35fce9b23ee",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "635f94800ae16cc12cfcfd43ea12c19e6cefc1dbe16895a7437d0577f1030b12",
+      "poster_sha256": "18f743c6c484dc0db3d3d87493e85622ccaa44f3c342b09dd22fa0ab360ddc10"
+    },
+    "c-market-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:51.028749+00:00",
+      "image_sha256": "6429fbc7b482e08ee71ff84243fc3fe84354f4fa4af91c7a7f87fa36658cfc72",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "bbe6f53b4028dfa65a5f8ab11c69ff2a89185bc1e5b6f961647d76a75526199a",
+      "poster_sha256": "3ae69a6430bb3b985174ee13b26c526cdecd3920aadb6e0b6faa439896eb9b34"
+    },
+    "c-market-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "00eaa2b9941ef669549302f1d1c3eda4613d63fbae9050219f2e8cf8b827fc22",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "b8be12b2ca56637453bb288e724a527055bc34facdaae88a4bba1546634fadf2",
+      "poster_sha256": "c8f31d15f362bb8076e22f2e46e465a34ee0af4dfe88926c0b38ebe6280508bc"
+    },
+    "c-market-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "c5a8a9aa5e51f98b6e5b0bb6299f150b5f472d17780ef176107c4716af726ce2",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "87d063246d610783679f7d64fa3f85b7fa0659bc7ab41ca8777f4077e4fb7a09",
+      "poster_sha256": "5fde99884f20befb2aef3addf4c77df1390b05c25660c3eead8ed79216273de5"
+    },
+    "c-market-motion-02": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "4d282805ac1289dd2841da8c7dadf70ac9ca20c6ec3f3c2013c94402729ef094",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "6f294175ff9e602ac91df2b11a1eab65f70756adc36c7e077ccf51ce1f0f52d3",
+      "poster_sha256": "466c448505bd3ab19d69a05ea10894843e3a71fc765af4c7a304e8a1405536cf"
+    },
+    "c-market-motion-03": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "cd946f58b5dadd47353edfe4842eea9f1da0d6776fad6cc1977976e354f3ac7a",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "81900263f51383ec1a1b7659a143c930cb8b61f2358a6c58002bcff0dc06a0b9",
+      "poster_sha256": "4f7281dc11e550983f6499bd414d5fea31221211a8ba50e9139fc8bace8033a7"
+    },
+    "c-chat-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a7d2ad8b23ea0056d7a61e353107a1eb47d9c35b037dc99e4ff423f1a00d7826",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a8f7516fc6330a193880fe32a8f815e58f91d4df4145a10aea2e97eab1367b6a",
+      "poster_sha256": "8ec12bbaee54d60396cb46202df8f5d8aa0e39184f6d6532eef23433510d560f"
+    },
+    "c-chat-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "361b8cff969a5ee68a11d407340ea29b22772bdb1c985f5e10c04b538389e4fc",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "771ebe54208589e14b2a5987fbbba6b1f72136e19a38f0f5a6304090b71c022e",
+      "poster_sha256": "aa49f523d166d1526ba7040da0d739690bac92e9da64256d95267a0849dea6d3"
+    },
+    "c-chat-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "ceece2689ed7cd3e1094ce3fd844a7d52ae4a03ba42a2df5cb2620bee63e9303",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "e9da339f4d324def9c59980cf9bc4dddef46ea8d4a36b3e5644a75dcf3c8bd1f",
+      "poster_sha256": "3c7ffe28ff18fa03735f7bed6ea734e99ec2e2a1283c12278df639001767d6d8"
+    },
+    "c-chat-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "d924008630d19a36fee3b586418caad0e9e1d468190d1f2e3dcbb79a1629cb53",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "f606a1cba93bf79d59b341b895a6acd1580a9b0e9b3c61530b63671088e0c15f",
+      "poster_sha256": "3b334cb14def4ab9163a8abe08a9708bb5c45930b255ef50be30c0bd1a60b475"
+    },
+    "c-chat-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "6460abe577560c0867fe9b28817369dc2180b1852153f72ec82e4977f43aeeb5",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "17187930c8b9850d7e91cc6d03915fc97b35d48cd5206f06604f6bdd575b580f",
+      "poster_sha256": "4ca4f719b21de1315f63fb9e74e6e79a2a78053cdab0b54a534caccceac9f147"
+    },
+    "c-chat-figma-05": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c515ed6f85e8de8a74997d2cf5e41d00d78ffbb2f67b2234d1567f4c2b4bb8a6",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "54019344e1f44fd2c3e91bc8e05884c468ee56b553dcf818ba8c9b01bd9a2752",
+      "poster_sha256": "e214bf6645b58ad9264d2808bb5906be9d1d94befeabb75e207c81270ff6ceff"
+    },
+    "c-chat-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:00.522795+00:00",
+      "image_sha256": "f284e7d5d25145eaf870661c58bf7b2bc1be4879576df107e9915b16e98956a4",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f89e36dfa8e82425bd3c0155996e20d1dd60fd597ae87d008ba8a842d51201cb",
+      "poster_sha256": "76ee51ef1cad9944759a926f7a2ddae8c085c0cbc2681c947f73c57a17f91a0a"
+    },
+    "c-chat-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:59.573291+00:00",
+      "image_sha256": "042a86c4fda339050ce930b1012867cecc27d886dc8caa59e8c91f1202a3f4b5",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "528c407bd67957cadf84818d2999b22e376c546f29b13f56b950843eb4a78b28",
+      "poster_sha256": "744542af1f936683212657e3e647d0ab807bea38dda7ab08cc091cd78cda594f"
+    },
+    "c-chat-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:59.712595+00:00",
+      "image_sha256": "b9cc670bde987f2352df531ab10dc1878c8953b695a43ebdb30bcc761b80fe08",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "8cfa20aea4cdb23a3f603bf7a1823ee50bfab9b50e0fccafbe997f16130d7a1b",
+      "poster_sha256": "04b4e2d7ad03b0f8c0d70adfe798bbb2d78bb8d450b5d19e5b46a2dc6643a369"
+    },
+    "c-chat-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:32:59.888299+00:00",
+      "image_sha256": "cd8169787541b02a6a4f14a13d1b3d3e46dc5908a314f4c2e48678417aed5da7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ed43a665610fb2c20f51db48e818f0ebd1ccd7c88d88ffcd65e5767297c4aa33",
+      "poster_sha256": "a5adc7cd9a6e9c8fa3050ef26276cb9f5b4185225d44e81935d5b704ef88cbce"
+    },
+    "c-chat-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:00.032117+00:00",
+      "image_sha256": "7bb95d7b3275a7c8c6ff6cbde05455b9edd9c4bdf005ee4c343ad2851d322c6f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "cf31f3b8b3d1686a532def5d8e217d3af085b1a4eb83619de1d7286b01ac9dc2",
+      "poster_sha256": "6c5d691fed0740e5d0fe2206be23cb1800f777c14c510a1779e8b3a204bd71ae"
+    },
+    "c-chat-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:00.666062+00:00",
+      "image_sha256": "f66fe51dd3d1187131590b99dfa873cb68d379abf43e6e9f79425000fb39bfb1",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "557b9c545f8b8b559096d3adf4e963c314e96093b3d2f5c86e7282ad7a67177b",
+      "poster_sha256": "7e2d4100bfb2ecff263dfb63b50fef0312292f8bc62d88e18718e3a51314997b"
+    },
+    "c-chat-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:00.349238+00:00",
+      "image_sha256": "0fb880b0c0180e545b69b4b87ade4998f929090fff546b747fef95e7a81f4eb4",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "138f997c6ae2a8f5ee9e4b134570450c4666eb1f767aadfceb954f7fb19f71a6",
+      "poster_sha256": "b28580118124ca8fff39c2061eb9020b5e8911bc047b1e559312fcb502237b27"
+    },
+    "c-chat-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:00.218055+00:00",
+      "image_sha256": "4fda3976b9a56ea8918e10b7751eff2a6979454e359135747b205fee7d4a4d74",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "94aa56cde47fd57adc069cd5e059d0886a6acaefccecc169776742d05d62f8e9",
+      "poster_sha256": "9783c847ffb35639a9048b8af47032df06a15263637cd1e5b28cc8630344c157"
+    },
+    "c-chat-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:43.180263+00:00",
+      "image_sha256": "c8d5aaf44a319684a758c92d1de2d69ca625d00af571ee1f53d220f0c5251aeb",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d81c80ebfc3bff871669986b6a8abfbc8c0dc5ebe49e3bd68f591e02f7e0ebd0",
+      "poster_sha256": "19ff6f790941f39bba5a7997923eddb59dbbc4de538ace1651ea4cab7051555a"
+    },
+    "c-chat-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:43.059297+00:00",
+      "image_sha256": "097675242f531acb0380feb462eb39ae3ba119e34e91b81980b86a32396d88c9",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "0e5891e7e676c3905ab512685210d5d8cbf129e2283374006d42f527b75ae7c9",
+      "poster_sha256": "10cf7df1ebadf94232d89d73507e38e5729fa27aec1d2b7fbcaf778f7ed83d39"
+    },
+    "c-chat-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:43.390558+00:00",
+      "image_sha256": "13724149af75e6b297dc32f1240a5dc21dc1df9798f9167eb2cb25daa26a1127",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "32fbe16919e6c889f28baa54adced7a7f17dfbfd7edf0441622e168f3777658e",
+      "poster_sha256": "9b63b67fb55726a7bbf058ade4ecc02d73979484cc577ad469031e8209b1005b"
+    },
+    "c-chat-app-11": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:43.436752+00:00",
+      "image_sha256": "c1373a01bf96b532b0708ca15e57ac46667abaef9699d226648f27477d56eb62",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d56f8f6bfe72079883becfe30a881548422eb535e7b669701a451a9cd53e9c15",
+      "poster_sha256": "1ad4074069488311e113ec2c45329c74f74a3bb1b5a498ffb566e85bae5b2e5c"
+    },
+    "c-chat-app-12": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:43.544856+00:00",
+      "image_sha256": "0d704082edf69e71f9d57ec96fb5519a199341ee7e459135cd44f3f9cce22a64",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f50c51f876199bcf1a1917a85ee8354a701063e29ff0d013d86341f93092016a",
+      "poster_sha256": "c50c67e4b2c40b9891b40e2d8f4a54359a554ea1123aabf879eaaadd43911742"
+    },
+    "c-chat-app-13": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:37.464959+00:00",
+      "image_sha256": "0bbcca212351a2363189c1fc59110fddf399da87dacc007ff7e57ef541ef773f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "7b23d28b8b78fe822e2c3e5c783eac1c44d28f980c2c3edd646ead0a06bd1b2f",
+      "poster_sha256": "c85fac063cf1ef18bf5aa6386c5ceb68757a35c0f86fd3c5531cd125d99affb7"
+    },
+    "c-chat-app-14": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:37.678824+00:00",
+      "image_sha256": "02ab0f20f7567316297be519f88abca3e8c43dd5a4c2d45900fdbac21ae2f69f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c53ddb32a60290dc96ac0da71746e50c4a9da1abc7d94b1cfd593b5e069c30ee",
+      "poster_sha256": "f8f224f23aaa4a2283b265c7a8d6d13d08f7b76051532292c0507607adc9c337"
+    },
+    "c-chat-app-15": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:40.609826+00:00",
+      "image_sha256": "2acc79def72afb039acb6ccc6fb939e1c4be258563cb99abd724221b44832da8",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f185366bf2be88306ee617c602e438ee3b65251ff7dc5e84d62ddf324b133684",
+      "poster_sha256": "0b415e3b1d902e40652df9ba178eb26d19c7ae4032b1d96675fb6a4cf6a10fb5"
+    },
+    "c-chat-app-16": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:40.873161+00:00",
+      "image_sha256": "dfc3fed43b2631b1826f94296524f995609bb1843bc89bd854a597c3720cbe20",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "2f2fc36472d84c8752eed7e77b014f1f0d3336ff571e4a1041a7486cba18c555",
+      "poster_sha256": "69dd5e9240697a28ec8d4c3d72f5f687c13f10850aa90d885dc45385c8c59153"
+    },
+    "c-chat-app-17": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:41.111785+00:00",
+      "image_sha256": "18cbffb2a45024cc890f0db43a3ac7d8fa61387512fc6611ad983725bf642235",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6a7c7c73150ea831fb4931d394227b574f8194522574386ef48edd50a10b6e77",
+      "poster_sha256": "ea33a4ab21254f92dba6cb12a7a1fd6df0ce16cd9b08381a1bd76af3814fb73c"
+    },
+    "c-chat-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "dddda3ae5b38b3610083683a6132b7373b27d19c44452f55a1ff5dc3351d8231",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "3122ddee882945091586eb870c70f321cf291acef41fcbe28c62f7d84ef30102",
+      "poster_sha256": "57e2573535b1f8c5308e3db72d3a2eb8ee002960c3008b9f64ba81e4505c92ec"
+    },
+    "c-profile-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "9a83b3ba5b48b9c145603e185ddf6a82ffe47cca5da12c191c10637e286a3ec6",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "c89eff7904f67f40eb19dfcb219c8713d7b0809c7c01f8bc284697bf0d895928",
+      "poster_sha256": "21cac09e74ecb059430fa3654a2805ed97dd58ad2480cbb3d3b80ed65eb588cf"
+    },
+    "c-profile-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "75e46fdfea2ab427a93646b9b1d9cbe1a60115580229adc76a823f8841ae9f61",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "b1dee9f72783ca12fe5c1808ee78c322198f3918fbba517507dfd8a4b9a8b7a9",
+      "poster_sha256": "c068256d11a21d873a7a33cf93dd43d3174e59bbf1f549ee4711d25d7130374a"
+    },
+    "c-profile-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:19.335905+00:00",
+      "image_sha256": "c1691e222e4dc29b57f377b6ba2770d0d07811570dcc64d28a7ba3cac3f53a4a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3eba1aafd9eb21db517cfbb5aed993acd7a73ddb5d11864046e2740fb67471a5",
+      "poster_sha256": "2f96e582113f65f240ee2c4c0476c32b0fa72e3bab4d0399dc398008b3d0918f"
+    },
+    "c-profile-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:19.493670+00:00",
+      "image_sha256": "a81d414018d1c480bc0a51546c469216c4afd21e4b5df338e4abdb034a46415a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5e4a5dabcd4fd571a9b8d982892ce9d2440418a8c541bd5bd58937750d5fbb68",
+      "poster_sha256": "1a5751cc9df59a4be32b02e0e1c216415ce44ad420ad89089166e0605d635c4c"
+    },
+    "c-profile-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:06.938681+00:00",
+      "image_sha256": "0b3a5cf8512647b78bd639585d4fe70a949bd60bd3cb0cf63fb3bc1e8b178653",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "68593c354ad706bd24b2a3319451ce29e1c386435fb1b5f5622624e83978a76b",
+      "poster_sha256": "ca68e94ed506ac8c6ebe39569f5e243f10e0bcbd0a87cdd60ddad5126fa3e371"
+    },
+    "c-profile-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:07.057712+00:00",
+      "image_sha256": "e7ff5e84d1f1267b132c8b8923f2baf6df6e65a6ecd5b2a251fc73b26416b579",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "895f4c1df4ce9e57ad63322cb8791bda002dd1758ee456a644936c8d1fd19d51",
+      "poster_sha256": "9da0126fd1f0d51f9af1d52f97bd8df73c21a28175cdf93990e7fe860978f64f"
+    },
+    "c-profile-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.513622+00:00",
+      "image_sha256": "de9b135d6ae1536687dbcc5bfbbcd0482ad94d63688c2a961b8ac840d3b51074",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c2c07f086969396df760974265f7d97a317c6000668247744bcdc6c0871c1dda",
+      "poster_sha256": "13e98dec33e36ee8a87ff682dbb7ba2f860b0f6aac319f6e93bb6d37eaf7674e"
+    },
+    "c-profile-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.676072+00:00",
+      "image_sha256": "ce13ce8d1135642893db83dd7da46d624e56d6243c85df7c9c6cc5bc502724ce",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ad0f5e26b314a38cc98a64150771bd19b2da3de5a1a391c6957c883f4f457289",
+      "poster_sha256": "8679b3b2adfe2de72afdfa6fc2e820ca0ca2cbd2b497042499b758c07312a4a8"
+    },
+    "c-profile-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.396127+00:00",
+      "image_sha256": "62b0e06fcfa6ad7041fa135fd4f96f6d5e661980d7967991693efed144cf0163",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f2913d39b288eafffe6fda7e179462971ed97e8a04d51be1792a95a7bcec626c",
+      "poster_sha256": "ffb090372ebde83cfed470e5ff8bf4cb3b668585f35f3a15cfee35c862f22470"
+    },
+    "c-profile-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.592489+00:00",
+      "image_sha256": "b9dff74b10f82f98951f3ad6b691d402580abdd70e787eb20bf4286f256b567a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "8d3a643cea3c8e02e676960bd97a2aafedbef9d2a7fe6c807cd4e61bee8bba77",
+      "poster_sha256": "66cd6720f12b0cf75412ff5604e578bc22964f7ad7ecf7996eaf7c96f3799275"
+    },
+    "c-profile-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:13.833058+00:00",
+      "image_sha256": "22b4c185cd4977bb559f53eceecbf27a5be031238b46ea9d893195632854780b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "972af11983b60a1cde9cc298e71ed62c354899e460bb255167f4ef6e69fff934",
+      "poster_sha256": "dd42d09e2e67bc516691b48e6e1b2f4e552279d0c61c1119be317dc610e560da"
+    },
+    "c-profile-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:09.188891+00:00",
+      "image_sha256": "c1691e222e4dc29b57f377b6ba2770d0d07811570dcc64d28a7ba3cac3f53a4a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3eba1aafd9eb21db517cfbb5aed993acd7a73ddb5d11864046e2740fb67471a5",
+      "poster_sha256": "2f96e582113f65f240ee2c4c0476c32b0fa72e3bab4d0399dc398008b3d0918f"
+    },
+    "c-profile-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:09.374083+00:00",
+      "image_sha256": "baaa7f4a2d3cca93b50d2eb4f54cfa00b82b9ab4f28f35e7cdaa75b313f213e2",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "bd5c88c3500295cd046c9f6e7577d668a5d191060df86eb021def6d52554f9cc",
+      "poster_sha256": "0b6b2c67931872811f31f8b4a17a4b7ff7a5be5ed080212afa012588bf4204e1"
+    },
+    "c-profile-app-11": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:09.923716+00:00",
+      "image_sha256": "a81d414018d1c480bc0a51546c469216c4afd21e4b5df338e4abdb034a46415a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "5e4a5dabcd4fd571a9b8d982892ce9d2440418a8c541bd5bd58937750d5fbb68",
+      "poster_sha256": "1a5751cc9df59a4be32b02e0e1c216415ce44ad420ad89089166e0605d635c4c"
+    },
+    "c-profile-app-12": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:11.836888+00:00",
+      "image_sha256": "da390916285193b246ae03c6e2d921829df7583b3badc473b4cd43112fb4415a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "bae45ad9370210569c5eb11e94b3e27f35da069fcca7a4140ff2608e3623f47f",
+      "poster_sha256": "b2d0daacc4127a0bf38eee60ea0ed11bfa8db63d5495a2de19175c91a207ec2c"
+    },
+    "c-profile-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "3dfa1ea3f0bea564b07c17c1bcca272c19700d26db22804800023ecfd02187f4",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "6532c0e776758ed0afac74fa8417b4480c500fadb87075988e5db23abfa2c5d3",
+      "poster_sha256": "6497853a6e817393407b240b52437bde379005dfb2da865624e7cf3cb6a7d115"
+    },
+    "c-profile-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "fd8df7deee103955069ff3157e1442bd582b033e6c2d06693ee2b5ea50d7d7d7",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "85ce97d7bd41a0ae82b303b82a2a47a52e9910a5e5e473d9b25432fe6859ad05",
+      "poster_sha256": "ce5615b9b733cdd98ff405ea66e72e4a400ff4abf913912d9b1044a76d85d788"
+    },
+    "c-level-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:32.096667+00:00",
+      "image_sha256": "30a4c49f7026332d336a40669d0cf31cc05544cdb4e327572c6fa07324b8640f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e842f65b2043b4aaecc0794cae4f37f19555211f3d0eabe34ca746da53b63291",
+      "poster_sha256": "6d8a4c4956f88432cf616e5e3fa6f0e4132d04ef4922fdd69aa34304deb7ece2"
+    },
+    "c-level-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:32.267828+00:00",
+      "image_sha256": "19970d8067fe15d4c441a7ac58331e408a6428b8da9d3d54646bf7bdee49a322",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b14908180408bc304d35df6880bb91bb45d27a82db1ffaabdedd7e95b6af1242",
+      "poster_sha256": "34504b5276adc3adb1f6ab2a84d8ee6b86e46b8c4f541e3658e5d25a35fecac1"
+    },
+    "c-level-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:32.448994+00:00",
+      "image_sha256": "5479ff86def60eb53bb2da11102c5a77a88bbc686c1d2a03c9f623ce90a6343c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "fa805a4388755c059bbad8b96f038696d24922f0b7d2493dd6b9ca5657390c76",
+      "poster_sha256": "96382bec71af28555828459108d1f6bf96e9f64d010aefbc78923a09125b585e"
+    },
+    "c-level-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:32.598485+00:00",
+      "image_sha256": "5a72f8834858db6c347d54b6cf6b9e1fe7393b47abc07700765cc097d53fa29b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ae18e4b1c5a65624b2a93888013213b8e6f1a2ea0406edd261fe0e12244bc0b9",
+      "poster_sha256": "1b2a073df2cb16cf75550f780b8286074e3589792e0f78965d63b15735b0733f"
+    },
+    "c-level-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:21.206820+00:00",
+      "image_sha256": "408d30c7d6ca72bfc56bf9e06b65270f91da05867877a251246db810a3d232b8",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4e441a9377cba6c5f5d7612d726e319e0c658ef24db534d3fdeea61e94e4461d",
+      "poster_sha256": "f12ecd67fd9fd84e1048745daf7afd3ec19419ff5d3d93c99a25d18d22472144"
+    },
+    "c-level-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:21.616822+00:00",
+      "image_sha256": "ec4c4da61ef425f9feb0e923ff4b632f3f73b8497a5261933134645a0525af6d",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "583e78d729a63ef45fa69eb47ccbade9dfa8aa36bc399474700316b53d398c10",
+      "poster_sha256": "9502afdaa4711d8d6adb673ee14a4bcc5214a24c54de9b4dc0539c6463c83af1"
+    },
+    "c-level-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:22.011962+00:00",
+      "image_sha256": "79b616bf202e96259e982e4f979e6bd733dbd281e52f136ebc7daa1db974766f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9d1533f1e93ba216a2156eb9e8e5a9618b78f9767365f210b14a8b7e012253c7",
+      "poster_sha256": "d2cda049a9282a2ea147d8281a196d4a0c916240434f4f25db2018532847f401"
+    },
+    "c-level-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:22.376676+00:00",
+      "image_sha256": "6a9833b302753ff6970ffe6111e4820fedb607f2e0f129b5cde73e15d2bb7f12",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "210ab1dee833f62ac4492a4c21eae390c67fbb2e953b6b2f2da4ed14ed90bc9b",
+      "poster_sha256": "a2a05f504fd9e19723718c0c6ab91e5074c0c4cfcf735db1a9c3ec0f3a9399a7"
+    },
+    "c-level-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "61f5435a5c76af53bddca037763e7af3f752f934df1cb40a8763a6ba80a297ae",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "5929eabf8864ba5a31ae8547978d7f9b337a53427c5adc8d590ed6eaa5651346",
+      "poster_sha256": "c6e01136f84ce2f338b0988677ea46525a624882d9b3a4d7f904df0c86a04038"
+    },
+    "c-level-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "96aee9443de4bea4e5b1b25261542c3e0fb02b7b3c3d4943a739daccd629767e",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "7a887d1219d169ace900bf74b86945161fb82630e34e71520216e0b54664b080",
+      "poster_sha256": "40737ca4efe34ce8abe76cd644d7ddc43ee3d3c36d5431b025ced3e704733df4"
+    },
+    "c-teen-home-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "ee4e7b5aa63753e427f0f1a852a56926fac0657cad4610e9dc41134ccd938bca",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "d2d7f2ce3a4d73e9bc27660b8e53b85d776a5009f9c4e9048dbfdbbcccc36821",
+      "poster_sha256": "e5c19f3df1b7c0540d73e613a799f98b443d75e1077387fc329ee66ecd811b72"
+    },
+    "c-teen-home-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c538b57220c1303f2cb6951bf49ee69314988068c7de8446e5536b5fba979de7",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "d764d652ec401b45a9c43eb37a981daf2c5acc9d6c293b73c1ca933aeca40b06",
+      "poster_sha256": "a41f730108879a940bc0f4a6df33d10bf6b2ade2d60b6922c990cce8fa75424f"
+    },
+    "c-teen-home-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:15.701054+00:00",
+      "image_sha256": "af621632e9e05ec6a2ca9f1597acd61e1aa2c72503e0a46370b8f8e4bc87c9a2",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "62863327861e26b5567fa8340ffe4a245b4464535011119df342df1482399de0",
+      "poster_sha256": "0b597491f0f98beb1275bc0880ea55ad8b2b0347845fa4ed848b9abf96e21e85"
+    },
+    "c-teen-home-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:15.960191+00:00",
+      "image_sha256": "3a31342b47ad9c0ec1592d4649543dfd52333e6bb6bbfd3333a8d32278f30a31",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "88f09bf4dc5479b1dac9811641aa3fce51e25f16be8da02c0896de21c75e5310",
+      "poster_sha256": "918e6b351a8248ed4825a00e0693bf824b3ca6a99ec573e14bebdc008d6682ff"
+    },
+    "c-teen-home-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:15.719061+00:00",
+      "image_sha256": "39c59903c91b3fc539f5474f74ba34b5257fbf2bf5f8b011bd00ed618f65b41c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "1389481fe9af1bc6c05a549abf7b810ce11f88ba10e3c0f658d5ce86399a631b",
+      "poster_sha256": "f22444fa4849f1c25acc8a22d48d1d048c31152310a3617edb5c1104f1232af9"
+    },
+    "c-teen-home-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:15.974195+00:00",
+      "image_sha256": "39c59903c91b3fc539f5474f74ba34b5257fbf2bf5f8b011bd00ed618f65b41c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "1389481fe9af1bc6c05a549abf7b810ce11f88ba10e3c0f658d5ce86399a631b",
+      "poster_sha256": "f22444fa4849f1c25acc8a22d48d1d048c31152310a3617edb5c1104f1232af9"
+    },
+    "c-teen-home-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:16.489387+00:00",
+      "image_sha256": "ff2b0fdf07447a964ba0405f086c639c87b4965dcf32b826ced2b57d93e7c7b7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "039569979553d0b07248f54e06b139a0f9ede7698b97bc4eae87e8ef8961f63d",
+      "poster_sha256": "f8dc3ce14de619e21e82a34a1c2ca2a5898570c0ff9d6d949a8c492c86e267a0"
+    },
+    "c-teen-home-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:16.954173+00:00",
+      "image_sha256": "1e5b45080e61a70141237e2aa508af837c4ccc5c33f683f2b564c8a974bae79f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c83bb0cebcbb103c6f4ba76dd2f6752c93888d24d740e8501f62763987bddb7f",
+      "poster_sha256": "9c27f146e9fcb6b1183f8f51c87cf8eee56b5b6114a2b234387068015b69d100"
+    },
+    "c-teen-home-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "0f3cc129af3ebf8508904aca5423aa16dddd9446c47bdb54fe0ffbdcbcd6552b",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "849eb545261fec79108a02c7e4e6b6e5b50dfe3218c35c3477a5d7da8265300d",
+      "poster_sha256": "d52a197e6f03d8b5d1bcbf9ef345298c7415016be2c8425aa92a3e261232fc09"
+    },
+    "c-teen-tasks-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "9e67fcd8deb6ad828ab5a66b8ba09e93709eb5964870392402104cd5e77dbf42",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "86e5c89065d8b27166e36cfa04f488d5d10e27cd30ae6be5288b01f72ef0a6f9",
+      "poster_sha256": "4a5e9b4bafd546bef95ef218c8977742d2e6f2f5b5504877c7f0948bd57e1093"
+    },
+    "c-teen-tasks-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "30e97e668e810e1358116b27ef9890af1c860b68c7aaf840f91f6db2a7b3a787",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "6a7f7e7edfbac19feb1754ebbf7ad6f12301a2dee065950c80bd06b9aa7f04f6",
+      "poster_sha256": "63e7eda78eca3a2b2d4f8e480951ca95db83e1d330216d4723ec57e6faa0d456"
+    },
+    "c-teen-tasks-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "f8e8c89cfe549f78fbd298c48f02a8b85fb7b02bdbb0fea9590f774b83e888b4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "30e3df2672035c09d59964dccc79207e28813ce106d551cf8e8fc9f835f0d6ab",
+      "poster_sha256": "4ebdd332f44b08def84e451274610abc87c0934c66a911e9c51b0dd9f3b81c44"
+    },
+    "c-teen-tasks-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "defceb0ef7544848ab1c7a7ba83c9d7a881c99e2caa90004ffd2675a9d720901",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "5a8394f382f58a3b5eb59792129cb369deb8449cb6057d69703d9dcb687d08ff",
+      "poster_sha256": "8a97ecc249b1cefc71b9bedb5e14ef812d6dd9b391ab8d686ff4223326803112"
+    },
+    "c-teen-tasks-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "dd224e524e858dd8b3dcfd6853d55816cf6083ae95eebb1964c9d9bd242e28c7",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "56df49bc1061cca213472cc728ade7dd623c9baa49ee734ced4fea735b504e18",
+      "poster_sha256": "1d5a2327ccb82a664fa60ed84f50aafc2cbef6a0871baadb158c7dff35ea3f89"
+    },
+    "c-teen-tasks-figma-05": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "4810fb2c1d1dbb61804cb4f1738c7a82e3b6041dbe322c9b43d3e5a484751fb4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "5ce4c694dca8ba7204c3e1b55ba8c31b02e433e600c00ce970523ab1ec006905",
+      "poster_sha256": "eb9be56b7bc8e4b45ff43c2301ae97577a10e37daea8fe37b44ef2a6b54e23a0"
+    },
+    "c-teen-tasks-figma-06": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "2d3b1f1fb2ce7bb17038d9dee41ed8d94c9e2afb2daf877045bb43ddeeadd032",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "1b397e80cbc5ce53f2905982eda31bf8cf86348d08b30328b1c9a933c710260b",
+      "poster_sha256": "4beb2029980a51ccbb2e9eab8fe8d78e24d8a2186360099a1fa2064fd15b4fad"
+    },
+    "c-teen-tasks-figma-07": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "c6054ed39131966fb09452f214fb0582689bf2afca9cf2b4d18ddb88ca3a2a3d",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "130261fbc88967ca49f92918e411db7d491b8c6360e7c89243897d784cb28d15",
+      "poster_sha256": "d505c9d9fc8cbd99514ec81d55550be792aafd27daadb716f79334c3746a4749"
+    },
+    "c-teen-tasks-figma-08": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "1e8b81ef1714e3d0eb4864026bac748b57fc61571f9510c0df812901c65e52f4",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "0323d5cb494890cda645f11c44a64b5573a196e31658741f8e4921153597a3e1",
+      "poster_sha256": "e7d50a6ba679b958d417601bd414f92d1a16a07a81d539363e7b6493713f2865"
+    },
+    "c-teen-tasks-figma-09": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "fc7936846c2a9a1ec78f3dea4aaf4c73c2ebdec32e99311c127824c118999fa1",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "6b9082b78e69230fc6a450f40cda9ba19890d03d43e63667731cabf49f6d4a38",
+      "poster_sha256": "cd1a745070dfd6c243a71fa9475220ca2d7d79052def284ed48a59fb72af41b2"
+    },
+    "c-teen-tasks-figma-10": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "5d256058a9816c8f0da9b248cbef0533d960987e412b16669b9a5c9c6eb3f0e7",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "cc16b1555fbdf3ac1bb519f314cb2cd51712c1eb23e2fbb317bacaf2b558139f",
+      "poster_sha256": "04e6e8221b3fb5f1d834f6c3981663581dff20f93f9c3fae8478ea6a2220dff6"
+    },
+    "c-teen-tasks-figma-11": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "26f7611275ed067fbcaf73fc0c5ff95171e51bafe01379701aa15998e9309460",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "e1d905f0f7956e60ddd58dd957c6cb3142d54b854c986b031c212a96f11477e8",
+      "poster_sha256": "60d1444baa460595637320239e2db491cacdc9e41328e9d1c6509d38fb19342a"
+    },
+    "c-teen-tasks-figma-12": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "69b6ec3e0b3b655b8d321ccd57f7be8f0435897326773de4d9184228526e77e9",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "9e870b5e6ae960013ed45ccb5769349556648fe2d494e398cae930ff7b4c9692",
+      "poster_sha256": "d0b7693ae0b2cb9cddd5f8a00a5af0a384b88e9f005acdff0e3a280c00dca69d"
+    },
+    "c-teen-tasks-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:48.116532+00:00",
+      "image_sha256": "232cde5e0d56214c266972c3aa5bee4f1a1ca8767246f6131fd540273402765d",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f60b8d9108469070e4f62a1ff63dfcf020a214e968da825ce574435381d8e4c0",
+      "poster_sha256": "80ef3bdff9c9e807be6aa12d8dae1a145ac80341a373022ec0af7061780394aa"
+    },
+    "c-teen-tasks-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:48.423030+00:00",
+      "image_sha256": "6f8a0ee298fb4b1b042c78d1e871988bb760077cffcaf02a03dd9e290f9d44cb",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "a74073d5fcc72ad3b44fb43beacfe793647d4279dae624bfccaea483a788dd4b",
+      "poster_sha256": "731d0b9f519ed68a61e975b7a650755b1211d629b76108075f4662e677820c67"
+    },
+    "c-teen-tasks-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:48.706389+00:00",
+      "image_sha256": "e58bfeace364a418238f6d5780c0bd9d181b64139b480f665525bfe4c12ccd5f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "63f54ce7d1ab046125c5d04d22bc0047696a2811774b2a096c839823d2c46c2f",
+      "poster_sha256": "04e646fddfd140f12dab1df1d11eca7ef4543abc1c3498f3337dafbf894ea65c"
+    },
+    "c-teen-tasks-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:49.364271+00:00",
+      "image_sha256": "13cff94b7c2c3c970d3106e8fab92e49253ba89d8412dcf6c00996dacd4f4145",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "625ab1d70d0967b31724f08ba7baf6517dc2e5c8b4e353f00cbbc9f33a242cb4",
+      "poster_sha256": "0ee9095d109759ec7dbc21bb211dbe744300502d8aba01c6846836de3b0d14cf"
+    },
+    "c-teen-tasks-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:50.382845+00:00",
+      "image_sha256": "2e62c475f512f3c85f99fd28e4b7d0c0a283d477182fdb410d48cba84d396e34",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "afded7847a068f060c66068f52d1ca6cf3a6cc331a84cc041c00ee387874813a",
+      "poster_sha256": "8bd8d404ab80fc760997af2cd46cf8d14ca3f727429eb816ba2aa5dff5676b93"
+    },
+    "c-teen-tasks-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:51.979091+00:00",
+      "image_sha256": "7307dd64ea22204e00c54625aa3bb60730c2bd88c84c412c8ca6386bf8015424",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "dd1ed7b92753655c56d5f9dab1e81217cc0953dfe7ea47bf6c77b8c9bf00ed3d",
+      "poster_sha256": "fe30ad2021f0297b3870bbbf83ddf855c22bb9cd42a8c756311403c16c20ca44"
+    },
+    "c-teen-tasks-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:52.302314+00:00",
+      "image_sha256": "51358e838166901cefe6e61e23498457792e26b33a42509dae6644fe3cc1edb7",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3cf880e983a05a3522116f06075248a3d31dcbb16b518387e50c329dc7ff6505",
+      "poster_sha256": "634c2baf951871696ec48743e5e1841984dd9feeeec2f1aec0b66c613e939665"
+    },
+    "c-teen-tasks-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:52.591133+00:00",
+      "image_sha256": "7131b4dc2047eddce2194ee8699f65d9b57466d0245245d231edbd85e57e522c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e06b67098141039aae734e41a8195ec1d37ce4554703e54be00965f2c70df897",
+      "poster_sha256": "6b77cf53c9c7e1b1e2fe9d7561adb89bdf691c4cbe2c2352c98efe65ed37c336"
+    },
+    "c-teen-tasks-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:39:52.788433+00:00",
+      "image_sha256": "13dc16a6b84625bcca1ab6bd245e020ff1ee1375e3680ce9d536d19629dfaf2b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "c748b7323a12c1225b5816362c2a9c42e9b5dcdd405260b3c24a6af1e5dd491d",
+      "poster_sha256": "1f141c08065e8265be9ec2a9f210ba2d8ff5aed1632dc8faba17c6e1f967cee5"
+    },
+    "c-teen-tasks-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:34.846207+00:00",
+      "image_sha256": "3ca0922dbfca652d427e4aa3faf07af26db42b90664c143363d380ffa53e761e",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d284ce3b622a747328cd76f131154dd890121a362bb60066677ca61a4963868a",
+      "poster_sha256": "55937e37c4a664e7ae3e59179fe6f2a40e127ba03a41b094327cfbd5e1d0f867"
+    },
+    "c-teen-tasks-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "c48bcc07c8e072de96d76a22fbadf8ec4e2d515cc68aee2f2bf290d061998032",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "899d0090ec1392d0ef815fcbd1e133d1ff4f48eeacb021c78ae6e584cc45f245",
+      "poster_sha256": "c4b172e67f77b4f1d8dac0071394d8c150c8717bf5eb55177c66df097007faa2"
+    },
+    "c-teen-tasks-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "42b6b795b286e52df8204dc2ff246923474cd7c7691737baac795581ace79089",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "e383e551fd8b6f8ff2179e7bd5fa346686a72a90967adc13690bdd866aeb924c",
+      "poster_sha256": "c28ef8b70c79f1cd35f0959145383df98f350716d267a8b5f5aaa44cd5c93546"
+    },
+    "c-teen-market-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "23f52081916d5a1b6ffa4f2956a04cc00067c853c17d27710499071e38cbd974",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "525e153ab838e7c773cca6858348895416d1861cb772129d1425e80dfb3a7a7f",
+      "poster_sha256": "3330e358f2a05989f95c4cd0f5f44c401d30ca1ffd56afb9c66830ad0de67ae0"
+    },
+    "c-teen-market-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "f847739a01e12e50376a2feb4d4c4b22682759dbb318149b3e54a2b80fe19b90",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "d39de3d960b8316e076a3bab2f5d44eb2c63cf81ebe60bc431bd09eae1829149",
+      "poster_sha256": "82f67fb9f197f5a854425304f6bb2450f70ac81e358c6eb66458862713b312d8"
+    },
+    "c-teen-market-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "57b4e9336f8e89d994c16ea94caa79515a97dc6770f141aa979adbc058c77f2e",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "15febce1b3af398ea0f769d77481aaec46b75964d6d1a5351f63aa516326ffaa",
+      "poster_sha256": "e2cc4d01ee25ecde15c4f44de73de664e140a9989a3037f116adaeea67f2373e"
+    },
+    "c-teen-market-figma-03": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "75294de096c35d3f3a05746a5c6b239c37f1adf86d128af2b0140ce0c3137ce8",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "3dbd77e6e2cec64fa979eb5f8068524310ad558b699fd908af54573eff4eb6f5",
+      "poster_sha256": "9de457e590a4a3ff44e15b951f25278fc3b0ebab7b94c88e2ac387fad9fb5c4b"
+    },
+    "c-teen-market-figma-04": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a5e80d28983f3cc20d598da70f1fff60a773b1c72a2464600d80e2e2c0f0b711",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "a06be9447dd801c93d0f8d05142a5f272d769af77d1a15d28eff5003606678dc",
+      "poster_sha256": "c445b28e66e8b4ee34db6389c40f670e384b6d60f7fe0f9594fcb8e24bac004d"
+    },
+    "c-teen-market-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:24.729963+00:00",
+      "image_sha256": "3bc05b8c38becb11aacd78b6881fcf22a1f1ea9c154515fcd07a2f924aa44a6a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6baabeaa5c44c69d37788a1aca669279670cb867f74a288686d561195427223a",
+      "poster_sha256": "e874f1716ac8f227f578cb508cb16fdd765f8a220f96f1994615cdee405c761e"
+    },
+    "c-teen-market-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:25.396068+00:00",
+      "image_sha256": "dce209a26c455aa50326d5dca36ca2c143957ebbf6a3fa241b671cfc9e0d01a5",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "bde0f9a1879b47f4b68d318c89b177d83f63cd4f73621e49445bed279f954c31",
+      "poster_sha256": "47961f934cefa3c98879f60ddd7c89f71cad9823bb13061655dedea5360d6f9f"
+    },
+    "c-teen-market-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:25.005641+00:00",
+      "image_sha256": "c49715c683db4cc7dccfc8d87dbd7b3a426f47999e1d7d472124da1f9eefae0f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "ed3dcc78150ef385add8ba38dc410a866b43f05532811b0a7c7ab5fb60b887fe",
+      "poster_sha256": "0a1c5672bb5b7a4e2f3d79f6b7d13703042ebb830e50703b96dc6490ef76880f"
+    },
+    "c-teen-market-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:28.887707+00:00",
+      "image_sha256": "51f15223b4c858b6fdd8e4792a57afeb50e70e3d4208d344d42a9b5f34fe2d0f",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d21c84bfe7f5f75f0aa2d94d60f0dbd344a0b38c43f8e493100e3971a5800b0b",
+      "poster_sha256": "9c32e467532813e2a714321d2ec5bcd7d92ea11efd08c19eb56a44b537c1a749"
+    },
+    "c-teen-market-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:29.301563+00:00",
+      "image_sha256": "5b65b5a7b9c7bf6cd7af708356b90e6ee0325690a8f99f110ce06247619ddcfd",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e4caf385f217fc90581f5662dff75febc9d209aba5519f05e44e1e92533d6827",
+      "poster_sha256": "eca7ab1a26eeeefed48f73f4e3bf0e997453552894bd7558010c2215b92ef4e8"
+    },
+    "c-teen-market-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:29.725583+00:00",
+      "image_sha256": "39cf330d5e0900ca053e47e866935b1f6770e6412d9128e92d94ddc3183c7297",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6d2a907be74467f99a72c8743452c331acae0cb328bc201aee4fd8c5563f9c51",
+      "poster_sha256": "ac61eabca2834b0bbdf472c3b220c7978bd59e0c4f56573aec4b0f4f955d5e5c"
+    },
+    "c-teen-market-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:24.286149+00:00",
+      "image_sha256": "e529e456bbaa3dfa15ef9fbb1202f484a7ebea13240b75f2dd95fd28db38778a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "960d899d02ad6d4027ca9d2517b5d8f574848bc0027729ed54bfa08b7b29d577",
+      "poster_sha256": "0f32f04e3f506f460095de7b5fbcb3c6b1c66e77bac96f3624f5e36e0847fca1"
+    },
+    "c-teen-market-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:24.387114+00:00",
+      "image_sha256": "6b33b6cc65a4925d48cf9c0dcbf44e168930d69a829e3b4e5690d7dbec4fbc43",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "9b8a1ba31f6497580c87ebe93f1f9fe273649eb95bda71deac3c4d05a9b1e1ce",
+      "poster_sha256": "79f0bfcf4fc51f7a88a2114ef10969b05fb352383132a39571bf8e5c779fd77e"
+    },
+    "c-teen-market-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "742c0deac7f8fca4ece65ad2e915509e534b28ed64c6b8e007bd62ddc48bb6af",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "bbea1f90d7c669372619f74a2c5a3349456f742de918b273d2e6df85b7a9d1c2",
+      "poster_sha256": "fbe63d54fa48ad42673e81cd3d12ba426a3a7bf262a1b0107002354319b7f1d4"
+    },
+    "c-teen-market-motion-01": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "65fe630450b8b0de2fa6d21d729a76c060c421c8a98d9bc8b2dd9f09cf954d45",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "3963aad3946adccf6e6b576b5ae4d0be14312835324e615576acbb2c70481e68",
+      "poster_sha256": "34541809746e2638e789fd936f4695c9adc1a3fddef9b991b898381df39cc76c"
+    },
+    "c-teen-profile-figma-00": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a3d5cf543ac0b6e21673f9d314580aa49beaf2d9ec842c0d3ac51ed5e2726ef9",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "f176845751e418917ad6c9c5ad315d78267e67e595b2406b82aba5dc6d301139",
+      "poster_sha256": "765399a8fdd4c996c42b662a29448d922a175d27b78fe669b9486dd35be63a56"
+    },
+    "c-teen-profile-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "a89bb42c89c6acfe119c26933e82ff6635d0f82e9b26b07f8dde0825b6a962c2",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "9e1fd0056ef01eb8c939fc89038b5e5123bbb09cfef548334194ae0a685dc308",
+      "poster_sha256": "54f169e33485b3b36b30a7c24a9646de1a04c4af88ff5d644e127ad696d32979"
+    },
+    "c-teen-profile-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:18.831985+00:00",
+      "image_sha256": "66e070ec49a226620a448fefccdef292210bbd6ef05c516deff418a79318ec95",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "deebdaf81195864abc9970b4d14cc1ce505fdfe238d7cab3ebd2f4b1f67151d6",
+      "poster_sha256": "b96a2f8d0ec007d9dcb8f920799fdb895bb2ff33c54ca42748ba08b104713bf6"
+    },
+    "c-teen-profile-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:19.145112+00:00",
+      "image_sha256": "8a7b31591e8b0782002cf38dfc06c77daa385a07eeb6942e3521c1b2cf4dfdd3",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b7aa2f9740826522f6572968a1b77947a877e6802fe308e83bdacbba63f90881",
+      "poster_sha256": "3432bebd032735220d4ed7f18b805678a89e62e960cab89b1bf6720635d95292"
+    },
+    "c-teen-profile-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:07.153243+00:00",
+      "image_sha256": "f936c43e1a21a4cdd482c9ec0f9a3d444e5a886b9f7c85435965552fe5b61c2b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "3852bc546ed8497b94e1bb3d213504fdde7f05c991cad39dde0b71dacd8b03b1",
+      "poster_sha256": "dc8cdcda219c6eb6d7eba4a16bb60f93c0e33310859765ffc95f63287b9ba5b2"
+    },
+    "c-teen-profile-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:10.733768+00:00",
+      "image_sha256": "66e070ec49a226620a448fefccdef292210bbd6ef05c516deff418a79318ec95",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "deebdaf81195864abc9970b4d14cc1ce505fdfe238d7cab3ebd2f4b1f67151d6",
+      "poster_sha256": "b96a2f8d0ec007d9dcb8f920799fdb895bb2ff33c54ca42748ba08b104713bf6"
+    },
+    "c-teen-profile-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:11.028923+00:00",
+      "image_sha256": "5bd1ba1922f2620b8906ae0a86e7745ec529462788d56b7d68bf4223454c0428",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "cadd643793b9ce7d5349de8fe568f346a204743e4130f1442594fb488479d485",
+      "poster_sha256": "99f68596831770fabb0ec485d4c5d969361629f21e50e4779400e14f30f3d3ef"
+    },
+    "c-teen-profile-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:37.957129+00:00",
+      "image_sha256": "a167ac87c567573803fb752031cb42ea4d1c35e01a18f32f70b9796fa0dcacde",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e3592266084515a0d0246e2c2873a7b8d94d5687871347ea6767ff364323958e",
+      "poster_sha256": "7af3b73a7f0b5f485574cba37872d58f024619de95ad403acb4e2cb544b3221a"
+    },
+    "c-teen-profile-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:38.147826+00:00",
+      "image_sha256": "c7b6fd7c1f07211ec7dc92d201a7a93e08e8670cf369cc347e266747ddd80c4d",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "41a963002b4e667892cdb1897339757d307c579e48cf03eb46a106a33f49958a",
+      "poster_sha256": "7dbdd7f95b2cb13e8d53f243d2e27140d03e675e3066bfb87109d77e960617ce"
+    },
+    "c-teen-profile-motion-00": {
+      "kind": "historical_capture",
+      "captured_at": null,
+      "image_sha256": "cd9b2dab7ce72256068869bd9657fb38b931d6aec7ab0accb44cec8dbb756a36",
+      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
+      "thumbnail_sha256": "08ae247e37db69c289edffd018148053fe6cb92929392f0e4435e1ceca9e8da5",
+      "poster_sha256": "fbd274e9f534066d1c7ad49b1b6bd870aaa0b114a9b6e2578fecff4efa0e8acc"
+    },
+    "c-variants-app-00": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.563464+00:00",
+      "image_sha256": "204908761d1cf66d09d7ffbe69322ac3540fe3d8cb20238fc454e8cc9dce0902",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "4443a09489fd8630ecd58dc4bb46441e15ed560fb33eea725cb8757cb86fa69e",
+      "poster_sha256": "5ec2e59d7580643868f464cc8f3ed0d5683b85f08e212178aecc93aa8f070081"
+    },
+    "c-variants-app-01": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.841555+00:00",
+      "image_sha256": "cedf5354c9bf593320f927e74d2b7a945765f93217ce15b3873a772edaec901c",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "61e7d97439429a187147337f71cfb9390e3f33c3c796ad885e13a0b76b100879",
+      "poster_sha256": "5986011de1e3772b19f345963d54d188c988d51dbba8052e14e0c2acdcfca8d0"
+    },
+    "c-variants-app-02": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:05.114222+00:00",
+      "image_sha256": "c2d282ecd6feab4895d6072628f5f7021f7c7b81cf654d5ed2f609dba28b5eb1",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6cede4b59eaa4938c1904750f5529647ab51e66e57ba8c32827908f2e7041072",
+      "poster_sha256": "25a08a6adbbe871b4e0e4f1c00ee03b1aec4e7e921df620c8d3d5fd81c44c052"
+    },
+    "c-variants-app-03": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.977116+00:00",
+      "image_sha256": "e27d21d81e503950b89f5d019958a4ee90a101b9085091e2ec08c1250315aa73",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "0f9ff119f02ec3d2296e21c4d785318dc5eaba5a7fb07a734342541cd15f735f",
+      "poster_sha256": "a8fa4542a9201fe450ce6e9c120fe0911d86c04849de855d49c4a28f8d805003"
+    },
+    "c-variants-app-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.704482+00:00",
+      "image_sha256": "884bd760249106831e83b96b5d34084c803f495faaf0dd0716e3dba6b120f3ee",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e16ebf89710c3a5f52ee718e9388b8320b37255ceadaeae6f54d47acd1884122",
+      "poster_sha256": "b80474072a2e744393fdbdbc4687ddad90df02a252508eee975aa85dd33bcabb"
+    },
+    "c-variants-app-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.484757+00:00",
+      "image_sha256": "43659a7d294d9b5ab8d10d3d030a277bdff3b3574da4a183e88d22148cc1cf3a",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "e3198fcc203de2ac7b563f1b9fb6e3610a77624decd3f5108ce3bc2c5b1e0c01",
+      "poster_sha256": "3a2a4bdfcf20643049eaa812035711b96d0bc295f0bfaa84c235af9ba31a5403"
+    },
+    "c-variants-app-06": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.599398+00:00",
+      "image_sha256": "c3b518be73f1acb8204124b236de5321bcc8e6c84fb28198370b4ff0338e5c2d",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6017438f30b94251de24eaa96d03fcfcbe00f08ab199e2bf1a720165a0a055a8",
+      "poster_sha256": "007559f32029f0e3bec2c7c85531e0d502e230d9b39cd1f0230bf693de57e6bb"
+    },
+    "c-variants-app-07": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:04.523611+00:00",
+      "image_sha256": "055bab3adc5b136248057a7cdea4227fa1b93902c6b8185411fbf27139305a49",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "6f6cdf0fb6a0a35c418aea274c1e6ceef2b2a9acaa009e2d80e7171a5b760f8f",
+      "poster_sha256": "445d4478ee4f3a9cf5df7cf12b3638d05bb5d75f6481d5b2687af3d69235b0c0"
+    },
+    "c-variants-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:01.440909+00:00",
+      "image_sha256": "0742078d5380cd7fb492dce570f7e9b3ad5c9c7b3712a4a83adbad6c3f159fbf",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "7bd8d88ba4518faf0794aa3be7127c2ca3fb8ff0b9e157a75eb2c227768febe6",
+      "poster_sha256": "1302380bdb80f12c44ab2e78540b018a8997395f42c640f7b61721b4c7d9029e"
+    },
+    "c-variants-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:33:01.136328+00:00",
+      "image_sha256": "1cc0791e37578d3c8871d3092bc127ea60296178a8f3d93dc791a2e1b6613313",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "27dc5d286345bf0c129d5934c8c0a446145b327d6746723f47c40f6dd30699b5",
+      "poster_sha256": "c273ea358715fa3cc2db3078e0c8b0836270632f7664c0df750fdc311b47e6b8"
+    },
+    "c-variants-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:38.424897+00:00",
+      "image_sha256": "eff5ad81b56ac04bc2c3c6576b6e06a8215715919a0e41552a3fddd3b0d177fa",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "98df79349cfae6e3c7064db587eea5def2d23de68ec47e0215424339b15b422f",
+      "poster_sha256": "ea5254097f4139c524ad3c65e307a968afa95635420855f8a7751cf3b59eb8c8"
+    },
+    "c-variants-app-11": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:45.907286+00:00",
+      "image_sha256": "10f143905aa97647b48a321d1099193ad2973f4df029b39005e6ae8ae7cb5fa1",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "015f073ade4584f6cdb7780d1b8af128fb7c3624e16abd7ddc3427f896bb03c0",
+      "poster_sha256": "91e2fdbddf677d86dd0263f98a724183192651a22e6d2a4f4b8c384391679b14"
+    },
+    "c-variants-app-12": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:50.011609+00:00",
+      "image_sha256": "9eb62c22b53dfe868d3079bf4b33610539db5d717daaa0dfc932fb2598c59a9b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b780f799a71cb0c1db759e6ac77f0293175bdbd65af7eff2dc6039e4c1052510",
+      "poster_sha256": "fbaca49bac9b0f69bae7b9d6239e84590030bf305fdf5462af6905986866ec67"
+    },
+    "c-variants-app-13": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:44:53.725983+00:00",
+      "image_sha256": "dda7679b70edbc25dd9378f5092c321f1ed6a0a23436ec1b546bc6800305d24b",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "a2fa7347c44e86252e8e5f2087c36de24bb82a858e62c2476144270153ed76fa",
+      "poster_sha256": "a28d46c35fbdb95733a55327af349771a902769ac05bba98915db06e56bb573d"
+    },
+    "c-variants-app-14": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:32.558645+00:00",
+      "image_sha256": "7e73c516f78f037b2e966046a7bce858dc580668d30d5c28690b887a2255f737",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "1961cdc73c1afbb73316fdadce35d546eb78daea4104b74584ae60e41d924ff1",
+      "poster_sha256": "dcf3f1d884fdbcf8451025e52b95b7e17b97036bcf2cfb2be5898faa1c7cc8f1"
+    },
+    "c-variants-app-15": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:31.666703+00:00",
+      "image_sha256": "01d5d78be3d5c469ce66a0fda57a196071f5759039f41939febe2e718a255e98",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "fbce4d815f2d4c7c1901367e2ee330ecfeae69c68d64901fc7bc6fa0e17a02de",
+      "poster_sha256": "25bdadb8d947ee8cd97cb914be0531d8e32386e75d8f12390f3fd7d8a032ea7c"
+    },
+    "c-variants-app-16": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-02T10:34:27.423140+00:00",
+      "image_sha256": "1426d8d9252bc497b6f323481d729b45df87d4843eab672da45947a01f257f26",
+      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "25d545623c077d98eb54ea035abc962662e7a0c0ff350d5f234e380863775406",
+      "poster_sha256": "606a918755c9078ee42cad525302e4a6c2fe7447cb6995355383d5780c4fdb30"
+    }
+  }
+}
