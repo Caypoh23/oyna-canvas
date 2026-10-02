@@ -1034,15 +1034,21 @@ lbx.addEventListener('click', e => { if (e.target === lbx) lbx.classList.remove(
 window.addEventListener('keydown', e => { if (e.key === 'Escape') lbx.classList.remove('on'); });
 board.addEventListener('click', e => { const chip = e.target.closest('[data-ev].chip, [data-scr].chip'); if (chip && !cam.moved) { e.stopPropagation(); ui.openFromChip(chip); } });
 
+// Pictures load by zoom; while the camera moves only the still posters do,
+// the thumbnails once it stops (nearest first), and a load left behind is
+// cancelled.
+function cancel(rec) { if (rec.pending) { rec.pending.onload = null; rec.pending.src = ''; rec.pending = null; } }
 function want(rec, lod) {
   if (lod === rec.lod) return;
-  if (lod <= 0) { rec.el.style.backgroundImage = ''; rec.el.querySelector('img')?.remove(); rec.lod = lod; return; }
+  if (lod <= 0) { cancel(rec); rec.el.style.backgroundImage = ''; rec.el.querySelector('img')?.remove(); rec.lod = lod; return; }
   if (rec.lod < 1) rec.el.style.backgroundImage = `url(../img/${rec.key}_s.webp)`;
   rec.lod = lod;
+  cancel(rec);
   if (lod === 1) { rec.el.querySelector('img')?.remove(); return; }
   const src = `../img/${rec.key}${lod === 3 ? '' : '_t'}.webp`;
   const img = new Image(); img.decoding = 'async'; img.alt = '';
-  img.onload = () => { if (rec.lod !== lod) return; rec.el.querySelector('img')?.remove(); rec.el.appendChild(img); };
+  img.onload = () => { rec.pending = null; if (rec.lod !== lod) return; rec.el.querySelector('img')?.remove(); rec.el.appendChild(img); };
+  rec.pending = img;
   img.src = src;
 }
 // Far out, each section title grows to stay readable (≈16 px on screen) but
@@ -1058,17 +1064,21 @@ function farLabels(s) {
   }
 }
 let lastLod = 0;
-function updateLod(s, force) {
-  const now = performance.now(); if (!force && now - lastLod < 110) return; lastLod = now;
+function updateLod(s, settled) {
+  const now = performance.now(); if (!settled && now - lastLod < 110) return; lastLod = now;
   const lod = s.z < 0.12 ? 0 : s.z < 0.36 ? 1 : s.z < 1.25 ? 2 : 3;
   board.classList.toggle('lod0', lod === 0);
   board.classList.toggle('far', s.z < 0.28);
   farLabels(s);
   const mw = (s.right - s.left) * 0.5, mh = (s.bottom - s.top) * 0.6;
+  const near = [];
   for (const r of SHOTS) {
-    const near = r.x < s.right + mw && r.x + r.w > s.left - mw && r.y < s.bottom + mh && r.y + r.h > s.top - mh;
-    if (near) want(r, lod); else if (r.lod >= 2) want(r, 1);
+    if (r.x < s.right + mw && r.x + r.w > s.left - mw && r.y < s.bottom + mh && r.y + r.h > s.top - mh) near.push(r);
+    else if (r.lod >= 2 || r.pending) want(r, 1);
   }
+  const cx = (s.left + s.right) / 2, cy = (s.top + s.bottom) / 2;
+  near.sort((a, b) => Math.hypot(a.x - cx, a.y - cy) - Math.hypot(b.x - cx, b.y - cy));
+  for (const r of near) want(r, settled ? lod : Math.min(lod, Math.max(r.lod, 1)));
   document.getElementById('zoomv').textContent = Math.round(s.z * 100) + '%';
 }
 cam.on('change', s => updateLod(s, false));

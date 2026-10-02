@@ -828,19 +828,26 @@ const cam = OynaCanvas.createCanvas({
 });
 
 // ── Pictures by zoom: none far out, still posters, thumbnails, full ─────
+// While the camera moves only the light still posters load; the thumbnails
+// (a looping animation can weigh 300 KB) and full pictures load once it
+// stops, nearest to the centre first, and a load the camera has left behind
+// is cancelled — a long flight never queues the pictures it flew past.
 const LOD_T = [0.13, 0.38, 1.25];
 function lodFor(z) { return z < LOD_T[0] ? 0 : z < LOD_T[1] ? 1 : z < LOD_T[2] ? 2 : 3; }
+function cancel(rec) { if (rec.pending) { rec.pending.onload = null; rec.pending.src = ''; rec.pending = null; } }
 function want(rec, lod) {
-  if (lod <= 0) { rec.el.style.backgroundImage = ''; if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; rec.lod = lod; return; }
+  if (lod <= 0) { cancel(rec); rec.el.style.backgroundImage = ''; if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; rec.lod = lod; return; }
   if (rec.lod < 1) rec.el.style.backgroundImage = `url(img/${rec.key}_s.webp)`;
   rec.lod = lod;
-  if (lod === 1) { if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; return; }
+  if (lod === 1) { cancel(rec); if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; return; }
   const src = lod === 3 ? `img/${rec.key}.webp` : `img/${rec.key}_t.webp`;
   if (rec.want === src) return;
+  cancel(rec);
   rec.want = src;
   const img = new Image();
   img.className = 'pic'; img.decoding = 'async'; img.alt = '';
-  img.onload = () => { if (rec.want !== src) return; if (rec.img) rec.img.remove(); rec.img = img; rec.el.prepend(img); };
+  img.onload = () => { rec.pending = null; if (rec.want !== src) return; if (rec.img) rec.img.remove(); rec.img = img; rec.el.prepend(img); };
+  rec.pending = img;
   img.src = src;
 }
 // Far out, each section title grows to stay readable (≈16 px on screen) but
@@ -856,9 +863,9 @@ function farLabels(s) {
   for (const h of sideHeads) h.el.style.transform = far ? `scale(${Math.max(1, Math.min(26, 0.5 * h.h * s.z) / (64 * s.z)).toFixed(3)})` : '';
 }
 let lastLod = 0;
-function updateLod(s, force) {
+function updateLod(s, settled) {
   const now = performance.now();
-  if (!force && now - lastLod < 110) return;
+  if (!settled && now - lastLod < 110) return;
   lastLod = now;
   const lod = lodFor(s.z);
   board.classList.toggle('lod0', lod === 0);
@@ -868,10 +875,18 @@ function updateLod(s, force) {
   const L = s.left - mw, R = s.right + mw, T = s.top - mh, B = s.bottom + mh;
   const hidden = { figma: document.body.classList.contains('hide-figma'), app: document.body.classList.contains('hide-app'),
     motion: document.body.classList.contains('hide-motion'), device: document.body.classList.contains('hide-device') };
+  const near = [];
   for (const rec of CARDS) {
-    const near = rec.x < R && rec.x + rec.w > L && rec.y < B && rec.y + rec.h > T && !hidden[rec.kind];
-    if (near) want(rec, lod);
-    else if (rec.lod >= 2) want(rec, 1);      // far from the view: keep only the poster
+    if (rec.x < R && rec.x + rec.w > L && rec.y < B && rec.y + rec.h > T && !hidden[rec.kind]) near.push(rec);
+    else if (rec.lod >= 2 || rec.pending) want(rec, 1);      // left behind: the poster only
+  }
+  const cx = (s.left + s.right) / 2, cy = (s.top + s.bottom) / 2;
+  const d = rec => Math.hypot(rec.x + rec.w / 2 - cx, rec.y + rec.h / 2 - cy);
+  near.sort((a, b) => d(a) - d(b));
+  for (const rec of near) {
+    // A looping animation is worth its weight only close enough to see it.
+    const target = rec.kind === 'motion' && lod === 2 && s.z < 0.45 ? 1 : lod;
+    want(rec, settled ? target : Math.min(target, Math.max(rec.lod, 1)));
   }
   document.getElementById('zoomv').textContent = Math.round(s.z * 100) + '%';
 }
