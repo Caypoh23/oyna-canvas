@@ -554,6 +554,16 @@
     }
 
     window.addEventListener('resize', () => { measure(); layoutMap(); render(); });
+    // The browser may scroll the clipped view by itself — a #hash target,
+    // ⌘F find-in-page, focus moving to a link on the board. That scroll
+    // becomes a camera move, so what is drawn and where the camera stands
+    // never disagree (a found word stays in sight).
+    view.addEventListener('scroll', () => {
+      const sx = view.scrollLeft, sy = view.scrollTop;
+      if (!sx && !sy) return;
+      view.scrollLeft = 0; view.scrollTop = 0;
+      stopAll(); tx -= sx; ty -= sy; render();
+    });
 
     measure();
     return {
@@ -745,11 +755,13 @@ function shotEl(parent, key, w, h, cls) {
   parent.appendChild(e);
   return e;
 }
+const head = id => board.querySelector(`[data-sec="${id}"]`);
 // A panel: white backdrop + kicker + title + subtitle; returns the content top.
 function panel(id, x, y, w, h, kicker, title, sub, color) {
   add('panel', x, y, w, h);
   const ph = add('ph', x + 40, y + 34, w - 80, null, `${kicker ? `<div class="k">${esc(kicker)}</div>` : ''}<div class="t">${esc(title)}</div>${sub ? `<div class="s">${sub}</div>` : ''}`);
-  ph.id = id;
+  // Not an id: a #hash would make the browser scroll the clipped view to it.
+  ph.dataset.sec = id;
   SECTIONS.push({ id, title, x, y, w, h, color: color || '#b9bcc4' });
   return ph;
 }
@@ -762,7 +774,7 @@ function measureH(e) { return e.offsetHeight; }
 // 1. Hero
 (() => {
   const h = add('ph hero', X0 + 10, Y, PW, null, `<div class="t">${esc(PLAN.meta.title)}</div><div class="s">${PLAN.meta.lead}</div>`);
-  h.id = 'top-hero';
+  h.dataset.sec = 'top-hero';
   const t = add('tiles', X0 + 10, Y + measureH(h) + 30, PW);
   const n = { live: 0, ready: 0, fix: 0, new: 0, server: 0 };
   PLAN.events.forEach(e => n[e.status] = (n[e.status] || 0) + 1);
@@ -926,7 +938,7 @@ PLAN.funnels.forEach((f, i) => funnel(f, i + 1));
 function docSection(s) {
   const top = Y;
   panel(s.id, X0, Y, PW, 1, s.kicker, s.title, s.sub);
-  let y = Y + 34 + document.getElementById(s.id).offsetHeight + 30;
+  let y = Y + 34 + head(s.id).offsetHeight + 30;
   const cols = s.cols || 2, cw = (PW - 120 - (cols - 1) * 26) / cols;
   const colY = Array(cols).fill(y);
   s.cards.forEach(c => {
@@ -949,7 +961,7 @@ function dictionary() {
   const cw = 380, gap = 26;
   const w = Math.max(PW, 120 + doms.length * (cw + gap));
   panel('events', X0, Y, w, 1, 'Словарь', PLAN.dictionary.title, PLAN.dictionary.sub);
-  let y0 = Y + 34 + document.getElementById('events').offsetHeight + 30;
+  let y0 = Y + 34 + head('events').offsetHeight + 30;
   let maxY = y0;
   doms.forEach((d, i) => {
     const x = X0 + 60 + i * (cw + gap);
@@ -977,7 +989,7 @@ function dictionary() {
 function screens() {
   const top = Y;
   panel('screens', X0, Y, PW, 1, 'Экраны', PLAN.screensSection.title, PLAN.screensSection.sub);
-  let y = Y + 34 + document.getElementById('screens').offsetHeight + 30;
+  let y = Y + 34 + head('screens').offsetHeight + 30;
   const per = Math.floor((PW - 120 + 26) / (230 + 26));
   for (const side of ['common', 'parent', 'child']) {
     const list = PLAN.screens.filter(s => (s.group || s.side) === side);
@@ -1038,7 +1050,7 @@ function want(rec, lod) {
 function farLabels(s) {
   const far = s.z < 0.28;
   for (const sec of SECTIONS) {
-    const t = sec.labelEl || (sec.labelEl = document.querySelector(`#${CSS.escape(sec.id)} .t`));
+    const t = sec.labelEl || (sec.labelEl = head(sec.id)?.querySelector('.t'));
     if (!t) continue;
     if (!far) { t.style.transform = ''; continue; }
     const px = Math.min(17, 0.7 * sec.h * s.z), k = Math.max(1, px / (38 * s.z));

@@ -556,6 +556,16 @@
     }
 
     window.addEventListener('resize', () => { measure(); layoutMap(); render(); });
+    // The browser may scroll the clipped view by itself — a #hash target,
+    // ⌘F find-in-page, focus moving to a link on the board. That scroll
+    // becomes a camera move, so what is drawn and where the camera stands
+    // never disagree (a found word stays in sight).
+    view.addEventListener('scroll', () => {
+      const sx = view.scrollLeft, sy = view.scrollTop;
+      if (!sx && !sy) return;
+      view.scrollLeft = 0; view.scrollTop = 0;
+      stopAll(); tx -= sx; ty -= sy; render();
+    });
 
     measure();
     return {
