@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OYNA — аналитика: события, воронки, метрики</title>
+<style>
+  :root {
+    --bg: #e9e9ec; --ink: #16181d; --muted: #6b7078; --line: #d5d6db; --card: #fff;
+    --parent: #ff8a1f; --parent-bg: #fff4e8; --child: #19a3c4; --child-bg: #e6f7fb; --sys: #8a8f99; --sys-bg: #f1f1f4;
+    --live: #1f8a4c; --fix: #c77700; --new: #2f6fde; --server: #7444c4; --side-w: 280px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); overscroll-behavior: none;
+    font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; color: var(--ink); touch-action: manipulation; }
+  #top { position: fixed; inset: 0 0 auto 0; height: 58px; background: #fff; border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; gap: 12px; padding: 0 14px; z-index: 20; overflow-x: auto; scrollbar-width: none; }
+  #top::-webkit-scrollbar { display: none; }
+  .tabs { display: flex; gap: 2px; background: #f1f1f4; border-radius: 10px; padding: 3px; flex: none; }
+  .tabs a { text-decoration: none; color: var(--ink); font-size: 13px; padding: 6px 11px; border-radius: 8px; white-space: nowrap; }
+  .tabs a.on { background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.12); font-weight: 600; }
+  .tabs a:not(.on):hover { background: #e6e6ea; }
+  .grow { flex: 1; min-width: 12px; }
+  .btn { border: 1px solid var(--line); background: #fff; border-radius: 9px; height: 32px; min-width: 32px; padding: 0 10px;
+    cursor: pointer; font: inherit; font-size: 13px; color: var(--ink); white-space: nowrap; flex: none; text-decoration: none; display: inline-flex; align-items: center; }
+  .btn:hover { background: #f4f4f6; }
+  .zoom { display: flex; align-items: center; gap: 4px; flex: none; }
+  #zoomv { min-width: 58px; justify-content: center; font-variant-numeric: tabular-nums; }
+  #q { height: 32px; border: 1px solid var(--line); border-radius: 9px; padding: 0 10px; width: 230px; font: inherit; flex: none; }
+  #menu { display: none; }
+  .meta { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  #side { position: fixed; left: 0; top: 58px; bottom: 0; width: var(--side-w); background: #fff; border-right: 1px solid var(--line);
+    overflow: auto; z-index: 15; padding: 10px 0 30px; overscroll-behavior: contain; }
+  #side h2 { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 16px 16px 6px; }
+  #side a { display: flex; justify-content: space-between; gap: 8px; padding: 6px 16px; color: var(--ink); text-decoration: none; font-size: 13px; border-left: 3px solid transparent; }
+  #side a:hover { background: #f4f4f6; }
+  #side a.on { background: #f1f1f4; border-left-color: #16181d; font-weight: 600; }
+  #side a .n { color: var(--muted); font-size: 12px; font-weight: 400; white-space: nowrap; }
+  #side .sbox { margin: 8px 12px; padding: 10px 12px; border-radius: 10px; background: #f6f6f8; font-size: 12.5px; }
+  #side .sbox b { display: block; margin-bottom: 5px; }
+  #side .sbox .lg { display: flex; align-items: center; gap: 7px; margin: 3px 0; }
+  #side .sbox a { display: inline; padding: 0; border: 0; color: #2f6fde; font-weight: 600; }
+  #side .dl { display: flex; gap: 6px; margin: 8px 12px; }
+  #side .dl .btn { flex: 1; justify-content: center; }
+  #hits { margin: 0 12px; }
+  #hits a { padding: 4px 6px; border-left: 0; font: 600 12.5px/1.3 ui-monospace, "SF Mono", Menlo, monospace; }
+  #hits a span { font: 400 12px -apple-system, system-ui, sans-serif; color: var(--muted); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+  #view { position: fixed; left: var(--side-w); top: 58px; right: 0; bottom: 0; overflow: hidden; cursor: grab; touch-action: none; }
+  #view.drag { cursor: grabbing; }
+  #board { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  #board.moving { will-change: transform; }
+  .abs { position: absolute; }
+  .panel { position: absolute; background: rgba(255,255,255,.62); border: 1px solid rgba(0,0,0,.05); border-radius: 30px; }
+  .ph { position: absolute; }
+  .ph .k { font-size: 15px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+  .ph .t { font-size: 38px; font-weight: 800; letter-spacing: -.015em; line-height: 1.15; transform-origin: 0 0; display: inline-block; }
+  .ph .s { font-size: 18px; color: #4a4f57; margin-top: 8px; max-width: 1700px; line-height: 1.45; }
+  #board.far .ph .t { background: rgba(255,255,255,.93); border-radius: 12px; padding: 2px 12px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  #board.far .hero { visibility: hidden; }
+  #board.far .ph .s, #board.far .ph .k, #board.far .txt { visibility: hidden; }
+  .hero .t { font-size: 76px; font-weight: 850; letter-spacing: -.025em; }
+  .hero .s { font-size: 24px; color: #4a4f57; margin-top: 10px; max-width: 2100px; line-height: 1.4; }
+  .tiles { position: absolute; display: flex; gap: 18px; flex-wrap: wrap; }
+  .tile { background: #fff; border-radius: 22px; padding: 18px 22px; min-width: 250px; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+  .tile .k { font-size: 14px; color: var(--muted); }
+  .tile .v { font-size: 40px; font-weight: 780; margin-top: 2px; line-height: 1.1; }
+  .tile .r { font-size: 14px; margin-top: 6px; color: #3b3f46; }
+  .tile .r b { font-weight: 650; }
+  .card { position: absolute; background: #fff; border-radius: 20px; box-shadow: 0 1px 2px rgba(0,0,0,.07), 0 6px 22px rgba(0,0,0,.06); }
+  .doc { padding: 24px 28px; font-size: 16px; line-height: 1.5; overflow: hidden; }
+  .doc h3 { font-size: 22px; margin: 0 0 10px; letter-spacing: -.01em; }
+  .doc h4 { font-size: 13px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 16px 0 6px; }
+  .doc p { margin: 0 0 8px; } .doc ul { margin: 4px 0 8px 20px; padding: 0; } .doc li { margin: 4px 0; }
+  .doc table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 4px; }
+  .doc th { text-align: left; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding: 6px 10px 6px 0; border-bottom: 1px solid #e3e3e8; }
+  .doc td { padding: 8px 10px 8px 0; border-bottom: 1px solid #efeff2; vertical-align: top; }
+  .doc code, .mono { font: 14px/1.45 ui-monospace, "SF Mono", Menlo, monospace; background: #f3f3f6; border-radius: 6px; padding: 1px 6px; word-break: break-all; }
+  .doc pre { font: 13.5px/1.5 ui-monospace, "SF Mono", Menlo, monospace; background: #16181d; color: #e8eaf0; border-radius: 12px; padding: 12px 14px; white-space: pre-wrap; word-break: break-all; margin: 6px 0 10px; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 11px; border-radius: 99px; background: #f1f1f4; color: #3b3f46; white-space: nowrap; }
+  .pill.parent { background: var(--parent-bg); color: #b25a00; } .pill.child { background: var(--child-bg); color: #10708a; }
+  .pill.live { background: #e3f6ea; color: var(--live); } .pill.ready { background: #dcf5f1; color: #0f766e; } .pill.fix { background: #fff1db; color: #a35f00; } .pill.new { background: #e6eeff; color: #2f5fc4; } .pill.server { background: #f2e9ff; color: var(--server); }
+  .chip { display: inline-flex; align-items: center; gap: 6px; font: 650 14px/1 ui-monospace, "SF Mono", Menlo, monospace; color: #fff;
+    background: #16181d; border-radius: 9px; padding: 7px 10px; cursor: pointer; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+  .chip:hover { background: #33363d; }
+  .chip i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .chip.scr { background: #fff; color: #3b3f46; border: 1px solid #d5d6db; font-family: inherit; font-weight: 600; }
+  .chip.live i { background: #4cd38a; } .chip.ready i { background: #2dd4bf; } .chip.fix i { background: #ffb547; } .chip.new i { background: #7aa7ff; } .chip.server i { background: #c69cff; }
+  .lane { position: absolute; border-radius: 22px; }
+  .lane.parent { background: var(--parent-bg); } .lane.child { background: var(--child-bg); } .lane.system { background: var(--sys-bg); }
+  .lane-l { position: absolute; font-size: 18px; font-weight: 800; writing-mode: vertical-rl; transform: rotate(180deg); letter-spacing: .04em; text-transform: uppercase; display: flex; align-items: center; justify-content: center; }
+  .lane-l.parent { color: #c46400; } .lane-l.child { color: #0e7f9a; } .lane-l.system { color: #6b7078; }
+  .step { position: absolute; }
+  .step .no { display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #16181d; color: #fff; font-weight: 750; font-size: 15px; align-items: center; justify-content: center; margin-right: 8px; vertical-align: middle; }
+  .step .lbl { font-size: 18px; font-weight: 720; line-height: 1.25; min-height: 46px; display: flex; align-items: flex-start; }
+  .step .shot { position: relative; width: 200px; border-radius: 18px; overflow: hidden; background: #e4e4e9 center top / cover no-repeat; box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 6px 20px rgba(0,0,0,.1); margin: 8px 0 10px; cursor: zoom-in; }
+  .step .shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .step .shot.ext { display: flex; align-items: center; justify-content: center; text-align: center; padding: 18px; font-size: 16px; font-weight: 650; color: #3b3f46; cursor: default;
+    background: repeating-linear-gradient(-45deg, #f5f5f8, #f5f5f8 12px, #ececf1 12px, #ececf1 24px); }
+  .step .flt { font-size: 13.5px; color: #4a4f57; margin-top: 6px; line-height: 1.35; }
+  .step .flt code { font-size: 12.5px; }
+  .fnote { position: absolute; font-size: 16px; line-height: 1.5; color: #3b3f46; }
+  .fnote b { color: var(--ink); }
+  .fmeta { position: absolute; display: flex; gap: 8px; flex-wrap: wrap; }
+  svg.arrows { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+  .ev { position: absolute; width: 380px; padding: 14px 16px 14px; cursor: pointer; }
+  .ev:hover { box-shadow: 0 0 0 3px #16181d, 0 8px 26px rgba(0,0,0,.12); }
+  .ev .nm { font: 700 16px/1.25 ui-monospace, "SF Mono", Menlo, monospace; word-break: break-all; }
+  .ev .ti { font-size: 14px; color: #3b3f46; margin-top: 3px; }
+  .ev .wh { font-size: 13px; color: var(--muted); margin-top: 6px; line-height: 1.4; max-height: 3.9em; overflow: hidden; }
+  .ev .tg { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .ev .tg .pill { font-size: 11.5px; padding: 3px 8px; }
+  .ev.dim, .step.dim, .stile.dim { opacity: .14; }
+  .col-h { position: absolute; font-size: 20px; font-weight: 780; }
+  .col-h small { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-top: 2px; }
+  .box { position: absolute; background: #fff; border-radius: 18px; padding: 16px 18px; box-shadow: 0 1px 2px rgba(0,0,0,.07), 0 6px 22px rgba(0,0,0,.06); font-size: 15px; line-height: 1.4; }
+  .box b { display: block; font-size: 18px; margin-bottom: 6px; }
+  .box .em { font-size: 26px; margin-bottom: 6px; display: block; }
+  .box small { display: block; color: var(--muted); font-size: 13.5px; margin-top: 6px; }
+  .box.parent { border-top: 6px solid var(--parent); } .box.child { border-top: 6px solid var(--child); } .box.tool { border-top: 6px solid #16181d; }
+  .box.store { border-top: 6px solid #7b61ff; } .box.server { border-top: 6px solid var(--server); }
+  .nsm { position: absolute; background: #16181d; color: #fff; border-radius: 26px; padding: 26px 30px; }
+  .nsm .k { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: #9ea4ae; }
+  .nsm .v { font-size: 34px; font-weight: 800; margin-top: 6px; line-height: 1.2; }
+  .nsm .d { font-size: 17px; color: #d5d8de; margin-top: 10px; line-height: 1.45; }
+  .met { position: absolute; padding: 14px 16px; }
+  .met .nm { font-size: 17px; font-weight: 720; }
+  .met .fm { font-size: 14px; color: #3b3f46; margin-top: 5px; line-height: 1.4; }
+  .met .src { margin-top: 8px; display: flex; gap: 5px; flex-wrap: wrap; }
+  .met .src .chip { font-size: 12px; padding: 5px 8px; }
+  .stile { position: absolute; width: 230px; }
+  .stile .shot { width: 230px; height: 400px; border-radius: 18px; overflow: hidden; background: #e4e4e9 center top / cover no-repeat; position: relative; box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 6px 20px rgba(0,0,0,.1); cursor: pointer; }
+  .stile .shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .stile .nm { font: 700 15px/1.3 ui-monospace, "SF Mono", Menlo, monospace; margin-top: 10px; word-break: break-all; }
+  .stile .ti { font-size: 14px; color: #3b3f46; margin-top: 2px; }
+  .stile .cnt { font-size: 13px; color: var(--muted); margin-top: 3px; }
+  #board.lod0 .shot { background-image: none !important; } #board.lod0 .shot img { display: none; }
+  #lbx { position: fixed; inset: 0; background: rgba(12,13,16,.95); z-index: 55; display: none; align-items: center; justify-content: center; flex-direction: column; gap: 10px; color: #fff; }
+  #lbx.on { display: flex; }
+  #lbx img { max-height: calc(100vh - 110px); max-width: 92vw; border-radius: 16px; }
+  #lbx .bar { display: flex; gap: 10px; align-items: center; }
+  #lbx .bar .btn { background: #26282e; color: #fff; border-color: #3a3d45; }
+  #help { position: fixed; left: calc(var(--side-w) + 12px); bottom: 12px; background: rgba(255,255,255,.94); border: 1px solid var(--line);
+    border-radius: 10px; padding: 7px 11px; font-size: 12px; color: var(--muted); z-index: 18; max-width: calc(100vw - var(--side-w) - 220px); }
+  #help b { color: var(--ink); font-weight: 600; }
+  #help #helpX { float: right; border: 0; background: none; color: var(--muted); cursor: pointer; margin: -2px -4px 0 8px; font-size: 13px; }
+  body.nohelp #help { display: none; }
+  @media (max-width: 760px) {
+    :root { --side-w: 0px; }
+    #menu { display: inline-flex; }
+    #side { width: 84vw; max-width: 330px; transform: translateX(-102%); transition: transform .2s; box-shadow: 0 0 40px rgba(0,0,0,.2); }
+    body.side-open #side { transform: none; }
+    #q, .meta { display: none; }
+    #help { display: none; }
+  }
+</style>
+</head>
+<body>
+<div id="top">
+  <button class="btn" id="menu" title="Разделы">☰</button>
+  <nav class="tabs"><a href="../">Экраны</a><a href="./" class="on">Аналитика</a><a href="../foksik/">Фоксик</a></nav>
+  <input id="q" placeholder="Найти событие: quest, paywall, child…">
+  <div class="meta" id="meta"></div>
+  <div class="grow"></div>
+  <div class="zoom">
+    <button class="btn" id="zOut" title="Отдалить (−)">−</button>
+    <button class="btn" id="zoomv" title="Масштаб 100 % (1)">100%</button>
+    <button class="btn" id="zIn" title="Приблизить (+)">+</button>
+    <button class="btn" id="fit" title="Показать всё (0)">Вписать</button>
+    <button class="btn" id="helpB" title="Как двигаться">?</button>
+  </div>
+</div>
+<nav id="side"></nav>
+<div id="view"><div id="board"></div></div>
+<div id="map"></div>
+<div id="help"><button id="helpX" title="Скрыть">✕</button><b>Двигать:</b> тащить мышью, колесо, два пальца, стрелки, PgUp/PgDn · <b>Масштаб:</b> щипок, ⌘/Ctrl + колесо, + −, двойной клик · <b>0</b> — всё, <b>1</b> — 100 % · клик по событию — описание</div>
+<div id="lbx"><div class="bar"><b id="lbxT"></b><button class="btn" id="lbxX">✕</button></div><img id="lbxI" alt=""></div>
+<script>
+/* OYNA canvas engine — one way to move around every canvas page.
+ *
+ * Mouse and trackpad: drag or scroll to move (Shift + wheel moves sideways),
+ * pinch or ⌘/Ctrl + wheel to zoom at the cursor, double-click to zoom in
+ * (Alt — out). Phone/tablet: one finger moves (with a glide), two fingers
+ * pinch and move, double tap zooms in. Keys: arrows, PgUp/PgDn/Space,
+ * Home/End, + − (also with ⌘), 0 fits the board, 1 is 100 %.
+ *
+ * The board can't be thrown away: at least half the view (or the whole
+ * board when it is smaller) always stays on it. While the board moves it is
+ * one composited layer; once it settles the page gets a "settle" call so it
+ * can swap pictures for the zoom (level of detail) and the URL keeps the
+ * place (#@x,y,z — a link opens the same spot).
+ */
+(function (global) {
+  'use strict';
+
+  const CSS = `
+  .cv-map { position: fixed; right: 12px; bottom: 46px; z-index: 18; background: rgba(255,255,255,.9); transition: background .15s;
+    border: 1px solid #d5d6db; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,.08); padding: 8px;
+    user-select: none; -webkit-user-select: none; touch-action: none; }
+  .cv-map .cv-head { display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    font: 600 11px/1 -apple-system, system-ui, sans-serif; color: #6b7078; letter-spacing: .06em;
+    text-transform: uppercase; margin: 0 0 6px; }
+  .cv-map .cv-head button { border: 0; background: none; color: #6b7078; cursor: pointer; font: inherit; padding: 2px 4px; }
+  .cv-map.min .cv-body { display: none; } .cv-map.min .cv-head { margin: 0; }
+  .cv-body { position: relative; display: flex; gap: 6px; cursor: pointer; }
+  .cv-map:hover { background: rgba(255,255,255,.98); }
+  .cv-labels { position: relative; width: 96px; flex: none; }
+  .cv-labels div { position: absolute; right: 0; max-width: 96px; font: 500 10px/1.15 -apple-system, system-ui, sans-serif; cursor: pointer;
+    color: #3b3f46; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transform: translateY(-50%); }
+  .cv-labels div.on { color: #000; font-weight: 700; }
+  .cv-mapbox { position: relative; flex: none; background: #f1f1f4; border-radius: 6px; overflow: hidden; }
+  .cv-mapbox i { position: absolute; display: block; border-radius: 2px; opacity: .85; }
+  .cv-vp { position: absolute; border: 2px solid #16181d; border-radius: 3px; background: rgba(22,24,29,.08);
+    box-shadow: 0 0 0 9999px rgba(255,255,255,.0); pointer-events: none; }
+  @media (max-width: 760px) { .cv-map { display: none; } }
+  `;
+
+  function createCanvas(opts) {
+    const view = opts.view, board = opts.board;
+    const Z_MAX = opts.zMax || 3;
+    const zMinFixed = opts.zMin || 0;
+    let z = 1, tx = 0, ty = 0, W = 1, H = 1;
+    let frame = 0, settleTimer = 0;
+    let moved = false;
+    const on = { change: [], settle: [] };
+
+    if (!document.getElementById('cv-style')) {
+      const st = document.createElement('style'); st.id = 'cv-style'; st.textContent = CSS; document.head.appendChild(st);
+    }
+
+    const vw = () => view.clientWidth, vh = () => view.clientHeight;
+    function measure() { W = Math.max(1, board.offsetWidth); H = Math.max(1, board.offsetHeight); }
+    function fitZoom() { return Math.min((vw() - 48) / W, (vh() - 48) / H); }
+    function zMin() { return zMinFixed || Math.min(0.1, fitZoom() * 0.9); }
+    const clampZ = v => Math.min(Z_MAX, Math.max(zMin(), v));
+
+    // Half the view (or the whole board, when it is smaller) stays on the board.
+    function clampXY() {
+      const bw = W * z, bh = H * z, w = vw(), h = vh();
+      const kx = Math.min(bw, w * 0.5), ky = Math.min(bh, h * 0.5);
+      tx = Math.min(Math.max(tx, kx - bw), w - kx);
+      ty = Math.min(Math.max(ty, ky - bh), h - ky);
+    }
+
+    function render() {
+      clampXY();
+      board.classList.add('moving');
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(() => { board.classList.remove('moving'); emit('settle'); saveHash(); }, 170);
+      if (!frame) frame = requestAnimationFrame(flush);
+    }
+    function flush() {
+      frame = 0;
+      board.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`;
+      emit('change');
+    }
+    function state() {
+      const w = vw(), h = vh();
+      return { z, tx, ty, w, h, W, H, left: -tx / z, top: -ty / z, right: (w - tx) / z, bottom: (h - ty) / z };
+    }
+    function emit(kind) { const s = state(); on[kind].forEach(fn => fn(s)); }
+
+    // ── Zoom ────────────────────────────────────────────────────────────
+    function zoomAt(f, cx, cy) {
+      const nz = clampZ(z * f);
+      tx = cx - (cx - tx) * (nz / z); ty = cy - (cy - ty) * (nz / z); z = nz; render();
+    }
+    // Wheel notches, buttons and keys ease toward one target (≈ 0.15 s); a
+    // pinch feeds zoomAt directly so the board follows the fingers.
+    let zTarget = null, zAnchor = [0, 0], zLoop = 0;
+    function zoomSmooth(f, cx, cy) {
+      stopTween();
+      zTarget = clampZ((zTarget ?? z) * f); zAnchor = [cx, cy];
+      if (zLoop) return;
+      const step = () => {
+        const d = zTarget / z;
+        if (Math.abs(d - 1) < 0.003) { zoomAt(d, zAnchor[0], zAnchor[1]); zTarget = null; zLoop = 0; return; }
+        zoomAt(Math.pow(d, 0.33), zAnchor[0], zAnchor[1]);
+        zLoop = requestAnimationFrame(step);
+      };
+      zLoop = requestAnimationFrame(step);
+    }
+    function stopZoom() { cancelAnimationFrame(zLoop); zLoop = 0; zTarget = null; }
+
+    // ── Tweens (fit, go to a section, page keys) ────────────────────────
+    let tween = 0;
+    function stopTween() { cancelAnimationFrame(tween); tween = 0; }
+    function stopAll() { stopTween(); stopZoom(); stopGlide(); }
+    // Moves so the board point (bx, by) sits at the view point (vx, vy) at zoom nz.
+    function flyTo(bx, by, nz, vx, vy, ms) {
+      stopAll();
+      nz = clampZ(nz);
+      const w = vw(), h = vh();
+      vx = vx ?? w / 2; vy = vy ?? h / 2;
+      const c0 = { x: (vx - tx) / z, y: (vy - ty) / z }, z0 = z;
+      if (!ms) { z = nz; tx = vx - bx * z; ty = vy - by * z; render(); return; }
+      const t0 = performance.now();
+      const ease = t => 1 - Math.pow(1 - t, 3);
+      const step = now => {
+        const t = Math.min(1, (now - t0) / ms), e = ease(t);
+        z = Math.exp(Math.log(z0) + (Math.log(nz) - Math.log(z0)) * e);
+        const cx = c0.x + (bx - c0.x) * e, cy = c0.y + (by - c0.y) * e;
+        tx = vx - cx * z; ty = vy - cy * z; render();
+        tween = t < 1 ? requestAnimationFrame(step) : 0;
+      };
+      tween = requestAnimationFrame(step);
+    }
+    function panBy(dx, dy, ms) {
+      if (!ms) { stopAll(); tx += dx; ty += dy; render(); return; }
+      const w = vw(), h = vh();
+      flyTo((w / 2 - tx - dx) / z, (h / 2 - ty - dy) / z, z, w / 2, h / 2, ms);
+    }
+    // Fits a board rectangle (with padding) into the view.
+    function fitRect(r, ms, maxZ) {
+      measure();
+      const pad = 28, w = vw(), h = vh();
+      const nz = Math.min(maxZ || 1, (w - pad * 2) / r.w, (h - pad * 2) / r.h);
+      flyTo(r.x + r.w / 2, r.y + r.h / 2, nz, w / 2, h / 2, ms);
+    }
+    function fit(ms) { measure(); fitRect({ x: 0, y: 0, w: W, h: H }, ms, 1); }
+    // Shows the top of a board area at a readable zoom, left-aligned.
+    function goTo(x, y, nz, ms) {
+      const w = vw();
+      nz = clampZ(nz || Math.max(z, 0.45));
+      flyTo(x, y, nz, 24, 20, ms ?? 380);
+      void w;
+    }
+    function goTop(ms) { flyTo((vw() / 2 - tx) / z, 0, z, vw() / 2, 20, ms ?? 320); }
+    function goBottom(ms) { flyTo((vw() / 2 - tx) / z, H, z, vw() / 2, vh() - 20, ms ?? 320); }
+
+    // ── Pointers: mouse drag, one-finger pan, two-finger pinch ──────────
+    const pts = new Map();
+    let pan = null, pinch = null;
+    let samples = [];
+    let glide = 0;
+    function stopGlide() { cancelAnimationFrame(glide); glide = 0; }
+    function startGlide() {
+      const now = performance.now();
+      samples = samples.filter(s => now - s.t < 90);
+      if (samples.length < 2) return;
+      const a = samples[0], b = samples[samples.length - 1], dt = Math.max(1, b.t - a.t);
+      let vx = (b.x - a.x) / dt, vy = (b.y - a.y) / dt;   // px per ms
+      if (Math.hypot(vx, vy) < 0.25) return;
+      let last = performance.now();
+      const step = now2 => {
+        const dt2 = Math.min(40, now2 - last); last = now2;
+        tx += vx * dt2; ty += vy * dt2; render();
+        const k = Math.pow(0.94, dt2 / 16); vx *= k; vy *= k;
+        glide = Math.hypot(vx, vy) > 0.02 ? requestAnimationFrame(step) : 0;
+      };
+      glide = requestAnimationFrame(step);
+    }
+    function two() { const [a, b] = [...pts.values()]; return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, d: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)) }; }
+    function startPinch() {
+      const s = two(), r = view.getBoundingClientRect();
+      pinch = { d0: s.d, z0: z, bx: (s.x - r.left - tx) / z, by: (s.y - r.top - ty) / z };
+      pan = null; moved = true;
+    }
+    function startPan(x, y) { pan = { sx: x, sy: y, tx, ty }; samples = [{ x, y, t: performance.now() }]; }
+
+    let lastTap = { t: 0, x: 0, y: 0 };
+    view.addEventListener('pointerdown', e => {
+      if (e.pointerType === 'mouse' && e.button !== 0 && e.button !== 1) return;
+      if (opts.ignoreDown && opts.ignoreDown(e)) return;
+      stopAll();
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY, type: e.pointerType });
+      if (pts.size === 1) { moved = false; startPan(e.clientX, e.clientY); }
+      else if (pts.size === 2) startPinch();
+      if (e.button === 1) e.preventDefault();
+    });
+    window.addEventListener('pointermove', e => {
+      const p = pts.get(e.pointerId);
+      if (!p) return;
+      p.x = e.clientX; p.y = e.clientY;
+      if (pts.size >= 2 && pinch) {
+        const s = two(), r = view.getBoundingClientRect();
+        z = clampZ(pinch.z0 * s.d / pinch.d0);
+        tx = (s.x - r.left) - pinch.bx * z; ty = (s.y - r.top) - pinch.by * z; render();
+        return;
+      }
+      if (!pan) return;
+      const dx = e.clientX - pan.sx, dy = e.clientY - pan.sy;
+      if (!moved && Math.hypot(dx, dy) > (p.type === 'touch' ? 8 : 4)) { moved = true; view.classList.add('drag'); }
+      if (moved) {
+        tx = pan.tx + dx; ty = pan.ty + dy; render();
+        samples.push({ x: e.clientX, y: e.clientY, t: performance.now() });
+        if (samples.length > 8) samples.shift();
+      }
+    });
+    function up(e) {
+      const p = pts.get(e.pointerId);
+      if (!p) return;
+      pts.delete(e.pointerId);
+      if (pts.size === 1) { const q = [...pts.values()][0]; pinch = null; startPan(q.x, q.y); pan.tx = tx; pan.ty = ty; return; }
+      if (pts.size) return;
+      view.classList.remove('drag');
+      if (moved && p.type === 'touch' && e.type === 'pointerup' && !pinch) startGlide();
+      // A double tap on a phone zooms in where it landed.
+      if (!moved && p.type === 'touch' && e.type === 'pointerup') {
+        const now = performance.now();
+        if (now - lastTap.t < 320 && Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 30) {
+          const r = view.getBoundingClientRect();
+          zoomSmooth(2, e.clientX - r.left, e.clientY - r.top); lastTap.t = 0;
+        } else lastTap = { t: now, x: e.clientX, y: e.clientY };
+      }
+      pan = null; pinch = null;
+      setTimeout(() => { moved = false; }, 0);
+    }
+    window.addEventListener('pointerup', up);
+    window.addEventListener('pointercancel', up);
+
+    // ── Wheel and Safari's own pinch ────────────────────────────────────
+    let gesturing = false, gz = 1;
+    view.addEventListener('wheel', e => {
+      e.preventDefault();
+      if (gesturing) return;
+      stopTween(); stopGlide();
+      const r = view.getBoundingClientRect(), cx = e.clientX - r.left, cy = e.clientY - r.top;
+      const unit = e.deltaMode === 1 ? 33 : e.deltaMode === 2 ? vh() : 1;
+      let dx = e.deltaX * unit, dy = e.deltaY * unit;
+      if (e.ctrlKey || e.metaKey) {
+        // A trackpad pinch sends many small deltas — follow them one to one;
+        // a mouse notch sends a big one — take one smooth step.
+        if (Math.abs(dy) >= 50) zoomSmooth(dy < 0 ? 1.2 : 1 / 1.2, cx, cy);
+        else { stopZoom(); zoomAt(Math.exp(-dy * 0.0105), cx, cy); }
+        return;
+      }
+      if (e.shiftKey && !dx) { dx = dy; dy = 0; }
+      tx -= dx; ty -= dy; render();
+    }, { passive: false });
+    view.addEventListener('gesturestart', e => { e.preventDefault(); if (pts.size >= 2) return; gesturing = true; gz = 1; stopAll(); });
+    view.addEventListener('gesturechange', e => {
+      e.preventDefault();
+      if (!gesturing || pts.size >= 2) return;
+      const r = view.getBoundingClientRect();
+      zoomAt(e.scale / gz, e.clientX - r.left, e.clientY - r.top); gz = e.scale;
+    });
+    view.addEventListener('gestureend', e => { e.preventDefault(); gesturing = false; });
+    // Safari would otherwise zoom the whole page when a pinch starts over the sidebar.
+    document.addEventListener('gesturestart', e => e.preventDefault());
+
+    view.addEventListener('dblclick', e => {
+      if (opts.ignoreDblClick && opts.ignoreDblClick(e)) return;
+      const r = view.getBoundingClientRect();
+      zoomSmooth(e.altKey ? 0.5 : 2, e.clientX - r.left, e.clientY - r.top);
+    });
+
+    // ── Keys ────────────────────────────────────────────────────────────
+    window.addEventListener('keydown', e => {
+      if (opts.keysBlocked && opts.keysBlocked()) return;
+      const t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+      const step = e.shiftKey ? 520 : 150, page = vh() * 0.85, mid = [vw() / 2, vh() / 2];
+      switch (e.key) {
+        case 'ArrowUp': panBy(0, step, 140); break;
+        case 'ArrowDown': panBy(0, -step, 140); break;
+        case 'ArrowLeft': panBy(step, 0, 140); break;
+        case 'ArrowRight': panBy(-step, 0, 140); break;
+        case 'PageUp': panBy(0, page, 260); break;
+        case 'PageDown': panBy(0, -page, 260); break;
+        case ' ': panBy(0, e.shiftKey ? page : -page, 260); break;
+        case 'Home': goTop(); break;
+        case 'End': goBottom(); break;
+        case '+': case '=': zoomSmooth(1.25, ...mid); break;
+        case '-': case '_': zoomSmooth(0.8, ...mid); break;
+        case '0': fit(320); break;
+        case '1': if (e.metaKey || e.ctrlKey) return; zoomSmooth(1 / z, ...mid); break;
+        default: return;
+      }
+      e.preventDefault();
+    });
+
+    // ── Minimap (with section labels) ───────────────────────────────────
+    let map = null;
+    function minimap(el, blocks, labels) {
+      el.classList.add('cv-map');
+      el.innerHTML = `<div class="cv-head"><span>Карта</span><button type="button" title="Свернуть карту">—</button></div>
+        <div class="cv-body"><div class="cv-labels"></div><div class="cv-mapbox"><div class="cv-vp"></div></div></div>`;
+      const box = el.querySelector('.cv-mapbox'), vp = el.querySelector('.cv-vp'), lab = el.querySelector('.cv-labels');
+      el.querySelector('.cv-head button').onclick = () => { el.classList.toggle('min'); localStorage.setItem('cv-map-min', el.classList.contains('min') ? '1' : ''); };
+      if (localStorage.getItem('cv-map-min')) el.classList.add('min');
+      map = { el, box, vp, lab, blocks, labels: labels || [], k: 1 };
+      layoutMap();
+      const toBoard = ev => { const r = box.getBoundingClientRect(); return { x: (ev.clientX - r.left) / map.k, y: (ev.clientY - r.top) / map.k }; };
+      let dragging = false;
+      const jump = (ev, ms) => { const p = toBoard(ev); flyTo(p.x, p.y, z, vw() / 2, vh() / 2, ms); };
+      el.querySelector('.cv-body').addEventListener('pointerdown', ev => {
+        if (ev.target.closest('.cv-labels div')) return;
+        dragging = true; ev.preventDefault(); jump(ev, 0);
+      });
+      window.addEventListener('pointermove', ev => { if (dragging) jump(ev, 0); });
+      window.addEventListener('pointerup', () => { dragging = false; });
+      lab.addEventListener('click', ev => {
+        const d = ev.target.closest('div[data-i]'); if (!d) return;
+        const L = map.labels[+d.dataset.i]; if (L.onClick) L.onClick(); else goTo(L.x, L.y);
+      });
+    }
+    function layoutMap() {
+      if (!map) return;
+      measure();
+      const maxH = Math.max(140, Math.min(vh() - 170, 460)), maxW = 120;
+      const k = Math.min(maxW / W, maxH / H);
+      map.k = k;
+      map.box.style.width = Math.max(18, Math.round(W * k)) + 'px';
+      map.box.style.height = Math.round(H * k) + 'px';
+      map.lab.style.height = Math.round(H * k) + 'px';
+      map.lab.style.display = map.labels.length ? '' : 'none';
+      map.box.querySelectorAll('i').forEach(i => i.remove());
+      for (const b of map.blocks) {
+        const i = document.createElement('i');
+        i.style.cssText = `left:${b.x * k}px;top:${b.y * k}px;width:${Math.max(2, b.w * k)}px;height:${Math.max(2, b.h * k)}px;background:${b.color}`;
+        map.box.insertBefore(i, map.vp);
+      }
+      // Labels that would collide are skipped (the first wins).
+      let lastY = -99, html = '';
+      map.labels.forEach((L, i) => {
+        const y = (L.y + (L.h || 0) / 2) * k;
+        if (y - lastY < 13) return;
+        lastY = y;
+        html += `<div data-i="${i}" style="top:${y}px" title="${L.title.replace(/"/g, '&quot;')}">${L.title}</div>`;
+      });
+      map.lab.innerHTML = html;
+      drawMap();
+    }
+    function drawMap() {
+      if (!map) return;
+      const s = state(), k = map.k;
+      const l = Math.max(0, s.left), t = Math.max(0, s.top), r = Math.min(W, s.right), b = Math.min(H, s.bottom);
+      map.vp.style.cssText = `left:${l * k}px;top:${t * k}px;width:${Math.max(4, (r - l) * k)}px;height:${Math.max(4, (b - t) * k)}px`;
+      if (map.labels.length) {
+        const cy = (s.top + s.bottom) / 2;
+        let cur = -1;
+        map.labels.forEach((L, i) => { if (L.y <= cy) cur = i; });
+        map.lab.querySelectorAll('div').forEach(d => d.classList.toggle('on', +d.dataset.i === cur));
+      }
+    }
+    on.change.push(drawMap);
+
+    // ── Place in the URL ────────────────────────────────────────────────
+    function saveHash() {
+      if (opts.hash === false) return;
+      const s = state();
+      const cx = Math.round((s.left + s.right) / 2), cy = Math.round((s.top + s.bottom) / 2);
+      const h = `#@${cx},${cy},${z.toFixed(3)}`;
+      if (location.hash !== h) history.replaceState(null, '', h);
+    }
+    function restoreHash() {
+      const m = /^#@(-?\d+),(-?\d+),([\d.]+)$/.exec(location.hash);
+      if (!m) return false;
+      measure();
+      flyTo(+m[1], +m[2], +m[3]);
+      return true;
+    }
+
+    window.addEventListener('resize', () => { measure(); layoutMap(); render(); });
+
+    measure();
+    return {
+      get z() { return z; }, get moved() { return moved; }, state,
+      on(kind, fn) { on[kind].push(fn); },
+      measure() { measure(); layoutMap(); render(); },
+      zoomAt, zoomSmooth, zoomBy(f) { zoomSmooth(f, vw() / 2, vh() / 2); },
+      zoomTo(nz) { zoomSmooth(nz / z, vw() / 2, vh() / 2); },
+      fit, fitRect, goTo, flyTo, panBy, goTop, goBottom, minimap, layoutMap, restoreHash, clampZ,
+    };
+  }
+
+  global.OynaCanvas = { createCanvas };
+})(window);
+
+</script>
+<script>
+/* OYNA tracking plan UI — event chips and the side panel that explains an
+ * event or a screen view. Shared by the screens canvas (the «Аналитика на
+ * экранах» layer) and the analytics canvas. Reads the plan object written
+ * by build_analytics.py / write_html.py from tools/analytics_plan.json. */
+(function (global) {
+  'use strict';
+
+  const CSS = `
+  .pd-scrim { position: fixed; inset: 0; background: rgba(10,12,16,.28); z-index: 60; opacity: 0; pointer-events: none; transition: opacity .15s; }
+  .pd-scrim.on { opacity: 1; pointer-events: auto; }
+  .pd { position: fixed; top: 0; right: 0; bottom: 0; width: min(480px, 100vw); background: #fff; z-index: 61;
+    box-shadow: -10px 0 40px rgba(0,0,0,.18); transform: translateX(104%); transition: transform .18s ease-out;
+    display: flex; flex-direction: column; font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; color: #16181d; }
+  .pd.on { transform: none; }
+  .pd-h { display: flex; align-items: flex-start; gap: 10px; padding: 18px 20px 12px; border-bottom: 1px solid #ececf0; }
+  .pd-h .x { margin-left: auto; border: 1px solid #d5d6db; background: #fff; border-radius: 9px; width: 34px; height: 34px; cursor: pointer; font-size: 15px; flex: none; }
+  .pd-b { overflow: auto; padding: 14px 20px 40px; overscroll-behavior: contain; }
+  .pd-name { font: 700 21px/1.2 ui-monospace, "SF Mono", Menlo, monospace; word-break: break-all; }
+  .pd-title { font-size: 15px; color: #3b3f46; margin-top: 4px; }
+  .pd-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .pd-pill { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 99px; background: #f1f1f4; color: #3b3f46; white-space: nowrap; }
+  .pd-pill.live { background: #e3f6ea; color: #1f8a4c; } .pd-pill.fix { background: #fff1db; color: #a35f00; }
+  .pd-pill.new { background: #e6eeff; color: #2f5fc4; } .pd-pill.server { background: #f2e9ff; color: #7444c4; }
+  .pd-pill.ready { background: #dcf5f1; color: #0f766e; }
+  .pd-pill.parent { background: #fff0e0; color: #b25a00; } .pd-pill.child { background: #e0f4fa; color: #13708a; }
+  .pd h4 { font-size: 11.5px; letter-spacing: .07em; text-transform: uppercase; color: #6b7078; margin: 18px 0 6px; }
+  .pd p { margin: 0 0 6px; }
+  .pd .fixbox { background: #fff6e8; border: 1px solid #ffd9a0; border-radius: 10px; padding: 9px 11px; }
+  .pd table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .pd td { border-top: 1px solid #ececf0; padding: 7px 6px 7px 0; vertical-align: top; }
+  .pd td:first-child { font: 600 12.5px/1.4 ui-monospace, "SF Mono", Menlo, monospace; white-space: nowrap; padding-right: 10px; }
+  .pd td .ty { color: #6b7078; font-size: 12px; }
+  .pd code, .pd .mono { font: 12.5px/1.4 ui-monospace, "SF Mono", Menlo, monospace; background: #f4f4f6; border-radius: 5px; padding: 1px 5px; word-break: break-all; }
+  .pd .shots { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
+  .pd .shot { flex: none; width: 92px; text-align: center; font-size: 11.5px; color: #3b3f46; text-decoration: none; }
+  .pd .shot img { width: 92px; height: 170px; object-fit: cover; object-position: top; border-radius: 10px; display: block; background: #f1f1f4; margin-bottom: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+  .pd .lnk { display: block; color: #2f6fde; text-decoration: none; margin: 3px 0; }
+  .pd .lnk:hover { text-decoration: underline; }
+  .pd .evs { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pd .evs .chip { background: #16181d; color: #fff; }
+  .pd .evs .chip.ready i, .chip.ready i { background: #2dd4bf; }
+  .pd .evs .chip.scr { background: #fff; color: #3b3f46; border: 1px solid #d5d6db; font-family: inherit; font-weight: 600; }
+  .pd .evs .chip.scr:hover { background: #f4f4f6; }
+  `;
+
+  const STATUS = { live: 'уже отправляется', ready: 'готово в коде, ждёт сборки', fix: 'есть, нужно поправить', new: 'добавляем', server: 'с сервера' };
+  const SIDE = { parent: 'родитель', child: 'ребёнок', both: 'родитель и ребёнок', system: 'система' };
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+  function create(plan, opts) {
+    opts = opts || {};
+    const imgBase = opts.imgBase || 'img/';
+    const canvasBase = opts.canvasBase || './';
+    const analyticsBase = opts.analyticsBase || 'analytics/';
+    const evByName = {}, scrById = {};
+    (plan.events || []).forEach(e => { evByName[e.name] = e; });
+    (plan.screens || []).forEach(s => { scrById[s.id] = s; });
+    const funnelsOf = name => (plan.funnels || []).filter(f => f.steps.some(st => st.event === name || (st.alt || []).includes(name)));
+    const screensOf = name => (plan.screens || []).filter(s => (s.events || []).includes(name));
+
+    if (!document.getElementById('pd-style')) {
+      const st = document.createElement('style'); st.id = 'pd-style'; st.textContent = CSS; document.head.appendChild(st);
+    }
+    const scrim = document.createElement('div'); scrim.className = 'pd-scrim';
+    const pd = document.createElement('aside'); pd.className = 'pd'; pd.setAttribute('aria-hidden', 'true');
+    pd.innerHTML = '<div class="pd-h"><div class="pd-hd"></div><button class="x" title="Закрыть (Esc)">✕</button></div><div class="pd-b"></div>';
+    document.body.append(scrim, pd);
+    const hd = pd.querySelector('.pd-hd'), body = pd.querySelector('.pd-b');
+    const close = () => { pd.classList.remove('on'); scrim.classList.remove('on'); pd.setAttribute('aria-hidden', 'true'); };
+    pd.querySelector('.x').onclick = close; scrim.onclick = close;
+    window.addEventListener('keydown', e => { if (e.key === 'Escape' && pd.classList.contains('on')) close(); });
+    body.addEventListener('click', e => {
+      const chip = e.target.closest('[data-ev],[data-scr]');
+      if (chip) { e.preventDefault(); openFromChip(chip); }
+    });
+
+    function chip(name) {
+      const e = evByName[name];
+      const st = e ? e.status : 'new';
+      return `<span class="chip ${st}" data-ev="${esc(name)}" title="${esc(e ? e.title : name)}"><i></i>${esc(name)}</span>`;
+    }
+    function scrChip(id) {
+      const s = scrById[id];
+      const icon = s && s.sheet ? '▤' : s && s.untracked ? '○' : '👁';
+      return `<span class="chip scr" data-scr="${esc(id)}" title="${s && s.sheet ? 'Лист' : 'Просмотр экрана'}: ${esc(s ? s.title : id)}">${icon} ${esc(id)}</span>`;
+    }
+    function chipsHtml(screens, events) {
+      return (screens || []).map(scrChip).join('') + (events || []).map(chip).join('');
+    }
+    function shots(keys) {
+      return `<div class="shots">` + keys.slice(0, 8).map(k =>
+        `<a class="shot" href="${canvasBase}?an=1#${esc(k.replace(/-(figma|app|motion|device)-\d+$/, ''))}" title="Открыть раздел на холсте экранов"><img loading="lazy" src="${imgBase}${esc(k)}_t.webp" alt=""></a>`).join('') + `</div>`;
+    }
+    function show() { pd.classList.add('on'); scrim.classList.add('on'); pd.setAttribute('aria-hidden', 'false'); body.scrollTop = 0; }
+
+    function openEvent(name) {
+      const e = evByName[name];
+      if (!e) return;
+      hd.innerHTML = `<div class="pd-pills"><span class="pd-pill ${e.status}">${STATUS[e.status] || e.status}</span><span class="pd-pill ${e.side}">${SIDE[e.side] || e.side}</span>${e.domainTitle ? `<span class="pd-pill">${esc(e.domainTitle)}</span>` : ''}</div>
+        <div class="pd-name">${esc(e.name)}</div><div class="pd-title">${esc(e.title)}</div>`;
+      let h = '';
+      h += `<h4>Когда отправляется</h4><p>${esc(e.when)}</p>`;
+      if (e.why) h += `<h4>Зачем</h4><p>${esc(e.why)}</p>`;
+      if (e.fix) h += `<h4>Что поправить</h4><p class="fixbox">${esc(e.fix)}</p>`;
+      if ((e.props || []).length) {
+        h += `<h4>Свойства</h4><table>` + e.props.map(p =>
+          `<tr><td>${esc(p.n)}</td><td><div>${esc(p.d)}</div>${p.t ? `<div class="ty">${esc(p.t)}</div>` : ''}</td></tr>`).join('') + `</table>`;
+      }
+      h += `<p style="color:#6b7078;font-size:12.5px;margin-top:8px">Плюс общие свойства на каждом событии: роль, семья, тариф, страна, язык, версия, environment.</p>`;
+      const scr = screensOf(name);
+      if (scr.length) {
+        h += `<h4>Где в приложении</h4><div class="evs">${scr.map(s => scrChip(s.id)).join('')}</div>`;
+        const keys = [...new Set(scr.flatMap(s => s.cards || []))];
+        if (keys.length) h += shots(keys);
+      }
+      const fs = funnelsOf(name);
+      if (fs.length) h += `<h4>Воронки</h4>` + fs.map(f => `<a class="lnk" href="${analyticsBase}#${esc(f.id)}">${esc(f.title)} →</a>`).join('');
+      if (e.code) h += `<h4>В коде</h4><p><span class="mono">${esc(e.code)}</span></p>`;
+      if (e.note) h += `<h4>Заметка</h4><p>${esc(e.note)}</p>`;
+      body.innerHTML = h; show();
+    }
+    function openScreen(id) {
+      const s = scrById[id];
+      if (!s) return;
+      hd.innerHTML = `<div class="pd-pills"><span class="pd-pill">${s.sheet ? 'лист' : s.untracked ? 'не отслеживается' : 'просмотр экрана'}</span><span class="pd-pill ${s.side}">${SIDE[s.side] || s.side}</span></div>
+        <div class="pd-name">${esc(s.id)}</div><div class="pd-title">${esc(s.title)}</div>`;
+      let h = s.sheet ? `<h4>Как приходит</h4><p>Это лист поверх другого экрана, а не отдельный маршрут: отдельного просмотра нет, его открытие видно по событиям ниже.</p>`
+        : s.untracked ? `<h4>Как приходит</h4><p>Никак: экран показывается до согласия родителя, а до согласия приложение ничего не отправляет.</p>`
+        : `<h4>Как приходит</h4><p>Событие <code>$screen</code> со свойством <code>$screen_name = ${esc(s.id)}</code> — отправляется само, когда экран открылся (маршрут <code>${esc(s.route || '')}</code>).</p>`;
+      if (s.note) h += `<p>${esc(s.note)}</p>`;
+      if ((s.events || []).length) h += `<h4>События на этом экране</h4><div class="evs">${s.events.map(chip).join('')}</div>`;
+      if ((s.cards || []).length) h += `<h4>Как выглядит</h4>` + shots(s.cards);
+      body.innerHTML = h; show();
+    }
+    function openFromChip(el) {
+      if (el.dataset.ev) openEvent(el.dataset.ev); else if (el.dataset.scr) openScreen(el.dataset.scr);
+    }
+    return { chip, scrChip, chipsHtml, openEvent, openScreen, openFromChip, close, isOpen: () => pd.classList.contains('on'), evByName, scrById };
+  }
+
+  global.OynaPlanUi = { create };
+})(window);
+
+</script>
+<script>
+const PLAN = {"meta": {"title": "Аналитика OYNA", "lead": "Какие события отправляет приложение, как из них строятся воронки и метрики и что смотреть маркетингу. Всё привязано к настоящим экранам из CJM. Цифры живут в PostHog, здесь — карта, по которой их читать и строить.", "subtitle": "План событий v1 · 02.10.2026 · код: redesign-parent-flow @6889d1fd", "where": "PostHog (us.posthog.com), проект OYNA. Деньги — RevenueCat. Установки — App Store Connect и Play Console.", "version": "1.0", "date": "2026-10-02"}, "domains": [{"id": "start", "title": "Первый запуск и экраны"}, {"id": "auth", "title": "Вход и регистрация родителя"}, {"id": "family", "title": "Семья и вход ребёнка"}, {"id": "quests", "title": "Задания"}, {"id": "rewards", "title": "Награды и монеты"}, {"id": "progress", "title": "Прогресс ребёнка"}, {"id": "ai", "title": "Фоксик AI"}, {"id": "money", "title": "Подписка и оплата"}, {"id": "system", "title": "Пуши, ссылки, профиль"}], "events": [{"name": "$screen", "title": "Открыт экран", "domain": "start", "side": "both", "status": "ready", "prio": "P0", "when": "Каждый раз, когда открылся экран приложения (маршрут), включая переключение вкладок. Имя экрана — постоянное (parent_home, child_market…), без id и личных данных.", "why": "Из просмотров строятся пути, шаги воронок без отдельных событий и «куда люди уходят». Это основа всех воронок.", "props": [{"n": "$screen_name", "t": "строка", "d": "постоянное имя экрана, см. раздел «Экраны»"}, {"n": "route", "t": "шаблон пути", "d": "например /parent/children/:childId — без настоящих id"}, {"n": "view / tier / source / onboarding", "t": "из ссылки", "d": "только разрешённые параметры экрана"}], "code": "lib/core/app_runtime/screen_view_tracker.dart — один слушатель роутера (router.state.fullPath)", "note": "PostHog сам добавляет $screen_name последнего экрана ко всем следующим событиям — у каждого события видно, на каком экране оно случилось.", "domainTitle": "Первый запуск и экраны"}, {"name": "Application Installed", "title": "Первое открытие после установки", "domain": "start", "side": "system", "status": "live", "when": "Сам PostHog при первом запуске SDK. SDK стартует только после согласия родителя, поэтому это «установил и согласился».", "why": "Знаменатель для всей активации в приложении. Сами установки и источники — в App Store Connect и Google Play Console.", "props": [{"n": "$app_version, $os, $device_model", "t": "авто", "d": "добавляет PostHog"}], "code": "lib/core/startup/external_sdk_startup.dart (captureApplicationLifecycleEvents)", "domainTitle": "Первый запуск и экраны"}, {"name": "Application Opened", "title": "Приложение открыто", "domain": "start", "side": "system", "status": "live", "when": "Сам PostHog при каждом открытии (и Application Backgrounded при сворачивании).", "why": "Возвраты D1/D7/D30 и частота использования.", "props": [{"n": "from_background", "t": "да/нет", "d": "открыто из фона или холодный старт"}], "code": "lib/core/startup/external_sdk_startup.dart", "domainTitle": "Первый запуск и экраны"}, {"name": "coppaConsentGiven", "title": "Родитель дал согласие", "domain": "start", "side": "parent", "status": "ready", "prio": "P0", "when": "Родитель нажал «Согласен» на экране подтверждения, и аналитика включилась. До этого приложение не отправляет ничего (закон о детских данных).", "why": "Первая точка, которую мы видим в приложении. Язык и сплэш раньше согласия не видны.", "props": [{"n": "language", "t": "ru | en | uz | kk | az | ar", "d": "язык интерфейса на момент согласия"}, {"n": "source", "t": "first_run | child_invite", "d": "обычный первый запуск или вход ребёнка по приглашению"}], "code": "lib/core/startup/external_sdk_startup.dart — ConsentedAnalyticsStartup (только согласие, данное в этой сессии)", "note": "Событие было в списке давно, но никогда не отправлялось. Согласие дают и родители, и дети на своих телефонах — роль видна на следующем шаге.", "domainTitle": "Первый запуск и экраны"}, {"name": "signUp", "title": "Родитель вошёл впервые (аккаунт без семьи)", "domain": "auth", "side": "parent", "status": "fix", "prio": "P2", "when": "После входа по телефону, почте, Google или Apple, если у аккаунта ещё нет семьи.", "why": "Сколько людей дошло до аккаунта и каким способом.", "props": [{"n": "user_id", "t": "uuid", "d": "id аккаунта"}, {"n": "method", "t": "phone | email | google | apple", "d": "способ входа"}], "fix": "Повторяется у вернувшихся, кто бросил анкету семьи, и у «регистрации» на уже занятую почту. Для воронки брать первое срабатывание на человека.", "code": "features/auth/…/auth_flow_bloc.dart:356, :499", "domainTitle": "Вход и регистрация родителя"}, {"name": "logIn", "title": "Вход (родитель или ребёнок)", "domain": "auth", "side": "both", "status": "live", "when": "Родитель вошёл в существующую семью — или ребёнок вошёл по коду, ссылке или QR.", "why": "Входы и способы входа; для ребёнка — момент подключения его телефона.", "props": [{"n": "role", "t": "parent | child", "d": "кто вошёл"}, {"n": "method", "t": "code | link | qr", "d": "только у ребёнка"}, {"n": "level, streak_days, total_coins", "t": "числа", "d": "только у ребёнка"}, {"n": "user_id / child_id, family_id", "t": "uuid", "d": "обезличенные id"}], "fix": "У родителя нет способа входа (method).", "code": "auth_flow_bloc.dart:450 (ребёнок), :509 (родитель); lib/core/router/app_router.dart:398 (ссылка/QR)", "domainTitle": "Вход и регистрация родителя"}, {"name": "parent_profile_created", "title": "Родитель указал имя", "domain": "auth", "side": "parent", "status": "live", "when": "Шаг «Как вас зовут?» в анкете семьи сохранён. Имя не отправляется.", "props": [{"n": "method", "t": "manual", "d": "всегда manual"}], "note": "Старое имя в snake_case — не переименовываем, отчёты на нём.", "code": "features/auth/…/family_setup_use_case.dart:106, :204", "domainTitle": "Вход и регистрация родителя"}, {"name": "onboardingCompleted", "title": "Семья создана", "domain": "auth", "side": "parent", "status": "live", "when": "Анкета семьи отправлена: семья и первый ребёнок записаны. Срабатывает до создания PIN.", "why": "Главный шаг активации родителя.", "props": [{"n": "skipped", "t": "да/нет", "d": "пропустил ли шаги"}, {"n": "country", "t": "UZ | KZ | AZ | …", "d": "страна семьи"}, {"n": "language", "t": "язык", "d": "язык семьи"}], "code": "family_setup_use_case.dart:100, :187", "domainTitle": "Вход и регистрация родителя"}, {"name": "parentPinCreated", "title": "PIN родителя создан", "domain": "auth", "side": "parent", "status": "new", "prio": "P1", "when": "PIN сохранён (при регистрации, смене или перед режимом ребёнка).", "props": [{"n": "source", "t": "registration | change | child_mode | gate", "d": "откуда (нужно передать в запрос сохранения)"}, {"n": "biometric", "t": "да/нет", "d": "включил ли Face ID / отпечаток"}], "code": "features/security/…/parent_pin_workflow_bloc.dart:246", "domainTitle": "Вход и регистрация родителя"}, {"name": "parentLoggedOut", "title": "Родитель вышел", "domain": "auth", "side": "parent", "status": "new", "prio": "P1", "when": "Выход из аккаунта в профиле — до сброса аналитики.", "props": [{"n": "everywhere", "t": "да/нет", "d": "выход на всех устройствах"}], "code": "features/parent/…/parent_account_bloc.dart:180", "domainTitle": "Вход и регистрация родителя"}, {"name": "accountDeleted", "title": "Аккаунт удалён", "domain": "auth", "side": "parent", "status": "new", "prio": "P1", "when": "Удаление аккаунта подтверждено сервером.", "why": "Отток «навсегда»; после него человека нужно удалить и из PostHog.", "code": "parent_account_bloc.dart:206", "props": [], "domainTitle": "Вход и регистрация родителя"}, {"name": "childAdded", "title": "Ребёнок добавлен", "domain": "family", "side": "parent", "status": "live", "when": "Ребёнок записан: первый — в анкете семьи, следующие — в «Добавить ребёнка».", "why": "Размер семьи и момент, когда пора подключать телефон ребёнка.", "props": [{"n": "family_id, child_id", "t": "uuid", "d": "обезличенные id"}, {"n": "child_index", "t": "число", "d": "1 — первый ребёнок, 2+ — следующие"}], "fix": "Два места отправляют разные свойства; во втором лишний запрос к базе ради номера ребёнка.", "code": "family_setup_use_case.dart:192; features/family/…/manage_family_use_case.dart:80", "domainTitle": "Семья и вход ребёнка"}, {"name": "childLimitReached", "title": "Упёрся в лимит детей", "domain": "family", "side": "parent", "status": "new", "prio": "P1", "when": "Бесплатный тариф: попытка добавить второго ребёнка.", "why": "Самый частый повод открыть подписку — считаем его отдельно.", "code": "manage_family_use_case.dart:96", "props": [], "domainTitle": "Семья и вход ребёнка"}, {"name": "childInviteShared", "title": "Родитель отправил приглашение ребёнку", "domain": "family", "side": "parent", "status": "new", "prio": "P1", "when": "На экране приглашения родитель скопировал код или открыл «Поделиться» ссылкой.", "why": "Шаг между «ребёнок добавлен» и «ребёнок вошёл» — здесь двусторонняя воронка рвётся чаще всего.", "props": [{"n": "channel", "t": "copy_code | share_link", "d": "как отправил"}, {"n": "onboarding", "t": "да/нет", "d": "сразу после регистрации"}], "code": "features/child_access/…/parent_child_invite_screen.dart → ParentChildAccessBloc", "note": "Метод события уже есть; экран приглашения сейчас переписывается в соседней работе — подключим после её слияния, чтобы не конфликтовать. До этого шаг воронки — просмотр parent_child_invite.", "domainTitle": "Семья и вход ребёнка"}, {"name": "childCodeFailed", "title": "Ребёнок не смог войти", "domain": "family", "side": "child", "status": "ready", "prio": "P0", "when": "Код не подошёл, ссылка устарела или вход заблокирован после попыток.", "why": "Доля неудачных входов — прямой сигнал, что родителю непонятно, как подключить ребёнка.", "props": [{"n": "method", "t": "code | link | qr", "d": "как пытался войти"}, {"n": "reason", "t": "wrong_code | rate_limited | expired | invalid | network | other", "d": "почему не вышло"}], "code": "auth_flow_bloc.dart (вход по коду — готово); features/child_access/…/child_invite_bloc.dart:83 (ссылка, QR — после слияния текущей работы над приглашениями)", "note": "network пока почти не встретится: ошибки сети при поиске кода приходят без типа и считаются как other.", "domainTitle": "Семья и вход ребёнка"}, {"name": "childModeOpened", "title": "Режим ребёнка на телефоне родителя", "domain": "family", "side": "parent", "status": "new", "prio": "P1", "when": "Родитель открыл режим ребёнка на своём телефоне (общий телефон вместо своего у ребёнка).", "why": "Сколько семей живут на одном телефоне — это меняет и продукт, и маркетинг.", "props": [{"n": "child_id", "t": "uuid", "d": "какой ребёнок"}], "code": "features/family/…/family_child_mode_bloc.dart:141", "domainTitle": "Семья и вход ребёнка"}, {"name": "questCreated", "title": "Родитель создал задание", "domain": "quests", "side": "parent", "status": "ready", "prio": "P0", "when": "Задание сохранено на сервере — после успешного ответа, а не по нажатию кнопки. Из редактора или карточкой Фоксика.", "why": "Первый шаг ядра продукта; источник показывает, что помогает родителям начать (каталог, ИИ, вручную).", "props": [{"n": "source", "t": "manual | template | ai | foksik_card", "d": "откуда задание"}, {"n": "kind", "t": "daily | weekly | one_time | achievement", "d": "как повторяется"}, {"n": "difficulty", "t": "easy | medium | hard", "d": "сложность"}, {"n": "xp, coins", "t": "числа", "d": "награда за задание"}, {"n": "require_photo", "t": "да/нет", "d": "нужно ли фото"}, {"n": "children_count", "t": "число", "d": "скольким детям назначено"}], "code": "features/quest/…/parent_task_editor_bloc.dart:217 (через parent_quest_di.dart); lib/core/app_runtime/family_copilot_action_writer.dart:96 (Фоксик)", "domainTitle": "Задания"}, {"name": "questOpened", "title": "Ребёнок открыл задание", "domain": "quests", "side": "child", "status": "ready", "prio": "P0", "when": "Открылась карточка задания — из списка, с главной, из недели или из чата.", "why": "Между «задание есть» и «задание сделано»: видно, какие задания дети открывают и бросают.", "props": [{"n": "quest_id", "t": "uuid", "d": "задание"}, {"n": "is_custom", "t": "да/нет", "d": "своё задание семьи или из каталога"}, {"n": "points, difficulty", "t": "число, строка", "d": "награда и сложность"}, {"n": "review_state", "t": "new | pending | rework", "d": "новое, ждёт проверки или на доработке"}], "code": "features/quest/…/quest_overview_bloc.dart (новое событие QuestOpened)", "domainTitle": "Задания"}, {"name": "questSubmitted", "title": "Ребёнок отправил задание", "domain": "quests", "side": "child", "status": "fix", "prio": "P0", "when": "Задание (обычно с фото) отправлено на проверку и сервер его принял.", "why": "Ключевое действие ребёнка; знаменатель качества заданий.", "props": [{"n": "quest_id, child_id", "t": "uuid", "d": "обезличенные id"}, {"n": "points, difficulty", "t": "число, строка", "d": "награда и сложность"}, {"n": "had_photo", "t": "да/нет", "d": "было ли фото"}, {"n": "is_custom", "t": "да/нет", "d": "своё задание семьи (вместо названия)"}], "fix": "Сейчас уходит quest_title — свободный текст родителя (может содержать имя ребёнка). Убрать, отправлять is_custom; задания, сданные из чата, не считаются.", "code": "features/quest/lib/src/di/quest_bloc_di.dart:62; чат: lib/core/app_runtime/quest_reward_child_chat_action_writer.dart:69", "note": "Исправление названия уже готовится в соседней ветке (проверка безопасности).", "domainTitle": "Задания"}, {"name": "questApproved", "title": "Родитель одобрил задание", "domain": "quests", "side": "parent", "status": "ready", "prio": "P0", "when": "Одобрение записано на сервере (монеты начислены). Повторное «уже одобрено» не считается.", "why": "Закрытый цикл «задание → проверка → монеты» — из него считается главная метрика.", "props": [{"n": "quest_id, child_id", "t": "uuid", "d": "обезличенные id"}, {"n": "xp, coins", "t": "числа", "d": "начислено"}, {"n": "had_photo", "t": "да/нет", "d": "было ли фото"}, {"n": "time_to_approve_minutes", "t": "число", "d": "сколько ждал ребёнок с момента отправки"}, {"n": "source", "t": "review | foksik_card", "d": "экран проверки или карточка Фоксика"}], "code": "features/quest/…/parent_task_review_bloc.dart:275 (через parent_quest_di.dart:108); Фоксик: family_copilot_action_writer.dart:234", "note": "Метод в коде был, но его никто не вызывал.", "domainTitle": "Задания"}, {"name": "questRejected", "title": "Родитель вернул на доработку", "domain": "quests", "side": "parent", "status": "ready", "prio": "P0", "when": "Задание вернули с комментарием и сроком. Автоматический отказ сервера (повтор за день) не считается.", "why": "Доля возвратов показывает, понятны ли задания детям.", "props": [{"n": "quest_id, child_id", "t": "uuid", "d": "обезличенные id"}, {"n": "deadline", "t": "today | tomorrow | three_days | week | custom | none", "d": "срок исправления"}, {"n": "source", "t": "review | foksik_card", "d": "откуда"}], "code": "parent_task_review_bloc.dart:323; Фоксик: family_copilot_action_writer.dart:287", "domainTitle": "Задания"}, {"name": "rewardCreated", "title": "Родитель создал награду", "domain": "rewards", "side": "parent", "status": "ready", "prio": "P0", "when": "Награда сохранена на сервере — из редактора или карточкой Фоксика.", "why": "Без наград монеты не на что тратить — магазин пустой, мотивация падает.", "props": [{"n": "reward_id", "t": "uuid", "d": "награда"}, {"n": "price", "t": "число", "d": "цена в монетах"}, {"n": "category", "t": "код категории", "d": "без текста"}, {"n": "has_duration", "t": "да/нет", "d": "награда на время (минуты)"}, {"n": "ai_idea", "t": "да/нет", "d": "использовал «Авто создание»"}, {"n": "source", "t": "editor | foksik_card", "d": "откуда"}], "code": "features/reward/…/parent_reward_editor_bloc.dart:288 (через parent_reward_di.dart); Фоксик: family_copilot_action_writer.dart:127", "domainTitle": "Награды и монеты"}, {"name": "rewardRedeemed", "title": "Ребёнок попросил награду", "domain": "rewards", "side": "child", "status": "ready", "prio": "P0", "when": "Запрос на награду отправлен и принят сервером (монеты отложены до решения родителя).", "why": "Монеты превращаются в желание — главный мотиватор продукта.", "props": [{"n": "reward_id", "t": "uuid", "d": "награда"}, {"n": "price", "t": "число", "d": "цена"}, {"n": "is_custom", "t": "да/нет", "d": "своя награда семьи"}, {"n": "from", "t": "market | chat", "d": "из магазина или из чата с Фоксиком"}], "code": "features/reward/…/reward_shop_bloc.dart (магазин); lib/core/app_runtime/quest_reward_child_chat_action_writer.dart (чат)", "domainTitle": "Награды и монеты"}, {"name": "rewardApproved", "title": "Родитель выдал награду", "domain": "rewards", "side": "parent", "status": "ready", "prio": "P0", "when": "Родитель одобрил запрос ребёнка, сервер списал монеты.", "props": [{"n": "reward_id", "t": "uuid", "d": "награда"}, {"n": "price", "t": "число", "d": "цена"}, {"n": "is_custom", "t": "да/нет", "d": "своя награда"}, {"n": "wait_minutes", "t": "число", "d": "сколько ребёнок ждал ответа"}, {"n": "source", "t": "request | foksik_card", "d": "откуда"}], "code": "features/reward/…/parent_reward_request_bloc.dart:335 (через parent_reward_di.dart:76); Фоксик: family_copilot_action_writer.dart:306", "domainTitle": "Награды и монеты"}, {"name": "rewardDeclined", "title": "Родитель отказал или перенёс", "domain": "rewards", "side": "parent", "status": "ready", "prio": "P0", "when": "Родитель отказал в награде или перенёс её на потом (монеты вернулись ребёнку).", "props": [{"n": "reward_id", "t": "uuid", "d": "награда"}, {"n": "postponed", "t": "да/нет", "d": "перенёс, а не отказал"}, {"n": "has_reason", "t": "да/нет", "d": "написал причину (текст не отправляется)"}], "code": "parent_reward_request_bloc.dart:335", "domainTitle": "Награды и монеты"}, {"name": "parentBonusGiven", "title": "Родитель дал бонус монетами", "domain": "rewards", "side": "parent", "status": "new", "prio": "P1", "when": "Бонус начислен — из запроса ребёнка в чате или карточкой Фоксика.", "props": [{"n": "coins", "t": "число", "d": "сколько"}, {"n": "source", "t": "chat | foksik_card", "d": "откуда"}], "code": "features/family/…/family_chat_coin_answers.dart:52; family_copilot_action_writer.dart:191", "domainTitle": "Награды и монеты"}, {"name": "levelUp", "title": "Новый уровень", "domain": "progress", "side": "child", "status": "fix", "prio": "P2", "when": "Главная ребёнка увидела, что уровень вырос.", "props": [{"n": "child_id", "t": "uuid", "d": "ребёнок"}, {"n": "old_level, new_level", "t": "числа", "d": "было и стало"}], "fix": "Считается с экрана: пропадает, если главная не открыта, и удваивается, если её видят два телефона. Надёжнее — с сервера при начислении.", "code": "features/child/…/child_experience_bloc.dart:64", "domainTitle": "Прогресс ребёнка"}, {"name": "streakMilestone", "title": "Серия дней", "domain": "progress", "side": "child", "status": "live", "when": "Сервер подтвердил награду за серию дней подряд.", "props": [{"n": "child_id", "t": "uuid", "d": "ребёнок"}, {"n": "days", "t": "число", "d": "длина серии"}], "code": "features/gamification/lib/src/di/gamification_di.dart:26", "domainTitle": "Прогресс ребёнка"}, {"name": "childReturnedAfterBreak", "title": "Ребёнок вернулся после перерыва (паутинка)", "domain": "progress", "side": "child", "status": "new", "prio": "P2", "when": "Главная показала паутинку — ребёнка не было 48 часов и больше.", "why": "Реактивация детей: сколько возвращаются сами, сколько — после пуша.", "code": "features/child/…/kid_home_activity_bloc.dart:50", "props": [], "domainTitle": "Прогресс ребёнка"}, {"name": "copilotDigestViewed", "title": "Родитель открыл итоги недели от Фоксика", "domain": "ai", "side": "parent", "status": "live", "when": "Пустой диалог Фоксика показал итоги недели.", "props": [{"n": "cached", "t": "да/нет", "d": "из кэша или свежие"}], "code": "features/copilot/…/copilot_digest_bloc.dart:65", "domainTitle": "Фоксик AI"}, {"name": "copilotChatMessageSent", "title": "Родитель спросил Фоксика", "domain": "ai", "side": "parent", "status": "fix", "prio": "P1", "when": "Фоксик ответил на вопрос родителя (текстом или голосом).", "props": [], "fix": "Нет признака голоса (by_voice) и числа карточек в ответе.", "code": "features/copilot/…/copilot_chat_bloc.dart:245", "domainTitle": "Фоксик AI"}, {"name": "copilotRecommendationApplied", "title": "Родитель применил совет Фоксика", "domain": "ai", "side": "parent", "status": "live", "when": "Совет (задание, нагрузка, награда) применён и сохранён.", "props": [{"n": "type", "t": "quest | load | reward", "d": "что применил"}], "code": "copilot_recommendations_bloc.dart:405, :560", "domainTitle": "Фоксик AI"}, {"name": "copilotOutOfScopeRefused", "title": "Фоксик отказался (вопрос не по теме)", "domain": "ai", "side": "parent", "status": "live", "when": "Сервер отклонил вопрос как не относящийся к семье и детям (лимит не тратится).", "code": "copilot_chat_bloc.dart:237", "props": [], "domainTitle": "Фоксик AI"}, {"name": "aiBuddyLimitReached", "title": "Упёрся в лимит Фоксика", "domain": "ai", "side": "both", "status": "ready", "prio": "P0", "when": "Фоксик не ответил из-за лимита тарифа (у родителя — месячный или дневной, у ребёнка — бесплатный).", "why": "Прямой повод к Premium + ИИ.", "props": [{"n": "who", "t": "parent | child", "d": "чей лимит"}, {"n": "reason", "t": "monthly_quota | daily_quota | requires_premium_ai | free_quota | hard_cap", "d": "какой лимит"}], "code": "copilot_chat_bloc.dart (родитель — готово); features/ai_chat/…/ai_chat_bloc.dart:467 (ребёнок — после слияния текущей работы над чатом)", "domainTitle": "Фоксик AI"}, {"name": "jeyMessageSent", "title": "Ребёнок написал Фоксику", "domain": "ai", "side": "child", "status": "live", "when": "Сообщение ребёнка (текст, голос, фото, GIF) ушло и Фоксик ответил. «Jey» — старое имя Фоксика, не переименовываем.", "props": [{"n": "child_id", "t": "uuid", "d": "ребёнок"}, {"n": "message_length", "t": "число", "d": "длина (сам текст не отправляется)"}], "fix": "Нет вида сообщения (текст / голос / фото / GIF).", "code": "features/ai_chat/lib/src/di/ai_chat_di.dart:192", "domainTitle": "Фоксик AI"}, {"name": "paywallViewed", "title": "Открыта подписка", "domain": "money", "side": "parent", "status": "ready", "prio": "P0", "when": "Экран подписки открылся.", "why": "Знаменатель конверсии; источник (trigger) показывает, какой лимит или кнопка продаёт лучше.", "props": [{"n": "trigger", "t": "profile | child_limit | reward_ai_limit | foksik_limit | foksik_upsell | level_cap | push | other", "d": "откуда пришёл"}], "fix": "Было: всегда trigger = trial_banner (такой плашки нет). Исправлено: источник приходит параметром source в ссылке на экран подписки. Входы через Фоксика пока other.", "code": "features/paywall/lib/src/data/oyna_paywall_telemetry.dart:15", "domainTitle": "Подписка и оплата"}, {"name": "paywallTierChanged", "title": "Переключил тариф", "domain": "money", "side": "parent", "status": "ready", "prio": "P1", "when": "Premium ↔ Premium + ИИ.", "props": [{"n": "tier", "t": "premium | premium_ai", "d": "выбранный тариф"}], "fix": "Было: premiumAi вместо premium_ai. Исправлено.", "code": "features/paywall/…/paywall_bloc.dart:203", "domainTitle": "Подписка и оплата"}, {"name": "paywallPeriodChanged", "title": "Переключил месяц / год", "domain": "money", "side": "parent", "status": "live", "when": "Месяц ↔ год.", "props": [{"n": "period", "t": "monthly | annual", "d": "период"}], "code": "paywall_bloc.dart:206", "domainTitle": "Подписка и оплата"}, {"name": "paywallCtaTapped", "title": "Нажал «Оформить»", "domain": "money", "side": "parent", "status": "ready", "prio": "P1", "when": "Нажал кнопку покупки (магазин или карта Paylov в Узбекистане).", "props": [{"n": "tier", "t": "premium | premium_ai", "d": "тариф"}, {"n": "period", "t": "monthly | annual", "d": "период"}, {"n": "method", "t": "store | paylov", "d": "способ оплаты"}], "fix": "Было: без способа оплаты, у Paylov — до проверок. Исправлено: method, у Paylov — когда оплата открылась.", "code": "paywall_bloc.dart:251 (магазин), :335 (Paylov)", "domainTitle": "Подписка и оплата"}, {"name": "subscriptionStarted", "title": "Подписка оплачена", "domain": "money", "side": "parent", "status": "ready", "prio": "P0", "when": "Покупка подтверждена: магазином (App Store / Google Play) или Paylov.", "why": "Конверсия в деньги по источнику, тарифу, стране. Деньги и продления — в RevenueCat.", "props": [{"n": "tier", "t": "premium | premium_ai", "d": "тариф"}, {"n": "period", "t": "monthly | annual", "d": "период"}, {"n": "product_id", "t": "строка", "d": "продукт магазина"}, {"n": "price", "t": "число", "d": "цена: в валюте магазина, у Paylov — в сумах (валюту не складывать)"}, {"n": "method", "t": "store | paylov", "d": "способ оплаты"}, {"n": "trigger", "t": "как у paywallViewed", "d": "откуда пришёл на подписку"}], "code": "features/paywall/…/paywall_bloc.dart (магазин — сразу после ответа магазина; Paylov — после подтверждения оплаты)", "note": "Метод был в коде, но покупка в аналитику не попадала совсем. Покупка магазином считается и тогда, когда магазин ещё подтверждает оплату.", "domainTitle": "Подписка и оплата"}, {"name": "purchaseFailed", "title": "Покупка не прошла", "domain": "money", "side": "parent", "status": "ready", "prio": "P0", "when": "Покупку отменили или она не прошла.", "props": [{"n": "reason", "t": "cancelled | network | store | pending | not_allowed | already_purchased | unavailable | paylov_error | unknown", "d": "почему"}, {"n": "method", "t": "store | paylov", "d": "способ оплаты"}, {"n": "tier, period", "t": "строки", "d": "что покупал"}], "code": "features/paywall/…/paywall_bloc.dart", "note": "Отмена — cancelled; ineligible считается как not_allowed; любые ошибки открытия Paylov — paylov_error. Закрытую страницу Paylov не считаем ни отменой, ни ошибкой: оплата ещё может прийти.", "domainTitle": "Подписка и оплата"}, {"name": "paywallDismissed", "title": "Закрыл подписку", "domain": "money", "side": "parent", "status": "live", "when": "Закрыл экран подписки без покупки.", "code": "paywall_bloc.dart:541", "props": [], "domainTitle": "Подписка и оплата"}, {"name": "rc_initial_purchase", "title": "RevenueCat: первая покупка / пробный период", "domain": "money", "side": "system", "status": "server", "prio": "P1", "when": "RevenueCat сам присылает события подписки: первая покупка, пробный → платный, продление, отмена, окончание, проблема с оплатой.", "why": "Деньги и продления — это правда магазина; с телефона их не увидеть.", "props": [{"n": "rc_trial_converted / rc_renewal / rc_cancellation / rc_expiration / rc_billing_issue", "t": "события", "d": "остальные события того же источника"}, {"n": "price, currency, period, store", "t": "из RevenueCat", "d": "точная цена и валюта"}], "code": "RevenueCat → Integrations → PostHog (настройка в кабинете, без кода)", "note": "У RevenueCat id покупателя — id семьи; в PostHog это свойство family_id.", "domainTitle": "Подписка и оплата"}, {"name": "pushOpened", "title": "Открыл пуш", "domain": "system", "side": "both", "status": "new", "prio": "P1", "when": "Нажал на уведомление (из фона, с закрытого приложения или баннер внутри).", "why": "CTR пушей и рассылок; возвраты по пушу.", "props": [{"n": "type", "t": "quest_review | reward_request | coin_request | campaign | …", "d": "вид пуша"}, {"n": "campaign_id, push_id", "t": "id", "d": "для рассылок"}], "code": "lib/core/router/deep_link_service.dart:129, :142, :182 (замороженная зона — нужно согласие)", "domainTitle": "Пуши, ссылки, профиль"}, {"name": "deepLinkOpened", "title": "Открыл ссылку в приложение", "domain": "system", "side": "both", "status": "new", "prio": "P2", "when": "Приложение открыто по ссылке (oyna:// или приглашение).", "props": [{"n": "path", "t": "шаблон", "d": "куда ведёт ссылка"}, {"n": "utm_source, utm_medium, utm_campaign", "t": "строки", "d": "метки кампании"}], "code": "bootstrap: обёртка EarlyAppLinkCapture (сырой адрес с метками)", "domainTitle": "Пуши, ссылки, профиль"}, {"name": "rateUsRated", "title": "Оценил приложение", "domain": "system", "side": "parent", "status": "new", "prio": "P1", "when": "В «Оценить нас» выбрал звёзды и отправил.", "props": [{"n": "stars", "t": "1–5", "d": "оценка"}, {"n": "channel", "t": "store | mail | none", "d": "куда отправили"}], "code": "features/parent/…/parent_rate_bloc.dart:122", "domainTitle": "Пуши, ссылки, профиль"}, {"name": "logOut", "title": "Ребёнок вышел / вернулся родитель", "domain": "system", "side": "child", "status": "live", "when": "Режим ребёнка закрыт через PIN родителя, ребёнок вышел сам или сессия закончилась.", "props": [{"n": "reason", "t": "parent_gate | child_exit | session_replaced | parent_signed_in | session_ended", "d": "почему"}], "code": "parent_gate_coordinator_bloc.dart:235, :260; app_runtime_scope.dart:190", "domainTitle": "Пуши, ссылки, профиль"}], "screens": [{"id": "consent", "title": "Язык и согласие родителя", "side": "common", "route": "/consent", "cards": ["start-app-01", "start-app-02", "start-app-03"], "events": ["coppaConsentGiven"], "note": "До согласия ничего не отправляется: просмотр этого экрана не придёт. Первое событие — coppaConsentGiven.", "sheet": false, "untracked": true, "group": "common"}, {"id": "role_choice", "title": "Выбор роли", "side": "common", "route": "/auth/login", "cards": ["start-app-04", "start-app-05"], "events": [], "note": "Выбор роли виден по следующему экрану: parent_region — «Я родитель», child_house_welcome — «Я ребёнок».", "sheet": false, "untracked": false, "group": "common"}, {"id": "parent_region", "title": "Регион (выбрал «Я родитель»)", "side": "parent", "route": "/auth/region", "cards": ["p-auth-app-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_sign_in", "title": "Вход: телефон", "side": "parent", "route": "/auth/parent-pin", "cards": ["p-auth-app-01", "p-auth-app-02"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_phone_otp", "title": "Код из СМС", "side": "parent", "route": "/auth/parent-otp", "cards": ["p-auth-app-03"], "events": ["signUp", "logIn"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_email", "title": "Вход и регистрация по почте", "side": "parent", "route": "/auth/parent-email", "cards": ["p-auth-app-04", "p-auth-app-05", "p-auth-app-06"], "events": ["signUp", "logIn"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "password_recovery", "title": "Восстановление пароля", "side": "parent", "route": "/auth/password-recovery", "cards": ["p-auth-app-07"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "password_reset", "title": "Новый пароль", "side": "parent", "route": "/auth/reset-password", "cards": ["p-auth-app-08", "p-auth-app-09", "p-auth-app-10"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "family_setup", "title": "Анкета семьи и первый ребёнок", "side": "parent", "route": "/auth/family-setup", "cards": ["p-auth-app-11", "p-auth-app-12", "p-auth-app-13", "p-auth-app-14", "p-auth-app-15"], "events": ["parent_profile_created", "childAdded", "onboardingCompleted"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_pin_setup", "title": "Создание PIN", "side": "parent", "route": "/security/parent-pin-setup", "cards": ["p-auth-app-16", "p-auth-app-17"], "events": ["parentPinCreated"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_pin_entry", "title": "Ввод PIN", "side": "parent", "route": "/security/parent-pin-entry", "cards": ["p-auth-app-18"], "events": ["logOut"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_home", "title": "Главная родителя", "side": "parent", "route": "/parent", "cards": ["p-home-app-00", "p-home-app-01", "p-home-app-02", "p-home-device-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_child", "title": "Страница ребёнка", "side": "parent", "route": "/parent/children/:childId", "cards": ["p-child-app-00", "p-child-app-01", "p-child-device-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_child_settings", "title": "Настройки ребёнка", "side": "parent", "route": "/parent/children/:childId/settings", "cards": ["p-child-app-02", "p-child-device-01"], "events": ["childModeOpened"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_tasks", "title": "Задания", "side": "parent", "route": "/parent/quests", "cards": ["p-tasks-app-00", "p-tasks-device-03", "p-tasks-device-04"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_create", "title": "Создать задания («+»)", "side": "parent", "route": "/parent/quests/new", "cards": ["p-tasks-app-01", "p-tasks-device-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_catalog", "title": "Готовые задания", "side": "parent", "route": "/parent/quests/catalog", "cards": ["p-tasks-app-02"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_editor", "title": "Редактор задания", "side": "parent", "route": "/parent/task-editor", "cards": ["p-tasks-app-03", "p-tasks-app-04", "p-tasks-app-05", "p-tasks-device-01", "p-tasks-device-02"], "events": ["questCreated"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_detail", "title": "Карточка задания", "side": "parent", "route": "/parent/task/:questId", "cards": ["p-tasks-app-06"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_approvals", "title": "Проверка: очередь", "side": "parent", "route": "/parent/approvals", "cards": ["p-review-app-00", "p-review-device-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_task_review", "title": "Проверка задания", "side": "parent", "route": "/parent/task-review/:completionId", "cards": ["p-review-app-01", "p-review-app-02", "p-review-app-03", "p-review-device-01", "p-review-device-02"], "events": ["questApproved", "questRejected"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_rewards", "title": "Награды: полка и запросы", "side": "parent", "route": "/parent/rewards", "cards": ["p-rewards-app-00", "p-rewards-device-02", "p-rewards-device-03", "p-requests-app-00", "p-requests-device-00"], "events": [], "note": "Полка и запросы — один экран; вкладка приходит свойством view.", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_reward_editor", "title": "Редактор награды", "side": "parent", "route": "/parent/reward-editor", "cards": ["p-rewards-app-01", "p-rewards-app-02", "p-rewards-app-03", "p-rewards-device-00", "p-rewards-device-01"], "events": ["rewardCreated"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_reward_request", "title": "Запрос ребёнка на награду", "side": "parent", "route": "/parent/reward-request/:redemptionId", "cards": ["p-requests-app-01", "p-requests-app-02", "p-requests-app-03", "p-requests-device-01", "p-requests-device-02"], "events": ["rewardApproved", "rewardDeclined"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_add_child", "title": "Добавить ребёнка", "side": "parent", "route": "/parent/children/new", "cards": ["p-family-app-00", "p-family-device-00", "p-family-device-01"], "events": ["childAdded", "childLimitReached"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_child_added", "title": "«Класс!» — ребёнок добавлен", "side": "parent", "route": "/parent/children/:childId/added", "cards": ["p-family-app-01"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_child_invite", "title": "Приглашение ребёнка", "side": "parent", "route": "/parent/children/:childId/invite", "cards": ["p-family-app-02", "p-family-device-02"], "events": ["childInviteShared"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_family_settings", "title": "Настройки семьи", "side": "parent", "route": "/parent/family/settings", "cards": ["p-family-app-03"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_assistant", "title": "Фоксик AI", "side": "parent", "route": "/parent/assistant", "cards": ["p-assistant-app-00", "p-assistant-app-01", "p-assistant-app-02", "p-assistant-app-03", "p-assistant-app-04", "p-assistant-device-00"], "events": ["copilotDigestViewed", "copilotChatMessageSent", "copilotRecommendationApplied", "copilotOutOfScopeRefused", "aiBuddyLimitReached"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_family_chat", "title": "Семейный чат", "side": "parent", "route": "/parent/chat", "cards": ["p-chat-app-00", "p-chat-app-01", "p-chat-app-02", "p-chat-device-00", "p-chat-device-01"], "events": ["parentBonusGiven"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_notifications", "title": "Уведомления", "side": "parent", "route": "/parent/notifications", "cards": ["p-feed-app-00", "p-feed-device-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_profile", "title": "Профиль и «Оценить нас»", "side": "parent", "route": "/parent/profile", "cards": ["p-profile-app-00", "p-profile-app-03", "p-profile-app-04", "p-profile-device-00", "p-profile-device-02"], "events": ["rateUsRated", "parentLoggedOut"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_profile_data", "title": "Личные данные", "side": "parent", "route": "/parent/profile/data", "cards": ["p-profile-app-01"], "events": ["accountDeleted"], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_profile_security", "title": "Безопасность", "side": "parent", "route": "/parent/profile/security", "cards": ["p-profile-app-02", "p-profile-device-01"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "paywall", "title": "Подписка", "side": "parent", "route": "/parent/paywall", "cards": ["p-paywall-app-00", "p-paywall-app-01", "p-paywall-app-02", "p-paywall-app-03", "p-paywall-app-04", "p-paywall-app-05", "p-paywall-app-06", "p-paywall-app-07", "p-paywall-device-00"], "events": ["paywallViewed", "paywallTierChanged", "paywallPeriodChanged", "paywallCtaTapped", "subscriptionStarted", "purchaseFailed", "paywallDismissed"], "note": "Оплата картой Paylov открывается поверх подписки и отдельным экраном не считается.", "sheet": false, "untracked": false, "group": "parent"}, {"id": "parent_child_analytics", "title": "Аналитика ребёнка (за флагом)", "side": "parent", "route": "/parent/children/:childId/analytics", "cards": ["p-analytics-app-00"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "parent"}, {"id": "child_house_welcome", "title": "Привет! (выбрал «Я ребёнок»)", "side": "child", "route": "/auth/child-welcome", "cards": ["c-onboarding-app-00", "c-variants-app-14", "c-variants-app-16"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_code", "title": "Код от родителя", "side": "child", "route": "/auth/child-code", "cards": ["c-onboarding-app-01", "c-onboarding-app-02", "c-onboarding-app-03", "c-onboarding-app-04", "c-variants-app-15"], "events": ["childCodeFailed", "logIn"], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_invite_join", "title": "Вход по ссылке или QR", "side": "child", "route": "/auth/child-invite", "cards": [], "events": ["childCodeFailed", "logIn"], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_welcome", "title": "Готово! (ребёнок вошёл)", "side": "child", "route": "/child/welcome", "cards": ["c-onboarding-app-05", "c-onboarding-app-06"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_home", "title": "Главная ребёнка", "side": "child", "route": "/child", "cards": ["c-home-app-00", "c-home-app-01", "c-home-app-02", "c-home-app-03", "c-home-app-04", "c-home-app-05", "c-home-app-06", "c-home-app-07", "c-home-app-08", "c-home-app-09", "c-home-app-10", "c-home-app-11", "c-home-app-12", "c-teen-home-app-00", "c-teen-home-app-01", "c-teen-home-app-02", "c-teen-home-app-03", "c-teen-home-app-04", "c-teen-home-app-05", "c-variants-app-11", "c-variants-app-12", "c-variants-app-13", "c-level-app-00", "c-level-app-01", "c-level-app-02", "c-level-app-03"], "events": ["levelUp", "streakMilestone", "childReturnedAfterBreak"], "note": "Днём, ночью, с паутинкой и у подростка — один экран. Окно «Новый уровень» показывается поверх главной.", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_quests", "title": "Задания ребёнка", "side": "child", "route": "/child/quests", "cards": ["c-tasks-app-00", "c-teen-tasks-app-00"], "events": ["questOpened"], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_quest_card", "title": "Карточка задания (лист)", "side": "child", "route": null, "cards": ["c-tasks-app-01", "c-tasks-app-02", "c-tasks-app-03", "c-tasks-app-04", "c-tasks-app-05", "c-tasks-app-06", "c-tasks-app-07", "c-tasks-app-08", "c-tasks-app-10", "c-teen-tasks-app-01", "c-teen-tasks-app-02", "c-teen-tasks-app-03", "c-teen-tasks-app-04", "c-teen-tasks-app-05", "c-teen-tasks-app-06", "c-teen-tasks-app-07", "c-teen-tasks-app-08", "c-teen-tasks-app-09", "c-variants-app-10"], "events": ["questOpened", "questSubmitted"], "note": "Лист поверх экрана заданий, не маршрут: его открытие — событие questOpened.", "sheet": true, "untracked": false, "group": "child"}, {"id": "child_market", "title": "Магазин наград", "side": "child", "route": "/child/rewards", "cards": ["c-market-app-00", "c-teen-market-app-00", "c-teen-market-app-01", "c-teen-market-app-02", "c-teen-market-app-06", "c-teen-market-app-07"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_reward_card", "title": "Покупка награды (лист)", "side": "child", "route": null, "cards": ["c-market-app-01", "c-market-app-02", "c-market-app-03", "c-market-app-04", "c-market-app-05", "c-teen-market-app-03", "c-teen-market-app-04", "c-teen-market-app-05"], "events": ["rewardRedeemed"], "note": "Подтверждение и «С покупкой!» — листы поверх магазина.", "sheet": true, "untracked": false, "group": "child"}, {"id": "child_weekly", "title": "Миссии недели", "side": "child", "route": "/child/weekly", "cards": ["c-level-app-04", "c-level-app-05", "c-level-app-06", "c-level-app-07"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_foksik", "title": "Чат с Фоксиком", "side": "child", "route": "/child/foksik", "cards": ["c-chat-app-00", "c-chat-app-01", "c-chat-app-02", "c-chat-app-03", "c-chat-app-04", "c-chat-app-05", "c-chat-app-06", "c-chat-app-07", "c-chat-app-08", "c-chat-app-09", "c-chat-app-10", "c-chat-app-11", "c-chat-app-12", "c-chat-app-13", "c-chat-app-14", "c-chat-app-15", "c-chat-app-16", "c-chat-app-17", "c-tasks-app-09", "c-teen-profile-app-05", "c-teen-profile-app-06", "c-variants-app-08", "c-variants-app-09"], "events": ["jeyMessageSent", "aiBuddyLimitReached", "questSubmitted", "rewardRedeemed"], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_profile", "title": "Профиль ребёнка", "side": "child", "route": "/child/profile", "cards": ["c-profile-app-00", "c-profile-app-01", "c-profile-app-04", "c-profile-app-05", "c-profile-app-06", "c-profile-app-07", "c-profile-app-08", "c-profile-app-09", "c-profile-app-10", "c-profile-app-11", "c-teen-profile-app-00", "c-teen-profile-app-01", "c-teen-profile-app-03", "c-teen-profile-app-04"], "events": ["logOut"], "note": "", "sheet": false, "untracked": false, "group": "child"}, {"id": "child_profile_edit", "title": "Мои данные", "side": "child", "route": "/child/profile/edit", "cards": ["c-profile-app-02", "c-profile-app-03", "c-profile-app-12", "c-teen-profile-app-02", "c-variants-app-00", "c-variants-app-01", "c-variants-app-02", "c-variants-app-03", "c-variants-app-04", "c-variants-app-05", "c-variants-app-06", "c-variants-app-07"], "events": [], "note": "", "sheet": false, "untracked": false, "group": "child"}], "funnels": [{"id": "f-store", "title": "Магазин → установка → согласие", "question": "Сколько людей из рекламы и поиска доходят до приложения? Это воронка маркетинга: первые шаги считают магазины, последний — PostHog.", "aggregate": "люди (магазин и PostHog)", "window": "1 день", "lanes": ["store", "parent"], "steps": [{"label": "Увидел приложение в магазине", "event": "impressions", "lane": "store", "filter": "Источник: поиск, подборки, реклама, ссылки кампаний", "alt": [], "external": true, "extLabel": "App Store Connect / Play Console: показы"}, {"label": "Открыл страницу приложения", "event": "product_page_views", "lane": "store", "filter": "Конверсия страницы — главный рычаг ASO", "alt": [], "external": true, "extLabel": "Магазины: просмотры страницы"}, {"label": "Установил", "event": "installs", "lane": "store", "filter": "По кампании: ct= (App Store) и utm_* (Google Play)", "alt": [], "external": true, "extLabel": "Магазины: загрузки"}, {"label": "Открыл и дал согласие", "event": "coppaConsentGiven", "lane": "parent", "filter": "Первое, что видно в PostHog", "alt": [], "card": "start-app-02"}], "breakdowns": ["источник / кампания", "страна", "платформа"], "note": "<b>Как читать.</b> Шаги 1–3 — в кабинетах магазинов (App Store Connect → App Analytics → Sources; Google Play Console → Статистика → Привлечение). Шаг 4 — в PostHog. Разница «установил → согласие» — люди, которые открыли приложение и ушли до согласия.", "posthog": "магазины + Trends", "color": "#7b61ff"}, {"id": "f-parent", "title": "Родитель: от согласия до своей семьи", "question": "Сколько родителей проходят регистрацию в первый день и на каком шаге уходят?", "aggregate": "люди (родители)", "window": "1 день", "lanes": ["parent"], "steps": [{"label": "Дал согласие", "event": "coppaConsentGiven", "lane": "parent", "filter": "", "alt": [], "card": "start-app-02"}, {"label": "Выбрал «Я родитель»", "event": "$screen", "lane": "parent", "filter": "<code>$screen_name = parent_region</code>", "alt": [], "card": "p-auth-app-00", "screen": "parent_region"}, {"label": "Вошёл: телефон, почта, Google, Apple", "event": "signUp", "lane": "parent", "filter": "разрез: <code>method</code>", "alt": [], "card": "p-auth-app-03"}, {"label": "Создал семью и первого ребёнка", "event": "onboardingCompleted", "lane": "parent", "filter": "", "alt": ["childAdded"], "card": "p-auth-app-13"}, {"label": "Придумал PIN", "event": "$screen", "lane": "parent", "filter": "<code>$screen_name = parent_pin_setup</code>", "alt": [], "card": "p-auth-app-16", "screen": "parent_pin_setup"}, {"label": "Попал на главную", "event": "$screen", "lane": "parent", "filter": "<code>$screen_name = parent_home</code>", "alt": [], "card": "p-home-app-01", "screen": "parent_home"}], "breakdowns": ["способ входа", "страна", "язык", "платформа"], "note": "<b>Шаг 1 — все согласия:</b> его дают и родители, и дети на своих телефонах; роль видна на шаге 2. <b>Где ждём потерь:</b> между 2 и 3 (СМС не пришло, почта не подтверждена) и между 3 и 4 (длинная анкета). Медленные шаги видно в PostHog по «времени до конверсии».", "posthog": "Воронка (Funnel)", "color": "#ff8a1f"}, {"id": "f-connect", "title": "Подключение ребёнка — две стороны", "question": "Сколько семей доходят до того, что ребёнок вошёл со своего телефона? Считаем по семье: шаги делают разные люди.", "aggregate": "семьи (группа family)", "window": "7 дней", "lanes": ["parent", "child"], "steps": [{"label": "Ребёнок добавлен", "event": "childAdded", "lane": "parent", "filter": "", "alt": [], "card": "p-family-app-00"}, {"label": "Открыл приглашение", "event": "$screen", "lane": "parent", "filter": "<code>$screen_name = parent_child_invite</code>", "alt": [], "card": "p-family-app-02", "screen": "parent_child_invite"}, {"label": "Отправил код или ссылку", "event": "childInviteShared", "lane": "parent", "filter": "разрез: <code>channel</code> · подключим после слияния работы над приглашениями", "alt": [], "card": "p-family-device-02"}, {"label": "Ребёнок ввёл код", "event": "$screen", "lane": "child", "filter": "или открыл ссылку / QR", "alt": [], "card": "c-onboarding-app-01", "screen": "child_code"}, {"label": "Ребёнок вошёл", "event": "logIn", "lane": "child", "filter": "<code>role = child</code>, разрез: <code>method</code>", "alt": [], "card": "c-onboarding-app-05"}], "breakdowns": ["способ входа ребёнка", "страна", "платформа"], "note": "<b>Обход:</b> часть семей живёт на одном телефоне — родитель открывает режим ребёнка (<code>childModeOpened</code>). Их считаем отдельно, это не отвал. Неудачные входы — <code>childCodeFailed</code> по <code>reason</code>.", "posthog": "Воронка (Funnel)", "color": "#19a3c4"}, {"id": "f-core", "title": "Ядро: задание → проверка → награда", "question": "Проходит ли семья весь цикл, ради которого существует продукт, и где он рвётся? Шаг 4 за неделю — это главная метрика.", "aggregate": "семьи (группа family)", "window": "7 дней", "lanes": ["parent", "child"], "steps": [{"label": "Родитель создал задание", "event": "questCreated", "lane": "parent", "filter": "разрез: <code>source</code>", "alt": [], "card": "p-tasks-app-03"}, {"label": "Ребёнок открыл задание", "event": "questOpened", "lane": "child", "filter": "", "alt": [], "card": "c-tasks-app-01"}, {"label": "Ребёнок сделал и отправил", "event": "questSubmitted", "lane": "child", "filter": "разрез: <code>had_photo</code>", "alt": [], "card": "c-tasks-app-05"}, {"label": "Родитель одобрил — монеты", "event": "questApproved", "lane": "parent", "filter": "медиана <code>time_to_approve_minutes</code>", "alt": [], "card": "p-review-app-01"}, {"label": "Ребёнок попросил награду", "event": "rewardRedeemed", "lane": "child", "filter": "", "alt": [], "card": "c-market-app-01"}, {"label": "Родитель выдал награду", "event": "rewardApproved", "lane": "parent", "filter": "", "alt": [], "card": "p-requests-app-01"}], "breakdowns": ["источник задания", "сложность", "возраст: малыш / подросток", "страна"], "note": "<b>Ветка возврата:</b> вместо шага 4 бывает <code>questRejected</code> (на доработку) — смотрим долю и срок. <b>Время проверки</b> важнее конверсии: если родитель отвечает через сутки, ребёнок остывает.", "posthog": "Воронка (Funnel)", "color": "#16181d"}, {"id": "f-child", "title": "Первая сессия ребёнка", "question": "Понимает ли ребёнок, что делать, в первый же день?", "aggregate": "люди (дети)", "window": "1 день", "lanes": ["child"], "steps": [{"label": "Вошёл", "event": "logIn", "lane": "child", "filter": "<code>role = child</code>", "alt": [], "card": "c-onboarding-app-05"}, {"label": "Увидел главную", "event": "$screen", "lane": "child", "filter": "<code>$screen_name = child_home</code>", "alt": [], "card": "c-home-app-00", "screen": "child_home"}, {"label": "Открыл задание", "event": "questOpened", "lane": "child", "filter": "", "alt": [], "card": "c-tasks-app-01"}, {"label": "Сфотографировал и отправил", "event": "questSubmitted", "lane": "child", "filter": "", "alt": [], "card": "c-tasks-app-05"}], "breakdowns": ["возраст: малыш / подросток", "способ входа", "платформа"], "note": "Ребёнок на телефоне родителя (режим ребёнка) идёт под id родителя с <code>role = child</code> — для этой воронки фильтр <code>role = child</code>.", "posthog": "Воронка (Funnel)", "color": "#19a3c4"}, {"id": "f-rewards", "title": "Награды: монеты превращаются в желание", "question": "Есть ли в магазине то, что ребёнок хочет, и отвечает ли родитель на запросы?", "aggregate": "семьи (группа family)", "window": "14 дней", "lanes": ["parent", "child"], "steps": [{"label": "Родитель создал награду", "event": "rewardCreated", "lane": "parent", "filter": "", "alt": [], "card": "p-rewards-app-02"}, {"label": "Ребёнок открыл магазин", "event": "$screen", "lane": "child", "filter": "<code>$screen_name = child_market</code>", "alt": [], "card": "c-market-app-00", "screen": "child_market"}, {"label": "Попросил награду", "event": "rewardRedeemed", "lane": "child", "filter": "", "alt": [], "card": "c-market-app-04"}, {"label": "Родитель выдал", "event": "rewardApproved", "lane": "parent", "filter": "", "alt": ["rewardDeclined"], "card": "p-requests-app-01"}], "breakdowns": ["своя или из каталога", "цена", "страна"], "note": "Отказ и перенос — <code>rewardDeclined</code> (<code>postponed</code>). Долгое ожидание ответа (<code>wait_minutes</code>) убивает мотивацию так же, как отказ.", "posthog": "Воронка (Funnel)", "color": "#e0457b"}, {"id": "f-paywall", "title": "Подписка", "question": "Откуда люди приходят на подписку и сколько из них платят?", "aggregate": "люди (родители)", "window": "1 день", "lanes": ["parent"], "steps": [{"label": "Открыл подписку", "event": "paywallViewed", "lane": "parent", "filter": "разрез: <code>trigger</code>", "alt": [], "card": "p-paywall-app-00"}, {"label": "Нажал «Оформить»", "event": "paywallCtaTapped", "lane": "parent", "filter": "разрез: <code>tier</code>, <code>period</code>, <code>method</code>", "alt": [], "card": "p-paywall-app-01"}, {"label": "Оплатил", "event": "subscriptionStarted", "lane": "parent", "filter": "", "alt": [], "card": "p-paywall-app-02"}], "breakdowns": ["источник (trigger)", "тариф", "период", "способ оплаты", "страна"], "note": "<b>Неудачи:</b> <code>purchaseFailed</code> по <code>reason</code> (отмена, сеть, магазин, Paylov). <b>Деньги и продления</b> — в RevenueCat (и в PostHog через интеграцию): пробный → платный, отток, выручка.", "posthog": "Воронка (Funnel)", "color": "#7444c4"}, {"id": "f-foksik-parent", "title": "Фоксик AI для родителя → Premium + ИИ", "question": "Помогает ли ИИ-помощник родителю и продаёт ли он тариф с ИИ?", "aggregate": "люди (родители)", "window": "30 дней", "lanes": ["parent"], "steps": [{"label": "Открыл Фоксика", "event": "$screen", "lane": "parent", "filter": "<code>$screen_name = parent_assistant</code>", "alt": [], "card": "p-assistant-app-00", "screen": "parent_assistant"}, {"label": "Спросил", "event": "copilotChatMessageSent", "lane": "parent", "filter": "", "alt": [], "card": "p-assistant-app-01"}, {"label": "Применил совет или карточку", "event": "copilotRecommendationApplied", "lane": "parent", "filter": "", "alt": [], "card": "p-assistant-app-03"}, {"label": "Упёрся в лимит", "event": "aiBuddyLimitReached", "lane": "parent", "filter": "<code>who = parent</code>", "alt": [], "card": "p-assistant-app-04"}, {"label": "Купил Premium + ИИ", "event": "subscriptionStarted", "lane": "parent", "filter": "<code>tier = premium_ai</code>", "alt": [], "card": "p-paywall-app-04"}], "breakdowns": ["тариф", "страна", "язык"], "note": "", "posthog": "Воронка (Funnel)", "color": "#ff8a1f"}, {"id": "f-foksik-child", "title": "Ребёнок и Фоксик", "question": "Возвращается ли ребёнок к Фоксику и ведёт ли чат к заданиям?", "aggregate": "люди (дети)", "window": "7 дней", "lanes": ["child"], "steps": [{"label": "Открыл чат", "event": "$screen", "lane": "child", "filter": "<code>$screen_name = child_foksik</code>", "alt": [], "card": "c-chat-app-00", "screen": "child_foksik"}, {"label": "Написал или сказал", "event": "jeyMessageSent", "lane": "child", "filter": "", "alt": [], "card": "c-chat-app-01"}, {"label": "Сделал задание из чата", "event": "questSubmitted", "lane": "child", "filter": "после исправления: сдачи из чата тоже считаются", "alt": [], "card": "c-tasks-app-09"}], "breakdowns": ["возраст: малыш / подросток", "язык"], "note": "", "posthog": "Воронка (Funnel)", "color": "#19a3c4"}, {"id": "f-push", "title": "Возврат по пушу", "question": "Сколько людей возвращаются по уведомлению и делают то, ради чего оно пришло?", "aggregate": "люди", "window": "1 день", "lanes": ["parent", "child"], "steps": [{"label": "Пуш отправлен", "event": "push_sent", "lane": "parent", "filter": "", "alt": [], "external": true, "extLabel": "Сервер: журнал рассылок (push-campaign-runner, send-push)"}, {"label": "Открыл пуш", "event": "pushOpened", "lane": "parent", "filter": "разрез: <code>type</code>, <code>campaign_id</code>", "alt": [], "card": "p-feed-app-00"}, {"label": "Сделал действие из пуша", "event": "questApproved", "lane": "parent", "filter": "действие зависит от типа пуша", "alt": ["rewardApproved", "questCreated"], "card": "p-review-app-01"}], "breakdowns": ["тип пуша", "кампания", "роль"], "note": "", "posthog": "Воронка (Funnel)", "color": "#8a8f99"}], "dictionary": {"title": "Все события", "sub": "Имя события — так оно называется в PostHog. Клик — когда отправляется, свойства, экраны, воронки и где в коде."}, "screensSection": {"title": "Экраны: постоянные имена", "sub": "Просмотр экрана приходит сам событием <code>$screen</code> с этим именем. Листы (поверх экрана) — отдельными событиями."}, "architecture": {"title": "Откуда берутся данные", "sub": "Приложение отправляет события в PostHog; деньги — из RevenueCat; установки и источники — из магазинов. Родитель и ребёнок — разные люди, но одна семья: воронки «по семьям» склеивают их действия.", "boxes": [{"id": "ads", "col": 0, "row": 0, "kind": "store", "icon": "📣", "title": "Реклама, блогеры, сайт", "text": "Ссылки с метками кампаний (UTM, ct=).", "small": "Instagram, TikTok, Telegram, Google, блогеры, школы"}, {"id": "stores", "col": 1, "row": 0, "kind": "store", "icon": "🏪", "title": "App Store и Google Play", "text": "Показы, просмотры страницы, установки — по источникам и кампаниям.", "small": "App Store Connect · Play Console"}, {"id": "parent", "col": 2, "row": 0, "kind": "parent", "icon": "👩", "title": "Телефон родителя", "text": "События родителя + режим ребёнка на этом же телефоне.", "small": "id = аккаунт родителя"}, {"id": "child", "col": 3, "row": 0, "kind": "child", "icon": "🧒", "title": "Телефон ребёнка", "text": "События ребёнка: только обезличенный id, без текста и имени.", "small": "id = child_<uuid>"}, {"id": "meta", "col": 0, "row": 1, "kind": "store", "icon": "🎯", "title": "Meta Ads (только родитель)", "text": "Активация приложения и покупки — для рекламы в Facebook и Instagram.", "small": "Meta App Events: после согласия и разрешения iOS; у ребёнка выключено"}, {"id": "rc", "col": 1, "row": 1, "kind": "server", "icon": "💳", "title": "RevenueCat", "text": "Покупки, пробный период, продления, отмены, выручка.", "small": "интеграция с PostHog — настройка в кабинете"}, {"id": "ph", "col": 2, "row": 1, "kind": "tool", "icon": "📊", "title": "PostHog", "text": "Все события, люди и семьи. Воронки, удержание, пути, когорты.", "small": "один проект; DEV отделяем свойством environment"}, {"id": "db", "col": 3, "row": 1, "kind": "server", "icon": "🗄", "title": "Supabase (база)", "text": "Правда о заданиях, монетах и семьях.", "small": "можно подключить к PostHog как склад данных"}, {"id": "dash", "col": 2, "row": 2, "kind": "tool", "icon": "🧭", "title": "Дашборды и отчёты", "text": "Привлечение, ядро, награды, деньги, удержание, Фоксик.", "small": "список — в разделе «Дашборды»"}], "links": [["ads", "stores", "переходы"], ["stores", "parent", "установки"], ["parent", "ph", "события"], ["child", "ph", "события"], ["rc", "ph", "покупки"], ["rc", "meta", "покупки"], ["db", "ph", "склад"], ["ph", "dash", ""]], "identityHtml": "<h3>Кто есть кто в PostHog</h3>\n<table><tr><th>Кто</th><th>id в PostHog</th><th>Что ещё знаем</th></tr>\n<tr><td>Родитель</td><td><code>uuid аккаунта</code></td><td>role = parent, страна, язык, тариф, семья</td></tr>\n<tr><td>Ребёнок на своём телефоне</td><td><code>child_&lt;uuid&gt;</code></td><td>role = child, семья, уровень. Никаких имён, дат рождения, фото и текстов</td></tr>\n<tr><td>Ребёнок на телефоне родителя</td><td>id родителя</td><td>role = child и active_child_id — пока открыт режим ребёнка</td></tr>\n<tr><td>Семья</td><td>группа <code>family</code> = id семьи</td><td>тариф, страна, число детей. Воронки «по семьям» считают шаги родителя и ребёнка вместе</td></tr></table>\n<p style=\"margin-top:12px\"><b>До согласия родителя приложение не отправляет ничего.</b> Поэтому сплэш и выбор языка в аналитике не видны — первое событие <code>coppaConsentGiven</code>.\nНа каждом событии: <code>environment</code> (dev / prod — DEV-сборки сейчас пишут в тот же проект), <code>coppa_strict</code>, роль, семья, тариф, страна, язык, версия приложения.</p>"}, "metrics": {"title": "Главная метрика и дерево метрик", "sub": "Одна цифра, по которой понятно, жив ли продукт, и пять групп метрик, которые её двигают. Под каждой — события, из которых она считается.", "northStar": {"name": "Семьи с закрытым циклом за неделю", "text": "Сколько семей за последние 7 дней прошли цикл: ребёнок сделал задание → родитель одобрил. Считается как уникальные семьи (группа <b>family</b>) с событием <b>questApproved</b> за неделю. Растёт — продукт работает: родители ставят задания, дети их делают, монеты что-то значат."}, "pillars": [{"title": "Привлечение", "sub": "сколько и откуда приходят", "items": [{"name": "Установки по источникам", "formula": "Загрузки в магазинах по кампаниям (ct=, utm_*).", "events": ["магазины"]}, {"name": "Конверсия страницы магазина", "formula": "Установки ÷ просмотры страницы. Рычаг — иконка, скриншоты, отзывы.", "events": ["магазины"]}, {"name": "Новые семьи", "formula": "Уникальные семьи с <b>onboardingCompleted</b> за период.", "events": ["onboardingCompleted"]}, {"name": "Цена семьи", "formula": "Расход канала ÷ новые семьи из этого канала.", "events": ["onboardingCompleted", "магазины"]}]}, {"title": "Активация", "sub": "дошли ли до ценности", "items": [{"name": "Семья создана в первый день", "formula": "Воронка «Родитель»: согласие → главная за 1 день.", "events": ["coppaConsentGiven", "$screen"]}, {"name": "Ребёнок подключён за 7 дней", "formula": "Воронка «Подключение»: ребёнок добавлен → ребёнок вошёл (или режим ребёнка).", "events": ["childAdded", "logIn", "childModeOpened"]}, {"name": "«Ага-момент»: первое одобрение", "formula": "Доля новых семей с первым <b>questApproved</b> за 7 дней.", "events": ["questApproved"]}]}, {"title": "Вовлечённость", "sub": "как часто и глубоко", "items": [{"name": "Задания на семью в неделю", "formula": "questCreated ÷ активные семьи.", "events": ["questCreated"]}, {"name": "Отправки на ребёнка в неделю", "formula": "questSubmitted ÷ активные дети.", "events": ["questSubmitted"]}, {"name": "Время проверки", "formula": "Медиана time_to_approve_minutes.", "events": ["questApproved"]}, {"name": "Доля возвратов", "formula": "questRejected ÷ (questApproved + questRejected).", "events": ["questRejected"]}, {"name": "Награды на семью", "formula": "rewardApproved ÷ активные семьи.", "events": ["rewardApproved"]}]}, {"title": "Монетизация", "sub": "кто и за что платит", "items": [{"name": "Конверсия подписки", "formula": "subscriptionStarted ÷ paywallViewed, по trigger, стране, тарифу.", "events": ["paywallViewed", "subscriptionStarted"]}, {"name": "Платящие семьи", "formula": "Семьи с тарифом premium / premium_ai.", "events": ["subscriptionStarted", "rc_initial_purchase"]}, {"name": "Пробный → платный, выручка, отток", "formula": "Из RevenueCat (кабинет или интеграция с PostHog).", "events": ["rc_initial_purchase"]}]}, {"title": "Удержание", "sub": "возвращаются ли", "items": [{"name": "Родитель D1 / D7 / D30", "formula": "Возврат: Application Opened; «ключевой» возврат — questApproved или questCreated.", "events": ["Application Opened", "questApproved"]}, {"name": "Ребёнок неделя 1 / 4", "formula": "Отправил задание на 2-й и 5-й неделе после входа.", "events": ["questSubmitted"]}, {"name": "Удержание семьи", "formula": "Семьи с questApproved на неделе N и N+k (по группе family).", "events": ["questApproved"]}, {"name": "Серии и возвраты", "formula": "streakMilestone; возвраты после 48 ч (паутинка).", "events": ["streakMilestone", "childReturnedAfterBreak"]}]}]}, "docsBefore": [{"id": "retention", "kicker": "Удержание", "title": "Удержание и когорты", "sub": "Не воронка, а «возвращаются ли». Строится в PostHog как Retention.", "cols": 3, "cards": [{"html": "<h3>Родитель</h3><p><b>Старт:</b> <code>onboardingCompleted</code>. <b>Возврат:</b> <code>Application Opened</code>.</p><p><b>D1, D7, D30.</b> Строже — возврат с действием: <code>questCreated</code> или <code>questApproved</code>.</p><p>Разрезы: страна, способ входа, тариф, есть ли телефон у ребёнка.</p>"}, {"html": "<h3>Ребёнок</h3><p><b>Старт:</b> <code>logIn</code> (role = child). <b>Возврат:</b> <code>questSubmitted</code>.</p><p><b>По неделям:</b> 1, 2, 4, 8. Разрез: малыш / подросток — у них разные экраны.</p><p>Возвраты после перерыва 48 ч+ — <code>childReturnedAfterBreak</code>.</p>"}, {"html": "<h3>Семья (главное)</h3><p><b>Старт и возврат:</b> <code>questApproved</code>, считаем по группе <b>family</b>.</p><p>Это удержание главной метрики: какая доля семей, закрывших цикл на первой неделе, закрывает его и на 4-й.</p><p>Платящие и бесплатные — отдельными когортами.</p>"}]}], "docsAfter": [{"id": "dashboards", "kicker": "PostHog", "title": "Дашборды", "sub": "Что собрать в PostHog. Каждый пункт — один график (insight). Везде фильтр <code>environment = prod</code>.", "cols": 3, "cards": [{"html": "<h3>1. Привлечение и активация</h3><ul><li>Новые семьи по дням (onboardingCompleted, по семьям)</li><li>Воронка «Магазин → согласие» — вместе с отчётом магазинов</li><li>Воронка «Родитель»: разрез по способу входа и стране</li><li>Воронка «Подключение ребёнка»</li><li>Таблица UTM: источник → семьи → оплаты</li></ul>"}, {"html": "<h3>2. Ядро продукта</h3><ul><li><b>Главная метрика:</b> уникальные семьи с questApproved, по неделям</li><li>Воронка «Ядро» по семьям</li><li>Медиана времени проверки</li><li>Доля возвратов на доработку</li><li>Задания по источнику: вручную, шаблон, ИИ, Фоксик</li></ul>"}, {"html": "<h3>3. Награды и монеты</h3><ul><li>Воронка «Награды»</li><li>Запросы и выдачи по неделям</li><li>Ожидание ответа родителя (wait_minutes)</li><li>Свои награды против каталога</li></ul>"}, {"html": "<h3>4. Деньги</h3><ul><li>Воронка «Подписка» с разрезом trigger</li><li>Открытия подписки по источникам</li><li>Неудачные покупки по причинам</li><li>Магазин против Paylov (Узбекистан)</li><li>Выручка, пробный → платный, отток — RevenueCat</li></ul>"}, {"html": "<h3>5. Удержание</h3><ul><li>Родитель D1/D7/D30</li><li>Ребёнок по неделям, малыш / подросток</li><li>Удержание семьи по questApproved</li><li>Стикинесс: дней в неделю с открытием</li></ul>"}, {"html": "<h3>6. Фоксик AI</h3><ul><li>Родители: вопросы, применённые советы, лимиты</li><li>Воронка «Фоксик → Premium + ИИ»</li><li>Дети: открытия чата, сообщения, лимиты</li><li>Отказы «не по теме»</li></ul>"}, {"html": "<h3>7. Качество</h3><ul><li>Неудачные входы ребёнка по причинам (childCodeFailed)</li><li>Ошибки оплаты (purchaseFailed)</li><li>Открытия пушей по типам</li><li>Экраны, где чаще всего закрывают приложение (пути)</li></ul>"}]}, {"id": "marketing", "kicker": "Маркетинг", "title": "Ссылки, UTM и что можно измерить", "sub": "Как размечать кампании, где смотреть установки и что в детском приложении измерить нельзя.", "cols": 2, "cards": [{"full": true, "html": "<h3>Что где смотреть</h3><table>\n<tr><th>Вопрос</th><th>Где ответ</th><th>Как</th></tr>\n<tr><td>Сколько установок и откуда</td><td>App Store Connect, Google Play Console</td><td>Источники, кампании по ссылкам с ct= / utm_*</td></tr>\n<tr><td>Что люди делают в приложении</td><td>PostHog</td><td>События, воронки этой страницы, удержание</td></tr>\n<tr><td>Сколько заплатили и продлили</td><td>RevenueCat (+ PostHog через интеграцию)</td><td>Выручка, пробный → платный, отток</td></tr>\n<tr><td>Сколько стоила установка / семья</td><td>Кабинеты рекламы + магазины + PostHog</td><td>Расход ÷ установки (магазин) ÷ новые семьи (PostHog)</td></tr>\n<tr><td>Работают ли пуши</td><td>PostHog</td><td>pushOpened ÷ отправлено (журнал рассылок)</td></tr></table>"}, {"html": "<h3>Ссылки для кампаний</h3>\n<h4>App Store</h4><pre>https://apps.apple.com/app/apple-store/id6762140001?pt=&lt;provider-token&gt;&amp;ct=202610_uz_instagram_launch&amp;mt=8</pre>\n<p><code>pt</code> выдаёт App Store Connect (App Analytics → Campaigns). Установки по <code>ct</code> видны там же.</p>\n<h4>Google Play</h4><pre>https://play.google.com/store/apps/details?id=com.oynaplatform.app&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dpaid_social%26utm_campaign%3D202610_uz_launch</pre>\n<p>Play Console показывает установки по кампаниям. Приложение может прочитать эти метки при первом запуске (Install Referrer) и записать родителю — следующий шаг.</p>\n<h4>Сайт</h4><pre>https://oynaplatform.com/?utm_source=telegram&amp;utm_medium=post&amp;utm_campaign=202610_kz_school</pre>\n<p>Кнопки магазинов на сайте должны передавать метки дальше — в <code>ct</code> и <code>referrer</code>.</p>"}, {"html": "<h3>Правила UTM</h3><table>\n<tr><th>Метка</th><th>Значения</th></tr>\n<tr><td><code>utm_source</code></td><td>instagram, tiktok, telegram, facebook, google, youtube, blogger_&lt;имя&gt;, school_&lt;имя&gt;, partner_&lt;имя&gt;</td></tr>\n<tr><td><code>utm_medium</code></td><td>paid_social, organic_social, influencer, cpc, referral, email, push, offline</td></tr>\n<tr><td><code>utm_campaign</code></td><td><code>ГГГГММ_страна_цель</code>: 202610_uz_launch, 202611_kz_school</td></tr>\n<tr><td><code>utm_content</code></td><td>креатив: video_fox_15s, static_market_v2</td></tr></table>\n<p>Только латиница в нижнем регистре и подчёркивания. Без пробелов и кириллицы — иначе одна кампания распадается на несколько строк.</p>"}, {"html": "<h3>Реклама и атрибуция</h3>\n<ul><li><b>Meta (Facebook, Instagram)</b> — в боевой сборке есть Meta App Events, но <b>только у родителя</b>: после согласия, входа родителя и (на iOS) разрешения на отслеживание. В режиме ребёнка и на телефоне ребёнка выключено. Отправляет только «приложение активировано»; покупки в Meta приходят из RevenueCat.</li>\n<li><b>Следующий шаг для Meta:</b> событие «Регистрация завершена» (= семья создана) — чтобы реклама училась на семьях, а не на установках. Только родитель, без данных ребёнка.</li>\n<li><b>Остальные каналы</b> (TikTok, Google, блогеры, Telegram) — ссылки кампаний магазинов, UTM на сайте и Install Referrer Google Play. Других рекламных SDK нет и не ставим: в приложении есть детский режим (правила Apple Kids и Google Families).</li>\n<li><b>Ничего о ребёнке</b> в рекламные системы не уходит; ретаргетинг по действиям ребёнка — нельзя.</li>\n<li><b>Предложение продукту:</b> вопрос «Откуда вы узнали про OYNA?» в конце регистрации — сарафан и Telegram ссылками не меряются.</li></ul>"}, {"html": "<h3>Пуши и ссылки внутрь приложения</h3>\n<ul><li><b>Пуши-рассылки</b> уже несут <code>campaign_id</code> и <code>push_id</code> — нужно событие <code>pushOpened</code> (план, P1), тогда CTR и возвраты по кампании будут в PostHog.</li>\n<li><b>Ссылки внутрь приложения:</b> сейчас работают <code>oyna://…</code> и приглашения ребёнка. Обычные https-ссылки вида <code>oynaplatform.com/app/…</code> пока не открывают приложение — для кампаний «вернись в приложение» их нужно добавить.</li>\n<li>Метки <code>utm_*</code> в ссылке приложения — свойства <code>deepLinkOpened</code> (план, P2).</li></ul>"}]}, {"id": "rules", "kicker": "Правила", "title": "Приватность, названия и проверка", "sub": "Чтобы данные были законными, понятными и не врали.", "cols": 3, "cards": [{"html": "<h3>Детские данные (COPPA)</h3><ul>\n<li>До согласия родителя — ничего.</li><li>Ребёнок — только <code>child_&lt;uuid&gt;</code>; ни имени, ни даты рождения, ни фото.</li>\n<li>Никакого свободного текста: названия заданий и наград, сообщения, комментарии — только признаки (<code>is_custom</code>, <code>has_reason</code>, длина).</li>\n<li>Возраст — только диапазон (малыш / подросток).</li><li>Никаких рекламных id и рекламных SDK.</li>\n<li><code>coppa_strict</code> на каждом событии.</li><li>Удалил аккаунт — удаляем человека и в PostHog.</li></ul>"}, {"html": "<h3>Как называем</h3><ul>\n<li>Событие: <b>объект + действие в прошедшем</b>, camelCase, как уже в данных: <code>questCreated</code>, <code>rewardApproved</code>.</li>\n<li>Свойства — snake_case: <code>time_to_approve_minutes</code>.</li><li>Экраны — <code>роль_экран</code>: <code>parent_home</code>, <code>child_market</code>.</li>\n<li>Старые имена не трогаем — на них отчёты: <code>parent_profile_*</code> (snake_case), <code>jey*</code> = Фоксик.</li>\n<li>Один факт — одно событие, после успеха на сервере, не по нажатию. Действия через карточки Фоксика — тем же событием с <code>source = foksik_card</code>.</li></ul>"}, {"html": "<h3>Как проверить событие</h3><ol style=\"margin:4px 0 8px 20px;padding:0\">\n<li>Сборка OYNA Dev → сделать действие.</li><li>PostHog → Activity → Live events, фильтр <code>environment = dev</code>.</li>\n<li>Сверить имя и свойства с этой страницей (клик по событию).</li><li>В отчётах всегда <code>environment = prod</code>.</li></ol>\n<p>Старые DEV-события без <code>environment</code> лежат в том же проекте — отсекаем по версии сборки.</p>"}]}, {"id": "status", "kicker": "Статус", "title": "Что работает, что сделано, что нужно от владельцев", "sub": "Аудит кода 02.10.2026 (redesign-parent-flow @6889d1fd) и доработка в ветке analytics-tracking-plan.", "cols": 2, "cards": [{"html": "<h3>Нашли при аудите</h3><ul><li><b>Покупка подписки не отправлялась вообще</b> — метод был, вызова не было. <i>Исправлено.</i></li><li><b>Источник подписки всегда «trial_banner»</b> — такой плашки нет. <i>Исправлено (кроме входов через Фоксика).</i></li><li><b>Ядро «задание → проверка → награда» у родителя не было размечено</b> — ни одного события. <i>Исправлено.</i></li><li><b>DEV-сборки пишут в боевой проект PostHog</b> без пометки. <i>Исправлено: environment.</i></li><li><b>Просмотров экранов не было.</b> <i>Исправлено: $screen с постоянными именами.</i></li><li><b>Mixpanel мёртв:</b> в сборках нет токена.</li><li>У родителя после перезапуска <code>coppa_strict = true</code> (должно быть false).</li><li>Тариф в PostHog у плативших картой Paylov — free; при входе тариф затирается на free.</li><li><code>questSubmitted</code> отправляет название задания (текст родителя) — исправление готовится в соседней работе.</li></ul>"}, {"html": "<h3>Сделано в коде — ждёт сборки</h3><p>Ветка <code>analytics-tracking-plan</code> (от redesign-parent-flow), ещё не закоммичено:</p><ul><li>Просмотры всех экранов (<code>$screen</code>) и метка <code>environment</code> на каждом событии.</li><li>Согласие родителя — первое событие.</li><li>Задания: создано, открыто, одобрено, возвращено — и через карточки Фоксика.</li><li>Награды: создана, попросили (в магазине и в чате), выдана, отказ/перенос.</li><li>Подписка: настоящий источник, способ оплаты, покупка, неудачная покупка, правильное premium_ai.</li><li>Неудачный вход ребёнка по коду; лимит Фоксика у родителя.</li><li>Тесты на каждое событие; план в репозитории: docs/analytics/TRACKING_PLAN.md.</li></ul>"}, {"html": "<h3>Нужно от владельцев</h3><ul><li><b>PostHog:</b> один проект и фильтр <code>environment = prod</code> (так и сделано) — или ключ отдельного DEV-проекта.</li><li><b>Mixpanel:</b> дать токен или отказаться (рекомендация — отказаться, всё есть в PostHog).</li><li><b>RevenueCat:</b> проверить, что включены интеграции с PostHog и Meta.</li><li><b>App Store Connect:</b> завести ссылки кампаний (provider token).</li><li><b>Продукт:</b> решить про вопрос «Откуда узнали».</li><li><b>Замороженная зона:</b> согласие на событие <code>pushOpened</code> в сервисе ссылок.</li></ul>"}, {"html": "<h3>Дальше</h3><ul><li><b>После слияния текущей работы над Фоксиком и приглашениями:</b> отправка приглашения, вход ребёнка по ссылке/QR, лимит Фоксика у ребёнка, источник подписки из Фоксика, сдача задания из чата.</li><li><b>P1:</b> пуши, PIN, режим ребёнка, лимит детей, выход и удаление, оценка, бонусы, голос у Фоксика, событие «Регистрация завершена» для Meta.</li><li><b>P2:</b> ссылки с UTM, Install Referrer, уровень с сервера, возвраты после перерыва, мелкие поправки старых событий.</li></ul>"}]}]};
+const CARDS = {"start-app-02": {"label": "Подтверждение родителя", "w": 393, "h": 852, "section": "start", "kind": "app"}, "p-auth-app-00": {"label": "Регион", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-03": {"label": "Код из СМС", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-13": {"label": "Первый ребёнок", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-16": {"label": "PIN · создать", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-home-app-01": {"label": "Главная · первый запуск", "w": 786, "h": 2368, "section": "p-home", "kind": "app"}, "p-family-app-00": {"label": "Добавить ребёнка", "w": 786, "h": 1704, "section": "p-family", "kind": "app"}, "p-family-app-02": {"label": "Приглашение", "w": 786, "h": 1704, "section": "p-family", "kind": "app"}, "p-family-device-02": {"label": "Приглашение · DEV", "w": 1344, "h": 2992, "section": "p-family", "kind": "device"}, "c-onboarding-app-01": {"label": "Код от родителя", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-onboarding-app-05": {"label": "Готово", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "p-tasks-app-03": {"label": "Новое задание", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "c-tasks-app-01": {"label": "Карточка", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-05": {"label": "Отправлено", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "p-review-app-01": {"label": "Проверка задания", "w": 786, "h": 1704, "section": "p-review", "kind": "app"}, "c-market-app-01": {"label": "Покупка", "w": 1080, "h": 2341, "section": "c-market", "kind": "app"}, "p-requests-app-01": {"label": "Запрос", "w": 786, "h": 1704, "section": "p-requests", "kind": "app"}, "c-home-app-00": {"label": "День", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "p-rewards-app-02": {"label": "Редактор · заполнен", "w": 786, "h": 1704, "section": "p-rewards", "kind": "app"}, "c-market-app-00": {"label": "Магазин", "w": 1080, "h": 2539, "section": "c-market", "kind": "app"}, "c-market-app-04": {"label": "Подтверждение", "w": 393, "h": 852, "section": "c-market", "kind": "app"}, "p-paywall-app-00": {"label": "Месяц", "w": 1179, "h": 2556, "section": "p-paywall", "kind": "app"}, "p-paywall-app-01": {"label": "Год", "w": 1179, "h": 2556, "section": "p-paywall", "kind": "app"}, "p-paywall-app-02": {"label": "Подписка активна", "w": 1179, "h": 2556, "section": "p-paywall", "kind": "app"}, "p-assistant-app-00": {"label": "Пусто", "w": 786, "h": 1704, "section": "p-assistant", "kind": "app"}, "p-assistant-app-01": {"label": "Диалог", "w": 786, "h": 1704, "section": "p-assistant", "kind": "app"}, "p-assistant-app-03": {"label": "Лист", "w": 786, "h": 1704, "section": "p-assistant", "kind": "app"}, "p-assistant-app-04": {"label": "Лимит · Premium", "w": 786, "h": 1704, "section": "p-assistant", "kind": "app"}, "p-paywall-app-04": {"label": "Узбекистан · Premium + ИИ · карта", "w": 1179, "h": 2556, "section": "p-paywall", "kind": "app"}, "c-chat-app-00": {"label": "Пусто", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-01": {"label": "Диалог", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-tasks-app-09": {"label": "Задание из чата", "w": 1179, "h": 2556, "section": "c-tasks", "kind": "app"}, "p-feed-app-00": {"label": "Уведомления", "w": 786, "h": 2600, "section": "p-feed", "kind": "app"}, "start-app-01": {"label": "Язык", "w": 393, "h": 852, "section": "start", "kind": "app"}, "start-app-03": {"label": "Политика конфиденциальности", "w": 393, "h": 852, "section": "start", "kind": "app"}, "start-app-04": {"label": "Выбор роли", "w": 393, "h": 852, "section": "start", "kind": "app"}, "start-app-05": {"label": "Выбор роли · родитель", "w": 393, "h": 852, "section": "start", "kind": "app"}, "p-auth-app-01": {"label": "Телефон", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-02": {"label": "Телефон · клавиатура", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-04": {"label": "Почта · вход", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-05": {"label": "Пароль", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-06": {"label": "Почта · регистрация", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-07": {"label": "Восстановление", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-08": {"label": "Новый пароль", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-09": {"label": "Повтор пароля", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-10": {"label": "Ссылка устарела", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-11": {"label": "Семья · имя", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-12": {"label": "Первый ребёнок · пусто", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-14": {"label": "Дата рождения · лист", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-15": {"label": "Пол · лист", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-17": {"label": "PIN · повторить", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-auth-app-18": {"label": "PIN · вход", "w": 393, "h": 852, "section": "p-auth", "kind": "app"}, "p-home-app-00": {"label": "Главная · всё есть", "w": 786, "h": 2368, "section": "p-home", "kind": "app"}, "p-home-app-02": {"label": "Главная · первые шаги", "w": 786, "h": 1704, "section": "p-home", "kind": "app"}, "p-home-device-00": {"label": "Главная · DEV", "w": 1344, "h": 2992, "section": "p-home", "kind": "device"}, "p-child-app-00": {"label": "Страница ребёнка", "w": 786, "h": 3006, "section": "p-child", "kind": "app"}, "p-child-app-01": {"label": "Не подключён", "w": 786, "h": 3400, "section": "p-child", "kind": "app"}, "p-child-device-00": {"label": "Страница ребёнка · DEV", "w": 1344, "h": 2992, "section": "p-child", "kind": "device"}, "p-child-app-02": {"label": "Настройки ребёнка", "w": 786, "h": 2800, "section": "p-child", "kind": "app"}, "p-child-device-01": {"label": "Настройки · DEV", "w": 1344, "h": 2992, "section": "p-child", "kind": "device"}, "p-tasks-app-00": {"label": "Список заданий", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-tasks-device-03": {"label": "Список · DEV", "w": 1344, "h": 2992, "section": "p-tasks", "kind": "device"}, "p-tasks-device-04": {"label": "Вкладка · DEV", "w": 1344, "h": 2992, "section": "p-tasks", "kind": "device"}, "p-tasks-app-01": {"label": "Создать новые задачи", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-tasks-device-00": {"label": "«+» · DEV", "w": 1344, "h": 2992, "section": "p-tasks", "kind": "device"}, "p-tasks-app-02": {"label": "Готовые задания", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-tasks-app-04": {"label": "Из шаблона", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-tasks-app-05": {"label": "Изменить задание", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-tasks-device-01": {"label": "Редактор · DEV", "w": 1344, "h": 2992, "section": "p-tasks", "kind": "device"}, "p-tasks-device-02": {"label": "Задание создано · DEV", "w": 1344, "h": 2992, "section": "p-tasks", "kind": "device"}, "p-tasks-app-06": {"label": "Карточка задания", "w": 786, "h": 1704, "section": "p-tasks", "kind": "app"}, "p-review-app-00": {"label": "Проверка · очередь", "w": 786, "h": 1704, "section": "p-review", "kind": "app"}, "p-review-device-00": {"label": "Очередь · DEV", "w": 1344, "h": 2992, "section": "p-review", "kind": "device"}, "p-review-app-02": {"label": "Вернуть на исправление", "w": 786, "h": 1704, "section": "p-review", "kind": "app"}, "p-review-app-03": {"label": "Вернули на исправление", "w": 786, "h": 1704, "section": "p-review", "kind": "app"}, "p-review-device-01": {"label": "Проверка · DEV", "w": 1344, "h": 2992, "section": "p-review", "kind": "device"}, "p-review-device-02": {"label": "Одобрено · DEV", "w": 1344, "h": 2992, "section": "p-review", "kind": "device"}, "p-rewards-app-00": {"label": "Полка наград", "w": 786, "h": 1704, "section": "p-rewards", "kind": "app"}, "p-rewards-device-02": {"label": "Полка · DEV", "w": 1344, "h": 2992, "section": "p-rewards", "kind": "device"}, "p-rewards-device-03": {"label": "Вкладка · DEV", "w": 1344, "h": 2992, "section": "p-rewards", "kind": "device"}, "p-requests-app-00": {"label": "Запросы", "w": 786, "h": 1704, "section": "p-requests", "kind": "app"}, "p-requests-device-00": {"label": "Запросы · DEV", "w": 1344, "h": 2992, "section": "p-requests", "kind": "device"}, "p-rewards-app-01": {"label": "Редактор · пусто", "w": 786, "h": 1704, "section": "p-rewards", "kind": "app"}, "p-rewards-app-03": {"label": "Редактор · низ", "w": 786, "h": 1704, "section": "p-rewards", "kind": "app"}, "p-rewards-device-00": {"label": "Редактор · DEV", "w": 1344, "h": 2992, "section": "p-rewards", "kind": "device"}, "p-rewards-device-01": {"label": "Создано · DEV", "w": 1344, "h": 2992, "section": "p-rewards", "kind": "device"}, "p-requests-app-02": {"label": "Отказ", "w": 786, "h": 1704, "section": "p-requests", "kind": "app"}, "p-requests-app-03": {"label": "Вознаграждение отозвано", "w": 786, "h": 1704, "section": "p-requests", "kind": "app"}, "p-requests-device-01": {"label": "Запрос · DEV", "w": 1344, "h": 2992, "section": "p-requests", "kind": "device"}, "p-requests-device-02": {"label": "Выдано · DEV", "w": 1344, "h": 2992, "section": "p-requests", "kind": "device"}, "p-family-device-00": {"label": "Добавить ребёнка · DEV", "w": 1344, "h": 2992, "section": "p-family", "kind": "device"}, "p-family-device-01": {"label": "Лимит · DEV", "w": 1344, "h": 2992, "section": "p-family", "kind": "device"}, "p-family-app-01": {"label": "«Класс!»", "w": 786, "h": 1704, "section": "p-family", "kind": "app"}, "p-family-app-03": {"label": "Настройки семьи", "w": 786, "h": 1704, "section": "p-family", "kind": "app"}, "p-assistant-app-02": {"label": "Печатает", "w": 786, "h": 1704, "section": "p-assistant", "kind": "app"}, "p-assistant-device-00": {"label": "Foksik AI · DEV", "w": 1344, "h": 2992, "section": "p-assistant", "kind": "device"}, "p-chat-app-00": {"label": "Переписка", "w": 786, "h": 1704, "section": "p-chat", "kind": "app"}, "p-chat-app-01": {"label": "Пусто", "w": 786, "h": 1704, "section": "p-chat", "kind": "app"}, "p-chat-app-02": {"label": "Нет связи", "w": 786, "h": 1704, "section": "p-chat", "kind": "app"}, "p-chat-device-00": {"label": "Чат · DEV", "w": 1344, "h": 2992, "section": "p-chat", "kind": "device"}, "p-chat-device-01": {"label": "Ответ отправлен · DEV", "w": 1344, "h": 2992, "section": "p-chat", "kind": "device"}, "p-feed-device-00": {"label": "Уведомления · DEV", "w": 1344, "h": 2992, "section": "p-feed", "kind": "device"}, "p-profile-app-00": {"label": "Профиль", "w": 786, "h": 2196, "section": "p-profile", "kind": "app"}, "p-profile-app-03": {"label": "Оценить · 5 звёзд", "w": 786, "h": 1704, "section": "p-profile", "kind": "app"}, "p-profile-app-04": {"label": "Оценить · 3 звезды", "w": 786, "h": 1704, "section": "p-profile", "kind": "app"}, "p-profile-device-00": {"label": "Профиль · DEV", "w": 1344, "h": 2992, "section": "p-profile", "kind": "device"}, "p-profile-device-02": {"label": "Оценить · DEV", "w": 1344, "h": 2992, "section": "p-profile", "kind": "device"}, "p-profile-app-01": {"label": "Личные данные", "w": 786, "h": 1704, "section": "p-profile", "kind": "app"}, "p-profile-app-02": {"label": "Безопасность", "w": 786, "h": 1704, "section": "p-profile", "kind": "app"}, "p-profile-device-01": {"label": "Безопасность · DEV", "w": 1344, "h": 2992, "section": "p-profile", "kind": "device"}, "p-paywall-app-03": {"label": "Цены не загрузились", "w": 1179, "h": 2556, "section": "p-paywall", "kind": "app"}, "p-paywall-app-05": {"label": "SE · текст 200%", "w": 960, "h": 1704, "section": "p-paywall", "kind": "app"}, "p-paywall-app-06": {"label": "Оплата картой Paylov", "w": 786, "h": 1704, "section": "p-paywall", "kind": "app"}, "p-paywall-app-07": {"label": "Paylov · не открылась", "w": 786, "h": 1704, "section": "p-paywall", "kind": "app"}, "p-paywall-device-00": {"label": "Подписка · DEV (на эмуляторе нет магазина — цен нет)", "w": 1344, "h": 2992, "section": "p-paywall", "kind": "device"}, "p-analytics-app-00": {"label": "Аналитика", "w": 786, "h": 3800, "section": "p-analytics", "kind": "app"}, "c-onboarding-app-00": {"label": "Приветствие", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-variants-app-14": {"label": "Приветствие · en", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-16": {"label": "Приветствие · SE", "w": 375, "h": 667, "section": "c-variants", "kind": "app"}, "c-onboarding-app-02": {"label": "Неверный код", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-onboarding-app-03": {"label": "Загрузка", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-onboarding-app-04": {"label": "Загрузка · 275 мс", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-variants-app-15": {"label": "Код · kk", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-onboarding-app-06": {"label": "Готово · конфетти", "w": 393, "h": 852, "section": "c-onboarding", "kind": "app"}, "c-home-app-01": {"label": "Ночь", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-02": {"label": "Паутинка", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-03": {"label": "Паутинка · стёрта", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-04": {"label": "День · задания", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-05": {"label": "День · награды", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-06": {"label": "День · рост", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-07": {"label": "День · неделя", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-08": {"label": "Ночь · задания", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-09": {"label": "Ночь · награды", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-10": {"label": "Ночь · рост", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-11": {"label": "Ночь · неделя", "w": 393, "h": 852, "section": "c-home", "kind": "app"}, "c-home-app-12": {"label": "День · весь экран", "w": 1080, "h": 6307, "section": "c-home", "kind": "app"}, "c-teen-home-app-00": {"label": "Мальчик", "w": 393, "h": 852, "section": "c-teen-home", "kind": "app"}, "c-teen-home-app-01": {"label": "Девочка", "w": 393, "h": 852, "section": "c-teen-home", "kind": "app"}, "c-teen-home-app-02": {"label": "Мальчик · неделя", "w": 393, "h": 852, "section": "c-teen-home", "kind": "app"}, "c-teen-home-app-03": {"label": "Девочка · неделя", "w": 393, "h": 852, "section": "c-teen-home", "kind": "app"}, "c-teen-home-app-04": {"label": "Мальчик · весь экран", "w": 1080, "h": 5746, "section": "c-teen-home", "kind": "app"}, "c-teen-home-app-05": {"label": "Девочка · весь экран", "w": 1080, "h": 5746, "section": "c-teen-home", "kind": "app"}, "c-variants-app-11": {"label": "Большой баланс · день", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-variants-app-12": {"label": "Большой баланс · ночь", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-variants-app-13": {"label": "Большой баланс · подросток", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-level-app-00": {"label": "Уровень · малыш", "w": 393, "h": 852, "section": "c-level", "kind": "app"}, "c-level-app-01": {"label": "Уровень · наклон", "w": 393, "h": 852, "section": "c-level", "kind": "app"}, "c-level-app-02": {"label": "Уровень · подросток", "w": 393, "h": 852, "section": "c-level", "kind": "app"}, "c-level-app-03": {"label": "Уровень · подросток (девочка)", "w": 393, "h": 852, "section": "c-level", "kind": "app"}, "c-tasks-app-00": {"label": "Все задания", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-teen-tasks-app-00": {"label": "Все задания", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-tasks-app-02": {"label": "Карточка · прокрутка", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-03": {"label": "Фото", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-04": {"label": "Загрузка", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-06": {"label": "Ждёт проверки", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-07": {"label": "Доработка", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-08": {"label": "Доработка · комментарий", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-tasks-app-10": {"label": "Нет доступа к камере", "w": 1080, "h": 2341, "section": "c-tasks", "kind": "app"}, "c-teen-tasks-app-01": {"label": "Карточка", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-02": {"label": "Карточка · прокрутка", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-03": {"label": "Фото", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-04": {"label": "Загрузка", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-05": {"label": "Отправлено", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-06": {"label": "Ждёт проверки", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-07": {"label": "Доработка", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-08": {"label": "Доработка · комментарий", "w": 1080, "h": 2341, "section": "c-teen-tasks", "kind": "app"}, "c-teen-tasks-app-09": {"label": "Отзыв", "w": 393, "h": 852, "section": "c-teen-tasks", "kind": "app"}, "c-variants-app-10": {"label": "Карточка · ar · 200%", "w": 960, "h": 1704, "section": "c-variants", "kind": "app"}, "c-teen-market-app-00": {"label": "Магазин", "w": 1080, "h": 2539, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-01": {"label": "Одежда", "w": 1080, "h": 2341, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-02": {"label": "Фильтр", "w": 1080, "h": 2539, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-06": {"label": "Мальчик", "w": 393, "h": 852, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-07": {"label": "Девочка", "w": 393, "h": 852, "section": "c-teen-market", "kind": "app"}, "c-market-app-02": {"label": "Ждёт родителя", "w": 1080, "h": 2341, "section": "c-market", "kind": "app"}, "c-market-app-03": {"label": "Комментарий родителя", "w": 1080, "h": 2341, "section": "c-market", "kind": "app"}, "c-market-app-05": {"label": "С покупкой!", "w": 393, "h": 852, "section": "c-market", "kind": "app"}, "c-teen-market-app-03": {"label": "Покупка", "w": 1080, "h": 2341, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-04": {"label": "Ждёт родителя", "w": 1080, "h": 2341, "section": "c-teen-market", "kind": "app"}, "c-teen-market-app-05": {"label": "Комментарий", "w": 1080, "h": 2341, "section": "c-teen-market", "kind": "app"}, "c-level-app-04": {"label": "Неделя · день", "w": 1080, "h": 3743, "section": "c-level", "kind": "app"}, "c-level-app-05": {"label": "Неделя · скоро", "w": 1080, "h": 3743, "section": "c-level", "kind": "app"}, "c-level-app-06": {"label": "Неделя · ночь", "w": 1080, "h": 3743, "section": "c-level", "kind": "app"}, "c-level-app-07": {"label": "Неделя · подросток", "w": 1080, "h": 3743, "section": "c-level", "kind": "app"}, "c-chat-app-02": {"label": "Расшифровка", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-03": {"label": "Эмодзи", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-04": {"label": "GIF", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-05": {"label": "Монеты", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-06": {"label": "Упоминание", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-07": {"label": "Упоминание · лента", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-08": {"label": "Клавиатура", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-09": {"label": "Без клавиатуры", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-10": {"label": "Запись голоса", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-11": {"label": "Запись · сдвиг", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-12": {"label": "Запись · отмена", "w": 402, "h": 874, "section": "c-chat", "kind": "app"}, "c-chat-app-13": {"label": "Карточка прогресса", "w": 1179, "h": 2556, "section": "c-chat", "kind": "app"}, "c-chat-app-14": {"label": "Карточка задания", "w": 1179, "h": 2556, "section": "c-chat", "kind": "app"}, "c-chat-app-15": {"label": "Фото в ленте", "w": 1179, "h": 2556, "section": "c-chat", "kind": "app"}, "c-chat-app-16": {"label": "Фото на весь экран", "w": 1179, "h": 2556, "section": "c-chat", "kind": "app"}, "c-chat-app-17": {"label": "Фото · смахнуть", "w": 1179, "h": 2556, "section": "c-chat", "kind": "app"}, "c-teen-profile-app-05": {"label": "Чат · прогресс", "w": 1179, "h": 2556, "section": "c-teen-profile", "kind": "app"}, "c-teen-profile-app-06": {"label": "Чат · задание", "w": 1179, "h": 2556, "section": "c-teen-profile", "kind": "app"}, "c-variants-app-08": {"label": "Чат · ar · 320", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-variants-app-09": {"label": "Чат · 320", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-profile-app-00": {"label": "Профиль · день", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-01": {"label": "Профиль · ночь", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-04": {"label": "Язык · день", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-05": {"label": "Язык · ночь", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-06": {"label": "Выйти · день", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-07": {"label": "Выйти · ночь", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-08": {"label": "Фильтр · лист", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-09": {"label": "Прокрутка · покой", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-10": {"label": "Прокрутка · потянули", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-11": {"label": "Ночь · покой", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-teen-profile-app-00": {"label": "Профиль · мальчик", "w": 1080, "h": 2341, "section": "c-teen-profile", "kind": "app"}, "c-teen-profile-app-01": {"label": "Профиль · девочка", "w": 1080, "h": 2341, "section": "c-teen-profile", "kind": "app"}, "c-teen-profile-app-03": {"label": "Прокрутка · покой", "w": 1080, "h": 2341, "section": "c-teen-profile", "kind": "app"}, "c-teen-profile-app-04": {"label": "Прокрутка · потянули", "w": 1080, "h": 2341, "section": "c-teen-profile", "kind": "app"}, "c-profile-app-02": {"label": "Мои данные · день", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-03": {"label": "Мои данные · ночь", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-profile-app-12": {"label": "Мои данные · плоско", "w": 1080, "h": 2341, "section": "c-profile", "kind": "app"}, "c-teen-profile-app-02": {"label": "Мои данные", "w": 1080, "h": 2341, "section": "c-teen-profile", "kind": "app"}, "c-variants-app-00": {"label": "Мои данные · ar", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-01": {"label": "en", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-02": {"label": "uz", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-03": {"label": "kk", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-04": {"label": "az", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-05": {"label": "320 · 200%", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}, "c-variants-app-06": {"label": "Подросток · ar", "w": 393, "h": 852, "section": "c-variants", "kind": "app"}, "c-variants-app-07": {"label": "Подросток · 320 · 200%", "w": 320, "h": 568, "section": "c-variants", "kind": "app"}};
+const board = document.getElementById('board'), view = document.getElementById('view');
+const ui = OynaPlanUi.create(PLAN, { imgBase: '../img/', canvasBase: '../', analyticsBase: './' });
+const EV = ui.evByName;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const STATUS = { live: 'уже отправляется', ready: 'готово, ждёт сборки', fix: 'нужно поправить', new: 'добавляем', server: 'с сервера' };
+const SIDE = { parent: 'родитель', child: 'ребёнок', both: 'оба', system: 'система' };
+document.getElementById('meta').textContent = PLAN.meta.subtitle || '';
+
+const SECTIONS = [];      // {id, title, x, y, w, h, color, group}
+const SHOTS = [];         // pictures to load by zoom: {el, key, x, y, w, h, lod}
+const STEP_EL = [], EV_EL = [], SCR_EL = [];
+function add(cls, x, y, w, h, html, parent) {
+  const e = document.createElement('div'); e.className = cls;
+  e.style.left = x + 'px'; e.style.top = y + 'px';
+  if (w != null) e.style.width = w + 'px'; if (h != null) e.style.height = h + 'px';
+  if (html != null) e.innerHTML = html;
+  (parent || board).appendChild(e); return e;
+}
+function shotEl(parent, key, w, h, cls) {
+  const c = CARDS[key];
+  const e = document.createElement('div'); e.className = cls || 'shot';
+  e.style.width = w + 'px'; e.style.height = h + 'px';
+  e.title = c ? c.label : key;
+  e.addEventListener('click', ev => { if (cam.moved) return; ev.stopPropagation(); openPic(key); });
+  parent.appendChild(e);
+  return e;
+}
+// A panel: white backdrop + kicker + title + subtitle; returns the content top.
+function panel(id, x, y, w, h, kicker, title, sub, color) {
+  add('panel', x, y, w, h);
+  const ph = add('ph', x + 40, y + 34, w - 80, null, `${kicker ? `<div class="k">${esc(kicker)}</div>` : ''}<div class="t">${esc(title)}</div>${sub ? `<div class="s">${sub}</div>` : ''}`);
+  ph.id = id;
+  SECTIONS.push({ id, title, x, y, w, h, color: color || '#b9bcc4' });
+  return ph;
+}
+
+// ── Layout ──────────────────────────────────────────────────────────────
+const X0 = 0, PW = 3000;   // panel width
+let Y = 0;
+function measureH(e) { return e.offsetHeight; }
+
+// 1. Hero
+(() => {
+  const h = add('ph hero', X0 + 10, Y, PW, null, `<div class="t">${esc(PLAN.meta.title)}</div><div class="s">${PLAN.meta.lead}</div>`);
+  h.id = 'top-hero';
+  const t = add('tiles', X0 + 10, Y + measureH(h) + 30, PW);
+  const n = { live: 0, ready: 0, fix: 0, new: 0, server: 0 };
+  PLAN.events.forEach(e => n[e.status] = (n[e.status] || 0) + 1);
+  t.innerHTML = `
+    <div class="tile"><div class="k">Событий в плане</div><div class="v">${PLAN.events.length}</div>
+      <div class="r"><span class="dot" style="background:#4cd38a"></span> <b>${n.live}</b> уже идут · <span class="dot" style="background:#2dd4bf"></span> <b>${n.ready}</b> готовы, ждут сборки · <span class="dot" style="background:#ffb547"></span> <b>${n.fix}</b> поправить · <span class="dot" style="background:#7aa7ff"></span> <b>${n.new}</b> добавляем · <span class="dot" style="background:#c69cff"></span> <b>${n.server}</b> с сервера</div></div>
+    <div class="tile"><div class="k">Воронок</div><div class="v">${PLAN.funnels.length}</div><div class="r">от магазина до подписки, по людям и по семьям</div></div>
+    <div class="tile"><div class="k">Экранов размечено</div><div class="v">${PLAN.screens.length}</div><div class="r">просмотр каждого приходит сам: <code class="mono">$screen</code></div></div>
+    <div class="tile"><div class="k">Где смотреть</div><div class="v" style="font-size:30px">PostHog</div><div class="r">${esc(PLAN.meta.where || '')}</div></div>`;
+  SECTIONS.push({ id: 'top-hero', title: 'Начало', x: X0, y: Y, w: PW, h: measureH(h) + 30 + t.offsetHeight, color: '#16181d' });
+  Y += measureH(h) + 30 + t.offsetHeight + 90;
+})();
+
+// 2. How it works — boxes and arrows.
+(() => {
+  const A = PLAN.architecture;
+  const top = Y;
+  panel('how', X0, Y, PW, 1, 'Как устроено', A.title, A.sub);
+  let y = Y + 190;
+  const bw = 430, gap = 120;
+  const pos = {};
+  A.boxes.forEach(b => {
+    const x = X0 + 60 + b.col * (bw + gap), yy = y + b.row * 230;
+    const e = add('box ' + (b.kind || ''), x, yy, bw, null, `<span class="em">${b.icon || ''}</span><b>${esc(b.title)}</b>${esc(b.text)}${b.small ? `<small>${esc(b.small)}</small>` : ''}`);
+    pos[b.id] = { x, y: yy, w: bw, el: e };
+  });
+  const maxRow = Math.max(...A.boxes.map(b => b.row));
+  const h0 = y + (maxRow + 1) * 230 - Y + 20;
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('class', 'arrows'); svg.setAttribute('width', PW); svg.setAttribute('height', h0 + 400);
+  svg.style.left = X0 + 'px'; svg.style.top = Y + 'px';
+  board.appendChild(svg);
+  const Y0 = Y;   // the panel's top: Y moves on before the arrows are drawn
+  requestAnimationFrame(() => {
+    let d = `<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16181d"/></marker></defs>`;
+    A.links.forEach(([a, b, label]) => {
+      const p = pos[a], q = pos[b]; if (!p || !q) return;
+      const ph = p.el.offsetHeight, qh = q.el.offsetHeight;
+      let x1, y1, x2, y2;
+      if (Math.abs(p.y - q.y) < 10) { x1 = p.x + p.w; y1 = p.y + ph / 2; x2 = q.x; y2 = q.y + qh / 2; if (q.x < p.x) { x1 = p.x; x2 = q.x + q.w; } }
+      else if (q.y > p.y) { x1 = p.x + p.w / 2; y1 = p.y + ph; x2 = q.x + q.w / 2; y2 = q.y; }
+      else { x1 = p.x + p.w / 2; y1 = p.y; x2 = q.x + q.w / 2; y2 = q.y + qh; }
+      x1 -= X0; x2 -= X0; y1 -= Y0; y2 -= Y0;
+      const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+      const path = Math.abs(y1 - y2) < 10 ? `M${x1 + 6},${y1} L${x2 - 8},${y2}` : `M${x1},${y1 + 6} C${x1},${my} ${x2},${my} ${x2},${y2 - 8}`;
+      d += `<path d="${path}" fill="none" stroke="#16181d" stroke-width="3" marker-end="url(#ah)"/>`;
+      if (label) d += `<g><rect x="${mx - label.length * 4.6 - 10}" y="${my - 16}" width="${label.length * 9.2 + 20}" height="30" rx="15" fill="#fff" stroke="#d5d6db"/><text x="${mx}" y="${my + 5}" text-anchor="middle" font-size="15" font-family="-apple-system, system-ui, sans-serif" fill="#3b3f46">${esc(label)}</text></g>`;
+    });
+    svg.innerHTML = d;
+  });
+  // Identity notes under the diagram.
+  const id = add('card doc', X0 + 60, y + (maxRow + 1) * 230 + 10, PW - 120, null, A.identityHtml);
+  const h = y + (maxRow + 1) * 230 + 10 + id.offsetHeight + 50 - top;
+  board.lastElementChild; // keep order
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h;
+  Y = top + h + 80;
+})();
+
+// 3. North star + metric tree.
+(() => {
+  const M = PLAN.metrics;
+  const top = Y;
+  panel('metrics', X0, Y, PW, 1, 'Что считаем', M.title, M.sub);
+  let y = Y + 190;
+  const nsm = add('nsm', X0 + 60, y, PW - 120, null, `<div class="k">Главная метрика (North Star)</div><div class="v">${esc(M.northStar.name)}</div><div class="d">${M.northStar.text}</div>`);
+  y += nsm.offsetHeight + 40;
+  const cols = M.pillars.length, cw = (PW - 120 - (cols - 1) * 24) / cols;
+  let maxH = 0;
+  M.pillars.forEach((p, i) => {
+    const x = X0 + 60 + i * (cw + 24);
+    add('col-h', x, y, cw, null, `${esc(p.title)}<small>${esc(p.sub)}</small>`);
+    let yy = y + 70;
+    p.items.forEach(m => {
+      const e = add('card met', x, yy, cw, null, `<div class="nm">${esc(m.name)}</div><div class="fm">${m.formula}</div><div class="src">${(m.events || []).map(n => n.startsWith('$') || !EV[n] ? `<span class="chip scr">${esc(n)}</span>` : ui.chip(n)).join('')}</div>`);
+      yy += e.offsetHeight + 14;
+    });
+    maxH = Math.max(maxH, yy - y);
+  });
+  const h = y + maxH + 40 - top;
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h;
+  Y = top + h + 80;
+})();
+
+// 4. Funnels — steps over the real screens, swimlanes per side.
+const STEP_W = 200, STEP_GAP = 96, LANE_L = 70;
+function funnel(f, n) {
+  const top = Y;
+  const lanes = f.lanes || ['parent'];
+  const stepCount = f.steps.length;
+  const innerW = LANE_L + 40 + stepCount * (STEP_W + STEP_GAP);
+  const w = Math.max(PW, innerW + 120);
+  const ph = panel(f.id, X0, Y, w, 1, `Воронка ${n}`, f.title, `${esc(f.question)}`, f.color || '#16181d');
+  const metaY = Y + 34 + ph.offsetHeight + 16;
+  const meta = add('fmeta', X0 + 40, metaY, w - 80, null,
+    `<span class="pill">Считаем: ${esc(f.aggregate)}</span><span class="pill">Окно: ${esc(f.window)}</span>` +
+    (f.breakdowns || []).map(b => `<span class="pill">Разрез: ${esc(b)}</span>`).join('') +
+    (f.posthog ? `<span class="pill">PostHog: ${esc(f.posthog)}</span>` : ''));
+  let y = metaY + meta.offsetHeight + 30;
+  const laneH = 640;
+  const laneY = {};
+  lanes.forEach((ln, i) => {
+    const ly = y + i * (laneH + 18);
+    laneY[ln] = ly;
+    add('lane ' + ln, X0 + 40, ly, innerW + 20, laneH);
+    add('lane-l ' + ln, X0 + 40, ly, LANE_L - 10, laneH, ln === 'parent' ? 'Родитель' : ln === 'child' ? 'Ребёнок' : ln === 'store' ? 'Магазин' : 'Система');
+  });
+  const boxes = [];
+  f.steps.forEach((st, i) => {
+    const ln = lanes.includes(st.lane) ? st.lane : lanes[0];
+    const x = X0 + 40 + LANE_L + 20 + i * (STEP_W + STEP_GAP), sy = laneY[ln] + 22;
+    const e = add('step', x, sy, STEP_W, null);
+    e.dataset.ev = [st.event, ...(st.alt || [])].join(' ').toLowerCase();
+    e.innerHTML = `<div class="lbl"><span class="no">${i + 1}</span><span>${esc(st.label)}</span></div>`;
+    const c = st.card ? CARDS[st.card] : null;
+    const sh = Math.round(STEP_W * Math.min(2.165, c ? c.h / c.w : 2.165));
+    if (c) {
+      const s = shotEl(e, st.card, STEP_W, sh);
+      SHOTS.push({ el: s, key: st.card, x, y: sy + 60, w: STEP_W, h: sh, lod: -1 });
+    } else {
+      const s = document.createElement('div'); s.className = 'shot ext'; s.style.height = '300px'; s.style.width = STEP_W + 'px';
+      s.textContent = st.extLabel || 'вне приложения'; e.appendChild(s);
+    }
+    const chips = document.createElement('div');
+    chips.style.display = 'flex'; chips.style.flexWrap = 'wrap'; chips.style.gap = '6px';
+    chips.innerHTML = st.external ? '' : st.event.startsWith('$') ? (st.screen ? ui.scrChip(st.screen) : `<span class="chip scr">${esc(st.event)}</span>`) : (EV[st.event] ? ui.chip(st.event) : `<span class="chip scr">${esc(st.event)}</span>`);
+    (st.alt || []).forEach(a => chips.insertAdjacentHTML('beforeend', ui.chip(a)));
+    e.appendChild(chips);
+    if (st.filter) e.insertAdjacentHTML('beforeend', `<div class="flt">${st.filter}</div>`);
+    STEP_EL.push(e);
+    boxes.push({ x, y: sy, ln, e });
+  });
+  // Arrows between consecutive steps.
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('class', 'arrows');
+  const lanesH = lanes.length * (laneH + 18);
+  svg.setAttribute('width', w); svg.setAttribute('height', lanesH + 40);
+  svg.style.left = X0 + 'px'; svg.style.top = y + 'px';
+  let d = `<defs><marker id="ah-${f.id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16181d"/></marker></defs>`;
+  for (let i = 0; i + 1 < boxes.length; i++) {
+    const a = boxes[i], b = boxes[i + 1];
+    const ax = a.x + STEP_W + 8 - X0, bx = b.x - 10 - X0;
+    const ay = a.y - y + 60 + 150, by = b.y - y + 60 + 150;
+    const mx = (ax + bx) / 2;
+    d += `<path d="M${ax},${ay} C${mx},${ay} ${mx},${by} ${bx},${by}" fill="none" stroke="#16181d" stroke-width="3" stroke-dasharray="${a.ln === b.ln ? '' : '9 7'}" marker-end="url(#ah-${f.id})"/>`;
+  }
+  svg.innerHTML = d;
+  board.appendChild(svg);
+  y += lanesH + 10;
+  const note = add('fnote', X0 + 60, y, w - 140, null, f.note || '');
+  const h = y + note.offsetHeight + 50 - top;
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h; SECTIONS[SECTIONS.length - 1].w = w;
+  SECTIONS[SECTIONS.length - 1].group = 'Воронки';
+  Y = top + h + 70;
+}
+PLAN.funnels.forEach((f, i) => funnel(f, i + 1));
+
+// 5. Docs block helper (retention, properties, dashboards, marketing, privacy, status).
+function docSection(s) {
+  const top = Y;
+  panel(s.id, X0, Y, PW, 1, s.kicker, s.title, s.sub);
+  let y = Y + 34 + document.getElementById(s.id).offsetHeight + 30;
+  const cols = s.cols || 2, cw = (PW - 120 - (cols - 1) * 26) / cols;
+  const colY = Array(cols).fill(y);
+  s.cards.forEach(c => {
+    let i = colY.indexOf(Math.min(...colY));
+    if (c.full) { const m = Math.max(...colY); colY.fill(m); i = 0; }
+    const x = X0 + 60 + i * (cw + 26), width = c.full ? PW - 120 : cw;
+    const e = add('card doc', x, colY[i], width, null, c.html);
+    if (c.full) colY.fill(colY[0] + e.offsetHeight + 24); else colY[i] += e.offsetHeight + 24;
+  });
+  const h = Math.max(...colY) + 26 - top;
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h;
+  Y = top + h + 80;
+}
+
+// 6. Event dictionary by domain.
+function dictionary() {
+  const top = Y;
+  const doms = PLAN.domains;
+  const cw = 380, gap = 26;
+  const w = Math.max(PW, 120 + doms.length * (cw + gap));
+  panel('events', X0, Y, w, 1, 'Словарь', PLAN.dictionary.title, PLAN.dictionary.sub);
+  let y0 = Y + 34 + document.getElementById('events').offsetHeight + 30;
+  let maxY = y0;
+  doms.forEach((d, i) => {
+    const x = X0 + 60 + i * (cw + gap);
+    const list = PLAN.events.filter(e => e.domain === d.id);
+    add('col-h', x, y0, cw, null, `${esc(d.title)}<small>${list.length} событий</small>`);
+    let y = y0 + 64;
+    list.forEach(e => {
+      const el = add('card ev', x, y, cw, null,
+        `<div class="nm">${esc(e.name)}</div><div class="ti">${esc(e.title)}</div><div class="wh">${esc(e.when)}</div>
+         <div class="tg"><span class="pill ${e.status}">${STATUS[e.status]}</span><span class="pill ${e.side}">${SIDE[e.side]}</span>${e.prio ? `<span class="pill">${esc(e.prio)}</span>` : ''}</div>`);
+      el.onclick = () => { if (!cam.moved) ui.openEvent(e.name); };
+      el.dataset.ev = (e.name + ' ' + e.title + ' ' + (e.props || []).map(p => p.n).join(' ')).toLowerCase();
+      EV_EL.push(el);
+      y += el.offsetHeight + 14;
+    });
+    maxY = Math.max(maxY, y);
+  });
+  const h = maxY + 30 - top;
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h; SECTIONS[SECTIONS.length - 1].w = w;
+  Y = top + h + 80;
+}
+
+// 7. Screens — every screen view and what it sends.
+function screens() {
+  const top = Y;
+  panel('screens', X0, Y, PW, 1, 'Экраны', PLAN.screensSection.title, PLAN.screensSection.sub);
+  let y = Y + 34 + document.getElementById('screens').offsetHeight + 30;
+  const per = Math.floor((PW - 120 + 26) / (230 + 26));
+  for (const side of ['common', 'parent', 'child']) {
+    const list = PLAN.screens.filter(s => (s.group || s.side) === side);
+    if (!list.length) continue;
+    add('col-h', X0 + 60, y, 900, null, `${side === 'parent' ? 'Родитель' : side === 'child' ? 'Ребёнок' : 'Первый запуск'}<small>${list.length} экранов</small>`);
+    y += 64;
+    list.forEach((s, i) => {
+      const x = X0 + 60 + (i % per) * (230 + 26), yy = y + Math.floor(i / per) * 540;
+      const e = add('stile', x, yy, 230, null);
+      e.dataset.ev = (s.id + ' ' + s.title + ' ' + (s.events || []).join(' ')).toLowerCase();
+      const k = (s.cards || [])[0];
+      if (k && CARDS[k]) { const sh = shotEl(e, k, 230, 400); SHOTS.push({ el: sh, key: k, x, y: yy, w: 230, h: 400, lod: -1 }); sh.onclick = ev => { if (!cam.moved) { ev.stopPropagation(); ui.openScreen(s.id); } }; }
+      else { const ph = document.createElement('div'); ph.className = 'shot'; ph.style.cssText = 'display:flex;align-items:center;justify-content:center;color:#6b7078;font-size:14px;padding:16px;text-align:center'; ph.textContent = 'кадра нет'; ph.onclick = () => ui.openScreen(s.id); e.appendChild(ph); }
+      e.insertAdjacentHTML('beforeend', `<div class="nm">${esc(s.id)}</div><div class="ti">${esc(s.title)}</div><div class="cnt">${(s.events || []).length ? (s.events || []).length + ' событ.' : 'только просмотр'}${s.route ? ' · ' + esc(s.route) : ''}</div>`);
+      SCR_EL.push(e);
+    });
+    y += Math.ceil(list.length / per) * 540 + 20;
+  }
+  const h = y + 10 - top;
+  document.querySelectorAll('.panel')[document.querySelectorAll('.panel').length - 1].style.height = h + 'px';
+  SECTIONS[SECTIONS.length - 1].h = h;
+  Y = top + h + 80;
+}
+
+PLAN.docsBefore.forEach(docSection);
+dictionary();
+screens();
+PLAN.docsAfter.forEach(docSection);
+let maxW = Math.max(...SECTIONS.map(s => s.x + s.w));
+board.style.width = maxW + 'px'; board.style.height = Y + 'px';
+
+// ── Camera, pictures by zoom, minimap, sidebar ──────────────────────────
+const lbx = document.getElementById('lbx');
+const cam = OynaCanvas.createCanvas({
+  view, board, zMax: 3,
+  keysBlocked: () => ui.isOpen() || lbx.classList.contains('on'),
+  ignoreDblClick: e => !!e.target.closest('.card, .chip, .shot, .ev, .step'),
+});
+function openPic(key) { const c = CARDS[key]; document.getElementById('lbxT').textContent = c ? c.label : key; document.getElementById('lbxI').src = `../img/${key}.webp`; lbx.classList.add('on'); }
+document.getElementById('lbxX').onclick = () => lbx.classList.remove('on');
+lbx.addEventListener('click', e => { if (e.target === lbx) lbx.classList.remove('on'); });
+window.addEventListener('keydown', e => { if (e.key === 'Escape') lbx.classList.remove('on'); });
+board.addEventListener('click', e => { const chip = e.target.closest('[data-ev].chip, [data-scr].chip'); if (chip && !cam.moved) { e.stopPropagation(); ui.openFromChip(chip); } });
+
+function want(rec, lod) {
+  if (lod === rec.lod) return;
+  if (lod <= 0) { rec.el.style.backgroundImage = ''; rec.el.querySelector('img')?.remove(); rec.lod = lod; return; }
+  if (rec.lod < 1) rec.el.style.backgroundImage = `url(../img/${rec.key}_s.webp)`;
+  rec.lod = lod;
+  if (lod === 1) { rec.el.querySelector('img')?.remove(); return; }
+  const src = `../img/${rec.key}${lod === 3 ? '' : '_t'}.webp`;
+  const img = new Image(); img.decoding = 'async'; img.alt = '';
+  img.onload = () => { if (rec.lod !== lod) return; rec.el.querySelector('img')?.remove(); rec.el.appendChild(img); };
+  img.src = src;
+}
+// Far out, each section title grows to stay readable (≈16 px on screen) but
+// never past three quarters of its own section, so titles don't overlap.
+function farLabels(s) {
+  const far = s.z < 0.28;
+  for (const sec of SECTIONS) {
+    const t = sec.labelEl || (sec.labelEl = document.querySelector(`#${CSS.escape(sec.id)} .t`));
+    if (!t) continue;
+    if (!far) { t.style.transform = ''; continue; }
+    const px = Math.min(17, 0.7 * sec.h * s.z), k = Math.max(1, px / (38 * s.z));
+    t.style.transform = `scale(${k.toFixed(3)})`;
+  }
+}
+let lastLod = 0;
+function updateLod(s, force) {
+  const now = performance.now(); if (!force && now - lastLod < 110) return; lastLod = now;
+  const lod = s.z < 0.12 ? 0 : s.z < 0.36 ? 1 : s.z < 1.25 ? 2 : 3;
+  board.classList.toggle('lod0', lod === 0);
+  board.classList.toggle('far', s.z < 0.28);
+  farLabels(s);
+  const mw = (s.right - s.left) * 0.5, mh = (s.bottom - s.top) * 0.6;
+  for (const r of SHOTS) {
+    const near = r.x < s.right + mw && r.x + r.w > s.left - mw && r.y < s.bottom + mh && r.y + r.h > s.top - mh;
+    if (near) want(r, lod); else if (r.lod >= 2) want(r, 1);
+  }
+  document.getElementById('zoomv').textContent = Math.round(s.z * 100) + '%';
+}
+cam.on('change', s => updateLod(s, false));
+cam.on('settle', s => { updateLod(s, true); spy(s); });
+cam.minimap(document.getElementById('map'),
+  SECTIONS.map(s => ({ x: s.x, y: s.y, w: s.w, h: s.h, color: s.color })),
+  SECTIONS.map(s => ({ x: s.x, y: s.y, h: s.h, title: s.title, onClick: () => goSec(s.id) })));
+function goSec(id) {
+  const s = SECTIONS.find(x => x.id === id); if (!s) return;
+  cam.goTo(s.x, s.y, Math.max(cam.z, 0.42));
+  document.body.classList.remove('side-open');
+}
+function spy(s) {
+  const cy = (s.top + s.bottom) / 2; let cur = null;
+  for (const sec of SECTIONS) if (sec.y <= cy) cur = sec;
+  document.querySelectorAll('#side a[data-id]').forEach(a => a.classList.toggle('on', !!cur && a.dataset.id === cur.id));
+}
+const side = document.getElementById('side');
+(() => {
+  let h = `<div class="sbox"><b>Как читать</b>
+    <div class="lg"><span class="dot" style="background:#4cd38a"></span>уже отправляется</div>
+    <div class="lg"><span class="dot" style="background:#2dd4bf"></span>готово в коде, ждёт сборки</div>
+    <div class="lg"><span class="dot" style="background:#ffb547"></span>есть, нужно поправить</div>
+    <div class="lg"><span class="dot" style="background:#7aa7ff"></span>добавляем в приложение</div>
+    <div class="lg"><span class="dot" style="background:#c69cff"></span>приходит с сервера</div>
+    <div style="margin-top:6px">Клик по событию — что это, когда, свойства, где в приложении. <a href="../?an=1">События прямо на экранах →</a></div></div>
+    <div class="dl"><button class="btn" id="dlCsv" title="Таблица событий для Excel/Google Sheets">⬇ CSV</button><button class="btn" id="dlJson" title="Весь план в JSON">⬇ JSON</button></div>
+    <div id="hits"></div>`;
+  const groups = [['Обзор', SECTIONS.filter(s => !s.group && ['top-hero', 'how', 'metrics'].includes(s.id))],
+    ['Воронки', SECTIONS.filter(s => s.group === 'Воронки')],
+    ['Справочник', SECTIONS.filter(s => !s.group && !['top-hero', 'how', 'metrics'].includes(s.id))]];
+  for (const [title, list] of groups) {
+    h += `<h2>${title}</h2>`;
+    list.forEach(s => { h += `<a href="#${s.id}" data-id="${s.id}"><span>${esc(s.title)}</span></a>`; });
+  }
+  side.innerHTML = h;
+  side.querySelectorAll('a[data-id]').forEach(a => a.onclick = e => { e.preventDefault(); goSec(a.dataset.id); });
+  const dl = (name, type, text) => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); };
+  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  document.getElementById('dlCsv').onclick = () => dl('oyna-tracking-plan.csv', 'text/csv;charset=utf-8',
+    '﻿' + ['event,title,domain,side,status,priority,when,properties,screens,funnels,code,fix'].concat(PLAN.events.map(e => [e.name, e.title, e.domainTitle, SIDE[e.side], STATUS[e.status], e.prio || '', e.when,
+      (e.props || []).map(p => `${p.n}: ${p.t || ''} — ${p.d}`).join('; '), PLAN.screens.filter(s => (s.events || []).includes(e.name)).map(s => s.id).join(' '),
+      PLAN.funnels.filter(f => f.steps.some(st => st.event === e.name || (st.alt || []).includes(e.name))).map(f => f.title).join('; '), e.code || '', e.fix || ''].map(q).join(','))).join('\n'));
+  document.getElementById('dlJson').onclick = () => dl('oyna-tracking-plan.json', 'application/json', JSON.stringify(PLAN, null, 2));
+})();
+document.getElementById('q').oninput = e => {
+  const v = e.target.value.trim().toLowerCase();
+  for (const el of [...EV_EL, ...STEP_EL, ...SCR_EL]) el.classList.toggle('dim', !!v && !el.dataset.ev.includes(v));
+  const hits = v ? PLAN.events.filter(x => (x.name + ' ' + x.title).toLowerCase().includes(v)).slice(0, 12) : [];
+  const box = document.getElementById('hits');
+  box.innerHTML = hits.map(x => `<a href="#" data-n="${esc(x.name)}">${esc(x.name)} <span>${esc(x.title)}</span></a>`).join('');
+  box.querySelectorAll('a').forEach(a => a.onclick = ev => { ev.preventDefault(); ui.openEvent(a.dataset.n); });
+};
+document.getElementById('q').addEventListener('keydown', e => { if (e.key === 'Enter') { const a = document.querySelector('#hits a'); if (a) a.click(); } });
+document.getElementById('zIn').onclick = () => cam.zoomBy(1.4);
+document.getElementById('zOut').onclick = () => cam.zoomBy(1 / 1.4);
+document.getElementById('zoomv').onclick = () => cam.zoomTo(1);
+document.getElementById('fit').onclick = () => cam.fit(360);
+document.getElementById('menu').onclick = () => document.body.classList.toggle('side-open');
+if (localStorage.getItem('cv-nohelp')) document.body.classList.add('nohelp');
+const hideHelp = () => { document.body.classList.add('nohelp'); localStorage.setItem('cv-nohelp', '1'); };
+document.getElementById('helpX').onclick = hideHelp;
+document.getElementById('helpB').onclick = () => { document.body.classList.toggle('nohelp'); if (document.body.classList.contains('nohelp')) localStorage.setItem('cv-nohelp', '1'); else localStorage.removeItem('cv-nohelp'); };
+let helpTimer = 0;
+cam.on('settle', () => { if (!helpTimer && !document.body.classList.contains('nohelp')) helpTimer = setTimeout(hideHelp, 12000); });
+
+cam.measure();
+const start = location.hash.slice(1);
+if (!cam.restoreHash()) {
+  if (SECTIONS.find(s => s.id === start)) goSec(start);
+  else cam.flyTo(0, 0, Math.min(0.62, (view.clientWidth - 60) / PW * 1.6), 30, 24);
+}
+const evParam = new URLSearchParams(location.search).get('event');
+if (evParam) ui.openEvent(evParam);
+updateLod(cam.state(), true); spy(cam.state());
+</script>
+</body>
+</html>
