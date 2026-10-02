@@ -835,12 +835,13 @@ const cam = OynaCanvas.createCanvas({
 const LOD_T = [0.13, 0.38, 1.25];
 function lodFor(z) { return z < LOD_T[0] ? 0 : z < LOD_T[1] ? 1 : z < LOD_T[2] ? 2 : 3; }
 function cancel(rec) { if (rec.pending) { rec.pending.onload = null; rec.pending.src = ''; rec.pending = null; } }
-function want(rec, lod) {
+function want(rec, lod, lite) {
   if (lod <= 0) { cancel(rec); rec.el.style.backgroundImage = ''; if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; rec.lod = lod; return; }
   if (rec.lod < 1) rec.el.style.backgroundImage = `url(img/${rec.key}_s.webp)`;
   rec.lod = lod;
   if (lod === 1) { cancel(rec); if (rec.img) { rec.img.remove(); rec.img = null; } rec.want = null; return; }
-  const src = lod === 3 ? `img/${rec.key}.webp` : `img/${rec.key}_t.webp`;
+  const src = lod === 3 ? `img/${rec.key}.webp`
+    : lite && rec.kind === 'motion' ? `img/${rec.key}_m.webp` : `img/${rec.key}_t.webp`;
   if (rec.want === src) return;
   cancel(rec);
   rec.want = src;
@@ -883,10 +884,12 @@ function updateLod(s, settled) {
   const cx = (s.left + s.right) / 2, cy = (s.top + s.bottom) / 2;
   const d = rec => Math.hypot(rec.x + rec.w / 2 - cx, rec.y + rec.h / 2 - cy);
   near.sort((a, b) => d(a) - d(b));
+  // A looping animation is worth its weight only close enough to see it:
+  // a still poster far out, the light loop at middle zoom, the full one up close.
+  const lite = s.z < 0.9;
   for (const rec of near) {
-    // A looping animation is worth its weight only close enough to see it.
     const target = rec.kind === 'motion' && lod === 2 && s.z < 0.45 ? 1 : lod;
-    want(rec, settled ? target : Math.min(target, Math.max(rec.lod, 1)));
+    want(rec, settled ? target : Math.min(target, Math.max(rec.lod, 1)), lite);
   }
   document.getElementById('zoomv').textContent = Math.round(s.z * 100) + '%';
 }
