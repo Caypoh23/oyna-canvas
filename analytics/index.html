@@ -40,6 +40,7 @@
   #side .dl { display: flex; gap: 6px; margin: 8px 12px; }
   #side .dl .btn { flex: 1; }
   #hits { margin: 6px 12px 0; }
+  #side .mq { display: none; margin: 4px 12px 8px; width: calc(100% - 24px); height: 38px; border: 1px solid var(--line); border-radius: 10px; padding: 0 11px; font: inherit; font-size: 15px; }
   #hits a { display: block; padding: 5px 6px; border-radius: 8px; text-decoration: none; color: var(--ink); font: 600 13px/1.3 ui-monospace, "SF Mono", Menlo, monospace; }
   #hits a:hover { background: #f1f1f4; }
   #hits a span { display: block; font: 400 12.5px -apple-system, system-ui, sans-serif; color: var(--muted); }
@@ -234,7 +235,7 @@
   }
   @media (max-width: 700px) {
     body { font-size: 15.5px; }
-    #top { gap: 6px; padding: 0 8px; } #q { display: none; } .tabs a { padding: 6px 8px; font-size: 13px; }
+    #top { gap: 6px; padding: 0 8px; } #q { display: none; } #side .mq { display: block; } .tabs a { padding: 6px 8px; font-size: 13px; }
     section { border-radius: 18px; padding: 20px 15px 22px; }
     .g2, .g3, .g4, .arch, .legend { grid-template-columns: minmax(0, 1fr); }
     .feed .row { grid-template-columns: 112px 1fr; } .feed .row .chip { grid-column: 1 / -1; justify-self: start; } .feed .row .what { grid-column: 1 / -1; }
@@ -347,12 +348,13 @@
   // A sample value for a property from its documented values, when the plan
   // gives none: the first allowed value, a number, true, an id. Unknown —
   // no row rather than a made-up one.
-  const guess = t => {
+  const IDS = { quest_id: '5b1e…', child_id: '8f2c…', reward_id: 'c47a…', family_id: '71d0…', user_id: '3fa9…' };
+  const guess = (t, name) => {
     t = String(t || '');
     if (t.includes('|')) return t.split('|')[0].trim();
     if (/true \/ false/.test(t)) return true;
     if (/числ|1–5/.test(t)) return 42;
-    if (/uuid/.test(t)) return '8f2c41d0-…';
+    if (/uuid/.test(t)) return IDS[name] || '9d3b…';
     return undefined;
   };
 
@@ -434,7 +436,7 @@
       (e.props || []).forEach(p => String(p.n).split(/,\s*|\s+\/\s+/).forEach(n => {
         n = n.trim();
         if (!/^[$a-z_][a-z0-9_]*$/i.test(n) || rows.some(r => r[0] === n)) return;
-        const v = n in ex ? ex[n] : guess(p.t);
+        const v = n in ex ? ex[n] : guess(p.t, n);
         if (v !== undefined) rows.push([n, v]);
       }));
       Object.keys(ex).forEach(k => { if (!rows.some(r => r[0] === k)) rows.push([k, ex[k]]); });
@@ -738,7 +740,8 @@ const ROWS = [], TILES = [];
 // ── Sidebar, search, downloads, panel and pictures ──────────────────────
 const side = document.getElementById('side');
 (() => {
-  let h = `<div class="sbox"><b>Как пользоваться</b>Читайте сверху вниз: «Коротко», «Азбука», «История семьи». Чёрная плашка с английским словом — имя события в PostHog: клик — что оно значит, какие данные несёт и приходит ли уже.</div>
+  let h = `<input id="q2" class="mq" type="search" placeholder="Найти событие: одобрил, подписка…" aria-label="Найти событие">
+    <div class="sbox"><b>Как пользоваться</b>Читайте сверху вниз: «Коротко», «Азбука», «История семьи». Чёрная плашка с английским словом — имя события в PostHog: клик — что оно значит, какие данные несёт и приходит ли уже.</div>
     <div class="dl"><button class="btn" id="dlCsv" title="Таблица событий для Excel или Google Sheets">⬇ CSV</button><button class="btn" id="dlJson" title="Весь план в JSON">⬇ JSON</button></div><div id="hits"></div>`;
   let group = '';
   for (const [g, id, title] of NAV) {
@@ -773,15 +776,20 @@ document.addEventListener('keydown', e => {
 });
 document.getElementById('menu').onclick = () => document.body.classList.toggle('side-open');
 const FINDABLE = [...document.querySelectorAll('[data-find]')];
-document.getElementById('q').addEventListener('input', e => {
-  const v = e.target.value.trim().toLowerCase();
+function search(value) {
+  const v = value.trim().toLowerCase();
   for (const el of FINDABLE) el.classList.toggle('dim', !!v && !el.dataset.find.includes(v));
   const hits = v ? PLAN.events.filter(x => (x.name + ' ' + x.title).toLowerCase().includes(v)).slice(0, 12) : [];
   const box = document.getElementById('hits');
   box.innerHTML = hits.map(x => `<a href="#" data-n="${esc(x.name)}">${esc(x.name)} <span>${esc(x.title)}</span></a>`).join('');
-  box.querySelectorAll('a').forEach(a => a.onclick = ev => { ev.preventDefault(); ui.openEvent(a.dataset.n); });
-});
-document.getElementById('q').addEventListener('keydown', e => { if (e.key === 'Enter') { const a = document.querySelector('#hits a'); if (a) a.click(); } });
+  box.querySelectorAll('a').forEach(a => a.onclick = ev => { ev.preventDefault(); document.body.classList.remove('side-open'); ui.openEvent(a.dataset.n); });
+}
+// The top bar's search on a computer, the menu's on a phone.
+for (const id of ['q', 'q2']) {
+  const input = document.getElementById(id);
+  input.addEventListener('input', e => search(e.target.value));
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') { const a = document.querySelector('#hits a'); if (a) a.click(); } });
+}
 const lbx = document.getElementById('lbx');
 function openPic(key) {
   const c = CARDS[key];

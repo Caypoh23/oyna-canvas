@@ -701,12 +701,13 @@
   // A sample value for a property from its documented values, when the plan
   // gives none: the first allowed value, a number, true, an id. Unknown —
   // no row rather than a made-up one.
-  const guess = t => {
+  const IDS = { quest_id: '5b1e…', child_id: '8f2c…', reward_id: 'c47a…', family_id: '71d0…', user_id: '3fa9…' };
+  const guess = (t, name) => {
     t = String(t || '');
     if (t.includes('|')) return t.split('|')[0].trim();
     if (/true \/ false/.test(t)) return true;
     if (/числ|1–5/.test(t)) return 42;
-    if (/uuid/.test(t)) return '8f2c41d0-…';
+    if (/uuid/.test(t)) return IDS[name] || '9d3b…';
     return undefined;
   };
 
@@ -788,7 +789,7 @@
       (e.props || []).forEach(p => String(p.n).split(/,\s*|\s+\/\s+/).forEach(n => {
         n = n.trim();
         if (!/^[$a-z_][a-z0-9_]*$/i.test(n) || rows.some(r => r[0] === n)) return;
-        const v = n in ex ? ex[n] : guess(p.t);
+        const v = n in ex ? ex[n] : guess(p.t, n);
         if (v !== undefined) rows.push([n, v]);
       }));
       Object.keys(ex).forEach(k => { if (!rows.some(r => r[0] === k)) rows.push([k, ex[k]]); });
