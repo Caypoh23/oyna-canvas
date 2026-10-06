@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>OYNA Canvas — анимации геймификации</title>
+<style>
+  :root { color-scheme: light; font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Inter",sans-serif; color: #16181d; background: #e9e9ec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  header { position: sticky; top: 0; z-index: 3; background: #fff; border-bottom: 1px solid #d5d6db; padding: 12px 20px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  nav { display: flex; gap: 2px; border-radius: 10px; background: #f1f1f4; padding: 3px; }
+  nav a { padding: 6px 11px; text-decoration: none; color: inherit; border-radius: 8px; white-space: nowrap; }
+  nav .on { background: #fff; box-shadow: 0 1px 3px #0002; font-weight: 600; }
+  h1 { margin: 0; font-size: 16px; }
+  main { max-width: 1240px; margin: auto; padding: 24px; display: grid; grid-template-columns: minmax(300px,1fr) 425px; gap: 30px; align-items: start; }
+  h2 { font-size: 24px; line-height: 1.2; margin: 0 0 10px; letter-spacing: -.02em; }
+  h3 { font-size: 16px; margin: 24px 0 10px; }
+  p { margin: 0 0 16px; color: #636971; max-width: 58ch; }
+  button, select { font: inherit; color: inherit; }
+  button { cursor: pointer; background: #fff; border: 1px solid #d5d6db; border-radius: 12px; padding: 12px; text-align: left; }
+  button:hover { border-color: #e67c12; background: #fffaf4; }
+  button:focus-visible, a:focus-visible, select:focus-visible { outline: 3px solid #ff8a16; outline-offset: 3px; }
+  button[aria-pressed=true] { border-color: #ff8a16; box-shadow: inset 0 0 0 1px #ff8a16; background: #fff6eb; }
+  .scenes { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+  .scenes span { display: block; font-size: 12px; color: #636971; margin-top: 4px; }
+  .badges { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 8px; }
+  .badges button { padding: 10px 4px; text-align: center; font-size: 11px; min-width: 0; }
+  .badges img { width: 62px; height: 62px; max-width: 100%; object-fit: contain; display: block; margin: 0 auto 7px; }
+  .controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; padding: 14px 0; }
+  .controls label { display: flex; gap: 7px; align-items: center; }
+  select { background: #fff; border: 1px solid #d5d6db; border-radius: 8px; padding: 8px; }
+  .viewer { position: sticky; top: 85px; }
+  .phone { background: #16181d; border: 8px solid #16181d; border-radius: 30px; overflow: hidden; width: 409px; max-width: 100%; box-shadow: 0 8px 28px #0002; margin: auto; }
+  iframe { display: block; border: 0; width: 393px; height: 852px; transform-origin: top left; background: #ffad16; }
+  .viewer-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+  #replay { background: #16181d; color: white; padding: 8px 12px; border: 0; }
+  #current { font-weight: 650; }
+  .note { margin-top: 20px; font-size: 12px; }
+  @media(max-width:850px) { main { grid-template-columns: 1fr; padding: 16px; gap: 22px; } .viewer { position: static; grid-row: 1; } .phone { width: min(409px,100%); } .viewer-bar { max-width: 409px; margin: 0 auto 10px; } header { padding: 10px; gap: 8px; } nav { overflow-x: auto; max-width: 100%; } }
+  @media(max-width:420px) { .badges { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+</style>
+<header>
+  <nav aria-label="Разделы OYNA"><a href="../">Экраны</a><a href="../analytics/">Аналитика</a><a href="../foksik/">Фоксик</a><a href="./" class="on" aria-current="page">Анимации</a></nav>
+  <h1>OYNA Canvas</h1>
+</header>
+<main>
+  <section aria-label="Сценарии анимаций">
+    <h2>Геймификация в движении</h2>
+    <p>Получение значка, новый уровень и развитие направлений. Выбери сцену, посмотри её в детском или подростковом оформлении и повтори.</p>
+    <div class="scenes" id="scenes"></div>
+    <div class="controls">
+      <label>Вид <select id="look"><option value="kid">Ребёнок · день</option><option value="night">Ребёнок · ночь</option><option value="teen-boy">Подросток · мальчик</option><option value="teen-girl">Подросток · девочка</option></select></label>
+      <label><input type="checkbox" id="reduce">Уменьшить движение</label>
+    </div>
+    <h3>Все 15 значков</h3>
+    <p>Нажми на значок, чтобы увидеть его получение. У значков направлений можно переключать ступень.</p>
+    <div class="badges" id="badges"></div>
+    <div class="controls"><label>Ступень направления <select id="tier"><option value="1">1 · уровень 2</option><option value="2">2 · уровень 5</option><option value="3">3 · уровень 10</option></select></label></div>
+    <p class="note">Здесь работают компоненты приложения с демонстрационными данными. Просмотр не начисляет XP, монеты и достижения. На телефоне наклон также следует датчику движения; здесь карточку можно двигать пальцем или мышью.</p>
+  </section>
+  <section class="viewer" aria-label="Просмотр анимации">
+    <div class="viewer-bar"><span id="current" aria-live="polite">Получение значка</span><button id="replay">↻ Повторить</button></div>
+    <div class="phone" id="phone"><iframe id="preview" title="Анимация OYNA из приложения" allow="fullscreen"></iframe></div>
+  </section>
+</main>
+<script>
+const scenes = [
+  ['badge','Получение значка','Свет, появление медали и искры',{scene:'badge',badge:'fiveTasks'}],
+  ['sequence','Несколько значков','Три достижения по очереди',{scene:'badge',sequence:'yes'}],
+  ['level','Новый уровень','Карточка, наклон и световые лучи',{scene:'level',level:'5'}],
+  ['master','Новый ранг «Мастер»','Переход на двадцатый уровень',{scene:'level',level:'20'}],
+  ['mind','Ум','Лисёнок читает книгу',{scene:'direction',direction:'mind'}],
+  ['strength','Сила','Мяч подпрыгивает над лапой',{scene:'direction',direction:'strength'}],
+  ['soul','Душа','Сердечки поднимаются и исчезают',{scene:'direction',direction:'soul'}]
+];
+const badges = [["fullCircle", "full_circle", "Полный круг"], ["fiveTasks", "five_tasks", "Пять дел"], ["tryDifferent", "try_different", "Пробую разное"], ["missionDone", "mission_done", "Миссия выполнена"], ["helpLovedOnes", "help_loved_ones", "Помогаю близким"], ["threeDays", "three_days", "Три дня дела"], ["weekRhythm", "week_rhythm", "Неделя в ритме"], ["firstReward", "first_reward", "Первая награда"], ["twentyFiveTasks", "twenty_five_tasks", "Двадцать пять дел"], ["fiftyTasks", "fifty_tasks", "Пятьдесят дел"], ["tenDays", "ten_days", "Десять дней в своём темпе"], ["fiveMissions", "five_missions", "Пять миссий"], ["growMind", "grow_mind", "Развиваю Ум"], ["growStrength", "grow_strength", "Развиваю Силу"], ["growSoul", "grow_soul", "Развиваю Душу"]];
+let selected = scenes[0][3];
+const frame = document.querySelector('#preview');
+function play(params, title) {
+  selected = params;
+  if (title) document.querySelector('#current').textContent = title;
+  const query = new URLSearchParams({...params,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',tier:document.querySelector('#tier').value,run:String(Date.now())});
+  frame.src = './runtime/?' + query;
+  for (const button of document.querySelectorAll('[data-scene]')) button.setAttribute('aria-pressed', String(button.dataset.scene === JSON.stringify(params)));
+}
+for (const [id,title,detail,params] of scenes) {
+  const button = document.createElement('button');
+  button.dataset.scene = JSON.stringify(params); button.dataset.id = id;
+  button.append(document.createTextNode(title));
+  const hint = document.createElement('span'); hint.textContent = detail; button.append(hint);
+  button.addEventListener('click', () => play(params,title)); document.querySelector('#scenes').append(button);
+}
+for (const [key,file,title] of badges) {
+  const button = document.createElement('button'); const params = {scene:'badge',badge:key};
+  button.dataset.scene = JSON.stringify(params);
+  const img = document.createElement('img'); img.src = './badges/'+file+'.webp'; img.alt = ''; img.loading = 'lazy';
+  button.append(img,document.createTextNode(title)); button.addEventListener('click', () => play(params,title)); document.querySelector('#badges').append(button);
+}
+for (const id of ['look','reduce','tier']) document.getElementById(id).addEventListener('change', () => play(selected));
+document.querySelector('#replay').addEventListener('click', () => play(selected));
+function resize() {
+  const phone = document.querySelector('#phone');
+  const room = document.querySelector('.viewer').clientWidth;
+  const heightLimit = innerWidth > 850 ? Math.max(400, innerHeight-180) : 852;
+  const width = Math.min(409, room, heightLimit*393/852+16);
+  phone.style.width = width+'px';
+  const scale = (width-16)/393;
+  frame.style.transform = 'scale('+scale+')'; phone.style.height = (852*scale+16)+'px';
+}
+new ResizeObserver(resize).observe(document.querySelector('.viewer'));
+addEventListener('resize',resize);
+play(selected);
+</script>
+</html>
