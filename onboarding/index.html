@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>OYNA Canvas — онбординг</title>
+<style>
+[hidden]{display:none!important}
+:root{color-scheme:light;--ink:#16181d;--muted:#636971;--line:#d5d6db;--orange:#ff8a16;--canvas:#e9e9ec;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Inter",sans-serif;color:var(--ink);background:var(--canvas)}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit;color:inherit}button,a,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}header{position:sticky;top:0;z-index:3;background:#fff;border-bottom:1px solid var(--line);padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}nav{display:flex;gap:2px;border-radius:10px;background:#f1f1f4;padding:3px;max-width:100%;overflow-x:auto}nav a{padding:6px 11px;text-decoration:none;color:inherit;border-radius:8px;white-space:nowrap}nav .on{background:#fff;box-shadow:0 1px 3px #0002;font-weight:600}h1{font-size:16px;margin:0}main{max-width:1120px;margin:auto;padding:28px;display:grid;grid-template-columns:minmax(270px,380px) minmax(0,1fr);gap:48px;align-items:start}h2{font-size:28px;line-height:1.12;letter-spacing:-.025em;margin:0 0 12px}p{color:var(--muted);margin:0 0 18px}.role{display:flex;gap:4px;padding:4px;background:#dfe0e5;border-radius:12px;margin-bottom:16px}.role button{flex:1;border:0;border-radius:9px;background:none;padding:10px;font-weight:600}.role button[aria-pressed=true]{background:#fff;box-shadow:0 1px 4px #0001}.scenes{display:grid;gap:7px}.scenes button{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px;text-align:left}.scenes button:hover{border-color:var(--orange)}.scenes button[aria-pressed=true]{border-color:var(--orange);box-shadow:inset 0 0 0 1px var(--orange);background:#fff6eb}.number{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:#f1f1f4;font-size:12px;font-weight:650;flex-shrink:0}.scenes button[aria-pressed=true] .number{background:var(--orange);color:#fff}.scenes strong{font-size:14px;display:block}.scenes small{color:var(--muted);display:block;margin-top:3px;font-size:12px}.controls{border-top:1px solid var(--line);margin-top:24px;padding-top:18px;display:flex;flex-wrap:wrap;gap:12px}.controls label{display:flex;gap:8px;align-items:center}select{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px;max-width:100%}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.note{font-size:12px;margin:18px 0 0;max-width:55ch}.sources{display:flex;gap:18px;margin-top:14px}.sources a{font-size:12px;color:var(--muted);text-underline-offset:3px}.viewer{min-width:0;position:sticky;top:86px}.viewer-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 auto 12px;max-width:425px}.viewer-bar strong{font-size:16px}.viewer-bar button{border:0;border-radius:10px;background:var(--ink);color:#fff;padding:9px 12px;white-space:nowrap}.phone{border:8px solid #171a20;border-radius:34px;width:409px;margin:auto;overflow:hidden;background:#171a20;box-shadow:0 14px 40px #0002}iframe{border:0;width:393px;height:852px;display:block;transform-origin:top left;background:#fff}.hint{font-size:12px;text-align:center;margin:12px auto 0;max-width:40ch}#status{font-size:12px;color:var(--muted);margin:10px 0 0;text-align:center}#status[hidden]{display:none}
+@media(max-width:850px){main{grid-template-columns:1fr;padding:16px;gap:26px}.viewer{position:static;grid-row:1}.story{max-width:560px;width:100%;margin:auto}h2{font-size:24px}.scenes{grid-template-columns:repeat(2,minmax(0,1fr))}.scenes button{padding:10px;align-items:flex-start}.scenes small{font-size:11px}.number{width:22px;height:22px}.controls{margin-top:18px}.viewer-bar{max-width:409px}header{padding:10px;gap:8px}}
+@media(max-width:420px){.scenes{grid-template-columns:1fr}.phone{border-width:6px;border-radius:28px}.viewer-bar strong{font-size:14px}main{padding:12px}.hint{max-width:32ch}}
+</style>
+<header><nav aria-label="Разделы OYNA"><a href="../">Экраны</a><a href="../analytics/">Аналитика</a><a href="../foksik/">Фоксик</a><a href="../gamification/">Анимации</a><a href="./" class="on" aria-current="page">Онбординг</a></nav><h1>OYNA Canvas</h1></header>
+<main>
+<section class="story" aria-label="Сценарии онбординга">
+<h2>Первые шаги в OYNA</h2><p>Выбери роль и шаг. Подсказки работают поверх экранов приложения: выделенные элементы можно нажимать, имя — менять.</p>
+<div class="role" aria-label="Роль"><button data-role="parent" aria-pressed="false">Родитель</button><button data-role="child" aria-pressed="true">Ребёнок</button></div>
+<div class="scenes" id="scenes"></div>
+<div class="controls"><label>Язык <select id="locale"><option value="ru">Русский</option><option value="en">English</option><option value="uz">O‘zbekcha</option><option value="kk">Қазақша</option><option value="az">Azərbaycanca</option><option value="ar">العربية</option></select></label><label id="look-label">Вид <select id="look"><option value="kid">Ребёнок · день</option><option value="night">Ребёнок · ночь</option><option value="teen">Подросток</option></select></label><label><input type="checkbox" id="reduce">Уменьшить движение</label><label>Масштаб <select id="scale"><option value="actual">100%</option><option value="fit">Вписать в окно</option></select></label></div>
+<p class="note">Демонстрационная семья. Изменения остаются внутри просмотра и сбрасываются при повторе. Код и QR здесь демонстрационные. Эти действия не затрагивают аккаунты, задания и баланс в приложении.</p>
+<div class="sources"><a href="https://docs.google.com/document/d/1lfnme23xXBaNOwajMSrZ0dATQlD9cnyQ/edit" target="_blank" rel="noopener">Тексты и сценарии</a><a href="https://www.figma.com/design/oSWQssRz3lQfpXKpEPc4lj/Oyna-App-Design?node-id=5895-9371" target="_blank" rel="noopener">Дизайн подсказок</a></div>
+</section>
+<section class="viewer" aria-label="Просмотр онбординга"><div class="viewer-bar"><strong id="current" aria-live="polite">Выбрать имя</strong><button id="replay">↻ Повторить</button></div><div class="phone" id="phone"><iframe id="preview" title="Онбординг OYNA из приложения"></iframe></div><p id="status" role="status">Загружаем экран…</p><p class="hint">Нажимай внутри телефона. «Повторить» возвращает выбранный шаг в начало.</p></section>
+</main>
+<script>
+const scenes = [
+{id:'parent-start',role:'parent',title:'Добавить ребёнка',detail:'Первое знакомство с семьёй'},
+{id:'parent-reward',role:'parent',title:'Создать награду',detail:'Реальная полка наград и форма'},
+{id:'parent-task',role:'parent',title:'Добавить задание',detail:'Своя задача или готовый пример'},
+{id:'parent-invite',role:'parent',title:'Пригласить ребёнка',detail:'Подсказка подключения телефона'},
+{id:'parent-review',role:'parent',title:'Проверить задание',detail:'Ребёнок ждёт решения взрослого'},
+{id:'parent-request',role:'parent',title:'Запрос награды',detail:'Переход к ожидающим запросам'},
+{id:'child-welcome',role:'child',title:'Добро пожаловать',detail:'Приветствие перед первыми шагами'},
+{id:'child-name',role:'child',title:'Выбрать имя',detail:'Обновлённая подсказка и сохранение'},
+{id:'child-task',role:'child',title:'Открыть задание',detail:'Дело на главном экране'},
+{id:'child-submit',role:'child',title:'Отправить результат',detail:'Карточка задания и подтверждение'},
+{id:'child-result',role:'child',title:'Дождаться проверки',detail:'Задание уже отправлено родителю'},
+{id:'child-reward',role:'child',title:'Выбрать награду',detail:'Подсказка на доступной награде'}
+];
+const query = new URLSearchParams(location.search);
+let selected = scenes.find(s=>s.id===query.get('scene')) || scenes.find(s=>s.id==='child-name');
+const frame=document.querySelector('#preview');
+for(const id of ['locale','look','scale']){const select=document.getElementById(id);if([...select.options].some(o=>o.value===query.get(id)))select.value=query.get(id)}
+document.querySelector('#reduce').checked=query.get('motion')==='off';
+function renderScenes(){
+ const group=scenes.filter(s=>s.role===selected.role);
+ document.querySelector('#scenes').replaceChildren(...group.map((scene,index)=>{
+  const button=document.createElement('button');button.dataset.scene=scene.id;button.setAttribute('aria-pressed',String(scene.id===selected.id));
+  const number=document.createElement('span');number.className='number';number.setAttribute('aria-hidden','true');number.textContent=String(index+1);
+  const copy=document.createElement('span');const title=document.createElement('strong');title.textContent=scene.title;const detail=document.createElement('small');detail.textContent=scene.detail;copy.append(title,detail);button.append(number,copy);button.addEventListener('click',()=>play(scene));return button;
+ }));
+ for(const button of document.querySelectorAll('[data-role]'))button.setAttribute('aria-pressed',String(button.dataset.role===selected.role));
+ document.querySelector('#look-label').hidden=selected.role==='parent';
+}
+function play(scene=selected){selected=scene;renderScenes();document.querySelector('#current').textContent=scene.title;const params=new URLSearchParams({scene:scene.id,locale:document.querySelector('#locale').value,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',scale:document.querySelector('#scale').value});history.replaceState(null,'','?'+params);document.querySelector('#status').hidden=false;params.set('run',String(Date.now()));frame.src='./runtime/7db40f6294c006d5/?'+params;}
+for(const button of document.querySelectorAll('[data-role]'))button.addEventListener('click',()=>play(scenes.find(s=>s.role===button.dataset.role)));
+for(const id of ['locale','look','reduce'])document.getElementById(id).addEventListener('change',()=>play());
+document.querySelector('#replay').addEventListener('click',()=>play());
+frame.addEventListener('load',()=>{document.querySelector('#status').hidden=true;});
+function resize(){const phone=document.querySelector('#phone');const border=innerWidth<=420?12:16;const room=document.querySelector('.viewer').clientWidth;const fit=document.querySelector('#scale').value==='fit';const heightLimit=fit&&innerWidth>850?Math.max(360,innerHeight-190):852;const width=Math.min(393+border,room,heightLimit*393/852+border);const scale=(width-border)/393;phone.style.width=width+'px';phone.style.height=(852*scale+border)+'px';frame.style.transform='scale('+scale+')';}
+document.querySelector('#scale').addEventListener('change',()=>{resize();const params=new URLSearchParams(location.search);params.set('scale',document.querySelector('#scale').value);history.replaceState(null,'','?'+params)});new ResizeObserver(resize).observe(document.querySelector('.viewer'));addEventListener('resize',resize);play();
+</script>
+</html>

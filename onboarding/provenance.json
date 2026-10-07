@@ -1,0 +1,17 @@
+{
+  "built_at": "2026-10-07T04:12:41.516290+00:00",
+  "source_commit": "e9abdd8ad7592c00ddef9386bd9d70bc5f182e33",
+  "source_dirty": false,
+  "backend": null,
+  "data": "In-memory demonstration ports; no authenticated session",
+  "implementation": "Production parent/child screens, GuidedOnboardingHost, BLoC and AppCoachMark",
+  "scenes": 12,
+  "sources": {
+    "scripts/canvas/onboarding_preview_ports.dart": "e3d22d7de1c5e4b817729c51182b076e49c50fdcd180b5fcbc250d4f23f0fe94",
+    "scripts/canvas/onboarding_preview.dart": "97ca7d9ee2a19e1b08b5cbb80b449935b732fc8a4cccd18da35f814a77db3fc3",
+    "scripts/canvas/onboarding.html": "28bc638f56b060b4e3a4c5914ddee8a8535d37ec499369196d4304174b88026a",
+    "scripts/canvas/build_onboarding.sh": "dd90efcdd1dedd638b64611751a47c01cf2a66eef170551602d2bb8978e7eb1d"
+  },
+  "runtime_path": "runtime/7db40f6294c006d5/",
+  "runtime_sha256": "40ae16ed55e168c26d8fa36240c21cce84814bcc47b721186184ff8b0d1bc2cf"
+}

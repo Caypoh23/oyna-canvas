@@ -1,0 +1,7856 @@
+((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+dlu(d,e,f){var w,v,u,t=null,s=f==null?B.G(x.g,x.j):f
+s=new B.jQ(C.th,s,d,x.c)
+w=new B.jQ(C.eI,B.G(x.g,x.j),d,x.c)
+w=new A.aFZ(s,w)
+w.HS(d,t,e,t)
+v=w.a
+u=s.r
+u.toString
+v.r=u
+s.r=A.dOa(w)
+return w},
+dO3(q1,q2){var w,v=null,u="\u0414\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b",t="\u049a\u043e\u0441\u0443",s="\u0421\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443",r="\u0413\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0442\u0430\u04a3\u0434\u0430\u0443",q="\u0416\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443",p="\u04b0\u0437\u0430\u049b\u0442\u044b\u0493\u044b",o="\u0421\u0430\u049b\u0442\u0430\u0443",n="\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443",m="\u0420\u0430\u0441\u0442\u0430\u0443",l="\u0416\u043e\u044e",k="\u0416\u0430\u0431\u0443",j="\u0410\u0440\u0442\u049b\u0430",i="\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443",h="\u0416\u0456\u0431\u0435\u0440\u0443",g="\u041a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456",f="\u0414\u0430\u0439\u044b\u043d",e="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440",d="\u041f\u0440\u043e\u0444\u0438\u043b\u044c",a0="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440",a1="\u0422\u0435\u043a\u0441\u0435\u0440\u0443",a2="\u0422\u0430\u04a3\u0434\u0430\u0443",a3="\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0430\u0439\u044b\u049b",a4="\u0426\u0438\u0444\u0440\u0434\u044b \u04e9\u0448\u0456\u0440\u0443",a5="\u0410\u0442\u0430-\u0430\u043d\u0430",a6="\u049a\u0430\u0442\u0435 \u043a\u043e\u0434",a7="\u041a\u0456\u0440\u0443",a8="\u0428\u044b\u0493\u0443",a9="Email",b0="\u041c\u0435\u043d\u0456\u04a3 \u043e\u0442\u0431\u0430\u0441\u044b\u043c",b1="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b",b2="\u0410\u0442\u044b",b3="\u041a\u043e\u0434\u0442\u044b \u043a\u04e9\u0448\u0456\u0440\u0443",b4="\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0436\u0456\u0431\u0435\u0440\u0443",b5="\u049a\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443",b6="\u0416\u0430\u04a3\u0430 \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437",b7="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u04a3\u044b\u0437",b8="SMS-\u043a\u043e\u0434 \u0430\u043b\u0443",b9="\u041f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443 \u0448\u0430\u0440\u0442\u0442\u0430\u0440\u044b",c0="\u049a\u04b1\u043f\u0438\u044f\u043b\u044b\u043b\u044b\u049b \u0441\u0430\u044f\u0441\u0430\u0442\u044b",c1="\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b",c2="\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456",c3="\u041a\u04af\u043d \u0441\u0430\u0439\u044b\u043d",c4="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0440\u0435\u0442",c5="\u0424\u043e\u0442\u043e",c6="\u0421\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u044b\u043d\u0434\u044b",c7="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u0430 \u043a\u04e9\u0440\u0441\u0435\u0442",c8="\u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a",c9="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440",d0="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443",d1="\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u04d9\u0440\u0456 \u049b\u0430\u0440\u0430\u0439",d2="\u041c\u0435\u043d\u0456\u04a3 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043c",d3="\u0410\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b",d4="\u0424\u043e\u0442\u043e\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443",d5="\u0424\u043e\u0442\u043e\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443",d6="\u049a\u0430\u043b\u044b\u043f\u0442\u044b",d7="\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a",d8="\u04e8\u0437\u0456\u043d-\u04e9\u0437\u0456 \u0434\u0430\u043c\u044b\u0442\u0443",d9="\u0428\u044b\u0493\u0430\u0440\u043c\u0430\u0448\u044b\u043b\u044b\u049b",e0="\u041e\u04a3\u0430\u0439",e1="\u041e\u0440\u0442\u0430\u0448\u0430",e2="\u049a\u0438\u044b\u043d",e3="\u0410\u043f\u0442\u0430 \u0441\u0430\u0439\u044b\u043d",e4="\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a",e5="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435",e6="\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u044b\u043b\u0434\u044b",e7="\u049a\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456",e8=y.jY,e9="\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u0430\u043b\u044b\u043d\u0493\u0430\u043d",f0="\u041a\u0432\u0435\u0441\u0442 \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437",f1="\u0413\u0430\u043b\u0435\u0440\u0435\u044f",f2="\u042d\u043f\u0438\u043a\u0430\u043b\u044b\u049b",f3="\u041a\u0430\u043c\u0435\u0440\u0430 \u043a\u0435\u0440\u0435\u043a",f4="\u0422\u04d9\u0436\u0456\u0440\u0438\u0431\u0435",f5="\u0420\u0430\u0441\u0442\u0430\u0443\u0434\u044b \u043a\u04af\u0442\u0443\u0434\u0435\u043c\u0456\u0437",f6="\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u043a\u04af\u0442\u0435\u043c\u0456\u043d",f7="\u049a\u0430\u0448\u0430\u043d \u0456\u0441\u0442\u0435\u043c\u0435\u0434\u0456\u043a",f8="\u0436\u0430\u04a3\u0430 \u0493\u0430\u043d\u0430",f9="\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456",g0="\u04b0\u043b \u0431\u0430\u043b\u0430",g1="\u049a\u044b\u0437 \u0431\u0430\u043b\u0430",g2="\u0422\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456",g3="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0431\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437",g4="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044e",g5="\u0415\u0440\u0442\u0435\u04a3 \u0441\u04e9\u0439\u043b\u0435\u0441\u0435\u043c\u0456\u0437! \ud83c\udf19",g6="\u0424\u043e\u043a\u0441\u0438\u043a AI",g7="\u0411\u04af\u0433\u0456\u043d",g8="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0430\u0448\u0443",g9="\u0415\u0448\u0442\u0435\u04a3\u0435 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b",h0="\u0416\u04af\u043a\u0442\u0435\u043f \u0430\u043b\u0443",h1="\u0410\u049b\u044b\u043b",h2="\u0416\u0430\u043d",h3="\u041a\u04af\u0448",h4="\u0424\u043e\u0442\u043e \u043a\u0435\u0440\u0435\u043a",h5="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u0443",h6="\u0421\u04b1\u0440\u0430\u043f \u049b\u043e\u0439\u0493\u0430\u043d\u0441\u044b\u04a3",h7="\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456",h8="\u041c\u043e\u043d\u0435\u0442\u0430 \u0436\u0435\u0442\u0435\u0434\u0456!",h9="\u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435",i0="\u04d8\u0440\u0456 \u049b\u0430\u0440\u0430\u0439",i1="\u0431\u0435\u043b\u0433\u0456\u043b\u0435\u043d\u0433\u0435\u043d",i2="\u0431\u0435\u043b\u0433\u0456\u043b\u0435\u043d\u0431\u0435\u0433\u0435\u043d",i3="\u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456",i4="\u0421\u044b\u0439\u043b\u044b\u049b \u0456\u0437\u0434\u0435\u0443",i5="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0493\u0430",i6="\u042d\u043a\u0440\u0430\u043d \u0443\u0430\u049b\u044b\u0442\u044b",i7="\u0416\u0430\u04a3\u0430 \u0434\u0435\u04a3\u0433\u0435\u0439!",i8="\u0415\u04a3 \u0436\u043e\u0493\u0430\u0440\u044b \u0434\u0435\u04a3\u0433\u0435\u0439",i9=y.d,j0="\u0414\u043e\u0441\u0442\u044b \u0436\u043e\u044e",j1="\u0411\u04b1\u043b \u0441\u0456\u0437 \u0435\u043a\u0435\u043d\u0456\u04a3\u0456\u0437\u0434\u0456 \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437",j2="\u041a\u043e\u0434 \u043a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456",j3="\u0421\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",j4="\u0415\u0440\u0442\u0435\u04a3",j5="\u049a\u04b1\u0440\u0443",j6="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430",j7="\u0421\u044b\u0439\u043b\u044b\u049b",j8="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440",j9="AI-\u043c\u0435\u043d \u0442\u0430\u043b\u049b\u044b\u043b\u0430\u0443",k0="\u049a\u043e\u0441\u044b\u043b\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437",k1="\u049a\u043e\u0441\u044b\u043b\u0443\u0434\u044b \u043a\u04af\u0442\u0435\u043c\u0456\u0437",k2="\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443",k3=y.Y,k4="\u0415\u043a\u0456\u043d\u0448\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430",k5=y.j6,k6="\u0411\u0430\u043b\u0430 \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b",k7="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u04b1\u0440\u0430\u0443",k8="\u0422\u043e\u043b\u044b\u0493\u044b\u0440\u0430\u049b",k9="\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",l0="\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a",l1="\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b",l2="\u041e\u0442\u0431\u0430\u0441\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b",l3="\u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443",l4="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u043e\u0441\u0443",l5="\u0421\u044b\u0439\u043b\u044b\u049b \u0430\u0442\u0430\u0443\u044b",l6="\u0411\u0430\u0441\u049b\u0430 \u0430\u0442\u0430\u0443\u043c\u0435\u043d \u0456\u0437\u0434\u0435\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",l7="\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0436\u0430\u0431\u0443",l8="\u04e8\u0437\u0433\u0435\u0440\u0456\u0441\u0442\u0435\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b",l9="\u041a\u0435\u043c\u0456\u043d\u0434\u0435 \u0431\u0456\u0440 \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",m0="\u0421\u0430\u049b\u0442\u0430\u043c\u0430\u0439 \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?",m1="\u0415\u043d\u0433\u0456\u0437\u0456\u043b\u0433\u0435\u043d \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b",m2="Premium \u0430\u0448\u0443",m3="\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441",m4="\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443",m5="\u0411\u0456\u0440 \u0430\u043f\u0442\u0430\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d",m6="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443",m7="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u0443\u044b",m8="\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440",m9="\u0416\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u2026",n0="\u04e8\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u04b1\u0440\u0443",n1="\u0416\u0435\u04a3\u0456\u043b",n2="\u0416\u043e\u0493\u0430\u0440\u044b",n3="\u0410\u043f\u0442\u0430\u043b\u044b\u049b \u0436\u04af\u043a\u0442\u0435\u043c\u0435",n4="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443",n5="\u0422\u0438\u044b\u043d\u0434\u0430\u0440",n6="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b",n7="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b",n8="\u041c\u04af\u043c\u043a\u0456\u043d, \u043e\u043b \u0436\u043e\u0439\u044b\u043b\u0493\u0430\u043d \u0448\u044b\u0493\u0430\u0440",n9="\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443",o0="\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b",o1="\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b",o2="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0436\u044b\u043d\u044b\u0441\u044b",o3="\u0411\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0443",o4="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437",o5="\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u04a3\u0456\u0437",o6="\u0416\u044b\u043d\u044b\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",o7="\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b",o8="\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d \u043b\u0438\u043c\u0438\u0442\u0456",o9=y.Q,p0="\u0421\u0430\u049b\u0442\u0430\u043b\u0434\u044b",p1=y.X,p2="\u0411\u043e\u043b\u043c\u0430\u0434\u044b \u2014 \u0431\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442 \u049b\u0430\u0437\u0456\u0440 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437",p3="\u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0447\u0430\u0442",p4="\u0422\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",p5="\u049a\u043e\u0441\u044b\u043b\u0493\u0430\u043d",p6="\u0422\u0438\u044b\u043d \u0431\u0430\u0493\u0430\u043c\u044b",p7="\u041e\u0441\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430\u0493\u044b \u0431\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456",p8="\u0428\u0430\u049b\u044b\u0440\u0443 \u043a\u043e\u0434\u044b",p9="\u0411\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437.",q0="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0493\u0430"
+A:{w=r
+if("health.title"===q2){w=u
+break A}if("health.childSubtitle"===q2){w=new A.cEC()
+break A}if("health.childSubtitleUnknown"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u04b1\u0439\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0440\u0493\u044b\u0448\u044b"
+break A}if("health.open"===q2){w=u
+break A}if("health.add"===q2){w=t
+break A}if("health.disclaimer"===q2){w=new A.cED()
+break A}if("health.activeNow"===q2){w="\u049a\u0430\u0437\u0456\u0440 \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456"
+break A}if("health.noActive"===q2){w="\u049a\u0430\u0437\u0456\u0440 \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u043b\u0430\u0440 \u0436\u043e\u049b."
+break A}if("health.adherence"===q2){w=new A.cEE()
+break A}if("health.questStrength"===q2){w="\u041a\u0432\u0435\u0441\u0442 \xb7 \u0414\u0435\u043d\u0435"
+break A}if("health.reminders"===q2){w="\u0415\u0441\u043a\u0435 \u0441\u0430\u043b\u0443\u043b\u0430\u0440"
+break A}if("health.noReminders"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0436\u0430\u049b\u044b\u043d \u0435\u0441\u043a\u0435 \u0441\u0430\u043b\u0443\u043b\u0430\u0440 \u0436\u043e\u049b."
+break A}if("health.medicalMemory"===q2){w="\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u0442\u0430\u0440\u0438\u0445"
+break A}if("health.noHistory"===q2){w="\u0421\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0443\u043b\u0430\u0440 \u043e\u0441\u044b\u043d\u0434\u0430 \u043a\u04e9\u0440\u0456\u043d\u0435\u0434\u0456."
+break A}if("health.identified"===q2){w="\u0410\u043d\u044b\u049b\u0442\u0430\u043b\u0434\u044b"
+break A}if("health.prescribed"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+break A}if("health.analyses"===q2){w="\u0422\u0430\u043b\u0434\u0430\u0443\u043b\u0430\u0440"
+break A}if("health.noAnalyses"===q2){w="\u0414\u0438\u043d\u0430\u043c\u0438\u043a\u0430\u043d\u044b \u043a\u04e9\u0440\u0441\u0435\u0442\u0443 \u04af\u0448\u0456\u043d \u04d9\u0437\u0456\u0440\u0433\u0435 \u0434\u0435\u0440\u0435\u043a \u0436\u043e\u049b."
+break A}if("health.analysisNote"===q2){w="\u0422\u0435\u043a \u0441\u0430\u043d \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430\u0441\u044b\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u043c\u0456\u0437 \u2014 \xab\u049b\u0430\u043b\u044b\u043f\u0442\u044b\xbb \u043d\u0435 \xab\u0436\u0430\u043c\u0430\u043d\xbb \u0434\u0435\u043f \u0431\u0430\u0493\u0430\u043b\u0430\u043c\u0430\u0439\u043c\u044b\u0437."
+break A}if("health.emptyTitle"===q2){w="\u0414\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b \u0442\u0430\u0440\u0438\u0445\u044b \u043e\u0441\u044b\u043d\u0434\u0430 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break A}if("health.emptyBody"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u043b\u0430\u0440\u0434\u044b, \u0435\u0441\u043a\u0435 \u0441\u0430\u043b\u0443\u043b\u0430\u0440\u0434\u044b \u0436\u04d9\u043d\u0435 \u0442\u0430\u043b\u0434\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0431\u0456\u0440 \u0436\u0435\u0440\u0434\u0435 \u0441\u0430\u049b\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0443\u0434\u044b \u049b\u043e\u0441\u044b\u04a3\u044b\u0437."
+break A}if("health.addFirstRecord"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0436\u0430\u0437\u0431\u0430\u043d\u044b \u049b\u043e\u0441\u0443"
+break A}if("health.captureTitle"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u0443\u0434\u044b \u049b\u043e\u0441\u0443"
+break A}if("health.captureBody"===q2){w="\u0414\u04d9\u0440\u0456\u0433\u0435\u0440 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b\u043d \u0441\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break A}if("health.camera"===q2){w=s
+break A}if("health.gallery"===q2)break A
+if("health.manual"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0441\u0456\u0437 \u2014 \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0443"
+break A}if("health.photoPermissionTitle"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0435\u0440\u0433\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456\u043b\u0456\u043a \u0436\u043e\u049b"
+break A}if("health.photoPermissionBody"===q2){w="\u049a\u04b1\u0440\u044b\u043b\u0493\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430\u0493\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 \u0433\u0430\u043b\u0435\u0440\u0435\u044f\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440\u0456\u04a3\u0456\u0437 \u043d\u0435 \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break A}if("health.photoPickFailedTitle"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u049b\u043e\u0441\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("health.photoPickFailedBody"===q2){w="\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437, \u0433\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0441\u0443\u0440\u0435\u0442 \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0443\u0440\u0435\u0442\u0441\u0456\u0437 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u044b\u04a3\u044b\u0437."
+break A}if("health.chooseGalleryInstead"===q2)break A
+if("health.photoAttached"===q2){w="\u0414\u04d9\u0440\u0456\u0433\u0435\u0440 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b \u049b\u043e\u0441\u044b\u043b\u0434\u044b"
+break A}if("health.contextTitle"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u0443 \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u044b"
+break A}if("health.contextBody"===q2){w="\u0411\u04b1\u043b \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440\u0434\u0456 \u0441\u0456\u0437 \u0435\u043d\u0433\u0456\u0437\u0435\u0441\u0456\u0437 \u2014 Health \u0435\u0448\u0442\u0435\u04a3\u0435 \u043e\u0439\u0434\u0430\u043d \u049b\u043e\u0441\u043f\u0430\u0439\u0434\u044b."
+break A}if("health.specialty"===q2){w="\u041c\u0430\u043c\u0430\u043d\u0434\u044b\u049b"
+break A}if("health.doctor"===q2){w="\u0414\u04d9\u0440\u0456\u0433\u0435\u0440"
+break A}if("health.date"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u0443 \u043a\u04af\u043d\u0456"
+break A}if("health.continueToOcr"===q2){w=q
+break A}if("health.processingTitle"===q2){w="\u049a\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u043d\u044b \u043e\u049b\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437\u2026"
+break A}if("health.processingBody"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0435\u043d \u0442\u0435\u043a \u043c\u04d9\u0442\u0456\u043d\u0434\u0456 \u0430\u043b\u0430\u043c\u044b\u0437. \u0411\u04b1\u043b \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u0442\u04af\u0441\u0456\u043d\u0434\u0456\u0440\u0443 \u0435\u043c\u0435\u0441."
+break A}if("health.confirmTitle"===q2){w="\u041d\u043e\u0431\u0430\u0439\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break A}if("health.confirmWithPhoto"===q2){w="\u041c\u04d9\u0442\u0456\u043d \u0441\u0443\u0440\u0435\u0442\u0442\u0435\u043d \u0430\u043b\u044b\u043d\u0434\u044b. \u0421\u0430\u049b\u0442\u0430\u0440 \u0430\u043b\u0434\u044b\u043d\u0434\u0430 \u04d9\u0440 \u04e9\u0440\u0456\u0441\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437."
+break A}if("health.confirmManual"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u043b\u0430\u0440 \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u043b\u0434\u0456. \u0421\u0430\u049b\u0442\u0430\u0440 \u0430\u043b\u0434\u044b\u043d\u0434\u0430 \u0431\u04d9\u0440\u0456\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437."
+break A}if("health.reviewWarning"===q2){w=new A.cEF()
+break A}if("health.partialOcr"===q2){w="\u041c\u04d9\u0442\u0456\u043d\u043d\u0456\u04a3 \u0431\u0456\u0440 \u0431\u04e9\u043b\u0456\u0433\u0456 \u0442\u043e\u043b\u044b\u049b \u0442\u0430\u043d\u044b\u043b\u043c\u0430\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d. \u041d\u043e\u0431\u0430\u0439\u0434\u044b \u0441\u0443\u0440\u0435\u0442\u043f\u0435\u043d \u0441\u0430\u043b\u044b\u0441\u0442\u044b\u0440\u044b\u04a3\u044b\u0437."
+break A}if("health.lowConfidence"===q2){w="\u0422\u0430\u043d\u0443\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break A}if("health.addPrescription"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443 \u049b\u043e\u0441\u0443"
+break A}if("health.saveCount"===q2){w=new A.cEG()
+break A}if("health.savedTitle"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u0443 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break A}if("health.savedBody"===q2){w=new A.cEH()
+break A}if("health.backDashboard"===q2){w="\u0414\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b\u049b\u0430 \u043e\u0440\u0430\u043b\u0443"
+break A}if("health.type"===q2){w="\u0422\u04af\u0440\u0456"
+break A}if("health.typeMedication"===q2){w="\u0414\u04d9\u0440\u0456"
+break A}if("health.typeProcedure"===q2){w="\u041f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u0430"
+break A}if("health.typeExercise"===q2){w="\u0416\u0430\u0442\u0442\u044b\u0493\u0443"
+break A}if("health.typeAnalysis"===q2){w="\u0422\u0430\u043b\u0434\u0430\u0443"
+break A}if("health.prescriptionTitle"===q2){w="\u0410\u0442\u0430\u0443\u044b"
+break A}if("health.dosage"===q2){w="\u041c\u04e9\u043b\u0448\u0435\u0440\u0456"
+break A}if("health.frequency"===q2){w="\u0416\u0438\u0456\u043b\u0456\u0433\u0456"
+break A}if("health.duration"===q2){w=p
+break A}if("health.analysisValue"===q2){w="\u041d\u04d9\u0442\u0438\u0436\u0435 \u043c\u04d9\u043d\u0456"
+break A}if("health.analysisUnit"===q2){w="\u04e8\u043b\u0448\u0435\u043c \u0431\u0456\u0440\u043b\u0456\u0433\u0456"
+break A}if("health.retestAfter"===q2){w="\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456"
+break A}if("health.invalidNumber"===q2){w="\u0421\u0430\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437, \u043c\u044b\u0441\u0430\u043b\u044b 121 \u043d\u0435\u043c\u0435\u0441\u0435 4,5"
+break A}if("health.editPrescription"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u0434\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break A}if("health.deletePrescription"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u0434\u044b \u04e9\u0448\u0456\u0440\u0443"
+break A}if("health.deleteConfirmTitle"===q2){w="\u0422\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443 \u04e9\u0448\u0456\u0440\u0456\u043b\u0441\u0456\u043d \u0431\u0435?"
+break A}if("health.deleteConfirmBody"===q2){w="\u041e\u043b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0443 \u043d\u043e\u0431\u0430\u0439\u044b\u043d\u0430\u043d \u0436\u043e\u0439\u044b\u043b\u0430\u0434\u044b."
+break A}if("health.ocrFailedTitle"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u043e\u049b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("health.ocrFailedBody"===q2){w="\u0411\u0430\u0441\u049b\u0430 \u0441\u0443\u0440\u0435\u0442\u0442\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break A}if("health.manualInstead"===q2){w="\u049a\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0443"
+break A}if("health.requiredFields"===q2){w="\u041c\u0430\u043c\u0430\u043d\u0434\u044b\u049b\u0442\u044b, \u0434\u04d9\u0440\u0456\u0433\u0435\u0440\u0434\u0456 \u0436\u04d9\u043d\u0435 \u043a\u04af\u043d\u0434\u0456 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break A}if("health.photoConclusion"===q2){w="\u0414\u04d9\u0440\u0456\u0433\u0435\u0440 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b\u043d\u044b\u04a3 \u0441\u0443\u0440\u0435\u0442\u0456"
+break A}if("health.trendUp"===q2){w=new A.cEI()
+break A}if("common.next"===q2){w="\u041a\u0435\u043b\u0435\u0441\u0456"
+break A}if("common.save"===q2){w=o
+break A}if("common.cancel"===q2){w=n
+break A}if("common.confirm"===q2){w=m
+break A}if("common.delete"===q2){w=l
+break A}if("common.edit"===q2){w="\u04e8\u04a3\u0434\u0435\u0443"
+break A}if("common.close"===q2){w=k
+break A}if("common.back"===q2){w=j
+break A}if("common.yes"===q2){w="\u0418\u04d9"
+break A}if("common.ok"===q2){w="\u041e\u041a"
+break A}if("common.retry"===q2){w=i
+break A}if("common.loading"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435\u2026"
+break A}if("common.error"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break A}if("common.errorPrefix"===q2){w=new A.cEK()
+break A}if("common.add"===q2){w=t
+break A}if("common.send"===q2){w=h
+break A}if("common.open"===q2){w="\u0410\u0448\u0443"
+break A}if("common.copy"===q2){w="\u041a\u04e9\u0448\u0456\u0440\u0443"
+break A}if("common.copied"===q2){w=g
+break A}if("common.paste"===q2){w="\u049a\u043e\u044e"
+break A}if("common.done"===q2){w=f
+break A}if("nav.home"===q2){w="\u0411\u0430\u0441\u0442\u044b"
+break A}if("nav.quests"===q2){w="\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440"
+break A}if("nav.rewards"===q2){w=e
+break A}if("nav.plan"===q2){w="\u0416\u043e\u0441\u043f\u0430\u0440"
+break A}if("nav.rating"===q2){w="\u0420\u0435\u0439\u0442\u0438\u043d\u0433"
+break A}if("nav.chat"===q2){w="\u0427\u0430\u0442"
+break A}if("nav.profile"===q2){w=d
+break A}if("nav.settings"===q2){w=a0
+break A}if("nav.review"===q2){w=a1
+break A}if("nav.recommend"===q2){w=a2
+break A}if("nav.family"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b"
+break A}if("nav.history"===q2){w="\u0422\u0430\u0440\u0438\u0445"
+break A}if("authDesign.welcomeTitle"===q2){w="\u0421\u04d9\u043b\u0435\u043c! \u0411\u04b1\u043b\nOyna"
+break A}if("authDesign.welcomeBody"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430, \u0442\u0438\u044b\u043d \u0436\u0438\u043d\u0430 \u0436\u04d9\u043d\u0435 \u043e\u043b\u0430\u0440\u0434\u044b \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0493\u0430 \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430."
+break A}if("authDesign.continueLabel"===q2){w=a3
+break A}if("authDesign.codeTitle"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d\n\u043a\u043e\u0434\u0442\u044b \u0441\u04b1\u0440\u0430"
+break A}if("authDesign.codeBody"===q2){w="\u041e\u043d\u044b \u0435\u043d\u0433\u0456\u0437\u0441\u0435\u04a3, \u0436\u04af\u0439\u0435\u0433\u0435 \u043a\u0456\u0440\u0435\u0441\u0456\u04a3"
+break A}if("authDesign.scan"===q2){w="\u0421\u043a\u0430\u043d\u0435\u0440\u043b\u0435\u0443"
+break A}if("authDesign.successTitle"===q2){w="\u0415\u043d\u0434\u0456 \u0441\u0435\u043d\noyna-\u0434\u0430\u0441\u044b\u04a3!"
+break A}if("authDesign.successBody"===q2){w=y.dJ
+break A}if("authDesign.thanks"===q2){w="\u0420\u0430\u049b\u043c\u0435\u0442"
+break A}if("authDesign.deleteDigit"===q2){w=a4
+break A}if("authDesign.cameraError"===q2){w=y.iE
+break A}if("authDesign.cameraMissing"===q2){w=y.jP
+break A}if("authDesign.invalidQr"===q2){w=y.lQ
+break A}if("authDesign.flashOn"===q2){w="\u0416\u0430\u0440\u049b\u044b\u043b\u0434\u044b \u049b\u043e\u0441\u0443"
+break A}if("authDesign.flashOff"===q2){w="\u0416\u0430\u0440\u049b\u044b\u043b\u0434\u044b \u04e9\u0448\u0456\u0440\u0443"
+break A}if("authDesign.chooseLanguage"===q2){w="\u0422\u0456\u043b\u0434\u0456 \u0442\u0430\u04a3\u0434\u0430\u0443"
+break A}if("authDesign.checkingCode"===q2){w="\u041a\u043e\u0434\u0442\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437\u2026"
+break A}if("authDesign.introContinue"===q2){w=a3
+break A}if("auth.welcomeTitle"===q2){w=new A.cEL()
+break A}if("auth.whoAreYou"===q2){w="\u0421\u0435\u043d \u043a\u0456\u043c\u0441\u0456\u04a3?"
+break A}if("auth.iAmParent"===q2){w="\u041c\u0435\u043d \u0430\u0442\u0430-\u0430\u043d\u0430\u043c\u044b\u043d"
+break A}if("auth.roleTitle"===q2){w="oyna-\u0493\u0430\n\u049b\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3\u0456\u0437!"
+break A}if("auth.roleBody"===q2){w="\u0420\u04e9\u043b\u0456\u04a3\u0456\u0437\u0434\u0456 \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437, \u0441\u043e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0441\u0456\u0437\u0434\u0456 \u0436\u04af\u0439\u0435\u0433\u0435 \u043a\u0456\u0440\u0433\u0456\u0437\u0435\u043c\u0456\u0437"
+break A}if("auth.roleChild"===q2){w="\u0411\u0430\u043b\u0430"
+break A}if("auth.roleParent"===q2){w=a5
+break A}if("auth.roleChildHint"===q2){w="\u0411\u0430\u043b\u0430 \u0440\u0435\u0442\u0456\u043d\u0434\u0435 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"
+break A}if("auth.roleParentHint"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0442\u0456\u043d\u0434\u0435 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"
+break A}if("auth.iAmChild"===q2){w="\u041c\u0435\u043d \u0431\u0430\u043b\u0430\u043c\u044b\u043d"
+break A}if("auth.enterCode"===q2){w="\u041a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437"
+break A}if("auth.pasteCode"===q2){w="\u041a\u043e\u0434\u0442\u044b \u049b\u043e\u044e"
+break A}if("auth.invalidCode"===q2){w=a6
+break A}if("auth.codeNotFound"===q2){w="\u041a\u043e\u0434 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break A}if("auth.login"===q2){w=a7
+break A}if("auth.logout"===q2){w=a8
+break A}if("auth.email"===q2){w=a9
+break A}if("auth.password"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437"
+break A}if("auth.more.fillAllFields"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u04e9\u0440\u0456\u0441\u0442\u0435\u0440\u0434\u0456 \u0442\u043e\u043b\u0442\u044b\u0440\u044b\u04a3\u044b\u0437"
+break A}if("auth.more.createFamily"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u049b\u04b1\u0440\u044b\u04a3\u044b\u0437"
+break A}if("auth.more.defaultFamilyName"===q2){w=b0
+break A}if("auth.more.defaultParentName"===q2){w=a5
+break A}if("auth.more.familyName"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u0430\u0442\u0430\u0443\u044b"
+break A}if("auth.more.familyNameHint"===q2){w="\u041c\u044b\u0441\u0430\u043b\u044b: \u0410\u0431\u0434\u0443\u043b\u043b\u0430\u0435\u0432\u0442\u0435\u0440"
+break A}if("auth.more.country"===q2){w="\u0415\u043b"
+break A}if("auth.more.languageLabel"===q2){w="\u0422\u0456\u043b"
+break A}if("auth.more.addFirstChild"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0431\u0430\u043b\u0430\u043d\u044b \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"
+break A}if("auth.more.childName"===q2){w=b1
+break A}if("auth.more.childNameHint"===q2){w=b2
+break A}if("auth.more.avatarColor"===q2){w="\u0410\u0432\u0430\u0442\u0430\u0440 \u0442\u04af\u0441\u0456"
+break A}if("auth.more.createFamilyButton"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u049b\u04b1\u0440\u0443"
+break A}if("auth.more.countryUzbekistan"===q2){w="\u04e8\u0437\u0431\u0435\u043a\u0441\u0442\u0430\u043d"
+break A}if("auth.more.countryKazakhstan"===q2){w="\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d"
+break A}if("auth.more.countryAzerbaijan"===q2){w="\u04d8\u0437\u0456\u0440\u0431\u0430\u0439\u0436\u0430\u043d"
+break A}if("auth.more.countryKyrgyzstan"===q2){w="\u049a\u044b\u0440\u0493\u044b\u0437\u0441\u0442\u0430\u043d"
+break A}if("auth.more.countryOther"===q2){w="\u0411\u0430\u0441\u049b\u0430 \u0435\u043b"
+break A}if("auth.more.familyCreated"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u049b\u04b1\u0440\u044b\u043b\u0434\u044b!"
+break A}if("auth.more.codeFor"===q2){w=new A.cEM()
+break A}if("auth.more.codeCopied"===q2){w="\u041a\u043e\u0434 \u043a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456!"
+break A}if("auth.more.copyCode"===q2){w=b3
+break A}if("auth.more.giveChildCode"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0493\u0430 \u043a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u043b\u0430\u0493\u0430 \u043e\u0441\u044b \u043a\u043e\u0434\u0442\u044b \u0431\u0435\u0440\u0456\u04a3\u0456\u0437"
+break A}if("auth.more.setPinCode"===q2){w="PIN-\u043a\u043e\u0434\u0442\u044b \u043e\u0440\u043d\u0430\u0442\u0443"
+break A}if("auth.more.enterNDigitCode"===q2){w=new A.cEN()
+break A}if("auth.more.signIn"===q2){w=a7
+break A}if("auth.more.register"===q2){w="\u0422\u0456\u0440\u043a\u0435\u043b\u0443"
+break A}if("auth.more.parentAccount"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b"
+break A}if("auth.more.minChars"===q2){w="\u041a\u0435\u043c\u0456\u043d\u0434\u0435 6 \u0442\u0430\u04a3\u0431\u0430"
+break A}if("auth.more.emailSent"===q2){w="\u2705 \u0425\u0430\u0442 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456! \u041f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437."
+break A}if("auth.more.authError"===q2){w="\u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f \u049b\u0430\u0442\u0435\u0441\u0456"
+break A}if("auth.more.invalidEmailOrPassword"===q2){w="Email \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u049b\u0430\u0442\u0435"
+break A}if("auth.more.resendConfirmation"===q2){w="\u0420\u0430\u0441\u0442\u0430\u0443 \u0445\u0430\u0442\u044b\u043d \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"
+break A}if("auth.more.forgotPassword"===q2){w="\u049a\u04b1\u043f\u0438\u044f \u0441\u04e9\u0437\u0434\u0456 \u04b1\u043c\u044b\u0442\u0442\u044b\u04a3\u044b\u0437 \u0431\u0430?"
+break A}if("auth.more.confirmEmailAndSignIn"===q2){w="\u041f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0440\u0430\u0441\u0442\u0430\u043f, \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u049b\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"
+break A}if("auth.more.tooManyAttempts"===q2){w=y.kn
+break A}if("auth.more.confirmEmailCheckInbox"===q2){w="Email-\u0434\u0456 \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437 \u2014 \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break A}if("auth.more.invalidEmailFormat"===q2){w="Email \u0444\u043e\u0440\u043c\u0430\u0442\u044b \u0434\u04b1\u0440\u044b\u0441 \u0435\u043c\u0435\u0441"
+break A}if("auth.more.passwordMinLength"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u043a\u0435\u043c\u0456\u043d\u0434\u0435 6 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0442\u04b1\u0440\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break A}if("auth.more.passwordLeaked"===q2){w="\u0411\u04b1\u043b \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456\u04a3 \u0436\u0430\u0440\u0438\u044f \u0431\u043e\u043b\u0443\u044b\u043d\u0434\u0430 \u043a\u0435\u0437\u0434\u0435\u0441\u043a\u0435\u043d \u2014 \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u043e\u0439\u043b\u0430\u043f \u0442\u0430\u0431\u044b\u04a3\u044b\u0437"
+break A}if("auth.more.createAccount"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u049b\u04b1\u0440\u0443"
+break A}if("auth.more.noAccountRegister"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u0436\u043e\u049b \u043f\u0430? \u0422\u0456\u0440\u043a\u0435\u043b\u0456\u04a3\u0456\u0437"
+break A}if("auth.more.haveAccountSignIn"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u0431\u0430\u0440 \u043c\u0430? \u041a\u0456\u0440\u0456\u04a3\u0456\u0437"
+break A}if("auth.more.childBirthYear"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"
+break A}if("auth.more.childBirthYearHint"===q2){w="\u041a\u04af\u043d\u0434\u0456 \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break A}if("auth.more.continueWithGoogle"===q2){w="Google \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"
+break A}if("auth.more.continueWithApple"===q2){w="Apple \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"
+break A}if("auth.more.continueWithEmail"===q2){w="\u0411\u0430\u0441\u049b\u0430 \u043a\u0456\u0440\u0443 \u0442\u04d9\u0441\u0456\u043b\u0434\u0435\u0440\u0456"
+break A}if("auth.more.orDivider"===q2){w="\u043d\u0435\u043c\u0435\u0441\u0435"
+break A}if("auth.more.oauthFailed"===q2){w="\u041a\u0456\u0440\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."
+break A}if("auth.more.oauthEmailCollision"===q2){w="\u0411\u04b1\u043b email \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0456\u0440\u043a\u0435\u043b\u0433\u0435\u043d. Email \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u0430\u043a\u043a\u0430\u0443\u043d\u0442 \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437."
+break A}if("auth.recovery.requestTitle"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443"
+break A}if("auth.recovery.requestBody"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u043d\u044b\u04a3 \u0440\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d email \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437. \u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0430\u0443\u044b\u0441\u0442\u044b\u0440\u0443\u0493\u0430 \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0436\u0456\u0431\u0435\u0440\u0435\u043c\u0456\u0437."
+break A}if("auth.recovery.sendLink"===q2){w=b4
+break A}if("auth.recovery.invalidEmail"===q2){w="\u0414\u04b1\u0440\u044b\u0441 email \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break A}if("auth.recovery.sentTitle"===q2){w="\u041f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break A}if("auth.recovery.sentBody"===q2){w="\u0415\u0433\u0435\u0440 \u043e\u0441\u044b email-\u043c\u0435\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442 \u0431\u0430\u0440 \u0431\u043e\u043b\u0441\u0430, \u0445\u0430\u0442 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456. \u0421\u0456\u043b\u0442\u0435\u043c\u0435 60 \u043c\u0438\u043d\u0443\u0442 \u0436\u0430\u0440\u0430\u043c\u0434\u044b."
+break A}if("auth.recovery.resend"===q2){w=b5
+break A}if("auth.recovery.resendIn"===q2){w=new A.cEO()
+break A}if("auth.recovery.backToSignIn"===q2){w="\u041a\u0456\u0440\u0443\u0433\u0435 \u043e\u0440\u0430\u043b\u0443"
+break A}if("auth.recovery.tooManyRequests"===q2){w="\u0421\u04b1\u0440\u0430\u0443 \u0442\u044b\u043c \u043a\u04e9\u043f. \u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."
+break A}if("auth.recovery.genericError"===q2){w="\u0421\u04b1\u0440\u0430\u0443\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."
+break A}if("auth.recovery.checkingLink"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0443\u0434\u0435\u2026"
+break A}if("auth.recovery.linkExpiredTitle"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0436\u0430\u0440\u0430\u043c\u0441\u044b\u0437"
+break A}if("auth.recovery.linkExpiredBody"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456\u04a3 \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u04e9\u0442\u0442\u0456, \u043e\u043b \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0493\u0430\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443\u0434\u0456 \u0441\u04b1\u0440\u0430\u0493\u0430\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 \u0435\u043c\u0435\u0441, \u0431\u0430\u0441\u049b\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 \u0430\u0448\u044b\u043b\u0434\u044b. \u041e\u0441\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u0430\u043d \u0436\u0430\u04a3\u0430 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437."
+break A}if("auth.recovery.requestNewLink"===q2){w="\u0416\u0430\u04a3\u0430 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0441\u04b1\u0440\u0430\u0443"
+break A}if("auth.recovery.resetTitle"===q2){w=b6
+break A}if("auth.recovery.resetBody"===q2){w="\u0416\u0430\u04a3\u0430 \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0435\u043a\u0456 \u0440\u0435\u0442 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break A}if("auth.recovery.newPassword"===q2){w=b6
+break A}if("auth.recovery.confirmPassword"===q2){w=b7
+break A}if("auth.recovery.savePassword"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0441\u0430\u049b\u0442\u0430\u0443"
+break A}if("auth.recovery.passwordMinLength"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u043a\u0435\u043c\u0456\u043d\u0434\u0435 8 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0442\u04b1\u0440\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break A}if("auth.recovery.passwordsMismatch"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0435\u0440 \u0441\u04d9\u0439\u043a\u0435\u0441 \u0435\u043c\u0435\u0441"
+break A}if("auth.recovery.changedTitle"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u04e9\u0437\u0433\u0435\u0440\u0442\u0456\u043b\u0434\u0456"
+break A}if("auth.recovery.changedBody"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456 \u0441\u0435\u0430\u043d\u0441\u0442\u0430\u0440 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b. \u049a\u0430\u0437\u0456\u0440 \u049b\u0430\u043b\u044b\u043f\u0442\u044b \u043a\u0456\u0440\u0443 \u044d\u043a\u0440\u0430\u043d\u044b \u0430\u0448\u044b\u043b\u0430\u0434\u044b."
+break A}if("auth.phone.title"===q2){w="\u041d\u04e9\u043c\u0456\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"
+break A}if("auth.phone.getCode"===q2){w=b8
+break A}if("auth.phone.invalidNumber"===q2){w="\u0414\u04b1\u0440\u044b\u0441 \u043d\u04e9\u043c\u0456\u0440 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break A}if("auth.phone.otpTitle"===q2){w="SMS \u043a\u043e\u0434\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break A}if("auth.phone.otpHint"===q2){w=new A.cEP()
+break A}if("auth.phone.verify"===q2){w=m
+break A}if("auth.phone.resend"===q2){w="\u041a\u043e\u0434\u0442\u044b \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"
+break A}if("auth.phone.resendIn"===q2){w=new A.cEQ()
+break A}if("auth.phone.codeResent"===q2){w="\u041a\u043e\u0434 \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break A}if("auth.phone.invalidCode"===q2){w=a6
+break A}if("auth.phone.codeExpired"===q2){w="\u041a\u043e\u0434\u0442\u044b\u04a3 \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u0431\u0456\u0442\u0442\u0456"
+break A}if("auth.region.title"===q2){w="\u0410\u0439\u043c\u0430\u049b\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break A}if("auth.region.subtitle"===q2){w="\u0415\u043b \u043a\u043e\u0434\u044b\u043d \u0430\u043b\u0434\u044b\u043d \u0430\u043b\u0430 \u049b\u043e\u044f\u043c\u044b\u0437 \u0436\u04d9\u043d\u0435 SMS-\u0442\u0456 \u0442\u0430\u04a3\u0434\u0430\u0493\u0430\u043d \u0442\u0456\u043b\u0456\u04a3\u0456\u0437\u0434\u0435 \u0436\u0456\u0431\u0435\u0440\u0435\u043c\u0456\u0437"
+break A}if("auth.region.continueBtn"===q2){w=q
+break A}if("onboarding.loading"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435..."
+break A}if("onboarding.termsOfUse"===q2){w=b9
+break A}if("onboarding.privacyPolicy"===q2){w=c0
+break A}if("onboarding.dataWeCollect"===q2){w="\u049a\u0430\u043d\u0434\u0430\u0439 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u0438\u043d\u0430\u0439\u043c\u044b\u0437"
+break A}if("onboarding.more.start"===q2){w="\u0411\u0430\u0441\u0442\u0430\u0443"
+break A}if("onboarding.more.welcomeTitle"===q2){w=new A.cER()
+break A}if("onboarding.more.parentConfirmationTitle"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0430\u0441\u0442\u0430\u0443\u044b"
+break A}if("onboarding.more.parentConfirmationBody"===q2){w=new A.cES()
+break A}if("onboarding.more.bulletDataOnAccount"===q2){w="\u0411\u0430\u043b\u0430 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456 \u0442\u0435\u043a \u0441\u0456\u0437\u0434\u0456\u04a3 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u044b\u0437\u0434\u0430 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b"
+break A}if("onboarding.more.bulletNoSellAds"===q2){w="\u0411\u0456\u0437 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u0430\u0440\u043d\u0430\u043c\u0430 \u0431\u0435\u0440\u0443\u0448\u0456\u043b\u0435\u0440\u0433\u0435 \u0441\u0430\u0442\u043f\u0430\u0439\u043c\u044b\u0437"
+break A}if("onboarding.more.bulletControlActions"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0431\u0430\u0440\u043b\u044b\u049b \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0435\u0440\u0456\u043d \u0441\u0456\u0437 \u0431\u0430\u049b\u044b\u043b\u0430\u0439\u0441\u044b\u0437"
+break A}if("onboarding.more.bulletDeleteOnRequest"===q2){w="\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u043a\u0435\u0437 \u043a\u0435\u043b\u0433\u0435\u043d \u0443\u0430\u049b\u044b\u0442\u0442\u0430 \u0436\u043e\u044e"
+break A}if("onboarding.more.consentPrefix"===q2){w="\u041c\u0435\u043d \u0430\u0442\u0430-\u0430\u043d\u0430\u043c\u044b\u043d \u0436\u04d9\u043d\u0435 \u043c\u044b\u043d\u0430\u0493\u0430\u043d \u043a\u0435\u043b\u0456\u0441\u0435\u043c\u0456\u043d: "
+break A}if("onboarding.more.privacyPolicyInstrumental"===q2){w=c0
+break A}if("onboarding.more.confirmAndContinue"===q2){w="\u0420\u0430\u0441\u0442\u0430\u0439\u043c\u044b\u043d \u0436\u04d9\u043d\u0435 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0430\u043c\u044b\u043d"
+break A}if("onboarding.more.consentRequiredNote"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u043a\u0435\u043b\u0456\u0441\u0456\u043c\u0456\u043d\u0441\u0456\u0437 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441"
+break A}if("onboarding.more.howWeUseDataTitle"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0430\u043c\u044b\u0437"
+break A}if("onboarding.more.howWeUseDataBody"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0442\u0435\u043a \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b\u04a3 \u0436\u04b1\u043c\u044b\u0441\u044b \u04af\u0448\u0456\u043d \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u043b\u0430\u0434\u044b. \u0411\u0456\u0437 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u04af\u0448\u0456\u043d\u0448\u0456 \u0442\u04b1\u043b\u0493\u0430\u043b\u0430\u0440\u0493\u0430 \u0441\u0430\u0442\u043f\u0430\u0439\u043c\u044b\u0437 \u0436\u04d9\u043d\u0435 \u0431\u0435\u0440\u043c\u0435\u0439\u043c\u0456\u0437."
+break A}if("onboarding.more.dataWeCollectBody"===q2){w=new A.cET()
+break A}if("onboarding.more.childDataProtectionTitle"===q2){w="\u0411\u0430\u043b\u0430\u043b\u0430\u0440 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043d \u049b\u043e\u0440\u0493\u0430\u0443 (COPPA/GDPR-K)"
+break A}if("onboarding.more.childDataProtectionBody"===q2){w=new A.cEV()
+break A}if("onboarding.more.dataDeletionTitle"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u043e\u044e"
+break A}if("onboarding.more.dataDeletionBody"===q2){w=new A.cEW()
+break A}if("onboarding.more.lastUpdated"===q2){w="\u0421\u043e\u04a3\u0493\u044b \u0436\u0430\u04a3\u0430\u0440\u0442\u0443: 2026 \u0436\u044b\u043b\u0493\u044b \u0441\u04d9\u0443\u0456\u0440"
+break A}if("empty.noQuests"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u043e\u049b"
+break A}if("empty.noRewards"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0436\u043e\u049b"
+break A}if("empty.noApprovalsForChild"===q2){w="\u0422\u0430\u04a3\u0434\u0430\u043b\u0493\u0430\u043d \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440\u0493\u0430\u043d \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440\u0456 \u0436\u043e\u049b."
+break A}if("errors.somethingWrong"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("errors.networkError"===q2){w="\u0416\u0435\u043b\u0456 \u049b\u0430\u0442\u0435\u0441\u0456"
+break A}if("errors.loadFailed"===q2){w="\u0416\u04af\u043a\u0442\u0435\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b"
+break A}if("errors.saveFailed"===q2){w="\u0421\u0430\u049b\u0442\u0430\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b"
+break A}if("errors.deleteFailed"===q2){w="\u0416\u043e\u044e \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b"
+break A}if("errors.permissionDenied"===q2){w="\u0420\u04b1\u049b\u0441\u0430\u0442 \u0436\u043e\u049b"
+break A}if("errors.sessionExpired"===q2){w="\u0421\u0435\u0441\u0441\u0438\u044f \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u0431\u0456\u0442\u0442\u0456. \u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0442\u0456\u043d\u0434\u0435 \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437."
+break A}if("errors.tooManyAttempts"===q2){w="\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442"
+break A}if("child.greeting"===q2){w=new A.cEX()
+break A}if("child.level"===q2){w=new A.cEY()
+break A}if("child.xpReward"===q2){w=new A.cEZ()
+break A}if("child.coinsAmount"===q2){w=new A.cF_()
+break A}if("child.thisWeek"===q2){w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430"
+break A}if("child.yourCode"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u043a\u043e\u0434\u044b\u04a3"
+break A}if("child.addFriendLabel"===q2){w="\u0414\u043e\u0441 \u049b\u043e\u0441\u0443"
+break A}if("child.friendAddedToast"===q2){w="\u0414\u043e\u0441 \u049b\u043e\u0441\u044b\u043b\u0434\u044b! \ud83e\udd8a"
+break A}if("child.ownCodeError"===q2){w="\u0411\u04b1\u043b \u0441\u0435\u043d\u0456\u04a3 \u04e9\u0437 \u043a\u043e\u0434\u044b\u04a3"
+break A}if("child.codeCopiedToast"===q2){w="\u041a\u043e\u0434 \u043a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456! \u0414\u043e\u0441\u044b\u04a3\u0430 \u0436\u0456\u0431\u0435\u0440 \ud83e\udd8a"
+break A}if("child.inviteFriendsTitle"===q2){w="\u0414\u043e\u0441\u0442\u0430\u0440\u044b\u04a3\u0434\u044b \u043e\u0439\u044b\u043d\u0493\u0430 \u0448\u0430\u049b\u044b\u0440"
+break A}if("child.inviteFriendsBody"===q2){w="\u041a\u043e\u0434\u044b\u04a3\u0434\u044b \u0431\u04e9\u043b\u0456\u0441 \u2014 \u04d9\u0440 \u0430\u043f\u0442\u0430 XP \u04af\u0448\u0456\u043d \u0436\u0430\u0440\u044b\u0441\u044b\u04a3\u0434\u0430\u0440"
+break A}if("child.iLabel"===q2){w="(\u043c\u0435\u043d)"
+break A}if("child.missionWeek"===q2){w="\u0410\u041f\u0422\u0410\u041b\u042b\u049a \u041c\u0418\u0421\u0421\u0418\u042f"
+break A}if("child.soonUnlocked"===q2){w="\u0416\u0443\u044b\u0440\u0434\u0430 \u0430\u0448\u044b\u043b\u0430\u0434\u044b"
+break A}if("child.allQuestsLink"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u2192"
+break A}if("child.tasksHeader"===q2){w="\u0422\u0410\u041f\u0421\u042b\u0420\u041c\u0410\u041b\u0410\u0420"
+break A}if("child.minLevelRequired"===q2){w=new A.cF0()
+break A}if("child.exitToParentTooltip"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u0448\u044b\u0493\u0443"
+break A}if("child.chat.title"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u043c\u0435\u043d \u0447\u0430\u0442"
+break A}if("child.chat.loginFirst"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u043a\u043e\u0434\u043f\u0435\u043d \u043a\u0456\u0440"
+break A}if("child.chat.familyNotFound"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break A}if("child.chat.emptyHint"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u0430 \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0436\u0430\u0437"
+break A}if("child.chat.messageHint"===q2){w="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430..."
+break A}if("child.chat.unavailable"===q2){w="\u0427\u0430\u0442 \u0443\u0430\u049b\u044b\u0442\u0448\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break A}if("child.chat.checkConnection"===q2){w="\u0411\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440"
+break A}if("child.chat.retry"===q2){w="\u0416\u0430\u04a3\u0430\u0440\u0442\u0443"
+break A}if("child.chat.sendFailed"===q2){w="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u043c\u0435\u0434\u0456"
+break A}if("child.home.wipeCobweb"===q2){w="\u04e8\u0440\u043c\u0435\u043a\u0448\u0456\u043d\u0456\u04a3 \u0442\u043e\u0440\u044b\u043d \u0441\u04af\u0440\u0442"
+break A}if("child.home.foxLabel"===q2){w="\u0422\u04af\u043b\u043a\u0456\u0448\u0435\u043a"
+break A}if("child.home.foxSleeping"===q2){w="\u04b0\u0439\u044b\u049b\u0442\u0430\u043f \u0436\u0430\u0442\u044b\u0440"
+break A}if("child.home.foxAwake"===q2){w="\u041e\u044f\u0443"
+break A}if("child.home.cobwebWelcomeBack"===q2){w="\u041a\u04e9\u043f\u0442\u0435\u043d \u0431\u0435\u0440\u0456 \u043a\u04e9\u0440\u0456\u043d\u0431\u0435\u0434\u0456\u04a3"
+break A}if("child.home.childNotFound"===q2){w=c1
+break A}if("child.home.questsLoadError"===q2){w=c2
+break A}if("child.home.scheduleDaily"===q2){w=c3
+break A}if("child.home.scheduleWeekly"===q2){w=c4
+break A}if("child.home.schedulePhoto"===q2){w=c5
+break A}if("child.home.questDomainStrength"===q2){w="\u043a\u04af\u0448"
+break A}if("child.home.questDomainMind"===q2){w="\u0430\u049b\u044b\u043b"
+break A}if("child.home.questDomainSoul"===q2){w="\u0436\u0430\u043d"
+break A}if("child.home.statTotalXp"===q2){w="\u0411\u0410\u0420\u041b\u042b\u0492\u042b XP"
+break A}if("child.home.statQuests"===q2){w="\u041a\u0412\u0415\u0421\u0422"
+break A}if("child.home.statStreak"===q2){w="\u0421\u0415\u0420\u0418\u042f"
+break A}if("child.home.jeySharedToday"===q2){w="\u0411\u04af\u0433\u0456\u043d \u0431\u04e9\u043b\u0456\u0441\u0456\u043f \u049b\u043e\u0439\u0434\u044b\u04a3!"
+break A}if("child.home.jeyThanksTomorrow"===q2){w="\u0420\u0430\u049b\u043c\u0435\u0442 \ud83d\udc9c \u0415\u0440\u0442\u0435\u04a3\u0433\u0435 \u0434\u0435\u0439\u0456\u043d!"
+break A}if("child.home.themeSectionLabel"===q2){w="\u0411\u0415\u0417\u0415\u041d\u0414\u0406\u0420\u0423 \u0422\u0410\u049a\u042b\u0420\u042b\u0411\u042b"
+break A}if("child.home.themeRpgDescr"===q2){w="\u0421\u0438\u049b\u044b\u0440, \u044d\u0444\u0444\u0435\u043a\u0442\u0442\u0435\u0440, \u0430\u04a3\u044b\u0437"
+break A}if("child.home.themeClassicDescr"===q2){w="\u049a\u0430\u0440\u0430\u043f\u0430\u0439\u044b\u043c \u04d9\u0440\u0456 \u0430\u043d\u044b\u049b \u0441\u0442\u0438\u043b\u044c"
+break A}if("child.home.redesignNewTask"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0436\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430!"
+break A}if("child.home.redesignBalance"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0431\u0430\u043b\u0430\u043d\u0441\u044b\u04a3"
+break A}if("child.home.redesignSpend"===q2){w="\u0416\u04b0\u041c\u0421\u0410\u0423"
+break A}if("child.home.redesignSpendCoins"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440\u0434\u044b \u0436\u04b1\u043c\u0441\u0430"
+break A}if("child.home.redesignToQuests"===q2){w="\u041a\u0412\u0415\u0421\u0422\u0422\u0415\u0420\u0413\u0415"
+break A}if("child.home.redesignNightSpeech"===q2){w="\u04b0\u0439\u044b\u049b\u0442\u0430\u0439\u0442\u044b\u043d \u0443\u0430\u049b\u044b\u0442, \u0434\u043e\u0441\u044b\u043c"
+break A}if("child.home.redesignTasksCount"===q2){w=new A.cF1(q1)
+break A}if("child.home.redesignTasksSubtitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043f, \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b"
+break A}if("child.home.redesignStrength"===q2){w="\u041a\u04ae\u0428"
+break A}if("child.home.redesignMind"===q2){w="\u0410\u049a\u042b\u041b"
+break A}if("child.home.redesignSoul"===q2){w="\u0416\u0410\u041d"
+break A}if("child.home.redesignWeeklyMissions"===q2){w="\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u043b\u0430\u0440\u044b"
+break A}if("child.home.redesignWeeklySubtitle"===q2){w=y.eM
+break A}if("child.home.weeklyChallengeTitle"===q2){w="\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b"
+break A}if("child.home.weeklyChallengeProgress"===q2){w=new A.cF2()
+break A}if("child.home.weeklyChallengeClaimed"===q2){w=c6
+break A}if("child.home.weeklyChallengeClaimError"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0430\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("child.home.weeklyChallengeLoadError"===q2){w="\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("child.home.weeklyChallengeRecheckError"===q2){w="\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b \u2014 \u0441\u044b\u0439\u043b\u044b\u049b \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440, \u049b\u0430\u0439\u0442\u0430\u043b\u0430"
+break A}if("child.home.redesignMindBonus"===q2){w=new A.cF3(q1)
+break A}if("child.home.redesignStrengthBonus"===q2){w=new A.cF5(q1)
+break A}if("child.home.redesignSoulBonus"===q2){w=new A.cF6(q1)
+break A}if("child.home.redesignAvailable"===q2){w="\u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456"
+break A}if("child.home.redesignFree"===q2){w="FREE"
+break A}if("child.home.redesignUnlockLevel"===q2){w=new A.cF7()
+break A}if("child.home.premiumGateTitle"===q2){w=new A.cF8()
+break A}if("child.home.premiumGateBody"===q2){w=y.aU
+break A}if("child.home.premiumGateParentCta"===q2){w=c7
+break A}if("child.home.premiumGateLater"===q2){w=c8
+break A}if("child.home.redesignTasksHeading"===q2){w=c9
+break A}if("child.home.redesignSpendSubtitle"===q2){w="\u04d8\u0440 \u0430\u043f\u0442\u0430 \u0441\u0430\u0439\u044b\u043d \u0436\u0430\u04a3\u0430 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"
+break A}if("child.home.redesignSpendTeen"===q2){w="\u0416\u04b1\u043c\u0441\u0430\u0443"
+break A}if("child.home.redesignNewTaskGeneric"===q2){w="\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430!"
+break A}if("child.home.redesignNewTaskHint"===q2){w=d0
+break A}if("child.weekly.startsIn"===q2){w=new A.cF9(q1)
+break A}if("child.weekly.startsInLong"===q2){w=new A.cFa(q1)
+break A}if("child.weekly.goal"===q2){w=new A.cFb(q1)
+break A}if("child.weekly.claim"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0430\u043b\u0443"
+break A}if("child.weekly.next"===q2){w=d1
+break A}if("child.weekly.tasksEmpty"===q2){w="\u049a\u0430\u0437\u0456\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b \u2014 \u043a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0440\u0430"
+break A}if("child.weekly.footnote"===q2){w=new A.cFc()
+break A}if("child.weekly.footnoteClaimed"===q2){w=new A.cFd()
+break A}if("child.weekly.footnoteUpcoming"===q2){w=new A.cFe()
+break A}if("child.weekly.date"===q2){w=new A.cFg()
+break A}if("child.weekly.calendarMonth.m1"===q2){w="\u049a\u0430\u04a3\u0442\u0430\u0440"
+break A}if("child.weekly.calendarMonth.m2"===q2){w="\u0410\u049b\u043f\u0430\u043d"
+break A}if("child.weekly.calendarMonth.m3"===q2){w="\u041d\u0430\u0443\u0440\u044b\u0437"
+break A}if("child.weekly.calendarMonth.m4"===q2){w="\u0421\u04d9\u0443\u0456\u0440"
+break A}if("child.weekly.calendarMonth.m5"===q2){w="\u041c\u0430\u043c\u044b\u0440"
+break A}if("child.weekly.calendarMonth.m6"===q2){w="\u041c\u0430\u0443\u0441\u044b\u043c"
+break A}if("child.weekly.calendarMonth.m7"===q2){w="\u0428\u0456\u043b\u0434\u0435"
+break A}if("child.weekly.calendarMonth.m8"===q2){w="\u0422\u0430\u043c\u044b\u0437"
+break A}if("child.weekly.calendarMonth.m9"===q2){w="\u049a\u044b\u0440\u043a\u04af\u0439\u0435\u043a"
+break A}if("child.weekly.calendarMonth.m10"===q2){w="\u049a\u0430\u0437\u0430\u043d"
+break A}if("child.weekly.calendarMonth.m11"===q2){w="\u049a\u0430\u0440\u0430\u0448\u0430"
+break A}if("child.weekly.calendarMonth.m12"===q2){w="\u0416\u0435\u043b\u0442\u043e\u049b\u0441\u0430\u043d"
+break A}if("child.weekly.dateMonth.m1"===q2){w="\u049b\u0430\u04a3\u0442\u0430\u0440"
+break A}if("child.weekly.dateMonth.m2"===q2){w="\u0430\u049b\u043f\u0430\u043d"
+break A}if("child.weekly.dateMonth.m3"===q2){w="\u043d\u0430\u0443\u0440\u044b\u0437"
+break A}if("child.weekly.dateMonth.m4"===q2){w="\u0441\u04d9\u0443\u0456\u0440"
+break A}if("child.weekly.dateMonth.m5"===q2){w="\u043c\u0430\u043c\u044b\u0440"
+break A}if("child.weekly.dateMonth.m6"===q2){w="\u043c\u0430\u0443\u0441\u044b\u043c"
+break A}if("child.weekly.dateMonth.m7"===q2){w="\u0448\u0456\u043b\u0434\u0435"
+break A}if("child.weekly.dateMonth.m8"===q2){w="\u0442\u0430\u043c\u044b\u0437"
+break A}if("child.weekly.dateMonth.m9"===q2){w="\u049b\u044b\u0440\u043a\u04af\u0439\u0435\u043a"
+break A}if("child.weekly.dateMonth.m10"===q2){w="\u049b\u0430\u0437\u0430\u043d"
+break A}if("child.weekly.dateMonth.m11"===q2){w="\u049b\u0430\u0440\u0430\u0448\u0430"
+break A}if("child.weekly.dateMonth.m12"===q2){w="\u0436\u0435\u043b\u0442\u043e\u049b\u0441\u0430\u043d"
+break A}if("child.profile.childNotFound"===q2){w=c1
+break A}if("child.profile.maxLevel"===q2){w="MAX \u0434\u0435\u04a3\u0433\u0435\u0439"
+break A}if("child.profile.maxLevelCaps"===q2){w="MAX \u0414\u0415\u04a2\u0413\u0415\u0419"
+break A}if("child.profile.xpToLevelShort"===q2){w=new A.cFh()
+break A}if("child.profile.xpAmount"===q2){w=new A.cFi()
+break A}if("child.profile.helpCenter"===q2){w="\u041a\u04e9\u043c\u0435\u043a \u043e\u0440\u0442\u0430\u043b\u044b\u0493\u044b"
+break A}if("child.profile.community"===q2){w="Oyna Family \u049b\u0430\u0443\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0493\u044b"
+break A}if("child.profile.inviteFriends"===q2){w="\u0414\u043e\u0441\u0442\u0430\u0440\u0434\u044b \u0448\u0430\u049b\u044b\u0440\u0443"
+break A}if("child.profile.communitySoon"===q2){w="Oyna Family \u049b\u0430\u0443\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0493\u044b \u0436\u0430\u049b\u044b\u043d\u0434\u0430 \u0430\u0448\u044b\u043b\u0430\u0434\u044b"
+break A}if("child.profile.rateUs"===q2){w="App Store-\u0442\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"
+break A}if("child.profile.rateUsGooglePlay"===q2){w="Google Play-\u0442\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"
+break A}if("child.profile.exitProfile"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435\u043d \u0448\u044b\u0493\u0443"
+break A}if("child.profile.progressDetails"===q2){w="\u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 \u0436\u04d9\u043d\u0435 \u0442\u0430\u0440\u0438\u0445"
+break A}if("child.profile.levelCaps"===q2){w=new A.cFj()
+break A}if("child.profile.xpOfNext"===q2){w=new A.cFk()
+break A}if("child.profile.editParentOnly"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b \u0430\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0434\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456."
+break A}if("child.profile.editProfileTitle"===q2){w=d2
+break A}if("child.profile.settingsTitle"===q2){w="\u0411\u0410\u041f\u0422\u0410\u0423\u041b\u0410\u0420"
+break A}if("child.profile.settingsAction"===q2){w=a0
+break A}if("child.profile.getPremium"===q2){w="Premium \u0430\u043b\u0443"
+break A}if("child.profile.nameLabel"===q2){w=b2
+break A}if("child.profile.nameEmpty"===q2){w="\u0410\u0442\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break A}if("child.profile.nameTooLong"===q2){w="\u0410\u0442\u044b 80 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break A}if("child.profile.nameRejected"===q2){w="\u0411\u04b1\u043b \u0430\u0442 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u043a\u04e9\u0440."
+break A}if("child.profile.nameSaveNotAllowed"===q2){w=y.f
+break A}if("child.profile.nameSaveError"===q2){w="\u0410\u0442\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440."
+break A}if("child.profile.nameSaved"===q2){w=d3
+break A}if("child.profile.deleteAccountQuestion"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u0439\u0493\u044b\u04a3\u044b\u0437 \u043a\u0435\u043b\u0435\u0442\u0456\u043d\u0456\u043d\u0435 \u0441\u0435\u043d\u0456\u043c\u0434\u0456\u0441\u0456\u0437 \u0431\u0435?"
+break A}if("child.profile.photoChange"===q2){w=d4
+break A}if("child.profile.photoTake"===q2){w=s
+break A}if("child.profile.photoPick"===q2)break A
+if("child.profile.photoRemove"===q2){w=d5
+break A}if("child.profile.photoSaved"===q2){w="\u0424\u043e\u0442\u043e \u0436\u0430\u04a3\u0430\u0440\u0442\u044b\u043b\u0434\u044b"
+break A}if("child.profile.photoRemoved"===q2){w="\u0424\u043e\u0442\u043e \u0430\u043b\u044b\u043d\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"
+break A}if("child.profile.photoSaving"===q2){w="\u0424\u043e\u0442\u043e \u0441\u0430\u049b\u0442\u0430\u043b\u0443\u0434\u0430"
+break A}if("child.profile.photoError"===q2){w=y.kB
+break A}if("child.profile.photoDenied"===q2){w=y.md
+break A}if("child.profile.photoNoCamera"===q2){w="\u041a\u0430\u043c\u0435\u0440\u0430 \u0436\u043e\u049b \u2014 \u0433\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0444\u043e\u0442\u043e \u0442\u0430\u04a3\u0434\u0430"
+break A}if("child.profile.photoRejected"===q2){w="\u0411\u04b1\u043b \u0444\u043e\u0442\u043e \u0436\u0430\u0440\u0430\u043c\u0430\u0434\u044b. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430"
+break A}if("child.profile.photoCropTitle"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u0436\u044b\u043b\u0436\u044b\u0442\u044b\u043f, \u04af\u043b\u043a\u0435\u0439\u0442"
+break A}if("child.profile.photoCropDone"===q2){w=f
+break A}if("child.profile.photoCropRotate"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u0431\u04b1\u0440\u0443"
+break A}if("child.profile.photoCropArea"===q2){w="\u0428\u0435\u04a3\u0431\u0435\u0440\u0434\u0435\u0433\u0456 \u0441\u0443\u0440\u0435\u0442"
+break A}if("child.profile.photoCropZoom"===q2){w=new A.cFl()
+break A}if("child.linkGate.title"===q2){w="\u04ae\u043b\u043a\u0435\u043d\u0434\u0435\u0440\u0434\u0435\u043d \u0441\u04b1\u0440\u0430"
+break A}if("child.linkGate.body"===q2){w=y.mU
+break A}if("child.linkGate.problem"===q2){w=new A.cFm()
+break A}if("child.linkGate.open"===q2){w="\u0410\u0448\u0443"
+break A}if("child.linkGate.wrong"===q2){w="\u0414\u04b1\u0440\u044b\u0441 \u0435\u043c\u0435\u0441. \u041c\u0456\u043d\u0435, \u0436\u0430\u04a3\u0430 \u043c\u044b\u0441\u0430\u043b"
+break A}if("quest.feedbackTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0430\u0493\u0430\u043d \u04b1\u043d\u0430\u0434\u044b \u043c\u0430?"
+break A}if("quest.feedbackDescription"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0430\u0493\u0430\u043d \u049b\u0430\u043d\u0448\u0430\u043b\u044b\u049b\u0442\u044b \u04b1\u043d\u0430\u0493\u0430\u043d\u044b\u043d \u0431\u0430\u0493\u0430\u043b\u0430."
+break A}if("quest.feedbackAction"===q2){w="\u0411\u0430\u0493\u0430\u043b\u0430\u0443"
+break A}if("quest.feedbackEdit"===q2){w="\u0411\u0430\u0493\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break A}if("quest.feedbackSubmit"===q2){w=o
+break A}if("quest.feedbackLoadError"===q2){w="\u0411\u0430\u0493\u0430\u043d\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("quest.feedbackSaveError"===q2){w="\u0411\u0430\u0493\u0430\u043d\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break A}if("quest.feedbackRating"===q2){w=new A.cFn()
+break A}if("quest.feedbackLabels.0"===q2){w="\u041c\u04af\u043b\u0434\u0435 \u04b1\u043d\u0430\u043c\u0430\u0434\u044b"
+break A}if("quest.feedbackLabels.1"===q2){w="\u041e\u043d\u0448\u0430 \u04b1\u043d\u0430\u043c\u0430\u0434\u044b"
+break A}if("quest.feedbackLabels.2"===q2){w=d6
+break A}if("quest.feedbackLabels.3"===q2){w="\u04b0\u043d\u0430\u0434\u044b"
+break A}if("quest.feedbackLabels.4"===q2){w="\u049a\u0430\u0442\u0442\u044b \u04b1\u043d\u0430\u0434\u044b"
+break A}if("quest.category.home"===q2){w="\u04ae\u0439"
+break A}if("quest.category.study"===q2){w="\u041e\u049b\u0443"
+break A}if("quest.category.sport"===q2){w="\u0421\u043f\u043e\u0440\u0442"
+break A}if("quest.category.social"===q2){w=d7
+break A}if("quest.category.discipline"===q2){w="\u0422\u04d9\u0440\u0442\u0456\u043f"
+break A}if("quest.category.selfdev"===q2){w=d8
+break A}if("quest.category.creative"===q2){w=d9
+break A}if("quest.category.finance"===q2){w="\u049a\u0430\u0440\u0436\u044b"
+break A}if("quest.category.other"===q2){w="\u0411\u0430\u0441\u049b\u0430"
+break A}if("quest.difficulty.easy"===q2){w=e0
+break A}if("quest.difficulty.medium"===q2){w=e1
+break A}if("quest.difficulty.hard"===q2){w=e2
+break A}if("quest.difficulty.epic"===q2){w="\u042d\u043f\u0438\u043a"
+break A}if("quest.kind.regular"===q2){w=c3
+break A}if("quest.kind.weekly"===q2){w=e3
+break A}if("quest.kind.achievement"===q2){w=e4
+break A}if("quest.schedule.achievement"===q2){w=e4
+break A}if("quest.status.pending"===q2){w=e5
+break A}if("quest.status.approved"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+break A}if("quest.status.rejected"===q2){w=e6
+break A}if("quest.status.locked"===q2){w="\u0411\u04b1\u0493\u0430\u0442\u0442\u0430\u043b\u0493\u0430\u043d"
+break A}if("quest.status.available"===q2){w=e7
+break A}if("quest.photoRequired"===q2){w="\u0421\u0443\u0440\u0435\u0442 \u049b\u043e\u0441\u0443 \u043a\u0435\u0440\u0435\u043a"
+break A}if("quest.addPhoto"===q2){w="\u0421\u0443\u0440\u0435\u0442 \u049b\u043e\u0441\u0443"
+break A}if("quest.completeButton"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b!"
+break A}if("quest.alreadyPending"===q2){w=e8
+break A}if("quest.achievementUnlocked"===q2){w=e9
+break A}if("quest.questUnavailable"===q2){w=f0
+break A}if("quest.camera"===q2){w="\u041a\u0430\u043c\u0435\u0440\u0430"
+break A}if("quest.gallery"===q2){w=f1
+break A}if("quest.coinsEarned"===q2){w=new A.cFo()
+break A}if("quest.ui.teenLevel"===q2){w=new A.cFp()
+break A}if("quest.ui.catalogLevel"===q2){w=new A.cFr()
+break A}if("quest.ui.teenSuccessTitle"===q2){w="\u0414\u0430\u0439\u044b\u043d! \u0411\u04d9\u0440\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u04a3"
+break A}if("quest.ui.catalogCount"===q2){w=new A.cFs(q1)
+break A}if("quest.ui.sortImportant"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u043c\u0430\u04a3\u044b\u0437\u0434\u044b\u043b\u0430\u0440\u044b"
+break A}if("quest.ui.backToList"===q2){w="\u0422\u0456\u0437\u0456\u043c\u0433\u0435"
+break A}if("quest.ui.backToFirstQuest"===q2){w="\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430 \u043e\u0440\u0430\u043b\u0443"
+break A}if("quest.ui.detailComplete"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c!"
+break A}if("quest.ui.photoSubmit"===q2){w="\u0424\u043e\u0442\u043e\u043d\u044b \u0436\u0456\u0431\u0435\u0440\u0443"
+break A}if("quest.ui.photoUploading"===q2){w=y.mT
+break A}if("quest.ui.sortReward"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u04af\u043b\u043a\u0435\u043d \u0441\u044b\u0439\u0430\u049b\u044b"
+break A}if("quest.ui.difficultyEasy"===q2){w=e0
+break A}if("quest.ui.difficultyMedium"===q2){w=e1
+break A}if("quest.ui.difficultyHard"===q2){w=e2
+break A}if("quest.ui.difficultyEpic"===q2){w="\u042d\u043f\u0438\u043a"
+break A}if("quest.ui.difficultyEasyShort"===q2){w=e0
+break A}if("quest.ui.difficultyMediumShort"===q2){w=e1
+break A}if("quest.ui.difficultyHardShort"===q2){w=e2
+break A}if("quest.ui.difficultyEpicShort"===q2){w=f2
+break A}if("quest.ui.successTitle"===q2){w="\u0416\u0430\u0440\u0430\u0439\u0441\u044b\u04a3! \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0440\u0430\u0441\u0442\u0430\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437"
+break A}if("quest.ui.cameraDeniedTitle"===q2){w=f3
+break A}if("quest.ui.cameraDeniedBody"===q2){w=y.kN
+break A}if("quest.ui.cameraDeniedSettings"===q2){w=a0
+break A}if("quest.ui.cameraDeniedGallery"===q2){w=f1
+break A}if("quest.ui.scheduleEveryDay"===q2){w=c3
+break A}if("quest.ui.scheduleEveryWeek"===q2){w=e3
+break A}if("quest.ui.scheduleAchievement"===q2){w=e4
+break A}if("quest.ui.scheduleOnce"===q2){w="\u0411\u0456\u0440 \u0440\u0435\u0442"
+break A}if("quest.ui.bannerWeeklyOnly"===q2){w="\u0422\u0415\u041a \u0410\u041f\u0422\u0410\u041b\u042b\u049a \u041a\u0412\u0415\u0421\u0422\u0422\u0415\u0420"
+break A}if("quest.ui.splitDone"===q2){w="\u041e\u0420\u042b\u041d\u0414\u0410\u041b\u0414\u042b"
+break A}if("quest.ui.splitActive"===q2){w="\u0411\u0415\u041b\u0421\u0415\u041d\u0414\u0406"
+break A}if("quest.ui.lockedSoon"===q2){w="\u0416\u0423\u042b\u0420\u0414\u0410 \u0410\u0428\u042b\u041b\u0410\u0414\u042b"
+break A}if("quest.ui.statusRejected"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"
+break A}if("quest.ui.levelShort"===q2){w=new A.cFt()
+break A}w=v
+break A}if(w==null)B:{w=h
+if("quest.ui.photoProofHeader"===q2){w="\u0414\u04d8\u041b\u0415\u041b \u0421\u0423\u0420\u0415\u0422"
+break B}if("quest.ui.parentButton"===q2){w=a5
+break B}if("quest.ui.childNotFound"===q2){w=c1
+break B}if("quest.ui.loadFailed"===q2){w=c2
+break B}if("quest.ui.categoryHome"===q2){w="\u04ae\u0439"
+break B}if("quest.ui.categoryStudy"===q2){w="\u041e\u049b\u0443"
+break B}if("quest.ui.categorySport"===q2){w="\u0421\u043f\u043e\u0440\u0442"
+break B}if("quest.ui.categorySocial"===q2){w=d7
+break B}if("quest.ui.categoryDiscipline"===q2){w="\u0422\u04d9\u0440\u0442\u0456\u043f"
+break B}if("quest.ui.categorySelfdev"===q2){w=d8
+break B}if("quest.ui.categoryCreative"===q2){w=d9
+break B}if("quest.ui.categoryFinance"===q2){w="\u049a\u0430\u0440\u0436\u044b"
+break B}if("quest.ui.categoryOther"===q2){w="\u0411\u0430\u0441\u049b\u0430"
+break B}if("quest.ui.submitErrAlreadyPending"===q2){w=e8
+break B}if("quest.ui.submitErrAlreadyToday"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u2014 \u0435\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440"
+break B}if("quest.ui.submitErrAlreadyThisWeek"===q2){w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"
+break B}if("quest.ui.submitErrAlreadyDone"===q2){w="\u0411\u04b1\u043b \u043a\u0432\u0435\u0441\u0442 \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"
+break B}if("quest.ui.submitErrAchievementDone"===q2){w=e9
+break B}if("quest.ui.submitErrQuestUnavailable"===q2){w=f0
+break B}if("quest.ui.submitErrPhotoUpload"===q2){w=y.ka
+break B}if("quest.ui.submitErrGeneric"===q2){w=y.iU
+break B}if("quest.ui.restUntilMorning"===q2){w=y.ap
+break B}if("quest.ui.detailSubmitForReview"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435 \u0436\u0456\u0431\u0435\u0440\u0443"
+break B}if("quest.ui.rewardCoinsLabel"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440"
+break B}if("quest.ui.rewardXpLabel"===q2){w=f4
+break B}if("quest.ui.catalogSearch"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0456\u0437\u0434\u0435\u0443"
+break B}if("quest.ui.catalogSearchEmpty"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break B}if("quest.ui.photoUploadCount"===q2){w=new A.cFu()
+break B}if("quest.ui.detailAttachPhoto"===q2){w="\u0424\u043e\u0442\u043e\u0441\u0443\u0440\u0435\u0442 \u0442\u0456\u0440\u043a\u0435\u0443"
+break B}if("quest.ui.backToTask"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430"
+break B}if("quest.ui.photoSend"===q2)break B
+if("quest.ui.photoRetake"===q2){w="\u049a\u0430\u0439\u0442\u0430 \u0442\u04af\u0441\u0456\u0440\u0443"
+break B}if("quest.ui.detailAwaitingApproval"===q2){w=f5
+break B}if("quest.ui.detailResubmit"===q2){w=b5
+break B}if("quest.ui.noteMore"===q2){w="\u0442\u043e\u043b\u044b\u0493\u044b\u0440\u0430\u049b"
+break B}if("quest.ui.noteFromParent"===q2){w="\u0430\u0442\u0430-\u0430\u043d\u0430 \u043f\u0456\u043a\u0456\u0440\u0456"
+break B}if("quest.ui.reworkDueToday"===q2){w=new A.cFv()
+break B}if("quest.ui.reworkDueTomorrow"===q2){w=new A.cFw()
+break B}if("quest.ui.reworkDueDate"===q2){w=new A.cFx()
+break B}if("quest.ui.noteAuthor"===q2){w=a5
+break B}if("quest.ui.successAcknowledge"===q2){w=f6
+break B}if("quest.ui.teenSuccessAction"===q2){w=f7
+break B}if("quest.ui.photoShoot"===q2){w=s
+break B}if("language.title"===q2){w="\u0422\u0456\u043b"
+break B}if("language.ru"===q2){w="\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+break B}if("language.en"===q2){w="English"
+break B}if("language.uz"===q2){w="O\u02bbzbekcha"
+break B}if("language.kk"===q2){w="\u049a\u0430\u0437\u0430\u049b\u0448\u0430"
+break B}if("language.az"===q2){w="Az\u0259rbaycanca"
+break B}if("language.ar"===q2){w="\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+break B}if("parent.review.timeJustNow"===q2){w=f8
+break B}if("parent.review.timeMinutesAgo"===q2){w=new A.cFy()
+break B}if("parent.review.timeHoursAgo"===q2){w=new A.cFz()
+break B}if("parent.review.timeDaysAgo"===q2){w=new A.cFA()
+break B}if("parent.review.alreadyApproved"===q2){w="\u0411\u04b1\u043b \u043a\u0432\u0435\u0441\u0442 \u043e\u0441\u044b \u043a\u04af\u043d \u04af\u0448\u0456\u043d \u0440\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d. \u049a\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b."
+break B}if("parent.review.awardFailed"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0435\u0441\u0435\u043f\u0442\u0435\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b \u2014 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break B}if("parent.review.approveFailed"===q2){w=new A.cFC()
+break B}if("parent.review.approvedCapReached"===q2){w="\u041a\u0432\u0435\u0441\u0442 \u0440\u0430\u0441\u0442\u0430\u043b\u0434\u044b. \u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d \u043b\u0438\u043c\u0438\u0442\u0456\u043d\u0435 \u0436\u0435\u0442\u0442\u0456 \u2014 \u0431\u0430\u043b\u0430 +XP \u0430\u043b\u0434\u044b (\u0431\u04af\u0433\u0456\u043d\u0433\u0456 \u043b\u0438\u043c\u0438\u0442\u0442\u0435\u043d \u0430\u0440\u0442\u044b\u049b \u0442\u0438\u044b\u043d\u0434\u0430\u0440 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u043c\u0435\u0439\u0434\u0456)."
+break B}if("parent.review.approvedCapped"===q2){w=new A.cFD()
+break B}if("parent.review.rejectFailed"===q2){w=new A.cFE()
+break B}if("parent.review.rejectReason"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443 \u0441\u0435\u0431\u0435\u0431\u0456"
+break B}if("parent.review.rejectHint"===q2){w="\u041c\u044b\u0441\u0430\u043b\u044b: \u0442\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u043a\u04e9\u0440\u0456\u043f, \u0441\u0443\u0440\u0435\u0442\u0442\u0456 \u0436\u0430\u049b\u0441\u044b\u0440\u0430\u049b \u0442\u04af\u0441\u0456\u0440"
+break B}if("parent.review.reject"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443"
+break B}if("parent.review.fullscreen"===q2){w="\u0422\u043e\u043b\u044b\u049b \u044d\u043a\u0440\u0430\u043d\u0493\u0430"
+break B}if("parent.review.approve"===q2){w=m
+break B}if("parent.review.queueEmpty"===q2){w="\u041a\u0435\u0437\u0435\u043a \u0431\u043e\u0441"
+break B}if("parent.review.allChecked"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0434\u0456. \u0416\u0430\u049b\u0441\u044b \u0436\u04b1\u043c\u044b\u0441!"
+break B}if("parent.family.childBirthYearLabel"===q2){w=f9
+break B}if("parent.family.genderLabel"===q2){w="\u0416\u044b\u043d\u044b\u0441\u044b"
+break B}if("parent.family.genderMale"===q2){w=g0
+break B}if("parent.family.genderFemale"===q2){w=g1
+break B}if("parent.widgets.levelsPremiumTitle"===q2){w="6\u201330 \u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440 \u2014 Premium-\u0434\u0430"
+break B}if("parent.widgets.levelsPremiumBody"===q2){w="30-\u0434\u0435\u04a3\u0433\u0435\u0439\u0433\u0435 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u0431\u04af\u043a\u0456\u043b RPG-\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u044f\u0493\u0430 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0436\u0430\u0441\u0430\u04a3\u044b\u0437"
+break B}if("parent.widgets.learnMore"===q2){w="\u0422\u043e\u043b\u044b\u0493\u044b\u0440\u0430\u049b \u0431\u0456\u043b\u0443"
+break B}if("parent.widgets.gotIt"===q2){w=g2
+break B}if("parent.widgets.filterAll"===q2){w="\u0411\u0430\u0440\u043b\u044b\u0493\u044b"
+break B}if("parent.widgets.noChildrenTitle"===q2){w=g3
+break B}if("parent.widgets.noChildrenCta"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u0493\u0430"
+break B}if("parent.settings.deleteAccount"===q2){w=g4
+break B}if("parent.settings.levelTierHeader"===q2){w=new A.cFF()
+break B}if("aiBuddy.limitTitle"===q2){w=g5
+break B}if("aiBuddy.limitBody"===q2){w=new A.cFG()
+break B}if("aiBuddy.limitOk"===q2){w="\u0416\u0430\u0440\u0430\u0439\u0434\u044b"
+break B}if("aiBuddy.greetingHi"===q2){w="\u0421\u04d9\u043b\u0435\u043c! \u041c\u0435\u043d Jey-\u043f\u0456\u043d"
+break B}if("aiBuddy.greetingPrompt"===q2){w="\u041c\u0430\u0493\u0430\u043d \u043a\u0435\u0437 \u043a\u0435\u043b\u0433\u0435\u043d \u0441\u04b1\u0440\u0430\u049b \u049b\u043e\u0439"
+break B}if("aiBuddy.messageHint"===q2){w="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0436\u0430\u0437..."
+break B}if("aiBuddy.usageCounter"===q2){w=new A.cFH()
+break B}if("aiBuddy.sessionGreetingWave"===q2){w=new A.cFI()
+break B}if("aiBuddy.sessionGreetingHey"===q2){w=new A.cFJ()
+break B}if("aiBuddy.sessionGreetingHello"===q2){w=new A.cFK()
+break B}if("aiBuddy.sessionGreetingTail"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0435 \u0431\u0456\u0440 \u0441\u04b1\u0440\u0430\u0493\u044b\u043c \u0431\u0430\u0440."
+break B}if("aiBuddy.sessionStartError"===q2){w="\u0421\u0435\u0441\u0441\u0438\u044f\u043d\u044b \u0431\u0430\u0441\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440."
+break B}if("aiBuddy.thanksForSharing"===q2){w="\u0411\u04e9\u043b\u0456\u0441\u043a\u0435\u043d\u0456\u04a3 \u04af\u0448\u0456\u043d \u0440\u0430\u049b\u043c\u0435\u0442! \ud83d\udc9c"
+break B}if("aiBuddy.saveError"===q2){w="\u0416\u0430\u0443\u0430\u043f\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u043a\u04e9\u0440."
+break B}if("aiBuddy.errorGeneric"===q2){w="\u049a\u0430\u0442\u0435"
+break B}if("aiBuddy.answerHint"===q2){w="\u0416\u0430\u0443\u0430\u043f \u0436\u0430\u0437..."
+break B}if("aiBuddy.seeYouTomorrow"===q2){w="\u0415\u0440\u0442\u0435\u04a3\u0433\u0435 \u0434\u0435\u0439\u0456\u043d! \ud83d\udc4b"
+break B}if("aiBuddy.consentError"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u043a\u04e9\u0440."
+break B}if("aiBuddy.consentGreeting"===q2){w=new A.cFL()
+break B}if("aiBuddy.consentIntro"===q2){w="\u041c\u0435\u043d Jey-\u043f\u0456\u043d. \u0410\u043d\u0430\u04a3 \u043c\u0435\u043d \u04d9\u043a\u0435\u04a3\u0435 \u0441\u0435\u043d\u0456 \u0436\u0430\u049b\u0441\u044b\u0440\u0430\u049b \u0442\u04af\u0441\u0456\u043d\u0443\u0433\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0441\u04b1\u0440\u0430\u049b \u049b\u043e\u044f\u043c\u044b\u043d."
+break B}if("aiBuddy.consentVisibility"===q2){w="\u041c\u0430\u0493\u0430\u043d \u0430\u0439\u0442\u049b\u0430\u043d\u044b\u04a3\u0434\u044b \u0430\u043d\u0430\u04a3 \u043c\u0435\u043d \u04d9\u043a\u0435\u04a3 \u043a\u04e9\u0440\u0435 \u0430\u043b\u0430\u0434\u044b."
+break B}if("aiBuddy.consentSecret"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435\u043d\u0456 \u049b\u04b1\u043f\u0438\u044f \u0441\u0430\u049b\u0442\u0430\u0493\u044b\u04a3 \u043a\u0435\u043b\u0441\u0435 \u2014 \u043c\u0430\u0493\u0430\u043d \u0435\u043c\u0435\u0441, \u043e\u043b\u0430\u0440\u0493\u0430 \u04e9\u0437\u0456\u04a3 \u0430\u0439\u0442\u049b\u0430\u043d\u044b\u04a3 \u0436\u04e9\u043d."
+break B}if("aiBuddy.consentQuestion"===q2){w="\u041c\u0435\u043d\u0456\u043c\u0435\u043d \u0441\u04e9\u0439\u043b\u0435\u0441\u0443\u0433\u0435 \u043a\u0435\u043b\u0456\u0441\u0435\u0441\u0456\u04a3 \u0431\u0435?"
+break B}if("aiBuddy.consentAgree"===q2){w="\u0418\u04d9, \u043a\u0435\u043b\u0456\u0441\u0435\u043c\u0456\u043d"
+break B}if("aiBuddy.consentDecline"===q2){w="\u049a\u0430\u043b\u0430\u043c\u0430\u0439\u043c\u044b\u043d"
+break B}if("aiBuddy.gateNoChild"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430"
+break B}if("aiBuddy.gateLoadError"===q2){w="\u0416\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u043a\u04e9\u0440."
+break B}if("aiBuddy.content.showQuests"===q2){w="\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440\u0434\u0456 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break B}if("aiBuddy.content.newParentQuestTease"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0436\u0430\u04a3\u0430 \u043a\u0432\u0435\u0441\u0442!"
+break B}if("aiBuddy.content.newParentQuestSheet"===q2){w=new A.cFN()
+break B}if("aiBuddy.content.newParentQuestAction"===q2){w="\u041a\u0432\u0435\u0441\u0442\u0442\u0456 \u0430\u0448\u0443"
+break B}if("aiBuddy.content.closeToLevelUpTease"===q2){w=new A.cFO()
+break B}if("aiBuddy.content.closeToLevelUpSheet"===q2){w=new A.cFP()
+break B}if("aiBuddy.content.closestRewardTease"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u049b\u0430 \u0430\u0437 \u049b\u0430\u043b\u0434\u044b!"
+break B}if("aiBuddy.content.closestRewardSheet"===q2){w=new A.cFQ()
+break B}if("aiBuddy.content.closestRewardAction"===q2){w="\u0414\u04af\u043a\u0435\u043d\u0434\u0456 \u0430\u0448\u0443"
+break B}if("aiBuddy.content.streakMilestoneTease"===q2){w=new A.cFR()
+break B}if("aiBuddy.content.streakMilestoneSheet"===q2){w=new A.cFS()
+break B}if("aiBuddy.content.idleNudgeTease"===q2){w="\u0421\u0435\u043d \u043e\u0441\u044b\u043d\u0434\u0430\u0441\u044b\u04a3 \u0431\u0430?"
+break B}if("aiBuddy.content.idleNudgeSheet"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0441\u0456\u0437 \u0431\u043e\u043b\u0441\u0430 \u2014 \u043c\u0435\u043d\u0435\u043d \u0441\u04b1\u0440\u0430! \u041c\u0435\u043d Jey-\u043f\u0456\u043d, \u0441\u0435\u043d\u0456\u04a3 \u043a\u04e9\u043c\u0435\u043a\u0448\u0456\u04a3\u043c\u0456\u043d."
+break B}if("aiBuddy.content.idleNudgeAction"===q2){w="\u0427\u0430\u0442\u0442\u044b \u0430\u0448\u0443"
+break B}if("aiBuddy.content.firstOpenGreetingTease"===q2){w="\u049a\u0430\u0439\u0442\u0430 \u049b\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3!"
+break B}if("aiBuddy.content.firstOpenGreetingSheet"===q2){w=new A.cFT()
+break B}if("aiBuddy.content.q_school_1"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043c\u0435\u043a\u0442\u0435\u043f\u0442\u0435 \u049b\u0430\u043d\u0434\u0430\u0439 \u049b\u044b\u0437\u044b\u049b \u0431\u043e\u043b\u0434\u044b?"
+break B}if("aiBuddy.content.q_school_2"===q2){w="\u049a\u0430\u0439 \u0441\u0430\u0431\u0430\u049b \u0441\u0430\u0493\u0430\u043d \u0435\u04a3 \u043a\u04e9\u043f \u04b1\u043d\u0430\u0439\u0434\u044b \u0436\u04d9\u043d\u0435 \u043d\u0435\u0433\u0435?"
+break B}if("aiBuddy.content.q_school_3"===q2){w="\u041c\u0435\u043a\u0442\u0435\u043f\u0442\u0435 \u0441\u0435\u043d\u0456 \u0440\u0435\u043d\u0436\u0456\u0442\u0435\u0442\u0456\u043d \u0431\u0456\u0440\u0434\u0435\u04a3\u0435 \u0431\u0430\u0440 \u043c\u0430?"
+break B}if("aiBuddy.content.q_friends_1"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043a\u0456\u043c\u043c\u0435\u043d \u043e\u0439\u043d\u0430\u0434\u044b\u04a3 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u04e9\u0439\u043b\u0435\u0441\u0442\u0456\u04a3?"
+break B}if("aiBuddy.content.q_friends_2"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0435\u04a3 \u0436\u0430\u049b\u044b\u043d \u0434\u043e\u0441\u044b\u04a3 \u0431\u0430\u0440 \u043c\u0430? \u041e\u043d\u044b\u04a3 \u049b\u0430\u043d\u0434\u0430\u0439 \u0435\u0440\u0435\u043a\u0448\u0435\u043b\u0456\u0433\u0456 \u0431\u0430\u0440?"
+break B}if("aiBuddy.content.q_friends_3"===q2){w="\u041c\u0435\u043a\u0442\u0435\u043f\u0442\u0435 \u0431\u0456\u0440\u0435\u0443 \u0441\u0435\u043d\u0456 \u0440\u0435\u043d\u0436\u0456\u0442\u0435\u0442\u0456\u043d \u043a\u0435\u0437\u0434\u0435\u0440 \u0431\u043e\u043b\u0430 \u043c\u0430?"
+break B}if("aiBuddy.content.q_interests_1"===q2){w="\u041c\u0435\u043a\u0442\u0435\u043f\u0442\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u043d\u0435\u043c\u0435\u043d \u0430\u0439\u043d\u0430\u043b\u044b\u0441\u049b\u0430\u043d\u0434\u044b \u04b1\u043d\u0430\u0442\u0430\u0441\u044b\u04a3?"
+break B}if("aiBuddy.content.q_interests_2"===q2){w="\u04e8\u0441\u043a\u0435\u043d\u0434\u0435 \u043a\u0456\u043c \u0431\u043e\u043b\u0443\u0434\u044b \u0430\u0440\u043c\u0430\u043d\u0434\u0430\u0439\u0441\u044b\u04a3?"
+break B}if("aiBuddy.content.q_interests_3"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0441\u04af\u0439\u0456\u043a\u0442\u0456 \u043e\u0439\u044b\u043d\u044b\u04a3, \u043a\u0456\u0442\u0430\u0431\u044b\u04a3 \u043d\u0435\u043c\u0435\u0441\u0435 \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c\u0456\u04a3 \u049b\u0430\u043d\u0434\u0430\u0439?"
+break B}if("aiBuddy.content.q_emotions_1"===q2){w="\u0411\u04af\u0433\u0456\u043d \u0441\u0435\u043d\u0456 \u043d\u0435 \u049b\u0443\u0430\u043d\u0442\u0442\u044b?"
+break B}if("aiBuddy.content.q_emotions_2"===q2){w="\u041c\u04b1\u04a3\u0430\u0439\u0430\u0442\u044b\u043d \u043a\u0435\u0437\u0434\u0435\u0440\u0456\u04a3 \u0431\u043e\u043b\u0430 \u043c\u0430? \u041d\u0435 \u0442\u0443\u0440\u0430\u043b\u044b?"
+break B}if("aiBuddy.content.q_emotions_3"===q2){w="\u041a\u04e9\u04a3\u0456\u043b-\u043a\u04af\u0439\u0456\u04a3 \u043d\u0430\u0448\u0430\u0440 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430 \u0441\u0430\u0493\u0430\u043d \u043d\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456?"
+break B}if("aiBuddy.content.q_family_1"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u043a\u0456\u043c\u043c\u0435\u043d \u0441\u04e9\u0439\u043b\u0435\u0441\u043a\u0435\u043d\u0434\u0456 \u0435\u04a3 \u043a\u04e9\u043f \u04b1\u043d\u0430\u0442\u0430\u0441\u044b\u04a3?"
+break B}if("aiBuddy.content.q_family_2"===q2){w="\u0410\u043d\u0430\u04a3\u043c\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u04d9\u043a\u0435\u04a3\u043c\u0435\u043d \u0431\u0456\u0440\u0433\u0435 \u043d\u0435 \u0456\u0441\u0442\u0435\u0433\u0435\u043d\u0434\u0456 \u04b1\u043d\u0430\u0442\u0430\u0441\u044b\u04a3?"
+break B}if("aiBuddy.content.q_family_3"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u04e9\u0437\u0433\u0435\u0440\u0442\u043a\u0456\u04a3 \u043a\u0435\u043b\u0435\u0442\u0456\u043d \u0431\u0456\u0440\u0434\u0435\u04a3\u0435 \u0431\u0430\u0440 \u043c\u0430?"
+break B}if("aiBuddy.content.errorFreeQuotaExceeded"===q2){w=new A.cFU()
+break B}if("aiBuddy.content.errorPremiumHardCap"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043a\u04e9\u043f \u0441\u04e9\u0439\u043b\u0435\u0441\u0442\u0456\u043a! \u0415\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u043a\u0435\u043b \ud83d\ude34"
+break B}if("aiBuddy.content.errorRateLimit"===q2){w="\u0422\u044b\u043c \u0436\u044b\u043b\u0434\u0430\u043c! \u0421\u04d9\u043b \u043a\u04af\u0442\u0435 \u0442\u04b1\u0440 \u0434\u0430, \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440"
+break B}if("aiBuddy.content.errorFamilyBudget"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u044b\u04a3 \u0430\u0439\u043b\u044b\u049b \u043b\u0438\u043c\u0438\u0442\u0456\u043d\u0435 \u0436\u0435\u0442\u0442\u0456. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043c\u0435\u043d \u0441\u04e9\u0439\u043b\u0435\u0441"
+break B}if("aiBuddy.content.errorGenericTryLater"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440"
+break B}if("aiBuddy.content.errorGenericTryLaterDot"===q2){w="\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440."
+break B}if("aiBuddy.crisisAck"===q2){w="\u0411\u04b1\u043b \u04e9\u0442\u0435 \u043c\u0430\u04a3\u044b\u0437\u0434\u044b. \u049a\u0430\u0437\u0456\u0440 \u0431\u0456\u0440\u0434\u0435\u043d \u0430\u043d\u0430\u04a3\u0430, \u04d9\u043a\u0435\u04a3\u0435 \u043d\u0435\u043c\u0435\u0441\u0435 \u043c\u04b1\u0493\u0430\u043b\u0456\u043c\u0456\u04a3\u0435 \u0430\u0439\u0442 \u2014 \u0441\u0435\u043d \u0436\u0430\u043b\u0493\u044b\u0437 \u0435\u043c\u0435\u0441\u0441\u0456\u04a3.\n\n\u0415\u0433\u0435\u0440 \u049b\u0430\u0443\u0456\u043f \u0442\u04e9\u043d\u0441\u0435 \u2014 112-\u0433\u0435 \u049b\u043e\u04a3\u044b\u0440\u0430\u0443 \u0448\u0430\u043b.\n\u0411\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0441\u0435\u043d\u0456\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b:\n\ud83c\uddfa\ud83c\uddff \u04e8\u0437\u0431\u0435\u043a\u0441\u0442\u0430\u043d: 1146\n\ud83c\uddf0\ud83c\uddff \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d: 150 (\u0442\u0435\u0433\u0456\u043d)\n\ud83c\udde6\ud83c\uddff \u04d8\u0437\u0435\u0440\u0431\u0430\u0439\u0436\u0430\u043d: 116 111 (\u0442\u0435\u0433\u0456\u043d)\n\n\u041e\u043d\u0434\u0430 \u0441\u0435\u043d\u0456 \u0442\u044b\u04a3\u0434\u0430\u0439\u0434\u044b."
+break B}if("aiChat.title"===q2){w=g6
+break B}if("aiChat.online"===q2){w="\u041e\u043d\u043b\u0430\u0439\u043d"
+break B}if("aiChat.typing"===q2){w="\u0436\u0430\u0437\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u2026"
+break B}if("aiChat.placeholder"===q2){w="\u041d\u0435 \u049b\u0430\u043b\u0430\u0439\u0441\u044b\u04a3?"
+break B}if("aiChat.placeholderMom"===q2){w="\u0410\u043d\u0430\u043c\u0430 \u0445\u0430\u0431\u0430\u0440"
+break B}if("aiChat.placeholderDad"===q2){w="\u04d8\u043a\u0435\u043c\u0435 \u0445\u0430\u0431\u0430\u0440"
+break B}if("aiChat.coinPlaceholder"===q2){w="\u049a\u0430\u043d\u0448\u0430 \u043c\u043e\u043d\u0435\u0442\u0430 \u0441\u04b1\u0440\u0430\u0439\u0441\u044b\u04a3?"
+break B}if("aiChat.emptyTitle"===q2){w="\u0421\u04d9\u043b\u0435\u043c! \u041c\u0435\u043d \u0424\u043e\u043a\u0441\u0438\u043a\u043f\u0456\u043d \ud83e\udd8a"
+break B}if("aiChat.emptyBody"===q2){w="\u049a\u044b\u0437\u044b\u049b\u0442\u044b\u0440\u0493\u0430\u043d \u043d\u04d9\u0440\u0441\u0435\u04a3\u0434\u0456 \u0430\u0439\u0442, \u0436\u0430\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0443\u0440\u0435\u0442 \u0436\u0456\u0431\u0435\u0440 \u2014 \u043c\u04d9\u0442\u0456\u043d\u043c\u0435\u043d \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435\u043c\u0456\u043d."
+break B}if("aiChat.today"===q2){w=g7
+break B}if("aiChat.yesterday"===q2){w="\u041a\u0435\u0448\u0435"
+break B}if("aiChat.send"===q2)break B
+if("aiChat.close"===q2){w=k
+break B}if("aiChat.attach"===q2){w="\u0422\u0456\u0440\u043a\u0435\u0443"
+break B}if("aiChat.emoji"===q2){w="\u042d\u043c\u043e\u0434\u0437\u0438"
+break B}if("aiChat.keyboard"===q2){w="\u041f\u0435\u0440\u043d\u0435\u0442\u0430\u049b\u0442\u0430"
+break B}if("aiChat.backspace"===q2){w="\u04e8\u0448\u0456\u0440\u0443"
+break B}if("aiChat.holdToRecord"===q2){w="\u0416\u0430\u0437\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u043f \u0442\u04b1\u0440"
+break B}if("aiChat.slideToCancel"===q2){w="\u0421\u043e\u043b\u0493\u0430 \u2014 \u0431\u043e\u043b\u0434\u044b\u0440\u043c\u0430\u0443"
+break B}if("aiChat.recording"===q2){w="\u0416\u0430\u0437\u044b\u043b\u0443\u0434\u0430\u2026"
+break B}if("aiChat.showTranscript"===q2){w="\u041c\u04d9\u0442\u0456\u043d\u0434\u0456 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break B}if("aiChat.hideTranscript"===q2){w="\u041c\u04d9\u0442\u0456\u043d\u0434\u0456 \u0436\u0430\u0441\u044b\u0440\u0443"
+break B}if("aiChat.noTranscript"===q2){w="\u041c\u04d9\u0442\u0456\u043d \u0442\u0430\u043d\u044b\u043b\u043c\u0430\u0434\u044b"
+break B}if("aiChat.play"===q2){w="\u0422\u044b\u04a3\u0434\u0430\u0443"
+break B}if("aiChat.pause"===q2){w="\u041a\u0456\u0434\u0456\u0440\u0442\u0443"
+break B}if("aiChat.photo"===q2){w="\u0421\u0443\u0440\u0435\u0442"
+break B}if("aiChat.camera"===q2){w="\u041a\u0430\u043c\u0435\u0440\u0430"
+break B}if("aiChat.gallery"===q2){w=f1
+break B}if("aiChat.captionHint"===q2){w="\u049a\u043e\u043b\u0442\u0430\u04a3\u0431\u0430\u2026"
+break B}if("aiChat.requestCoins"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430 \u0441\u04b1\u0440\u0430\u0443"
+break B}if("aiChat.mom"===q2){w="\u0410\u043d\u0430\u043c"
+break B}if("aiChat.dad"===q2){w="\u04d8\u043a\u0435\u043c"
+break B}if("aiChat.mention"===q2){w=new A.cFV()
+break B}if("aiChat.coinsRequest"===q2){w=new A.cFW()
+break B}if("aiChat.relayToMom"===q2){w="\u0410\u043d\u0430\u04a3\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break B}if("aiChat.relayToDad"===q2){w="\u04d8\u043a\u0435\u04a3\u0435 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break B}if("aiChat.relayFailed"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u0493\u0430 \u0436\u0435\u0442\u043f\u0435\u0434\u0456. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441"
+break B}if("aiChat.sendFailed"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u043c\u0435\u0434\u0456. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441"
+break B}if("aiChat.quotaTitle"===q2){w=g5
+break B}if("aiChat.quotaBody"===q2){w=new A.cFY()
+break B}if("aiChat.ok"===q2){w="\u0416\u0430\u0440\u0430\u0439\u0434\u044b"
+break B}if("aiChat.rateLimited"===q2){w="\u0422\u044b\u043c \u0436\u044b\u043b\u0434\u0430\u043c! \u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442 \u043a\u04af\u0442"
+break B}if("aiChat.familyBudget"===q2){w="\u041e\u0441\u044b \u0430\u0439\u0434\u0430\u0493\u044b \u0441\u04e9\u0439\u043b\u0435\u0441\u0443 \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b"
+break B}if("aiChat.errorGeneric"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u043e\u0439\u043b\u0430\u043d\u044b\u043f \u049b\u0430\u043b\u044b\u043f, \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u043c\u0435\u0434\u0456. \u0422\u0430\u0493\u044b \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440"
+break B}if("aiChat.micTitle"===q2){w="\u041c\u0438\u043a\u0440\u043e\u0444\u043e\u043d \u043a\u0435\u0440\u0435\u043a"
+break B}if("aiChat.micDenied"===q2){w="\u0414\u0430\u0443\u044b\u0441\u0442\u044b\u049b \u0445\u0430\u0431\u0430\u0440 \u0436\u0430\u0437\u0443 \u04af\u0448\u0456\u043d \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440"
+break B}if("aiChat.openSettings"===q2){w=g8
+break B}if("aiChat.cameraTitle"===q2){w=f3
+break B}if("aiChat.cameraDenied"===q2){w="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440"
+break B}if("aiChat.galleryTitle"===q2){w="\u0421\u0443\u0440\u0435\u0442\u0442\u0435\u0440\u0433\u0435 \u0440\u04b1\u049b\u0441\u0430\u0442 \u043a\u0435\u0440\u0435\u043a"
+break B}if("aiChat.galleryDenied"===q2){w="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u0430 \u0441\u0443\u0440\u0435\u0442\u0442\u0435\u0440\u0433\u0435 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440"
+break B}if("aiChat.cameraUnavailable"===q2){w="\u0411\u04b1\u043b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430 \u0436\u043e\u049b"
+break B}if("aiChat.micUnavailable"===q2){w="\u0411\u04b1\u043b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0434\u0430 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d \u0436\u043e\u049b"
+break B}if("aiChat.pickFailed"===q2){w="\u0421\u0443\u0440\u0435\u0442 \u0442\u0430\u04a3\u0434\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break B}if("aiChat.tooShort"===q2){w="\u0422\u044b\u043c \u049b\u044b\u0441\u049b\u0430 \u2014 \u0442\u04af\u0439\u043c\u0435\u043d\u0456 \u04b1\u0437\u0430\u0493\u044b\u0440\u0430\u049b \u0431\u0430\u0441\u044b\u043f \u0442\u04b1\u0440"
+break B}if("aiChat.recordFailed"===q2){w="\u0416\u0430\u0437\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0422\u0430\u0493\u044b \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440"
+break B}if("aiChat.settingsFailed"===q2){w="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \u0430\u0448\u044b\u043b\u043c\u0430\u0434\u044b"
+break B}if("aiChat.noChild"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u0430 \u043a\u0456\u0440"
+break B}if("aiChat.later"===q2){w=c8
+break B}if("aiChat.parents"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u043c"
+break B}if("aiChat.relayToParents"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u0493\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break B}if("aiChat.mentionHint"===q2){w="\u041a\u0456\u043c\u0433\u0435 \u0436\u0430\u0437\u0430\u043c\u044b\u0437?"
+break B}if("aiChat.emojiSearch"===q2){w="\u042d\u043c\u043e\u0434\u0437\u0438 \u0456\u0437\u0434\u0435\u0443"
+break B}if("aiChat.gifTab"===q2){w="GIF"
+break B}if("aiChat.emojiTab"===q2){w="\u042d\u043c\u043e\u0434\u0437\u0438"
+break B}if("aiChat.gifSearch"===q2){w="KLIPY \u0456\u0437\u0434\u0435\u0443"
+break B}if("aiChat.gifEmpty"===q2){w=g9
+break B}if("aiChat.gifLabel"===q2){w="GIF"
+break B}if("aiChat.gifFailed"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456"
+break B}if("aiChat.emojiEmpty"===q2){w="\u041c\u04b1\u043d\u0434\u0430\u0439 \u044d\u043c\u043e\u0434\u0437\u0438 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break B}if("aiChat.transcribing"===q2){w="\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u043c\u04d9\u0442\u0456\u043d\u0433\u0435 \u0430\u0439\u043d\u0430\u043b\u0434\u044b\u0440\u0443\u2026"
+break B}if("aiChat.transcriptionFailed"===q2){w="\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0416\u0430\u0437\u0431\u0430 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b \u2014 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441."
+break B}if("aiChat.speechModelTitle"===q2){w="\u0414\u0430\u0443\u044b\u0441\u0442\u044b \u0442\u0430\u043d\u0443"
+break B}if("aiChat.speechModelBody"===q2){w="\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 \u0441\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0440 \u0440\u0435\u0442 61 \u041c\u0411 \u0436\u04af\u043a\u0442\u0435\u043f \u0430\u043b. \u041e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0442\u0430\u043d\u0443 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0441\u0456\u0437 \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456. \u0416\u0430\u0437\u0431\u0430\u04a3 \u0441\u0430\u049b\u0442\u0430\u043b\u044b\u043f \u049b\u043e\u0439\u0434\u044b."
+break B}if("aiChat.speechModelDownload"===q2){w=h0
+break B}if("aiChat.speechModelProgress"===q2){w=new A.cFZ()
+break B}if("aiChat.playFailed"===q2){w="\u0416\u0430\u0437\u0431\u0430\u043d\u044b \u043e\u0439\u043d\u0430\u0442\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break B}if("aiChat.taskCardLabel"===q2){w="\u0421\u0430\u0493\u0430\u043d \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+break B}if("aiChat.taskCardGo"===q2){w="\u04e8\u0442\u0443"
+break B}if("aiChat.taskCardOpen"===q2){w=new A.cG_()
+break B}if("aiChat.progressTitle"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0436\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440\u0456\u04a3"
+break B}if("aiChat.progressLevel"===q2){w=new A.cG0()
+break B}if("aiChat.progressXpToNext"===q2){w=new A.cG1()
+break B}if("aiChat.progressMaxLevel"===q2){w="\u0415\u04a3 \u0436\u043e\u0493\u0430\u0440\u044b \u0434\u0435\u04a3\u0433\u0435\u0439!"
+break B}if("aiChat.progressCoins"===q2){w=new A.cG2(q1)
+break B}if("aiChat.progressWeekTasks"===q2){w=new A.cG3(q1)
+break B}if("aiChat.progressStreak"===q2){w=new A.cG4(q1)
+break B}if("aiChat.growthCognitive"===q2){w=h1
+break B}if("aiChat.growthCreative"===q2){w=h2
+break B}if("aiChat.growthPhysical"===q2){w=h3
+break B}if("aiChat.relayDailyLimit"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0435 \u0430\u0442\u0430-\u0430\u043d\u0430\u0493\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0440 \u0431\u0456\u0442\u0442\u0456. \u0415\u0440\u0442\u0435\u04a3 \u0436\u0430\u0437!"
+break B}if("aiChat.coinsDailyLimit"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430\u043d\u044b \u043a\u04af\u043d\u0456\u043d\u0435 5 \u0440\u0435\u0442 \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. \u0415\u0440\u0442\u0435\u04a3 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440!"
+break B}if("aiChat.coinsAmountRange"===q2){w=new A.cG5()
+break B}if("aiChat.relayNotAllowed"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u041a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u043a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430"
+break B}if("aiChat.submitCardLabel"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435"
+break B}if("aiChat.submitCardReward"===q2){w=new A.cG6(q1)
+break B}if("aiChat.submitCardCoins"===q2){w=new A.cG9(q1)
+break B}if("aiChat.submitCardXp"===q2){w=new A.cGa()
+break B}if("aiChat.submitCardParentChecks"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0442\u0435\u043a\u0441\u0435\u0440\u0435\u0434\u0456"
+break B}if("aiChat.submitCardPhoto"===q2){w=h4
+break B}if("aiChat.submitCardSend"===q2)break B
+if("aiChat.submitCardSendFor"===q2){w=new A.cGb()
+break B}if("aiChat.submitCardShoot"===q2){w=s
+break B}if("aiChat.submitCardShootFor"===q2){w=new A.cGc()
+break B}if("aiChat.submitCardSent"===q2){w=e5
+break B}if("aiChat.submitCardWaiting"===q2){w="\u049a\u0430\u0437\u0456\u0440 \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435"
+break B}if("aiChat.submitCardDoneToday"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+break B}if("aiChat.submitCardDoneWeek"===q2){w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+break B}if("aiChat.submitCardDone"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break B}if("aiChat.submitCardMorning"===q2){w="\u0422\u0430\u04a3\u0435\u0440\u0442\u0435\u04a3 \u0436\u0456\u0431\u0435\u0440\u0435\u0441\u0456\u04a3"
+break B}if("aiChat.submitCardGone"===q2){w="\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0435\u043d\u0434\u0456 \u04e9\u0437\u0435\u043a\u0442\u0456 \u0435\u043c\u0435\u0441"
+break B}if("aiChat.rewardCardLabel"===q2){w=h5
+break B}if("aiChat.rewardCardPrice"===q2){w=new A.cGd(q1)
+break B}if("aiChat.rewardCardAsk"===q2){w="\u0421\u04b1\u0440\u0430\u0443"
+break B}if("aiChat.rewardCardAskFor"===q2){w=new A.cGe()
+break B}if("aiChat.rewardCardSent"===q2){w="\u0421\u04b1\u0440\u0430\u0443 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break B}if("aiChat.rewardCardAskedHe"===q2){w=h6
+break B}if("aiChat.rewardCardAskedShe"===q2){w=h6
+break B}if("aiChat.rewardCardNoCoins"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430 \u0436\u0435\u0442\u043f\u0435\u0439\u0434\u0456"
+break B}if("aiChat.rewardCardLevel"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break B}if("aiChat.rewardCardGone"===q2){w="\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0435\u043d\u0434\u0456 \u0436\u043e\u049b"
+break B}if("aiChat.actionCardRetry"===q2){w=i
+break B}if("aiChat.actionCardRetryFor"===q2){w=new A.cGf()
+break B}if("aiChat.actionCardFailed"===q2){w="\u0411\u043e\u043b\u043c\u0430\u0434\u044b. \u0422\u0430\u0493\u044b \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440"
+break B}if("aiChat.pageCardLabel"===q2){w="\u049a\u0430\u0440\u0430\u043f \u0448\u044b\u049b"
+break B}if("aiChat.pageCardTasks"===q2){w=c9
+break B}if("aiChat.pageCardMarket"===q2){w="\u0414\u04af\u043a\u0435\u043d"
+break B}if("aiChat.pageCardOpenFor"===q2){w=new A.cGg()
+break B}if("aiChat.coinsTooSoon"===q2){w=new A.cGh()
+break B}if("aiChat.coinsTooSoonWait"===q2){w="10 \u043c\u0438\u043d\u0443\u0442 \u043a\u04af\u0442 \u2014 \u0441\u043e\u0441\u044b\u043d \u049b\u0430\u0439\u0442\u0430 \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break B}if("aiChat.taskListTitle"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break B}if("aiChat.taskRowReward"===q2){w=new A.cGi(q1)
+break B}if("aiChat.taskRowCoins"===q2){w=new A.cGk(q1)
+break B}if("aiChat.taskRowXp"===q2){w=new A.cGl()
+break B}if("aiChat.shelfTitle"===q2){w="\u0414\u04af\u043a\u0435\u043d\u0434\u0435\u0433\u0456 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"
+break B}if("aiChat.shelfPrice"===q2){w=new A.cGm(q1)
+break B}if("aiChat.shelfMissing"===q2){w=new A.cGn(q1)
+break B}if("aiChat.taskRowShoot"===q2){w=c5
+break B}if("aiChat.shelfSent"===q2){w=h7
+break B}if("aiChat.shelfNeedMore"===q2){w=new A.cGo()
+break B}if("aiChat.myStats.weekCaption"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0430\u043f\u0442\u0430\u04a3"
+break B}if("aiChat.myStats.weekTitle"===q2){w=new A.cGp(q1)
+break B}if("aiChat.myStats.growthCaption"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u04e9\u0441\u0443\u0456\u04a3"
+break B}if("aiChat.myStats.growthTitle"===q2){w="\u041a\u04af\u0448, \u0410\u049b\u044b\u043b \u0436\u04d9\u043d\u0435 \u0416\u0430\u043d"
+break B}if("aiChat.myStats.goalCaption"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u043c\u0430\u049b\u0441\u0430\u0442\u044b\u04a3"
+break B}if("aiChat.myStats.tasks"===q2){w=new A.cGq(q1)
+break B}if("aiChat.myStats.coins"===q2){w=new A.cGr(q1)
+break B}if("aiChat.myStats.streak"===q2){w=new A.cGs(q1)
+break B}if("aiChat.myStats.newWeek"===q2){w="\u0416\u0430\u04a3\u0430 \u0430\u043f\u0442\u0430 \u2014 \u0436\u0430\u04a3\u0430 \u0436\u04b1\u043b\u0434\u044b\u0437\u0434\u0430\u0440!"
+break B}if("aiChat.myStats.starsOnTheWay"===q2){w="\u0416\u04b1\u043b\u0434\u044b\u0437\u0434\u0430\u0440 \u0436\u043e\u043b\u0434\u0430!"
+break B}if("aiChat.myStats.growthZero"===q2){w="\u04d8\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u041a\u04af\u0448\u0442\u0456, \u0410\u049b\u044b\u043b\u0434\u044b \u0436\u04d9\u043d\u0435 \u0416\u0430\u043d\u0434\u044b \u04e9\u0441\u0456\u0440\u0435\u0434\u0456!"
+break B}if("aiChat.myStats.goalMore"===q2){w=new A.cGt(q1)
+break B}if("aiChat.myStats.goalReady"===q2){w=h8
+break B}if("aiChat.myStats.goalTasks"===q2){w=new A.cGv(q1)
+break B}if("aiChat.myStats.goalHeld"===q2){w=new A.cGw(q1)
+break B}if("aiChat.myStats.goalProgress"===q2){w=new A.cGx(q1)
+break B}if("aiChat.myStats.dayStars"===q2){w=new A.cGy(q1)
+break B}if("aiChat.myStats.dayStar"===q2){w="\u0436\u04b1\u043b\u0434\u044b\u0437"
+break B}if("aiChat.myStats.dayWaiting"===q2){w=h9
+break B}if("aiChat.myStats.dayEmpty"===q2){w="\u04d9\u0437\u0456\u0440\u0433\u0435 \u0436\u04b1\u043b\u0434\u044b\u0437\u0441\u044b\u0437"
+break B}if("aiChat.myStats.points"===q2){w=new A.cGz(q1)
+break B}if("aiChat.myStats.twinItem"===q2){w=new A.cGA()
+break B}if("aiChat.lesson.caption"===q2){w="\u0421\u0430\u0431\u0430\u049b"
+break B}if("aiChat.lesson.quizCaption"===q2){w="\u0421\u04b1\u0440\u0430\u049b"
+break B}if("aiChat.lesson.next"===q2){w=i0
+break B}if("aiChat.lesson.nextFor"===q2){w=new A.cGB()
+break B}if("aiChat.lesson.step"===q2){w=new A.cGC()
+break B}if("aiChat.lesson.right"===q2){w="\u0434\u04b1\u0440\u044b\u0441"
+break B}if("aiChat.lesson.wrong"===q2){w="\u04d9\u043b\u0456 \u0435\u043c\u0435\u0441"
+break B}if("aiChat.lesson.chosen"===q2){w="\u0442\u0430\u04a3\u0434\u0430\u043b\u0434\u044b"
+break B}if("aiChat.lesson.rightTitle"===q2){w="\u0414\u04b1\u0440\u044b\u0441!"
+break B}if("aiChat.lesson.hintTitle"===q2){w="\u0422\u0430\u0493\u044b \u043e\u0439\u043b\u0430\u043d\u044b\u043f \u043a\u04e9\u0440"
+break B}if("aiChat.lesson.answerTitle"===q2){w=new A.cGD()
+break B}if("aiChat.lesson.retry"===q2){w="\u0422\u0430\u0493\u044b \u0431\u0430\u0439\u049b\u0430\u0443"
+break B}if("aiChat.lesson.retryFor"===q2){w="\u0421\u04b1\u0440\u0430\u049b\u049b\u0430 \u049b\u0430\u0439\u0442\u0430 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0443"
+break B}if("aiChat.lesson.sortCaption"===q2){w="\u041e\u0439\u044b\u043d"
+break B}if("aiChat.lesson.sortTitle"===q2){w="\u041a\u0435\u0440\u0435\u043a \u043f\u0435, \u04d9\u043b\u0434\u0435 \u049b\u0430\u043b\u0430\u0443 \u043c\u0430?"
+break B}if("aiChat.lesson.sortBin"===q2){w=new A.cGE()
+break B}if("aiChat.lesson.sortMoved"===q2){w="\u043e\u0440\u043d\u044b \u0430\u0443\u044b\u0441\u0442\u044b"
+break B}if("aiChat.lesson.check"===q2){w=a1
+break B}if("aiChat.lesson.checkFor"===q2){w="\u041d\u0435 \u043a\u0435\u0440\u0435\u043a, \u043d\u0435 \u049b\u0430\u043b\u0430\u0443 \u0435\u043a\u0435\u043d\u0456\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0443"
+break B}if("aiChat.lesson.sortAllRight"===q2){w="\u0411\u04d9\u0440\u0456 \u0434\u04b1\u0440\u044b\u0441!"
+break B}if("aiChat.lesson.sortSomeMoved"===q2){w="\u0416\u0430\u049b\u0441\u044b! \u041d\u0435\u043d\u0456\u04a3 \u043e\u0440\u043d\u044b \u0430\u0443\u044b\u0441\u049b\u0430\u043d\u044b\u043d \u049b\u0430\u0440\u0430"
+break B}if("aiChat.lesson.sortHistory"===q2){w=new A.cGG()
+break B}if("aiChat.lesson.sortHistoryOne"===q2){w=new A.cGH()
+break B}if("aiChat.lesson.listSeparator"===q2){w=", "
+break B}if("aiChat.lesson.jarsCaption"===q2){w="\u04ae\u0448 \u049b\u043e\u0440\u0430\u043f\u0448\u0430"
+break B}if("aiChat.lesson.jarsTitle"===q2){w=new A.cGI(q1)
+break B}if("aiChat.lesson.jarsLeft"===q2){w=new A.cGJ()
+break B}if("aiChat.lesson.jarsAllIn"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u043c\u043e\u043d\u0435\u0442\u0430 \u049b\u043e\u0440\u0430\u043f\u0448\u0430\u043b\u0430\u0440\u0434\u0430!"
+break B}if("aiChat.lesson.coins"===q2){w=new A.cGK(q1)
+break B}if("aiChat.lesson.jarsLess"===q2){w=new A.cGL()
+break B}if("aiChat.lesson.jarsMore"===q2){w=new A.cGM()
+break B}if("aiChat.lesson.jarsDone"===q2){w=f
+break B}if("aiChat.lesson.jarsDoneFor"===q2){w="\u0414\u0430\u0439\u044b\u043d: \u043c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0441\u044b\u043b\u0430\u0439 \u0431\u04e9\u043b\u0443"
+break B}if("aiChat.lesson.planCaption"===q2){w="\u0416\u0438\u043d\u0430\u049b \u0436\u043e\u0441\u043f\u0430\u0440\u044b"
+break B}if("aiChat.lesson.planMissing"===q2){w=new A.cGN(q1)
+break B}if("aiChat.lesson.planEnough"===q2){w=h8
+break B}if("aiChat.lesson.planPerDay"===q2){w="\u041a\u04af\u043d\u0456\u043d\u0435 \u0436\u0438\u043d\u0430\u0439\u043c\u044b\u043d"
+break B}if("aiChat.lesson.perDay"===q2){w=new A.cGO(q1)
+break B}if("aiChat.lesson.planDays"===q2){w=new A.cGP(q1)
+break B}if("aiChat.lesson.planReady"===q2){w="\u049a\u0430\u0437\u0456\u0440\u0434\u0456\u04a3 \u04e9\u0437\u0456\u043d\u0434\u0435 \u0436\u0435\u0442\u0435\u0434\u0456!"
+break B}if("aiChat.lesson.planSave"===q2){w="\u0416\u043e\u0441\u043f\u0430\u0440\u0434\u044b \u0441\u0430\u049b\u0442\u0430\u0443"
+break B}if("aiChat.lesson.planSaveFor"===q2){w=new A.cGR()
+break B}if("aiChat.lesson.planHistory"===q2){w=new A.cGS(q1)
+break B}if("aiChat.lesson.badgeCaption"===q2){w="\u0411\u0456\u043b\u0456\u043c \u0431\u0435\u043b\u0433\u0456\u0441\u0456"
+break B}if("aiChat.lesson.badgeHeadline"===q2){w="\u0421\u0430\u0431\u0430\u049b \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b!"
+break B}if("aiChat.lesson.badgeScore"===q2){w=new A.cGT()
+break B}if("aiChat.lesson.badgeCourse"===q2){w=new A.cGU()
+break B}if("aiChat.callNumber"===q2){w=new A.cGV()
+break B}if("aiChat.callFailed"===q2){w=new A.cGW()
+break B}if("aiChat.compose.caption"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u0441\u0430\u0493\u0430\u043d \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u0434\u044b"
+break B}if("aiChat.compose.checked"===q2){w=i1
+break B}if("aiChat.compose.unchecked"===q2){w=i2
+break B}if("aiChat.compose.chipSent"===q2){w=i3
+break B}if("reward.shop.catalogTitle"===q2){w="\u0414\u04af\u043a\u0435\u043d"
+break B}if("reward.shop.catalogFilter"===q2){w="\u0421\u04af\u0437\u0433\u0456"
+break B}if("reward.shop.filterShow"===q2){w="\u041a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break B}if("reward.shop.filterOrder"===q2){w="\u0420\u0435\u0442\u0456"
+break B}if("reward.shop.catalogOrder"===q2){w="\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u0440\u0435\u0442\u0456"
+break B}if("reward.shop.catalogPriceLowest"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0430\u0440\u0437\u0430\u043d\u0434\u0430\u0440\u044b"
+break B}if("reward.shop.catalogPriceHighest"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u049b\u044b\u043c\u0431\u0430\u0442\u0442\u0430\u0440\u044b"
+break B}if("reward.shop.catalogAll"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"
+break B}if("reward.shop.catalogAvailable"===q2){w=e7
+break B}if("reward.shop.catalogSearch"===q2){w=i4
+break B}if("reward.shop.catalogSearchEmpty"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break B}if("reward.shop.catalogFree"===q2){w="\u0422\u0415\u0413\u0406\u041d"
+break B}if("reward.shop.catalogFreeWord"===q2){w="\u0422\u0415\u0413\u0406\u041d"
+break B}if("reward.shop.teenShelfPermissions"===q2){w="\u0420\u04b1\u049b\u0441\u0430\u0442\u0442\u0430\u0440"
+break B}if("reward.shop.teenShelfClothing"===q2){w="\u041a\u0438\u0456\u043c"
+break B}if("reward.shop.title"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0434\u04af\u043a\u0435\u043d\u0456"
+break B}if("reward.shop.tabHistory"===q2){w="\u041c\u0435\u043d\u0456\u04a3 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b\u043c"
+break B}if("reward.shop.buy"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443"
+break B}if("reward.shop.buyConfirm"===q2){w=new A.cGX()
+break B}if("reward.shop.sendFailed"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break B}if("reward.shop.sessionExpired"===q2){w="\u041a\u043e\u0434\u043f\u0435\u043d \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440"
+break B}if("reward.shop.notEnoughCoins"===q2){w=y.P
+break B}if("reward.shop.alreadyRequested"===q2){w="\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u0442\u0430-\u0430\u043d\u0430\u043d\u044b\u04a3 \u0436\u0430\u0443\u0430\u0431\u044b\u043d \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440"
+break B}if("reward.shop.noLongerAvailable"===q2){w="\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break B}if("reward.shop.emptyHistory"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440 \u0436\u043e\u049b"
+break B}if("reward.shop.emptyAskParent"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u049b\u043e\u0441\u0443\u0434\u044b \u0441\u04b1\u0440\u0430"
+break B}if("reward.shop.statusPending"===q2){w="\u23f3 \u0410\u0442\u0430-\u0430\u043d\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435"
+break B}if("reward.shop.statusApproved"===q2){w="\u2713 \u0410\u043b\u044b\u043d\u0434\u044b"
+break B}if("reward.shop.statusRejected"===q2){w="\u2715 \u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"
+break B}if("reward.shop.childNotFound"===q2){w=c1
+break B}if("reward.shop.lockedLevel"===q2){w=new A.cGY()
+break B}if("reward.shop.shortBy"===q2){w=new A.cGZ()
+break B}if("reward.shop.relativeJustNow"===q2){w=f8
+break B}if("reward.shop.relativeMinutes"===q2){w=new A.cH_()
+break B}if("reward.shop.relativeHours"===q2){w=new A.cH1()
+break B}if("reward.shop.relativeDays"===q2){w=new A.cH2()
+break B}if("reward.shop.exchangePoints"===q2){w="\u04b0\u043f\u0430\u0439\u043b\u0430\u0440\u0434\u044b \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0443"
+break B}if("reward.shop.purchaseSuccessTitle"===q2){w=y.nn
+break B}if("reward.shop.purchaseSuccessTitleTeen"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u044b\u04a3\u043c\u0435\u043d \u049b\u04b1\u0442\u0442\u044b\u049b\u0442\u0430\u0439\u043c\u044b\u0437"
+break B}if("reward.shop.backToRewards"===q2){w=i5
+break B}if("reward.shop.awaitingApproval"===q2){w=f5
+break B}if("reward.shop.statusRescheduled"===q2){w="\u043a\u04af\u043d\u0456 \u0430\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b"
+break B}if("reward.shop.purchaseAcknowledge"===q2){w=f6
+break B}if("reward.shop.purchaseAcknowledgeTeen"===q2){w=f7
+break B}if("reward.valueType.title"===q2){w="\u0421\u0430\u043d\u0430\u0442"
+break B}if("reward.valueType.all"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0430\u043d\u0430\u0442\u0442\u0430\u0440"
+break B}if("reward.valueType.timeWithParent.name"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u043c\u0435\u043d \u0443\u0430\u049b\u044b\u0442 \u04e9\u0442\u043a\u0456\u0437\u0443"
+break B}if("reward.valueType.timeWithParent.hint"===q2){w="\u0411\u0456\u0440\u043b\u0435\u0441\u043a\u0435\u043d \u0456\u0441, \u0441\u0435\u0440\u0443\u0435\u043d, \u043e\u0439\u044b\u043d, \u04d9\u04a3\u0433\u0456\u043c\u0435"
+break B}if("reward.valueType.privilege.name"===q2){w="\u0410\u0440\u0442\u044b\u049b\u0448\u044b\u043b\u044b\u049b \u043f\u0435\u043d \u0435\u0440\u043a\u0456\u043d\u0434\u0456\u043a"
+break B}if("reward.valueType.privilege.hint"===q2){w="\u041a\u0435\u0448\u0456\u0440\u0435\u043a \u0436\u0430\u0442\u0443, \u0444\u0438\u043b\u044c\u043c \u0442\u0430\u04a3\u0434\u0430\u0443, \u0434\u043e\u0441\u0442\u044b \u0448\u0430\u049b\u044b\u0440\u0443"
+break B}if("reward.valueType.experience.name"===q2){w="\u04d8\u0441\u0435\u0440\u043b\u0435\u0440"
+break B}if("reward.valueType.experience.hint"===q2){w="\u0416\u043e\u0440\u044b\u049b, \u043a\u0438\u043d\u043e, \u043c\u04b1\u0440\u0430\u0436\u0430\u0439, \u0430\u043a\u0432\u0430\u043f\u0430\u0440\u043a, \u0441\u0430\u043f\u0430\u0440"
+break B}if("reward.valueType.developmental.name"===q2){w="\u0414\u0430\u043c\u044b\u0442\u0443\u0448\u044b"
+break B}if("reward.valueType.developmental.hint"===q2){w=y.j9
+break B}if("reward.valueType.social.name"===q2){w=d7
+break B}if("reward.valueType.social.hint"===q2){w=y.ch
+break B}if("reward.valueType.digital.name"===q2){w="\u0426\u0438\u0444\u0440\u043b\u044b\u049b"
+break B}if("reward.valueType.digital.hint"===q2){w=y.eS
+break B}if("reward.valueType.material.name"===q2){w="\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0434\u044b\u049b"
+break B}if("reward.valueType.material.hint"===q2){w="\u0417\u0430\u0442, \u043e\u0439\u044b\u043d\u0448\u044b\u049b, \u043a\u0438\u0456\u043c, \u0433\u0430\u0434\u0436\u0435\u0442"
+break B}if("reward.valueType.delayed.name"===q2){w="\u04b0\u0437\u0430\u049b \u043c\u0435\u0440\u0437\u0456\u043c\u0434\u0456"
+break B}if("reward.valueType.delayed.hint"===q2){w="\u04ae\u043b\u043a\u0435\u043d \u043c\u0430\u049b\u0441\u0430\u0442\u049b\u0430 \u0436\u0438\u043d\u0430\u049b\u0442\u0430\u0443"
+break B}if("reward.valueType.kind.name"===q2){w="\u041c\u0435\u0439\u0456\u0440\u0456\u043c\u0434\u0456"
+break B}if("reward.valueType.kind.hint"===q2){w=y.aN
+break B}if("reward.valueType.food.name"===q2){w="\u0422\u0430\u043c\u0430\u049b \u043f\u0435\u043d \u0442\u04d9\u0442\u0442\u0456\u043b\u0435\u0440"
+break B}if("reward.valueType.food.hint"===q2){w="\u0414\u0435\u0441\u0435\u0440\u0442, \u043f\u043e\u043f\u043a\u043e\u0440\u043d, \u0441\u04af\u0439\u0456\u043a\u0442\u0456 \u0442\u0430\u0493\u0430\u043c"
+break B}if("reward.valueType.screenTime.name"===q2){w=i6
+break B}if("reward.valueType.screenTime.hint"===q2){w="\u042d\u043a\u0440\u0430\u043d \u0430\u043b\u0434\u044b\u043d\u0434\u0430\u0493\u044b \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0443\u0430\u049b\u044b\u0442"
+break B}if("core.relativeJustNow"===q2){w=f8
+break B}if("core.relativeYesterday"===q2){w="\u043a\u0435\u0448\u0435"
+break B}if("gamify.levelUpTitle"===q2){w=new A.cH3()
+break B}if("gamify.newLevelTitle"===q2){w=i7
+break B}if("gamify.levelSticker"===q2){w=new A.cH4()
+break B}if("gamify.levelTierLine"===q2){w=new A.cH5()
+break B}if("gamify.newQuestsLabel"===q2){w="\u0416\u0430\u04a3\u0430 \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440:"
+break B}if("gamify.levelUpContinue"===q2){w="\u0422\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456, \u04d9\u0440\u0456 \u049b\u0430\u0440\u0430\u0439"
+break B}if("gamify.streakDaysTitle"===q2){w=new A.cH6()
+break B}if("gamify.streakSubtitle"===q2){w="\u0421\u0435\u0440\u0438\u044f \u04af\u0437\u0456\u043b\u043c\u0435\u0439\u0434\u0456!"
+break B}if("gamify.fireBtn"===q2){w="\u041e\u0442!"
+break B}if("gamify.dailyBonusMessage"===q2){w="\u0411\u0456\u0440 \u043a\u04af\u043d\u0434\u0435 \u04af\u0448 \u043a\u0432\u0435\u0441\u0442!"
+break B}if("gamify.coinsToast"===q2){w=new A.cH7()
+break B}if("gamify.rank.spark"===q2){w="\u04b0\u0448\u049b\u044b\u043d"
+break B}if("gamify.rank.practitioner"===q2){w="\u0406\u0441\u043a\u0435\u0440"
+break B}if("gamify.rank.craftsman"===q2){w="\u0428\u0435\u0431\u0435\u0440"
+break B}if("gamify.rank.master"===q2){w="\u0425\u0430\u0441 \u0448\u0435\u0431\u0435\u0440"
+break B}if("gamify.rankCaption"===q2){w="\u0410\u0442\u0430\u049b"
+break B}if("gamify.xpCaption"===q2){w=f4
+break B}if("gamify.achievements.openLabel"===q2){w="\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440\u0434\u0456 \u0430\u0448\u0443"
+break B}if("gamify.achievements.levelChip"===q2){w=new A.cH8()
+break B}if("gamify.achievements.xpProgress"===q2){w=new A.cH9()
+break B}if("gamify.achievements.maxLevel"===q2){w=i8
+break B}if("gamify.achievements.seriesLabel"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0441\u0435\u0440\u0438\u044f\u04a3"
+break B}if("gamify.achievements.seriesDays"===q2){w=new A.cHa(q1)
+break B}if("gamify.achievements.seriesHintToday"===q2){w="\u0421\u0435\u0440\u0438\u044f\u043d\u044b \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u04af\u0433\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043f, \u0436\u0456\u0431\u0435\u0440"
+break B}if("gamify.achievements.seriesHintStart"===q2){w="\u0411\u04af\u0433\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0456\u0431\u0435\u0440 \u2014 \u0441\u0435\u0440\u0438\u044f \u0431\u0430\u0441\u0442\u0430\u043b\u0430\u0434\u044b"
+break B}if("gamify.achievements.seriesDoneToday"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0456 \u043a\u04af\u043d \u0441\u0435\u0440\u0438\u044f\u0493\u0430 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0434\u0456"
+break B}if("gamify.achievements.seriesRestart"===q2){w="\u0416\u0430\u04a3\u0430 \u044b\u0440\u0493\u0430\u049b \u0431\u0430\u0441\u0442\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. \u0411\u04b1\u0440\u044b\u043d\u0493\u044b \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456\u04a3 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break B}if("gamify.achievements.seriesBadgeDone"===q2){w="\u0410\u043b\u044b\u043d\u0434\u044b"
+break B}if("gamify.achievements.weekdays.mon"===q2){w="\u0414\u0441"
+break B}if("gamify.achievements.weekdays.tue"===q2){w="\u0421\u0441"
+break B}if("gamify.achievements.weekdays.wed"===q2){w="\u0421\u0440"
+break B}if("gamify.achievements.weekdays.thu"===q2){w="\u0411\u0441"
+break B}if("gamify.achievements.weekdays.fri"===q2){w="\u0416\u043c"
+break B}if("gamify.achievements.weekdays.sat"===q2){w="\u0421\u0431"
+break B}if("gamify.achievements.weekdays.sun"===q2){w="\u0416\u0441"
+break B}if("gamify.achievements.badgesLabel"===q2){w="\u0421\u0435\u043d\u0456\u04a3 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456\u04a3"
+break B}if("gamify.achievements.badgesCount"===q2){w=new A.cHc()
+break B}if("gamify.achievements.badgesEmpty"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0431\u0435\u043b\u0433\u0456 \u2014 \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0456\u0441\u0456\u04a3 \u04af\u0448\u0456\u043d"
+break B}if("gamify.achievements.loadError"===q2){w="\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break B}if("gamify.achievements.retry"===q2){w=i
+break B}if("gamify.achievements.badgeLabel"===q2){w="\u0411\u0435\u043b\u0433\u0456"
+break B}if("gamify.achievements.earnedOn"===q2){w=new A.cHd()
+break B}if("gamify.achievements.addedFromHistory"===q2){w=new A.cHe()
+break B}if("gamify.achievements.progress"===q2){w=new A.cHf()
+break B}if("gamify.achievements.tierProgress"===q2){w=new A.cHg()
+break B}if("gamify.achievements.allTiers"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0430\u0442\u044b\u043b\u0430\u0440 \u0430\u0448\u044b\u043b\u0434\u044b"
+break B}if("gamify.achievements.nextTier"===q2){w=new A.cHh()
+break B}if("gamify.achievements.close"===q2){w=k
+break B}if("gamify.achievements.collect"===q2){w="\u0410\u043b\u0443"
+break B}if("gamify.achievements.seeAll"===q2){w="\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043a\u04e9\u0440\u0443"
+break B}if("gamify.achievements.shareToFamily"===q2){w=c7
+break B}if("gamify.achievements.sharedToFamily"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0447\u0430\u0442\u049b\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break B}if("gamify.achievements.shareMessage"===q2){w=new A.cHi()
+break B}if("gamify.achievements.shareFailed"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0421\u04d9\u043b\u0434\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440"
+break B}if("gamify.achievements.semanticEarned"===q2){w=new A.cHj()
+break B}if("gamify.achievements.semanticAdded"===q2){w=new A.cHk()
+break B}if("gamify.achievements.semanticLocked"===q2){w=new A.cHl()
+break B}if("gamify.achievements.steps.taskAccepted"===q2){w="\u0406\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b"
+break B}if("gamify.achievements.steps.rewardRequested"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043b\u0434\u044b"
+break B}if("gamify.achievements.steps.rewardReceived"===q2){w=c6
+break B}if("gamify.achievements.moreBadges"===q2){w=new A.cHn(q1)
+break B}if("gamify.achievements.dayDone"===q2){w=new A.cHo()
+break B}if("gamify.achievements.dayToday"===q2){w=new A.cHp()
+break B}if("gamify.achievements.dayMissed"===q2){w=new A.cHq()
+break B}if("gamify.achievements.dayFuture"===q2){w=new A.cHr()
+break B}if("gamify.badges.fullCircle.name"===q2){w="\u0422\u043e\u043b\u044b\u049b \u0448\u0435\u04a3\u0431\u0435\u0440"
+break B}if("gamify.badges.fullCircle.condition"===q2){w=y.A
+break B}if("gamify.badges.fullCircle.congrats"===q2){w=y.jq
+break B}if("gamify.badges.fullCircle.parent"===q2){w=y.lM
+break B}if("gamify.badges.fiveTasks.name"===q2){w="\u0411\u0435\u0441 \u0456\u0441"
+break B}if("gamify.badges.fiveTasks.condition"===q2){w=y.ph
+break B}if("gamify.badges.fiveTasks.congrats"===q2){w=y.j1
+break B}if("gamify.badges.fiveTasks.parent"===q2){w=y.hr
+break B}if("gamify.badges.tryDifferent.name"===q2){w="\u0422\u04af\u0440\u043b\u0456-\u0442\u04af\u0440\u043b\u0456 \u0456\u0441\u0442\u0435\u0440"
+break B}if("gamify.badges.tryDifferent.condition"===q2){w="\u04ae\u0448 \u0442\u04af\u0440\u043b\u0456 \u0441\u0430\u043d\u0430\u0442\u0442\u0430\u0493\u044b \u0456\u0441\u0442\u0435\u0440\u0434\u0456 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440"
+break B}if("gamify.badges.tryDifferent.congrats"===q2){w=y.fv
+break B}if("gamify.badges.tryDifferent.parent"===q2){w=y.fZ
+break B}if("gamify.badges.missionDone.name"===q2){w="\u041c\u0438\u0441\u0441\u0438\u044f \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+break B}if("gamify.badges.missionDone.condition"===q2){w="\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0430\u044f\u049b\u0442\u0430"
+break B}if("gamify.badges.missionDone.congrats"===q2){w=y.c0
+break B}if("gamify.badges.missionDone.parent"===q2){w=y.oJ
+break B}if("gamify.badges.helpLovedOnes.name"===q2){w="\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u043c\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u043c\u0456\u043d"
+break B}w=v
+break B}if(w==null)C:{w=e
+if("gamify.badges.helpLovedOnes.condition"===q2){w=y.s
+break C}if("gamify.badges.helpLovedOnes.congrats"===q2){w="\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u04a3\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u043a\u0435\u043d \u0456\u0441\u0456\u04a3 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b!"
+break C}if("gamify.badges.helpLovedOnes.parent"===q2){w=y.fp
+break C}if("gamify.badges.threeDays.name"===q2){w="\u04ae\u0448 \u043a\u04af\u043d \u2014 \u04af\u0448 \u0456\u0441"
+break C}if("gamify.badges.threeDays.condition"===q2){w="\u04ae\u0448 \u043a\u04af\u043d \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d \u043a\u04af\u043d\u0456\u043d\u0435 \u0431\u0456\u0440 \u0456\u0441 \u0436\u0456\u0431\u0435\u0440"
+break C}if("gamify.badges.threeDays.congrats"===q2){w="\u04ae\u0448 \u043a\u04af\u043d \u2014 \u04af\u0448 \u0456\u0441! \u042b\u0440\u0493\u0430\u0493\u044b\u04a3\u0430 \u0431\u0435\u043b\u0433\u0456 \u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break C}if("gamify.badges.threeDays.parent"===q2){w=y.kU
+break C}if("gamify.badges.weekRhythm.name"===q2){w="\u042b\u0440\u0493\u0430\u049b\u0442\u044b \u0430\u043f\u0442\u0430"
+break C}if("gamify.badges.weekRhythm.condition"===q2){w=y.jr
+break C}if("gamify.badges.weekRhythm.congrats"===q2){w=y.gR
+break C}if("gamify.badges.weekRhythm.parent"===q2){w=y.gp
+break C}if("gamify.badges.firstReward.name"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0441\u044b\u0439\u043b\u044b\u049b"
+break C}if("gamify.badges.firstReward.condition"===q2){w=y.dV
+break C}if("gamify.badges.firstReward.congrats"===q2){w=y.ki
+break C}if("gamify.badges.firstReward.parent"===q2){w=y.k
+break C}if("gamify.badges.twentyFiveTasks.name"===q2){w="\u0416\u0438\u044b\u0440\u043c\u0430 \u0431\u0435\u0441 \u0456\u0441"
+break C}if("gamify.badges.twentyFiveTasks.condition"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d 25 \u0456\u0441\u0442\u0456 \u04e9\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u04a3\u043c\u0435\u043d \u0436\u0438\u043d\u0430"
+break C}if("gamify.badges.twentyFiveTasks.congrats"===q2){w=y.lZ
+break C}if("gamify.badges.twentyFiveTasks.parent"===q2){w=y.iV
+break C}if("gamify.badges.fiftyTasks.name"===q2){w="\u0415\u043b\u0443 \u0456\u0441"
+break C}if("gamify.badges.fiftyTasks.condition"===q2){w=y.p4
+break C}if("gamify.badges.fiftyTasks.congrats"===q2){w=y.an
+break C}if("gamify.badges.fiftyTasks.parent"===q2){w=y.lF
+break C}if("gamify.badges.tenDays.name"===q2){w="\u04e8\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u043c\u043c\u0435\u043d \u043e\u043d \u043a\u04af\u043d"
+break C}if("gamify.badges.tenDays.condition"===q2){w=y.oq
+break C}if("gamify.badges.tenDays.congrats"===q2){w=y.iR
+break C}if("gamify.badges.tenDays.parent"===q2){w=y.W
+break C}if("gamify.badges.fiveMissions.name"===q2){w="\u0411\u0435\u0441 \u043c\u0438\u0441\u0441\u0438\u044f"
+break C}if("gamify.badges.fiveMissions.condition"===q2){w=y.I
+break C}if("gamify.badges.fiveMissions.congrats"===q2){w=y.l3
+break C}if("gamify.badges.fiveMissions.parent"===q2){w=y.lW
+break C}if("gamify.badges.growMind.name"===q2){w="\u0410\u049b\u044b\u043b\u044b\u043c\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"
+break C}if("gamify.badges.growMind.condition"===q2){w=y.hn
+break C}if("gamify.badges.growMind.congrats1"===q2){w=y.nX
+break C}if("gamify.badges.growMind.congrats2"===q2){w=y.l
+break C}if("gamify.badges.growMind.congrats3"===q2){w=y.eV
+break C}if("gamify.badges.growMind.parent1"===q2){w="\u0416\u0438\u043d\u0430\u043b\u0493\u0430\u043d 5 \u0410\u049b\u044b\u043b \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"
+break C}if("gamify.badges.growMind.parent2"===q2){w=i9
+break C}if("gamify.badges.growMind.parent3"===q2){w=y.k6
+break C}if("gamify.badges.growStrength.name"===q2){w="\u041a\u04af\u0448\u0456\u043c\u0434\u0456 \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"
+break C}if("gamify.badges.growStrength.condition"===q2){w=y.S
+break C}if("gamify.badges.growStrength.congrats1"===q2){w=y.ei
+break C}if("gamify.badges.growStrength.congrats2"===q2){w=y.fN
+break C}if("gamify.badges.growStrength.congrats3"===q2){w=y.fK
+break C}if("gamify.badges.growStrength.parent1"===q2){w="5 \u041a\u04af\u0448 \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"
+break C}if("gamify.badges.growStrength.parent2"===q2){w=y.b2
+break C}if("gamify.badges.growStrength.parent3"===q2){w=y.D
+break C}if("gamify.badges.growSoul.name"===q2){w="\u0416\u0430\u043d\u044b\u043c\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"
+break C}if("gamify.badges.growSoul.condition"===q2){w=y.da
+break C}if("gamify.badges.growSoul.congrats1"===q2){w=y.gv
+break C}if("gamify.badges.growSoul.congrats2"===q2){w=y.nl
+break C}if("gamify.badges.growSoul.congrats3"===q2){w=y.mf
+break C}if("gamify.badges.growSoul.parent1"===q2){w="5 \u0416\u0430\u043d \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"
+break C}if("gamify.badges.growSoul.parent2"===q2){w=i9
+break C}if("gamify.badges.growSoul.parent3"===q2){w=y.z
+break C}if("gamify.direction.levelLine"===q2){w=new A.cHs()
+break C}if("gamify.direction.toNext"===q2){w=new A.cHt()
+break C}if("gamify.direction.max"===q2){w=i8
+break C}if("gamify.direction.goToTasks"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0493\u0430 \u04e9\u0442\u0443"
+break C}if("gamify.direction.newLevel"===q2){w=i7
+break C}if("gamify.direction.strength.title"===q2){w=h3
+break C}if("gamify.direction.strength.hint"===q2){w=y.bq
+break C}if("gamify.direction.strength.levelUp"===q2){w=new A.cHu()
+break C}if("gamify.direction.mind.title"===q2){w=h1
+break C}if("gamify.direction.mind.hint"===q2){w=y.p
+break C}if("gamify.direction.mind.levelUp"===q2){w=new A.cHv()
+break C}if("gamify.direction.soul.title"===q2){w=h2
+break C}if("gamify.direction.soul.hint"===q2){w=y.o
+break C}if("gamify.direction.soul.levelUp"===q2){w=new A.cHw()
+break C}if("gamify.parent.title"===q2){w="\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440"
+break C}if("gamify.parent.badgesOf"===q2){w=new A.cHy()
+break C}if("gamify.parent.rankLine"===q2){w=new A.cHz()
+break C}if("gamify.parent.seriesLine"===q2){w=new A.cHA(q1)
+break C}if("gamify.parent.openAll"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440"
+break C}if("gamify.parent.earnedOn"===q2){w=new A.cHB()
+break C}if("gamify.parent.addedFromHistory"===q2){w=new A.cHC()
+break C}if("gamify.parent.notYet"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0430\u043b\u044b\u043d\u0431\u0430\u0493\u0430\u043d"
+break C}if("gamify.parent.progress"===q2){w=new A.cHD()
+break C}if("gamify.parent.explain"===q2){w=y.eU
+break C}if("gamify.parent.badgesEmpty"===q2){w=y.p3
+break C}if("leaderboard.levelTitle"===q2){w=new A.cHE()
+break C}if("leaderboard.removeFriendTooltip"===q2){w=j0
+break C}if("leaderboard.removeFriendTitle"===q2){w="\u0414\u043e\u0441\u0442\u044b \u0436\u043e\u044e \u043a\u0435\u0440\u0435\u043a \u043f\u0435?"
+break C}if("leaderboard.removeFriendBody"===q2){w=new A.cHF()
+break C}if("leaderboard.removeFriendAction"===q2){w=j0
+break C}if("leaderboard.friendRemovedToast"===q2){w="\u0414\u043e\u0441 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0442\u0435\u043d \u0436\u043e\u0439\u044b\u043b\u0434\u044b"
+break C}if("leaderboard.removeFriendError"===q2){w="\u0414\u043e\u0441\u0442\u044b \u0436\u043e\u044e \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440."
+break C}if("paywall.securePaymentTitle"===q2){w="\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0442\u04e9\u043b\u0435\u043c"
+break C}if("paywall.paylovStartFailed"===q2){w="\u0422\u04e9\u043b\u0435\u043c \u0431\u0435\u0442\u0456\u043d \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."
+break C}if("security.enterParentPin"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 PIN-\u0456\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break C}if("security.confirmItsYou"===q2){w=j1
+break C}if("security.useFaceId"===q2){w="Face ID \u049b\u043e\u043b\u0434\u0430\u043d\u0443"
+break C}if("security.useTouchId"===q2){w="Touch ID \u049b\u043e\u043b\u0434\u0430\u043d\u0443"
+break C}if("security.useBiometric"===q2){w="\u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u044f\u043d\u044b \u049b\u043e\u043b\u0434\u0430\u043d\u0443"
+break C}if("security.forgotPin"===q2){w="PIN \u04b1\u043c\u044b\u0442\u0442\u044b\u04a3\u044b\u0437 \u0431\u0430?"
+break C}if("security.forgotPinBody"===q2){w="PIN-\u0434\u0456 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u0430\u043d \u0448\u044b\u0493\u044b\u043f, email \u0436\u04d9\u043d\u0435 \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0431\u0435\u043d \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437. \u041a\u0456\u0440\u0433\u0435\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u0430\u0442\u0430-\u0430\u043d\u0430 \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u0436\u0430\u04a3\u0430 PIN \u043e\u0440\u043d\u0430\u0442\u0430 \u0430\u043b\u0430\u0441\u044b\u0437."
+break C}if("security.logoutAndResetPin"===q2){w="\u0428\u044b\u0493\u044b\u043f, PIN-\u0434\u0456 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443"
+break C}if("security.wrongPin"===q2){w="\u049a\u0430\u0442\u0435 PIN"
+break C}if("security.pinMustBe4Digits"===q2){w="PIN 4 \u0441\u0430\u043d\u043d\u0430\u043d \u0442\u04b1\u0440\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break C}if("security.familyNotResolved"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u044b \u0430\u043d\u044b\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("security.tryAgainInSeconds"===q2){w=new A.cHG()
+break C}if("security.enableBiometric"===q2){w="Face ID / Touch ID \u049b\u043e\u0441\u0443"
+break C}if("security.quickEntryWithoutPin"===q2){w="PIN \u0435\u043d\u0433\u0456\u0437\u0431\u0435\u0439 \u0436\u044b\u043b\u0434\u0430\u043c \u043a\u0456\u0440\u0443"
+break C}if("security.enterCurrentPin"===q2){w="\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b PIN-\u0434\u0456 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break C}if("security.setNewPin"===q2){w="\u0416\u0430\u04a3\u0430 PIN \u043e\u0440\u043d\u0430\u0442\u044b\u04a3\u044b\u0437"
+break C}if("security.setParentPin"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 PIN-\u0456\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u04a3\u044b\u0437"
+break C}if("security.repeatPin"===q2){w="PIN-\u0434\u0456 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u04a3\u044b\u0437"
+break C}if("security.pinProtectsParentMode"===q2){w="\u0411\u04b1\u043b PIN \u0430\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u043a\u0456\u0440\u0443\u0434\u0456 \u049b\u043e\u0440\u0493\u0430\u0439\u0434\u044b"
+break C}if("security.onceMoreToConfirm"===q2){w="\u0420\u0430\u0441\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0442\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442"
+break C}if("security.tooManyAttempts"===q2){w=new A.cHH()
+break C}if("security.pinMismatch"===q2){w="PIN \u043a\u043e\u0434\u0442\u0430\u0440 \u0441\u04d9\u0439\u043a\u0435\u0441 \u043a\u0435\u043b\u043c\u0435\u0439\u0434\u0456"
+break C}if("security.biometricPromptReason"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"
+break C}if("security.resetOwnerReason"===q2){w="PIN \u043a\u043e\u0434\u0442\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u04b1\u043b \u0441\u0456\u0437 \u0435\u043a\u0435\u043d\u0456\u04a3\u0456\u0437\u0434\u0456 \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"
+break C}if("security.resetOwnerRefused"===q2){w="PIN \u043a\u043e\u0434 \u0442\u0435\u043a Face ID, Touch ID \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u0441\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u044b\u04a3 \u043a\u043e\u0434\u044b \u0430\u0440\u049b\u044b\u043b\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0456\u043b\u0435\u0434\u0456"
+break C}if("security.askParentTitle"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0441\u04b1\u0440\u0430"
+break C}if("security.askParentMessage"===q2){w=y.hF
+break C}if("security.askParentOk"===q2){w=g2
+break C}if("security.childExitTitle"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u04a3 \u0431\u0430?"
+break C}if("security.childExitMessage"===q2){w=y.dd
+break C}if("security.childExitConfirm"===q2){w=a8
+break C}if("security.childExitStay"===q2){w="\u049a\u0430\u043b\u0443"
+break C}if("security.pinAlreadySet"===q2){w="PIN \u0431\u04b1\u0440\u044b\u043d\u043d\u0430\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u043b\u0493\u0430\u043d. \u0416\u0430\u04a3\u0430\u0441\u044b\u043d \u043e\u0440\u043d\u0430\u0442\u0443 \u04af\u0448\u0456\u043d \u043e\u043d\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break C}if("security.pinHiddenWhileCaptured"===q2){w="\u042d\u043a\u0440\u0430\u043d \u0436\u0430\u0437\u044b\u043b\u044b\u043f \u043d\u0435 \u0442\u0430\u0440\u0430\u0442\u044b\u043b\u044b\u043f \u0436\u0430\u0442\u044b\u0440. PIN \u0435\u043d\u0433\u0456\u0437\u0443 \u04af\u0448\u0456\u043d \u043e\u043d\u044b \u0442\u043e\u049b\u0442\u0430\u0442\u044b\u04a3\u044b\u0437."
+break C}if("growth.title"===q2){w="\u04e8\u0441\u0443 \u043a\u0430\u0440\u0442\u0430\u0441\u044b"
+break C}if("growth.subtitle"===q2){w="\u0420\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u049b\u0430\u043b\u0430\u0439 \u0434\u0430\u043c\u044b\u043f \u0436\u0430\u0442\u049b\u0430\u043d\u044b\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0434\u0456"
+break C}if("growth.profileInsight"===q2){w=new A.cHJ()
+break C}if("growth.interestPickerTitle"===q2){w="\u0411\u0430\u043b\u0430\u0493\u0430 \u043d\u0435 \u04b1\u043d\u0430\u0439\u0434\u044b"
+break C}if("growth.interestPickerSubtitle"===q2){w="\u0411\u0456\u0440\u043d\u0435\u0448\u0435 \u049b\u044b\u0437\u044b\u0493\u0443\u0448\u044b\u043b\u044b\u049b\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437 \u2014 \u0436\u0430\u04a3\u0430 \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u0438\u043d\u0430\u0493\u044b \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u04b1\u0440\u044b\u043b\u0430\u0434\u044b."
+break C}if("growth.wellbeingTitle"===q2){w="\u0422\u04d9\u0440\u0442\u0456\u043f \u043f\u0435\u043d \u049b\u0438\u043c\u044b\u043b"
+break C}if("growth.wellbeingSubtitle"===q2){w="\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u04a3\u0434\u0430\u0493\u0430\u043d\u0434\u0430 \u043d\u0435\u043d\u0456 \u0435\u0441\u043a\u0435\u0440\u0443 \u043a\u0435\u0440\u0435\u0433\u0456\u043d \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u04a3\u0456\u0437."
+break C}if("growth.wellbeingPrivacy"===q2){w="\u0411\u0430\u043b\u0430 \u0442\u0435\u043a \u043a\u04d9\u0434\u0456\u043c\u0433\u0456 \u043a\u0432\u0435\u0441\u0442\u0442\u0456 \u043a\u04e9\u0440\u0435\u0434\u0456 \u2014 \u0431\u04b1\u043b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \u043c\u0435\u043d \u0442\u0430\u04a3\u0434\u0430\u0443 \u0441\u0435\u0431\u0435\u0431\u0456 \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456."
+break C}if("growth.wellbeingSaveError"===q2){w="\u0422\u04d9\u0440\u0442\u0456\u043f \u0431\u0430\u043f\u0442\u0430\u0443\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("growth.recommendationsTitle"===q2){w="\u041a\u0435\u043b\u0435\u0441\u0456 \u043d\u0435\u043d\u0456 \u0431\u0430\u0439\u049b\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("growth.emergingTitle"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u049b\u0430\u043b\u044b\u043f\u0442\u0430\u0441\u044b\u043f \u0436\u0430\u0442\u044b\u0440"
+break C}if("growth.emergingBody"===q2){w="\u04d8\u0440\u0442\u04af\u0440\u043b\u0456 \u043a\u04af\u043d\u0434\u0435\u0440\u0434\u0435 \u0442\u0430\u0493\u044b \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0440\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u043a\u0432\u0435\u0441\u0442 \u049b\u0430\u0436\u0435\u0442. \u0411\u04b1\u043b \u0431\u0430\u0493\u0430 \u0434\u0430, \u0434\u0438\u0430\u0433\u043d\u043e\u0437 \u0434\u0430 \u0435\u043c\u0435\u0441."
+break C}if("growth.evidenceProgress"===q2){w=new A.cHK()
+break C}if("growth.domainCognitive"===q2){w=h1
+break C}if("growth.domainCreative"===q2){w=h2
+break C}if("growth.domainPhysical"===q2){w="\u0414\u0435\u043d\u0435"
+break C}if("growth.zeroPhysical"===q2){w="\u041a\u04af\u0442\u0435\u043c\u0456\u0437!"
+break C}if("growth.zeroCognitive"===q2){w="\u0416\u043e\u043b\u0493\u0430 \u0448\u044b\u049b"
+break C}if("growth.zeroCreative"===q2){w="\u049a\u0430\u0434\u0430\u043c \u0431\u0430\u0441"
+break C}if("growth.verifiedQuests"===q2){w=new A.cHL()
+break C}if("growth.activeDays"===q2){w=new A.cHM()
+break C}if("growth.statusWaitlist"===q2){w="\u0416\u0430\u049b\u044b\u043d\u0434\u0430"
+break C}if("growth.adviceAvailable"===q2){w="\u0411\u04b1\u043b \u0438\u0434\u0435\u044f\u043d\u044b \u049b\u0430\u0437\u0456\u0440\u0434\u0456\u04a3 \u04e9\u0437\u0456\u043d\u0434\u0435 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("growth.reasonSavedInterest"===q2){w="\u0421\u0456\u0437 \u0431\u04b1\u043b \u0431\u0430\u0493\u044b\u0442\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0434\u044b\u04a3\u044b\u0437"
+break C}if("growth.reasonBuildOnProgress"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0493\u0430 \u0441\u04d9\u0439\u043a\u0435\u0441"
+break C}if("growth.reasonExploreDomain"===q2){w="\u0417\u0435\u0440\u0442\u0442\u0435\u0443\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430 \u0438\u0434\u0435\u044f"
+break C}if("growth.partnerBlockTitle"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0441\u0435\u0440\u0456\u043a\u0442\u0435\u0441\u0442\u0435\u0440"
+break C}if("growth.partnerSourcing"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0441\u0435\u0440\u0456\u043a\u0442\u0435\u0441\u0442\u0435\u0440\u0434\u0456 \u0456\u0437\u0434\u0435\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437"
+break C}if("growth.partnerReview"===q2){w="\u0421\u0435\u0440\u0456\u043a\u0442\u0435\u0441\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437"
+break C}if("growth.partnerPaused"===q2){w="\u0421\u0435\u0440\u0456\u043a\u0442\u0435\u0441 \u04b1\u0441\u044b\u043d\u044b\u0441\u044b \u0443\u0430\u049b\u044b\u0442\u0448\u0430 \u0442\u043e\u049b\u0442\u0430\u0442\u044b\u043b\u0493\u0430\u043d"
+break C}if("growth.partnerAvailable"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u04b1\u0441\u044b\u043d\u044b\u0441 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456"
+break C}if("growth.partnerInterest"===q2){w="\u041c\u0430\u0493\u0430\u043d \u049b\u044b\u0437\u044b\u049b"
+break C}if("growth.partnerOpen"===q2){w="\u04b0\u0441\u044b\u043d\u044b\u0441\u0442\u044b \u0430\u0448\u0443"
+break C}if("growth.partnerConsentHint"===q2){w="\u0411\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u0442\u0435\u043a \u0441\u0456\u0437\u0434\u0456\u04a3 \u043d\u0430\u049b\u0442\u044b \u043a\u0435\u043b\u0456\u0441\u0456\u043c\u0456\u04a3\u0456\u0437\u0434\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u0430\u0448\u044b\u043b\u0430\u0434\u044b."
+break C}if("growth.partnerActionError"===q2){w="\u04b0\u0441\u044b\u043d\u044b\u0441 \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0448\u044b\u043b\u043c\u0430\u0434\u044b"
+break C}if("growth.readiness"===q2){w=new A.cHN()
+break C}if("growth.interest"===q2){w="\u0411\u0430\u0493\u044b\u0442\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443"
+break C}if("growth.interestSaved"===q2){w="\u0411\u0430\u0493\u044b\u0442 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break C}if("growth.removeInterest"===q2){w="\u0421\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d\u0434\u0430\u0440\u0434\u0430\u043d \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"
+break C}if("growth.interestRemoved"===q2){w="\u0411\u0430\u0493\u044b\u0442 \u0441\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d\u0434\u0430\u0440\u0434\u0430\u043d \u0430\u043b\u044b\u043d\u0434\u044b"
+break C}if("growth.interestSaveError"===q2){w="\u0411\u0430\u0493\u044b\u0442\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("growth.openProfile"===q2){w="\u04e8\u0441\u0443 \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043d \u0430\u0448\u0443"
+break C}if("growth.foxGrowing"===q2){w="\u0424\u043e\u043a\u0441 \u04e9\u0441\u0456\u043f \u043a\u0435\u043b\u0435\u0434\u0456"
+break C}if("growth.retry"===q2){w="\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0443"
+break C}if("growth.profileLoadError"===q2){w="\u04e8\u0441\u0443 \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("votingLab.title"===q2){w="\u0417\u0435\u0440\u0442\u0445\u0430\u043d\u0430"
+break C}if("votingLab.subtitle"===q2){w="\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043b\u0430\u0440\u0493\u0430 \u0434\u0430\u0443\u044b\u0441 \u0431\u0435\u0440\u0456\u04a3\u0456\u0437"
+break C}if("votingLab.emptyState"===q2){w="\u0414\u0430\u0443\u044b\u0441 \u0431\u0435\u0440\u0443\u043b\u0435\u0440 \u0436\u0443\u044b\u0440\u0434\u0430 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("votingLab.voteCounted"===q2){w="\u2713  \u0414\u0430\u0443\u044b\u0441 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0434\u0456"
+break C}if("votingLab.vote"===q2){w="\u0414\u0430\u0443\u044b\u0441 \u0431\u0435\u0440\u0443"
+break C}if("childAccess.parentTitle"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b \u043e\u0439\u044b\u043d\u0493\u0430 \u0448\u0430\u049b\u044b\u0440\u0443"
+break C}if("childAccess.parentSubtitle"===q2){w="\u041a\u0456\u0440\u0443\u0434\u0456\u04a3 \u04af\u0448 \u0442\u04d9\u0441\u0456\u043b\u0456\u043d\u0456\u04a3 \u0431\u0456\u0440\u0456\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break C}if("childAccess.generating"===q2){w="\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0436\u0430\u0441\u0430\u043b\u0443\u0434\u0430\u2026"
+break C}if("childAccess.linkLabel"===q2){w=new A.cHO()
+break C}if("childAccess.expiresAt"===q2){w=new A.cHP()
+break C}if("childAccess.oneTimeHint"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a. \u0416\u0430\u04a3\u0430 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0430\u043b\u0434\u044b\u04a3\u0493\u044b\u0441\u044b\u043d \u0431\u0456\u0440\u0434\u0435\u043d \u04e9\u0448\u0456\u0440\u0435\u0434\u0456."
+break C}if("childAccess.regenerate"===q2){w="\u0416\u0430\u04a3\u0430 \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0436\u0430\u0441\u0430\u0443"
+break C}if("childAccess.share"===q2){w="\u0411\u04e9\u043b\u0456\u0441\u0443"
+break C}if("childAccess.codeMethod"===q2){w="\u041a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b"
+break C}if("childAccess.linkMethod"===q2){w="\u041a\u0456\u0440\u0443 \u0441\u0456\u043b\u0442\u0435\u043c\u0435\u0441\u0456"
+break C}if("childAccess.codeCopied"===q2){w=j2
+break C}if("childAccess.linkCopied"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u043a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456"
+break C}if("childAccess.shareText"===q2){w=new A.cHQ()
+break C}if("childAccess.childTitle"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0433\u0435 \u043a\u0456\u0440\u0443"
+break C}if("childAccess.childSubtitle"===q2){w=y.dL
+break C}if("childAccess.signingIn"===q2){w="\u041a\u0456\u0440\u0443\u0434\u0435\u2026"
+break C}if("childAccess.success"===q2){w="\u0414\u0430\u0439\u044b\u043d! \u041f\u0440\u043e\u0444\u0438\u043b\u044c \u0430\u0448\u044b\u043b\u0434\u044b."
+break C}if("childAccess.invalid"===q2){w=y.bN
+break C}if("childAccess.expired"===q2){w=y.iB
+break C}if("childAccess.parentSession"===q2){w="\u0411\u04b1\u043b \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d"
+break C}if("childAccess.phoneRequired"===q2){w="\u041a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u043d\u04e9\u043c\u0456\u0440\u0456\u043d \u0440\u0430\u0441\u0442\u0430\u0443 \u049b\u0430\u0436\u0435\u0442."
+break C}if("childAccess.tryAgain"===q2){w=i
+break C}if("childAccess.sessionEnded"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u0431\u0430\u0441\u049b\u0430 \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0434\u0430 \u0430\u0448\u044b\u043b\u0434\u044b. \u049a\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437."
+break C}if("childAccess.checking"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437\u2026"
+break C}if("childAccess.confirmChild"===q2){w=new A.cHR()
+break C}if("childAccess.confirmInviter"===q2){w=new A.cHS()
+break C}if("childAccess.confirmInviterSwitch"===q2){w=new A.cHV()
+break C}if("childAccess.confirmSwitch"===q2){w=y.kO
+break C}if("childAccess.confirmUnnamed"===q2){w=y.eQ
+break C}if("childAccess.confirmYes"===q2){w="\u0418\u04d9, \u0431\u04b1\u043b \u043c\u0435\u043d"
+break C}if("childAccess.confirmJoin"===q2){w="\u0418\u04d9"
+break C}if("childAccess.confirmNo"===q2){w="\u0416\u043e\u049b"
+break C}if("calendar.monthJan"===q2){w="\u049b\u0430\u04a3"
+break C}if("calendar.monthFeb"===q2){w="\u0430\u049b\u043f"
+break C}if("calendar.monthMar"===q2){w="\u043d\u0430\u0443"
+break C}if("calendar.monthApr"===q2){w="\u0441\u04d9\u0443"
+break C}if("calendar.monthMay"===q2){w="\u043c\u0430\u043c"
+break C}if("calendar.monthJun"===q2){w="\u043c\u0430\u0443"
+break C}if("calendar.monthJul"===q2){w="\u0448\u0456\u043b"
+break C}if("calendar.monthAug"===q2){w="\u0442\u0430\u043c"
+break C}if("calendar.monthSep"===q2){w="\u049b\u044b\u0440"
+break C}if("calendar.monthOct"===q2){w="\u049b\u0430\u0437"
+break C}if("calendar.monthNov"===q2){w="\u049b\u0430\u0440"
+break C}if("calendar.monthDec"===q2){w="\u0436\u0435\u043b"
+break C}if("calendar.dowMon"===q2){w="\u0414\u0421"
+break C}if("calendar.dowTue"===q2){w="\u0421\u0421"
+break C}if("calendar.dowWed"===q2){w="\u0421\u0420"
+break C}if("calendar.dowThu"===q2){w="\u0411\u0421"
+break C}if("calendar.dowFri"===q2){w="\u0416\u041c"
+break C}if("calendar.dowSat"===q2){w="\u0421\u0411"
+break C}if("calendar.dowSun"===q2){w="\u0416\u0421"
+break C}if("calendar.todayUpper"===q2){w="\u0411\u04ae\u0413\u0406\u041d"
+break C}if("calendar.yesterdayUpper"===q2){w="\u041a\u0415\u0428\u0415"
+break C}if("calendar.doneAndActive"===q2){w="\u041e\u0420\u042b\u041d\u0414\u0410\u041b\u0492\u0410\u041d \u0416\u04d8\u041d\u0415 \u0411\u0415\u041b\u0421\u0415\u041d\u0414\u0406"
+break C}if("diagnostics.networkTitle"===q2){w="\u0416\u0435\u043b\u0456 \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440\u044b"
+break C}if("diagnostics.searchHint"===q2){w="\u041c\u0435\u043a\u0435\u043d\u0436\u0430\u0439, \u04d9\u0434\u0456\u0441 \u043d\u0435\u043c\u0435\u0441\u0435 \u043a\u04af\u0439 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u0456\u0437\u0434\u0435\u0443"
+break C}if("diagnostics.empty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440 \u0436\u043e\u049b"
+break C}if("diagnostics.noMatches"===q2){w="\u0421\u04b1\u0440\u0430\u0443\u043b\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break C}if("diagnostics.request"===q2){w="\u0421\u04b1\u0440\u0430\u0443"
+break C}if("diagnostics.response"===q2){w="\u0416\u0430\u0443\u0430\u043f"
+break C}if("diagnostics.headers"===q2){w="\u0422\u0430\u049b\u044b\u0440\u044b\u043f\u0442\u0430\u0440"
+break C}if("diagnostics.body"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440"
+break C}if("diagnostics.clear"===q2){w="\u0422\u0456\u0437\u0456\u043c\u0434\u0456 \u0442\u0430\u0437\u0430\u043b\u0430\u0443"
+break C}if("diagnostics.legacy"===q2){w="Chucker \u0430\u0448\u0443"
+break C}if("diagnostics.error"===q2){w="\u0421\u04b1\u0440\u0430\u0443 \u049b\u0430\u0442\u0435\u0441\u0456"
+break C}if("diagnostics.emptyBody"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u043e\u049b"
+break C}if("parentFlow.common.back"===q2){w=j
+break C}if("parentFlow.common.close"===q2){w=k
+break C}if("parentFlow.common.retry"===q2){w=i
+break C}if("parentFlow.common.kContinue"===q2){w=q
+break C}if("parentFlow.common.gotIt"===q2){w=g2
+break C}if("parentFlow.common.toHome"===q2){w="\u0411\u0430\u0441\u0442\u044b \u0431\u0435\u0442\u043a\u0435"
+break C}if("parentFlow.common.done"===q2){w=f
+break C}if("parentFlow.common.save"===q2){w=o
+break C}if("parentFlow.common.cancel"===q2){w=n
+break C}if("parentFlow.common.all"===q2){w="\u0411\u0430\u0440\u043b\u044b\u0493\u044b"
+break C}if("parentFlow.common.search"===q2){w="\u0406\u0437\u0434\u0435\u0443"
+break C}if("parentFlow.common.loadError"===q2){w=y.o6
+break C}if("parentFlow.common.saveError"===q2){w=j3
+break C}if("parentFlow.common.sessionExpired"===q2){w="\u0421\u0435\u0441\u0441\u0438\u044f \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u0431\u0456\u0442\u0442\u0456. \u049a\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"
+break C}if("parentFlow.common.notAllowed"===q2){w="\u0411\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442\u043a\u0435 \u0440\u04b1\u049b\u0441\u0430\u0442\u044b\u04a3\u044b\u0437 \u0436\u043e\u049b"
+break C}if("parentFlow.common.remove"===q2){w=new A.cHW()
+break C}if("parentFlow.common.today"===q2){w=g7
+break C}if("parentFlow.common.tomorrow"===q2){w=j4
+break C}if("parentFlow.common.yesterday"===q2){w="\u041a\u0435\u0448\u0435"
+break C}if("parentFlow.common.todayAt"===q2){w=new A.cHX()
+break C}if("parentFlow.common.tomorrowAt"===q2){w=new A.cHY()
+break C}if("parentFlow.common.yesterdayAt"===q2){w=new A.cHZ()
+break C}if("parentFlow.common.dateAt"===q2){w=new A.cI_()
+break C}if("parentFlow.common.minutes"===q2){w=new A.cI0(q1)
+break C}if("parentFlow.common.coins"===q2){w=new A.cI1(q1)
+break C}if("parentFlow.common.rewardSemantics"===q2){w=new A.cI2()
+break C}if("parentFlow.common.premium"===q2){w="Oyna Premium"
+break C}if("parentFlow.shell.home"===q2){w="\u0411\u0430\u0441\u0442\u044b"
+break C}if("parentFlow.shell.tasks"===q2){w=c9
+break C}if("parentFlow.shell.rewards"===q2)break C
+if("parentFlow.shell.assistant"===q2){w=g6
+break C}if("parentFlow.shell.add"===q2){w=j5
+break C}if("parentFlow.shell.addClose"===q2){w=k
+break C}if("parentFlow.shell.addTask"===q2){w=j6
+break C}if("parentFlow.shell.addReward"===q2){w=j7
+break C}if("parentFlow.home.profile"===q2){w=d
+break C}if("parentFlow.home.notifications"===q2){w=j8
+break C}if("parentFlow.home.aiEyebrow"===q2){w="\u0422\u0430\u043b\u0434\u0430\u0443\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d\u0433\u0456 AI \u043a\u0435\u04a3\u0435\u0441\u0456"
+break C}if("parentFlow.home.aiWelcome"===q2){w=y.mS
+break C}if("parentFlow.home.aiOpenChat"===q2){w=j9
+break C}if("parentFlow.home.rewardsTitle"===q2)break C
+if("parentFlow.home.rewardsCaption"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04af\u0448\u0456\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u0431\u0435\u0440\u0443 \u043a\u0435\u0440\u0435\u043a"
+break C}if("parentFlow.home.reviewTitle"===q2){w=a1
+break C}if("parentFlow.home.reviewCount"===q2){w=new A.cI3(q1)
+break C}if("parentFlow.home.reviewNone"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0436\u043e\u049b"
+break C}if("parentFlow.home.helpTitle"===q2){w="\u041a\u04e9\u043c\u0435\u043a"
+break C}if("parentFlow.home.helpCount"===q2){w=new A.cI5(q1)
+break C}if("parentFlow.home.familyTitle"===q2){w=b0
+break C}if("parentFlow.home.familyCaption"===q2){w=new A.cI6()
+break C}if("parentFlow.home.childProgress"===q2){w=new A.cI7()
+break C}if("parentFlow.home.childWaitingHe"===q2){w=k0
+break C}if("parentFlow.home.childWaitingShe"===q2){w=k0
+break C}if("parentFlow.home.childWaiting"===q2){w=k1
+break C}if("parentFlow.home.adultMe"===q2){w="\u0411\u04b1\u043b \u0441\u0456\u0437!"
+break C}if("parentFlow.home.addChild"===q2){w=k2
+break C}if("parentFlow.home.noChildrenTitle"===q2){w="\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"
+break C}if("parentFlow.home.noChildrenBody"===q2){w=k3
+break C}if("parentFlow.home.firstStepsTip"===q2){w="AI \u0434\u04b1\u0440\u044b\u0441 \u0431\u0430\u0441\u0442\u0430\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456"
+break C}if("parentFlow.home.firstStepsTitle"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u0441\u0430\u0439\u044b\u049b \u043f\u0430?"
+break C}if("parentFlow.home.firstStepsBody"===q2){w=y.he
+break C}if("parentFlow.home.firstStepsTasks"===q2){w="\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u0441\u0443"
+break C}if("parentFlow.home.firstStepsTasksCaption"===q2){w="\u0411\u0456\u0440\u043d\u0435\u0448\u0435\u0443\u0456\u043d\u0435\u043d \u0431\u0430\u0441\u0442\u0430\u043f, \u043a\u0435\u0439\u0456\u043d \u043a\u04e9\u0431\u0435\u0439\u0442\u0435\u043c\u0456\u0437"
+break C}if("parentFlow.home.firstStepsRewards"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u049b\u043e\u0441\u0443"
+break C}if("parentFlow.home.firstStepsRewardsCaption"===q2){w=y.E
+break C}if("parentFlow.home.firstStepsDone"===q2){w=d1
+break C}if("parentFlow.home.adultSlotTitle"===q2){w=a5
+break C}if("parentFlow.home.adultSlotAction"===q2){w=t
+break C}if("parentFlow.home.adultSlotSheetTitle"===q2){w=k4
+break C}if("parentFlow.home.adultSlotSheetBody"===q2){w=k5
+break C}if("parentFlow.roles.father"===q2){w="\u04d8\u043a\u0435"
+break C}if("parentFlow.roles.mother"===q2){w="\u0410\u043d\u0430"
+break C}if("parentFlow.roles.grandmother"===q2){w="\u04d8\u0436\u0435"
+break C}if("parentFlow.roles.grandfather"===q2){w="\u0410\u0442\u0430"
+break C}if("parentFlow.roles.guardian"===q2){w="\u049a\u0430\u043c\u049b\u043e\u0440\u0448\u044b"
+break C}if("parentFlow.roles.other"===q2){w="\u0415\u0440\u0435\u0441\u0435\u043a"
+break C}if("parentFlow.child.back"===q2){w=j
+break C}if("parentFlow.child.settings"===q2){w=k6
+break C}if("parentFlow.child.ask"===q2){w=k7
+break C}if("parentFlow.child.voice"===q2){w="\u0414\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"
+break C}if("parentFlow.child.balance"===q2){w=new A.cI8()
+break C}if("parentFlow.child.level"===q2){w=new A.cI9()
+break C}if("parentFlow.child.xp"===q2){w=new A.cIa()
+break C}if("parentFlow.child.xpMax"===q2){w=i8
+break C}if("parentFlow.child.strength"===q2){w=h3
+break C}if("parentFlow.child.mind"===q2){w=h1
+break C}if("parentFlow.child.soul"===q2){w=h2
+break C}if("parentFlow.child.helpTitle"===q2){w="\u041a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430\u0443"
+break C}if("parentFlow.child.helpCount"===q2){w=new A.cIb(q1)
+break C}if("parentFlow.child.helpNone"===q2){w="\u04e8\u0442\u0456\u043d\u0456\u0448 \u0436\u043e\u049b"
+break C}if("parentFlow.child.reviewTitle"===q2){w=a1
+break C}if("parentFlow.child.rewardsTitle"===q2)break C
+if("parentFlow.child.rewardsCount"===q2){w=new A.cIc(q1)
+break C}if("parentFlow.child.rewardsNone"===q2){w="\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"
+break C}if("parentFlow.child.tasksDone"===q2){w=new A.cId()
+break C}if("parentFlow.child.loadLight"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0436\u0435\u04a3\u0456\u043b, \u0442\u0430\u0493\u044b \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("parentFlow.child.loadNormal"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u049b\u0430\u043b\u044b\u043f\u0442\u044b, \u0442\u0430\u0493\u044b \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("parentFlow.child.loadHigh"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0436\u043e\u0493\u0430\u0440\u044b, \u04d9\u0437\u0456\u0440\u0433\u0435 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456"
+break C}if("parentFlow.child.loadEmpty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b, \u0430\u043b\u0493\u0430\u0448\u049b\u044b\u0441\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"
+break C}if("parentFlow.child.addTask"===q2){w=new A.cIe()
+break C}if("parentFlow.child.interestTitle"===q2){w="\u049a\u044b\u0437\u044b\u0493\u0443\u0448\u044b\u043b\u044b\u049b \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430\u0441\u044b"
+break C}if("parentFlow.child.interestCaption"===q2){w="\u0411\u0430\u043b\u0430\u0493\u0430 \u043d\u0435 \u049b\u044b\u0437\u044b\u049b \u0435\u043a\u0435\u043d\u0456\u043d \u0431\u0456\u043b\u0456\u04a3\u0456\u0437"
+break C}if("parentFlow.child.interestMore"===q2){w=k8
+break C}if("parentFlow.child.interestAsk"===q2){w=k7
+break C}if("parentFlow.child.healthTitle"===q2){w=u
+break C}if("parentFlow.child.healthCaption"===q2){w="\u0414\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b \u043a\u04e9\u0440\u0441\u0435\u0442\u043a\u0456\u0448\u0442\u0435\u0440\u0456\u043d \u0431\u0430\u049b\u044b\u043b\u0430\u04a3\u044b\u0437"
+break C}if("parentFlow.child.schoolTitle"===q2){w="\u041c\u0435\u043a\u0442\u0435\u043f"
+break C}if("parentFlow.child.schoolCaption"===q2){w="\u041c\u0435\u043a\u0442\u0435\u043f\u0442\u0435\u0433\u0456 \u04af\u043b\u0433\u0435\u0440\u0456\u043c"
+break C}if("parentFlow.child.earnedTitle"===q2){w="14 \u043a\u04af\u043d\u0434\u0435 \u0436\u0438\u043d\u0430\u043b\u0434\u044b"
+break C}if("parentFlow.child.earnedCoins"===q2){w=new A.cIg(q1)
+break C}if("parentFlow.child.notFound"===q2){w=c1
+break C}if("parentFlow.child.connectTitle"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"
+break C}if("parentFlow.child.connectCaption"===q2){w=y.j8
+break C}if("parentFlow.child.connectAction"===q2){w="\u041a\u043e\u0434 \u043f\u0435\u043d QR \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break C}if("parentFlow.child.weekUnavailable"===q2){w="\u0410\u043f\u0442\u0430\u043d\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("parentFlow.child.weekUnavailableHint"===q2){w=k9
+break C}if("parentFlow.profile.invite"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443"
+break C}if("parentFlow.profile.inviteLabel"===q2){w=new A.cIh()
+break C}if("parentFlow.profile.inviteText"===q2){w=new A.cIi()
+break C}if("parentFlow.profile.myData"===q2){w=d2
+break C}if("parentFlow.profile.changePin"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430 \u043a\u043e\u0434\u044b\u043d \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break C}if("parentFlow.profile.faceId"===q2){w="Face ID"
+break C}if("parentFlow.profile.touchId"===q2){w="Touch ID"
+break C}if("parentFlow.profile.biometric"===q2){w="\u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u044f \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"
+break C}if("parentFlow.profile.language"===q2){w="\u0422\u0456\u043b"
+break C}if("parentFlow.profile.notifications"===q2){w=j8
+break C}if("parentFlow.profile.security"===q2){w=l0
+break C}if("parentFlow.profile.premium"===q2){w=new A.cIj()
+break C}if("parentFlow.profile.premiumActive"===q2){w="\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456"
+break C}if("parentFlow.profile.documents"===q2){w="\u049a\u04b1\u0436\u0430\u0442\u0442\u0430\u0440"
+break C}if("parentFlow.profile.privacy"===q2){w=c0
+break C}if("parentFlow.profile.terms"===q2){w=b9
+break C}if("parentFlow.profile.help"===q2){w="\u041a\u04e9\u043c\u0435\u043a"
+break C}if("parentFlow.profile.signOut"===q2){w=a8
+break C}if("parentFlow.profile.signOutTitle"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u0430\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"
+break C}if("parentFlow.profile.signOutBody"===q2){w=y.bS
+break C}if("parentFlow.profile.signOutFailed"===q2){w="\u0428\u044b\u0493\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break C}if("parentFlow.profile.version"===q2){w=new A.cIk()
+break C}if("parentFlow.profile.linkFailed"===q2){w=l1
+break C}if("parentFlow.profile.premiumTrial"===q2){w=new A.cIl(q1)
+break C}if("parentFlow.profile.premiumExpired"===q2){w="\u0410\u044f\u049b\u0442\u0430\u043b\u0434\u044b"
+break C}if("parentFlow.profile.loadError"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0456 \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("parentFlow.profile.passwordSent"===q2){w=new A.cIm()
+break C}if("parentFlow.profile.family"===q2){w=l2
+break C}if("parentFlow.profile.rate"===q2){w="\u0411\u0456\u0437\u0434\u0456 \u0431\u0430\u0493\u0430\u043b\u0430\u04a3\u044b\u0437"
+break C}if("parentFlow.profile.community"===q2){w="\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a \u0436\u0435\u043b\u0456\u043b\u0435\u0440\u0434\u0435"
+break C}if("parentFlow.profile.editData"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043c\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break C}if("parentFlow.security.title"===q2){w=l0
+break C}if("parentFlow.security.changePassword"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break C}if("parentFlow.security.passwordTitle"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0435\u0441\u0456\u0437 \u0431\u0435?"
+break C}if("parentFlow.security.passwordBody"===q2){w=new A.cIn()
+break C}if("parentFlow.security.passwordSend"===q2){w=b4
+break C}if("parentFlow.security.passwordSent"===q2){w=new A.cIo()
+break C}if("parentFlow.security.passwordFailed"===q2){w=y.bG
+break C}if("parentFlow.security.signOutEverywhere"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u043b\u0430\u0440\u0434\u0430\u043d \u0448\u044b\u0493\u0443"
+break C}if("parentFlow.security.everywhereTitle"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u043b\u0430\u0440\u0434\u0430\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"
+break C}if("parentFlow.security.everywhereBody"===q2){w=y.m
+break C}if("parentFlow.security.everywhereAction"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0436\u0435\u0440\u0434\u0435\u043d \u0448\u044b\u0493\u0443"
+break C}if("parentFlow.security.deleteAccount"===q2){w=g4
+break C}if("parentFlow.profileData.name"===q2){w=b2
+break C}if("parentFlow.profileData.nameHint"===q2){w="\u0421\u0456\u0437\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u0430\u0442\u0430\u0439\u044b\u049b"
+break C}if("parentFlow.profileData.phone"===q2){w="\u0422\u0435\u043b\u0435\u0444\u043e\u043d"
+break C}if("parentFlow.profileData.email"===q2){w=a9
+break C}if("parentFlow.profileData.birthdate"===q2){w=f9
+break C}if("parentFlow.profileData.role"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430\u0493\u044b \u0440\u04e9\u043b"
+break C}if("parentFlow.profileData.notSet"===q2){w="\u041a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0433\u0435\u043d"
+break C}if("parentFlow.profileData.roleTitle"===q2){w="\u0421\u0456\u0437 \u0431\u0430\u043b\u0430\u0493\u0430 \u043a\u0456\u043c \u0431\u043e\u043b\u0430\u0441\u044b\u0437?"
+break C}if("parentFlow.profileData.delete"===q2){w=g4
+break C}if("parentFlow.profileData.deleteTitle"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"
+break C}if("parentFlow.profileData.deleteBody"===q2){w=y.nD
+break C}if("parentFlow.profileData.deleteSubscription"===q2){w=new A.cIp()
+break C}if("parentFlow.profileData.deleteFailed"===q2){w=y.br
+break C}if("parentFlow.profileData.saved"===q2){w="\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break C}if("parentFlow.profileData.invalidName"===q2){w=y.oI
+break C}if("parentFlow.profileData.invalidBirthdate"===q2){w="\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456\u04a3\u0456\u0437\u0434\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break C}if("parentFlow.profileData.unsupported"===q2){w=y.oo
+break C}if("parentFlow.feed.title"===q2){w=j8
+break C}if("parentFlow.feed.empty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u044b\u043d\u044b\u0448"
+break C}if("parentFlow.feed.emptyBody"===q2){w=y.dj
+break C}if("parentFlow.feed.reviewWaiting"===q2){w=h9
+break C}if("parentFlow.feed.taskApproved"===q2){w="\u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b"
+break C}if("parentFlow.feed.taskReturned"===q2){w="\u0442\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"
+break C}if("parentFlow.feed.rewardRequested"===q2){w="\u0441\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"
+break C}if("parentFlow.feed.rewardGiven"===q2){w="\u0441\u044b\u0439\u043b\u044b\u049b \u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+break C}if("parentFlow.feed.rewardDeclined"===q2){w="\u0441\u044b\u0439\u043b\u044b\u049b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"
+break C}if("parentFlow.feed.helpRequested"===q2){w="\u043a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"
+break C}if("parentFlow.feed.helpTitle"===q2){w=new A.cIr(q1)
+break C}if("parentFlow.feed.xp"===q2){w=new A.cIs()
+break C}if("parentFlow.feed.coins"===q2){w=new A.cIt()
+break C}if("parentFlow.feed.earlier"===q2){w="\u0411\u04b1\u0440\u044b\u043d\u044b\u0440\u0430\u049b"
+break C}if("parentFlow.feed.pending"===q2){w="\u0421\u0456\u0437\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435"
+break C}if("parentFlow.analytics.title"===q2){w="\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430"
+break C}if("parentFlow.analytics.pickChild"===q2){w=l3
+break C}if("parentFlow.analytics.indexCaption"===q2){w="\u0416\u0430\u043b\u043f\u044b \u0434\u0430\u043c\u0443 \u0438\u043d\u0434\u0435\u043a\u0441\u0456"
+break C}if("parentFlow.analytics.strength"===q2){w=new A.cIu()
+break C}if("parentFlow.analytics.mind"===q2){w=new A.cIv()
+break C}if("parentFlow.analytics.soul"===q2){w=new A.cIw()
+break C}if("parentFlow.analytics.adviceFallback"===q2){w=new A.cIx()
+break C}if("parentFlow.analytics.adviceNone"===q2){w=y.iC
+break C}if("parentFlow.analytics.askAi"===q2){w="AI-\u0434\u0430\u043d \u0441\u04b1\u0440\u0430\u0443"
+break C}if("parentFlow.analytics.completionTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0443\u044b"
+break C}if("parentFlow.analytics.completionGreat"===q2){w=y.fQ
+break C}if("parentFlow.analytics.completionGood"===q2){w=y.hI
+break C}if("parentFlow.analytics.completionLow"===q2){w=y.my
+break C}if("parentFlow.analytics.completionNone"===q2){w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u04d9\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"
+break C}if("parentFlow.analytics.completionLabel"===q2){w="\u0416\u0430\u043b\u043f\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0443"
+break C}if("parentFlow.analytics.statusGreat"===q2){w="\u04e8\u0442\u0435 \u0436\u0430\u049b\u0441\u044b"
+break C}if("parentFlow.analytics.statusGood"===q2){w="\u0416\u0430\u049b\u0441\u044b"
+break C}if("parentFlow.analytics.statusLow"===q2){w="\u0416\u0430\u049b\u0441\u0430\u0440\u0442\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break C}if("parentFlow.analytics.doneLabel"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break C}if("parentFlow.analytics.periodWeek"===q2){w="\u0410\u043f\u0442\u0430 \u0456\u0448\u0456\u043d\u0434\u0435"
+break C}if("parentFlow.analytics.bestWeek"===q2){w="\u04ae\u0437\u0434\u0456\u043a \u0430\u043f\u0442\u0430"
+break C}if("parentFlow.analytics.bestWeekNone"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"
+break C}if("parentFlow.analytics.more"===q2){w=k8
+break C}if("parentFlow.analytics.addTask"===q2){w=l4
+break C}if("parentFlow.analytics.addTaskCaption"===q2){w="\u0411\u0430\u043b\u0430\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+break C}if("parentFlow.analytics.streak"===q2){w=new A.cIy(q1)
+break C}if("parentFlow.analytics.streakCaption"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u0443 \u0441\u0435\u0440\u0438\u044f\u0441\u044b"
+break C}if("parentFlow.analytics.level"===q2){w=new A.cIz()
+break C}if("parentFlow.analytics.levelCaption"===q2){w="\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b"
+break C}if("parentFlow.analytics.tasksTitle"===q2){w="\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break C}if("parentFlow.analytics.tasksNone"===q2){w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u043d\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456 \u04d9\u0437\u0456\u0440\u0433\u0435 \u0431\u043e\u0441"
+break C}if("parentFlow.analytics.discuss"===q2){w=j9
+break C}if("parentFlow.analytics.discussAsk"===q2){w=new A.cIA()
+break C}if("parentFlow.analytics.bestWeekAsk"===q2){w=new A.cIC()
+break C}if("parentFlow.analytics.notFound"===q2){w="\u0411\u04b1\u043b \u0431\u0430\u043b\u0430 \u0435\u043d\u0434\u0456 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0436\u043e\u049b"
+break C}if("parentFlow.rate.title"===q2){w=new A.cID()
+break C}if("parentFlow.rate.body"===q2){w=y.fb
+break C}if("parentFlow.rate.star"===q2){w=new A.cIE()
+break C}if("parentFlow.rate.mood1"===q2){w="\u04e8\u0442\u0435 \u043d\u0430\u0448\u0430\u0440"
+break C}if("parentFlow.rate.mood2"===q2){w="\u041d\u0430\u0448\u0430\u0440"
+break C}if("parentFlow.rate.mood3"===q2){w=e1
+break C}if("parentFlow.rate.mood4"===q2){w="\u0416\u0430\u049b\u0441\u044b"
+break C}if("parentFlow.rate.mood5"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442!"
+break C}if("parentFlow.rate.improveLabel"===q2){w="\u041d\u0435\u043d\u0456 \u0436\u0430\u049b\u0441\u0430\u0440\u0442\u0430\u0439\u044b\u049b?"
+break C}if("parentFlow.rate.improveHint"===q2){w=y.iz
+break C}if("parentFlow.rate.send"===q2){w=h
+break C}if("parentFlow.rate.storeBody"===q2){w=y.iF
+break C}if("parentFlow.rate.appStore"===q2){w="App Store-\u0434\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"
+break C}if("parentFlow.rate.googlePlay"===q2){w="Google Play-\u0434\u0435 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"
+break C}if("parentFlow.rate.thanks"===q2){w="\u0420\u0430\u049b\u043c\u0435\u0442! \u04d8\u0440 \u043f\u0456\u043a\u0456\u0440\u0434\u0456 \u043e\u049b\u0438\u043c\u044b\u0437"
+break C}if("parentFlow.rate.failed"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break C}if("parentFlow.rate.mailSubject"===q2){w=new A.cIF()
+break C}if("parentFlow.rewards.title"===q2){w=new A.cIG(q1)
+break C}if("parentFlow.rewards.create"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u0443"
+break C}if("parentFlow.rewards.list"===q2)break C
+if("parentFlow.rewards.requests"===q2){w="\u0421\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440"
+break C}if("parentFlow.rewards.searchHint"===q2){w=l5
+break C}if("parentFlow.rewards.clearSearch"===q2){w="\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u0443"
+break C}if("parentFlow.rewards.minutesShort"===q2){w=new A.cIH()
+break C}if("parentFlow.rewards.priceRange"===q2){w=new A.cII()
+break C}if("parentFlow.rewards.priceRangeSemantics"===q2){w=new A.cIJ()
+break C}if("parentFlow.rewards.postponedToday"===q2){w=new A.cIK()
+break C}if("parentFlow.rewards.postponedTomorrow"===q2){w=new A.cIL()
+break C}if("parentFlow.rewards.postponedOn"===q2){w=new A.cIN()
+break C}if("parentFlow.rewards.emptyTitle"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u044b\u0439\u043b\u044b\u049b \u0436\u043e\u049b"
+break C}if("parentFlow.rewards.emptyBody"===q2){w=y.j
+break C}if("parentFlow.rewards.requestsEmptyTitle"===q2){w="\u0416\u0430\u04a3\u0430 \u0441\u04b1\u0440\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"
+break C}if("parentFlow.rewards.requestsEmptyBody"===q2){w=y.d9
+break C}if("parentFlow.rewards.searchEmptyTitle"===q2){w=g9
+break C}if("parentFlow.rewards.searchEmptyBody"===q2){w=l6
+break C}if("parentFlow.rewards.searchOpen"===q2){w=i4
+break C}if("parentFlow.rewards.searchClose"===q2){w=l7
+break C}if("parentFlow.rewards.errorTitle"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0434\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break C}if("parentFlow.rewards.errorBody"===q2){w=k9
+break C}if("parentFlow.rewards.fromLevel"===q2){w=new A.cIO()
+break C}if("parentFlow.rewardEditor.createTitle"===q2){w="\u0411\u0430\u043b\u0430\u0493\u0430 \u0436\u0430\u04a3\u0430 \u0441\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u0443"
+break C}if("parentFlow.rewardEditor.editTitle"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break C}if("parentFlow.rewardEditor.subtitle"===q2){w="\u0411\u0430\u043b\u0430 \u04e9\u0437 \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u043e\u0493\u0430\u043d \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"
+break C}if("parentFlow.rewardEditor.catalogSubtitle"===q2){w=new A.cIP()
+break C}if("parentFlow.rewardEditor.auto"===q2){w="\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u049b\u04b1\u0440\u0443"
+break C}if("parentFlow.rewardEditor.titleLabel"===q2){w=l5
+break C}if("parentFlow.rewardEditor.titleHint"===q2){w="\u0421\u0442\u0440\u0430\u0439\u043a\u0431\u043e\u043b \u043e\u0439\u043d\u0430\u0443"
+break C}if("parentFlow.rewardEditor.descriptionLabel"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b"
+break C}w=v
+break C}if(w==null)D:{w="\u0421\u0430\u043d\u0430\u0442"
+if("parentFlow.rewardEditor.descriptionHint"===q2){w="\u0411\u0430\u0443\u044b\u0440\u043b\u0430\u0440\u043c\u0435\u043d \u0441\u0442\u0440\u0430\u0439\u043a\u0431\u043e\u043b \u043e\u0439\u043d\u0430\u0443\u0493\u0430 \u0431\u0430\u0440\u0430\u043c\u044b\u0437"
+break D}if("parentFlow.rewardEditor.categoryLabel"===q2)break D
+if("parentFlow.rewardEditor.iconLabel"===q2){w="\u0411\u0435\u043b\u0433\u0456\u0448\u0435"
+break D}if("parentFlow.rewardEditor.categoryHint"===q2){w="\u0422\u0430\u043c\u0430\u049b, \u043a\u0438\u043d\u043e \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u0439\u044b\u043d\u0434\u0430\u0440"
+break D}if("parentFlow.rewardEditor.categorySheetTitle"===q2)break D
+if("parentFlow.rewardEditor.durationLabel"===q2){w=p
+break D}if("parentFlow.rewardEditor.durationUnit"===q2){w="\u043c\u0438\u043d\u0443\u0442"
+break D}if("parentFlow.rewardEditor.priceLabel"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0431\u0430\u0493\u0430\u0441\u044b"
+break D}if("parentFlow.rewardEditor.peopleLabel"===q2){w="\u041a\u0456\u043c \u0430\u043b\u0430 \u0430\u043b\u0430\u0434\u044b?"
+break D}if("parentFlow.rewardEditor.peopleHint"===q2){w="\u0411\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.rewardEditor.peopleSheetBody"===q2){w=y.lU
+break D}if("parentFlow.rewardEditor.categories.food"===q2){w="\u0422\u0430\u043c\u0430\u049b"
+break D}if("parentFlow.rewardEditor.categories.rest"===q2){w="\u0414\u0435\u043c\u0430\u043b\u044b\u0441"
+break D}if("parentFlow.rewardEditor.categories.shopping"===q2){w="\u0421\u0430\u0443\u0434\u0430"
+break D}if("parentFlow.rewardEditor.categories.movies"===q2){w="\u041a\u0438\u043d\u043e"
+break D}if("parentFlow.rewardEditor.categories.gift"===q2){w=j7
+break D}if("parentFlow.rewardEditor.categories.gadget"===q2){w="\u0413\u0430\u0434\u0436\u0435\u0442"
+break D}if("parentFlow.rewardEditor.categories.games"===q2){w="\u041e\u0439\u044b\u043d\u0434\u0430\u0440"
+break D}if("parentFlow.rewardEditor.categories.sweets"===q2){w="\u0422\u04d9\u0442\u0442\u0456\u043b\u0435\u0440"
+break D}if("parentFlow.rewardEditor.categories.music"===q2){w="\u041c\u0443\u0437\u044b\u043a\u0430"
+break D}if("parentFlow.rewardEditor.categories.donate"===q2){w="\u041e\u0439\u044b\u043d \u0456\u0448\u0456\u043d\u0434\u0435 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443"
+break D}if("parentFlow.rewardEditor.categories.activity"===q2){w="\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456\u043b\u0456\u043a"
+break D}if("parentFlow.rewardEditor.categories.screen"===q2){w=i6
+break D}if("parentFlow.rewardEditor.categories.books"===q2){w="\u041a\u0456\u0442\u0430\u043f/\u043a\u0443\u0440\u0441"
+break D}if("parentFlow.rewardEditor.create"===q2){w=j5
+break D}if("parentFlow.rewardEditor.save"===q2){w=o
+break D}if("parentFlow.rewardEditor.delete"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0436\u043e\u044e"
+break D}if("parentFlow.rewardEditor.deleteTitle"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"
+break D}if("parentFlow.rewardEditor.deleteBody"===q2){w="\u041e\u043b \u0431\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0435\u043d \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.rewardEditor.deleteConfirm"===q2){w=l
+break D}if("parentFlow.rewardEditor.inUseTitle"===q2){w="\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0431\u04b1\u0440\u044b\u043d \u0430\u043b\u044b\u043d\u0493\u0430\u043d"
+break D}if("parentFlow.rewardEditor.inUseBody"===q2){w=y.mG
+break D}if("parentFlow.rewardEditor.hide"===q2){w="\u0416\u0430\u0441\u044b\u0440\u0443"
+break D}if("parentFlow.rewardEditor.createdTitle"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0421\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.rewardEditor.saved"===q2){w=l8
+break D}if("parentFlow.rewardEditor.deleted"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0436\u043e\u0439\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.rewardEditor.hidden"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0436\u0430\u0441\u044b\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.rewardEditor.errors.titleRequired"===q2){w="\u0410\u0442\u0430\u0443\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.rewardEditor.errors.categoryRequired"===q2){w="\u0421\u0430\u043d\u0430\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.rewardEditor.errors.priceRequired"===q2){w="\u0411\u0430\u0493\u0430\u0441\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.rewardEditor.errors.priceRange"===q2){w="\u0411\u0430\u0493\u0430\u0441\u044b: 1-\u0434\u0435\u043d 99\xa0999 \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.rewardEditor.errors.durationRange"===q2){w="1-\u0434\u0435\u043d 1440 \u043c\u0438\u043d\u0443\u0442\u049b\u0430 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.rewardEditor.errors.childrenRequired"===q2){w=l9
+break D}if("parentFlow.rewardEditor.errors.pricesDiffer"===q2){w=y.x
+break D}if("parentFlow.rewardEditor.ideaUnavailable"===q2){w=y.hR
+break D}if("parentFlow.rewardEditor.ideaLimited"===q2){w=y.jh
+break D}if("parentFlow.rewardEditor.notFound"===q2){w=y.aY
+break D}if("parentFlow.rewardEditor.pricesDiffer"===q2){w="\u04d8\u0440\u0442\u04af\u0440\u043b\u0456 \u0431\u0430\u0493\u0430"
+break D}if("parentFlow.rewardEditor.discardTitle"===q2){w=m0
+break D}if("parentFlow.rewardEditor.discardBody"===q2){w=m1
+break D}if("parentFlow.rewardEditor.discardConfirm"===q2){w=a8
+break D}if("parentFlow.rewardEditor.ideaBusy"===q2){w=y.O
+break D}if("parentFlow.rewardEditor.ideaDayLimit"===q2){w=y.n
+break D}if("parentFlow.rewardEditor.ideaPlanTitle"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0456 \u0442\u0435\u0433\u0456\u043d AI \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440\u044b \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.rewardEditor.ideaPlanBody"===q2){w=new A.cIQ()
+break D}if("parentFlow.rewardEditor.ideaPlanAction"===q2){w=m2
+break D}if("parentFlow.rewardEditor.ideaPlanLater"===q2){w=m3
+break D}if("parentFlow.rewardRequest.decline"===q2){w="\u0411\u0435\u0440\u0435 \u0430\u043b\u043c\u0430\u0439\u043c\u044b\u043d"
+break D}if("parentFlow.rewardRequest.approve"===q2){w=m4
+break D}if("parentFlow.rewardRequest.exchange"===q2){w=new A.cIR(q1)
+break D}if("parentFlow.rewardRequest.approvedTitle"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0421\u044b\u0439\u043b\u044b\u049b \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"
+break D}if("parentFlow.rewardRequest.declineTitle"===q2){w="\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u043a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443"
+break D}if("parentFlow.rewardRequest.declineSubtitle"===q2){w="\u0411\u0430\u043b\u0430 \u043f\u0456\u043a\u0456\u0440\u0456\u04a3\u0456\u0437\u0434\u0456 \u043a\u04e9\u0440\u0435\u0434\u0456"
+break D}if("parentFlow.rewardRequest.reasonLabel"===q2){w="\u0421\u0435\u0431\u0435\u0431\u0456\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.rewardRequest.reasonHint"===q2){w="\u0411\u04b1\u043b \u043f\u0456\u043a\u0456\u0440\u0434\u0456 \u0431\u0430\u043b\u0430\u04a3\u044b\u0437 \u043a\u04e9\u0440\u0435\u0434\u0456"
+break D}if("parentFlow.rewardRequest.rejectAll"===q2){w="\u041c\u04af\u043b\u0434\u0435\u043c \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443"
+break D}if("parentFlow.rewardRequest.postpone"===q2){w="\u041a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443"
+break D}if("parentFlow.rewardRequest.postponeTitle"===q2){w="\u049a\u0430\u0448\u0430\u043d \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u0441\u044b\u0437?"
+break D}if("parentFlow.rewardRequest.postponeBody"===q2){w=y.m8
+break D}if("parentFlow.rewardRequest.tonight"===q2){w="\u0411\u04af\u0433\u0456\u043d \u043a\u0435\u0448\u043a\u0435"
+break D}if("parentFlow.rewardRequest.tomorrow"===q2){w=j4
+break D}if("parentFlow.rewardRequest.weekend"===q2){w="\u0414\u0435\u043c\u0430\u043b\u044b\u0441 \u043a\u04af\u043d\u0434\u0435\u0440\u0456"
+break D}if("parentFlow.rewardRequest.nextWeek"===q2){w=m5
+break D}if("parentFlow.rewardRequest.revokedTitle"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"
+break D}if("parentFlow.rewardRequest.revokedSubtitle"===q2){w=new A.cIS()
+break D}if("parentFlow.rewardRequest.postponedTitle"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u043a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.rewardRequest.postponedSubtitle"===q2){w=new A.cIT()
+break D}if("parentFlow.rewardRequest.reason"===q2){w="\u0421\u0435\u0431\u0435\u043f"
+break D}if("parentFlow.rewardRequest.yourComment"===q2){w=new A.cIU()
+break D}if("parentFlow.rewardRequest.decidedTitle"===q2){w="\u0411\u04b1\u043b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441 \u049b\u0430\u0440\u0430\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break D}if("parentFlow.rewardRequest.missingTitle"===q2){w="\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.rewardRequest.postponeUnavailable"===q2){w="\u041a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443 \u04d9\u0437\u0456\u0440\u0433\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break D}if("parentFlow.rewardRequest.timePassed"===q2){w="\u0411\u04b1\u043b \u0443\u0430\u049b\u044b\u0442 \u04e9\u0442\u0456\u043f \u043a\u0435\u0442\u0442\u0456 \u2014 \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.rewardRequest.failed"===q2){w="\u041c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.rewardRequest.notEnoughCoins"===q2){w=y.v
+break D}if("parentFlow.rewardRequest.pickTime"===q2){w="\u0411\u0430\u0441\u049b\u0430 \u0443\u0430\u049b\u044b\u0442"
+break D}if("parentFlow.rewardRequest.pickTimeCaption"===q2){w="\u041a\u04af\u043d \u043c\u0435\u043d \u0441\u0430\u0493\u0430\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.tasks.title"===q2){w=new A.cIV(q1)
+break D}if("parentFlow.tasks.titleEmpty"===q2){w=c9
+break D}if("parentFlow.tasks.add"===q2){w=m6
+break D}if("parentFlow.tasks.listSegment"===q2){w="\u0422\u0456\u0437\u0456\u043c"
+break D}if("parentFlow.tasks.reviewSegment"===q2){w=a1
+break D}if("parentFlow.tasks.searchOpen"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0456\u0437\u0434\u0435\u0443"
+break D}if("parentFlow.tasks.searchClose"===q2){w=l7
+break D}if("parentFlow.tasks.searchHint"===q2){w=m7
+break D}if("parentFlow.tasks.searchClear"===q2){w="\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0442\u0430\u0437\u0430\u043b\u0430\u0443"
+break D}if("parentFlow.tasks.emptyTitle"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"
+break D}if("parentFlow.tasks.emptyBody"===q2){w=y.g
+break D}if("parentFlow.tasks.emptyAction"===q2){w=m6
+break D}if("parentFlow.tasks.searchEmptyTitle"===q2){w=g9
+break D}if("parentFlow.tasks.searchEmptyBody"===q2){w=l6
+break D}if("parentFlow.tasks.reviewEmptyTitle"===q2){w="\u0411\u04d9\u0440\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0434\u0456"
+break D}if("parentFlow.tasks.reviewEmptyBody"===q2){w=y.f4
+break D}if("parentFlow.tasks.errorTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.tasks.errorBody"===q2){w=k9
+break D}if("parentFlow.tasks.rowSemantics"===q2){w=new A.cIW()
+break D}if("parentFlow.tasks.reviewRowSemantics"===q2){w=new A.cIY()
+break D}if("parentFlow.tasks.strength"===q2){w=h3
+break D}if("parentFlow.tasks.mind"===q2){w=h1
+break D}if("parentFlow.tasks.soul"===q2){w=h2
+break D}if("parentFlow.tasks.daily"===q2){w=c3
+break D}if("parentFlow.tasks.weekly"===q2){w=c4
+break D}if("parentFlow.tasks.once"===q2){w="\u0411\u0456\u0440 \u0440\u0435\u0442"
+break D}if("parentFlow.tasks.achievement"===q2){w=e4
+break D}if("parentFlow.tasks.allChildren"===q2){w=m8
+break D}if("parentFlow.tasks.coinCount"===q2){w=new A.cIZ(q1)
+break D}if("parentFlow.tasks.rewardSemantics"===q2){w=new A.cJ_()
+break D}if("parentFlow.taskCreate.title"===q2){w="\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u049b\u04b1\u0440\u0443"
+break D}if("parentFlow.taskCreate.subtitle"===q2){w=y.jJ
+break D}if("parentFlow.taskCreate.aiHint"===q2){w="AI \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443"
+break D}if("parentFlow.taskCreate.aiMic"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"
+break D}if("parentFlow.taskCreate.catalogTitle"===q2){w="\u0414\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"
+break D}if("parentFlow.taskCreate.catalogCount"===q2){w=new A.cJ0(q1)
+break D}if("parentFlow.taskCreate.catalogLoading"===q2){w=m9
+break D}if("parentFlow.taskCreate.catalogOpen"===q2){w="\u0410\u0448\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.taskCreate.ownTitle"===q2){w=n0
+break D}if("parentFlow.taskCreate.ownCaption"===q2){w="\u049a\u043e\u0441\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.taskCreate.loadTitle"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435"
+break D}if("parentFlow.taskCreate.loadCaption"===q2){w="\u04d8\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u043f\u0442\u0430\u0434\u0430\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0430\u043d\u044b"
+break D}if("parentFlow.taskCreate.loadTasks"===q2){w=new A.cJ1(q1)
+break D}if("parentFlow.taskCreate.loadLight"===q2){w=n1
+break D}if("parentFlow.taskCreate.loadNormal"===q2){w=d6
+break D}if("parentFlow.taskCreate.loadHigh"===q2){w=n2
+break D}if("parentFlow.taskCreate.loadPerWeek"===q2){w=new A.cJ2(q1)
+break D}if("parentFlow.taskCreate.loadSheetTitle"===q2){w=n3
+break D}if("parentFlow.taskCreate.loadSheetBody"===q2){w=new A.cJ3()
+break D}if("parentFlow.taskCreate.loadFailed"===q2){w=y.w
+break D}if("parentFlow.taskCreate.loadError"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043d \u0430\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.taskCreate.loadNoChildren"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435\u043d\u0456 \u0431\u0430\u043f\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.taskCreate.loadRowSemantics"===q2){w=new A.cJ4()
+break D}if("parentFlow.taskCatalog.add"===q2){w=new A.cJ5()
+break D}if("parentFlow.taskCatalog.emptyTitle"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0434\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"
+break D}if("parentFlow.taskCatalog.emptyBody"===q2){w=y.iK
+break D}if("parentFlow.taskCatalog.emptyAction"===q2){w=n0
+break D}if("parentFlow.taskEditor.titleNew"===q2){w=l4
+break D}if("parentFlow.taskEditor.titleEdit"===q2){w=n4
+break D}if("parentFlow.taskEditor.subtitle"===q2){w=y.ck
+break D}if("parentFlow.taskEditor.subtitleEdit"===q2){w=y.je
+break D}if("parentFlow.taskEditor.children"===q2){w="\u041a\u0456\u043c\u0433\u0435 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0439\u043c\u044b\u0437?"
+break D}if("parentFlow.taskEditor.childrenAssigned"===q2){w="\u041a\u0456\u043c\u0433\u0435 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"
+break D}if("parentFlow.taskEditor.childrenHint"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.taskEditor.childrenSheetBody"===q2){w=y.mp
+break D}if("parentFlow.taskEditor.childrenRequired"===q2){w=l9
+break D}if("parentFlow.taskEditor.name"===q2){w=m7
+break D}if("parentFlow.taskEditor.nameHint"===q2){w="\u041c\u044b\u0441\u0430\u043b\u044b, \u0431\u04e9\u043b\u043c\u0435\u043d\u0456 \u0436\u0438\u043d\u0430\u0443"
+break D}if("parentFlow.taskEditor.nameRequired"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u0443\u044b\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.taskEditor.nameTooLong"===q2){w="80 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break D}if("parentFlow.taskEditor.description"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b"
+break D}if("parentFlow.taskEditor.descriptionHint"===q2){w=y.f3
+break D}if("parentFlow.taskEditor.direction"===q2){w="\u0411\u0430\u0493\u044b\u0442"
+break D}if("parentFlow.taskEditor.category"===q2)break D
+if("parentFlow.taskEditor.xp"===q2){w=f4
+break D}if("parentFlow.taskEditor.xpInvalid"===q2){w="1-\u0434\u0435\u043d 300-\u0433\u0435 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.taskEditor.coins"===q2){w=n5
+break D}if("parentFlow.taskEditor.coinsInvalid"===q2){w="0-\u0434\u0435\u043d 9 999-\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.taskEditor.frequency"===q2){w="\u0416\u0438\u0456\u043b\u0456\u043a"
+break D}if("parentFlow.taskEditor.dailyCaption"===q2){w="\u0411\u0430\u043b\u0430 \u043e\u043d\u044b \u043a\u04af\u043d \u0441\u0430\u0439\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.taskEditor.weeklyCaption"===q2){w="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0440\u0435\u0442 \u043e\u0440\u044b\u043d\u0434\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.taskEditor.onceCaption"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0441\u043e\u04a3 \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.taskEditor.difficulty"===q2){w="\u041a\u04af\u0440\u0434\u0435\u043b\u0456\u043b\u0456\u043a"
+break D}if("parentFlow.taskEditor.easy"===q2){w=e0
+break D}if("parentFlow.taskEditor.medium"===q2){w=e1
+break D}if("parentFlow.taskEditor.hard"===q2){w=e2
+break D}if("parentFlow.taskEditor.epic"===q2){w=f2
+break D}if("parentFlow.taskEditor.difficultyCaption"===q2){w=new A.cJ6()
+break D}if("parentFlow.taskEditor.photo"===q2){w=c5
+break D}if("parentFlow.taskEditor.photoRequired"===q2){w=h4
+break D}if("parentFlow.taskEditor.lovedOnes"===q2){w="\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a"
+break D}if("parentFlow.taskEditor.lovedOnesMark"===q2){w="\u0411\u04b1\u043b \u2014 \u0436\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a"
+break D}if("parentFlow.taskEditor.create"===q2){w="\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u049b\u043e\u0441\u0443"
+break D}if("parentFlow.taskEditor.delete"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u043e\u044e"
+break D}if("parentFlow.taskEditor.deleteTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"
+break D}if("parentFlow.taskEditor.deleteBody"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0435\u043d \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.taskEditor.deleteConfirm"===q2){w=l
+break D}if("parentFlow.taskEditor.hideTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0431\u04b1\u0440\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"
+break D}if("parentFlow.taskEditor.hideBody"===q2){w=y.eR
+break D}if("parentFlow.taskEditor.hideConfirm"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u0430\u0441\u044b\u0440\u0443"
+break D}if("parentFlow.taskEditor.created"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.taskEditor.saved"===q2){w=l8
+break D}if("parentFlow.taskEditor.deleted"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u0439\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.taskEditor.hidden"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0430\u0441\u044b\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.taskEditor.loadFailed"===q2){w=n6
+break D}if("parentFlow.taskEditor.readOnly"===q2){w=y.h1
+break D}if("parentFlow.taskEditor.checkFields"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u04e9\u0440\u0456\u0441\u0442\u0435\u0440\u0456\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.taskEditor.discardTitle"===q2){w=m0
+break D}if("parentFlow.taskEditor.discardBody"===q2){w=m1
+break D}if("parentFlow.taskEditor.discardConfirm"===q2){w=a8
+break D}if("parentFlow.taskEditor.xpMoved"===q2){w=new A.cJ8()
+break D}if("parentFlow.taskDetail.edit"===q2){w="\u04e8\u0437\u0433\u0435\u0440\u0442\u0443"
+break D}if("parentFlow.taskDetail.delete"===q2){w=l
+break D}if("parentFlow.taskDetail.catalogNote"===q2){w=y.e
+break D}if("parentFlow.taskDetail.createSimilar"===q2){w="\u04b0\u049b\u0441\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0443"
+break D}if("parentFlow.taskDetail.notFoundTitle"===q2){w=n7
+break D}if("parentFlow.taskDetail.notFoundBody"===q2){w=n8
+break D}if("parentFlow.taskReview.approve"===q2){w=m4
+break D}if("parentFlow.taskReview.returnForRevision"===q2){w=n9
+break D}if("parentFlow.taskReview.approved"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"
+break D}if("parentFlow.taskReview.approvedCapped"===q2){w=new A.cJ9()
+break D}if("parentFlow.taskReview.approvedCapReached"===q2){w=y.f8
+break D}if("parentFlow.taskReview.alreadyApproved"===q2){w=y.cd
+break D}if("parentFlow.taskReview.approveFailed"===q2){w=y.G
+break D}if("parentFlow.taskReview.photoOpen"===q2){w="\u0424\u043e\u0442\u043e\u043d\u044b \u0442\u043e\u043b\u044b\u049b \u044d\u043a\u0440\u0430\u043d\u0434\u0430 \u0430\u0448\u0443"
+break D}if("parentFlow.taskReview.photoClose"===q2){w="\u0424\u043e\u0442\u043e\u043d\u044b \u0436\u0430\u0431\u0443"
+break D}if("parentFlow.taskReview.photoMissing"===q2){w="\u0424\u043e\u0442\u043e \u0436\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456"
+break D}if("parentFlow.taskReview.fixTitle"===q2){w="\u041e\u0434\u0430\u043d \u0434\u0430 \u0436\u0430\u049b\u0441\u0430\u0440\u0442\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0439\u0456\u043a"
+break D}if("parentFlow.taskReview.fixBody"===q2){w=new A.cJa()
+break D}if("parentFlow.taskReview.note"===q2){w="\u041d\u0435\u043d\u0456 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a?"
+break D}if("parentFlow.taskReview.noteHint"===q2){w="\u041c\u044b\u0441\u0430\u043b\u044b, \u0436\u0430\u049b\u044b\u043d\u044b\u0440\u0430\u049b\u0442\u0430\u043d \u0441\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440"
+break D}if("parentFlow.taskReview.noteRequired"===q2){w="\u041d\u0435\u043d\u0456 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a \u0435\u043a\u0435\u043d\u0456\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.taskReview.noteTooLong"===q2){w="500 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"
+break D}if("parentFlow.taskReview.deadline"===q2){w="\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456"
+break D}if("parentFlow.taskReview.deadlineToday"===q2){w=g7
+break D}if("parentFlow.taskReview.deadlineTomorrow"===q2){w=j4
+break D}if("parentFlow.taskReview.deadlineThreeDays"===q2){w="3 \u043a\u04af\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.taskReview.deadlineWeek"===q2){w=m5
+break D}if("parentFlow.taskReview.deadlineNone"===q2){w="\u041c\u0435\u0440\u0437\u0456\u043c\u0441\u0456\u0437"
+break D}if("parentFlow.taskReview.deadlineNoneCaption"===q2){w="\u0411\u0430\u043b\u0430 \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u0433\u0456 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430 \u0442\u04af\u0437\u0435\u0442\u0435\u0434\u0456"
+break D}if("parentFlow.taskReview.dueToday"===q2){w=new A.cJb()
+break D}if("parentFlow.taskReview.dueTomorrow"===q2){w=new A.cJc()
+break D}if("parentFlow.taskReview.dueDate"===q2){w=new A.cJd()
+break D}if("parentFlow.taskReview.returnedTitle"===q2){w=o0
+break D}if("parentFlow.taskReview.returnedBody"===q2){w=new A.cJe()
+break D}if("parentFlow.taskReview.reason"===q2){w="\u0421\u0435\u0431\u0435\u043f"
+break D}if("parentFlow.taskReview.returnFailed"===q2){w=y.a5
+break D}if("parentFlow.taskReview.reviewedTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break D}if("parentFlow.taskReview.reviewedBody"===q2){w=y.U
+break D}if("parentFlow.taskReview.reviewedApproved"===q2){w=o1
+break D}if("parentFlow.taskReview.reviewedReturned"===q2){w=o0
+break D}if("parentFlow.taskReview.notFoundTitle"===q2){w=n7
+break D}if("parentFlow.taskReview.notFoundBody"===q2){w=n8
+break D}if("parentFlow.taskReview.loadFailed"===q2){w=n6
+break D}if("parentFlow.taskReview.deadlineCustom"===q2){w="\u041a\u04af\u043d \u043c\u0435\u043d \u0443\u0430\u049b\u044b\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"
+break D}if("parentFlow.taskReview.deadlineExpired"===q2){w=y.nI
+break D}if("parentFlow.taskReview.reviewedDeclined"===q2){w="\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"
+break D}if("parentFlow.taskReview.reviewedPending"===q2){w="\u04d8\u043b\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u043c\u0435\u0433\u0435\u043d"
+break D}if("parentFlow.paywall.title"===q2){w=new A.cJf()
+break D}if("parentFlow.paywall.close"===q2){w=k
+break D}if("parentFlow.paywall.tierLabel"===q2){w="\u0422\u0430\u0440\u0438\u0444"
+break D}if("parentFlow.paywall.tierPremium"===q2){w="Premium"
+break D}if("parentFlow.paywall.tierPremiumAi"===q2){w="Premium + AI"
+break D}if("parentFlow.paywall.planMonth"===q2){w="\u0410\u0439\u043b\u044b\u049b"
+break D}if("parentFlow.paywall.planYear"===q2){w="\u0416\u044b\u043b\u0434\u044b\u049b"
+break D}if("parentFlow.paywall.priceLoading"===q2){w="\u0411\u0430\u0493\u0430 \u0436\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435"
+break D}if("parentFlow.paywall.priceMissing"===q2){w="\u0411\u0430\u0493\u0430 \u0436\u043e\u049b"
+break D}if("parentFlow.paywall.saving"===q2){w=new A.cJg()
+break D}if("parentFlow.paywall.savingPercent"===q2){w=new A.cJh()
+break D}if("parentFlow.paywall.currentPlan"===q2){w="\u0421\u0456\u0437\u0434\u0456\u04a3 \u0442\u0430\u0440\u0438\u0444\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.buyMonth"===q2){w="\u0410\u0439\u043b\u044b\u049b \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u0434\u044b \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443"
+break D}if("parentFlow.paywall.buyYear"===q2){w="\u0416\u044b\u043b\u0434\u044b\u049b \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u0434\u044b \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443"
+break D}if("parentFlow.paywall.manage"===q2){w="\u0416\u0430\u0437\u044b\u043b\u044b\u043c\u0434\u044b \u0431\u0430\u0441\u049b\u0430\u0440\u0443"
+break D}if("parentFlow.paywall.retry"===q2){w=i
+break D}if("parentFlow.paywall.pricesFailed"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043b\u0430\u0440 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0435\u043d \u0431\u0430\u0493\u0430\u043b\u0430\u0440\u0434\u044b \u0430\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.planMissing"===q2){w="\u0411\u04b1\u043b \u0442\u0430\u0440\u0438\u0444 \u049b\u0430\u0437\u0456\u0440 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043b\u0430\u0440 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0434\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break D}if("parentFlow.paywall.paylov"===q2){w=new A.cJj()
+break D}if("parentFlow.paywall.paylovLoading"===q2){w="UzCard / HUMO \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043c\u0435\u043d"
+break D}if("parentFlow.paywall.paylovRetry"===q2){w="UzCard / HUMO: \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u0443"
+break D}if("parentFlow.paywall.paylovSemantics"===q2){w="Paylov \u0430\u0440\u049b\u044b\u043b\u044b UzCard \u043d\u0435\u043c\u0435\u0441\u0435 HUMO \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043c\u0435\u043d \u0442\u04e9\u043b\u0435\u0443"
+break D}if("parentFlow.paywall.restore"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443"
+break D}if("parentFlow.paywall.restoring"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0443\u0434\u0435\u2026"
+break D}if("parentFlow.paywall.terms"===q2){w="\u0428\u0430\u0440\u0442\u0442\u0430\u0440"
+break D}if("parentFlow.paywall.privacy"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u043b\u044b\u043b\u044b\u049b"
+break D}if("parentFlow.paywall.disclosure"===q2){w=new A.cJk()
+break D}if("parentFlow.paywall.disclosurePaylov"===q2){w=new A.cJl()
+break D}if("parentFlow.paywall.active"===q2){w=new A.cJm()
+break D}if("parentFlow.paywall.activeMonth"===q2){w=new A.cJn()
+break D}if("parentFlow.paywall.activeYear"===q2){w=new A.cJo()
+break D}if("parentFlow.paywall.benefitsLabel"===q2){w=new A.cJp()
+break D}if("parentFlow.paywall.benefits.levels"===q2){w="30-\u0434\u0435\u04a3\u0433\u0435\u0439\u0433\u0435 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.paywall.benefits.children"===q2){w="5 \u0431\u0430\u043b\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+break D}if("parentFlow.paywall.benefits.rewards"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b 30 \u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0456\u04a3 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b"
+break D}if("parentFlow.paywall.benefits.foksik"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0493\u0430 \u0424\u043e\u043a\u0441\u0438\u043a\u043f\u0435\u043d \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u0441\u04e9\u0439\u043b\u0435\u0441\u0443"
+break D}if("parentFlow.paywall.benefits.family"===q2){w="\u0411\u04af\u043a\u0456\u043b \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0436\u0430\u0437\u044b\u043b\u044b\u043c"
+break D}if("parentFlow.paywall.benefits.assistant"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u043b\u0430\u0440\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d AI \u043a\u04e9\u043c\u0435\u043a\u0448\u0456"
+break D}if("parentFlow.paywall.benefits.aiTasks"===q2){w="\u0411\u0456\u0440 \u0431\u0430\u0441\u0443\u043c\u0435\u043d AI \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b"
+break D}if("parentFlow.paywall.benefits.assistantTrial"===q2){w="\u0410\u0442\u0430-\u0430\u043d\u0430\u043b\u0430\u0440 AI: \u0430\u0439\u044b\u043d\u0430 3 \u0441\u04b1\u0440\u0430\u0443"
+break D}if("parentFlow.paywall.successTitle"===q2){w=new A.cJq()
+break D}if("parentFlow.paywall.restored"===q2){w="\u0416\u0430\u0437\u044b\u043b\u044b\u043c \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0456\u043b\u0434\u0456"
+break D}if("parentFlow.paywall.notFound"===q2){w="App Store \u043c\u0435\u043d Google Play-\u0434\u0435 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b. Paylov \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u04e9\u043b\u0435\u043c \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u043e\u0441\u044b\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.paywall.restoreFailed"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.errorNetwork"===q2){w="\u0411\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u0436\u043e\u049b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.errorStore"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043b\u0430\u0440 \u0434\u04af\u043a\u0435\u043d\u0456 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u043c\u0435\u0434\u0456. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.errorPending"===q2){w="\u0422\u04e9\u043b\u0435\u043c \u0440\u0430\u0441\u0442\u0430\u0443\u0434\u044b \u043a\u04af\u0442\u0443\u0434\u0435. \u0420\u0430\u0441\u0442\u0430\u043b\u044b\u0441\u044b\u043c\u0435\u043d Premium \u049b\u043e\u0441\u044b\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.paywall.errorIneligible"===q2){w="\u0411\u04b1\u043b \u0436\u0430\u0437\u044b\u043b\u044b\u043c \u0441\u0456\u0437\u0434\u0456\u04a3 \u0430\u0439\u043c\u0430\u0493\u044b\u04a3\u044b\u0437\u0434\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break D}if("parentFlow.paywall.errorNotAllowed"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440 \u049b\u04b1\u0440\u044b\u043b\u0493\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u0431\u04b1\u0493\u0430\u0442\u0442\u0430\u043b\u0493\u0430\u043d"
+break D}if("parentFlow.paywall.errorAlreadyPurchased"===q2){w="\u0416\u0430\u0437\u044b\u043b\u044b\u043c \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u0440\u04d9\u0441\u0456\u043c\u0434\u0435\u043b\u0433\u0435\u043d. \xab\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.paywall.errorUnavailable"===q2){w="\u049a\u0430\u0437\u0456\u0440 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.errorGeneric"===q2){w="\u0416\u0430\u0437\u044b\u043b\u044b\u043c\u0434\u044b \u0440\u04d9\u0441\u0456\u043c\u0434\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.paylovStartFailed"===q2){w="\u0422\u04e9\u043b\u0435\u043c \u0431\u0435\u0442\u0456\u043d \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.paywall.paylovPending"===q2){w="\u0422\u04e9\u043b\u0435\u043c \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b \u0436\u04d9\u043d\u0435 \u04d9\u043b\u0456 \u0440\u0430\u0441\u0442\u0430\u043b\u044b\u043f \u0436\u0430\u0442\u044b\u0440. Premium \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u043e\u0441\u044b\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.paywall.manageFailed"===q2){w="\u0416\u0430\u0437\u044b\u043b\u044b\u043c \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.paywall.support"===q2){w="\u049a\u043e\u043b\u0434\u0430\u0443 \u049b\u044b\u0437\u043c\u0435\u0442\u0456\u043d\u0435 \u0436\u0430\u0437\u0443"
+break D}if("parentFlow.paywall.supportSubject"===q2){w=new A.cJr()
+break D}if("parentFlow.paywall.supportFailed"===q2){w=new A.cJs()
+break D}if("parentFlow.paywall.linkFailed"===q2){w=l1
+break D}if("parentFlow.paywall.confirmingTitle"===q2){w="\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443 \u04e9\u0442\u0442\u0456"
+break D}if("parentFlow.paywall.confirmingBody"===q2){w=new A.cJu()
+break D}if("parentFlow.auth.phoneSubtitle"===q2){w="SMS \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u043e\u0434 \u0436\u0456\u0431\u0435\u0440\u0435\u043c\u0456\u0437. \u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u044b\u0437 \u04d9\u043b\u0456 \u0431\u043e\u043b\u043c\u0430\u0441\u0430, \u0436\u0430\u04a3\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0430\u043c\u044b\u0437"
+break D}if("parentFlow.auth.phoneLabel"===q2){w="\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u043d\u04e9\u043c\u0456\u0440\u0456"
+break D}if("parentFlow.auth.getCode"===q2){w=b8
+break D}if("parentFlow.auth.or"===q2){w="\u041d\u0435\u043c\u0435\u0441\u0435"
+break D}if("parentFlow.auth.withEmail"===q2){w="Email \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"
+break D}if("parentFlow.auth.legal"===q2){w=new A.cJv()
+break D}if("parentFlow.auth.codeLabel"===q2){w="SMS-\u043a\u043e\u0434"
+break D}if("parentFlow.auth.changeNumber"===q2){w="\u041d\u04e9\u043c\u0456\u0440\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"
+break D}if("parentFlow.auth.signInTitle"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u044b\u0437\u0493\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.signInSubtitle"===q2){w="\u0422\u0456\u0440\u043a\u0435\u043b\u0443 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u043a\u04e9\u0440\u0441\u0435\u0442\u043a\u0435\u043d email \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u04a3\u044b\u0437\u0434\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.signUpTitle"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u049b\u04b1\u0440\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.auth.signUpSubtitle"===q2){w="Email \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u04a3\u044b\u0437\u0434\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437 \u2014 \u043e\u0493\u0430\u043d \u0440\u0430\u0441\u0442\u0430\u0443 \u0445\u0430\u0442\u044b\u043d \u0436\u0456\u0431\u0435\u0440\u0435\u043c\u0456\u0437"
+break D}if("parentFlow.auth.noAccount"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u044b\u0437 \u0436\u043e\u049b \u043f\u0430?"
+break D}if("parentFlow.auth.register"===q2){w="\u0422\u0456\u0440\u043a\u0435\u043b\u0443"
+break D}if("parentFlow.auth.haveAccount"===q2){w="\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b\u04a3\u044b\u0437 \u0431\u0430\u0440 \u043c\u0430?"
+break D}if("parentFlow.auth.signIn"===q2){w=a7
+break D}if("parentFlow.auth.passwordTitle"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.newPasswordTitle"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u043e\u0439\u043b\u0430\u043f \u0442\u0430\u0431\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.auth.repeatPasswordTitle"===q2){w=b7
+break D}if("parentFlow.auth.repeatPasswordSubtitle"===q2){w="\u0421\u043e\u043b \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0442\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.showPassword"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break D}if("parentFlow.auth.hidePassword"===q2){w="\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u0436\u0430\u0441\u044b\u0440\u0443"
+break D}if("parentFlow.auth.confirmTitle"===q2){w="\u041f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.auth.confirmBody"===q2){w=new A.cJw()
+break D}if("parentFlow.auth.resendEmail"===q2){w="\u0425\u0430\u0442\u0442\u044b \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"
+break D}if("parentFlow.auth.resendEmailIn"===q2){w=new A.cJx()
+break D}if("parentFlow.auth.emailSent"===q2){w="\u0425\u0430\u0442 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456. \u041f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.recoveryEmailLabel"===q2){w=a9
+break D}if("parentFlow.auth.nameTitle"===q2){w="\u0410\u0442\u044b\u04a3\u044b\u0437 \u043a\u0456\u043c?"
+break D}if("parentFlow.auth.nameSubtitle"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b \u043c\u04af\u0448\u0435\u043b\u0435\u0440\u0456 \u0441\u0456\u0437\u0434\u0456 \u043e\u0441\u044b \u0430\u0442\u043f\u0435\u043d \u043a\u04e9\u0440\u0435\u0434\u0456. \u0410\u0442\u044b\u04a3\u044b\u0437\u0434\u044b \u043f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435 \u04e9\u0437\u0433\u0435\u0440\u0442\u0435 \u0430\u043b\u0430\u0441\u044b\u0437"
+break D}if("parentFlow.auth.nameLabel"===q2){w="\u0410\u0442\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.auth.childTitle"===q2){w=k2
+break D}if("parentFlow.auth.childSubtitle"===q2){w=k3
+break D}if("parentFlow.auth.childNameLabel"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u0430\u0442\u044b"
+break D}if("parentFlow.auth.childNameHint"===q2){w=b1
+break D}if("parentFlow.auth.birthDateLabel"===q2){w=f9
+break D}if("parentFlow.auth.birthDateHint"===q2){w=a2
+break D}if("parentFlow.auth.genderLabel"===q2){w=o2
+break D}if("parentFlow.auth.genderHint"===q2){w=a2
+break D}if("parentFlow.auth.boy"===q2){w=g0
+break D}if("parentFlow.auth.girl"===q2){w=g1
+break D}if("parentFlow.auth.moreChildrenLater"===q2){w="\u049a\u0430\u043b\u0493\u0430\u043d \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b \u043a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0431\u0430\u0441\u0443\u043c\u0435\u043d \u049b\u043e\u0441\u0430 \u0430\u043b\u0430\u0441\u044b\u0437"
+break D}if("parentFlow.auth.addChildLater"===q2){w="\u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u043e\u0441\u0443"
+break D}if("parentFlow.auth.finish"===q2){w="\u0410\u044f\u049b\u0442\u0430\u0443"
+break D}if("parentFlow.auth.familyCreated"===q2){w="\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.auth.childCodeSubtitle"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437 \u04e9\u0437 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0434\u0430 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0493\u0430 \u043a\u0456\u0440\u0443\u0456 \u04af\u0448\u0456\u043d \u043e\u0493\u0430\u043d \u043e\u0441\u044b \u043a\u043e\u0434\u0442\u044b \u0431\u0435\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.auth.childCodeLabel"===q2){w=new A.cJy()
+break D}if("parentFlow.auth.copyCode"===q2){w=b3
+break D}if("parentFlow.auth.codeCopied"===q2){w=j2
+break D}if("parentFlow.auth.inviteChild"===q2){w=o3
+break D}if("parentFlow.auth.setPin"===q2){w="PIN-\u043a\u043e\u0434 \u043e\u0440\u043d\u0430\u0442\u0443"
+break D}if("parentFlow.auth.nameRequired"===q2){w=o4
+break D}if("parentFlow.auth.nameTooLong"===q2){w=new A.cJz()
+break D}if("parentFlow.auth.birthDateRequired"===q2){w=o5
+break D}if("parentFlow.auth.genderRequired"===q2){w=o6
+break D}if("parentFlow.auth.haveInvite"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443\u044b\u043c \u0431\u0430\u0440"
+break D}if("parentFlow.pin.confirmItsYou"===q2){w=j1
+break D}if("parentFlow.pin.dotsLabel"===q2){w="PIN-\u043a\u043e\u0434"
+break D}if("parentFlow.pin.dotsValue"===q2){w=new A.cJA()
+break D}if("parentFlow.pin.deleteDigit"===q2){w=a4
+break D}if("parentFlow.pin.lockedOutSeconds"===q2){w=new A.cJB(q1)
+break D}if("parentFlow.pin.lockedOutMinutes"===q2){w=new A.cJC(q1)
+break D}if("parentFlow.pin.lockedOutHours"===q2){w=new A.cJD(q1)
+break D}if("parentFlow.pin.forgotBody"===q2){w="PIN-\u0434\u0456 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0456\u043f, \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u0430\u043d \u0448\u044b\u0493\u0430\u043c\u044b\u0437. \u049a\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0433\u0435\u043d\u0434\u0435 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430 \u0436\u0430\u04a3\u0430 PIN \u043e\u0440\u043d\u0430\u0442\u0443\u0434\u044b \u0441\u04b1\u0440\u0430\u0439\u0434\u044b."
+break D}if("parentFlow.pin.notSetTitle"===q2){w="PIN \u04d9\u043b\u0456 \u043e\u0440\u043d\u0430\u0442\u044b\u043b\u043c\u0430\u0493\u0430\u043d"
+break D}if("parentFlow.pin.notSetBody"===q2){w=y.nP
+break D}if("parentFlow.pin.notSetAction"===q2){w="\u0428\u044b\u0493\u044b\u043f, \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0443"
+break D}if("parentFlow.assistant.title"===q2){w=g6
+break D}if("parentFlow.assistant.online"===q2){w="\u041e\u043d\u043b\u0430\u0439\u043d"
+break D}if("parentFlow.assistant.typing"===q2){w="\u0416\u0430\u0437\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u2026"
+break D}if("parentFlow.assistant.childDisc"===q2){w=new A.cJG()
+break D}if("parentFlow.assistant.settingsDisc"===q2){w=o7
+break D}if("parentFlow.assistant.composerHint"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a\u0442\u0435\u043d \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437\u2026"
+break D}if("parentFlow.assistant.send"===q2){w=h
+break D}if("parentFlow.assistant.loading"===q2){w="\u0421\u04b1\u0445\u0431\u0430\u0442 \u0436\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440"
+break D}if("parentFlow.assistant.greeting"===q2){w=y.t
+break D}if("parentFlow.assistant.weekCaption"===q2){w=new A.cJH()
+break D}if("parentFlow.assistant.weekLoading"===q2){w="\u0410\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b\u043d \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u043d\u2026"
+break D}if("parentFlow.assistant.weekEmpty"===q2){w=new A.cJI()
+break D}if("parentFlow.assistant.weekFailed"===q2){w=y.iu
+break D}if("parentFlow.assistant.categoryStrength"===q2){w="\u0416\u0430\u049b\u0441\u044b \u0448\u044b\u0493\u044b\u043f \u0436\u0430\u0442\u044b\u0440"
+break D}if("parentFlow.assistant.categoryGrowth"===q2){w="\u04e8\u0441\u0443\u0433\u0435 \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u043a \u0431\u0430\u0440"
+break D}if("parentFlow.assistant.categoryMoney"===q2){w=n5
+break D}if("parentFlow.assistant.categoryAttention"===q2){w="\u041d\u0430\u0437\u0430\u0440 \u0430\u0443\u0434\u0430\u0440\u044b\u04a3\u044b\u0437"
+break D}if("parentFlow.assistant.promptWeek"===q2){w=new A.cJJ()
+break D}if("parentFlow.assistant.promptTasks"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04b1\u0441\u044b\u043d"
+break D}if("parentFlow.assistant.promptsTitle"===q2){w="\u0421\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.assistant.suggestionsIntro"===q2){w=y.b0
+break D}if("parentFlow.assistant.suggestionsEmpty"===q2){w=y.lI
+break D}if("parentFlow.assistant.cardTask"===q2){w=j6
+break D}if("parentFlow.assistant.cardReward"===q2){w=j7
+break D}if("parentFlow.assistant.cardLimit"===q2){w=o8
+break D}if("parentFlow.assistant.limitLight"===q2){w=n1
+break D}if("parentFlow.assistant.limitMedium"===q2){w=e1
+break D}if("parentFlow.assistant.limitHigh"===q2){w=n2
+break D}if("parentFlow.assistant.limitDetail"===q2){w=new A.cJK()
+break D}if("parentFlow.assistant.premiumDetail"===q2){w=new A.cJL()
+break D}if("parentFlow.assistant.add"===q2){w=t
+break D}if("parentFlow.assistant.apply"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u0443"
+break D}if("parentFlow.assistant.added"===q2){w="\u049a\u043e\u0441\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.assistant.applied"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.assistant.undo"===q2){w="\u0411\u04b1\u0440\u044b\u043d\u0493\u044b\u0434\u0430\u0439 \u049b\u0430\u0439\u0442\u0430\u0440\u0443"
+break D}if("parentFlow.assistant.addSemantics"===q2){w=new A.cJM()
+break D}if("parentFlow.assistant.applyFailed"===q2){w="\u049a\u043e\u0441\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.assistant.revertFailed"===q2){w=y.m4
+break D}if("parentFlow.assistant.suggestFailedTitle"===q2){w="\u0422\u0430\u04a3\u0434\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.assistant.suggestFailedBody"===q2){w=k9
+break D}if("parentFlow.assistant.retry"===q2){w=i
+break D}if("parentFlow.assistant.premium"===q2){w=new A.cJN()
+break D}if("parentFlow.assistant.offTitle"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u04e9\u0448\u0456\u0440\u0443\u043b\u0456"
+break D}if("parentFlow.assistant.offBody"===q2){w=y.im
+break D}if("parentFlow.assistant.offAction"===q2){w=t
+break D}if("parentFlow.assistant.premiumTitle"===q2){w=new A.cJO()
+break D}if("parentFlow.assistant.premiumBody"===q2){w=y.jA
+break D}if("parentFlow.assistant.monthlyTitle"===q2){w="\u041e\u0441\u044b \u0430\u0439\u0434\u0430\u0493\u044b \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440 \u0448\u0435\u0433\u0456\u043d\u0435 \u0436\u0435\u0442\u0442\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.assistant.monthlyBody"===q2){w=new A.cJP()
+break D}if("parentFlow.assistant.dailyTitle"===q2){w="\u0411\u04af\u0433\u0456\u043d\u0433\u0435 \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440 \u0431\u0456\u0442\u0442\u0456"
+break D}if("parentFlow.assistant.dailyBody"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u0435\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435\u0434\u0456"
+break D}if("parentFlow.assistant.familyCapTitle"===q2){w="\u0410\u0439\u043b\u044b\u049b AI \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.assistant.familyCapBody"===q2){w=y.lr
+break D}if("parentFlow.assistant.rateTitle"===q2){w="\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d \u0442\u044b\u043c \u043a\u04e9\u043f \u0441\u04b1\u0440\u0430\u049b"
+break D}if("parentFlow.assistant.rateBody"===q2){w="\u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442 \u043a\u04af\u0442\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437"
+break D}if("parentFlow.assistant.tooLongTitle"===q2){w="\u0421\u04b1\u0440\u0430\u049b \u0442\u044b\u043c \u04b1\u0437\u044b\u043d"
+break D}if("parentFlow.assistant.tooLongBody"===q2){w=y.df
+break D}if("parentFlow.assistant.errorTitle"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u043c\u0435\u0434\u0456"
+break D}if("parentFlow.assistant.errorBody"===q2){w=y.fq
+break D}if("parentFlow.assistant.refusedTitle"===q2){w=y.kJ
+break D}if("parentFlow.assistant.refusedBody"===q2){w=y.hX
+break D}if("parentFlow.assistant.loadErrorTitle"===q2){w="\u0421\u04b1\u0445\u0431\u0430\u0442\u0442\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break D}if("parentFlow.assistant.loadErrorBody"===q2){w=k9
+break D}if("parentFlow.assistant.noChildTitle"===q2){w=g3
+break D}if("parentFlow.assistant.noChildBody"===q2){w=new A.cJR()
+break D}if("parentFlow.assistant.noChildAction"===q2){w=k2
+break D}if("parentFlow.assistant.sheetChildren"===q2){w="\u041a\u0456\u043c \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u04e9\u0439\u043b\u0435\u0441\u0435\u043c\u0456\u0437?"
+break D}if("parentFlow.assistant.sheetSettings"===q2){w=o7
+break D}if("parentFlow.assistant.enabled"===q2){w="\u041a\u04e9\u043c\u0435\u043a\u0448\u0456 \u049b\u043e\u0441\u0443\u043b\u044b"
+break D}if("parentFlow.assistant.clearHistory"===q2){w="\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0443"
+break D}if("parentFlow.assistant.clearTitle"===q2){w="\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0439\u0441\u044b\u0437 \u0431\u0430?"
+break D}if("parentFlow.assistant.clearBody"===q2){w=y.ee
+break D}if("parentFlow.assistant.clearConfirm"===q2){w="\u0422\u0430\u0437\u0430\u043b\u0430\u0443"
+break D}if("parentFlow.assistant.cleared"===q2){w="\u0422\u0430\u0440\u0438\u0445 \u0442\u0430\u0437\u0430\u043b\u0430\u043d\u0434\u044b"
+break D}if("parentFlow.assistant.clearFailed"===q2){w=y.oE
+break D}if("parentFlow.assistant.saveFailed"===q2){w=j3
+break D}if("parentFlow.assistant.weekTips"===q2){w="\u041d\u0435\u043d\u0456 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b"
+break D}if("parentFlow.assistant.cardNewTask"===q2){w="\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+break D}if("parentFlow.assistant.cardNewReward"===q2){w="\u0416\u0430\u04a3\u0430 \u0441\u044b\u0439\u043b\u044b\u049b"
+break D}if("parentFlow.assistant.cardScreen"===q2){w="\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430 \u0431\u04e9\u043b\u0456\u043c\u0456"
+break D}if("parentFlow.assistant.create"===q2){w=j5
+break D}if("parentFlow.assistant.created"===q2){w="\u049a\u04b1\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.assistant.edit"===q2){w="\u04e8\u0437\u0433\u0435\u0440\u0442\u0443"
+break D}if("parentFlow.assistant.open"===q2){w="\u0410\u0448\u0443"
+break D}if("parentFlow.assistant.createSemantics"===q2){w=new A.cJS()
+break D}if("parentFlow.assistant.openSemantics"===q2){w=new A.cJT()
+break D}if("parentFlow.assistant.editSemantics"===q2){w=new A.cJU()
+break D}if("parentFlow.assistant.createFailed"===q2){w="\u049a\u04b1\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+break D}if("parentFlow.assistant.photo"===q2){w="\u0444\u043e\u0442\u043e\u043c\u0435\u043d"
+break D}if("parentFlow.assistant.screenReview"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break D}if("parentFlow.assistant.screenRequests"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440\u044b"
+break D}if("parentFlow.assistant.screenTasks"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break D}if("parentFlow.assistant.screenCatalog"===q2){w="\u0414\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break D}if("parentFlow.assistant.screenRewards"===q2){w=e
+break D}if("parentFlow.assistant.screenChild"===q2){w=new A.cJV()
+break D}if("parentFlow.assistant.greetingVoice"===q2){w="\u0414\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0434\u0435 \u0431\u043e\u043b\u0430\u0434\u044b \u2014 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u0434\u044b \u0431\u0430\u0441\u044b\u04a3\u044b\u0437."
+break D}if("parentFlow.assistant.promptReview"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435 \u043d\u0435 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440?"
+break D}if("parentFlow.assistant.promptBonus"===q2){w="\u0411\u043e\u043d\u0443\u0441 \u0431\u0435\u0440\u0443"
+break D}if("parentFlow.assistant.forChildren"===q2){w=new A.cJW()
+break D}if("parentFlow.assistant.actionFailed"===q2){w=o9
+break D}if("parentFlow.assistant.cardBonus"===q2){w=new A.cJX()
+break D}if("parentFlow.assistant.bonusTitle"===q2){w=new A.cJY(q1)
+break D}if("parentFlow.assistant.award"===q2){w="\u0411\u0435\u0440\u0443"
+break D}if("parentFlow.assistant.awarded"===q2){w="\u0411\u0435\u0440\u0456\u043b\u0434\u0456"
+break D}if("parentFlow.assistant.awardSemantics"===q2){w=new A.cJZ()
+break D}if("parentFlow.assistant.cardReview"===q2){w=a1
+break D}if("parentFlow.assistant.cardReviewOf"===q2){w=new A.cK_()
+break D}if("parentFlow.assistant.reviewCount"===q2){w=new A.cK1(q1)
+break D}if("parentFlow.assistant.reviewItemOf"===q2){w=new A.cK2()
+break D}if("parentFlow.assistant.moreItems"===q2){w=new A.cK3()
+break D}if("parentFlow.assistant.approve"===q2){w=m4
+break D}if("parentFlow.assistant.approveAll"===q2){w="\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443"
+break D}if("parentFlow.assistant.approved"===q2){w=o1
+break D}if("parentFlow.assistant.approvedPart"===q2){w=new A.cK4()
+break D}if("parentFlow.assistant.approveSemantics"===q2){w=new A.cK5()
+break D}if("parentFlow.assistant.approveAllSemantics"===q2){w=new A.cK6()
+break D}if("parentFlow.assistant.cardGiveBack"===q2){w=n9
+break D}if("parentFlow.assistant.cardGiveBackOf"===q2){w=new A.cK7()
+break D}if("parentFlow.assistant.giveBackDetail"===q2){w=new A.cK8()
+break D}if("parentFlow.assistant.giveBack"===q2){w="\u049a\u0430\u0439\u0442\u0430\u0440\u0443"
+break D}if("parentFlow.assistant.givenBack"===q2){w="\u049a\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"
+break D}if("parentFlow.assistant.giveBackSemantics"===q2){w=new A.cK9()
+break D}if("parentFlow.assistant.cardRequest"===q2){w=new A.cKa()
+break D}if("parentFlow.assistant.declineReason"===q2){w=new A.cKc()
+break D}if("parentFlow.assistant.grant"===q2){w="\u0411\u0435\u0440\u0443"
+break D}if("parentFlow.assistant.granted"===q2){w="\u0411\u0435\u0440\u0456\u043b\u0434\u0456"
+break D}if("parentFlow.assistant.grantSemantics"===q2){w=new A.cKd()
+break D}if("parentFlow.assistant.decline"===q2){w=n
+break D}if("parentFlow.assistant.declined"===q2){w=e6
+break D}if("parentFlow.assistant.declineSemantics"===q2){w=new A.cKe()
+break D}if("parentFlow.assistant.cardEditTask"===q2){w=n4
+break D}if("parentFlow.assistant.cardEditTaskOf"===q2){w=new A.cKf()
+break D}if("parentFlow.assistant.editTitle"===q2){w=new A.cKg()
+break D}if("parentFlow.assistant.editDescription"===q2){w=new A.cKh()
+break D}if("parentFlow.assistant.noPhoto"===q2){w="\u0444\u043e\u0442\u043e\u0441\u044b\u0437"
+break D}if("parentFlow.assistant.saved"===q2){w=p0
+break D}if("parentFlow.assistant.saveSemantics"===q2){w=new A.cKi()
+break D}if("parentFlow.assistant.cardArchive"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"
+break D}if("parentFlow.assistant.cardArchiveOf"===q2){w=new A.cKj()
+break D}w=v
+break D}if(w==null)E:{w=k2
+if("parentFlow.assistant.archiveDetail"===q2){w="\u0411\u0430\u043b\u0430 \u043e\u043d\u044b \u0435\u043d\u0434\u0456 \u043a\u04e9\u0440\u043c\u0435\u0439\u0434\u0456"
+break E}if("parentFlow.assistant.archive"===q2){w="\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"
+break E}if("parentFlow.assistant.archived"===q2){w="\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.assistant.archiveSemantics"===q2){w=new A.cKk()
+break E}if("parentFlow.assistant.cardLimits"===q2){w=new A.cKl()
+break E}if("parentFlow.assistant.limitsLoadLight"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u0436\u0435\u04a3\u0456\u043b"
+break E}if("parentFlow.assistant.limitsLoadNormal"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u049b\u0430\u043b\u044b\u043f\u0442\u044b"
+break E}if("parentFlow.assistant.limitsLoadHigh"===q2){w="\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u0436\u043e\u0493\u0430\u0440\u044b"
+break E}if("parentFlow.assistant.limitsCoins"===q2){w=new A.cKn(q1)
+break E}if("parentFlow.assistant.limitsSemantics"===q2){w=new A.cKo()
+break E}if("parentFlow.assistant.screenChildSettings"===q2){w=new A.cKp()
+break E}if("parentFlow.assistant.screenAddChild"===q2)break E
+if("parentFlow.assistant.staleReviewed"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break E}if("parentFlow.assistant.staleDecided"===q2){w="\u0428\u0435\u0448\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break E}if("parentFlow.assistant.staleTask"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0435\u043d\u0434\u0456 \u0436\u043e\u049b"
+break E}if("parentFlow.assistant.staleOther"===q2){w="\u0415\u043d\u0434\u0456 \u04e9\u0437\u0435\u043a\u0442\u0456 \u0435\u043c\u0435\u0441"
+break E}if("parentFlow.assistant.bonusCapReached"===q2){w=p1
+break E}if("parentFlow.assistant.bonusAmountRange"===q2){w="\u0411\u043e\u043d\u0443\u0441 \u2014 1-\u0434\u0435\u043d 500 \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+break E}if("parentFlow.assistant.actionRefused"===q2){w=p2
+break E}if("parentFlow.assistant.bonusChoiceTitle"===q2){w="\u049a\u0430\u043d\u0448\u0430 \u0442\u0438\u044b\u043d?"
+break E}if("parentFlow.assistant.awardAmount"===q2){w=new A.cKq(q1)
+break E}if("parentFlow.assistant.awardPickFirst"===q2){w=new A.cKr()
+break E}if("parentFlow.assistant.amountOther"===q2){w="\u0411\u0430\u0441\u049b\u0430 \u0441\u043e\u043c\u0430"
+break E}if("parentFlow.assistant.amountLess"===q2){w="\u0410\u0437\u044b\u0440\u0430\u049b"
+break E}if("parentFlow.assistant.amountMore"===q2){w="\u041a\u04e9\u0431\u0456\u0440\u0435\u043a"
+break E}if("parentFlow.assistant.callNumber"===q2){w=new A.cKs()
+break E}if("parentFlow.assistant.callFailed"===q2){w=new A.cKt()
+break E}if("parentFlow.assistant.compose.caption"===q2){w="\u0424\u043e\u043a\u0441\u0438\u043a \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u0434\u044b"
+break E}if("parentFlow.assistant.compose.checked"===q2){w=i1
+break E}if("parentFlow.assistant.compose.unchecked"===q2){w=i2
+break E}if("parentFlow.assistant.compose.chipSent"===q2){w=i3
+break E}if("parentFlow.familyChat.status"===q2){w=p3
+break E}if("parentFlow.familyChat.sending"===q2){w="\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u0443\u0434\u0435\u2026"
+break E}if("parentFlow.familyChat.switchChild"===q2){w=l3
+break E}if("parentFlow.familyChat.titleSemantics"===q2){w=new A.cKu()
+break E}if("parentFlow.familyChat.sheetTitle"===q2){w="\u041a\u0456\u043c\u043c\u0435\u043d \u0436\u0430\u0437\u044b\u0441\u0430\u043c\u044b\u0437?"
+break E}if("parentFlow.familyChat.unread"===q2){w=new A.cKv(q1)
+break E}if("parentFlow.familyChat.hint"===q2){w="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"
+break E}if("parentFlow.familyChat.send"===q2){w=h
+break E}if("parentFlow.familyChat.loading"===q2){w="\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043b\u0430\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440"
+break E}if("parentFlow.familyChat.emptyTitle"===q2){w="\u04d8\u04a3\u0433\u0456\u043c\u0435 \u0431\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"
+break E}if("parentFlow.familyChat.emptyBody"===q2){w=new A.cKw()
+break E}if("parentFlow.familyChat.coinRequest"===q2){w="\u0422\u0438\u044b\u043d \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"
+break E}if("parentFlow.familyChat.sent"===q2){w=h7
+break E}if("parentFlow.familyChat.read"===q2){w="\u041e\u049b\u044b\u043b\u0434\u044b"
+break E}if("parentFlow.familyChat.sendFailed"===q2){w=y.k1
+break E}if("parentFlow.familyChat.offlineTitle"===q2){w="\u0427\u0430\u0442 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"
+break E}if("parentFlow.familyChat.offlineBody"===q2){w=y.ie
+break E}if("parentFlow.familyChat.loadErrorTitle"===q2){w="\u0427\u0430\u0442\u0442\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break E}if("parentFlow.familyChat.loadErrorBody"===q2){w=k9
+break E}if("parentFlow.familyChat.retry"===q2){w=i
+break E}if("parentFlow.familyChat.noChildTitle"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0436\u0430\u0437\u044b\u0441\u0430\u0442\u044b\u043d \u0435\u0448\u043a\u0456\u043c \u0436\u043e\u049b"
+break E}if("parentFlow.familyChat.noChildBody"===q2){w=y.a
+break E}if("parentFlow.familyChat.noChildAction"===q2)break E
+if("parentFlow.familyChat.title"===q2){w=p3
+break E}if("parentFlow.familyChat.stateLoading"===q2){w=m9
+break E}if("parentFlow.familyChat.stateOffline"===q2){w="\u0411\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"
+break E}if("parentFlow.familyChat.stateEmpty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"
+break E}if("parentFlow.familyChat.coinRequestAmount"===q2){w=new A.cKy(q1)
+break E}if("parentFlow.familyChat.coinGive"===q2){w=new A.cKz(q1)
+break E}if("parentFlow.familyChat.coinGiven"===q2){w=new A.cKA(q1)
+break E}if("parentFlow.familyChat.coinLater"===q2){w=m3
+break E}if("parentFlow.familyChat.coinLaterSemantics"===q2){w=new A.cKB(q1)
+break E}if("parentFlow.familyChat.coinDeclined"===q2){w=m3
+break E}if("parentFlow.familyChat.coinCapReached"===q2){w=p1
+break E}if("parentFlow.familyChat.coinAmountRange"===q2){w=y.ip
+break E}if("parentFlow.familyChat.coinRefused"===q2){w=p2
+break E}if("parentFlow.familyChat.coinFailed"===q2){w=o9
+break E}if("parentFlow.familyChat.coinAnsweredElsewhere"===q2){w="\u0411\u04b1\u043b \u04e9\u0442\u0456\u043d\u0456\u0448\u043a\u0435 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break E}if("parentFlow.addChild.title"===q2)break E
+if("parentFlow.addChild.subtitleFirst"===q2){w=k3
+break E}if("parentFlow.addChild.subtitleMore"===q2){w=y.db
+break E}if("parentFlow.addChild.nameLabel"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u0430\u0442\u044b \u043a\u0456\u043c?"
+break E}if("parentFlow.addChild.nameHint"===q2){w=b1
+break E}if("parentFlow.addChild.birthDateLabel"===q2){w=f9
+break E}if("parentFlow.addChild.birthDateHint"===q2){w=p4
+break E}if("parentFlow.addChild.birthDateSheet"===q2){w=f9
+break E}if("parentFlow.addChild.genderLabel"===q2){w=o2
+break E}if("parentFlow.addChild.genderHint"===q2){w=p4
+break E}if("parentFlow.addChild.genderSheet"===q2){w=o2
+break E}if("parentFlow.addChild.boy"===q2){w=g0
+break E}if("parentFlow.addChild.girl"===q2){w=g1
+break E}if("parentFlow.addChild.age"===q2){w=new A.cKC(q1)
+break E}if("parentFlow.addChild.noteFirst"===q2){w=y.hV
+break E}if("parentFlow.addChild.noteMore"===q2){w=y.fX
+break E}if("parentFlow.addChild.submit"===q2){w=t
+break E}if("parentFlow.addChild.nameRequired"===q2){w=o4
+break E}if("parentFlow.addChild.nameTooLong"===q2){w=new A.cKD()
+break E}if("parentFlow.addChild.birthDateRequired"===q2){w=o5
+break E}if("parentFlow.addChild.genderRequired"===q2){w=o6
+break E}if("parentFlow.addChild.failed"===q2){w=y.fD
+break E}if("parentFlow.addChild.limitTitle"===q2){w=new A.cKE()
+break E}if("parentFlow.addChild.limitBody"===q2){w=y.cf
+break E}if("parentFlow.addChild.limitAction"===q2){w=m2
+break E}if("parentFlow.addChild.limitLater"===q2){w=m3
+break E}if("parentFlow.addChild.familyFull"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 5 \u0431\u0430\u043b\u0430 \u0431\u0430\u0440 \u2014 \u0431\u04b1\u043b \u0435\u04a3 \u043a\u04e9\u0431\u0456"
+break E}if("parentFlow.childAdded.title"===q2){w="\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0415\u043d\u0434\u0456 \u0431\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0430\u0439\u044b\u049b"
+break E}if("parentFlow.childAdded.subtitle"===q2){w=y.bB
+break E}if("parentFlow.childAdded.invite"===q2){w=o3
+break E}if("parentFlow.childAdded.later"===q2){w=c8
+break E}if("parentFlow.invite.title"===q2){w=o3
+break E}if("parentFlow.invite.subtitle"===q2){w=y.R
+break E}if("parentFlow.invite.later"===q2){w="\u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u0448\u0430\u049b\u044b\u0440\u0443"
+break E}if("parentFlow.invite.shareLink"===q2){w="\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0430\u0440\u049b\u044b\u043b\u044b \u0448\u0430\u049b\u044b\u0440\u0443"
+break E}if("parentFlow.invite.finish"===q2){w="\u0422\u0456\u0440\u043a\u0435\u043b\u0443\u0434\u0456 \u0430\u044f\u049b\u0442\u0430\u0443"
+break E}if("parentFlow.invite.done"===q2){w=f
+break E}if("parentFlow.invite.qrLabel"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u043a\u0456\u0440\u0443\u0456\u043d\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d QR-\u043a\u043e\u0434"
+break E}if("parentFlow.invite.codeLabel"===q2){w=new A.cKF()
+break E}if("parentFlow.invite.codeCopied"===q2){w=j2
+break E}if("parentFlow.invite.expiresToday"===q2){w=new A.cKG()
+break E}if("parentFlow.invite.expiresTomorrow"===q2){w=new A.cKH()
+break E}if("parentFlow.invite.expiresOn"===q2){w=new A.cKJ()
+break E}if("parentFlow.invite.refresh"===q2){w="\u0416\u0430\u04a3\u0430\u0440\u0442\u0443"
+break E}if("parentFlow.invite.refreshSemantics"===q2){w="\u0416\u0430\u04a3\u0430 QR-\u043a\u043e\u0434 \u0436\u0430\u0441\u0430\u0443"
+break E}if("parentFlow.invite.refreshed"===q2){w=y.ku
+break E}if("parentFlow.invite.qrFailed"===q2){w="QR \u0436\u0430\u0441\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break E}if("parentFlow.invite.retry"===q2){w=i
+break E}if("parentFlow.invite.loadFailed"===q2){w=y.bC
+break E}if("parentFlow.invite.shareText"===q2){w=new A.cKK()
+break E}if("parentFlow.invite.shareCodeText"===q2){w=new A.cKL()
+break E}if("parentFlow.invite.shareLinkText"===q2){w=new A.cKM()
+break E}if("parentFlow.childSettings.title"===q2){w=k6
+break E}if("parentFlow.childSettings.connectedHe"===q2){w=p5
+break E}if("parentFlow.childSettings.connectedShe"===q2){w=p5
+break E}if("parentFlow.childSettings.waiting"===q2){w=k1
+break E}if("parentFlow.childSettings.sectionProfile"===q2){w=d
+break E}if("parentFlow.childSettings.sectionTasks"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0442\u0438\u044b\u043d\u0434\u0430\u0440"
+break E}if("parentFlow.childSettings.sectionAccess"===q2){w="\u041a\u0456\u0440\u0443 \u0436\u04d9\u043d\u0435 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"
+break E}if("parentFlow.childSettings.photoChange"===q2){w=d4
+break E}if("parentFlow.childSettings.photoSheet"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0444\u043e\u0442\u043e\u0441\u044b"
+break E}if("parentFlow.childSettings.photoCamera"===q2){w=s
+break E}if("parentFlow.childSettings.photoGallery"===q2){w=r
+break E}if("parentFlow.childSettings.photoRemove"===q2){w=d5
+break E}if("parentFlow.childSettings.photoSaved"===q2){w="\u0424\u043e\u0442\u043e \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.childSettings.photoRemoved"===q2){w="\u0424\u043e\u0442\u043e \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.childSettings.photoDenied"===q2){w=y.f2
+break E}if("parentFlow.childSettings.photoNoCamera"===q2){w=y.fI
+break E}if("parentFlow.childSettings.photoRejected"===q2){w="\u0411\u04b1\u043b \u0444\u043e\u0442\u043e \u0436\u0430\u0440\u0430\u043c\u0430\u0434\u044b, \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break E}if("parentFlow.childSettings.photoFailed"===q2){w=y.lS
+break E}if("parentFlow.childSettings.name"===q2){w=b2
+break E}if("parentFlow.childSettings.nameSheet"===q2){w=b1
+break E}if("parentFlow.childSettings.nameSheetBody"===q2){w="\u0411\u0430\u043b\u0430 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u0430 \u043e\u0441\u044b \u0430\u0442\u043f\u0435\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u0435\u0434\u0456"
+break E}if("parentFlow.childSettings.nameSaved"===q2){w=d3
+break E}if("parentFlow.childSettings.birthDate"===q2){w=f9
+break E}if("parentFlow.childSettings.birthDateValue"===q2){w=new A.cKN()
+break E}if("parentFlow.childSettings.gender"===q2){w="\u0416\u044b\u043d\u044b\u0441\u044b"
+break E}if("parentFlow.childSettings.load"===q2){w=n3
+break E}if("parentFlow.childSettings.loadValue"===q2){w=new A.cKO()
+break E}if("parentFlow.childSettings.loadLight"===q2){w=n1
+break E}if("parentFlow.childSettings.loadNormal"===q2){w=d6
+break E}if("parentFlow.childSettings.loadHigh"===q2){w=n2
+break E}if("parentFlow.childSettings.loadTasks"===q2){w=new A.cKP(q1)
+break E}if("parentFlow.childSettings.loadTasksWeek"===q2){w=new A.cKQ(q1)
+break E}if("parentFlow.childSettings.loadSheetBody"===q2){w=y.iJ
+break E}if("parentFlow.childSettings.xp"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04af\u0448\u0456\u043d \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435"
+break E}if("parentFlow.childSettings.xpValue"===q2){w=new A.cKR()
+break E}if("parentFlow.childSettings.xpSheetBody"===q2){w=y.b
+break E}if("parentFlow.childSettings.coins"===q2){w=o8
+break E}if("parentFlow.childSettings.coinsUnlimited"===q2){w="\u0428\u0435\u043a\u0442\u0435\u0443\u0441\u0456\u0437"
+break E}if("parentFlow.childSettings.coinsSheet"===q2){w="\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d\u0434\u0430\u0440"
+break E}if("parentFlow.childSettings.coinsSheetBody"===q2){w=y.K
+break E}if("parentFlow.childSettings.coinsLegacy"===q2){w=y.bW
+break E}if("parentFlow.childSettings.rate"===q2){w=p6
+break E}if("parentFlow.childSettings.rateValue"===q2){w=new A.cKS()
+break E}if("parentFlow.childSettings.saved"===q2){w=p0
+break E}if("parentFlow.childSettings.invite"===q2){w=o3
+break E}if("parentFlow.childSettings.childMode"===q2){w=p7
+break E}if("parentFlow.childSettings.childModeSheet"===q2){w=p7
+break E}if("parentFlow.childSettings.childModeBody"===q2){w=new A.cKU()
+break E}if("parentFlow.childSettings.childModeAction"===q2){w="\u0411\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u04e9\u0442\u0443"
+break E}if("parentFlow.childSettings.childModeFailed"===q2){w=y.ow
+break E}if("parentFlow.childSettings.notifications"===q2){w=j8
+break E}if("parentFlow.childSettings.remove"===q2){w="\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d \u0436\u043e\u044e"
+break E}if("parentFlow.childSettings.removeSheet"===q2){w="\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"
+break E}if("parentFlow.childSettings.removeBody"===q2){w=new A.cKV()
+break E}if("parentFlow.childSettings.removeAction"===q2){w="\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0456 \u0436\u043e\u044e"
+break E}if("parentFlow.childSettings.removed"===q2){w="\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456 \u0436\u043e\u0439\u044b\u043b\u0434\u044b"
+break E}if("parentFlow.childSettings.removeFailed"===q2){w=y.m7
+break E}if("parentFlow.childSettings.rateHint"===q2){w="\u0431\u04af\u043a\u0456\u043b \u043e\u0442\u0431\u0430\u0441\u044b \u04af\u0448\u0456\u043d"
+break E}if("parentFlow.childSettings.nameInvalid"===q2){w=new A.cKW()
+break E}if("parentFlow.childSettings.photoCropTitle"===q2){w="\u0424\u043e\u0442\u043e\u043d\u044b \u0436\u044b\u043b\u0436\u044b\u0442\u044b\u043f, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u044b\u043d \u04e9\u0437\u0433\u0435\u0440\u0442\u0456\u04a3\u0456\u0437"
+break E}if("parentFlow.childSettings.photoCropRotate"===q2){w="\u0424\u043e\u0442\u043e\u043d\u044b \u0431\u04b1\u0440\u0443"
+break E}if("parentFlow.childSettings.photoCropArea"===q2){w="\u0428\u0435\u04a3\u0431\u0435\u0440\u0434\u0435\u0433\u0456 \u0444\u043e\u0442\u043e"
+break E}if("parentFlow.childSettings.photoCropZoom"===q2){w=new A.cKX()
+break E}if("parentFlow.notificationSettings.title"===q2){w=j8
+break E}if("parentFlow.notificationSettings.body"===q2){w=y.ay
+break E}if("parentFlow.notificationSettings.bodyChild"===q2){w=new A.cKY()
+break E}if("parentFlow.notificationSettings.quietTitle"===q2){w="\u0422\u044b\u043d\u044b\u0448 \u0443\u0430\u049b\u044b\u0442"
+break E}if("parentFlow.notificationSettings.quietBody"===q2){w=y.er
+break E}if("parentFlow.notificationSettings.quietPreset"===q2){w=new A.cKZ()
+break E}if("parentFlow.notificationSettings.transactional"===q2){w="\u041c\u0430\u04a3\u044b\u0437\u0434\u044b \u043e\u049b\u0438\u0493\u0430\u043b\u0430\u0440"
+break E}if("parentFlow.notificationSettings.transactionalBody"===q2){w=y.hH
+break E}if("parentFlow.notificationSettings.retention"===q2){w="\u0415\u0441\u043a\u0435 \u0441\u0430\u043b\u0493\u044b\u0448\u0442\u0430\u0440"
+break E}if("parentFlow.notificationSettings.retentionBody"===q2){w="\u0410\u044f\u049b\u0442\u0430\u043b\u043c\u0430\u0493\u0430\u043d \u0456\u0441\u0442\u0435\u0440\u0433\u0435 \u0436\u0430\u0439\u043b\u0430\u043f \u043e\u0440\u0430\u043b\u0443"
+break E}if("parentFlow.notificationSettings.personalized"===q2){w="\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+break E}if("parentFlow.notificationSettings.personalizedBody"===q2){w="\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u0438\u043d\u0430\u0493\u044b \u0434\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430"
+break E}if("parentFlow.notificationSettings.partners"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440"
+break E}if("parentFlow.notificationSettings.partnersBody"===q2){w="\u0422\u0435\u043a \u043b\u0430\u0439\u044b\u049b\u0442\u044b \u0441\u0435\u0440\u0456\u043a\u0442\u0435\u0441 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430"
+break E}if("parentFlow.notificationSettings.wellbeing"===q2){w="\u041f\u0430\u0439\u0434\u0430\u043b\u044b \u04af\u0437\u0456\u043b\u0456\u0441\u0442\u0435\u0440"
+break E}if("parentFlow.notificationSettings.wellbeingBody"===q2){w=y.oU
+break E}if("parentFlow.notificationSettings.loadFailed"===q2){w=y.nd
+break E}if("parentFlow.notificationSettings.saveFailed"===q2){w=j3
+break E}if("parentFlow.familySettings.title"===q2){w=l2
+break E}if("parentFlow.familySettings.subtitle"===q2){w=y.ga
+break E}if("parentFlow.familySettings.rateTitle"===q2){w=p6
+break E}if("parentFlow.familySettings.rateBody"===q2){w=y.it
+break E}if("parentFlow.familySettings.rateValue"===q2){w=new A.cL_()
+break E}if("parentFlow.familySettings.rateMin"===q2){w=new A.cL0()
+break E}if("parentFlow.familySettings.rateRecommended"===q2){w=new A.cL1()
+break E}if("parentFlow.familySettings.rateLegacy"===q2){w=y.mH
+break E}if("parentFlow.familySettings.saved"===q2){w="\u0411\u0430\u0493\u0430\u043c \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.familySettings.saveFailed"===q2){w=y.Z
+break E}if("parentFlow.familySettings.loadFailed"===q2){w=y.kc
+break E}if("parentFlow.voice.mic"===q2){w="\u0425\u0430\u0431\u0430\u0440\u0434\u044b \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"
+break E}if("parentFlow.voice.stop"===q2){w="\u0416\u0430\u0437\u0443\u0434\u044b \u0442\u043e\u049b\u0442\u0430\u0442\u0443"
+break E}if("parentFlow.voice.listening"===q2){w="\u0422\u044b\u04a3\u0434\u0430\u043f \u0442\u04b1\u0440\u043c\u044b\u043d\u2026"
+break E}if("parentFlow.voice.transcribing"===q2){w="\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u043d\u2026"
+break E}if("parentFlow.voice.downloading"===q2){w=new A.cL2()
+break E}if("parentFlow.voice.notRecognized"===q2){w=y.hO
+break E}if("parentFlow.voice.micDenied"===q2){w=y.el
+break E}if("parentFlow.voice.micOffTitle"===q2){w="\u041c\u0438\u043a\u0440\u043e\u0444\u043e\u043d \u04e9\u0448\u0456\u0440\u0443\u043b\u0456"
+break E}if("parentFlow.voice.micOffBody"===q2){w=y.d2
+break E}if("parentFlow.voice.openSettings"===q2){w=g8
+break E}if("parentFlow.voice.settingsFailed"===q2){w="\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"
+break E}if("parentFlow.voice.unavailable"===q2){w=y.oR
+break E}if("parentFlow.voice.failed"===q2){w=y.fh
+break E}if("parentFlow.voice.micBusy"===q2){w=y.m1
+break E}if("parentFlow.voice.downloadTitle"===q2){w="\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443"
+break E}if("parentFlow.voice.downloadBody"===q2){w=y.dO
+break E}if("parentFlow.voice.downloadConfirm"===q2){w=h0
+break E}if("parentFlow.voice.downloadFailed"===q2){w=y.pn
+break E}if("parentFlow.voice.cancel"===q2){w=n
+break E}if("parentFlow.voice.listeningConfirm"===q2){w="\u0422\u044b\u04a3\u0434\u0430\u043f \u0442\u04b1\u0440\u043c\u044b\u043d\u2026 \u0420\u0430\u0441\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \xab\u0438\u04d9\xbb \u0434\u0435\u04a3\u0456\u0437"
+break E}if("parentFlow.voice.spoken"===q2){w="\u0414\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u044b\u043b\u0434\u044b"
+break E}if("parentFlow.voice.tapCard"===q2){w="\u0420\u0430\u0441\u0442\u0430\u0493\u044b\u04a3\u044b\u0437 \u043a\u0435\u043b\u0435\u0442\u0456\u043d \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043d\u044b \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"
+break E}if("parentFlow.voice.discard"===q2){w="\u0416\u0430\u0437\u0443\u0434\u0430\u043d \u0431\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"
+break E}if("parentFlow.voice.pickAmount"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u0434\u0430\u043d \u0441\u043e\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"
+break E}if("parentFlow.stats.weekCaption"===q2){w=new A.cL4()
+break E}if("parentFlow.stats.coinsCaption"===q2){w=new A.cL5()
+break E}if("parentFlow.stats.growthCaption"===q2){w=new A.cL6()
+break E}if("parentFlow.stats.topCaption"===q2){w=new A.cL7()
+break E}if("parentFlow.stats.childrenCaption"===q2){w=m8
+break E}if("parentFlow.stats.weekTitle"===q2){w=new A.cL8(q1)
+break E}if("parentFlow.stats.coinsTitle"===q2){w=new A.cL9(q1)
+break E}if("parentFlow.stats.growthTitle"===q2){w=new A.cLa(q1)
+break E}if("parentFlow.stats.topTitle"===q2){w=new A.cLb(q1)
+break E}if("parentFlow.stats.childrenTitle"===q2){w=new A.cLc(q1)
+break E}if("parentFlow.stats.figTasks"===q2){w=new A.cLd(q1)
+break E}if("parentFlow.stats.figCoins"===q2){w=new A.cLf(q1)
+break E}if("parentFlow.stats.figStreak"===q2){w=new A.cLg(q1)
+break E}if("parentFlow.stats.figPoints"===q2){w=new A.cLh(q1)
+break E}if("parentFlow.stats.figEarned"===q2){w="\u0442\u0430\u0431\u044b\u043b\u0434\u044b"
+break E}if("parentFlow.stats.figSpent"===q2){w="\u0436\u04b1\u043c\u0441\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.stats.pending"===q2){w=new A.cLi(q1)
+break E}if("parentFlow.stats.share"===q2){w=new A.cLj()
+break E}if("parentFlow.stats.growthEmpty"===q2){w=y.le
+break E}if("parentFlow.stats.topEmpty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"
+break E}if("parentFlow.stats.colChild"===q2){w="\u0411\u0430\u043b\u0430"
+break E}if("parentFlow.stats.colTasks"===q2){w=c9
+break E}if("parentFlow.stats.colCoins"===q2){w=n5
+break E}if("parentFlow.stats.colStreak"===q2){w="\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d"
+break E}if("parentFlow.stats.colPending"===q2){w="\u041a\u04af\u0442\u0443\u0434\u0435"
+break E}if("parentFlow.stats.twinItem"===q2){w=new A.cLk()
+break E}if("parentFlow.stats.twinRow"===q2){w=new A.cLl()
+break E}if("parentFlow.stats.coinsBonus"===q2){w=new A.cLm(q1)
+break E}if("parentFlow.lessons.tipCaption"===q2){w="\u041a\u0435\u04a3\u0435\u0441"
+break E}if("parentFlow.lessons.why"===q2){w="\u041d\u0435\u0433\u0435 \u0431\u04b1\u043b \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456"
+break E}if("parentFlow.lessons.lessonDetail"===q2){w=new A.cLn()
+break E}if("parentFlow.lessons.taskDetail"===q2){w=j6
+break E}if("parentFlow.lessons.bonusDetail"===q2){w=new A.cLo()
+break E}if("parentFlow.lessons.suggest"===q2){w="\u04b0\u0441\u044b\u043d\u0443"
+break E}if("parentFlow.lessons.suggestFor"===q2){w=new A.cLr()
+break E}if("parentFlow.lessons.suggested"===q2){w="\u04b0\u0441\u044b\u043d\u044b\u043b\u0434\u044b"
+break E}if("parentFlow.lessons.createFor"===q2){w=new A.cLs()
+break E}if("parentFlow.lessons.awardFor"===q2){w=new A.cLt()
+break E}if("parentFlow.lessons.lessonGone"===q2){w="\u0411\u04b1\u043b \u0441\u0430\u0431\u0430\u049b \u0435\u043d\u0434\u0456 \u0436\u043e\u049b"
+break E}if("parentFlow.lessons.courseCaption"===q2){w=new A.cLu()
+break E}if("parentFlow.lessons.courseTitleNone"===q2){w="\u0410\u049b\u0448\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440"
+break E}if("parentFlow.lessons.doneHeading"===q2){w="\u04e8\u0442\u0456\u043b\u0434\u0456"
+break E}if("parentFlow.lessons.nextHeading"===q2){w=i0
+break E}if("parentFlow.lessons.score"===q2){w=new A.cLv()
+break E}if("parentFlow.lessons.scoreFor"===q2){w=new A.cLw(q1)
+break E}if("parentFlow.lessons.doneEmpty"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u04e9\u0442\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b \u0436\u043e\u049b"
+break E}if("parentFlow.lessons.nextEmpty"===q2){w="\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0430\u0431\u0430\u049b \u04e9\u0442\u0456\u043b\u0434\u0456!"
+break E}if("parentFlow.lessons.startersCaption"===q2){w=new A.cLx()
+break E}if("parentFlow.lessons.startersTitle"===q2){w="\u041a\u0435\u0448\u043a\u0456 \u0430\u0441 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437"
+break E}if("parentFlow.lessons.copy"===q2){w="\u041a\u04e9\u0448\u0456\u0440\u0443"
+break E}if("parentFlow.lessons.copyFor"===q2){w="\u04d8\u04a3\u0433\u0456\u043c\u0435 \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440\u044b\u043d \u043a\u04e9\u0448\u0456\u0440\u0443"
+break E}if("parentFlow.lessons.copied"===q2){w=g
+break E}if("parentFlow.lessons.courseProgress"===q2){w=new A.cLy()
+break E}if("parentFlow.lessons.missed"===q2){w=new A.cLz()
+break E}if("parentFlow.lessons.missedMore"===q2){w=new A.cLA(q1)
+break E}if("parentFlow.lessons.nextStarted"===q2){w="\u0411\u0430\u0441\u0442\u0430\u043b\u0434\u044b"
+break E}if("parentFlow.lessons.suggestedRepeat"===q2){w="\u04b0\u0441\u044b\u043d\u044b\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d"
+break E}if("parentFlow.lessons.suggestionNote"===q2){w=new A.cLC()
+break E}if("parentFlow.lessons.waitingDetail"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435"
+break E}if("parentFlow.adultInvite.title"===q2){w=k4
+break E}if("parentFlow.adultInvite.body"===q2){w="\u0415\u043a\u0456\u043d\u0448\u0456 \u0435\u0440\u0435\u0441\u0435\u043a\u0442\u0456 \u0448\u0430\u049b\u044b\u0440\u044b\u04a3\u044b\u0437: \u043e\u043b \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b\u043d \u043a\u04e9\u0440\u0456\u043f, \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u043c\u0430\u0440\u0430\u043f\u0430\u0442 \u0431\u0435\u0440\u0435\u0434\u0456. \u04d8\u0440 \u0435\u0440\u0435\u0441\u0435\u043a\u0442\u0456\u04a3 \u04e9\u0437 PIN-\u043a\u043e\u0434\u044b \u0431\u043e\u043b\u0430\u0434\u044b."
+break E}if("parentFlow.adultInvite.invite"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443"
+break E}if("parentFlow.adultInvite.codeTitle"===q2){w=p8
+break E}if("parentFlow.adultInvite.codeBody"===q2){w=new A.cLD()
+break E}if("parentFlow.adultInvite.codeSemantics"===q2){w=new A.cLE()
+break E}if("parentFlow.adultInvite.copied"===q2){w=j2
+break E}if("parentFlow.adultInvite.share"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443\u0434\u044b \u0436\u0456\u0431\u0435\u0440\u0443"
+break E}if("parentFlow.adultInvite.pendingBody"===q2){w=new A.cLF()
+break E}if("parentFlow.adultInvite.newCode"===q2){w="\u0416\u0430\u04a3\u0430 \u043a\u043e\u0434 \u0436\u0456\u0431\u0435\u0440\u0443"
+break E}if("parentFlow.adultInvite.revoke"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443\u0434\u044b \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043f \u0430\u043b\u0443"
+break E}if("parentFlow.adultInvite.revoked"===q2){w="\u0428\u0430\u049b\u044b\u0440\u0443 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b \u2014 \u043a\u043e\u0434 \u0435\u043d\u0434\u0456 \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u043c\u0435\u0439\u0434\u0456"
+break E}if("parentFlow.adultInvite.full"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0435\u043a\u0456 \u0435\u0440\u0435\u0441\u0435\u043a \u0431\u0430\u0440 \u2014 \u0442\u0430\u0493\u044b \u0431\u0456\u0440\u0435\u0443\u0434\u0456 \u0448\u0430\u049b\u044b\u0440\u0443\u0493\u0430 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b."
+break E}if("parentFlow.adultInvite.rateLimited"===q2){w="\u0411\u04af\u0433\u0456\u043d \u0448\u0430\u049b\u044b\u0440\u0443\u043b\u0430\u0440 \u0442\u044b\u043c \u043a\u04e9\u043f. \u0415\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."
+break E}if("parentFlow.adultInvite.failed"===q2){w=p9
+break E}if("parentFlow.adultInvite.unsupported"===q2){w=k5
+break E}if("parentFlow.adultInvite.shareText"===q2){w=new A.cLG()
+break E}if("parentFlow.joinFamily.title"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u049b\u043e\u0441\u044b\u043b\u0443"
+break E}if("parentFlow.joinFamily.body"===q2){w="\u0421\u0456\u0437\u0433\u0435 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0448\u0430\u049b\u044b\u0440\u0443\u0434\u0430\u0493\u044b \u043a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break E}if("parentFlow.joinFamily.codeLabel"===q2){w=p8
+break E}if("parentFlow.joinFamily.codeHint"===q2){w="XXXXX-XXXXX"
+break E}if("parentFlow.joinFamily.confirmTitle"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u049b\u043e\u0441\u044b\u043b\u0430\u0441\u044b\u0437 \u0431\u0430?"
+break E}if("parentFlow.joinFamily.confirmBody"===q2){w=new A.cLH()
+break E}if("parentFlow.joinFamily.confirmBodyAnonymous"===q2){w=new A.cLI()
+break E}if("parentFlow.joinFamily.nameLabel"===q2){w="\u0410\u0442\u044b\u04a3\u044b\u0437"
+break E}if("parentFlow.joinFamily.join"===q2){w="\u049a\u043e\u0441\u044b\u043b\u0443"
+break E}if("parentFlow.joinFamily.invalid"===q2){w="\u041a\u043e\u0434 \u0441\u04d9\u0439\u043a\u0435\u0441 \u043a\u0435\u043b\u043c\u0435\u0434\u0456: \u043e\u043b \u049b\u0430\u0442\u0435, \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u04e9\u0442\u043a\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0493\u0430\u043d. \u0416\u0430\u04a3\u0430\u0441\u044b\u043d \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437."
+break E}if("parentFlow.joinFamily.locked"===q2){w=new A.cLJ()
+break E}if("parentFlow.joinFamily.alreadyInFamily"===q2){w="\u0421\u0456\u0437 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u044b\u04a3 \u043c\u04af\u0448\u0435\u0441\u0456\u0441\u0456\u0437. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d\u0430 \u049b\u043e\u0441\u044b\u043b\u0443 \u04af\u0448\u0456\u043d \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u049b\u0430\u0437\u0456\u0440\u0433\u0456\u0441\u0456\u043d\u0435\u043d \u0448\u044b\u0493\u044b\u04a3\u044b\u0437."
+break E}if("parentFlow.joinFamily.familyFull"===q2){w="\u0411\u04b1\u043b \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0435\u043a\u0456 \u0435\u0440\u0435\u0441\u0435\u043a \u0431\u0430\u0440."
+break E}if("parentFlow.joinFamily.nameRequired"===q2){w="\u0410\u0442\u044b\u04a3\u044b\u0437\u0434\u044b \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"
+break E}if("parentFlow.joinFamily.signInFirst"===q2){w="\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u049b\u0430 \u043a\u0456\u0440\u0456\u043f, \u043a\u0435\u0439\u0456\u043d \u043a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+break E}if("parentFlow.joinFamily.signIn"===q2){w=a7
+break E}if("parentFlow.joinFamily.unsupported"===q2){w="\u04d8\u0437\u0456\u0440\u0433\u0435 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u049b\u043e\u0441\u044b\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441. \u0406\u0441\u043a\u0435 \u049b\u043e\u0441\u044b\u043b\u0493\u0430\u043d\u0434\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0439\u043c\u044b\u0437."
+break E}if("parentFlow.joinFamily.failed"===q2){w=p9
+break E}if("guidedOnboarding.resume"===q2){w="\u04ae\u0439\u0440\u0435\u043d\u0443\u0434\u0456 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"
+break E}if("guidedOnboarding.continueSetup"===q2){w="\u0411\u0430\u043f\u0442\u0430\u0443\u0434\u044b \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"
+break E}if("guidedOnboarding.replay"===q2){w="\u041a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440\u0434\u0456 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break E}if("guidedOnboarding.hide"===q2){w="\u041a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440\u0434\u0456 \u0436\u0430\u0441\u044b\u0440\u0443"
+break E}if("guidedOnboarding.hiddenNotice"===q2){w=y.ia
+break E}if("guidedOnboarding.stepLabel"===q2){w=new A.cLK()
+break E}if("guidedOnboarding.resumeTitle"===q2){w="\u049a\u0430\u043b\u0493\u0430\u043d \u0436\u0435\u0440\u0434\u0435\u043d \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0430\u0439\u044b\u049b"
+break E}if("guidedOnboarding.resumeBody"===q2){w="\u0421\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u04e9\u0437 \u043e\u0440\u043d\u044b\u043d\u0434\u0430"
+break E}if("guidedOnboarding.replayTitle"===q2){w="\u04e8\u0437 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u04a3\u0456\u0437\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u043a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440"
+break E}if("guidedOnboarding.replayBody"===q2){w=y.lV
+break E}if("guidedOnboarding.chooseStartTitle"===q2){w="\u041d\u0435\u0434\u0435\u043d \u0431\u0430\u0441\u0442\u0430\u0439\u043c\u044b\u0437?"
+break E}if("guidedOnboarding.setupFamily"===q2){w="\u041e\u0442\u0431\u0430\u0441\u044b\u043d \u0431\u0430\u043f\u0442\u0430\u0443"
+break E}if("guidedOnboarding.learnActions"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0434\u044b \u0442\u04af\u0441\u0456\u043d\u0443"
+break E}if("guidedOnboarding.exploreAlone"===q2){w="\u04e8\u0437\u0456\u043c \u049b\u0430\u0440\u0430\u043f \u0448\u044b\u0493\u0430\u043c\u044b\u043d"
+break E}if("guidedOnboarding.notNow"===q2){w=m3
+break E}if("guidedOnboarding.parentAddChild.title"===q2)break E
+if("guidedOnboarding.parentAddChild.body"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0430\u0442\u0430\u0439\u044b\u049b?"
+break E}if("guidedOnboarding.parentAddChild.action"===q2)break E
+if("guidedOnboarding.parentCreateReward.title"===q2){w="\u041c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440\u0434\u044b \u043d\u0435 \u04af\u0448\u0456\u043d \u0436\u0438\u043d\u0430\u0439\u043c\u044b\u0437?"
+break E}if("guidedOnboarding.parentCreateReward.body"===q2){w=y.i6
+break E}if("guidedOnboarding.parentCreateReward.action"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u043e\u0441\u0443"
+break E}if("guidedOnboarding.parentCreateQuest.title"===q2){w=new A.cLL()
+break E}if("guidedOnboarding.parentCreateQuest.body"===q2){w="\u0411\u0430\u043b\u0430\u04a3\u044b\u0437 \u0431\u04af\u0433\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0439 \u0430\u043b\u0430\u0442\u044b\u043d \u0448\u0430\u0493\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437. \u0421\u0456\u0437 \u0442\u0435\u043a\u0441\u0435\u0440\u0433\u0435\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u043e\u043b XP \u043c\u0435\u043d \u043c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440 \u0430\u043b\u0430\u0434\u044b"
+break E}if("guidedOnboarding.parentCreateQuest.action"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443"
+break E}if("guidedOnboarding.parentInviteChild.title"===q2){w="\u0411\u0430\u043b\u0430\u043d\u044b \u043e\u0439\u043d\u0430\u0443\u0493\u0430 \u0448\u0430\u049b\u044b\u0440\u0443"
+break E}if("guidedOnboarding.parentInviteChild.body"===q2){w=y.gj
+break E}if("guidedOnboarding.parentInviteChild.action"===q2){w="\u041a\u043e\u0434\u0442\u044b \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"
+break E}if("guidedOnboarding.parentReviewQuest.title"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0434\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"
+break E}if("guidedOnboarding.parentReviewQuest.body"===q2){w=y.hW
+break E}if("guidedOnboarding.parentReviewQuest.action"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u0430\u0448\u0443"
+break E}if("guidedOnboarding.parentRewardRequest.title"===q2){w=new A.cLN()
+break E}if("guidedOnboarding.parentRewardRequest.body"===q2){w=new A.cLO()
+break E}if("guidedOnboarding.parentRewardRequest.action"===q2){w=m
+break E}if("guidedOnboarding.parentRewardRequest.queueBody"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u0443\u044b\u043d \u0440\u0430\u0441\u0442\u0430\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443"
+break E}if("guidedOnboarding.parentRewardRequest.queueAction"===q2){w="\u0421\u04b1\u0440\u0430\u0443\u0434\u044b \u0430\u0448\u0443"
+break E}if("guidedOnboarding.childChooseName.title"===q2){w="\u0421\u0435\u043d\u0456 \u049b\u0430\u043b\u0430\u0439 \u0430\u0442\u0430\u0439\u044b\u049b?"
+break E}if("guidedOnboarding.childChooseName.body"===q2){w=y.N
+break E}if("guidedOnboarding.childChooseName.action"===q2){w="\u0415\u0441\u0456\u043c\u0434\u0456 \u0441\u0430\u049b\u0442\u0430\u0443"
+break E}if("guidedOnboarding.childStartQuest.title"===q2){w="\u0415\u043d\u0434\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b"
+break E}if("guidedOnboarding.childStartQuest.body"===q2){w=new A.cLP()
+break E}if("guidedOnboarding.childStartQuest.action"===q2){w=d0
+break E}if("guidedOnboarding.childStartQuest.bodyWithoutReward"===q2){w=new A.cLQ()
+break E}if("guidedOnboarding.childStartQuest.continueAction"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430 \u043e\u0440\u0430\u043b\u0443"
+break E}if("guidedOnboarding.childSubmitQuest.title"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b \u043c\u0430?"
+break E}if("guidedOnboarding.childSubmitQuest.body"===q2){w=y.ho
+break E}if("guidedOnboarding.childSubmitQuest.action"===q2){w="\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c"
+break E}if("guidedOnboarding.childSubmitQuest.bodyWithoutReward"===q2){w=y.gV
+break E}if("guidedOnboarding.childSubmitQuest.bodyWithPhoto"===q2){w=y.gD
+break E}if("guidedOnboarding.childSubmitQuest.bodyAutomatic"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u044f\u049b\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \xab\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441. \u0410\u0442\u0430-\u0430\u043d\u0430\u043d\u044b\u04a3 \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0456 \u049b\u0430\u0436\u0435\u0442 \u0435\u043c\u0435\u0441"
+break E}if("guidedOnboarding.childCheckResult.title"===q2){w="\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440\u043c\u044b\u0437"
+break E}if("guidedOnboarding.childCheckResult.body"===q2){w=y.gz
+break E}if("guidedOnboarding.childCheckResult.action"===q2){w=q0
+break E}if("guidedOnboarding.childCheckResult.acceptedTitle"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b"
+break E}if("guidedOnboarding.childCheckResult.acceptedBody"===q2){w=new A.cLR()
+break E}if("guidedOnboarding.childCheckResult.acceptedAction"===q2){w=i5
+break E}if("guidedOnboarding.childCheckResult.updating"===q2){w="\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b. \u0406\u043b\u0433\u0435\u0440\u0456\u043b\u0435\u0443\u0434\u0456 \u0436\u0430\u04a3\u0430\u0440\u0442\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437"
+break E}if("guidedOnboarding.childRewards.title"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b\u049b\u0430 \u0430\u0437 \u049b\u0430\u043b\u0434\u044b"
+break E}if("guidedOnboarding.childRewards.body"===q2){w=new A.cLS()
+break E}if("guidedOnboarding.childRewards.action"===q2){w=q0
+break E}if("guidedOnboarding.childRequestReward.title"===q2){w="\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"
+break E}if("guidedOnboarding.childRequestReward.body"===q2){w=new A.cLT()
+break E}if("guidedOnboarding.childRequestReward.action"===q2){w=h5
+break E}w=v
+break E}return w},
+dOa(d){return new A.cOY(d)},
+aFZ:function aFZ(d,e){var _=this
+_.k2=d
+_.be=_.aJ=_.aF=_.a6=_.a_=_.W=_.b7=_.y1=_.xr=_.x1=_.to=_.ry=_.rx=_.RG=_.R8=_.p3=_.p2=_.p1=_.ok=_.k3=$
+_.a=e
+_.k1=_.id=_.fy=_.fx=_.dy=_.dx=_.cx=_.ch=_.ay=_.at=_.as=_.Q=_.z=_.y=_.x=_.r=_.f=_.e=_.d=_.b=$},
+bEW:function bEW(){},
+bIb:function bIb(){},
+bE8:function bE8(){},
+bDZ:function bDZ(d,e){var _=this
+_.f=d
+_.r=$
+_.a=e
+_.b=$},
+bF0:function bF0(){},
+bF5:function bF5(){},
+bEs:function bEs(d,e){var _=this
+_.r=d
+_.Q=_.z=_.y=_.x=_.w=$
+_.a=e
+_.f=_.e=_.d=_.c=_.b=$},
+bLh:function bLh(d,e){var _=this
+_.w=d
+_.at=_.as=_.z=_.y=_.x=$
+_.a=e
+_.r=_.f=_.d=_.c=_.b=$},
+bI6:function bI6(){},
+bIl:function bIl(d,e){var _=this
+_.f=d
+_.w=$
+_.a=e
+_.c=$},
+bDU:function bDU(){},
+bLw:function bLw(d,e){var _=this
+_.d=d
+_.f=_.e=$
+_.a=e
+_.c=_.b=$},
+bGQ:function bGQ(d,e){var _=this
+_.r=d
+_.Q=_.z=_.y=_.x=_.w=$
+_.a=e
+_.f=_.e=_.d=_.c=_.b=$},
+bMD:function bMD(){},
+bH4:function bH4(){},
+bER:function bER(){},
+bEd:function bEd(){},
+bJs:function bJs(d,e){var _=this
+_.R8=d
+_.aO=_.ak=_.a5=_.cA=_.bi=_.cJ=_.cW=_.d6=_.d0=_.bO=_.be=_.aJ=_.aq=_.aF=_.a6=_.ah=_.a_=_.W=_.E=_.bL=_.b7=_.y2=_.y1=_.xr=_.x2=_.x1=_.to=_.ry=_.rx=_.RG=$
+_.eq=_.dA=_.ar=$
+_.a=e
+_.ok=_.k4=_.k3=_.k2=_.k1=_.go=_.fy=_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=_.ch=_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=$
+_.p3=_.p2=_.p1=$},
+bHy:function bHy(d,e){var _=this
+_.at=d
+_.fy=_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=_.ch=_.ay=_.ax=$
+_.a=e
+_.as=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=$},
+bE2:function bE2(){},
+bEk:function bEk(){},
+bEq:function bEq(d,e){this.b=d
+this.a=e},
+bEM:function bEM(d,e){var _=this
+_.d=d
+_.f=$
+_.a=e
+_.c=$},
+bEB:function bEB(){},
+bEw:function bEw(){},
+bLl:function bLl(){},
+bLq:function bLq(d,e){this.b=d
+this.a=e},
+bIj:function bIj(){},
+bLA:function bLA(){},
+bM9:function bM9(d,e){var _=this
+_.as=d
+_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=_.ch=_.ay=_.ax=_.at=$
+_.a=e
+_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=$},
+bGZ:function bGZ(){},
+bFa:function bFa(d,e){this.d=d
+this.a=e},
+bG_:function bG_(d,e){var _=this
+_.ch=d
+_.k4=_.k3=_.k2=_.k1=_.id=_.go=_.fy=_.fx=_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=$
+_.a=e
+_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=$},
+bGy:function bGy(d,e){var _=this
+_.e=d
+_.w=_.r=_.f=$
+_.a=e
+_.d=_.c=_.b=$},
+bGU:function bGU(d,e){this.b=d
+this.a=e},
+bJ0:function bJ0(d,e){this.b=d
+this.a=e},
+bKy:function bKy(){},
+bJl:function bJl(d,e){this.b=d
+this.a=e},
+bKo:function bKo(){},
+bIM:function bIM(d,e){this.b=d
+this.a=e},
+bJL:function bJL(d,e){this.b=d
+this.a=e},
+bKt:function bKt(){},
+bJQ:function bJQ(){},
+bJg:function bJg(d,e){this.b=d
+this.a=e},
+bIv:function bIv(d,e){this.b=d
+this.a=e},
+bJV:function bJV(){},
+bKj:function bKj(d,e){this.b=d
+this.a=e},
+bK9:function bK9(d,e){var _=this
+_.d=d
+_.f=_.e=$
+_.a=e
+_.c=_.b=$},
+bKe:function bKe(d,e){this.b=d
+this.a=e},
+bL6:function bL6(d,e){this.b=d
+this.a=e},
+bKN:function bKN(d,e){this.b=d
+this.a=e},
+bKI:function bKI(){},
+bKX:function bKX(){},
+bKS:function bKS(){},
+bL1:function bL1(){},
+bJG:function bJG(){},
+bIG:function bIG(d,e){var _=this
+_.c=d
+_.d=$
+_.a=e
+_.b=$},
+bJ6:function bJ6(d,e){this.b=d
+this.a=e},
+bIq:function bIq(d,e){this.b=d
+this.a=e},
+bIR:function bIR(){},
+bJq:function bJq(){},
+bIW:function bIW(d,e){this.b=d
+this.a=e},
+bJB:function bJB(){},
+bJb:function bJb(){},
+bLc:function bLc(){},
+bKD:function bKD(d,e){this.b=d
+this.a=e},
+bJw:function bJw(d,e){this.b=d
+this.a=e},
+bHC:function bHC(){},
+bHM:function bHM(){},
+bHH:function bHH(){},
+bHR:function bHR(){},
+bHW:function bHW(){},
+bI0:function bI0(){},
+bHg:function bHg(){},
+bHq:function bHq(){},
+bHv:function bHv(){},
+bHb:function bHb(){},
+bHl:function bHl(){},
+bEJ:function bEJ(){},
+bMx:function bMx(){},
+bMi:function bMi(){},
+bLY:function bLY(){},
+bLN:function bLN(){},
+bMs:function bMs(){},
+bLS:function bLS(){},
+bMd:function bMd(){},
+bLI:function bLI(){},
+bM7:function bM7(){},
+bM2:function bM2(){},
+bMn:function bMn(){},
+bFE:function bFE(){},
+bFz:function bFz(){},
+bGi:function bGi(){},
+bG3:function bG3(){},
+bFY:function bFY(){},
+bGd:function bGd(){},
+bGt:function bGt(){},
+bFp:function bFp(){},
+bGn:function bGn(){},
+bFk:function bFk(){},
+bG8:function bG8(){},
+bFu:function bFu(){},
+bFJ:function bFJ(){},
+bFT:function bFT(){},
+bFO:function bFO(){},
+bGM:function bGM(){},
+bGC:function bGC(){},
+bGH:function bGH(){},
+bK1:function bK1(){},
+bK7:function bK7(){},
+bID:function bID(){},
+cOY:function cOY(d){this.a=d},
+cEC:function cEC(){},
+cED:function cED(){},
+cEE:function cEE(){},
+cEF:function cEF(){},
+cEG:function cEG(){},
+cEH:function cEH(){},
+cEI:function cEI(){},
+cEK:function cEK(){},
+cEL:function cEL(){},
+cEM:function cEM(){},
+cEN:function cEN(){},
+cEO:function cEO(){},
+cEP:function cEP(){},
+cEQ:function cEQ(){},
+cER:function cER(){},
+cES:function cES(){},
+cET:function cET(){},
+cEV:function cEV(){},
+cEW:function cEW(){},
+cEX:function cEX(){},
+cEY:function cEY(){},
+cEZ:function cEZ(){},
+cF_:function cF_(){},
+cF0:function cF0(){},
+cF1:function cF1(d){this.a=d},
+cF2:function cF2(){},
+cF3:function cF3(d){this.a=d},
+cF5:function cF5(d){this.a=d},
+cF6:function cF6(d){this.a=d},
+cF7:function cF7(){},
+cF8:function cF8(){},
+cF9:function cF9(d){this.a=d},
+cFa:function cFa(d){this.a=d},
+cFb:function cFb(d){this.a=d},
+cFc:function cFc(){},
+cFd:function cFd(){},
+cFe:function cFe(){},
+cFg:function cFg(){},
+cFh:function cFh(){},
+cFi:function cFi(){},
+cFj:function cFj(){},
+cFk:function cFk(){},
+cFl:function cFl(){},
+cFm:function cFm(){},
+cFn:function cFn(){},
+cFo:function cFo(){},
+cFp:function cFp(){},
+cFr:function cFr(){},
+cFs:function cFs(d){this.a=d},
+cFt:function cFt(){},
+cFu:function cFu(){},
+cFv:function cFv(){},
+cFw:function cFw(){},
+cFx:function cFx(){},
+cFy:function cFy(){},
+cFz:function cFz(){},
+cFA:function cFA(){},
+cFC:function cFC(){},
+cFD:function cFD(){},
+cFE:function cFE(){},
+cFF:function cFF(){},
+cFG:function cFG(){},
+cFH:function cFH(){},
+cFI:function cFI(){},
+cFJ:function cFJ(){},
+cFK:function cFK(){},
+cFL:function cFL(){},
+cFN:function cFN(){},
+cFO:function cFO(){},
+cFP:function cFP(){},
+cFQ:function cFQ(){},
+cFR:function cFR(){},
+cFS:function cFS(){},
+cFT:function cFT(){},
+cFU:function cFU(){},
+cFV:function cFV(){},
+cFW:function cFW(){},
+cFY:function cFY(){},
+cFZ:function cFZ(){},
+cG_:function cG_(){},
+cG0:function cG0(){},
+cG1:function cG1(){},
+cG2:function cG2(d){this.a=d},
+cG3:function cG3(d){this.a=d},
+cG4:function cG4(d){this.a=d},
+cG5:function cG5(){},
+cG6:function cG6(d){this.a=d},
+cG9:function cG9(d){this.a=d},
+cGa:function cGa(){},
+cGb:function cGb(){},
+cGc:function cGc(){},
+cGd:function cGd(d){this.a=d},
+cGe:function cGe(){},
+cGf:function cGf(){},
+cGg:function cGg(){},
+cGh:function cGh(){},
+cGi:function cGi(d){this.a=d},
+cGk:function cGk(d){this.a=d},
+cGl:function cGl(){},
+cGm:function cGm(d){this.a=d},
+cGn:function cGn(d){this.a=d},
+cGo:function cGo(){},
+cGp:function cGp(d){this.a=d},
+cGq:function cGq(d){this.a=d},
+cGr:function cGr(d){this.a=d},
+cGs:function cGs(d){this.a=d},
+cGt:function cGt(d){this.a=d},
+cGv:function cGv(d){this.a=d},
+cGw:function cGw(d){this.a=d},
+cGx:function cGx(d){this.a=d},
+cGy:function cGy(d){this.a=d},
+cGz:function cGz(d){this.a=d},
+cGA:function cGA(){},
+cGB:function cGB(){},
+cGC:function cGC(){},
+cGD:function cGD(){},
+cGE:function cGE(){},
+cGG:function cGG(){},
+cGH:function cGH(){},
+cGI:function cGI(d){this.a=d},
+cGJ:function cGJ(){},
+cGK:function cGK(d){this.a=d},
+cGL:function cGL(){},
+cGM:function cGM(){},
+cGN:function cGN(d){this.a=d},
+cGO:function cGO(d){this.a=d},
+cGP:function cGP(d){this.a=d},
+cGR:function cGR(){},
+cGS:function cGS(d){this.a=d},
+cGT:function cGT(){},
+cGU:function cGU(){},
+cGV:function cGV(){},
+cGW:function cGW(){},
+cGX:function cGX(){},
+cGY:function cGY(){},
+cGZ:function cGZ(){},
+cH_:function cH_(){},
+cH1:function cH1(){},
+cH2:function cH2(){},
+cH3:function cH3(){},
+cH4:function cH4(){},
+cH5:function cH5(){},
+cH6:function cH6(){},
+cH7:function cH7(){},
+cH8:function cH8(){},
+cH9:function cH9(){},
+cHa:function cHa(d){this.a=d},
+cHc:function cHc(){},
+cHd:function cHd(){},
+cHe:function cHe(){},
+cHf:function cHf(){},
+cHg:function cHg(){},
+cHh:function cHh(){},
+cHi:function cHi(){},
+cHj:function cHj(){},
+cHk:function cHk(){},
+cHl:function cHl(){},
+cHn:function cHn(d){this.a=d},
+cHo:function cHo(){},
+cHp:function cHp(){},
+cHq:function cHq(){},
+cHr:function cHr(){},
+cHs:function cHs(){},
+cHt:function cHt(){},
+cHu:function cHu(){},
+cHv:function cHv(){},
+cHw:function cHw(){},
+cHy:function cHy(){},
+cHz:function cHz(){},
+cHA:function cHA(d){this.a=d},
+cHB:function cHB(){},
+cHC:function cHC(){},
+cHD:function cHD(){},
+cHE:function cHE(){},
+cHF:function cHF(){},
+cHG:function cHG(){},
+cHH:function cHH(){},
+cHJ:function cHJ(){},
+cHK:function cHK(){},
+cHL:function cHL(){},
+cHM:function cHM(){},
+cHN:function cHN(){},
+cHO:function cHO(){},
+cHP:function cHP(){},
+cHQ:function cHQ(){},
+cHR:function cHR(){},
+cHS:function cHS(){},
+cHV:function cHV(){},
+cHW:function cHW(){},
+cHX:function cHX(){},
+cHY:function cHY(){},
+cHZ:function cHZ(){},
+cI_:function cI_(){},
+cI0:function cI0(d){this.a=d},
+cI1:function cI1(d){this.a=d},
+cI2:function cI2(){},
+cI3:function cI3(d){this.a=d},
+cI5:function cI5(d){this.a=d},
+cI6:function cI6(){},
+cI7:function cI7(){},
+cI8:function cI8(){},
+cI9:function cI9(){},
+cIa:function cIa(){},
+cIb:function cIb(d){this.a=d},
+cIc:function cIc(d){this.a=d},
+cId:function cId(){},
+cIe:function cIe(){},
+cIg:function cIg(d){this.a=d},
+cIh:function cIh(){},
+cIi:function cIi(){},
+cIj:function cIj(){},
+cIk:function cIk(){},
+cIl:function cIl(d){this.a=d},
+cIm:function cIm(){},
+cIn:function cIn(){},
+cIo:function cIo(){},
+cIp:function cIp(){},
+cIr:function cIr(d){this.a=d},
+cIs:function cIs(){},
+cIt:function cIt(){},
+cIu:function cIu(){},
+cIv:function cIv(){},
+cIw:function cIw(){},
+cIx:function cIx(){},
+cIy:function cIy(d){this.a=d},
+cIz:function cIz(){},
+cIA:function cIA(){},
+cIC:function cIC(){},
+cID:function cID(){},
+cIE:function cIE(){},
+cIF:function cIF(){},
+cIG:function cIG(d){this.a=d},
+cIH:function cIH(){},
+cII:function cII(){},
+cIJ:function cIJ(){},
+cIK:function cIK(){},
+cIL:function cIL(){},
+cIN:function cIN(){},
+cIO:function cIO(){},
+cIP:function cIP(){},
+cIQ:function cIQ(){},
+cIR:function cIR(d){this.a=d},
+cIS:function cIS(){},
+cIT:function cIT(){},
+cIU:function cIU(){},
+cIV:function cIV(d){this.a=d},
+cIW:function cIW(){},
+cIY:function cIY(){},
+cIZ:function cIZ(d){this.a=d},
+cJ_:function cJ_(){},
+cJ0:function cJ0(d){this.a=d},
+cJ1:function cJ1(d){this.a=d},
+cJ2:function cJ2(d){this.a=d},
+cJ3:function cJ3(){},
+cJ4:function cJ4(){},
+cJ5:function cJ5(){},
+cJ6:function cJ6(){},
+cJ8:function cJ8(){},
+cJ9:function cJ9(){},
+cJa:function cJa(){},
+cJb:function cJb(){},
+cJc:function cJc(){},
+cJd:function cJd(){},
+cJe:function cJe(){},
+cJf:function cJf(){},
+cJg:function cJg(){},
+cJh:function cJh(){},
+cJj:function cJj(){},
+cJk:function cJk(){},
+cJl:function cJl(){},
+cJm:function cJm(){},
+cJn:function cJn(){},
+cJo:function cJo(){},
+cJp:function cJp(){},
+cJq:function cJq(){},
+cJr:function cJr(){},
+cJs:function cJs(){},
+cJu:function cJu(){},
+cJv:function cJv(){},
+cJw:function cJw(){},
+cJx:function cJx(){},
+cJy:function cJy(){},
+cJz:function cJz(){},
+cJA:function cJA(){},
+cJB:function cJB(d){this.a=d},
+cJC:function cJC(d){this.a=d},
+cJD:function cJD(d){this.a=d},
+cJG:function cJG(){},
+cJH:function cJH(){},
+cJI:function cJI(){},
+cJJ:function cJJ(){},
+cJK:function cJK(){},
+cJL:function cJL(){},
+cJM:function cJM(){},
+cJN:function cJN(){},
+cJO:function cJO(){},
+cJP:function cJP(){},
+cJR:function cJR(){},
+cJS:function cJS(){},
+cJT:function cJT(){},
+cJU:function cJU(){},
+cJV:function cJV(){},
+cJW:function cJW(){},
+cJX:function cJX(){},
+cJY:function cJY(d){this.a=d},
+cJZ:function cJZ(){},
+cK_:function cK_(){},
+cK1:function cK1(d){this.a=d},
+cK2:function cK2(){},
+cK3:function cK3(){},
+cK4:function cK4(){},
+cK5:function cK5(){},
+cK6:function cK6(){},
+cK7:function cK7(){},
+cK8:function cK8(){},
+cK9:function cK9(){},
+cKa:function cKa(){},
+cKc:function cKc(){},
+cKd:function cKd(){},
+cKe:function cKe(){},
+cKf:function cKf(){},
+cKg:function cKg(){},
+cKh:function cKh(){},
+cKi:function cKi(){},
+cKj:function cKj(){},
+cKk:function cKk(){},
+cKl:function cKl(){},
+cKn:function cKn(d){this.a=d},
+cKo:function cKo(){},
+cKp:function cKp(){},
+cKq:function cKq(d){this.a=d},
+cKr:function cKr(){},
+cKs:function cKs(){},
+cKt:function cKt(){},
+cKu:function cKu(){},
+cKv:function cKv(d){this.a=d},
+cKw:function cKw(){},
+cKy:function cKy(d){this.a=d},
+cKz:function cKz(d){this.a=d},
+cKA:function cKA(d){this.a=d},
+cKB:function cKB(d){this.a=d},
+cKC:function cKC(d){this.a=d},
+cKD:function cKD(){},
+cKE:function cKE(){},
+cKF:function cKF(){},
+cKG:function cKG(){},
+cKH:function cKH(){},
+cKJ:function cKJ(){},
+cKK:function cKK(){},
+cKL:function cKL(){},
+cKM:function cKM(){},
+cKN:function cKN(){},
+cKO:function cKO(){},
+cKP:function cKP(d){this.a=d},
+cKQ:function cKQ(d){this.a=d},
+cKR:function cKR(){},
+cKS:function cKS(){},
+cKU:function cKU(){},
+cKV:function cKV(){},
+cKW:function cKW(){},
+cKX:function cKX(){},
+cKY:function cKY(){},
+cKZ:function cKZ(){},
+cL_:function cL_(){},
+cL0:function cL0(){},
+cL1:function cL1(){},
+cL2:function cL2(){},
+cL4:function cL4(){},
+cL5:function cL5(){},
+cL6:function cL6(){},
+cL7:function cL7(){},
+cL8:function cL8(d){this.a=d},
+cL9:function cL9(d){this.a=d},
+cLa:function cLa(d){this.a=d},
+cLb:function cLb(d){this.a=d},
+cLc:function cLc(d){this.a=d},
+cLd:function cLd(d){this.a=d},
+cLf:function cLf(d){this.a=d},
+cLg:function cLg(d){this.a=d},
+cLh:function cLh(d){this.a=d},
+cLi:function cLi(d){this.a=d},
+cLj:function cLj(){},
+cLk:function cLk(){},
+cLl:function cLl(){},
+cLm:function cLm(d){this.a=d},
+cLn:function cLn(){},
+cLo:function cLo(){},
+cLr:function cLr(){},
+cLs:function cLs(){},
+cLt:function cLt(){},
+cLu:function cLu(){},
+cLv:function cLv(){},
+cLw:function cLw(d){this.a=d},
+cLx:function cLx(){},
+cLy:function cLy(){},
+cLz:function cLz(){},
+cLA:function cLA(d){this.a=d},
+cLC:function cLC(){},
+cLD:function cLD(){},
+cLE:function cLE(){},
+cLF:function cLF(){},
+cLG:function cLG(){},
+cLH:function cLH(){},
+cLI:function cLI(){},
+cLJ:function cLJ(){},
+cLK:function cLK(){},
+cLL:function cLL(){},
+cLN:function cLN(){},
+cLO:function cLO(){},
+cLP:function cLP(){},
+cLQ:function cLQ(){},
+cLR:function cLR(){},
+cLS:function cLS(){},
+cLT:function cLT(){},
+aXI:function aXI(){}},D
+B=c[0]
+C=c[2]
+A=a.updateHolder(c[6],A)
+D=c[11]
+A.aFZ.prototype={
+h(d,e){var w=this.k2.r6(e)
+return w==null?this.a.r6(e):w},
+gbD(){var w=this.k3
+return w===$?this.k3=this:w},
+gaf(){var w=this,v=w.ok
+if(v===$){w.gbD()
+w.ok!==$&&B.a1()
+v=w.ok=new A.bEW()}return v},
+gqO(){var w=this,v=w.p1
+if(v===$){w.gbD()
+w.p1!==$&&B.a1()
+v=w.p1=new A.bIb()}return v},
+gqh(){var w=this,v=w.p2
+if(v===$){w.gbD()
+w.p2!==$&&B.a1()
+v=w.p2=new A.bE8()}return v},
+gBS(){var w,v=this,u=v.p3
+if(u===$){w=v.gbD()
+v.p3!==$&&B.a1()
+u=v.p3=new A.bDZ(w,w)}return u},
+glZ(d){var w=this,v=w.R8
+if(v===$){w.gbD()
+w.R8!==$&&B.a1()
+v=w.R8=new A.bF0()}return v},
+ghw(){var w=this,v=w.RG
+if(v===$){w.gbD()
+w.RG!==$&&B.a1()
+v=w.RG=new A.bF5()}return v},
+gI(){var w,v=this,u=v.rx
+if(u===$){w=v.gbD()
+v.rx!==$&&B.a1()
+u=v.rx=new A.bEs(w,w)}return u},
+gbM(){var w,v=this,u=v.ry
+if(u===$){w=v.gbD()
+v.ry!==$&&B.a1()
+u=v.ry=new A.bLh(w,w)}return u},
+gmW(d){var w=this,v=w.to
+if(v===$){w.gbD()
+w.to!==$&&B.a1()
+v=w.to=new A.bI6()}return v},
+ga8(d){var w,v=this,u=v.x1
+if(u===$){w=v.gbD()
+v.x1!==$&&B.a1()
+u=v.x1=new A.bIl(w,w)}return u},
+gJM(){var w=this,v=w.xr
+if(v===$){w.gbD()
+w.xr!==$&&B.a1()
+v=w.xr=new A.bDU()}return v},
+gcR(){var w,v=this,u=v.y1
+if(u===$){w=v.gbD()
+v.y1!==$&&B.a1()
+u=v.y1=new A.bLw(w,w)}return u},
+ge7(){var w,v=this,u=v.b7
+if(u===$){w=v.gbD()
+v.b7!==$&&B.a1()
+u=v.b7=new A.bGQ(w,w)}return u},
+gi2(){var w=this,v=w.W
+if(v===$){w.gbD()
+w.W!==$&&B.a1()
+v=w.W=new A.bMD()}return v},
+gko(){var w=this,v=w.a_
+if(v===$){w.gbD()
+w.a_!==$&&B.a1()
+v=w.a_=new A.bH4()}return v},
+gmL(){var w=this,v=w.a6
+if(v===$){w.gbD()
+w.a6!==$&&B.a1()
+v=w.a6=new A.bER()}return v},
+ghS(){var w=this,v=w.aF
+if(v===$){w.gbD()
+w.aF!==$&&B.a1()
+v=w.aF=new A.bEd()}return v},
+gL(){var w,v=this,u=v.aJ
+if(u===$){w=v.gbD()
+v.aJ!==$&&B.a1()
+u=v.aJ=new A.bJs(w,w)}return u},
+gfh(){var w,v=this,u=v.be
+if(u===$){w=v.gbD()
+v.be!==$&&B.a1()
+u=v.be=new A.bHy(w,w)}return u},
+gaA(){return this.k2}}
+A.bEW.prototype={
+gen(d){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"},
+gN6(d){return"\u0420\u0430\u0441\u0442\u0430\u0443"},
+gjC(){return"\u04e8\u04a3\u0434\u0435\u0443"},
+gb1(d){return"\u0416\u0430\u0431\u0443"},
+geI(d){return"\u0410\u0440\u0442\u049b\u0430"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+gfK(){return"\u0416\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435\u2026"},
+gDd(d){return"\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gjJ(d){return"\u0410\u0448\u0443"}}
+A.bIb.prototype={
+gbY(){return"\u0411\u0430\u0441\u0442\u044b"},
+gzw(){return"\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440"},
+gi_(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+gcX(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c"},
+gQ_(d){return"\u0422\u0430\u0440\u0438\u0445"}}
+A.bE8.prototype={
+gG_(){return"\u0421\u043a\u0430\u043d\u0435\u0440\u043b\u0435\u0443"},
+gow(){return"\u0415\u043d\u0434\u0456 \u0441\u0435\u043d\noyna-\u0434\u0430\u0441\u044b\u04a3!"},
+gHD(){return y.dJ},
+goa(){return"\u0420\u0430\u049b\u043c\u0435\u0442"},
+gL9(){return y.iE},
+gLa(){return y.jP},
+gQm(){return y.lQ},
+gPJ(){return"\u0416\u0430\u0440\u049b\u044b\u043b\u0434\u044b \u049b\u043e\u0441\u0443"},
+gPI(){return"\u0416\u0430\u0440\u049b\u044b\u043b\u0434\u044b \u04e9\u0448\u0456\u0440\u0443"}}
+A.bDZ.prototype={
+gOT(){return"\u041a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437"},
+gnT(){var w=this.r
+return w===$?this.r=new A.bE2():w}}
+A.bF0.prototype={
+gzi(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u043e\u049b"},
+gSp(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0436\u043e\u049b"}}
+A.bF5.prototype={
+gv0(){return"\u0411\u0456\u0440\u0434\u0435\u04a3\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gdn(){return"\u0416\u04af\u043a\u0442\u0435\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b"},
+ghl(){return"\u0421\u0430\u049b\u0442\u0430\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b"}}
+A.bEs.prototype={
+X0(d){return"+"+d+" XP"},
+gLV(){var w=this.w
+return w===$?this.w=new A.bEk():w},
+gbY(){var w,v=this.x
+if(v===$){w=this.r
+v=this.x=new A.bEq(w,w)}return v},
+gmj(){var w,v=this.y
+if(v===$){w=this.r
+v=this.y=new A.bEM(w,w)}return v},
+gcX(){var w=this.z
+return w===$?this.z=new A.bEB():w},
+gQW(){var w=this.Q
+return w===$?this.Q=new A.bEw():w}}
+A.bLh.prototype={
+gbG(d){var w=this.as
+return w===$?this.as=new A.bLl():w},
+go3(){return"\u0421\u0443\u0440\u0435\u0442 \u049b\u043e\u0441\u0443 \u043a\u0435\u0440\u0435\u043a"},
+gJz(){return"\u0421\u0443\u0440\u0435\u0442 \u049b\u043e\u0441\u0443"},
+gL4(){return"\u041a\u0430\u043c\u0435\u0440\u0430"},
+gA1(){return"\u0413\u0430\u043b\u0435\u0440\u0435\u044f"},
+Cg(d){return"+"+d+" \u0442\u0438\u044b\u043d"},
+gci(){var w,v=this.at
+if(v===$){w=this.w
+v=this.at=new A.bLq(w,w)}return v}}
+A.bI6.prototype={
+gaz(d){return"\u0422\u0456\u043b"}}
+A.bIl.prototype={
+gkT(d){var w=this.w
+return w===$?this.w=new A.bIj():w}}
+A.bDU.prototype={
+gaz(d){return"\u0424\u043e\u043a\u0441\u0438\u043a AI"}}
+A.bLw.prototype={
+gda(){var w=this.e
+return w===$?this.e=new A.bLA():w},
+gr1(){var w,v=this.f
+if(v===$){w=this.d
+v=this.f=new A.bM9(w,w)}return v}}
+A.bGQ.prototype={
+QH(d){return"\u0414\u0415\u04a2\u0413\u0415\u0419 "+d+"!"},
+gSe(){return"\u0416\u0430\u04a3\u0430 \u0434\u0435\u04a3\u0433\u0435\u0439!"},
+QE(d){return""+d+" Lvl"},
+QF(d){return"\u0415\u043d\u0434\u0456 \u0441\u0435\u043d \u2014 "+d},
+gSf(){return"\u0416\u0430\u04a3\u0430 \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440:"},
+gQG(){return"\u0422\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456, \u04d9\u0440\u0456 \u049b\u0430\u0440\u0430\u0439"},
+Hn(d){return"\u049a\u0410\u0422\u0410\u0420\u042b\u041d\u0410\u041d "+d+" \u041a\u04ae\u041d!"},
+gHo(){return"\u0421\u0435\u0440\u0438\u044f \u04af\u0437\u0456\u043b\u043c\u0435\u0439\u0434\u0456!"},
+gPx(){return"\u041e\u0442!"},
+gNL(){return"\u0411\u0456\u0440 \u043a\u04af\u043d\u0434\u0435 \u04af\u0448 \u043a\u0432\u0435\u0441\u0442!"},
+MQ(d){return"+"+d+" \u0442\u0438\u044b\u043d!"},
+gwq(){var w=this.w
+return w===$?this.w=new A.bGZ():w},
+gUb(){return"\u0410\u0442\u0430\u049b"},
+gWW(){return"\u0422\u04d9\u0436\u0456\u0440\u0438\u0431\u0435"},
+goN(){var w,v=this.x
+if(v===$){w=this.r
+v=this.x=new A.bFa(w,w)}return v},
+gKv(){var w,v=this.y
+if(v===$){w=this.r
+v=this.y=new A.bG_(w,w)}return v},
+giH(d){var w,v=this.z
+if(v===$){w=this.r
+v=this.z=new A.bGy(w,w)}return v},
+ga8(d){var w,v=this.Q
+if(v===$){w=this.r
+v=this.Q=new A.bGU(w,w)}return v}}
+A.bMD.prototype={
+gKC(){return"\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"},
+gKm(){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0441\u04b1\u0440\u0430"},
+gKk(){return y.hF},
+gKl(){return"\u0422\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456"},
+gM3(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u04a3 \u0431\u0430?"},
+gM2(){return y.dd},
+gM1(){return"\u0428\u044b\u0493\u0443"}}
+A.bH4.prototype={
+gwS(){return"\u041a\u04af\u0442\u0435\u043c\u0456\u0437!"},
+gwQ(){return"\u0416\u043e\u043b\u0493\u0430 \u0448\u044b\u049b"},
+gwR(){return"\u049a\u0430\u0434\u0430\u043c \u0431\u0430\u0441"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0443"},
+gTV(){return"\u04e8\u0441\u0443 \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"}}
+A.bER.prototype={
+gMd(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0433\u0435 \u043a\u0456\u0440\u0443"},
+gMc(){return y.dL},
+gGU(){return"\u041a\u0456\u0440\u0443\u0434\u0435\u2026"},
+gQj(d){return y.bN},
+gP_(){return y.iB},
+gSV(){return"\u0411\u04b1\u043b \u0441\u0456\u043b\u0442\u0435\u043c\u0435 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d"},
+gTb(){return"\u041a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u043d\u04e9\u043c\u0456\u0440\u0456\u043d \u0440\u0430\u0441\u0442\u0430\u0443 \u049b\u0430\u0436\u0435\u0442."},
+gWo(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+gLX(){return"\u0428\u0430\u049b\u044b\u0440\u0443\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u0437\u2026"},
+gN9(){return y.kO},
+gNa(){return y.eQ},
+gN7(){return"\u0418\u04d9"},
+gN8(){return"\u0416\u043e\u049b"}}
+A.bEd.prototype={
+gRL(){return"\u049b\u0430\u04a3"},
+gRK(){return"\u0430\u049b\u043f"},
+gRO(){return"\u043d\u0430\u0443"},
+gRH(){return"\u0441\u04d9\u0443"},
+gRP(){return"\u043c\u0430\u043c"},
+gRN(){return"\u043c\u0430\u0443"},
+gRM(){return"\u0448\u0456\u043b"},
+gRI(){return"\u0442\u0430\u043c"},
+gRS(){return"\u049b\u044b\u0440"},
+gRR(){return"\u049b\u0430\u0437"},
+gRQ(){return"\u049b\u0430\u0440"},
+gRJ(){return"\u0436\u0435\u043b"},
+gOo(){return"\u0414\u0421"},
+gOs(){return"\u0421\u0421"},
+gOt(){return"\u0421\u0420"},
+gOr(){return"\u0411\u0421"},
+gOn(){return"\u0416\u041c"},
+gOp(){return"\u0421\u0411"},
+gOq(){return"\u0416\u0421"},
+gW5(){return"\u0411\u04ae\u0413\u0406\u041d"},
+gX3(){return"\u041a\u0415\u0428\u0415"},
+gOj(){return"\u041e\u0420\u042b\u041d\u0414\u0410\u041b\u0492\u0410\u041d \u0416\u04d8\u041d\u0415 \u0411\u0415\u041b\u0421\u0415\u041d\u0414\u0406"}}
+A.bJs.prototype={
+gaf(){var w,v=this.RG
+if(v===$){w=this.R8
+v=this.RG=new A.bJ0(w,w)}return v},
+gx8(){var w=this.rx
+return w===$?this.rx=new A.bKy():w},
+gbY(){var w,v=this.ry
+if(v===$){w=this.R8
+v=this.ry=new A.bJl(w,w)}return v},
+gVy(){var w=this.to
+return w===$?this.to=new A.bKo():w},
+gI(){var w,v=this.x1
+if(v===$){w=this.R8
+v=this.x1=new A.bIM(w,w)}return v},
+gcX(){var w,v=this.x2
+if(v===$){w=this.R8
+v=this.x2=new A.bJL(w,w)}return v},
+gi2(){var w=this.xr
+return w===$?this.xr=new A.bKt():w},
+gpO(){var w=this.y1
+return w===$?this.y1=new A.bJQ():w},
+gu7(){var w,v=this.y2
+if(v===$){w=this.R8
+v=this.y2=new A.bJg(w,w)}return v},
+gkO(){var w,v=this.b7
+if(v===$){w=this.R8
+v=this.b7=new A.bIv(w,w)}return v},
+gjM(d){var w=this.bL
+return w===$?this.bL=new A.bJV():w},
+gi_(){var w,v=this.E
+if(v===$){w=this.R8
+v=this.E=new A.bKj(w,w)}return v},
+gjP(){var w,v=this.W
+if(v===$){w=this.R8
+v=this.W=new A.bK9(w,w)}return v},
+gt7(){var w,v=this.a_
+if(v===$){w=this.R8
+v=this.a_=new A.bKe(w,w)}return v},
+gem(){var w,v=this.ah
+if(v===$){w=this.R8
+v=this.ah=new A.bL6(w,w)}return v},
+gmi(){var w,v=this.a6
+if(v===$){w=this.R8
+v=this.a6=new A.bKN(w,w)}return v},
+gwA(){var w=this.aF
+return w===$?this.aF=new A.bKI():w},
+gfM(){var w=this.aq
+return w===$?this.aq=new A.bKX():w},
+gjQ(){var w=this.aJ
+return w===$?this.aJ=new A.bKS():w},
+glB(){var w=this.be
+return w===$?this.be=new A.bL1():w},
+gTv(){var w=this.bO
+return w===$?this.bO=new A.bJG():w},
+gdK(){var w,v=this.d0
+if(v===$){w=this.R8
+v=this.d0=new A.bIG(w,w)}return v},
+gm2(){var w,v=this.d6
+if(v===$){w=this.R8
+v=this.d6=new A.bJ6(w,w)}return v},
+ghq(){var w,v=this.cW
+if(v===$){w=this.R8
+v=this.cW=new A.bIq(w,w)}return v},
+gLY(){var w=this.cJ
+return w===$?this.cJ=new A.bIR():w},
+gfU(){var w=this.bi
+return w===$?this.bi=new A.bJq():w},
+gh8(){var w,v=this.cA
+if(v===$){w=this.R8
+v=this.cA=new A.bIW(w,w)}return v},
+gzj(){var w=this.a5
+return w===$?this.a5=new A.bJB():w},
+grK(){var w=this.ak
+return w===$?this.ak=new A.bJb():w},
+gjR(d){var w=this.aO
+return w===$?this.aO=new A.bLc():w},
+gHb(){var w,v=this.ar
+if(v===$){w=this.R8
+v=this.ar=new A.bKD(w,w)}return v},
+gwd(){var w,v=this.dA
+if(v===$){w=this.R8
+v=this.dA=new A.bJw(w,w)}return v}}
+A.bHy.prototype={
+gl3(d){return"\u04ae\u0439\u0440\u0435\u043d\u0443\u0434\u0456 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"},
+gNj(){return"\u0411\u0430\u043f\u0442\u0430\u0443\u0434\u044b \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"},
+gEP(){return"\u041a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440\u0434\u0456 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"},
+gpj(){return"\u041a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440\u0434\u0456 \u0436\u0430\u0441\u044b\u0440\u0443"},
+gPW(){return y.ia},
+Hi(d,e){return""+e+" \u049b\u0430\u0434\u0430\u043c\u043d\u044b\u04a3 "+d+"-\u049b\u0430\u0434\u0430\u043c\u044b"},
+gEQ(){return y.lV},
+gEe(){var w=this.ax
+return w===$?this.ax=new A.bHC():w},
+gEf(){var w=this.ay
+return w===$?this.ay=new A.bHM():w},
+gzp(){var w=this.ch
+return w===$?this.ch=new A.bHH():w},
+gzq(){var w=this.CW
+return w===$?this.CW=new A.bHR():w},
+gEg(){var w=this.cx
+return w===$?this.cx=new A.bHW():w},
+gEh(){var w=this.cy
+return w===$?this.cy=new A.bI0():w},
+gCb(){var w=this.db
+return w===$?this.db=new A.bHg():w},
+gvG(){var w=this.dx
+return w===$?this.dx=new A.bHq():w},
+gMb(){var w=this.dy
+return w===$?this.dy=new A.bHv():w},
+gCa(){var w=this.fr
+return w===$?this.fr=new A.bHb():w},
+gCc(){var w=this.fy
+return w===$?this.fy=new A.bHl():w}}
+A.bE2.prototype={
+gWb(){return y.kn}}
+A.bEk.prototype={
+gc1(){return"\u0416\u0430\u04a3\u0430\u0440\u0442\u0443"}}
+A.bEq.prototype={
+gWP(){return"\u04e8\u0440\u043c\u0435\u043a\u0448\u0456\u043d\u0456\u04a3 \u0442\u043e\u0440\u044b\u043d \u0441\u04af\u0440\u0442"},
+gPN(){return"\u0422\u04af\u043b\u043a\u0456\u0448\u0435\u043a"},
+gPO(){return"\u04b0\u0439\u044b\u049b\u0442\u0430\u043f \u0436\u0430\u0442\u044b\u0440"},
+gPM(){return"\u041e\u044f\u0443"},
+gMt(){return"\u041a\u04e9\u043f\u0442\u0435\u043d \u0431\u0435\u0440\u0456 \u043a\u04e9\u0440\u0456\u043d\u0431\u0435\u0434\u0456\u04a3"},
+ghI(){return"\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gU8(){return"\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456"},
+gG1(){return"\u041a\u04af\u043d \u0441\u0430\u0439\u044b\u043d"},
+gG7(){return"\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0440\u0435\u0442"},
+gG6(){return"\u0424\u043e\u0442\u043e"},
+gEz(){return"\u043a\u04af\u0448"},
+gEx(){return"\u0430\u049b\u044b\u043b"},
+gEy(){return"\u0436\u0430\u043d"},
+gUp(){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0436\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430!"},
+gzz(){return"\u0421\u0435\u043d\u0456\u04a3 \u0431\u0430\u043b\u0430\u043d\u0441\u044b\u04a3"},
+gUu(){return"\u0416\u04b0\u041c\u0421\u0410\u0423"},
+gUz(){return"\u041a\u0412\u0415\u0421\u0422\u0422\u0415\u0420\u0413\u0415"},
+gUs(){return"\u04b0\u0439\u044b\u049b\u0442\u0430\u0439\u0442\u044b\u043d \u0443\u0430\u049b\u044b\u0442, \u0434\u043e\u0441\u044b\u043c"},
+Uw(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gUy(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043f, \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b"},
+gEI(){return"\u041a\u04ae\u0428"},
+gEF(){return"\u0410\u049a\u042b\u041b"},
+gEG(){return"\u0416\u0410\u041d"},
+gEJ(){return"\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u043b\u0430\u0440\u044b"},
+gUB(){return y.eM},
+gWL(){return"\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b"},
+gWK(){return"\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+Uo(d){var w=this.b.k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+d+" \u0430\u049b\u044b\u043b \u04b1\u043f\u0430\u0439\u044b")},
+Uv(d){var w=this.b.k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+d+" \u043a\u04af\u0448 \u04b1\u043f\u0430\u0439\u044b")},
+Ut(d){var w=this.b.k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+d+" \u0436\u0430\u043d \u04b1\u043f\u0430\u0439\u044b")},
+UA(d){return""+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0435"},
+TM(d){return"\u0414\u0435\u04a3. "+d+" \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440"},
+gTK(){return y.aU},
+gTL(){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u0430 \u043a\u04e9\u0440\u0441\u0435\u0442"},
+gUx(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gEH(){return"\u0416\u04b1\u043c\u0441\u0430\u0443"},
+gUq(){return"\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430!"},
+gUr(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443"}}
+A.bEM.prototype={
+H8(d){var w=this.d.k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,""+d+" \u043a\u04af\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d")},
+NO(d,e){return""+d+" "+e},
+gNQ(){var w=this.f
+return w===$?this.f=new A.bEJ():w}}
+A.bEB.prototype={
+ghI(){return"\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gRv(){return"MAX \u0434\u0435\u04a3\u0433\u0435\u0439"},
+gPS(){return"\u041a\u04e9\u043c\u0435\u043a \u043e\u0440\u0442\u0430\u043b\u044b\u0493\u044b"},
+goY(){return"Oyna Family \u049b\u0430\u0443\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0493\u044b"},
+gMY(){return"Oyna Family \u049b\u0430\u0443\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0493\u044b \u0436\u0430\u049b\u044b\u043d\u0434\u0430 \u0430\u0448\u044b\u043b\u0430\u0434\u044b"},
+gUj(){return"App Store-\u0442\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"},
+gUk(){return"Google Play-\u0442\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"},
+gOZ(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435\u043d \u0448\u044b\u0493\u0443"},
+DK(d){return""+d+"-\u0414\u0415\u04a2\u0413\u0415\u0419"},
+X_(d,e){return""+e+" / "+d+" XP"},
+gD7(){return"\u041c\u0435\u043d\u0456\u04a3 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043c"},
+gnU(){return"\u0410\u0442\u044b"},
+gS5(){return"\u0410\u0442\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
+gpw(){return"\u0410\u0442\u044b 80 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+gS7(){return"\u0411\u04b1\u043b \u0430\u0442 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u043a\u04e9\u0440."},
+gS9(){return y.f},
+gS8(){return"\u0410\u0442\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440."},
+gpv(){return"\u0410\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+go2(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gTo(){return"\u0421\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443"},
+gTk(){return"\u0413\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0442\u0430\u04a3\u0434\u0430\u0443"},
+gpK(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"},
+gpM(){return"\u0424\u043e\u0442\u043e \u0436\u0430\u04a3\u0430\u0440\u0442\u044b\u043b\u0434\u044b"},
+gpL(){return"\u0424\u043e\u0442\u043e \u0430\u043b\u044b\u043d\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"},
+gTm(){return"\u0424\u043e\u0442\u043e \u0441\u0430\u049b\u0442\u0430\u043b\u0443\u0434\u0430"},
+gTf(){return y.kB},
+gpI(){return y.md},
+gpJ(){return"\u041a\u0430\u043c\u0435\u0440\u0430 \u0436\u043e\u049b \u2014 \u0433\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0444\u043e\u0442\u043e \u0442\u0430\u04a3\u0434\u0430"},
+gn5(){return"\u0411\u04b1\u043b \u0444\u043e\u0442\u043e \u0436\u0430\u0440\u0430\u043c\u0430\u0434\u044b. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430"},
+gpG(){return"\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u0436\u044b\u043b\u0436\u044b\u0442\u044b\u043f, \u04af\u043b\u043a\u0435\u0439\u0442"},
+gTe(){return"\u0414\u0430\u0439\u044b\u043d"},
+gpF(){return"\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u0431\u04b1\u0440\u0443"},
+gpE(){return"\u0428\u0435\u04a3\u0431\u0435\u0440\u0434\u0435\u0433\u0456 \u0441\u0443\u0440\u0435\u0442"},
+pH(d){return"\u041c\u0430\u0441\u0448\u0442\u0430\u0431 "+d+" %"}}
+A.bEw.prototype={
+gaz(d){return"\u04ae\u043b\u043a\u0435\u043d\u0434\u0435\u0440\u0434\u0435\u043d \u0441\u04b1\u0440\u0430"},
+gcL(d){return y.mU},
+TU(d,e){return""+d+" \xd7 "+e+" = ?"},
+gjJ(d){return"\u0410\u0448\u0443"},
+gWU(){return"\u0414\u04b1\u0440\u044b\u0441 \u0435\u043c\u0435\u0441. \u041c\u0456\u043d\u0435, \u0436\u0430\u04a3\u0430 \u043c\u044b\u0441\u0430\u043b"}}
+A.bLl.prototype={
+gpD(d){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435"},
+giX(){return"\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"}}
+A.bLq.prototype={
+VK(d){return""+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+Lu(d){return""+d+" \u0434\u0435\u04a3"},
+gVO(){return"\u0414\u0430\u0439\u044b\u043d! \u0411\u04d9\u0440\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u04a3"},
+oS(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gGW(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u043c\u0430\u04a3\u044b\u0437\u0434\u044b\u043b\u0430\u0440\u044b"},
+gBU(){return"\u0422\u0456\u0437\u0456\u043c\u0433\u0435"},
+gKs(){return"\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430 \u043e\u0440\u0430\u043b\u0443"},
+gTq(){return y.mT},
+gGX(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u04af\u043b\u043a\u0435\u043d \u0441\u044b\u0439\u0430\u049b\u044b"},
+gOb(){return"\u041e\u04a3\u0430\u0439"},
+gOe(){return"\u041e\u0440\u0442\u0430\u0448\u0430"},
+gOd(){return"\u049a\u0438\u044b\u043d"},
+gOc(){return"\u042d\u043f\u0438\u043a\u0430\u043b\u044b\u049b"},
+gow(){return"\u0416\u0430\u0440\u0430\u0439\u0441\u044b\u04a3! \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0440\u0430\u0441\u0442\u0430\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437"},
+gL8(){return"\u041a\u0430\u043c\u0435\u0440\u0430 \u043a\u0435\u0440\u0435\u043a"},
+gL5(){return y.kN},
+gL7(){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440"},
+gL6(){return"\u0413\u0430\u043b\u0435\u0440\u0435\u044f"},
+gG2(){return"\u041a\u04af\u043d \u0441\u0430\u0439\u044b\u043d"},
+gG3(){return"\u0410\u043f\u0442\u0430 \u0441\u0430\u0439\u044b\u043d"},
+gG0(){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a"},
+gG5(){return"\u0411\u0456\u0440 \u0440\u0435\u0442"},
+gKy(){return"\u0422\u0415\u041a \u0410\u041f\u0422\u0410\u041b\u042b\u049a \u041a\u0412\u0415\u0421\u0422\u0422\u0415\u0420"},
+gH1(){return"\u041e\u0420\u042b\u041d\u0414\u0410\u041b\u0414\u042b"},
+gH0(){return"\u0411\u0415\u041b\u0421\u0415\u041d\u0414\u0406"},
+gRb(){return"\u0416\u0423\u042b\u0420\u0414\u0410 \u0410\u0428\u042b\u041b\u0410\u0414\u042b"},
+gou(){return"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"},
+QD(d){return"\u0414\u0435\u04a3."+d},
+gEl(){return"\u0414\u04d8\u041b\u0415\u041b \u0421\u0423\u0420\u0415\u0422"},
+gSU(){return"\u0410\u0442\u0430-\u0430\u043d\u0430"},
+ghI(){return"\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gdn(){return"\u041a\u0432\u0435\u0441\u0442\u0442\u0435\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456"},
+gLH(){return"\u04ae\u0439"},
+gLP(){return"\u041e\u049b\u0443"},
+gLN(){return"\u0421\u043f\u043e\u0440\u0442"},
+gLM(){return"\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a"},
+gLD(){return"\u0422\u04d9\u0440\u0442\u0456\u043f"},
+gLK(){return"\u04e8\u0437\u0456\u043d-\u04e9\u0437\u0456 \u0434\u0430\u043c\u044b\u0442\u0443"},
+gLC(){return"\u0428\u044b\u0493\u0430\u0440\u043c\u0430\u0448\u044b\u043b\u044b\u049b"},
+gLE(){return"\u049a\u0430\u0440\u0436\u044b"},
+gLJ(){return"\u0411\u0430\u0441\u049b\u0430"},
+gHt(){return y.jY},
+gHv(){return"\u0411\u04af\u0433\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u2014 \u0435\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440"},
+gHu(){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"},
+gHs(){return"\u0411\u04b1\u043b \u043a\u0432\u0435\u0441\u0442 \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"},
+gHr(){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u0430\u043b\u044b\u043d\u0493\u0430\u043d"},
+gHy(){return"\u041a\u0432\u0435\u0441\u0442 \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gHx(){return y.ka},
+gHw(){return y.iU},
+gET(){return y.ap},
+gO5(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435 \u0436\u0456\u0431\u0435\u0440\u0443"},
+gVl(){return"\u041c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440"},
+gVq(){return"\u0422\u04d9\u0436\u0456\u0440\u0438\u0431\u0435"},
+gmK(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0456\u0437\u0434\u0435\u0443"},
+goT(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+Tp(d,e){return""+e+" \u0456\u0448\u0456\u043d\u0435\u043d "+d},
+gO2(){return"\u0424\u043e\u0442\u043e\u0441\u0443\u0440\u0435\u0442 \u0442\u0456\u0440\u043a\u0435\u0443"},
+gKu(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430"},
+gEm(){return"\u0416\u0456\u0431\u0435\u0440\u0443"},
+gTl(){return"\u049a\u0430\u0439\u0442\u0430 \u0442\u04af\u0441\u0456\u0440\u0443"},
+gO3(){return"\u0420\u0430\u0441\u0442\u0430\u0443\u0434\u044b \u043a\u04af\u0442\u0443\u0434\u0435\u043c\u0456\u0437"},
+gO4(){return"\u049a\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"},
+go_(){return"\u0442\u043e\u043b\u044b\u0493\u044b\u0440\u0430\u049b"},
+gSw(){return"\u0430\u0442\u0430-\u0430\u043d\u0430 \u043f\u0456\u043a\u0456\u0440\u0456"},
+Vv(d){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0431\u04af\u0433\u0456\u043d, "+d},
+Vw(d){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0435\u0440\u0442\u0435\u04a3, "+d},
+Vu(d,e){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: "+d+", "+e},
+gE1(){return"\u0410\u0442\u0430-\u0430\u043d\u0430"},
+gHC(){return"\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u043a\u04af\u0442\u0435\u043c\u0456\u043d"},
+gVN(){return"\u049a\u0430\u0448\u0430\u043d \u0456\u0441\u0442\u0435\u043c\u0435\u0434\u0456\u043a"},
+gEn(){return"\u0421\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443"}}
+A.bIj.prototype={
+gM_(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"},
+gne(){return"\u0416\u044b\u043d\u044b\u0441\u044b"},
+gFq(){return"\u04b0\u043b \u0431\u0430\u043b\u0430"},
+gFo(){return"\u049a\u044b\u0437 \u0431\u0430\u043b\u0430"}}
+A.bLA.prototype={
+goU(){return"\u0414\u04af\u043a\u0435\u043d"},
+gtV(){return"\u0421\u04af\u0437\u0433\u0456"},
+gDs(){return"\u041a\u04e9\u0440\u0441\u0435\u0442\u0443"},
+gDr(){return"\u0420\u0435\u0442\u0456"},
+gLx(){return"\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u0440\u0435\u0442\u0456"},
+gLz(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0430\u0440\u0437\u0430\u043d\u0434\u0430\u0440\u044b"},
+gLy(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u049b\u044b\u043c\u0431\u0430\u0442\u0442\u0430\u0440\u044b"},
+gLs(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+gC4(){return"\u049a\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456"},
+gmK(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0456\u0437\u0434\u0435\u0443"},
+goT(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gC5(){return"\u0422\u0415\u0413\u0406\u041d"},
+gLt(){return"\u0422\u0415\u0413\u0406\u041d"},
+gVM(){return"\u0420\u04b1\u049b\u0441\u0430\u0442\u0442\u0430\u0440"},
+gVL(){return"\u041a\u0438\u0456\u043c"},
+gVD(){return"\u041c\u0435\u043d\u0456\u04a3 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b\u043c"},
+gKY(){return"\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443"},
+KZ(d){return""+d+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0430\u0441\u044b\u04a3 \u0431\u0430?"},
+goo(){return"\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+glJ(){return"\u041a\u043e\u0434\u043f\u0435\u043d \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440"},
+gn2(){return y.P},
+gJS(){return"\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u0442\u0430-\u0430\u043d\u0430\u043d\u044b\u04a3 \u0436\u0430\u0443\u0430\u0431\u044b\u043d \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440"},
+gzh(){return"\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gOQ(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440 \u0436\u043e\u049b"},
+gOO(){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u049b\u043e\u0441\u0443\u0434\u044b \u0441\u04b1\u0440\u0430"},
+gHg(){return"\u23f3 \u0410\u0442\u0430-\u0430\u043d\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435"},
+gHc(){return"\u2713 \u0410\u043b\u044b\u043d\u0434\u044b"},
+gou(){return"\u2715 \u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"},
+ghI(){return"\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+Ra(d){return"\u0414\u0435\u04a3."+d},
+GL(d){return"\u0422\u0430\u0493\u044b "+d+" \u0442\u0438\u044b\u043d \u043a\u0435\u0440\u0435\u043a"},
+gUM(){return"\u0436\u0430\u04a3\u0430 \u0493\u0430\u043d\u0430"},
+UN(d){return""+d+" \u043c\u0438\u043d \u0431\u04b1\u0440\u044b\u043d"},
+UL(d){return""+d+" \u0441\u0430\u0493 \u0431\u04b1\u0440\u044b\u043d"},
+UK(d){return""+d+" \u043a\u04af\u043d \u0431\u04b1\u0440\u044b\u043d"},
+gDe(){return"\u04b0\u043f\u0430\u0439\u043b\u0430\u0440\u0434\u044b \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0443"},
+gU3(){return y.nn},
+gU4(){return"\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u044b\u04a3\u043c\u0435\u043d \u049b\u04b1\u0442\u0442\u044b\u049b\u0442\u0430\u0439\u043c\u044b\u0437"},
+gKt(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0493\u0430"},
+gvx(){return"\u0420\u0430\u0441\u0442\u0430\u0443\u0434\u044b \u043a\u04af\u0442\u0443\u0434\u0435\u043c\u0456\u0437"},
+gHh(){return"\u043a\u04af\u043d\u0456 \u0430\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b"},
+gU1(){return"\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u043a\u04af\u0442\u0435\u043c\u0456\u043d"},
+gU2(){return"\u049a\u0430\u0448\u0430\u043d \u0456\u0441\u0442\u0435\u043c\u0435\u0434\u0456\u043a"}}
+A.bM9.prototype={
+gaz(d){return"\u0421\u0430\u043d\u0430\u0442"},
+glj(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0430\u043d\u0430\u0442\u0442\u0430\u0440"},
+gF2(){var w=this.at
+return w===$?this.at=new A.bMx():w},
+gEu(){var w=this.ax
+return w===$?this.ax=new A.bMi():w},
+gDf(){var w=this.ay
+return w===$?this.ay=new A.bLY():w},
+gCP(){var w=this.ch
+return w===$?this.ch=new A.bLN():w},
+gAs(){var w=this.CW
+return w===$?this.CW=new A.bMs():w},
+gCX(){var w=this.cx
+return w===$?this.cx=new A.bLS():w},
+gDV(){var w=this.cy
+return w===$?this.cy=new A.bMd():w},
+gCH(){var w=this.db
+return w===$?this.db=new A.bLI():w},
+gej(d){var w=this.dx
+return w===$?this.dx=new A.bM7():w},
+gnO(){var w=this.dy
+return w===$?this.dy=new A.bM2():w},
+gAg(){var w=this.fr
+return w===$?this.fr=new A.bMn():w}}
+A.bGZ.prototype={
+gGZ(){return"\u04b0\u0448\u049b\u044b\u043d"},
+gTE(){return"\u0406\u0441\u043a\u0435\u0440"},
+gNB(){return"\u0428\u0435\u0431\u0435\u0440"},
+gRt(){return"\u0425\u0430\u0441 \u0448\u0435\u0431\u0435\u0440"}}
+A.bFa.prototype={
+gE7(){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440\u0434\u0456 \u0430\u0448\u0443"},
+geu(){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+VS(d){return""+d+"-\u0441\u0430\u0442\u044b, \u0431\u0430\u0440\u043b\u044b\u0493\u044b 3"},
+gMX(){return"\u0410\u043b\u0443"},
+gGn(){return"\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043a\u04e9\u0440\u0443"},
+Gq(d,e){return"\xab"+e+"\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456, \u0430\u043b\u044b\u043d\u0434\u044b: "+d},
+Gp(d,e){return"\xab"+e+y.lk+d},
+S_(d){var w,v=this.d.k2.c
+if(v==null)v=B.q("kk")
+w="\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f\u04a3\u0434\u0430 \u0442\u0430\u0493\u044b "+d+" \u0431\u0435\u043b\u0433\u0456 \u0431\u0430\u0440"
+return v.$3$one$other(d,w,w)}}
+A.bG_.prototype={
+gw2(){var w=this.CW
+return w===$?this.CW=new A.bFE():w},
+gw0(){var w=this.cx
+return w===$?this.cx=new A.bFz():w},
+gwI(){var w=this.cy
+return w===$?this.cy=new A.bGi():w},
+gwh(){var w=this.db
+return w===$?this.db=new A.bG3():w},
+gw5(){var w=this.dx
+return w===$?this.dx=new A.bFY():w},
+gwC(){var w=this.dy
+return w===$?this.dy=new A.bGd():w},
+gwN(){var w=this.fr
+return w===$?this.fr=new A.bGt():w},
+gvZ(){var w=this.fx
+return w===$?this.fx=new A.bFp():w},
+gwJ(){var w=this.fy
+return w===$?this.fy=new A.bGn():w},
+gvW(){var w=this.go
+return w===$?this.go=new A.bFk():w},
+gwB(){var w=this.id
+return w===$?this.id=new A.bG8():w},
+gw_(){var w=this.k1
+return w===$?this.k1=new A.bFu():w},
+gol(){var w=this.k2
+return w===$?this.k2=new A.bFJ():w},
+gon(){var w=this.k3
+return w===$?this.k3=new A.bFT():w},
+gom(){var w=this.k4
+return w===$?this.k4=new A.bFO():w}}
+A.bGy.prototype={
+QC(d){return""+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+W1(d,e,f){return""+e+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0433\u0435 \u0434\u0435\u0439\u0456\u043d: "+d+" / "+f},
+gRu(d){return"\u0415\u04a3 \u0436\u043e\u0493\u0430\u0440\u044b \u0434\u0435\u04a3\u0433\u0435\u0439"},
+gFM(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0493\u0430 \u04e9\u0442\u0443"},
+gSd(){return"\u0416\u0430\u04a3\u0430 \u0434\u0435\u04a3\u0433\u0435\u0439!"},
+giV(){var w=this.f
+return w===$?this.f=new A.bGM():w},
+gj6(){var w=this.r
+return w===$?this.r=new A.bGC():w},
+giU(){var w=this.w
+return w===$?this.w=new A.bGH():w}}
+A.bGU.prototype={
+gaz(d){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a\u0442\u0435\u0440"},
+yg(d,e){return"\u0411\u0435\u043b\u0433\u0456\u043b\u0435\u0440: "+d+" / "+e},
+Uc(d,e){return e+" \xb7 "+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+Gt(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0421\u0435\u0440\u0438\u044f: \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+d+" \u043a\u04af\u043d"
+return v.$4$one$other$zero(d,w,w,w)},
+gSP(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440"},
+OH(d){return"\u0410\u043b\u044b\u043d\u0434\u044b: "+d},
+JF(d){return"\u0411\u04b1\u0440\u044b\u043d\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u049b\u043e\u0441\u044b\u043b\u0434\u044b: "+d},
+gE0(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0430\u043b\u044b\u043d\u0431\u0430\u0493\u0430\u043d"},
+TW(d,e){return B.a(d)+" / "+e},
+gP3(){return y.eU},
+gKw(){return y.p3}}
+A.bJ0.prototype={
+geI(d){return"\u0410\u0440\u0442\u049b\u0430"},
+gb1(d){return"\u0416\u0430\u0431\u0443"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+gwb(){return"\u0416\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0443"},
+gq1(){return"\u0422\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456"},
+gF4(){return"\u0411\u0430\u0441\u0442\u044b \u0431\u0435\u0442\u043a\u0435"},
+gka(){return"\u0414\u0430\u0439\u044b\u043d"},
+gjq(d){return"\u0421\u0430\u049b\u0442\u0430\u0443"},
+gen(d){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"},
+glj(){return"\u0411\u0430\u0440\u043b\u044b\u0493\u044b"},
+geu(){return y.o6},
+gtm(){return"\u0421\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+glJ(){return"\u0421\u0435\u0441\u0441\u0438\u044f \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u0431\u0456\u0442\u0442\u0456. \u049a\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437"},
+guu(){return"\u0411\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442\u043a\u0435 \u0440\u04b1\u049b\u0441\u0430\u0442\u044b\u04a3\u044b\u0437 \u0436\u043e\u049b"},
+EL(d,e){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443: "+e},
+guG(){return"\u0411\u04af\u0433\u0456\u043d"},
+gA0(){return"\u041a\u0435\u0448\u0435"},
+W4(d){return"\u0411\u04af\u0433\u0456\u043d, "+d},
+W7(d){return"\u0415\u0440\u0442\u0435\u04a3, "+d},
+X2(d){return"\u041a\u0435\u0448\u0435, "+d},
+NP(d,e){return d+", "+e},
+wg(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043c\u0438\u043d\u0443\u0442"
+return v.$3$one$other(d,w,w)},
+kQ(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+gTF(){return"Oyna Premium"}}
+A.bKy.prototype={
+gbY(){return"\u0411\u0430\u0441\u0442\u044b"},
+gem(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gi_(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+gdK(){return"\u0424\u043e\u043a\u0441\u0438\u043a AI"},
+gf1(d){return"\u049a\u04b1\u0440\u0443"},
+gBE(){return"\u0416\u0430\u0431\u0443"},
+goO(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+gJA(){return"\u0421\u044b\u0439\u043b\u044b\u049b"}}
+A.bJl.prototype={
+gcX(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c"},
+gkg(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+gBL(){return"\u0422\u0430\u043b\u0434\u0430\u0443\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d\u0433\u0456 AI \u043a\u0435\u04a3\u0435\u0441\u0456"},
+gJQ(){return y.mS},
+gJP(){return"AI-\u043c\u0435\u043d \u0442\u0430\u043b\u049b\u044b\u043b\u0430\u0443"},
+gpX(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+gVr(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04af\u0448\u0456\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u0431\u0435\u0440\u0443 \u043a\u0435\u0440\u0435\u043a"},
+gpW(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443"},
+o9(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gEW(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0436\u043e\u049b"},
+gpi(){return"\u041a\u04e9\u043c\u0435\u043a"},
+ph(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0441\u04b1\u0440\u0430\u0443"
+return v.$3$one$other(d,w,w)},
+gP9(){return"\u041c\u0435\u043d\u0456\u04a3 \u043e\u0442\u0431\u0430\u0441\u044b\u043c"},
+P7(d){return"\u049a\u043e\u0441\u044b\u043b\u0434\u044b: "+d},
+Ma(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+d+" / "+e+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+gMe(){return"\u049a\u043e\u0441\u044b\u043b\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437"},
+gMf(){return"\u049a\u043e\u0441\u044b\u043b\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437"},
+gJG(){return"\u0411\u04b1\u043b \u0441\u0456\u0437!"},
+ghq(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"},
+gSn(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"},
+gSm(){return y.Y},
+gPE(){return"AI \u0434\u04b1\u0440\u044b\u0441 \u0431\u0430\u0441\u0442\u0430\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456"},
+gPF(){return"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u0441\u0430\u0439\u044b\u049b \u043f\u0430?"},
+gPy(){return y.he},
+gPC(){return"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u0441\u0443"},
+gPD(){return"\u0411\u0456\u0440\u043d\u0435\u0448\u0435\u0443\u0456\u043d\u0435\u043d \u0431\u0430\u0441\u0442\u0430\u043f, \u043a\u0435\u0439\u0456\u043d \u043a\u04e9\u0431\u0435\u0439\u0442\u0435\u043c\u0456\u0437"},
+gPA(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u049b\u043e\u0441\u0443"},
+gPB(){return y.E},
+gPz(){return"\u0422\u04af\u0441\u0456\u043d\u0434\u0456\u043c, \u04d9\u0440\u0456 \u049b\u0430\u0440\u0430\u0439"},
+gBK(){return"\u0410\u0442\u0430-\u0430\u043d\u0430"},
+gBJ(){return"\u049a\u043e\u0441\u0443"},
+gJI(){return"\u0415\u043a\u0456\u043d\u0448\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430"},
+gJH(){return y.j6}}
+A.bKo.prototype={
+gPa(){return"\u04d8\u043a\u0435"},
+gS1(){return"\u0410\u043d\u0430"},
+gFP(){return"\u04d8\u0436\u0435"},
+gFO(){return"\u0410\u0442\u0430"},
+gFY(){return"\u049a\u0430\u043c\u049b\u043e\u0440\u0448\u044b"},
+gSS(){return"\u0415\u0440\u0435\u0441\u0435\u043a"}}
+A.bIM.prototype={
+gGA(){return"\u0411\u0430\u043b\u0430 \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gKi(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u04b1\u0440\u0430\u0443"},
+gjR(d){return"\u0414\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"},
+Kx(d){return"\u0411\u0430\u043b\u0430\u043d\u0441: "+d+" \u0442\u0438\u044b\u043d"},
+nS(d,e){return""+e+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+WV(d,e){return B.a(d)+" / "+e+" XP"},
+gWY(){return"\u0415\u04a3 \u0436\u043e\u0493\u0430\u0440\u044b \u0434\u0435\u04a3\u0433\u0435\u0439"},
+giV(){return"\u041a\u04af\u0448"},
+gj6(){return"\u0410\u049b\u044b\u043b"},
+giU(){return"\u0416\u0430\u043d"},
+gpi(){return"\u041a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430\u0443"},
+ph(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u04e9\u0442\u0456\u043d\u0456\u0448"
+return v.$3$one$other(d,w,w)},
+gPT(){return"\u04e8\u0442\u0456\u043d\u0456\u0448 \u0436\u043e\u049b"},
+gpW(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443"},
+gpX(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+Vs(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0441\u04b1\u0440\u0430\u043d\u044b\u0441"
+return v.$3$one$other(d,w,w)},
+gVt(){return"\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"},
+VH(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+d+" / "+e+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+gke(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0436\u0435\u04a3\u0456\u043b, \u0442\u0430\u0493\u044b \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gkf(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u049b\u0430\u043b\u044b\u043f\u0442\u044b, \u0442\u0430\u0493\u044b \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gkd(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0436\u043e\u0493\u0430\u0440\u044b, \u04d9\u0437\u0456\u0440\u0433\u0435 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456"},
+gR_(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b, \u0430\u043b\u0493\u0430\u0448\u049b\u044b\u0441\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"},
+JC(d){return d+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u043e\u0441\u0443"},
+gOI(){return"14 \u043a\u04af\u043d\u0434\u0435 \u0436\u0438\u043d\u0430\u043b\u0434\u044b"},
+OG(d){var w=this.b.k2.c
+return(w==null?B.q("kk"):w).$3$one$other(d,"\u0442\u0438\u044b\u043d","\u0442\u0438\u044b\u043d")},
+gjl(){return"\u0411\u0430\u043b\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gNd(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"},
+gNc(){return y.j8},
+gNb(){return"\u041a\u043e\u0434 \u043f\u0435\u043d QR \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"},
+gWG(){return"\u0410\u043f\u0442\u0430\u043d\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gWH(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"}}
+A.bJL.prototype={
+gfU(){return"\u0428\u0430\u049b\u044b\u0440\u0443"},
+Qn(d){return"\u0414\u043e\u0441\u0442\u0430\u0440\u0434\u044b "+d+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d\u0430 \u0448\u0430\u049b\u044b\u0440\u0443"},
+Qo(d,e,f){return d+y.T+e+"\nAndroid: "+f},
+gS4(){return"\u041c\u0435\u043d\u0456\u04a3 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043c"},
+gLS(){return"\u0410\u0442\u0430-\u0430\u043d\u0430 \u043a\u043e\u0434\u044b\u043d \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gP4(){return"Face ID"},
+gWh(){return"Touch ID"},
+gKB(){return"\u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u044f \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443"},
+gmW(d){return"\u0422\u0456\u043b"},
+gkg(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+gi2(){return"\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a"},
+gEs(){return"\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456"},
+gD3(){return"\u049a\u04b1\u0436\u0430\u0442\u0442\u0430\u0440"},
+gTT(){return"\u049a\u04b1\u043f\u0438\u044f\u043b\u044b\u043b\u044b\u049b \u0441\u0430\u044f\u0441\u0430\u0442\u044b"},
+gVP(){return"\u041f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443 \u0448\u0430\u0440\u0442\u0442\u0430\u0440\u044b"},
+gPR(){return"\u041a\u04e9\u043c\u0435\u043a"},
+gra(){return"\u0428\u044b\u0493\u0443"},
+gGT(){return"\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u0430\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"},
+gGQ(){return y.bS},
+gGS(){return"\u0428\u044b\u0493\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+Wx(d,e,f){return"\u041d\u04b1\u0441\u049b\u0430 "+f+" ("+e+")"},
+gDL(){return"\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+TO(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0421\u044b\u043d\u0430\u049b \xb7 "+B.a(d)+" \u043a\u04af\u043d"
+return v.$3$one$other(d,w,w)},
+gTJ(){return"\u0410\u044f\u049b\u0442\u0430\u043b\u0434\u044b"},
+geu(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0456 \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gkT(d){return"\u041e\u0442\u0431\u0430\u0441\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gjM(d){return"\u0411\u0456\u0437\u0434\u0456 \u0431\u0430\u0493\u0430\u043b\u0430\u04a3\u044b\u0437"},
+goY(){return"\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a \u0436\u0435\u043b\u0456\u043b\u0435\u0440\u0434\u0435"},
+gOK(){return"\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043c\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"}}
+A.bKt.prototype={
+gaz(d){return"\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a"},
+gLR(){return"\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gT1(){return"\u049a\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437\u0434\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0435\u0441\u0456\u0437 \u0431\u0435?"},
+SY(d){return d+y.ed},
+gT_(){return"\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0436\u0456\u0431\u0435\u0440\u0443"},
+T0(d){return"\u0425\u0430\u0442 "+d+" \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+gSZ(){return y.bG},
+gGR(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u043b\u0430\u0440\u0434\u0430\u043d \u0448\u044b\u0493\u0443"},
+gOX(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u043b\u0430\u0440\u0434\u0430\u043d \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"},
+gOW(){return y.m},
+gOV(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0436\u0435\u0440\u0434\u0435\u043d \u0448\u044b\u0493\u0443"},
+gNZ(){return"\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044e"}}
+A.bJQ.prototype={
+ga0(d){return"\u0410\u0442\u044b"},
+gjI(){return"\u0421\u0456\u0437\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u0430\u0442\u0430\u0439\u044b\u049b"},
+gEk(d){return"\u0422\u0435\u043b\u0435\u0444\u043e\u043d"},
+gD9(){return"Email"},
+gBY(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"},
+gt8(d){return"\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430\u0493\u044b \u0440\u04e9\u043b"},
+gE_(){return"\u041a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0433\u0435\u043d"},
+gVx(){return"\u0421\u0456\u0437 \u0431\u0430\u043b\u0430\u0493\u0430 \u043a\u0456\u043c \u0431\u043e\u043b\u0430\u0441\u044b\u0437?"},
+ghj(d){return"\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044e"},
+gk8(){return"\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"},
+gk7(){return y.nD},
+O0(d){return"\u0416\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u04a3\u044b\u0437 \u0431\u043e\u043b\u0441\u0430, \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u043e\u043d\u044b "+d+y.M},
+gO_(){return y.br},
+gee(){return"\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gQl(){return y.oI},
+gQk(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456\u04a3\u0456\u0437\u0434\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"},
+gWt(){return y.oo}}
+A.bJg.prototype={
+gaz(d){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+glZ(d){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u044b\u043d\u044b\u0448"},
+ghT(){return y.dj},
+gVd(){return"\u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435"},
+gVF(){return"\u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b"},
+gVG(){return"\u0442\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"},
+gVo(){return"\u0441\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"},
+gVn(){return"\u0441\u044b\u0439\u043b\u044b\u049b \u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+gVm(){return"\u0441\u044b\u0439\u043b\u044b\u049b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"},
+gPU(){return"\u043a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"},
+PV(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0436\u0430\u04a3\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gpD(d){return"\u0421\u0456\u0437\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435"}}
+A.bIv.prototype={
+gEp(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+gDz(){return"\u0416\u0430\u043b\u043f\u044b \u0434\u0430\u043c\u0443 \u0438\u043d\u0434\u0435\u043a\u0441\u0456"},
+Ay(d){return"\u041a\u04af\u0448 "+d+"%"},
+DY(d){return"\u0410\u049b\u044b\u043b "+d+"%"},
+At(d){return"\u0416\u0430\u043d "+d+"%"},
+JJ(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+e+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0434\u0430\u043d "+d+" \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+gJK(){return y.iC},
+gKj(){return"AI-\u0434\u0430\u043d \u0441\u04b1\u0440\u0430\u0443"},
+gN3(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0443\u044b"},
+gN_(){return y.fQ},
+gMZ(){return y.hI},
+gN1(){return y.my},
+gN2(){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u04d9\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"},
+gN0(){return"\u0416\u0430\u043b\u043f\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0443"},
+gHe(){return"\u04e8\u0442\u0435 \u0436\u0430\u049b\u0441\u044b"},
+gHd(){return"\u0416\u0430\u049b\u0441\u044b"},
+gHf(){return"\u0416\u0430\u049b\u0441\u0430\u0440\u0442\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gOm(){return"\u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gT8(){return"\u0410\u043f\u0442\u0430 \u0456\u0448\u0456\u043d\u0434\u0435"},
+gyj(){return"\u04ae\u0437\u0434\u0456\u043a \u0430\u043f\u0442\u0430"},
+gKA(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"},
+gnT(){return"\u0422\u043e\u043b\u044b\u0493\u044b\u0440\u0430\u049b"},
+goO(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u043e\u0441\u0443"},
+gJD(){return"\u0411\u0430\u043b\u0430\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+Hl(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d"
+return v.$3$one$other(d,w,w)},
+gHm(){return"\u041e\u0440\u044b\u043d\u0434\u0430\u0443 \u0441\u0435\u0440\u0438\u044f\u0441\u044b"},
+nS(d,e){return""+e+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+gQB(){return"\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b"},
+gVJ(){return"\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gVI(){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u043d\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456 \u04d9\u0437\u0456\u0440\u0433\u0435 \u0431\u043e\u0441"},
+gOg(){return"AI-\u043c\u0435\u043d \u0442\u0430\u043b\u049b\u044b\u043b\u0430\u0443"},
+Oh(d){return d+y.c},
+BV(d,e){return d+": "+e+y.V},
+gjl(){return"\u0411\u04b1\u043b \u0431\u0430\u043b\u0430 \u0435\u043d\u0434\u0456 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0436\u043e\u049b"}}
+A.bJV.prototype={
+VV(d,e){return e+" \u04b1\u043d\u0430\u0439 \u043c\u0430?"},
+gcL(d){return y.fb},
+H4(d){return"5-\u0442\u0435\u043d "+d},
+gRV(){return"\u04e8\u0442\u0435 \u043d\u0430\u0448\u0430\u0440"},
+gRW(){return"\u041d\u0430\u0448\u0430\u0440"},
+gRX(){return"\u041e\u0440\u0442\u0430\u0448\u0430"},
+gRY(){return"\u0416\u0430\u049b\u0441\u044b"},
+gRZ(){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442!"},
+gQc(){return"\u041d\u0435\u043d\u0456 \u0436\u0430\u049b\u0441\u0430\u0440\u0442\u0430\u0439\u044b\u049b?"},
+gQb(){return y.iz},
+giR(d){return"\u0416\u0456\u0431\u0435\u0440\u0443"},
+gHk(){return y.iF},
+gJY(){return"App Store-\u0434\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"},
+gFN(){return"Google Play-\u0434\u0435 \u0431\u0430\u0493\u0430\u043b\u0430\u0443"},
+goa(){return"\u0420\u0430\u049b\u043c\u0435\u0442! \u04d8\u0440 \u043f\u0456\u043a\u0456\u0440\u0434\u0456 \u043e\u049b\u0438\u043c\u044b\u0437"},
+ghJ(){return"\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+Rq(d,e){return d+" \u0442\u0443\u0440\u0430\u043b\u044b \u043f\u0456\u043a\u0456\u0440: 5-\u0442\u0435\u043d "+e}}
+A.bKj.prototype={
+oc(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+e+" \u0441\u044b\u0439\u043b\u044b\u049b"
+return v.$3$one$other(e,w,w)},
+gha(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u0443"},
+gDM(d){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+gER(){return"\u0421\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440"},
+gnk(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0430\u0442\u0430\u0443\u044b"},
+gMq(){return"\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u0443"},
+RC(d){return""+d+" \u043c\u0438\u043d"},
+TQ(d,e){return""+d+"\u2013"+e},
+TR(d,e){return""+d+" \u0442\u0438\u044b\u043d\u043d\u0430\u043d "+e+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+TC(d){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: \u0431\u04af\u0433\u0456\u043d, "+d},
+TD(d){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: \u0435\u0440\u0442\u0435\u04a3, "+d},
+Tz(d,e){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: "+d+", "+e},
+ghU(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0441\u044b\u0439\u043b\u044b\u049b \u0436\u043e\u049b"},
+ghT(){return y.j},
+gUZ(){return"\u0416\u0430\u04a3\u0430 \u0441\u04b1\u0440\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"},
+gUY(){return y.d9},
+gmm(){return"\u0415\u0448\u0442\u0435\u04a3\u0435 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gml(){return"\u0411\u0430\u0441\u049b\u0430 \u0430\u0442\u0430\u0443\u043c\u0435\u043d \u0456\u0437\u0434\u0435\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gnl(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0456\u0437\u0434\u0435\u0443"},
+gnj(){return"\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0436\u0430\u0431\u0443"},
+giK(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0434\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+git(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+yW(d){return""+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0435\u043d"}}
+A.bK9.prototype={
+gNI(){return"\u0411\u0430\u043b\u0430\u0493\u0430 \u0436\u0430\u04a3\u0430 \u0441\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u0443"},
+gOM(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gd2(){return"\u0411\u0430\u043b\u0430 \u04e9\u0437 \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u043e\u0493\u0430\u043d \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"},
+LA(d){return d+y.F},
+gKn(){return"\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u049b\u04b1\u0440\u0443"},
+gF3(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0430\u0442\u0430\u0443\u044b"},
+gVY(){return"\u0421\u0442\u0440\u0430\u0439\u043a\u0431\u043e\u043b \u043e\u0439\u043d\u0430\u0443"},
+gCM(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b"},
+gp6(){return"\u0411\u0430\u0443\u044b\u0440\u043b\u0430\u0440\u043c\u0435\u043d \u0441\u0442\u0440\u0430\u0439\u043a\u0431\u043e\u043b \u043e\u0439\u043d\u0430\u0443\u0493\u0430 \u0431\u0430\u0440\u0430\u043c\u044b\u0437"},
+gLI(){return"\u0421\u0430\u043d\u0430\u0442"},
+gQ2(){return"\u0411\u0435\u043b\u0433\u0456\u0448\u0435"},
+gLG(){return"\u0422\u0430\u043c\u0430\u049b, \u043a\u0438\u043d\u043e \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u0439\u044b\u043d\u0434\u0430\u0440"},
+gLL(){return"\u0421\u0430\u043d\u0430\u0442"},
+gD6(){return"\u04b0\u0437\u0430\u049b\u0442\u044b\u0493\u044b"},
+gOF(){return"\u043c\u0438\u043d\u0443\u0442"},
+gEt(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0431\u0430\u0493\u0430\u0441\u044b"},
+gEi(){return"\u041a\u0456\u043c \u0430\u043b\u0430 \u0430\u043b\u0430\u0434\u044b?"},
+gT6(){return"\u0411\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gT7(){return y.lU},
+gyk(){var w=this.e
+return w===$?this.e=new A.bK1():w},
+gha(d){return"\u049a\u04b1\u0440\u0443"},
+gjq(d){return"\u0421\u0430\u049b\u0442\u0430\u0443"},
+ghj(d){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0436\u043e\u044e"},
+gk8(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"},
+gk7(){return"\u041e\u043b \u0431\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0435\u043d \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"},
+gp5(){return"\u0416\u043e\u044e"},
+gQe(){return"\u0411\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u0431\u04b1\u0440\u044b\u043d \u0430\u043b\u044b\u043d\u0493\u0430\u043d"},
+gQd(){return y.mG},
+gpj(){return"\u0416\u0430\u0441\u044b\u0440\u0443"},
+gNJ(){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0421\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u044b\u043b\u0434\u044b"},
+gee(){return"\u04e8\u0437\u0433\u0435\u0440\u0456\u0441\u0442\u0435\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gnJ(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0436\u043e\u0439\u044b\u043b\u0434\u044b"},
+gm6(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0436\u0430\u0441\u044b\u0440\u044b\u043b\u0434\u044b"},
+ghw(){var w=this.f
+return w===$?this.f=new A.bK7():w},
+gQa(){return y.hR},
+gQ5(){return y.jh},
+gjl(){return y.aY},
+gpN(){return"\u04d8\u0440\u0442\u04af\u0440\u043b\u0456 \u0431\u0430\u0493\u0430"},
+gpa(){return"\u0421\u0430\u049b\u0442\u0430\u043c\u0430\u0439 \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"},
+gp8(){return"\u0415\u043d\u0433\u0456\u0437\u0456\u043b\u0433\u0435\u043d \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"},
+gp9(){return"\u0428\u044b\u0493\u0443"},
+gQ3(){return y.O},
+gQ4(){return y.n},
+gQ9(){return"\u0411\u04af\u0433\u0456\u043d\u0433\u0456 \u0442\u0435\u0433\u0456\u043d AI \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440\u044b \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b"},
+Q7(d){return d+y.i},
+gQ6(){return"Premium \u0430\u0448\u0443"},
+gQ8(){return"\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441"}}
+A.bKe.prototype={
+gp0(){return"\u0411\u0435\u0440\u0435 \u0430\u043b\u043c\u0430\u0439\u043c\u044b\u043d"},
+gjZ(){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443"},
+OY(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d \u0436\u04b1\u043c\u0441\u0430\u043b\u0430\u0434\u044b"
+return v.$3$one$other(d,w,w)},
+gKc(){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0421\u044b\u0439\u043b\u044b\u049b \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+gNW(){return"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u043a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443"},
+gNV(){return"\u0411\u0430\u043b\u0430 \u043f\u0456\u043a\u0456\u0440\u0456\u04a3\u0456\u0437\u0434\u0456 \u043a\u04e9\u0440\u0435\u0434\u0456"},
+gUn(){return"\u0421\u0435\u0431\u0435\u0431\u0456\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
+gUm(){return"\u0411\u04b1\u043b \u043f\u0456\u043a\u0456\u0440\u0434\u0456 \u0431\u0430\u043b\u0430\u04a3\u044b\u0437 \u043a\u04e9\u0440\u0435\u0434\u0456"},
+gUJ(){return"\u041c\u04af\u043b\u0434\u0435\u043c \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443"},
+gEq(){return"\u041a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443"},
+gEr(){return"\u049a\u0430\u0448\u0430\u043d \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u0441\u044b\u0437?"},
+gTx(){return y.m8},
+gW8(){return"\u0411\u04af\u0433\u0456\u043d \u043a\u0435\u0448\u043a\u0435"},
+gW6(){return"\u0415\u0440\u0442\u0435\u04a3"},
+gWI(){return"\u0414\u0435\u043c\u0430\u043b\u044b\u0441 \u043a\u04af\u043d\u0434\u0435\u0440\u0456"},
+gSj(){return"\u0411\u0456\u0440 \u0430\u043f\u0442\u0430\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d"},
+gVk(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"},
+Vj(d){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b \u2014 "+d+" \u043e\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u0439\u0442\u0430 \u0436\u04b1\u043c\u0441\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"},
+gTB(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u043a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u044b\u043b\u0434\u044b"},
+TA(d){return d+" \u043a\u04af\u0442\u0435 \u0442\u04b1\u0440\u0430\u0434\u044b \u2014 \u0442\u0438\u044b\u043d\u0434\u0430\u0440 \u0440\u0435\u0437\u0435\u0440\u0432\u0442\u0435 \u049b\u0430\u043b\u0430\u0434\u044b"},
+go7(d){return"\u0421\u0435\u0431\u0435\u043f"},
+X4(d){return"\u041f\u0456\u043a\u0456\u0440\u0456\u04a3\u0456\u0437: "+d},
+gCF(){return"\u0411\u04b1\u043b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441 \u049b\u0430\u0440\u0430\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d"},
+gRF(){return"\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gTy(){return"\u041a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u0443 \u04d9\u0437\u0456\u0440\u0433\u0435 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gVT(){return"\u0411\u04b1\u043b \u0443\u0430\u049b\u044b\u0442 \u04e9\u0442\u0456\u043f \u043a\u0435\u0442\u0442\u0456 \u2014 \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+ghJ(){return"\u041c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gn2(){return y.v},
+gTt(){return"\u0411\u0430\u0441\u049b\u0430 \u0443\u0430\u049b\u044b\u0442"},
+gTu(){return"\u041a\u04af\u043d \u043c\u0435\u043d \u0441\u0430\u0493\u0430\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"}}
+A.bL6.prototype={
+oc(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+e+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(e,w,w)},
+gzN(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gf1(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443"},
+gDN(){return"\u0422\u0456\u0437\u0456\u043c"},
+gEX(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443"},
+gnl(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0456\u0437\u0434\u0435\u0443"},
+gnj(){return"\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0436\u0430\u0431\u0443"},
+gnk(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u0443\u044b"},
+gAh(){return"\u0406\u0437\u0434\u0435\u0443\u0434\u0456 \u0442\u0430\u0437\u0430\u043b\u0430\u0443"},
+ghU(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"},
+ghT(){return y.g},
+gpb(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443"},
+gmm(){return"\u0415\u0448\u0442\u0435\u04a3\u0435 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gml(){return"\u0411\u0430\u0441\u049b\u0430 \u0430\u0442\u0430\u0443\u043c\u0435\u043d \u0456\u0437\u0434\u0435\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gVa(){return"\u0411\u04d9\u0440\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0434\u0456"},
+gV9(){return y.f4},
+giK(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+git(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+VB(d,e,f,g){return f+". \u0421\u044b\u0439\u043b\u044b\u049b: "+e+" \u0436\u04d9\u043d\u0435 "+g+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b. "+d},
+Vc(d,e,f,g){return f+". \u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435: "+e+". \u0421\u044b\u0439\u043b\u044b\u049b: "+d+" \u0436\u04d9\u043d\u0435 "+g+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+giV(){return"\u041a\u04af\u0448"},
+gj6(){return"\u0410\u049b\u044b\u043b"},
+giU(){return"\u0416\u0430\u043d"},
+gCy(){return"\u041a\u04af\u043d \u0441\u0430\u0439\u044b\u043d"},
+gmj(){return"\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0440\u0435\u0442"},
+gE6(){return"\u0411\u0456\u0440 \u0440\u0435\u0442"},
+gJq(){return"\u0416\u0435\u0442\u0456\u0441\u0442\u0456\u043a"},
+gBM(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440"},
+Mz(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=e+" \u0442\u0438\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+Vp(d,e){return"\u0421\u044b\u0439\u043b\u044b\u049b: "+d+" \u0436\u04d9\u043d\u0435 "+e+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"}}
+A.bKN.prototype={
+gaz(d){return"\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u049b\u04b1\u0440\u0443"},
+gd2(){return y.jJ},
+gJN(){return"AI \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u0443"},
+gJO(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"},
+goU(){return"\u0414\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+oS(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gLv(){return"\u0416\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u2026"},
+gC6(){return"\u0410\u0448\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+gEb(){return"\u04e8\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u04b1\u0440\u0443"},
+gST(){return"\u049a\u043e\u0441\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+gqM(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435"},
+gQZ(){return"\u04d8\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u043f\u0442\u0430\u0434\u0430\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0430\u043d\u044b"},
+pr(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gke(){return"\u0416\u0435\u04a3\u0456\u043b"},
+gkf(){return"\u049a\u0430\u043b\u044b\u043f\u0442\u044b"},
+gkd(){return"\u0416\u043e\u0493\u0430\u0440\u044b"},
+R1(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 "+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gR5(){return"\u0410\u043f\u0442\u0430\u043b\u044b\u049b \u0436\u04af\u043a\u0442\u0435\u043c\u0435"},
+R4(d){return d+y._},
+gdn(){return y.w},
+geu(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043d \u0430\u043b\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gR0(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435\u043d\u0456 \u0431\u0430\u043f\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"},
+R2(d,e,f){return e+": "+f+". \u0416\u04af\u043a\u0442\u0435\u043c\u0435: "+d}}
+A.bKI.prototype={
+Ju(d,e){return"\u049a\u043e\u0441\u0443: \xab"+e+"\xbb"},
+ghU(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0434\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"},
+ghT(){return y.iK},
+gpb(){return"\u04e8\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u04b1\u0440\u0443"}}
+A.bKX.prototype={
+gVZ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u043e\u0441\u0443"},
+gVX(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gd2(){return y.ck},
+gHz(){return y.je},
+gh9(d){return"\u041a\u0456\u043c\u0433\u0435 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0439\u043c\u044b\u0437?"},
+gMg(){return"\u041a\u0456\u043c\u0433\u0435 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"},
+gMi(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gMj(){return y.mp},
+goW(){return"\u041a\u0435\u043c\u0456\u043d\u0434\u0435 \u0431\u0456\u0440 \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+ga0(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u0443\u044b"},
+gjI(){return"\u041c\u044b\u0441\u0430\u043b\u044b, \u0431\u04e9\u043b\u043c\u0435\u043d\u0456 \u0436\u0438\u043d\u0430\u0443"},
+gnV(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u0443\u044b\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
+gpw(){return"80 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+gO1(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0441\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b"},
+gp6(){return y.f3},
+giH(d){return"\u0411\u0430\u0493\u044b\u0442"},
+gyl(){return"\u0421\u0430\u043d\u0430\u0442"},
+gog(){return"\u0422\u04d9\u0436\u0456\u0440\u0438\u0431\u0435"},
+gWX(){return"1-\u0434\u0435\u043d 300-\u0433\u0435 \u0434\u0435\u0439\u0456\u043d"},
+goX(){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440"},
+gML(){return"0-\u0434\u0435\u043d 9 999-\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+gyV(d){return"\u0416\u0438\u0456\u043b\u0456\u043a"},
+gNM(){return"\u0411\u0430\u043b\u0430 \u043e\u043d\u044b \u043a\u04af\u043d \u0441\u0430\u0439\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"},
+gWJ(){return"\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0456\u0440 \u0440\u0435\u0442 \u043e\u0440\u044b\u043d\u0434\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gSN(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0441\u043e\u04a3 \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"},
+gyH(){return"\u041a\u04af\u0440\u0434\u0435\u043b\u0456\u043b\u0456\u043a"},
+gOJ(){return"\u041e\u04a3\u0430\u0439"},
+gRw(){return"\u041e\u0440\u0442\u0430\u0448\u0430"},
+gPQ(){return"\u049a\u0438\u044b\u043d"},
+gOU(){return"\u042d\u043f\u0438\u043a\u0430\u043b\u044b\u049b"},
+Oa(d,e){return""+e+"\u2013"+d+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+go1(){return"\u0424\u043e\u0442\u043e"},
+go3(){return"\u0424\u043e\u0442\u043e \u043a\u0435\u0440\u0435\u043a"},
+gRc(){return"\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a"},
+gRd(){return"\u0411\u04b1\u043b \u2014 \u0436\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a"},
+gha(d){return"\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u049b\u043e\u0441\u0443"},
+ghj(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u043e\u044e"},
+gk8(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"},
+gk7(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0435\u043d \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"},
+gp5(){return"\u0416\u043e\u044e"},
+gPZ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0431\u04b1\u0440\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d"},
+gPX(){return y.eR},
+gPY(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u0430\u0441\u044b\u0440\u0443"},
+gmM(){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u04b1\u0440\u044b\u043b\u0434\u044b"},
+gee(){return"\u04e8\u0437\u0433\u0435\u0440\u0456\u0441\u0442\u0435\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gnJ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u0439\u044b\u043b\u0434\u044b"},
+gm6(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0430\u0441\u044b\u0440\u044b\u043b\u0434\u044b"},
+gdn(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+guB(d){return y.h1},
+gLW(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u04e9\u0440\u0456\u0441\u0442\u0435\u0440\u0456\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437"},
+gpa(){return"\u0421\u0430\u049b\u0442\u0430\u043c\u0430\u0439 \u0448\u044b\u0493\u0430\u0441\u044b\u0437 \u0431\u0430?"},
+gp8(){return"\u0415\u043d\u0433\u0456\u0437\u0456\u043b\u0433\u0435\u043d \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u043e\u0493\u0430\u043b\u0430\u0434\u044b"},
+gp9(){return"\u0428\u044b\u0493\u0443"},
+WZ(d,e){return"\u041a\u04af\u0440\u0434\u0435\u043b\u0456\u043b\u0456\u043a \xab"+d+"\xbb: \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 "+e+" \u0431\u043e\u043b\u044b\u043f \u04e9\u0437\u0433\u0435\u0440\u0442\u0456\u043b\u0434\u0456"}}
+A.bKS.prototype={
+gjC(){return"\u04e8\u0437\u0433\u0435\u0440\u0442\u0443"},
+ghj(d){return"\u0416\u043e\u044e"},
+gLw(){return y.e},
+gCx(){return"\u04b0\u049b\u0441\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0443"},
+gnZ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gnY(){return"\u041c\u04af\u043c\u043a\u0456\u043d, \u043e\u043b \u0436\u043e\u0439\u044b\u043b\u0493\u0430\u043d \u0448\u044b\u0493\u0430\u0440"}}
+A.bL1.prototype={
+gjZ(){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443"},
+gEV(){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443"},
+giX(){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+Ka(d,e){return e+" \u0442\u0438\u044b\u043d\u043d\u0430\u043d "+d+y.h},
+gK9(){return y.f8},
+gBO(){return y.cd},
+gK7(){return y.G},
+gTj(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0442\u043e\u043b\u044b\u049b \u044d\u043a\u0440\u0430\u043d\u0434\u0430 \u0430\u0448\u0443"},
+gTd(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0436\u0430\u0431\u0443"},
+gTi(){return"\u0424\u043e\u0442\u043e \u0436\u04af\u043a\u0442\u0435\u043b\u043c\u0435\u0434\u0456"},
+gPH(){return"\u041e\u0434\u0430\u043d \u0434\u0430 \u0436\u0430\u049b\u0441\u0430\u0440\u0442\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0439\u0456\u043a"},
+PG(d){return"\u049a\u044b\u0441\u049b\u0430 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0435\u043c\u0435 "+d+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u04af\u0437\u0435\u0442\u0443\u0434\u0456 \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0435\u0434\u0456."},
+gSu(){return"\u041d\u0435\u043d\u0456 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a?"},
+gSx(){return"\u041c\u044b\u0441\u0430\u043b\u044b, \u0436\u0430\u049b\u044b\u043d\u044b\u0440\u0430\u049b\u0442\u0430\u043d \u0441\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440"},
+gSy(){return"\u041d\u0435\u043d\u0456 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a \u0435\u043a\u0435\u043d\u0456\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
+gSz(){return"500 \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+gvL(){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456"},
+gCC(){return"\u0411\u04af\u0433\u0456\u043d"},
+gCD(){return"\u0415\u0440\u0442\u0435\u04a3"},
+gCB(){return"3 \u043a\u04af\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d"},
+gCE(){return"\u0411\u0456\u0440 \u0430\u043f\u0442\u0430\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d"},
+gCA(){return"\u041c\u0435\u0440\u0437\u0456\u043c\u0441\u0456\u0437"},
+gNS(){return"\u0411\u0430\u043b\u0430 \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u0433\u0456 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430 \u0442\u04af\u0437\u0435\u0442\u0435\u0434\u0456"},
+OB(d){return"\u0411\u04af\u0433\u0456\u043d, "+d},
+OC(d){return"\u0415\u0440\u0442\u0435\u04a3, "+d},
+OA(d,e){return d+", "+e},
+gV6(){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"},
+V5(d){return"\u049a\u044b\u0441\u049b\u0430 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0435\u043c\u0435 "+d+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u04af\u0437\u0435\u0442\u0443\u0434\u0456 \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0435\u0434\u0456"},
+go7(d){return"\u0421\u0435\u0431\u0435\u043f"},
+gV4(){return y.a5},
+gVi(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"},
+gEY(){return y.U},
+gVe(){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+gVh(){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"},
+gnZ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b"},
+gnY(){return"\u041c\u04af\u043c\u043a\u0456\u043d, \u043e\u043b \u0436\u043e\u0439\u044b\u043b\u0493\u0430\u043d \u0448\u044b\u0493\u0430\u0440"},
+gdn(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gCz(){return"\u041a\u04af\u043d \u043c\u0435\u043d \u0443\u0430\u049b\u044b\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+gNR(){return y.nI},
+gVf(){return"\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b"},
+gVg(){return"\u04d8\u043b\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u043c\u0435\u0433\u0435\u043d"}}
+A.bJG.prototype={
+gSt(){return"PIN \u04d9\u043b\u0456 \u043e\u0440\u043d\u0430\u0442\u044b\u043b\u043c\u0430\u0493\u0430\u043d"},
+gSs(){return y.nP},
+gSr(){return"\u0428\u044b\u0493\u044b\u043f, \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0443"}}
+A.bIG.prototype={
+gaz(d){return"\u0424\u043e\u043a\u0441\u0438\u043a AI"},
+gSO(){return"\u041e\u043d\u043b\u0430\u0439\u043d"},
+gFa(){return"\u0416\u0430\u0437\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u2026"},
+M0(d){return d+". \u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443 \u0436\u04d9\u043d\u0435 \u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gGB(){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gCh(){return"\u0424\u043e\u043a\u0441\u0438\u043a\u0442\u0435\u043d \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437\u2026"},
+giR(d){return"\u0416\u0456\u0431\u0435\u0440\u0443"},
+gfK(){return"\u0421\u04b1\u0445\u0431\u0430\u0442 \u0436\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440"},
+gFT(){return y.t},
+q_(d){return"\u0410\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b \xb7 "+d},
+gWD(){return"\u0410\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b\u043d \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u043d\u2026"},
+Fj(d){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0430\u0437. "+d+y.C},
+gWC(){return y.iu},
+gLO(){return"\u0416\u0430\u049b\u0441\u044b \u0448\u044b\u0493\u044b\u043f \u0436\u0430\u0442\u044b\u0440"},
+gLF(){return"\u04e8\u0441\u0443\u0433\u0435 \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u043a \u0431\u0430\u0440"},
+gC7(){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440"},
+gLB(){return"\u041d\u0430\u0437\u0430\u0440 \u0430\u0443\u0434\u0430\u0440\u044b\u04a3\u044b\u0437"},
+U_(d){return d+" \u043e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u049b\u0430\u043b\u0430\u0439 \u04af\u043b\u0433\u0435\u0440\u0456\u043f \u0436\u04af\u0440?"},
+gTZ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04b1\u0441\u044b\u043d"},
+gU0(){return"\u0421\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gHH(){return y.b0},
+gHG(){return y.lI},
+gLr(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+gLp(){return"\u0421\u044b\u0439\u043b\u044b\u049b"},
+gLi(){return"\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d \u043b\u0438\u043c\u0438\u0442\u0456"},
+gQN(){return"\u0416\u0435\u04a3\u0456\u043b"},
+gQO(){return"\u041e\u0440\u0442\u0430\u0448\u0430"},
+gQL(){return"\u0416\u043e\u0493\u0430\u0440\u044b"},
+QK(d){return"\u041a\u04af\u043d\u0456\u043d\u0435 "+d+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+TI(d){return"\u049a\u043e\u0441\u0443 \u04af\u0448\u0456\u043d "+d+" Premium + AI \u043a\u0435\u0440\u0435\u043a"},
+gf1(d){return"\u049a\u043e\u0441\u0443"},
+gK_(){return"\u049a\u043e\u043b\u0434\u0430\u043d\u0443"},
+gJE(){return"\u049a\u043e\u0441\u044b\u043b\u0434\u044b"},
+gJZ(){return"\u049a\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0434\u044b"},
+gwK(){return"\u0411\u04b1\u0440\u044b\u043d\u0493\u044b\u0434\u0430\u0439 \u049b\u0430\u0439\u0442\u0430\u0440\u0443"},
+JB(d){return"\u049a\u043e\u0441\u0443: \xab"+d+"\xbb"},
+gK0(){return"\u049a\u043e\u0441\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gV8(){return y.m4},
+gHE(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+TG(d){return d+" Premium + AI"},
+gSE(){return"\u0424\u043e\u043a\u0441\u0438\u043a \u04e9\u0448\u0456\u0440\u0443\u043b\u0456"},
+gSD(){return y.im},
+gSC(){return"\u049a\u043e\u0441\u0443"},
+TN(d){return"\u0424\u043e\u043a\u0441\u0438\u043a\u043f\u0435\u043d \u0447\u0430\u0442 \u2014 "+d+" Premium + AI \u0442\u0430\u0440\u0438\u0444\u0456\u043d\u0434\u0435"},
+gTH(){return y.jA},
+gRU(){return"\u041e\u0441\u044b \u0430\u0439\u0434\u0430\u0493\u044b \u0441\u04b1\u0440\u0430\u0443\u043b\u0430\u0440 \u0448\u0435\u0433\u0456\u043d\u0435 \u0436\u0435\u0442\u0442\u0456\u04a3\u0456\u0437"},
+RT(d){return y.co+d+y.B},
+gNN(){return"\u0411\u04af\u0433\u0456\u043d\u0433\u0435 \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440 \u0431\u0456\u0442\u0442\u0456"},
+gNK(){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0435\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435\u0434\u0456"},
+gP6(){return"\u0410\u0439\u043b\u044b\u049b AI \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b"},
+gP5(){return y.lr},
+go6(){return"\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d \u0442\u044b\u043c \u043a\u04e9\u043f \u0441\u04b1\u0440\u0430\u049b"},
+go5(){return"\u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442 \u043a\u04af\u0442\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437"},
+gWa(){return"\u0421\u04b1\u0440\u0430\u049b \u0442\u044b\u043c \u04b1\u0437\u044b\u043d"},
+gW9(){return y.df},
+giK(){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u043c\u0435\u0434\u0456"},
+git(){return y.fq},
+gUF(){return y.kJ},
+gUE(){return y.hX},
+gmY(){return"\u0421\u04b1\u0445\u0431\u0430\u0442\u0442\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gmX(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gpz(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u0431\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437"},
+Sl(d){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043b\u0430 "+d+y.mQ},
+gpy(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"},
+gGJ(){return"\u041a\u0456\u043c \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u04e9\u0439\u043b\u0435\u0441\u0435\u043c\u0456\u0437?"},
+gAo(){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gi9(d){return"\u041a\u04e9\u043c\u0435\u043a\u0448\u0456 \u049b\u043e\u0441\u0443\u043b\u044b"},
+gMp(){return"\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0443"},
+gMr(){return"\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0439\u0441\u044b\u0437 \u0431\u0430?"},
+gMm(){return y.ee},
+gMn(){return"\u0422\u0430\u0437\u0430\u043b\u0430\u0443"},
+gMs(){return"\u0422\u0430\u0440\u0438\u0445 \u0442\u0430\u0437\u0430\u043b\u0430\u043d\u0434\u044b"},
+gMo(){return y.oE},
+ghl(){return"\u0421\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gWE(){return"\u041d\u0435\u043d\u0456 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b"},
+gLl(){return"\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+gLk(){return"\u0416\u0430\u04a3\u0430 \u0441\u044b\u0439\u043b\u044b\u049b"},
+gLq(){return"\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430 \u0431\u04e9\u043b\u0456\u043c\u0456"},
+gha(d){return"\u049a\u04b1\u0440\u0443"},
+gmM(){return"\u049a\u04b1\u0440\u044b\u043b\u0434\u044b"},
+gjC(){return"\u04e8\u0437\u0433\u0435\u0440\u0442\u0443"},
+gjJ(d){return"\u0410\u0448\u0443"},
+Cw(d){return"\u049a\u04b1\u0440\u0443: \xab"+d+"\xbb"},
+SQ(d){return"\u0410\u0448\u0443: \xab"+d+"\xbb"},
+D8(d){return"\u04e8\u0437\u0433\u0435\u0440\u0442\u0443: \xab"+d+"\xbb"},
+gND(){return"\u049a\u04b1\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+go1(){return"\u0444\u043e\u0442\u043e\u043c\u0435\u043d"},
+gGg(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gGf(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440\u044b"},
+gGi(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gGc(){return"\u0414\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gGh(){return"\u0421\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440"},
+Gd(d){return d+" \u043f\u0430\u0440\u0430\u049b\u0448\u0430\u0441\u044b"},
+gTY(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0435 \u043d\u0435 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440?"},
+gTX(){return"\u0411\u043e\u043d\u0443\u0441 \u0431\u0435\u0440\u0443"},
+PK(d){return"\u041a\u0456\u043c\u0433\u0435: "+d},
+gJr(){return y.Q},
+C2(d){return"\u0411\u043e\u043d\u0443\u0441 \xb7 "+d},
+vA(d){var w,v=this.c.k2.c
+if(v==null)v=B.q("kk")
+w="+"+d+" \u0442\u0438\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+gyd(){return"\u0411\u0435\u0440\u0443"},
+gye(){return"\u0411\u0435\u0440\u0456\u043b\u0434\u0456"},
+BT(d,e){return"\u0411\u0435\u0440\u0443: "+d+", "+e},
+gLn(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443"},
+Lo(d){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443 \xb7 "+d},
+o9(d){var w,v=this.c.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+Vb(d,e){return e+" \u2014 "+d},
+S0(d){return"\u0442\u0430\u0493\u044b "+d},
+gjZ(){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443"},
+gK5(){return"\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443"},
+giX(){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+Kb(d,e){return""+e+" \u0456\u0448\u0456\u043d\u0435\u043d "+d+" \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+K8(d){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443: "+d},
+K6(d){return"\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443: "+d},
+gLg(){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443"},
+Lh(d){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \xb7 "+d},
+FJ(d){return"\u041d\u0435 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a: "+d},
+gFI(){return"\u049a\u0430\u0439\u0442\u0430\u0440\u0443"},
+gFL(){return"\u049a\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b"},
+FK(d){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443: "+d},
+Lm(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u044b \xb7 "+d},
+NT(d){return"\u0421\u0435\u0431\u0435\u0431\u0456: "+d},
+gFQ(){return"\u0411\u0435\u0440\u0443"},
+gFS(){return"\u0411\u0435\u0440\u0456\u043b\u0434\u0456"},
+FR(d){return"\u0411\u0435\u0440\u0443: "+d},
+gp0(){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"},
+gNX(){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u044b\u043b\u0434\u044b"},
+NU(d){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443: "+d},
+gLe(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+Lf(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443 \xb7 "+d},
+ON(d){return"\u0410\u0442\u0430\u0443\u044b: "+d},
+OL(d){return"\u0421\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b: "+d},
+gSo(){return"\u0444\u043e\u0442\u043e\u0441\u044b\u0437"},
+gee(){return"\u0421\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+FZ(d){return"\u0421\u0430\u049b\u0442\u0430\u0443: "+d},
+gLc(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"},
+Ld(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443 \xb7 "+d},
+gKe(){return"\u0411\u0430\u043b\u0430 \u043e\u043d\u044b \u0435\u043d\u0434\u0456 \u043a\u04e9\u0440\u043c\u0435\u0439\u0434\u0456"},
+gKd(){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"},
+gKg(){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"},
+Kf(d){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443: "+d},
+Lj(d){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \xb7 "+d},
+gQS(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u0436\u0435\u04a3\u0456\u043b"},
+gQT(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u049b\u0430\u043b\u044b\u043f\u0442\u044b"},
+gQR(){return"\u0416\u04af\u043a\u0442\u0435\u043c\u0435: \u0436\u043e\u0493\u0430\u0440\u044b"},
+QQ(d){var w,v=this.c.k2.c
+if(v==null)v=B.q("kk")
+w="\u041a\u04af\u043d\u0456\u043d\u0435 "+d+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+return v.$3$one$other(d,w,w)},
+QU(d){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0441\u0430\u049b\u0442\u0430\u0443: "+d},
+Ge(d){return d+" \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gGb(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"},
+gAu(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"},
+gH3(){return"\u0428\u0435\u0448\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"},
+gAv(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0435\u043d\u0434\u0456 \u0436\u043e\u049b"},
+gq4(){return"\u0415\u043d\u0434\u0456 \u04e9\u0437\u0435\u043a\u0442\u0456 \u0435\u043c\u0435\u0441"},
+gKP(){return y.X},
+gKO(){return"\u0411\u043e\u043d\u0443\u0441 \u2014 1-\u0434\u0435\u043d 500 \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+gJs(){return"\u0411\u043e\u043b\u043c\u0430\u0434\u044b \u2014 \u0431\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442 \u049b\u0430\u0437\u0456\u0440 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gKQ(){return"\u049a\u0430\u043d\u0448\u0430 \u0442\u0438\u044b\u043d?"},
+Kp(d){var w,v=this.c.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0443"
+return v.$3$one$other(d,w,w)},
+Kr(d){return"\u0411\u0435\u0440\u0443, "+d+": \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u0441\u043e\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gJW(){return"\u0411\u0430\u0441\u049b\u0430 \u0441\u043e\u043c\u0430"},
+gJU(){return"\u0410\u0437\u044b\u0440\u0430\u049b"},
+gJV(){return"\u041a\u04e9\u0431\u0456\u0440\u0435\u043a"},
+L3(d){return d+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d\u0435 \u049b\u043e\u04a3\u044b\u0440\u0430\u0443 \u0448\u0430\u043b\u0443"},
+L2(d){return"\u049a\u043e\u04a3\u044b\u0440\u0430\u0443\u0434\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. "+d+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u0430\u043d \u0442\u0435\u0440\u0456\u04a3\u0456\u0437."},
+gN4(){var w=this.d
+return w===$?this.d=new A.bID():w}}
+A.bJ6.prototype={
+gbG(d){return"\u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0447\u0430\u0442"},
+gGr(){return"\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u0443\u0434\u0435\u2026"},
+gHR(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+W0(d){return d+". \u0411\u0430\u0441\u049b\u0430 \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+gr9(){return"\u041a\u0456\u043c\u043c\u0435\u043d \u0436\u0430\u0437\u044b\u0441\u0430\u043c\u044b\u0437?"},
+Ws(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0436\u0430\u04a3\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gbm(d){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"},
+giR(d){return"\u0416\u0456\u0431\u0435\u0440\u0443"},
+gfK(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043b\u0430\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440"},
+ghU(){return"\u04d8\u04a3\u0433\u0456\u043c\u0435 \u0431\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"},
+OP(d,e){return e+" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0434\u0430\u0493\u044b "+d+y.lv},
+gMH(){return"\u0422\u0438\u044b\u043d \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"},
+gGs(){return"\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+gUl(d){return"\u041e\u049b\u044b\u043b\u0434\u044b"},
+goo(){return y.k1},
+gSF(){return"\u0427\u0430\u0442 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gE3(){return y.ie},
+gmY(){return"\u0427\u0430\u0442\u0442\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gmX(){return"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+gpz(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0436\u0430\u0437\u044b\u0441\u0430\u0442\u044b\u043d \u0435\u0448\u043a\u0456\u043c \u0436\u043e\u049b"},
+gSk(){return y.a},
+gpy(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"},
+gaz(d){return"\u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0447\u0430\u0442"},
+gHa(){return"\u0416\u04af\u043a\u0442\u0435\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440\u2026"},
+gxg(){return"\u0411\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u0436\u043e\u049b"},
+gH9(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"},
+MI(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"
+return v.$3$one$other(d,w,w)},
+MC(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0443"
+return v.$3$one$other(d,w,w)},
+MD(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+return v.$3$one$other(d,w,w)},
+gME(){return"\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441"},
+MF(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441: "+d+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u043c\u0435\u0443"
+return v.$3$one$other(d,w,w)},
+gMA(){return"\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441"},
+gMy(){return y.X},
+gMw(){return y.ip},
+gMG(){return"\u0411\u043e\u043b\u043c\u0430\u0434\u044b \u2014 \u0431\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442 \u049b\u0430\u0437\u0456\u0440 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437"},
+gMB(){return y.Q},
+gMx(){return"\u0411\u04b1\u043b \u04e9\u0442\u0456\u043d\u0456\u0448\u043a\u0435 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d"}}
+A.bIq.prototype={
+gaz(d){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"},
+gHA(){return y.Y},
+gHB(){return y.db},
+gnU(){return"\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u0430\u0442\u044b \u043a\u0456\u043c?"},
+gjI(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b"},
+gBX(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"},
+gKE(){return"\u0422\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gKG(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"},
+gne(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0436\u044b\u043d\u044b\u0441\u044b"},
+gFp(){return"\u0422\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gFs(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0436\u044b\u043d\u044b\u0441\u044b"},
+gKU(){return"\u04b0\u043b \u0431\u0430\u043b\u0430"},
+gFH(){return"\u049a\u044b\u0437 \u0431\u0430\u043b\u0430"},
+JL(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0436\u0430\u0441"
+return v.$3$one$other(d,w,w)},
+gSv(){return y.hV},
+go_(){return y.fX},
+gHq(d){return"\u049a\u043e\u0441\u0443"},
+gnV(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
+Sc(d){return"\u0410\u0442\u044b "+d+" \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+gKF(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u04a3\u0456\u0437"},
+gFr(){return"\u0416\u044b\u043d\u044b\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+ghJ(){return y.fD},
+QP(d){return d+" Premium-\u043c\u0435\u043d \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u0431\u0430\u043b\u0430"},
+gQJ(){return y.cf},
+gQI(){return"Premium \u0430\u0448\u0443"},
+gQM(){return"\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441"},
+gP8(){return"\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 5 \u0431\u0430\u043b\u0430 \u0431\u0430\u0440 \u2014 \u0431\u04b1\u043b \u0435\u04a3 \u043a\u04e9\u0431\u0456"}}
+A.bIR.prototype={
+gaz(d){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! \u0415\u043d\u0434\u0456 \u0431\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0430\u0439\u044b\u049b"},
+gd2(){return y.bB},
+gfU(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0443"},
+gpp(){return"\u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a"}}
+A.bJq.prototype={
+gaz(d){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0443"},
+gd2(){return y.R},
+gpp(){return"\u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u0448\u0430\u049b\u044b\u0440\u0443"},
+gGF(){return"\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0430\u0440\u049b\u044b\u043b\u044b \u0448\u0430\u049b\u044b\u0440\u0443"},
+gPw(d){return"\u0422\u0456\u0440\u043a\u0435\u043b\u0443\u0434\u0456 \u0430\u044f\u049b\u0442\u0430\u0443"},
+gka(){return"\u0414\u0430\u0439\u044b\u043d"},
+gU7(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u043a\u0456\u0440\u0443\u0456\u043d\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d QR-\u043a\u043e\u0434"},
+Mv(d){return"\u041a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b: "+d+". \u041a\u04e9\u0448\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+gMu(){return"\u041a\u043e\u0434 \u043a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456"},
+P1(d){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0431\u04af\u0433\u0456\u043d, "+d},
+P2(d){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0435\u0440\u0442\u0435\u04a3, "+d},
+P0(d,e){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: "+d+", "+e},
+gUC(){return"\u0416\u0430\u04a3\u0430 QR-\u043a\u043e\u0434 \u0436\u0430\u0441\u0430\u0443"},
+gUD(){return y.ku},
+gU6(){return"QR \u0436\u0430\u0441\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gc1(){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443"},
+gdn(){return y.bC},
+GI(d,e,f,g,h,i){return"\u0421\u04d9\u043b\u0435\u043c, "+g+"! "+d+y.q+i+"\n\n\u0415\u0433\u0435\u0440 \u0430\u0448\u044b\u043b\u043c\u0430\u0441\u0430, "+d+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u043f, "+e+y.J+f+", "+h+"."},
+GE(d,e,f,g,h){return"\u0421\u04d9\u043b\u0435\u043c, "+g+"! "+d+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u043f, \u043a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d "+f+" \u043a\u043e\u0434\u044b\u043d \u0435\u043d\u0433\u0456\u0437.\n\nApp Store: "+e+"\nGoogle Play: "+h},
+GG(d,e,f,g){return d+y.q+g+y.r+e+", "+f+"."}}
+A.bIW.prototype={
+gaz(d){return"\u0411\u0430\u043b\u0430 \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gNe(){return"\u049a\u043e\u0441\u044b\u043b\u0493\u0430\u043d"},
+gNf(){return"\u049a\u043e\u0441\u044b\u043b\u0493\u0430\u043d"},
+gWA(d){return"\u049a\u043e\u0441\u044b\u043b\u0443\u0434\u044b \u043a\u04af\u0442\u0435\u043c\u0456\u0437"},
+gGl(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c"},
+gGm(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0442\u0438\u044b\u043d\u0434\u0430\u0440"},
+gGk(){return"\u041a\u0456\u0440\u0443 \u0436\u04d9\u043d\u0435 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+go2(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443"},
+gTn(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0444\u043e\u0442\u043e\u0441\u044b"},
+gTc(){return"\u0421\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443"},
+gTh(){return"\u0413\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0442\u0430\u04a3\u0434\u0430\u0443"},
+gpK(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443"},
+gpM(){return"\u0424\u043e\u0442\u043e \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gpL(){return"\u0424\u043e\u0442\u043e \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u043b\u0434\u044b"},
+gpI(){return y.f2},
+gpJ(){return y.fI},
+gn5(){return"\u0411\u04b1\u043b \u0444\u043e\u0442\u043e \u0436\u0430\u0440\u0430\u043c\u0430\u0434\u044b, \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gTg(){return y.lS},
+ga0(d){return"\u0410\u0442\u044b"},
+gSa(){return"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b"},
+gSb(){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u0430 \u043e\u0441\u044b \u0430\u0442\u043f\u0435\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u0435\u0434\u0456"},
+gpv(){return"\u0410\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gKD(){return"\u0422\u0443\u0493\u0430\u043d \u043a\u04af\u043d\u0456"},
+KH(d,e){return e+" \xb7 "+d},
+gFn(){return"\u0416\u044b\u043d\u044b\u0441\u044b"},
+gDO(d){return"\u0410\u043f\u0442\u0430\u043b\u044b\u049b \u0436\u04af\u043a\u0442\u0435\u043c\u0435"},
+R7(d,e){return d+" \xb7 "+e},
+gke(){return"\u0416\u0435\u04a3\u0456\u043b"},
+gkf(){return"\u049a\u0430\u043b\u044b\u043f\u0442\u044b"},
+gkd(){return"\u0416\u043e\u0493\u0430\u0440\u044b"},
+pr(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+R6(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 "+d+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+gR3(){return y.iJ},
+gog(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04af\u0448\u0456\u043d \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435"},
+Fk(d){return"\xd7"+d},
+gX1(){return y.b},
+goX(){return"\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d \u043b\u0438\u043c\u0438\u0442\u0456"},
+gMR(){return"\u0428\u0435\u043a\u0442\u0435\u0443\u0441\u0456\u0437"},
+gMN(){return"\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d\u0434\u0430\u0440"},
+gMO(){return y.K},
+gMM(){return y.bW},
+gjM(d){return"\u0422\u0438\u044b\u043d \u0431\u0430\u0493\u0430\u043c\u044b"},
+pQ(d,e){return"1 \u0442\u0438\u044b\u043d = "+d+" "+e},
+gee(){return"\u0421\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+gfU(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u0448\u0430\u049b\u044b\u0440\u0443"},
+gM5(){return"\u041e\u0441\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430\u0493\u044b \u0431\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456"},
+gM9(){return"\u041e\u0441\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430\u0493\u044b \u0431\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456"},
+M7(d){return"\u0411\u04b1\u043b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 "+d+y.u},
+gM6(){return"\u0411\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u04e9\u0442\u0443"},
+gM8(){return y.ow},
+gkg(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+gpT(d){return"\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d \u0436\u043e\u044e"},
+gUS(){return"\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d \u0436\u043e\u044f\u0441\u044b\u0437 \u0431\u0430?"},
+UQ(d){return d+y.L},
+gUO(){return"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0456 \u0436\u043e\u044e"},
+gUT(){return"\u0411\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456 \u0436\u043e\u0439\u044b\u043b\u0434\u044b"},
+gUR(){return y.m7},
+gUf(){return"\u0431\u04af\u043a\u0456\u043b \u043e\u0442\u0431\u0430\u0441\u044b \u04af\u0448\u0456\u043d"},
+S6(d){return"\u0410\u0442\u044b 1-\u0434\u0435\u043d "+d+" \u0442\u0430\u04a3\u0431\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0431\u043e\u043b\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+gpG(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0436\u044b\u043b\u0436\u044b\u0442\u044b\u043f, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u044b\u043d \u04e9\u0437\u0433\u0435\u0440\u0442\u0456\u04a3\u0456\u0437"},
+gpF(){return"\u0424\u043e\u0442\u043e\u043d\u044b \u0431\u04b1\u0440\u0443"},
+gpE(){return"\u0428\u0435\u04a3\u0431\u0435\u0440\u0434\u0435\u0433\u0456 \u0444\u043e\u0442\u043e"},
+pH(d){return"\u041c\u0430\u0441\u0448\u0442\u0430\u0431 "+d+" %"}}
+A.bJB.prototype={
+gaz(d){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440"},
+gcL(d){return y.ay},
+KK(d){return d+y.mA},
+gEC(){return"\u0422\u044b\u043d\u044b\u0448 \u0443\u0430\u049b\u044b\u0442"},
+gEA(){return y.er},
+EB(d,e){return d+"\u2013"+e},
+gWl(){return"\u041c\u0430\u04a3\u044b\u0437\u0434\u044b \u043e\u049b\u0438\u0493\u0430\u043b\u0430\u0440"},
+gWm(){return y.hH},
+gV1(){return"\u0415\u0441\u043a\u0435 \u0441\u0430\u043b\u0493\u044b\u0448\u0442\u0430\u0440"},
+gV2(){return"\u0410\u044f\u049b\u0442\u0430\u043b\u043c\u0430\u0493\u0430\u043d \u0456\u0441\u0442\u0435\u0440\u0433\u0435 \u0436\u0430\u0439\u043b\u0430\u043f \u043e\u0440\u0430\u043b\u0443"},
+gT9(){return"\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gTa(){return"\u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u0438\u043d\u0430\u0493\u044b \u0434\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430"},
+gSW(){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440"},
+gSX(){return"\u0422\u0435\u043a \u043b\u0430\u0439\u044b\u049b\u0442\u044b \u0441\u0435\u0440\u0456\u043a\u0442\u0435\u0441 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430"},
+gWM(){return"\u041f\u0430\u0439\u0434\u0430\u043b\u044b \u04af\u0437\u0456\u043b\u0456\u0441\u0442\u0435\u0440"},
+gWN(){return y.oU},
+gdn(){return y.nd},
+ghl(){return"\u0421\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"}}
+A.bJb.prototype={
+gaz(d){return"\u041e\u0442\u0431\u0430\u0441\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+gd2(){return y.ga},
+go6(){return"\u0422\u0438\u044b\u043d \u0431\u0430\u0493\u0430\u043c\u044b"},
+go5(){return y.it},
+pQ(d,e){return"1 \u0442\u0438\u044b\u043d = "+d+" "+e},
+Uh(d,e){return d+" "+e},
+Ui(d,e){return"\u04b0\u0441\u044b\u043d\u044b\u043b\u0430\u0442\u044b\u043d: "+d+" "+e},
+gUg(){return y.mH},
+gee(){return"\u0411\u0430\u0493\u0430\u043c \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b"},
+ghl(){return y.Z},
+gdn(){return y.kc}}
+A.bLc.prototype={
+gRx(){return"\u0425\u0430\u0431\u0430\u0440\u0434\u044b \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443"},
+gHj(d){return"\u0416\u0430\u0437\u0443\u0434\u044b \u0442\u043e\u049b\u0442\u0430\u0442\u0443"},
+gQX(){return"\u0422\u044b\u04a3\u0434\u0430\u043f \u0442\u04b1\u0440\u043c\u044b\u043d\u2026"},
+gWn(){return"\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u044b\u043f \u0436\u0430\u0442\u044b\u0440\u043c\u044b\u043d\u2026"},
+Oy(d){return"\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443 \u0436\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435: "+d+"%"},
+gDZ(){return y.hO},
+gRz(){return y.el},
+gRB(){return"\u041c\u0438\u043a\u0440\u043e\u0444\u043e\u043d \u04e9\u0448\u0456\u0440\u0443\u043b\u0456"},
+gRA(){return y.d2},
+gSR(){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0430\u0448\u0443"},
+gGC(){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b"},
+gWq(){return y.oR},
+ghJ(){return y.fh},
+gRy(){return y.m1},
+gOx(){return"\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443"},
+gOu(){return y.dO},
+gOv(){return"\u0416\u04af\u043a\u0442\u0435\u043f \u0430\u043b\u0443"},
+gOw(){return y.pn},
+gen(d){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"},
+gQY(){return"\u0422\u044b\u04a3\u0434\u0430\u043f \u0442\u04b1\u0440\u043c\u044b\u043d\u2026 \u0420\u0430\u0441\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \xab\u0438\u04d9\xbb \u0434\u0435\u04a3\u0456\u0437"},
+gH2(){return"\u0414\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u044b\u043b\u0434\u044b"},
+gVE(){return"\u0420\u0430\u0441\u0442\u0430\u0493\u044b\u04a3\u044b\u0437 \u043a\u0435\u043b\u0435\u0442\u0456\u043d \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043d\u044b \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+gOf(){return"\u0416\u0430\u0437\u0443\u0434\u0430\u043d \u0431\u0430\u0441 \u0442\u0430\u0440\u0442\u0443"},
+gTs(){return"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u0434\u0430\u043d \u0441\u043e\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"}}
+A.bKD.prototype={
+q_(d){return"\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456\u043b\u0456\u043a \xb7 "+d},
+MK(d){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440 \xb7 "+d},
+FV(d){return"\u049a\u044b\u0437\u044b\u0493\u0443\u0448\u044b\u043b\u044b\u049b\u0442\u0430\u0440 \xb7 "+d},
+We(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \xb7 "+d},
+gMh(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440"},
+WF(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+return v.$3$one$other(d,w,w)},
+MP(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d\u0434\u0435 \u0442\u0430\u0431\u044b\u043b\u0493\u0430\u043d\u044b"
+return v.$3$one$other(d,w,w)},
+FX(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d\u0434\u0435\u0433\u0456 \u04e9\u0441\u0443"
+return v.$3$one$other(d,w,w)},
+Wg(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d\u0434\u0435 \u0436\u0438\u0456 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d\u044b"
+return v.$3$one$other(d,w,w)},
+Mk(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w=""+d+" \u043a\u04af\u043d\u0434\u0435"
+return v.$3$one$other(d,w,w)},
+Pt(d){var w="\u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430",v=this.b.k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+Po(d){var w=this.b.k2.c
+return(w==null?B.q("kk"):w).$3$one$other(d,"\u0442\u0438\u044b\u043d","\u0442\u0438\u044b\u043d")},
+Ps(d){var w="\u043a\u04af\u043d \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d",v=this.b.k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+Pq(d){var w="\u04e9\u0441\u0443 \u04b1\u043f\u0430\u0439\u044b",v=this.b.k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+gPp(){return"\u0442\u0430\u0431\u044b\u043b\u0434\u044b"},
+gPr(){return"\u0436\u04b1\u043c\u0441\u0430\u043b\u0434\u044b"},
+T5(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="+"+e+" \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435"
+return v.$3$one$other(e,w,w)},
+GD(d,e,f){return e+" ("+f+"%)"},
+gFW(){return y.le},
+gWf(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0436\u043e\u049b"},
+gMS(){return"\u0411\u0430\u043b\u0430"},
+gMW(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"},
+gMT(){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440"},
+gMV(){return"\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d"},
+gMU(){return"\u041a\u04af\u0442\u0443\u0434\u0435"},
+uI(d,e){return d+": "+e},
+Wp(d,e){return d+" \u2014 "+e},
+MJ(d){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u041e\u043d\u044b\u04a3 \u0456\u0448\u0456\u043d\u0434\u0435 "+d+" \u0442\u0438\u044b\u043d \u2014 \u0431\u043e\u043d\u0443\u0441"
+return v.$3$one$other(d,w,w)}}
+A.bJw.prototype={
+gVU(){return"\u041a\u0435\u04a3\u0435\u0441"},
+gWO(){return"\u041d\u0435\u0433\u0435 \u0431\u04b1\u043b \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456"},
+QA(d){return"\u0421\u0430\u0431\u0430\u049b \xb7 "+d},
+gjQ(){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+KR(d){return"\u0411\u043e\u043d\u0443\u0441 \xb7 "+d},
+gAB(){return"\u04b0\u0441\u044b\u043d\u0443"},
+AC(d){return"\xab"+d+"\xbb \u0441\u0430\u0431\u0430\u0493\u044b\u043d \u04b1\u0441\u044b\u043d\u0443"},
+gxi(){return"\u04b0\u0441\u044b\u043d\u044b\u043b\u0434\u044b"},
+NE(d){return"\xab"+d+"\xbb \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0443"},
+Kq(d,e){return d+" \u0431\u0435\u0440\u0443: "+e},
+gDJ(){return"\u0411\u04b1\u043b \u0441\u0430\u0431\u0430\u049b \u0435\u043d\u0434\u0456 \u0436\u043e\u049b"},
+Ny(d){return"\u0421\u0430\u0431\u0430\u049b\u0442\u0430\u0440 \xb7 "+d},
+gNA(){return"\u0410\u049b\u0448\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440"},
+gOl(){return"\u04e8\u0442\u0456\u043b\u0434\u0456"},
+gSh(){return"\u04d8\u0440\u0456 \u049b\u0430\u0440\u0430\u0439"},
+G8(d,e){return d+" / "+e},
+G9(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0414\u04b1\u0440\u044b\u0441 \u0436\u0430\u0443\u0430\u043f: "+d+" / "+e
+return v.$3$one$other(e,w,w)},
+gOk(){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u04e9\u0442\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b \u0436\u043e\u049b"},
+gSg(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0430\u0431\u0430\u049b \u04e9\u0442\u0456\u043b\u0434\u0456!"},
+H6(d){return"\u04d8\u04a3\u0433\u0456\u043c\u0435 \xb7 "+d},
+gH7(){return"\u041a\u0435\u0448\u043a\u0456 \u0430\u0441 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437"},
+gNl(){return"\u041a\u04e9\u0448\u0456\u0440\u0443"},
+gNm(){return"\u04d8\u04a3\u0433\u0456\u043c\u0435 \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440\u044b\u043d \u043a\u04e9\u0448\u0456\u0440\u0443"},
+gNk(){return"\u041a\u04e9\u0448\u0456\u0440\u0456\u043b\u0434\u0456"},
+Nz(d,e){return"\u04e8\u0442\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440: "+d+" / "+e},
+RD(d){return"\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0440\u0435\u0442\u0442\u0435\u043d \u0435\u043c\u0435\u0441: \xab"+d+"\xbb"},
+RE(d,e){var w,v=this.b.k2.c
+if(v==null)v=B.q("kk")
+w="\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0440\u0435\u0442\u0442\u0435\u043d \u0435\u043c\u0435\u0441: \xab"+e+"\xbb \u0436\u04d9\u043d\u0435 \u0442\u0430\u0493\u044b "+d
+return v.$3$one$other(d,w,w)},
+gSi(){return"\u0411\u0430\u0441\u0442\u0430\u043b\u0434\u044b"},
+gAD(){return"\u04b0\u0441\u044b\u043d\u044b\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d"},
+HF(d){return"\u0411\u0430\u043b\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435: \xab"+d+"\xbb"},
+gWB(){return"\u0411\u0430\u043b\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435"}}
+A.bHC.prototype={
+gcL(d){return"\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0430\u0442\u0430\u0439\u044b\u049b?"},
+gdg(d){return"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u0443"}}
+A.bHM.prototype={
+gcL(d){return y.i6},
+gdg(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u049b\u043e\u0441\u0443"}}
+A.bHH.prototype={
+VW(d,e){return e+" \u04af\u0448\u0456\u043d \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+gdg(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443"}}
+A.bHR.prototype={
+gcL(d){return y.gj},
+gdg(d){return"\u041a\u043e\u0434\u0442\u044b \u043a\u04e9\u0440\u0441\u0435\u0442\u0443"}}
+A.bHW.prototype={
+gcL(d){return y.hW},
+gdg(d){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u0430\u0448\u0443"}}
+A.bI0.prototype={
+gUa(){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u0443\u044b\u043d \u0440\u0430\u0441\u0442\u0430\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443"},
+gU9(){return"\u0421\u04b1\u0440\u0430\u0443\u0434\u044b \u0430\u0448\u0443"}}
+A.bHg.prototype={
+gcL(d){return y.N},
+gdg(d){return"\u0415\u0441\u0456\u043c\u0434\u0456 \u0441\u0430\u049b\u0442\u0430\u0443"}}
+A.bHq.prototype={
+gaz(d){return"\u0415\u043d\u0434\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b"},
+KI(d,e){return"\xab"+e+y.is},
+gdg(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u0448\u0443"},
+KN(d){return"\xab"+d+y.y}}
+A.bHv.prototype={
+gaz(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b \u043c\u0430?"},
+gcL(d){return y.ho},
+gKM(){return y.gV},
+gKL(){return y.gD}}
+A.bHb.prototype={
+gcL(d){return y.gz},
+gdg(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0493\u0430"}}
+A.bHl.prototype={
+KJ(d,e){return"\xab"+e+y.c2},
+gdg(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u0443"}}
+A.bEJ.prototype={
+gRe(){return"\u049b\u0430\u04a3\u0442\u0430\u0440"},
+gRi(){return"\u0430\u049b\u043f\u0430\u043d"},
+gRj(){return"\u043d\u0430\u0443\u0440\u044b\u0437"},
+gRk(){return"\u0441\u04d9\u0443\u0456\u0440"},
+gRl(){return"\u043c\u0430\u043c\u044b\u0440"},
+gRm(){return"\u043c\u0430\u0443\u0441\u044b\u043c"},
+gRn(){return"\u0448\u0456\u043b\u0434\u0435"},
+gRo(){return"\u0442\u0430\u043c\u044b\u0437"},
+gRp(){return"\u049b\u044b\u0440\u043a\u04af\u0439\u0435\u043a"},
+gRf(){return"\u049b\u0430\u0437\u0430\u043d"},
+gRg(d){return"\u049b\u0430\u0440\u0430\u0448\u0430"},
+gRh(d){return"\u0436\u0435\u043b\u0442\u043e\u049b\u0441\u0430\u043d"}}
+A.bMx.prototype={
+ga0(d){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u043c\u0435\u043d \u0443\u0430\u049b\u044b\u0442 \u04e9\u0442\u043a\u0456\u0437\u0443"},
+gbm(d){return"\u0411\u0456\u0440\u043b\u0435\u0441\u043a\u0435\u043d \u0456\u0441, \u0441\u0435\u0440\u0443\u0435\u043d, \u043e\u0439\u044b\u043d, \u04d9\u04a3\u0433\u0456\u043c\u0435"}}
+A.bMi.prototype={
+ga0(d){return"\u0410\u0440\u0442\u044b\u049b\u0448\u044b\u043b\u044b\u049b \u043f\u0435\u043d \u0435\u0440\u043a\u0456\u043d\u0434\u0456\u043a"},
+gbm(d){return"\u041a\u0435\u0448\u0456\u0440\u0435\u043a \u0436\u0430\u0442\u0443, \u0444\u0438\u043b\u044c\u043c \u0442\u0430\u04a3\u0434\u0430\u0443, \u0434\u043e\u0441\u0442\u044b \u0448\u0430\u049b\u044b\u0440\u0443"}}
+A.bLY.prototype={
+ga0(d){return"\u04d8\u0441\u0435\u0440\u043b\u0435\u0440"},
+gbm(d){return"\u0416\u043e\u0440\u044b\u049b, \u043a\u0438\u043d\u043e, \u043c\u04b1\u0440\u0430\u0436\u0430\u0439, \u0430\u043a\u0432\u0430\u043f\u0430\u0440\u043a, \u0441\u0430\u043f\u0430\u0440"}}
+A.bLN.prototype={
+ga0(d){return"\u0414\u0430\u043c\u044b\u0442\u0443\u0448\u044b"},
+gbm(d){return y.j9}}
+A.bMs.prototype={
+ga0(d){return"\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a"},
+gbm(d){return y.ch}}
+A.bLS.prototype={
+ga0(d){return"\u0426\u0438\u0444\u0440\u043b\u044b\u049b"},
+gbm(d){return y.eS}}
+A.bMd.prototype={
+ga0(d){return"\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0434\u044b\u049b"},
+gbm(d){return"\u0417\u0430\u0442, \u043e\u0439\u044b\u043d\u0448\u044b\u049b, \u043a\u0438\u0456\u043c, \u0433\u0430\u0434\u0436\u0435\u0442"}}
+A.bLI.prototype={
+ga0(d){return"\u04b0\u0437\u0430\u049b \u043c\u0435\u0440\u0437\u0456\u043c\u0434\u0456"},
+gbm(d){return"\u04ae\u043b\u043a\u0435\u043d \u043c\u0430\u049b\u0441\u0430\u0442\u049b\u0430 \u0436\u0438\u043d\u0430\u049b\u0442\u0430\u0443"}}
+A.bM7.prototype={
+ga0(d){return"\u041c\u0435\u0439\u0456\u0440\u0456\u043c\u0434\u0456"},
+gbm(d){return y.aN}}
+A.bM2.prototype={
+ga0(d){return"\u0422\u0430\u043c\u0430\u049b \u043f\u0435\u043d \u0442\u04d9\u0442\u0442\u0456\u043b\u0435\u0440"},
+gbm(d){return"\u0414\u0435\u0441\u0435\u0440\u0442, \u043f\u043e\u043f\u043a\u043e\u0440\u043d, \u0441\u04af\u0439\u0456\u043a\u0442\u0456 \u0442\u0430\u0493\u0430\u043c"}}
+A.bMn.prototype={
+ga0(d){return"\u042d\u043a\u0440\u0430\u043d \u0443\u0430\u049b\u044b\u0442\u044b"},
+gbm(d){return"\u042d\u043a\u0440\u0430\u043d \u0430\u043b\u0434\u044b\u043d\u0434\u0430\u0493\u044b \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0443\u0430\u049b\u044b\u0442"}}
+A.bFE.prototype={
+ga0(d){return"\u0422\u043e\u043b\u044b\u049b \u0448\u0435\u04a3\u0431\u0435\u0440"},
+gbw(){return y.A},
+gca(){return y.jq},
+ga8(d){return y.lM}}
+A.bFz.prototype={
+ga0(d){return"\u0411\u0435\u0441 \u0456\u0441"},
+gbw(){return y.ph},
+gca(){return y.j1},
+ga8(d){return y.hr}}
+A.bGi.prototype={
+ga0(d){return"\u0422\u04af\u0440\u043b\u0456-\u0442\u04af\u0440\u043b\u0456 \u0456\u0441\u0442\u0435\u0440"},
+gbw(){return"\u04ae\u0448 \u0442\u04af\u0440\u043b\u0456 \u0441\u0430\u043d\u0430\u0442\u0442\u0430\u0493\u044b \u0456\u0441\u0442\u0435\u0440\u0434\u0456 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440"},
+gca(){return y.fv},
+ga8(d){return y.fZ}}
+A.bG3.prototype={
+ga0(d){return"\u041c\u0438\u0441\u0441\u0438\u044f \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+gbw(){return"\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0430\u044f\u049b\u0442\u0430"},
+gca(){return y.c0},
+ga8(d){return y.oJ}}
+A.bFY.prototype={
+ga0(d){return"\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u043c\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u043c\u0456\u043d"},
+gbw(){return y.s},
+gca(){return"\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u04a3\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u043a\u0435\u043d \u0456\u0441\u0456\u04a3 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b!"},
+ga8(d){return y.fp}}
+A.bGd.prototype={
+ga0(d){return"\u04ae\u0448 \u043a\u04af\u043d \u2014 \u04af\u0448 \u0456\u0441"},
+gbw(){return"\u04ae\u0448 \u043a\u04af\u043d \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d \u043a\u04af\u043d\u0456\u043d\u0435 \u0431\u0456\u0440 \u0456\u0441 \u0436\u0456\u0431\u0435\u0440"},
+gca(){return"\u04ae\u0448 \u043a\u04af\u043d \u2014 \u04af\u0448 \u0456\u0441! \u042b\u0440\u0493\u0430\u0493\u044b\u04a3\u0430 \u0431\u0435\u043b\u0433\u0456 \u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+ga8(d){return y.kU}}
+A.bGt.prototype={
+ga0(d){return"\u042b\u0440\u0493\u0430\u049b\u0442\u044b \u0430\u043f\u0442\u0430"},
+gbw(){return y.jr},
+gca(){return y.gR},
+ga8(d){return y.gp}}
+A.bFp.prototype={
+ga0(d){return"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0441\u044b\u0439\u043b\u044b\u049b"},
+gbw(){return y.dV},
+gca(){return y.ki},
+ga8(d){return y.k}}
+A.bGn.prototype={
+ga0(d){return"\u0416\u0438\u044b\u0440\u043c\u0430 \u0431\u0435\u0441 \u0456\u0441"},
+gbw(){return"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d 25 \u0456\u0441\u0442\u0456 \u04e9\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u04a3\u043c\u0435\u043d \u0436\u0438\u043d\u0430"},
+gca(){return y.lZ},
+ga8(d){return y.iV}}
+A.bFk.prototype={
+ga0(d){return"\u0415\u043b\u0443 \u0456\u0441"},
+gbw(){return y.p4},
+gca(){return y.an},
+ga8(d){return y.lF}}
+A.bG8.prototype={
+ga0(d){return"\u04e8\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u043c\u043c\u0435\u043d \u043e\u043d \u043a\u04af\u043d"},
+gbw(){return y.oq},
+gca(){return y.iR},
+ga8(d){return y.W}}
+A.bFu.prototype={
+ga0(d){return"\u0411\u0435\u0441 \u043c\u0438\u0441\u0441\u0438\u044f"},
+gbw(){return y.I},
+gca(){return y.l3},
+ga8(d){return y.lW}}
+A.bFJ.prototype={
+ga0(d){return"\u0410\u049b\u044b\u043b\u044b\u043c\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"},
+gbw(){return y.hn},
+gk0(){return y.nX},
+gk5(){return y.l},
+gk6(){return y.eV},
+gki(){return"\u0416\u0438\u043d\u0430\u043b\u0493\u0430\u043d 5 \u0410\u049b\u044b\u043b \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"},
+gkj(){return y.d},
+gkk(){return y.k6}}
+A.bFT.prototype={
+ga0(d){return"\u041a\u04af\u0448\u0456\u043c\u0434\u0456 \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"},
+gbw(){return y.S},
+gk0(){return y.ei},
+gk5(){return y.fN},
+gk6(){return y.fK},
+gki(){return"5 \u041a\u04af\u0448 \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"},
+gkj(){return y.b2},
+gkk(){return y.D}}
+A.bFO.prototype={
+ga0(d){return"\u0416\u0430\u043d\u044b\u043c\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0430\u043c\u044b\u043d"},
+gbw(){return y.da},
+gk0(){return y.gv},
+gk5(){return y.nl},
+gk6(){return y.mf},
+gki(){return"5 \u0416\u0430\u043d \u04b1\u043f\u0430\u0439\u044b \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b"},
+gkj(){return y.d},
+gkk(){return y.z}}
+A.bGM.prototype={
+gaz(d){return"\u041a\u04af\u0448"},
+gbm(d){return y.bq},
+kb(d){return"\u041a\u04af\u0448 \u2014 "+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"}}
+A.bGC.prototype={
+gaz(d){return"\u0410\u049b\u044b\u043b"},
+gbm(d){return y.p},
+kb(d){return"\u0410\u049b\u044b\u043b \u2014 "+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"}}
+A.bGH.prototype={
+gaz(d){return"\u0416\u0430\u043d"},
+gbm(d){return y.o},
+kb(d){return"\u0416\u0430\u043d \u2014 "+d+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"}}
+A.bK1.prototype={
+gnO(){return"\u0422\u0430\u043c\u0430\u049b"},
+gV0(){return"\u0414\u0435\u043c\u0430\u043b\u044b\u0441"},
+gGK(){return"\u0421\u0430\u0443\u0434\u0430"},
+gS2(){return"\u041a\u0438\u043d\u043e"},
+gFG(){return"\u0421\u044b\u0439\u043b\u044b\u049b"},
+gFl(){return"\u0413\u0430\u0434\u0436\u0435\u0442"},
+gFm(){return"\u041e\u0439\u044b\u043d\u0434\u0430\u0440"},
+gHQ(){return"\u0422\u04d9\u0442\u0442\u0456\u043b\u0435\u0440"},
+gS3(){return"\u041c\u0443\u0437\u044b\u043a\u0430"},
+gOi(){return"\u041e\u0439\u044b\u043d \u0456\u0448\u0456\u043d\u0434\u0435 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443"},
+gJt(){return"\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456\u043b\u0456\u043a"},
+gGa(d){return"\u042d\u043a\u0440\u0430\u043d \u0443\u0430\u049b\u044b\u0442\u044b"},
+gKS(){return"\u041a\u0456\u0442\u0430\u043f/\u043a\u0443\u0440\u0441"}}
+A.bK7.prototype={
+gW_(){return"\u0410\u0442\u0430\u0443\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
+gC8(){return"\u0421\u0430\u043d\u0430\u0442\u0442\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gTS(){return"\u0411\u0430\u0493\u0430\u0441\u044b\u043d \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
+gTP(){return"\u0411\u0430\u0493\u0430\u0441\u044b: 1-\u0434\u0435\u043d 99\xa0999 \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+gOE(){return"1-\u0434\u0435\u043d 1440 \u043c\u0438\u043d\u0443\u0442\u049b\u0430 \u0434\u0435\u0439\u0456\u043d"},
+goW(){return"\u041a\u0435\u043c\u0456\u043d\u0434\u0435 \u0431\u0456\u0440 \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+gpN(){return y.x}}
+A.bID.prototype={
+gfR(d){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u0434\u044b"},
+gym(d){return"\u0431\u0435\u043b\u0433\u0456\u043b\u0435\u043d\u0433\u0435\u043d"},
+gWr(){return"\u0431\u0435\u043b\u0433\u0456\u043b\u0435\u043d\u0431\u0435\u0433\u0435\u043d"},
+gMl(){return"\u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"}}
+A.aXI.prototype={}
+var z=a.updateTypes([])
+A.cOY.prototype={
+$1(d){return A.dO3(this.a,d)},
+$S:115}
+A.cEC.prototype={
+$1$name(d){return B.a(d)+" \u04af\u0448\u0456\u043d \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u04b1\u0439\u044b\u043c\u0434\u0430\u0441\u0442\u044b\u0440\u0493\u044b\u0448"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cED.prototype={
+$1$appName(d){return B.a(d)+" Health \u0434\u0438\u0430\u0433\u043d\u043e\u0437 \u049b\u043e\u0439\u043c\u0430\u0439\u0434\u044b \u0436\u04d9\u043d\u0435 \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0431\u0430\u0493\u0430\u043b\u0430\u043c\u0430\u0439\u0434\u044b. \u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u043d\u044b \u0434\u04d9\u0440\u0456\u0433\u0435\u0440 \u0436\u0430\u0441\u0430\u0439\u0434\u044b."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cEE.prototype={
+$2$done$total(d,e){return"\u0411\u0430\u043b\u0430 "+B.a(e)+" \u043a\u04af\u043d\u043d\u0456\u04a3 "+B.a(d)+" \u043a\u04af\u043d\u0456\u043d \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0434\u0456"},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cEF.prototype={
+$1$appName(d){return"\u041d\u043e\u0431\u0430\u0439 \u0441\u0430\u049b\u0442\u0430\u043b\u043c\u0430\u0493\u0430\u043d \u0436\u04d9\u043d\u0435 "+B.a(d)+" \u04b1\u0441\u044b\u043d\u044b\u0441\u044b \u0435\u043c\u0435\u0441."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cEG.prototype={
+$1$count(d){return"\u0421\u0430\u049b\u0442\u0430\u0443 \xb7 "+B.a(d)},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cEH.prototype={
+$1$count(d){return"\u049a\u043e\u0441\u044b\u043b\u0493\u0430\u043d \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0443\u043b\u0430\u0440: "+B.a(d)},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cEI.prototype={
+$2$from$to(d,e){return"\u04e8\u0437\u0433\u0435\u0440\u0456\u0441: "+B.a(d)+" \u2192 "+B.a(e)},
+$C:"$2$from$to",
+$R:0,
+$D(){return{from:C.b,to:C.b}},
+$S:45}
+A.cEK.prototype={
+$1$message(d){return"\u049a\u0430\u0442\u0435: "+B.a(d)},
+$C:"$1$message",
+$R:0,
+$D(){return{message:C.b}},
+$S:163}
+A.cEL.prototype={
+$1$appName(d){return B.a(d)+"-\u0493\u0430 \u049b\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3\u0456\u0437"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cEM.prototype={
+$1$name(d){return"\u041a\u043e\u0434 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cEN.prototype={
+$1$n(d){return B.a(d)+" \u0442\u0430\u04a3\u0431\u0430\u043b\u044b \u043a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cEO.prototype={
+$1$seconds(d){return B.a(d)+" \u0441\u0435\u043a\u0443\u043d\u0434\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"},
+$C:"$1$seconds",
+$R:0,
+$D(){return{seconds:C.b}},
+$S:31}
+A.cEP.prototype={
+$1$phone(d){return B.a(d)+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d\u0435 \u043a\u043e\u0434 \u0436\u0456\u0431\u0435\u0440\u0434\u0456\u043a"},
+$C:"$1$phone",
+$R:0,
+$D(){return{phone:C.b}},
+$S:164}
+A.cEQ.prototype={
+$1$seconds(d){return B.a(d)+" \u0441 \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"},
+$C:"$1$seconds",
+$R:0,
+$D(){return{seconds:C.b}},
+$S:31}
+A.cER.prototype={
+$1$appName(d){return B.a(d)+"-\u0493\u0430 \u049b\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3\u0456\u0437"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cES.prototype={
+$1$appName(d){return B.a(d)+" \u2014 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430. \u0411\u0430\u043b\u0430\u043b\u0430\u0440 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043d \u049b\u043e\u0440\u0493\u0430\u0443 \u0442\u0443\u0440\u0430\u043b\u044b \u0437\u0430\u04a3\u043d\u0430\u043c\u0430\u0493\u0430 \u0441\u04d9\u0439\u043a\u0435\u0441 (COPPA/GDPR-K) \u0430\u0442\u0430-\u0430\u043d\u0430\u043d\u044b\u04a3 \u043a\u0435\u043b\u0456\u0441\u0456\u043c\u0456 \u049b\u0430\u0436\u0435\u0442."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cET.prototype={
+$1$appName(d){return B.a(d)+" \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0430\u0442\u044b\u043d, \u0436\u0430\u0441\u044b\u043d \u0436\u04d9\u043d\u0435 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u0438\u043d\u0430\u0439\u0434\u044b. \u0410\u0442\u0430-\u0430\u043d\u0430 \u043a\u0435\u043b\u0456\u0441\u0456\u043c\u0456\u043d\u0441\u0456\u0437 \u0436\u0435\u043a\u0435 \u0430\u049b\u043f\u0430\u0440\u0430\u0442 \u0436\u0438\u043d\u0430\u043c\u0430\u0439\u043c\u044b\u0437."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cEV.prototype={
+$1$supportEmail(d){return"\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430 16 \u0436\u0430\u0441\u049b\u0430 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d. \u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0431\u0430\u0440\u043b\u044b\u049b \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456 \u0442\u0435\u043a \u0430\u0442\u0430-\u0430\u043d\u0430\u0493\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456. \u0410\u0442\u0430-\u0430\u043d\u0430 "+B.a(d)+" \u0430\u0440\u049b\u044b\u043b\u044b \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u043e\u044e\u0434\u044b \u0441\u04b1\u0440\u0430\u0439 \u0430\u043b\u0430\u0434\u044b."},
+$C:"$1$supportEmail",
+$R:0,
+$D(){return{supportEmail:C.b}},
+$S:88}
+A.cEW.prototype={
+$1$supportEmail(d){return"\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u043f\u0435\u043d \u0431\u0430\u0440\u043b\u044b\u049b \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u043d\u0435\u043c\u0435\u0441\u0435 "+B.a(d)+" \u043f\u043e\u0448\u0442\u0430\u0441\u044b\u043d\u0430 \u0436\u0430\u0437\u044b\u043f \u0436\u043e\u044f \u0430\u043b\u0430\u0441\u044b\u0437."},
+$C:"$1$supportEmail",
+$R:0,
+$D(){return{supportEmail:C.b}},
+$S:88}
+A.cEX.prototype={
+$1$name(d){return"\u0421\u04d8\u041b\u0415\u041c, "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cEY.prototype={
+$1$level(d){return"\u0414\u0435\u04a3. "+B.a(d)},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cEZ.prototype={
+$1$xp(d){return"+"+B.a(d)+" XP"},
+$C:"$1$xp",
+$R:0,
+$D(){return{xp:C.b}},
+$S:47}
+A.cF_.prototype={
+$1$coins(d){return B.a(d)+" \u0442\u0438\u044b\u043d"},
+$C:"$1$coins",
+$R:0,
+$D(){return{coins:C.b}},
+$S:28}
+A.cF0.prototype={
+$1$level(d){return"\u0414\u0435\u04a3\u0433\u0435\u0439 "+B.a(d)+"+"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cF1.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cF2.prototype={
+$2$completed$target(d,e){return B.a(d)+" / "+B.a(e)},
+$C:"$2$completed$target",
+$R:0,
+$D(){return{completed:C.b,target:C.b}},
+$S:167}
+A.cF3.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+B.a(d)+" \u0430\u049b\u044b\u043b \u04b1\u043f\u0430\u0439\u044b")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cF5.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+B.a(d)+" \u043a\u04af\u0448 \u04b1\u043f\u0430\u0439\u044b")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cF6.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"+"+B.a(d)+" \u0436\u0430\u043d \u04b1\u043f\u0430\u0439\u044b")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cF7.prototype={
+$1$level(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0435"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cF8.prototype={
+$1$level(d){return"\u0414\u0435\u04a3. "+B.a(d)+" \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cF9.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,B.a(d)+" \u043a\u04af\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cFa.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,B.a(d)+" \u043a\u04af\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u0431\u0430\u0441\u0442\u0430\u043b\u0430\u0434\u044b")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cFb.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$2$other(d,"\u0411\u0456\u0440 \u0430\u043f\u0442\u0430\u0434\u0430 \u0431\u0430\u0440\u043b\u044b\u049b "+B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u043e\u0440\u044b\u043d\u0434\u0430")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cFc.prototype={
+$2$date$reward(d,e){return"\u0421\u044b\u0439\u043b\u044b\u049b: "+B.a(e)+". \u041c\u0438\u0441\u0441\u0438\u044f\u043d\u044b\u04a3 \u0441\u043e\u04a3\u0493\u044b \u043a\u04af\u043d\u0456 \u2014 "+B.a(d)+"."},
+$C:"$2$date$reward",
+$R:0,
+$D(){return{date:C.b,reward:C.b}},
+$S:165}
+A.cFd.prototype={
+$1$reward(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u044b\u043d\u0434\u044b: "+B.a(d)+"."},
+$C:"$1$reward",
+$R:0,
+$D(){return{reward:C.b}},
+$S:92}
+A.cFe.prototype={
+$3$end$reward$start(d,e,f){return"\u0421\u044b\u0439\u043b\u044b\u049b: "+B.a(e)+". \u041c\u0438\u0441\u0441\u0438\u044f "+B.a(f)+" \u043c\u0435\u043d "+B.a(d)+" \u0430\u0440\u0430\u043b\u044b\u0493\u044b\u043d\u0434\u0430 \u04e9\u0442\u0435\u0434\u0456."},
+$C:"$3$end$reward$start",
+$R:0,
+$D(){return{end:C.b,reward:C.b,start:C.b}},
+$S:168}
+A.cFg.prototype={
+$2$day$month(d,e){return B.a(d)+" "+B.a(e)},
+$C:"$2$day$month",
+$R:0,
+$D(){return{day:C.b,month:C.b}},
+$S:169}
+A.cFh.prototype={
+$1$level(d){return"\u0414\u0415\u04a2."+B.a(d)+" \u0414\u0415\u0419\u0406\u041d XP"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFi.prototype={
+$1$xp(d){return B.a(d)+" XP"},
+$C:"$1$xp",
+$R:0,
+$D(){return{xp:C.b}},
+$S:47}
+A.cFj.prototype={
+$1$level(d){return B.a(d)+"-\u0414\u0415\u04a2\u0413\u0415\u0419"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFk.prototype={
+$2$next$xp(d,e){return B.a(e)+" / "+B.a(d)+" XP"},
+$C:"$2$next$xp",
+$R:0,
+$D(){return{next:C.b,xp:C.b}},
+$S:170}
+A.cFl.prototype={
+$1$n(d){return"\u041c\u0430\u0441\u0448\u0442\u0430\u0431 "+B.a(d)+" %"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cFm.prototype={
+$2$left$right(d,e){return B.a(d)+" \xd7 "+B.a(e)+" = ?"},
+$C:"$2$left$right",
+$R:0,
+$D(){return{left:C.b,right:C.b}},
+$S:171}
+A.cFn.prototype={
+$1$value(d){return"\u0411\u0430\u0493\u0430: 5-\u0442\u0435\u043d "+B.a(d)},
+$C:"$1$value",
+$R:0,
+$D(){return{value:C.b}},
+$S:53}
+A.cFo.prototype={
+$1$coins(d){return"+"+B.a(d)+" \u0442\u0438\u044b\u043d"},
+$C:"$1$coins",
+$R:0,
+$D(){return{coins:C.b}},
+$S:28}
+A.cFp.prototype={
+$1$level(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFr.prototype={
+$1$level(d){return B.a(d)+" \u0434\u0435\u04a3"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFs.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cFt.prototype={
+$1$level(d){return"\u0414\u0435\u04a3."+B.a(d)},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFu.prototype={
+$2$current$total(d,e){return B.a(e)+" \u0456\u0448\u0456\u043d\u0435\u043d "+B.a(d)},
+$C:"$2$current$total",
+$R:0,
+$D(){return{current:C.b,total:C.b}},
+$S:172}
+A.cFv.prototype={
+$1$time(d){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0431\u04af\u0433\u0456\u043d, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cFw.prototype={
+$1$time(d){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0435\u0440\u0442\u0435\u04a3, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cFx.prototype={
+$2$date$time(d,e){return"\u0422\u04af\u0437\u0435\u0442\u0443 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: "+B.a(d)+", "+B.a(e)},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cFy.prototype={
+$1$minutes(d){return B.a(d)+" \u043c\u0438\u043d \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$minutes",
+$R:0,
+$D(){return{minutes:C.b}},
+$S:153}
+A.cFz.prototype={
+$1$hours(d){return B.a(d)+" \u0441\u0430\u0493 \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$hours",
+$R:0,
+$D(){return{hours:C.b}},
+$S:174}
+A.cFA.prototype={
+$1$days(d){return B.a(d)+" \u043a\u04af\u043d \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$days",
+$R:0,
+$D(){return{days:C.b}},
+$S:78}
+A.cFC.prototype={
+$1$error(d){return"\u0420\u0430\u0441\u0442\u0430\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$error",
+$R:0,
+$D(){return{error:C.b}},
+$S:77}
+A.cFD.prototype={
+$2$granted$requested(d,e){return"\u041a\u0432\u0435\u0441\u0442 \u0440\u0430\u0441\u0442\u0430\u043b\u0434\u044b. "+B.a(e)+" \u0442\u0438\u044b\u043d\u043d\u044b\u04a3 "+B.a(d)+" \u0442\u0438\u044b\u043d\u044b \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0434\u0456 (\u043a\u04af\u043d\u0434\u0456\u043a \u043b\u0438\u043c\u0438\u0442). +XP \u0442\u043e\u043b\u044b\u049b \u043a\u04e9\u043b\u0435\u043c\u0434\u0435."},
+$C:"$2$granted$requested",
+$R:0,
+$D(){return{granted:C.b,requested:C.b}},
+$S:76}
+A.cFE.prototype={
+$1$error(d){return"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043c\u0430\u0443 \u0441\u04d9\u0442\u0441\u0456\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$error",
+$R:0,
+$D(){return{error:C.b}},
+$S:77}
+A.cFF.prototype={
+$2$level$tier(d,e){return"\u0414\u0415\u04a2."+B.a(d)+" "+B.a(e)},
+$C:"$2$level$tier",
+$R:0,
+$D(){return{level:C.b,tier:C.b}},
+$S:176}
+A.cFG.prototype={
+$1$count(d){return"\u0411\u04af\u0433\u0456\u043d \u043a\u0435\u0440\u0435\u043c\u0435\u0442 \u04d9\u04a3\u0433\u0456\u043c\u0435\u043b\u0435\u0441\u0442\u0456\u043a \u2014 \u0442\u043e\u043b\u044b\u049b "+B.a(d)+" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430! \u0415\u043d\u0434\u0456 \u043c\u0435\u043d \u0441\u04d9\u043b \u0434\u0435\u043c\u0430\u043b\u0430\u043c\u044b\u043d, \u0430\u043b \u0435\u0440\u0442\u0435\u04a3 \u0441\u0435\u043d\u0456\u043c\u0435\u043d \u049b\u0430\u0439\u0442\u0430 \u0441\u04e9\u0439\u043b\u0435\u0441\u0443\u0433\u0435 \u0434\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0430\u043c\u044b\u043d. \u0415\u0440\u0442\u0435\u04a3\u0433\u0435 \u0434\u0435\u0439\u0456\u043d! \ud83c\udf19"},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cFH.prototype={
+$2$limit$used(d,e){return B.a(e)+" / "+B.a(d)+" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"},
+$C:"$2$limit$used",
+$R:0,
+$D(){return{limit:C.b,used:C.b}},
+$S:177}
+A.cFI.prototype={
+$1$name(d){return"\u0421\u04d9\u043b\u0435\u043c, "+B.a(d)+"! \ud83d\udc4b "},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFJ.prototype={
+$1$name(d){return"\u0425\u0435\u0439, "+B.a(d)+"! "},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFK.prototype={
+$1$name(d){return"\u0421\u04d9\u043b\u0435\u043c\u0435\u0442\u0441\u0456\u04a3 \u0431\u0435, "+B.a(d)+"! "},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFL.prototype={
+$1$name(d){return"\u0421\u04d9\u043b\u0435\u043c, "+B.a(d)+"! \ud83d\udc4b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFN.prototype={
+$1$title(d){return"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0436\u0430\u04a3\u0430 \u043a\u0432\u0435\u0441\u0442 \u049b\u043e\u0441\u0442\u044b: \xab"+B.a(d)+"\xbb. \u0411\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0435\u0441\u0456\u04a3 \u0431\u0435?"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cFO.prototype={
+$1$level(d){return"\u0414\u0435\u04a3\u0433\u0435\u0439 "+B.a(d)+" \u0436\u0430\u049b\u044b\u043d!"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cFP.prototype={
+$2$gap$level(d,e){return"\u0414\u0435\u04a3\u0433\u0435\u0439 "+B.a(e)+" \u0434\u0435\u0439\u0456\u043d "+B.a(d)+" XP \u049b\u0430\u043b\u0434\u044b! \u0422\u0430\u0493\u044b \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u043a\u0432\u0435\u0441\u0442 \u043e\u0440\u044b\u043d\u0434\u0430 \u2014 \u04e9\u0442\u0435\u0441\u0456\u04a3."},
+$C:"$2$gap$level",
+$R:0,
+$D(){return{gap:C.b,level:C.b}},
+$S:178}
+A.cFQ.prototype={
+$2$gap$title(d,e){return"\xab"+B.a(e)+"\xbb \u0434\u0435\u0439\u0456\u043d "+B.a(d)+" \u0442\u0438\u044b\u043d \u049b\u0430\u043b\u0434\u044b!"},
+$C:"$2$gap$title",
+$R:0,
+$D(){return{gap:C.b,title:C.b}},
+$S:179}
+A.cFR.prototype={
+$1$count(d){return"\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+B.a(d)+" \u043a\u04af\u043d! \ud83d\udd25"},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cFS.prototype={
+$1$count(d){return"\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+B.a(d)+" \u043a\u04af\u043d \u0431\u043e\u043b\u0434\u044b! \u042b\u0440\u0493\u0430\u049b\u0442\u044b \u0436\u043e\u0493\u0430\u043b\u0442\u043f\u0430 \u2014 \u0431\u04af\u0433\u0456\u043d \u043a\u0435\u043c\u0456\u043d\u0434\u0435 1 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430."},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cFT.prototype={
+$1$name(d){return"\u0421\u04d9\u043b\u0435\u043c, "+B.a(d)+"! \u0416\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0431\u0430\u0493\u044b\u043d\u0434\u044b\u0440\u0443\u0493\u0430 \u0434\u0430\u0439\u044b\u043d\u0441\u044b\u04a3 \u0431\u0430?"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFU.prototype={
+$1$count(d){return"\u0411\u04af\u0433\u0456\u043d\u0433\u0456 "+B.a(d)+" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0431\u0456\u0442\u0442\u0456! \u041c\u0435\u043d \u0434\u0435\u043c\u0430\u043b\u0443\u0493\u0430 \u043a\u0435\u0442\u0442\u0456\u043c, \u0431\u0456\u0440\u0430\u049b \u0435\u0440\u0442\u0435\u04a3 \u0442\u0430\u0493\u044b \u04d9\u04a3\u0433\u0456\u043c\u0435\u043b\u0435\u0441\u0443 \u04af\u0448\u0456\u043d \u043e\u0441\u044b\u043d\u0434\u0430 \u0431\u043e\u043b\u0430\u043c\u044b\u043d. \u041a\u04e9\u0440\u0456\u0441\u043a\u0435\u043d\u0448\u0435! \ud83c\udf19"},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cFV.prototype={
+$1$name(d){return"@"+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cFW.prototype={
+$1$amount(d){return B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u0441\u04b1\u0440\u0430\u0439\u043c\u044b\u043d"},
+$C:"$1$amount",
+$R:0,
+$D(){return{amount:C.b}},
+$S:74}
+A.cFY.prototype={
+$1$count(d){return"\u0411\u04af\u0433\u0456\u043d \u0431\u0456\u0437 "+B.a(d)+" \u0440\u0435\u0442 \u0441\u04e9\u0439\u043b\u0435\u0441\u0442\u0456\u043a. \u0424\u043e\u043a\u0441\u0438\u043a \u0435\u0440\u0442\u0435\u04a3 \u049b\u0430\u0439\u0442\u0430 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430!"},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cFZ.prototype={
+$1$percent(d){return"\u0421\u04e9\u0439\u043b\u0435\u0443 \u043c\u043e\u0434\u0435\u043b\u0456 \u0436\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435: "+B.a(d)+"%"},
+$C:"$1$percent",
+$R:0,
+$D(){return{percent:C.b}},
+$S:40}
+A.cG_.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b\u043d \u0430\u0448\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cG0.prototype={
+$1$level(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cG1.prototype={
+$2$level$xp(d,e){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0433\u0435 \u0434\u0435\u0439\u0456\u043d \u0442\u0430\u0493\u044b "+B.a(e)+" XP"},
+$C:"$2$level$xp",
+$R:0,
+$D(){return{level:C.b,xp:C.b}},
+$S:180}
+A.cG2.prototype={
+$2$amount$count(d,e){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(e,B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430",B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$2$amount$count",
+$R:0,
+$D(){return{amount:C.b,count:C.b}},
+$S:181}
+A.cG3.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cG4.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+B.a(d)+" \u043a\u04af\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cG5.prototype={
+$2$max$min(d,e){return B.a(e)+"-\u0434\u0435\u043d "+B.a(d)+"-\u0433\u0435 \u0434\u0435\u0439\u0456\u043d \u043c\u043e\u043d\u0435\u0442\u0430 \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"},
+$C:"$2$max$min",
+$R:0,
+$D(){return{max:C.b,min:C.b}},
+$S:70}
+A.cG6.prototype={
+$3$coins$count$xp(d,e,f){var w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u0441\u0442\u0435\u043d \u043a\u0435\u0439\u0456\u043d +",v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+return v.$3$one$other(e,w+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \xb7 +"+B.a(f)+" XP",w+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \xb7 +"+B.a(f)+" XP")},
+$C:"$3$coins$count$xp",
+$R:0,
+$D(){return{coins:C.b,count:C.b,xp:C.b}},
+$S:69}
+A.cG9.prototype={
+$2$coins$count(d,e){var w="\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u0441\u0442\u0435\u043d \u043a\u0435\u0439\u0456\u043d +",v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+return v.$3$one$other(e,w+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430",w+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$2$coins$count",
+$R:0,
+$D(){return{coins:C.b,count:C.b}},
+$S:67}
+A.cGa.prototype={
+$1$xp(d){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0456\u0441\u0442\u0435\u043d \u043a\u0435\u0439\u0456\u043d +"+B.a(d)+" XP"},
+$C:"$1$xp",
+$R:0,
+$D(){return{xp:C.b}},
+$S:47}
+A.cGb.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435 \u0436\u0456\u0431\u0435\u0440\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGc.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u04af\u0448\u0456\u043d \u0441\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGd.prototype={
+$2$count$price(d,e){var w=" \u043c\u043e\u043d\u0435\u0442\u0430 \xb7 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0448\u0435\u0448\u0435\u0434\u0456",v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+return v.$3$one$other(d,B.a(e)+w,B.a(e)+w)},
+$C:"$2$count$price",
+$R:0,
+$D(){return{count:C.b,price:C.b}},
+$S:66}
+A.cGe.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0441\u04b1\u0440\u0430\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGf.prototype={
+$1$title(d){return"\u049a\u0430\u0439\u0442\u0430\u043b\u0430\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGg.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0430\u0448\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGh.prototype={
+$1$time(d){return"\u041c\u043e\u043d\u0435\u0442\u0430\u043d\u044b \u049b\u0430\u0439\u0442\u0430 \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u0443\u0430\u049b\u044b\u0442: "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cGi.prototype={
+$3$coins$count$xp(d,e,f){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(e,"+"+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \xb7 +"+B.a(f)+" XP","+"+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \xb7 +"+B.a(f)+" XP")},
+$C:"$3$coins$count$xp",
+$R:0,
+$D(){return{coins:C.b,count:C.b,xp:C.b}},
+$S:69}
+A.cGk.prototype={
+$2$coins$count(d,e){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(e,"+"+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430","+"+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$2$coins$count",
+$R:0,
+$D(){return{coins:C.b,count:C.b}},
+$S:67}
+A.cGl.prototype={
+$1$xp(d){return"+"+B.a(d)+" XP"},
+$C:"$1$xp",
+$R:0,
+$D(){return{xp:C.b}},
+$S:47}
+A.cGm.prototype={
+$2$count$price(d,e){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(d,B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430",B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$2$count$price",
+$R:0,
+$D(){return{count:C.b,price:C.b}},
+$S:66}
+A.cGn.prototype={
+$2$count$missing(d,e){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(d,"\u0422\u0430\u0493\u044b "+B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u043a\u0435\u0440\u0435\u043a","\u0422\u0430\u0493\u044b "+B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u043a\u0435\u0440\u0435\u043a")},
+$C:"$2$count$missing",
+$R:0,
+$D(){return{count:C.b,missing:C.b}},
+$S:182}
+A.cGo.prototype={
+$1$missing(d){return"\u0422\u0430\u0493\u044b "+B.a(d)+" \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$missing",
+$R:0,
+$D(){return{missing:C.b}},
+$S:183}
+A.cGp.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435\u0433\u0456 \u0436\u04b1\u043b\u0434\u044b\u0437\u0434\u0430\u0440"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGq.prototype={
+$1$n(d){var w="\u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430",v=this.a.gbD().k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGr.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+return(w==null?B.q("kk"):w).$3$one$other(d,"\u043c\u043e\u043d\u0435\u0442\u0430","\u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGs.prototype={
+$1$n(d){var w="\u043a\u04af\u043d \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d",v=this.a.gbD().k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGt.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0422\u0430\u0493\u044b "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGv.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0411\u04b1\u043b \u0448\u0430\u043c\u0430\u043c\u0435\u043d "+B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGw.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u0431\u0430\u0441\u049b\u0430 \u0441\u04b1\u0440\u0430\u0443\u0493\u0430 \u0441\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGx.prototype={
+$2$have$n(d,e){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(e)
+return v.$3$one$other(e,B.a(d)+" / "+w+" \u043c\u043e\u043d\u0435\u0442\u0430",B.a(d)+" / "+w+" \u043c\u043e\u043d\u0435\u0442\u0430")},
+$C:"$2$have$n",
+$R:0,
+$D(){return{have:C.b,n:C.b}},
+$S:184}
+A.cGy.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0436\u04b1\u043b\u0434\u044b\u0437"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGz.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u04b1\u043f\u0430\u0439"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGA.prototype={
+$2$label$value(d,e){return B.a(d)+" \u2014 "+B.a(e)},
+$C:"$2$label$value",
+$R:0,
+$D(){return{label:C.b,value:C.b}},
+$S:91}
+A.cGB.prototype={
+$1$title(d){return"\u04d8\u0440\u0456 \u049b\u0430\u0440\u0430\u0439: \xab"+B.a(d)+"\xbb \u0441\u0430\u0431\u0430\u0493\u044b"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGC.prototype={
+$2$step$steps(d,e){return B.a(d)+"-\u049b\u0430\u0434\u0430\u043c, \u0431\u0430\u0440\u043b\u044b\u0493\u044b "+B.a(e)},
+$C:"$2$step$steps",
+$R:0,
+$D(){return{step:C.b,steps:C.b}},
+$S:185}
+A.cGD.prototype={
+$1$answer(d){return"\u0414\u04b1\u0440\u044b\u0441 \u0436\u0430\u0443\u0430\u043f \u2014 "+B.a(d)},
+$C:"$1$answer",
+$R:0,
+$D(){return{answer:C.b}},
+$S:186}
+A.cGE.prototype={
+$2$bin$item(d,e){return B.a(e)+" \u2014 "+B.a(d)},
+$C:"$2$bin$item",
+$R:0,
+$D(){return{bin:C.b,item:C.b}},
+$S:187}
+A.cGG.prototype={
+$4$need$needItems$want$wantItems(d,e,f,g){return B.a(d)+": "+B.a(e)+" \xb7 "+B.a(f)+": "+B.a(g)},
+$C:"$4$need$needItems$want$wantItems",
+$R:0,
+$D(){return{need:C.b,needItems:C.b,want:C.b,wantItems:C.b}},
+$S:188}
+A.cGH.prototype={
+$2$bin$items(d,e){return B.a(d)+": "+B.a(e)},
+$C:"$2$bin$items",
+$R:0,
+$D(){return{bin:C.b,items:C.b}},
+$S:189}
+A.cGI.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430\u043d\u044b \u0431\u04e9\u043b\u0456\u043f \u0448\u044b\u049b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGJ.prototype={
+$1$n(d){return"\u0411\u04e9\u043b\u0443\u0433\u0435 \u049b\u0430\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cGK.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGL.prototype={
+$1$jar(d){return"\xab"+B.a(d)+"\xbb \u0456\u0448\u0456\u043d\u0434\u0435 \u0430\u0437\u044b\u0440\u0430\u049b"},
+$C:"$1$jar",
+$R:0,
+$D(){return{jar:C.b}},
+$S:90}
+A.cGM.prototype={
+$1$jar(d){return"\xab"+B.a(d)+"\xbb \u0456\u0448\u0456\u043d\u0434\u0435 \u043a\u04e9\u0431\u0456\u0440\u0435\u043a"},
+$C:"$1$jar",
+$R:0,
+$D(){return{jar:C.b}},
+$S:90}
+A.cGN.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0422\u0430\u0493\u044b "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u043a\u0435\u0440\u0435\u043a"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGO.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u043a\u04af\u043d\u0456\u043d\u0435 "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGP.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435 \u0436\u0438\u043d\u0430\u043f \u0430\u043b\u0430\u0441\u044b\u04a3!"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGR.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0436\u043e\u0441\u043f\u0430\u0440\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cGS.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u041a\u04af\u043d\u0456\u043d\u0435 "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u0436\u0438\u043d\u0430\u0439\u043c\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cGT.prototype={
+$2$correct$total(d,e){return"\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0440\u0435\u0442\u0442\u0435\u043d: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$correct$total",
+$R:0,
+$D(){return{correct:C.b,total:C.b}},
+$S:89}
+A.cGU.prototype={
+$2$done$total(d,e){return"\u0421\u0430\u0431\u0430\u049b: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cGV.prototype={
+$1$number(d){return B.a(d)+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d\u0435 \u049b\u043e\u04a3\u044b\u0440\u0430\u0443 \u0448\u0430\u043b\u0443"},
+$C:"$1$number",
+$R:0,
+$D(){return{number:C.b}},
+$S:38}
+A.cGW.prototype={
+$1$number(d){return"\u049a\u043e\u04a3\u044b\u0440\u0430\u0443\u0434\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. "+B.a(d)+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u0430\u043d \u0442\u0435\u0440."},
+$C:"$1$number",
+$R:0,
+$D(){return{number:C.b}},
+$S:38}
+A.cGX.prototype={
+$1$coins(d){return B.a(d)+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0430\u0441\u044b\u04a3 \u0431\u0430?"},
+$C:"$1$coins",
+$R:0,
+$D(){return{coins:C.b}},
+$S:28}
+A.cGY.prototype={
+$1$level(d){return"\u0414\u0435\u04a3."+B.a(d)},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cGZ.prototype={
+$1$short(d){return"\u0422\u0430\u0493\u044b "+B.a(d)+" \u0442\u0438\u044b\u043d \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$short",
+$R:0,
+$D(){return{short:C.b}},
+$S:135}
+A.cH_.prototype={
+$1$n(d){return B.a(d)+" \u043c\u0438\u043d \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cH1.prototype={
+$1$n(d){return B.a(d)+" \u0441\u0430\u0493 \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cH2.prototype={
+$1$n(d){return B.a(d)+" \u043a\u04af\u043d \u0431\u04b1\u0440\u044b\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cH3.prototype={
+$1$level(d){return"\u0414\u0415\u04a2\u0413\u0415\u0419 "+B.a(d)+"!"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cH4.prototype={
+$1$level(d){return B.a(d)+" Lvl"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cH5.prototype={
+$1$tier(d){return"\u0415\u043d\u0434\u0456 \u0441\u0435\u043d \u2014 "+B.a(d)},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cH6.prototype={
+$1$days(d){return"\u049a\u0410\u0422\u0410\u0420\u042b\u041d\u0410\u041d "+B.a(d)+" \u041a\u04ae\u041d!"},
+$C:"$1$days",
+$R:0,
+$D(){return{days:C.b}},
+$S:78}
+A.cH7.prototype={
+$1$coins(d){return"+"+B.a(d)+" \u0442\u0438\u044b\u043d!"},
+$C:"$1$coins",
+$R:0,
+$D(){return{coins:C.b}},
+$S:28}
+A.cH8.prototype={
+$1$level(d){return B.a(d)+"-\u0414\u0415\u04a2\u0413\u0415\u0419"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cH9.prototype={
+$2$span$xp(d,e){return B.a(e)+" / "+B.a(d)+" XP"},
+$C:"$2$span$xp",
+$R:0,
+$D(){return{span:C.b,xp:C.b}},
+$S:192}
+A.cHa.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+B.a(d)+" \u043a\u04af\u043d"
+return v.$4$one$other$zero(d,w,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cHc.prototype={
+$2$earned$total(d,e){return"\u0410\u043b\u044b\u043d\u0434\u044b: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$earned$total",
+$R:0,
+$D(){return{earned:C.b,total:C.b}},
+$S:81}
+A.cHd.prototype={
+$1$date(d){return"\u0411\u0435\u043b\u0433\u0456 \u0430\u043b\u044b\u043d\u0434\u044b: "+B.a(d)},
+$C:"$1$date",
+$R:0,
+$D(){return{date:C.b}},
+$S:48}
+A.cHe.prototype={
+$1$date(d){return"\u0411\u04b1\u0440\u044b\u043d\u0493\u044b \u0456\u0441\u0442\u0435\u0440\u0456\u04a3 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u049b\u043e\u0441\u044b\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$date",
+$R:0,
+$D(){return{date:C.b}},
+$S:48}
+A.cHf.prototype={
+$2$current$target(d,e){return B.a(d)+" / "+B.a(e)},
+$C:"$2$current$target",
+$R:0,
+$D(){return{current:C.b,target:C.b}},
+$S:75}
+A.cHg.prototype={
+$1$tier(d){return B.a(d)+"-\u0441\u0430\u0442\u044b, \u0431\u0430\u0440\u043b\u044b\u0493\u044b 3"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cHh.prototype={
+$1$level(d){return"\u041a\u0435\u043b\u0435\u0441\u0456 \u0441\u0430\u0442\u044b \u2014 "+B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0435"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHi.prototype={
+$1$name(d){return"\u041c\u0435\u043d\u0434\u0435 \u0436\u0430\u04a3\u0430 \u0431\u0435\u043b\u0433\u0456 \u0431\u0430\u0440 \u2014 \xab"+B.a(d)+"\xbb!"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHj.prototype={
+$2$date$name(d,e){return"\xab"+B.a(e)+"\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456, \u0430\u043b\u044b\u043d\u0434\u044b: "+B.a(d)},
+$C:"$2$date$name",
+$R:0,
+$D(){return{date:C.b,name:C.b}},
+$S:68}
+A.cHk.prototype={
+$2$date$name(d,e){return"\xab"+B.a(e)+y.lk+B.a(d)},
+$C:"$2$date$name",
+$R:0,
+$D(){return{date:C.b,name:C.b}},
+$S:68}
+A.cHl.prototype={
+$2$name$progress(d,e){return"\xab"+B.a(d)+"\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456, \u04d9\u043b\u0456 \u0430\u043b\u044b\u043d\u0431\u0430\u0493\u0430\u043d, "+B.a(e)},
+$C:"$2$name$progress",
+$R:0,
+$D(){return{name:C.b,progress:C.b}},
+$S:194}
+A.cHn.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f\u04a3\u0434\u0430 \u0442\u0430\u0493\u044b "+B.a(d)+" \u0431\u0435\u043b\u0433\u0456 \u0431\u0430\u0440"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cHo.prototype={
+$1$day(d){return B.a(d)+": \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+$C:"$1$day",
+$R:0,
+$D(){return{day:C.b}},
+$S:39}
+A.cHp.prototype={
+$1$day(d){return B.a(d)+": \u0431\u04af\u0433\u0456\u043d, \u04d9\u0437\u0456\u0440\u0433\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u043e\u049b"},
+$C:"$1$day",
+$R:0,
+$D(){return{day:C.b}},
+$S:39}
+A.cHq.prototype={
+$1$day(d){return B.a(d)+": \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b\u0437"},
+$C:"$1$day",
+$R:0,
+$D(){return{day:C.b}},
+$S:39}
+A.cHr.prototype={
+$1$day(d){return B.a(d)+": \u0430\u043b\u0434\u0430"},
+$C:"$1$day",
+$R:0,
+$D(){return{day:C.b}},
+$S:39}
+A.cHs.prototype={
+$1$level(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHt.prototype={
+$3$current$next$span(d,e,f){return B.a(e)+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0433\u0435 \u0434\u0435\u0439\u0456\u043d: "+B.a(d)+" / "+B.a(f)},
+$C:"$3$current$next$span",
+$R:0,
+$D(){return{current:C.b,next:C.b,span:C.b}},
+$S:196}
+A.cHu.prototype={
+$1$level(d){return"\u041a\u04af\u0448 \u2014 "+B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHv.prototype={
+$1$level(d){return"\u0410\u049b\u044b\u043b \u2014 "+B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHw.prototype={
+$1$level(d){return"\u0416\u0430\u043d \u2014 "+B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u049b\u0430\u0434\u0430\u043c \u0436\u0430\u0441\u0430\u0434\u044b\u04a3"},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHy.prototype={
+$2$earned$total(d,e){return"\u0411\u0435\u043b\u0433\u0456\u043b\u0435\u0440: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$earned$total",
+$R:0,
+$D(){return{earned:C.b,total:C.b}},
+$S:81}
+A.cHz.prototype={
+$2$level$rank(d,e){return B.a(e)+" \xb7 "+B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$2$level$rank",
+$R:0,
+$D(){return{level:C.b,rank:C.b}},
+$S:197}
+A.cHA.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0421\u0435\u0440\u0438\u044f: \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d "+B.a(d)+" \u043a\u04af\u043d"
+return v.$4$one$other$zero(d,w,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cHB.prototype={
+$1$date(d){return"\u0410\u043b\u044b\u043d\u0434\u044b: "+B.a(d)},
+$C:"$1$date",
+$R:0,
+$D(){return{date:C.b}},
+$S:48}
+A.cHC.prototype={
+$1$date(d){return"\u0411\u04b1\u0440\u044b\u043d\u0493\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u049b\u043e\u0441\u044b\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$date",
+$R:0,
+$D(){return{date:C.b}},
+$S:48}
+A.cHD.prototype={
+$2$current$target(d,e){return B.a(d)+" / "+B.a(e)},
+$C:"$2$current$target",
+$R:0,
+$D(){return{current:C.b,target:C.b}},
+$S:75}
+A.cHE.prototype={
+$1$level(d){return"\u0414\u0435\u04a3\u0433\u0435\u0439 "+B.a(d)},
+$C:"$1$level",
+$R:0,
+$D(){return{level:C.b}},
+$S:7}
+A.cHF.prototype={
+$1$name(d){return"\xab"+B.a(d)+"\xbb \u0435\u043d\u0434\u0456 \u0441\u0435\u043d\u0456\u04a3 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0456\u04a3\u0434\u0435 \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456."},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHG.prototype={
+$1$seconds(d){return B.a(d)+" \u0441 \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
+$C:"$1$seconds",
+$R:0,
+$D(){return{seconds:C.b}},
+$S:31}
+A.cHH.prototype={
+$1$seconds(d){return"\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442. "+B.a(d)+" \u0441 \u043a\u04af\u0442\u0456\u04a3\u0456\u0437."},
+$C:"$1$seconds",
+$R:0,
+$D(){return{seconds:C.b}},
+$S:31}
+A.cHJ.prototype={
+$1$domain(d){return"\u041a\u04af\u0448\u0442\u0456 \u0436\u0430\u0493\u044b \u2014 "+B.a(d)},
+$C:"$1$domain",
+$R:0,
+$D(){return{domain:C.b}},
+$S:198}
+A.cHK.prototype={
+$2$done$total(d,e){return"\u0420\u0430\u0441\u0442\u0430\u043b\u0434\u044b: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cHL.prototype={
+$1$count(d){return"\u0420\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u043a\u0432\u0435\u0441\u0442\u0442\u0435\u0440: "+B.a(d)},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cHM.prototype={
+$1$count(d){return"\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456 \u043a\u04af\u043d\u0434\u0435\u0440: "+B.a(d)},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cHN.prototype={
+$1$percent(d){return"\u0414\u0430\u0439\u044b\u043d\u0434\u044b\u049b "+B.a(d)+"%"},
+$C:"$1$percent",
+$R:0,
+$D(){return{percent:C.b}},
+$S:40}
+A.cHO.prototype={
+$1$childName(d){return B.a(d)+" \u04af\u0448\u0456\u043d \u0441\u0456\u043b\u0442\u0435\u043c\u0435"},
+$C:"$1$childName",
+$R:0,
+$D(){return{childName:C.b}},
+$S:199}
+A.cHP.prototype={
+$1$value(d){return B.a(d)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b"},
+$C:"$1$value",
+$R:0,
+$D(){return{value:C.b}},
+$S:53}
+A.cHQ.prototype={
+$2$childName$url(d,e){return B.a(d)+" \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d\u0435 Oyna Family \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0443:\n"+B.a(e)+"\n\n\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a \u0441\u0456\u043b\u0442\u0435\u043c\u0435 5 \u043a\u04af\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b."},
+$C:"$2$childName$url",
+$R:0,
+$D(){return{childName:C.b,url:C.b}},
+$S:200}
+A.cHR.prototype={
+$1$name(d){return"\u0411\u04b1\u043b \u0441\u0435\u043d\u0441\u0456\u04a3 \u0431\u0435, "+B.a(d)+"?"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHS.prototype={
+$1$name(d){return"\u0421\u0435\u043d\u0456 "+B.a(d)+" \u0448\u0430\u049b\u044b\u0440\u044b\u043f \u0436\u0430\u0442\u044b\u0440"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHV.prototype={
+$1$name(d){return"\u0421\u0435\u043d\u0456 "+B.a(d)+" \u0448\u0430\u049b\u044b\u0440\u044b\u043f \u0436\u0430\u0442\u044b\u0440. \u0411\u04b1\u043b \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u0436\u0430\u04a3\u0430 \u043e\u0442\u0431\u0430\u0441\u044b\u0493\u0430 \u04e9\u0442\u0435\u0434\u0456 \u2014 \u043e\u043b\u0430\u0440 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0431\u043e\u043b\u0441\u0430 \u0493\u0430\u043d\u0430 \u043a\u0435\u043b\u0456\u0441"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHW.prototype={
+$1$name(d){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443: "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cHX.prototype={
+$1$time(d){return"\u0411\u04af\u0433\u0456\u043d, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cHY.prototype={
+$1$time(d){return"\u0415\u0440\u0442\u0435\u04a3, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cHZ.prototype={
+$1$time(d){return"\u041a\u0435\u0448\u0435, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cI_.prototype={
+$2$date$time(d,e){return B.a(d)+", "+B.a(e)},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cI0.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043c\u0438\u043d\u0443\u0442"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cI1.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cI2.prototype={
+$2$coins$xp(d,e){return B.a(d)+" \u0442\u0438\u044b\u043d \u0436\u04d9\u043d\u0435 "+B.a(e)+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+$C:"$2$coins$xp",
+$R:0,
+$D(){return{coins:C.b,xp:C.b}},
+$S:79}
+A.cI3.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cI5.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0441\u04b1\u0440\u0430\u0443"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cI6.prototype={
+$1$n(d){return"\u049a\u043e\u0441\u044b\u043b\u0434\u044b: "+B.a(d)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cI7.prototype={
+$2$done$total(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+B.a(d)+" / "+B.a(e)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cI8.prototype={
+$1$n(d){return"\u0411\u0430\u043b\u0430\u043d\u0441: "+B.a(d)+" \u0442\u0438\u044b\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cI9.prototype={
+$1$n(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIa.prototype={
+$2$current$next(d,e){return B.a(d)+" / "+B.a(e)+" XP"},
+$C:"$2$current$next",
+$R:0,
+$D(){return{current:C.b,next:C.b}},
+$S:201}
+A.cIb.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u04e9\u0442\u0456\u043d\u0456\u0448"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIc.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0441\u04b1\u0440\u0430\u043d\u044b\u0441"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cId.prototype={
+$2$done$total(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+B.a(d)+" / "+B.a(e)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cIe.prototype={
+$1$name(d){return B.a(d)+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u043e\u0441\u0443"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cIg.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+return(w==null?B.q("kk"):w).$3$one$other(d,"\u0442\u0438\u044b\u043d","\u0442\u0438\u044b\u043d")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIh.prototype={
+$1$appName(d){return"\u0414\u043e\u0441\u0442\u0430\u0440\u0434\u044b "+B.a(d)+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d\u0430 \u0448\u0430\u049b\u044b\u0440\u0443"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cIi.prototype={
+$3$appName$appStore$playStore(d,e,f){return B.a(d)+y.T+B.a(e)+"\nAndroid: "+B.a(f)},
+$C:"$3$appName$appStore$playStore",
+$R:0,
+$D(){return{appName:C.b,appStore:C.b,playStore:C.b}},
+$S:207}
+A.cIj.prototype={
+$1$appName(d){return B.a(d)+" Premium"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cIk.prototype={
+$2$build$version(d,e){return"\u041d\u04b1\u0441\u049b\u0430 "+B.a(e)+" ("+B.a(d)+")"},
+$C:"$2$build$version",
+$R:0,
+$D(){return{build:C.b,version:C.b}},
+$S:208}
+A.cIl.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0421\u044b\u043d\u0430\u049b \xb7 "+B.a(d)+" \u043a\u04af\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIm.prototype={
+$1$email(d){return"\u0425\u0430\u0442 "+B.a(d)+" \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+$C:"$1$email",
+$R:0,
+$D(){return{email:C.b}},
+$S:43}
+A.cIn.prototype={
+$1$email(d){return B.a(d)+y.ed},
+$C:"$1$email",
+$R:0,
+$D(){return{email:C.b}},
+$S:43}
+A.cIo.prototype={
+$1$email(d){return"\u0425\u0430\u0442 "+B.a(d)+" \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
+$C:"$1$email",
+$R:0,
+$D(){return{email:C.b}},
+$S:43}
+A.cIp.prototype={
+$1$store(d){return"\u0416\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u04a3\u044b\u0437 \u0431\u043e\u043b\u0441\u0430, \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u043e\u043d\u044b "+B.a(d)+y.M},
+$C:"$1$store",
+$R:0,
+$D(){return{store:C.b}},
+$S:191}
+A.cIr.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0436\u0430\u04a3\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIs.prototype={
+$1$n(d){return"+"+B.a(d)+" XP"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIt.prototype={
+$1$n(d){return"+"+B.a(d)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIu.prototype={
+$1$n(d){return"\u041a\u04af\u0448 "+B.a(d)+"%"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIv.prototype={
+$1$n(d){return"\u0410\u049b\u044b\u043b "+B.a(d)+"%"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIw.prototype={
+$1$n(d){return"\u0416\u0430\u043d "+B.a(d)+"%"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIx.prototype={
+$2$done$total(d,e){return"\u041e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 "+B.a(e)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0434\u0430\u043d "+B.a(d)+" \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b"},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cIy.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIz.prototype={
+$1$n(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIA.prototype={
+$1$name(d){return B.a(d)+y.c},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cIC.prototype={
+$2$name$range(d,e){return B.a(d)+": "+B.a(e)+y.V},
+$C:"$2$name$range",
+$R:0,
+$D(){return{name:C.b,range:C.b}},
+$S:159}
+A.cID.prototype={
+$1$appName(d){return B.a(d)+" \u04b1\u043d\u0430\u0439 \u043c\u0430?"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cIE.prototype={
+$1$n(d){return"5-\u0442\u0435\u043d "+B.a(d)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIF.prototype={
+$2$appName$n(d,e){return B.a(d)+" \u0442\u0443\u0440\u0430\u043b\u044b \u043f\u0456\u043a\u0456\u0440: 5-\u0442\u0435\u043d "+B.a(e)},
+$C:"$2$appName$n",
+$R:0,
+$D(){return{appName:C.b,n:C.b}},
+$S:158}
+A.cIG.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0441\u044b\u0439\u043b\u044b\u049b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIH.prototype={
+$1$n(d){return B.a(d)+" \u043c\u0438\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cII.prototype={
+$2$from$to(d,e){return B.a(d)+"\u2013"+B.a(e)},
+$C:"$2$from$to",
+$R:0,
+$D(){return{from:C.b,to:C.b}},
+$S:45}
+A.cIJ.prototype={
+$2$from$to(d,e){return B.a(d)+" \u0442\u0438\u044b\u043d\u043d\u0430\u043d "+B.a(e)+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+$C:"$2$from$to",
+$R:0,
+$D(){return{from:C.b,to:C.b}},
+$S:45}
+A.cIK.prototype={
+$1$time(d){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: \u0431\u04af\u0433\u0456\u043d, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cIL.prototype={
+$1$time(d){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: \u0435\u0440\u0442\u0435\u04a3, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cIN.prototype={
+$2$date$time(d,e){return"\u0410\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u043b\u0434\u044b: "+B.a(d)+", "+B.a(e)},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cIO.prototype={
+$1$n(d){return B.a(d)+"-\u0434\u0435\u04a3\u0433\u0435\u0439\u0434\u0435\u043d"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cIP.prototype={
+$1$appName(d){return B.a(d)+y.F},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cIQ.prototype={
+$1$appName(d){return B.a(d)+y.i},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cIR.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d \u0436\u04b1\u043c\u0441\u0430\u043b\u0430\u0434\u044b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIS.prototype={
+$1$name(d){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440 \u049b\u0430\u0439\u0442\u0430\u0440\u044b\u043b\u0434\u044b \u2014 "+B.a(d)+" \u043e\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u0439\u0442\u0430 \u0436\u04b1\u043c\u0441\u0430\u0439 \u0430\u043b\u0430\u0434\u044b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cIT.prototype={
+$1$name(d){return B.a(d)+" \u043a\u04af\u0442\u0435 \u0442\u04b1\u0440\u0430\u0434\u044b \u2014 \u0442\u0438\u044b\u043d\u0434\u0430\u0440 \u0440\u0435\u0437\u0435\u0440\u0432\u0442\u0435 \u049b\u0430\u043b\u0430\u0434\u044b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cIU.prototype={
+$1$reason(d){return"\u041f\u0456\u043a\u0456\u0440\u0456\u04a3\u0456\u0437: "+B.a(d)},
+$C:"$1$reason",
+$R:0,
+$D(){return{reason:C.b}},
+$S:86}
+A.cIV.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cIW.prototype={
+$4$children$coins$title$xp(d,e,f,g){return B.a(f)+". \u0421\u044b\u0439\u043b\u044b\u049b: "+B.a(e)+" \u0436\u04d9\u043d\u0435 "+B.a(g)+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b. "+B.a(d)},
+$C:"$4$children$coins$title$xp",
+$R:0,
+$D(){return{children:C.b,coins:C.b,title:C.b,xp:C.b}},
+$S:202}
+A.cIY.prototype={
+$4$coins$name$title$xp(d,e,f,g){return B.a(f)+". \u0422\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435: "+B.a(e)+". \u0421\u044b\u0439\u043b\u044b\u049b: "+B.a(d)+" \u0436\u04d9\u043d\u0435 "+B.a(g)+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+$C:"$4$coins$name$title$xp",
+$R:0,
+$D(){return{coins:C.b,name:C.b,title:C.b,xp:C.b}},
+$S:203}
+A.cIZ.prototype={
+$2$n$value(d,e){var w=this.a.gbD().k2.c
+if(w==null)w=B.q("kk")
+return w.$3$one$other(d,B.a(e)+" \u0442\u0438\u044b\u043d",B.a(e)+" \u0442\u0438\u044b\u043d")},
+$C:"$2$n$value",
+$R:0,
+$D(){return{n:C.b,value:C.b}},
+$S:204}
+A.cJ_.prototype={
+$2$coins$xp(d,e){return"\u0421\u044b\u0439\u043b\u044b\u049b: "+B.a(d)+" \u0436\u04d9\u043d\u0435 "+B.a(e)+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+$C:"$2$coins$xp",
+$R:0,
+$D(){return{coins:C.b,xp:C.b}},
+$S:79}
+A.cJ0.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJ1.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJ2.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 "+B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJ3.prototype={
+$1$name(d){return B.a(d)+y._},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJ4.prototype={
+$3$load$name$tasks(d,e,f){return B.a(e)+": "+B.a(f)+". \u0416\u04af\u043a\u0442\u0435\u043c\u0435: "+B.a(d)},
+$C:"$3$load$name$tasks",
+$R:0,
+$D(){return{load:C.b,name:C.b,tasks:C.b}},
+$S:205}
+A.cJ5.prototype={
+$1$title(d){return"\u049a\u043e\u0441\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cJ6.prototype={
+$2$max$min(d,e){return B.a(e)+"\u2013"+B.a(d)+" \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b"},
+$C:"$2$max$min",
+$R:0,
+$D(){return{max:C.b,min:C.b}},
+$S:70}
+A.cJ8.prototype={
+$2$difficulty$xp(d,e){return"\u041a\u04af\u0440\u0434\u0435\u043b\u0456\u043b\u0456\u043a \xab"+B.a(d)+"\xbb: \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 "+B.a(e)+" \u0431\u043e\u043b\u044b\u043f \u04e9\u0437\u0433\u0435\u0440\u0442\u0456\u043b\u0434\u0456"},
+$C:"$2$difficulty$xp",
+$R:0,
+$D(){return{difficulty:C.b,xp:C.b}},
+$S:206}
+A.cJ9.prototype={
+$2$granted$requested(d,e){return B.a(e)+" \u0442\u0438\u044b\u043d\u043d\u0430\u043d "+B.a(d)+y.h},
+$C:"$2$granted$requested",
+$R:0,
+$D(){return{granted:C.b,requested:C.b}},
+$S:76}
+A.cJa.prototype={
+$1$name(d){return"\u049a\u044b\u0441\u049b\u0430 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0435\u043c\u0435 "+B.a(d)+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u04af\u0437\u0435\u0442\u0443\u0434\u0456 \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0435\u0434\u0456."},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJb.prototype={
+$1$time(d){return"\u0411\u04af\u0433\u0456\u043d, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cJc.prototype={
+$1$time(d){return"\u0415\u0440\u0442\u0435\u04a3, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cJd.prototype={
+$2$date$time(d,e){return B.a(d)+", "+B.a(e)},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cJe.prototype={
+$1$name(d){return"\u049a\u044b\u0441\u049b\u0430 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0435\u043c\u0435 "+B.a(d)+" \u04af\u0448\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u04af\u0437\u0435\u0442\u0443\u0434\u0456 \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0435\u0434\u0456"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJf.prototype={
+$1$appName(d){return B.a(d)+" Premium"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJg.prototype={
+$1$amount(d){return"\u04ae\u043d\u0435\u043c\u0434\u0435\u0443: "+B.a(d)},
+$C:"$1$amount",
+$R:0,
+$D(){return{amount:C.b}},
+$S:74}
+A.cJh.prototype={
+$1$percent(d){return"\u04ae\u043d\u0435\u043c\u0434\u0435\u0443: "+B.a(d)+"%"},
+$C:"$1$percent",
+$R:0,
+$D(){return{percent:C.b}},
+$S:40}
+A.cJj.prototype={
+$1$price(d){return"UzCard / HUMO \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043c\u0435\u043d \xb7 "+B.a(d)},
+$C:"$1$price",
+$R:0,
+$D(){return{price:C.b}},
+$S:195}
+A.cJk.prototype={
+$1$appName(d){return B.a(d)+" Premium \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b \u0441\u0456\u0437 \u043e\u043d\u044b \u0442\u043e\u049b\u0442\u0430\u0442\u043f\u0430\u0439\u044b\u043d\u0448\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u04b1\u0437\u0430\u0440\u0442\u044b\u043b\u0430\u0434\u044b. \u041e\u043d\u044b \u043a\u0435\u0437 \u043a\u0435\u043b\u0433\u0435\u043d \u0443\u0430\u049b\u044b\u0442\u0442\u0430 App Store \u043d\u0435\u043c\u0435\u0441\u0435 Google Play \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u0442\u043e\u049b\u0442\u0430\u0442\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b, \u0430\u043b \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456\u043b\u0456\u043a \u0442\u04e9\u043b\u0435\u043d\u0433\u0435\u043d \u043a\u0435\u0437\u0435\u04a3\u043d\u0456\u04a3 \u0441\u043e\u04a3\u044b\u043d\u0430 \u0434\u0435\u0439\u0456\u043d \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJl.prototype={
+$1$appName(d){return"UzCard \u043d\u0435\u043c\u0435\u0441\u0435 HUMO \u043a\u0430\u0440\u0442\u0430\u0441\u044b\u043c\u0435\u043d \u0442\u04e9\u043b\u0435\u043c \u049b\u043e\u0440\u0493\u0430\u043b\u0493\u0430\u043d Paylov \u0431\u0435\u0442\u0456\u043d\u0434\u0435 \u04e9\u0442\u0435\u0434\u0456, \u043e\u0441\u044b\u043b\u0430\u0439 \u0442\u04e9\u043b\u0435\u043d\u0433\u0435\u043d \u0436\u0430\u0437\u044b\u043b\u044b\u043c \u0434\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u04b1\u0437\u0430\u0440\u0442\u044b\u043b\u0430\u0434\u044b. "+B.a(d)+" \u043a\u0430\u0440\u0442\u0430 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0456\u043d \u0430\u043b\u043c\u0430\u0439\u0434\u044b."},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJm.prototype={
+$1$tier(d){return B.a(d)+" \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u04a3\u044b\u0437 \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJn.prototype={
+$1$tier(d){return"\u0410\u0439\u043b\u044b\u049b "+B.a(d)+" \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u04a3\u044b\u0437 \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJo.prototype={
+$1$tier(d){return"\u0416\u044b\u043b\u0434\u044b\u049b "+B.a(d)+" \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u04a3\u044b\u0437 \u0431\u0435\u043b\u0441\u0435\u043d\u0434\u0456"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJp.prototype={
+$1$tier(d){return B.a(d)+" \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u043d\u0430 \u043d\u0435 \u043a\u0456\u0440\u0435\u0434\u0456"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJq.prototype={
+$1$tier(d){return"\u041a\u0435\u0440\u0435\u043c\u0435\u0442! "+B.a(d)+" \u049b\u043e\u0441\u044b\u043b\u0434\u044b"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJr.prototype={
+$1$appName(d){return B.a(d)+" Premium \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJs.prototype={
+$1$email(d){return"\u041f\u043e\u0448\u0442\u0430\u043d\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0411\u0456\u0437\u0433\u0435 \u0436\u0430\u0437\u044b\u04a3\u044b\u0437: "+B.a(d)},
+$C:"$1$email",
+$R:0,
+$D(){return{email:C.b}},
+$S:43}
+A.cJu.prototype={
+$1$tier(d){return B.a(d)+" \u04d9\u043b\u0456 \u049b\u043e\u0441\u044b\u043b\u044b\u043f \u0436\u0430\u0442\u044b\u0440. \u0411\u0456\u0440\u043d\u0435\u0448\u0435 \u043c\u0438\u043d\u0443\u0442\u0442\u0430 \u0435\u0448\u0442\u0435\u04a3\u0435 \u04e9\u0437\u0433\u0435\u0440\u043c\u0435\u0441\u0435, \u0441\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0456\u04a3\u0456\u0437"},
+$C:"$1$tier",
+$R:0,
+$D(){return{tier:C.b}},
+$S:13}
+A.cJv.prototype={
+$2$offer$privacy(d,e){var w=null
+return B.bV(B.b([D.aYd,d.$1("\u0436\u0430\u0440\u0438\u044f \u043e\u0444\u0435\u0440\u0442\u0430\u043d\u044b"),D.aYc,e.$1("\u049b\u04b1\u043f\u0438\u044f\u043b\u044b\u043b\u044b\u049b \u0441\u0430\u044f\u0441\u0430\u0442\u044b\u043d"),D.aYq],x.p),w,w,w,w,w,w,w,w,w,w)},
+$C:"$2$offer$privacy",
+$R:0,
+$D(){return{offer:C.b,privacy:C.b}},
+$S:215}
+A.cJw.prototype={
+$1$email(d){var w=null
+return B.bV(B.b([d,D.aYg],x.p),w,w,w,w,w,w,w,w,w,w)},
+$C:"$1$email",
+$R:0,
+$D(){return{email:C.b}},
+$S:216}
+A.cJx.prototype={
+$1$seconds(d){return B.a(d)+" \u0441 \u043a\u0435\u0439\u0456\u043d \u0445\u0430\u0442\u0442\u044b \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443"},
+$C:"$1$seconds",
+$R:0,
+$D(){return{seconds:C.b}},
+$S:31}
+A.cJy.prototype={
+$1$name(d){return"\u041a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJz.prototype={
+$1$n(d){return"\u0410\u0442\u044b "+B.a(d)+" \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cJA.prototype={
+$2$filled$length(d,e){return B.a(e)+" \u0446\u0438\u0444\u0440\u0434\u0430\u043d "+B.a(d)+" \u0435\u043d\u0433\u0456\u0437\u0456\u043b\u0434\u0456"},
+$C:"$2$filled$length",
+$R:0,
+$D(){return{filled:C.b,length:C.b}},
+$S:209}
+A.cJB.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442. "+B.a(d)+" \u0441\u0435\u043a\u0443\u043d\u0434\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJC.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442. "+B.a(d)+" \u043c\u0438\u043d\u0443\u0442\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJD.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442. "+B.a(d)+" \u0441\u0430\u0493\u0430\u0442\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJG.prototype={
+$1$name(d){return B.a(d)+". \u0411\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443 \u0436\u04d9\u043d\u0435 \u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJH.prototype={
+$1$name(d){return"\u0410\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJI.prototype={
+$1$name(d){return"\u04d8\u0437\u0456\u0440\u0433\u0435 \u0434\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0430\u0437. "+B.a(d)+y.C},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJJ.prototype={
+$1$name(d){return B.a(d)+" \u043e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u049b\u0430\u043b\u0430\u0439 \u04af\u043b\u0433\u0435\u0440\u0456\u043f \u0436\u04af\u0440?"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJK.prototype={
+$1$coins(d){return"\u041a\u04af\u043d\u0456\u043d\u0435 "+B.a(d)+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"},
+$C:"$1$coins",
+$R:0,
+$D(){return{coins:C.b}},
+$S:28}
+A.cJL.prototype={
+$1$appName(d){return"\u049a\u043e\u0441\u0443 \u04af\u0448\u0456\u043d "+B.a(d)+" Premium + AI \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJM.prototype={
+$1$title(d){return"\u049a\u043e\u0441\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cJN.prototype={
+$1$appName(d){return B.a(d)+" Premium + AI"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJO.prototype={
+$1$appName(d){return"\u0424\u043e\u043a\u0441\u0438\u043a\u043f\u0435\u043d \u0447\u0430\u0442 \u2014 "+B.a(d)+" Premium + AI \u0442\u0430\u0440\u0438\u0444\u0456\u043d\u0434\u0435"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJP.prototype={
+$1$appName(d){return y.co+B.a(d)+y.B},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJR.prototype={
+$1$appName(d){return"\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u0430\u043b\u0430 "+B.a(d)+y.mQ},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cJS.prototype={
+$1$title(d){return"\u049a\u04b1\u0440\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cJT.prototype={
+$1$title(d){return"\u0410\u0448\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cJU.prototype={
+$1$title(d){return"\u04e8\u0437\u0433\u0435\u0440\u0442\u0443: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cJV.prototype={
+$1$name(d){return B.a(d)+" \u043f\u0430\u0440\u0430\u049b\u0448\u0430\u0441\u044b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJW.prototype={
+$1$names(d){return"\u041a\u0456\u043c\u0433\u0435: "+B.a(d)},
+$C:"$1$names",
+$R:0,
+$D(){return{names:C.b}},
+$S:175}
+A.cJX.prototype={
+$1$name(d){return"\u0411\u043e\u043d\u0443\u0441 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cJY.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="+"+B.a(d)+" \u0442\u0438\u044b\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cJZ.prototype={
+$2$amount$name(d,e){return"\u0411\u0435\u0440\u0443: "+B.a(d)+", "+B.a(e)},
+$C:"$2$amount$name",
+$R:0,
+$D(){return{amount:C.b,name:C.b}},
+$S:87}
+A.cK_.prototype={
+$1$name(d){return"\u0422\u0435\u043a\u0441\u0435\u0440\u0443 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cK1.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cK2.prototype={
+$2$name$title(d,e){return B.a(e)+" \u2014 "+B.a(d)},
+$C:"$2$name$title",
+$R:0,
+$D(){return{name:C.b,title:C.b}},
+$S:173}
+A.cK3.prototype={
+$1$n(d){return"\u0442\u0430\u0493\u044b "+B.a(d)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cK4.prototype={
+$2$approved$total(d,e){return B.a(e)+" \u0456\u0448\u0456\u043d\u0435\u043d "+B.a(d)+" \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0434\u044b"},
+$C:"$2$approved$total",
+$R:0,
+$D(){return{approved:C.b,total:C.b}},
+$S:166}
+A.cK5.prototype={
+$1$title(d){return"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cK6.prototype={
+$1$count(d){return"\u0411\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443: "+B.a(d)},
+$C:"$1$count",
+$R:0,
+$D(){return{count:C.b}},
+$S:12}
+A.cK7.prototype={
+$1$name(d){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cK8.prototype={
+$1$comment(d){return"\u041d\u0435 \u0442\u04af\u0437\u0435\u0442\u0443 \u043a\u0435\u0440\u0435\u043a: "+B.a(d)},
+$C:"$1$comment",
+$R:0,
+$D(){return{comment:C.b}},
+$S:162}
+A.cK9.prototype={
+$1$title(d){return"\u0422\u04af\u0437\u0435\u0442\u0443\u0433\u0435 \u049b\u0430\u0439\u0442\u0430\u0440\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKa.prototype={
+$1$name(d){return"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u044b \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKc.prototype={
+$1$reason(d){return"\u0421\u0435\u0431\u0435\u0431\u0456: "+B.a(d)},
+$C:"$1$reason",
+$R:0,
+$D(){return{reason:C.b}},
+$S:86}
+A.cKd.prototype={
+$1$title(d){return"\u0411\u0435\u0440\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKe.prototype={
+$1$title(d){return"\u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKf.prototype={
+$1$name(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKg.prototype={
+$1$title(d){return"\u0410\u0442\u0430\u0443\u044b: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKh.prototype={
+$1$text(d){return"\u0421\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u0441\u044b: "+B.a(d)},
+$C:"$1$text",
+$R:0,
+$D(){return{text:C.b}},
+$S:161}
+A.cKi.prototype={
+$1$title(d){return"\u0421\u0430\u049b\u0442\u0430\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKj.prototype={
+$1$name(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKk.prototype={
+$1$title(d){return"\u0410\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443: "+B.a(d)},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cKl.prototype={
+$1$name(d){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKn.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u041a\u04af\u043d\u0456\u043d\u0435 "+B.a(d)+" \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKo.prototype={
+$1$name(d){return"\u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u044b \u0441\u0430\u049b\u0442\u0430\u0443: "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKp.prototype={
+$1$name(d){return B.a(d)+" \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKq.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0443"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKr.prototype={
+$1$name(d){return"\u0411\u0435\u0440\u0443, "+B.a(d)+": \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u0441\u043e\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKs.prototype={
+$1$number(d){return B.a(d)+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d\u0435 \u049b\u043e\u04a3\u044b\u0440\u0430\u0443 \u0448\u0430\u043b\u0443"},
+$C:"$1$number",
+$R:0,
+$D(){return{number:C.b}},
+$S:38}
+A.cKt.prototype={
+$1$number(d){return"\u049a\u043e\u04a3\u044b\u0440\u0430\u0443\u0434\u044b \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. "+B.a(d)+" \u043d\u04e9\u043c\u0456\u0440\u0456\u043d \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u0430\u043d \u0442\u0435\u0440\u0456\u04a3\u0456\u0437."},
+$C:"$1$number",
+$R:0,
+$D(){return{number:C.b}},
+$S:38}
+A.cKu.prototype={
+$1$name(d){return B.a(d)+". \u0411\u0430\u0441\u049b\u0430 \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u0443"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKv.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0436\u0430\u04a3\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKw.prototype={
+$2$appName$name(d,e){return B.a(e)+" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0434\u0430\u0493\u044b "+B.a(d)+y.lv},
+$C:"$2$appName$name",
+$R:0,
+$D(){return{appName:C.b,name:C.b}},
+$S:160}
+A.cKy.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d \u0441\u04b1\u0440\u0430\u043f \u0442\u04b1\u0440"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKz.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0443"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKA.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0456\u043b\u0434\u0456"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKB.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u049a\u0430\u0437\u0456\u0440 \u0435\u043c\u0435\u0441: "+B.a(d)+" \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u043c\u0435\u0443"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKC.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0436\u0430\u0441"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKD.prototype={
+$1$n(d){return"\u0410\u0442\u044b "+B.a(d)+" \u0442\u0430\u04a3\u0431\u0430\u0434\u0430\u043d \u0430\u0441\u043f\u0430\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cKE.prototype={
+$1$appName(d){return B.a(d)+" Premium-\u043c\u0435\u043d \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u0431\u0430\u043b\u0430"},
+$C:"$1$appName",
+$R:0,
+$D(){return{appName:C.b}},
+$S:8}
+A.cKF.prototype={
+$1$code(d){return"\u041a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b: "+B.a(d)+". \u041a\u04e9\u0448\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+$C:"$1$code",
+$R:0,
+$D(){return{code:C.b}},
+$S:80}
+A.cKG.prototype={
+$1$time(d){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0431\u04af\u0433\u0456\u043d, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cKH.prototype={
+$1$time(d){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: \u0435\u0440\u0442\u0435\u04a3, "+B.a(d)},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cKJ.prototype={
+$2$date$time(d,e){return"\u0411\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a QR \xb7 \u043c\u0435\u0440\u0437\u0456\u043c\u0456: "+B.a(d)+", "+B.a(e)},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cKK.prototype={
+$6$appName$code$date$name$time$url(d,e,f,g,h,i){return"\u0421\u04d9\u043b\u0435\u043c, "+B.a(g)+"! "+B.a(d)+y.q+B.a(i)+"\n\n\u0415\u0433\u0435\u0440 \u0430\u0448\u044b\u043b\u043c\u0430\u0441\u0430, "+B.a(d)+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u043f, "+B.a(e)+y.J+B.a(f)+", "+B.a(h)+"."},
+$C:"$6$appName$code$date$name$time$url",
+$R:0,
+$D(){return{appName:C.b,code:C.b,date:C.b,name:C.b,time:C.b,url:C.b}},
+$S:210}
+A.cKL.prototype={
+$5$appName$appStore$code$name$playStore(d,e,f,g,h){return"\u0421\u04d9\u043b\u0435\u043c, "+B.a(g)+"! "+B.a(d)+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d \u043e\u0440\u043d\u0430\u0442\u044b\u043f, \u043a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d "+B.a(f)+" \u043a\u043e\u0434\u044b\u043d \u0435\u043d\u0433\u0456\u0437.\n\nApp Store: "+B.a(e)+"\nGoogle Play: "+B.a(h)},
+$C:"$5$appName$appStore$code$name$playStore",
+$R:0,
+$D(){return{appName:C.b,appStore:C.b,code:C.b,name:C.b,playStore:C.b}},
+$S:211}
+A.cKM.prototype={
+$4$appName$date$time$url(d,e,f,g){return B.a(d)+y.q+B.a(g)+y.r+B.a(e)+", "+B.a(f)+"."},
+$C:"$4$appName$date$time$url",
+$R:0,
+$D(){return{appName:C.b,date:C.b,time:C.b,url:C.b}},
+$S:212}
+A.cKN.prototype={
+$2$age$date(d,e){return B.a(e)+" \xb7 "+B.a(d)},
+$C:"$2$age$date",
+$R:0,
+$D(){return{age:C.b,date:C.b}},
+$S:213}
+A.cKO.prototype={
+$2$load$tasks(d,e){return B.a(d)+" \xb7 "+B.a(e)},
+$C:"$2$load$tasks",
+$R:0,
+$D(){return{load:C.b,tasks:C.b}},
+$S:214}
+A.cKP.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKQ.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u0410\u043f\u0442\u0430\u0441\u044b\u043d\u0430 "+B.a(d)+" \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cKR.prototype={
+$1$value(d){return"\xd7"+B.a(d)},
+$C:"$1$value",
+$R:0,
+$D(){return{value:C.b}},
+$S:53}
+A.cKS.prototype={
+$2$rate$symbol(d,e){return"1 \u0442\u0438\u044b\u043d = "+B.a(d)+" "+B.a(e)},
+$C:"$2$rate$symbol",
+$R:0,
+$D(){return{rate:C.b,symbol:C.b}},
+$S:44}
+A.cKU.prototype={
+$1$name(d){return"\u0411\u04b1\u043b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 "+B.a(d)+y.u},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKV.prototype={
+$1$name(d){return B.a(d)+y.L},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKW.prototype={
+$1$n(d){return"\u0410\u0442\u044b 1-\u0434\u0435\u043d "+B.a(d)+" \u0442\u0430\u04a3\u0431\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0431\u043e\u043b\u0443\u044b \u043a\u0435\u0440\u0435\u043a"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cKX.prototype={
+$1$n(d){return"\u041c\u0430\u0441\u0448\u0442\u0430\u0431 "+B.a(d)+" %"},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:5}
+A.cKY.prototype={
+$1$name(d){return B.a(d)+y.mA},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cKZ.prototype={
+$2$from$to(d,e){return B.a(d)+"\u2013"+B.a(e)},
+$C:"$2$from$to",
+$R:0,
+$D(){return{from:C.b,to:C.b}},
+$S:45}
+A.cL_.prototype={
+$2$rate$symbol(d,e){return"1 \u0442\u0438\u044b\u043d = "+B.a(d)+" "+B.a(e)},
+$C:"$2$rate$symbol",
+$R:0,
+$D(){return{rate:C.b,symbol:C.b}},
+$S:44}
+A.cL0.prototype={
+$2$rate$symbol(d,e){return B.a(d)+" "+B.a(e)},
+$C:"$2$rate$symbol",
+$R:0,
+$D(){return{rate:C.b,symbol:C.b}},
+$S:44}
+A.cL1.prototype={
+$2$rate$symbol(d,e){return"\u04b0\u0441\u044b\u043d\u044b\u043b\u0430\u0442\u044b\u043d: "+B.a(d)+" "+B.a(e)},
+$C:"$2$rate$symbol",
+$R:0,
+$D(){return{rate:C.b,symbol:C.b}},
+$S:44}
+A.cL2.prototype={
+$1$percent(d){return"\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443 \u0436\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435: "+B.a(d)+"%"},
+$C:"$1$percent",
+$R:0,
+$D(){return{percent:C.b}},
+$S:40}
+A.cL4.prototype={
+$1$name(d){return"\u0411\u0435\u043b\u0441\u0435\u043d\u0434\u0456\u043b\u0456\u043a \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cL5.prototype={
+$1$name(d){return"\u0422\u0438\u044b\u043d\u0434\u0430\u0440 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cL6.prototype={
+$1$name(d){return"\u049a\u044b\u0437\u044b\u0493\u0443\u0448\u044b\u043b\u044b\u049b\u0442\u0430\u0440 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cL7.prototype={
+$1$name(d){return"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cL8.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cL9.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435 \u0442\u0430\u0431\u044b\u043b\u0493\u0430\u043d\u044b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLa.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435\u0433\u0456 \u04e9\u0441\u0443"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLb.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435 \u0436\u0438\u0456 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d\u044b"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLc.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(d)+" \u043a\u04af\u043d\u0434\u0435"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLd.prototype={
+$1$n(d){var w="\u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430",v=this.a.gbD().k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLf.prototype={
+$1$n(d){var w=this.a.gbD().k2.c
+return(w==null?B.q("kk"):w).$3$one$other(d,"\u0442\u0438\u044b\u043d","\u0442\u0438\u044b\u043d")},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLg.prototype={
+$1$n(d){var w="\u043a\u04af\u043d \u049b\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d",v=this.a.gbD().k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLh.prototype={
+$1$n(d){var w="\u04e9\u0441\u0443 \u04b1\u043f\u0430\u0439\u044b",v=this.a.gbD().k2.c
+return(v==null?B.q("kk"):v).$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLi.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="+"+B.a(d)+" \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u0443\u0434\u0435"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLj.prototype={
+$2$count$percent(d,e){return B.a(d)+" ("+B.a(e)+"%)"},
+$C:"$2$count$percent",
+$R:0,
+$D(){return{count:C.b,percent:C.b}},
+$S:157}
+A.cLk.prototype={
+$2$label$value(d,e){return B.a(d)+": "+B.a(e)},
+$C:"$2$label$value",
+$R:0,
+$D(){return{label:C.b,value:C.b}},
+$S:91}
+A.cLl.prototype={
+$2$name$values(d,e){return B.a(d)+" \u2014 "+B.a(e)},
+$C:"$2$name$values",
+$R:0,
+$D(){return{name:C.b,values:C.b}},
+$S:156}
+A.cLm.prototype={
+$1$n(d){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w="\u041e\u043d\u044b\u04a3 \u0456\u0448\u0456\u043d\u0434\u0435 "+B.a(d)+" \u0442\u0438\u044b\u043d \u2014 \u0431\u043e\u043d\u0443\u0441"
+return v.$3$one$other(d,w,w)},
+$C:"$1$n",
+$R:0,
+$D(){return{n:C.b}},
+$S:1}
+A.cLn.prototype={
+$1$name(d){return"\u0421\u0430\u0431\u0430\u049b \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLo.prototype={
+$1$name(d){return"\u0411\u043e\u043d\u0443\u0441 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLr.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0441\u0430\u0431\u0430\u0493\u044b\u043d \u04b1\u0441\u044b\u043d\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cLs.prototype={
+$1$title(d){return"\xab"+B.a(d)+"\xbb \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0443"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cLt.prototype={
+$2$amount$name(d,e){return B.a(d)+" \u0431\u0435\u0440\u0443: "+B.a(e)},
+$C:"$2$amount$name",
+$R:0,
+$D(){return{amount:C.b,name:C.b}},
+$S:87}
+A.cLu.prototype={
+$1$name(d){return"\u0421\u0430\u0431\u0430\u049b\u0442\u0430\u0440 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLv.prototype={
+$2$correct$total(d,e){return B.a(d)+" / "+B.a(e)},
+$C:"$2$correct$total",
+$R:0,
+$D(){return{correct:C.b,total:C.b}},
+$S:89}
+A.cLw.prototype={
+$2$correct$n(d,e){var w,v=this.a.gbD().k2.c
+if(v==null)v=B.q("kk")
+w=B.a(e)
+return v.$3$one$other(e,"\u0414\u04b1\u0440\u044b\u0441 \u0436\u0430\u0443\u0430\u043f: "+B.a(d)+" / "+w,"\u0414\u04b1\u0440\u044b\u0441 \u0436\u0430\u0443\u0430\u043f: "+B.a(d)+" / "+w)},
+$C:"$2$correct$n",
+$R:0,
+$D(){return{correct:C.b,n:C.b}},
+$S:217}
+A.cLx.prototype={
+$1$name(d){return"\u04d8\u04a3\u0433\u0456\u043c\u0435 \xb7 "+B.a(d)},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLy.prototype={
+$2$done$total(d,e){return"\u04e8\u0442\u0456\u043b\u0433\u0435\u043d \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u0440: "+B.a(d)+" / "+B.a(e)},
+$C:"$2$done$total",
+$R:0,
+$D(){return{done:C.b,total:C.b}},
+$S:18}
+A.cLz.prototype={
+$1$question(d){return"\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0440\u0435\u0442\u0442\u0435\u043d \u0435\u043c\u0435\u0441: \xab"+B.a(d)+"\xbb"},
+$C:"$1$question",
+$R:0,
+$D(){return{question:C.b}},
+$S:155}
+A.cLA.prototype={
+$2$n$question(d,e){var w,v="\u0411\u0456\u0440\u0456\u043d\u0448\u0456 \u0440\u0435\u0442\u0442\u0435\u043d \u0435\u043c\u0435\u0441: \xab",u=this.a.gbD().k2.c
+if(u==null)u=B.q("kk")
+w=B.a(d)
+return u.$3$one$other(d,v+B.a(e)+"\xbb \u0436\u04d9\u043d\u0435 \u0442\u0430\u0493\u044b "+w,v+B.a(e)+"\xbb \u0436\u04d9\u043d\u0435 \u0442\u0430\u0493\u044b "+w)},
+$C:"$2$n$question",
+$R:0,
+$D(){return{n:C.b,question:C.b}},
+$S:154}
+A.cLC.prototype={
+$1$title(d){return"\u0411\u0430\u043b\u0430\u043d\u044b \u043a\u04af\u0442\u0443\u0434\u0435: \xab"+B.a(d)+"\xbb"},
+$C:"$1$title",
+$R:0,
+$D(){return{title:C.b}},
+$S:4}
+A.cLD.prototype={
+$2$date$time(d,e){return"\u041a\u043e\u0434\u0442\u044b \u0435\u043a\u0456\u043d\u0448\u0456 \u0435\u0440\u0435\u0441\u0435\u043a\u043a\u0435 \u0436\u0456\u0431\u0435\u0440\u0456\u04a3\u0456\u0437. \u041e\u043b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0436\u0430\u0440\u0430\u0439\u0434\u044b \u0436\u04d9\u043d\u0435 "+B.a(d)+", "+B.a(e)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b. \u0411\u04b1\u043b \u043a\u043e\u0434 \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456 \u2014 \u049b\u0430\u0436\u0435\u0442 \u0431\u043e\u043b\u0441\u0430, \u0436\u0430\u04a3\u0430\u0441\u044b\u043d \u0436\u0456\u0431\u0435\u0440\u0456\u04a3\u0456\u0437."},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cLE.prototype={
+$1$code(d){return"\u0428\u0430\u049b\u044b\u0440\u0443 \u043a\u043e\u0434\u044b "+B.a(d)+". \u041a\u04e9\u0448\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437"},
+$C:"$1$code",
+$R:0,
+$D(){return{code:C.b}},
+$S:80}
+A.cLF.prototype={
+$2$date$time(d,e){return"\u0428\u0430\u049b\u044b\u0440\u0443 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456 \u0436\u04d9\u043d\u0435 \u0435\u043a\u0456\u043d\u0448\u0456 \u0435\u0440\u0435\u0441\u0435\u043a\u0442\u0456 \u043a\u04af\u0442\u0456\u043f \u0442\u04b1\u0440. \u041a\u043e\u0434 "+B.a(d)+", "+B.a(e)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b."},
+$C:"$2$date$time",
+$R:0,
+$D(){return{date:C.b,time:C.b}},
+$S:19}
+A.cLG.prototype={
+$7$appName$appStore$code$date$link$playStore$time(d,e,f,g,h,i,j){return B.a(d)+" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u043e\u0442\u0431\u0430\u0441\u044b\u043c\u044b\u0437\u0493\u0430 \u049b\u043e\u0441\u044b\u043b\u044b\u04a3\u044b\u0437. \u0428\u0430\u049b\u044b\u0440\u0443 \u043a\u043e\u0434\u044b: "+B.a(f)+" \u2014 "+B.a(g)+", "+B.a(j)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b.\n\n1. "+B.a(d)+" \u043e\u0440\u043d\u0430\u0442\u044b\u04a3\u044b\u0437: App Store "+B.a(e)+", Google Play "+B.a(i)+"\n2. \u041a\u0456\u0440\u0456\u043f, \xab\u0410\u0442\u044b\u04a3\u044b\u0437 \u043a\u0456\u043c?\xbb \u049b\u0430\u0434\u0430\u043c\u044b\u043d\u0434\u0430 \xab\u0428\u0430\u049b\u044b\u0440\u0443\u044b\u043c \u0431\u0430\u0440\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437.\n\n\u0415\u0433\u0435\u0440 "+B.a(d)+" \u043e\u0440\u043d\u0430\u0442\u044b\u043b\u0493\u0430\u043d \u0431\u043e\u043b\u0441\u0430, \u0441\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0448\u044b\u04a3\u044b\u0437: "+B.a(h)},
+$C:"$7$appName$appStore$code$date$link$playStore$time",
+$R:0,
+$D(){return{appName:C.b,appStore:C.b,code:C.b,date:C.b,link:C.b,playStore:C.b,time:C.b}},
+$S:152}
+A.cLH.prototype={
+$4$date$family$inviter$time(d,e,f,g){return B.a(f)+" \u0441\u0456\u0437\u0434\u0456 \xab"+B.a(e)+y.H+B.a(d)+", "+B.a(g)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b."},
+$C:"$4$date$family$inviter$time",
+$R:0,
+$D(){return{date:C.b,family:C.b,inviter:C.b,time:C.b}},
+$S:151}
+A.cLI.prototype={
+$3$date$family$time(d,e,f){return"\u0421\u0456\u0437\u0434\u0456 \xab"+B.a(e)+y.H+B.a(d)+", "+B.a(f)+" \u0434\u0435\u0439\u0456\u043d \u0436\u0430\u0440\u0430\u043c\u0434\u044b."},
+$C:"$3$date$family$time",
+$R:0,
+$D(){return{date:C.b,family:C.b,time:C.b}},
+$S:150}
+A.cLJ.prototype={
+$1$time(d){return"\u04d8\u0440\u0435\u043a\u0435\u0442 \u0442\u044b\u043c \u043a\u04e9\u043f. "+B.a(d)+" \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437."},
+$C:"$1$time",
+$R:0,
+$D(){return{time:C.b}},
+$S:10}
+A.cLK.prototype={
+$2$index$total(d,e){return B.a(e)+" \u049b\u0430\u0434\u0430\u043c\u043d\u044b\u04a3 "+B.a(d)+"-\u049b\u0430\u0434\u0430\u043c\u044b"},
+$C:"$2$index$total",
+$R:0,
+$D(){return{index:C.b,total:C.b}},
+$S:149}
+A.cLL.prototype={
+$1$name(d){return B.a(d)+" \u04af\u0448\u0456\u043d \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLN.prototype={
+$1$name(d){return B.a(d)+" \u0441\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043f \u0436\u0430\u0442\u044b\u0440"},
+$C:"$1$name",
+$R:0,
+$D(){return{name:C.b}},
+$S:2}
+A.cLO.prototype={
+$2$price$reward(d,e){return"\xab"+B.a(e)+"\xbb \u2014 "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430. \u041e\u043d\u044b \u0431\u0435\u0440\u0443\u0433\u0435 \u0434\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0441\u0430\u04a3\u044b\u0437, \u0440\u0430\u0441\u0442\u0430\u04a3\u044b\u0437. \u041c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440 \u049b\u0430\u0437\u0456\u0440 \u0441\u0430\u049b\u0442\u0430\u0443\u043b\u044b; \u0440\u0430\u0441\u0442\u0430\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0448\u0435\u0433\u0435\u0440\u0456\u043b\u0435\u0434\u0456"},
+$C:"$2$price$reward",
+$R:0,
+$D(){return{price:C.b,reward:C.b}},
+$S:134}
+A.cLP.prototype={
+$1$quest(d){return"\xab"+B.a(d)+y.is},
+$C:"$1$quest",
+$R:0,
+$D(){return{quest:C.b}},
+$S:83}
+A.cLQ.prototype={
+$1$quest(d){return"\xab"+B.a(d)+y.y},
+$C:"$1$quest",
+$R:0,
+$D(){return{quest:C.b}},
+$S:83}
+A.cLR.prototype={
+$3$balance$coins$xp(d,e,f){return"\u0421\u0435\u043d "+B.a(f)+" XP \u043c\u0435\u043d "+B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u0430\u043b\u0434\u044b\u04a3. \u0415\u043d\u0434\u0456 "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456"},
+$C:"$3$balance$coins$xp",
+$R:0,
+$D(){return{balance:C.b,coins:C.b,xp:C.b}},
+$S:143}
+A.cLS.prototype={
+$4$balance$missing$price$reward(d,e,f,g){return"\xab"+B.a(g)+"\xbb \u0431\u0430\u0493\u0430\u0441\u044b \u2014 "+B.a(f)+" \u043c\u043e\u043d\u0435\u0442\u0430. \u049a\u0430\u0437\u0456\u0440 "+B.a(d)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0434\u0456. \u0422\u0430\u0493\u044b "+B.a(e)+" \u043c\u043e\u043d\u0435\u0442\u0430 \u0436\u0435\u0442\u043f\u0435\u0439\u0434\u0456"},
+$C:"$4$balance$missing$price$reward",
+$R:0,
+$D(){return{balance:C.b,missing:C.b,price:C.b,reward:C.b}},
+$S:140}
+A.cLT.prototype={
+$1$reward(d){return"\xab"+B.a(d)+y.c2},
+$C:"$1$reward",
+$R:0,
+$D(){return{reward:C.b}},
+$S:92};(function inheritance(){var w=a.mixin,v=a.inherit,u=a.inheritMany
+v(A.aXI,B.fJ)
+v(A.aFZ,A.aXI)
+v(A.bEW,B.F5)
+v(A.bIb,B.FK)
+v(A.bE8,B.EW)
+v(A.bDZ,B.EV)
+v(A.bF0,B.F6)
+v(A.bF5,B.F7)
+v(A.bEs,B.F1)
+v(A.bLh,B.Gm)
+v(A.bI6,B.FJ)
+v(A.bIl,B.FM)
+v(A.bDU,B.ET)
+v(A.bLw,B.Gp)
+v(A.bGQ,B.Fv)
+v(A.bMD,B.GD)
+v(A.bH4,B.Fw)
+v(A.bER,B.F4)
+v(A.bEd,B.EX)
+v(A.bJs,B.Gb)
+v(A.bHy,B.FI)
+v(A.bE2,B.EU)
+v(A.bEk,B.EY)
+v(A.bEq,B.EZ)
+v(A.bEM,B.F3)
+v(A.bEB,B.F0)
+v(A.bEw,B.F_)
+v(A.bLl,B.Gn)
+v(A.bLq,B.Go)
+v(A.bIj,B.FL)
+v(A.bLA,B.Gq)
+v(A.bM9,B.Gz)
+v(A.bGZ,B.Fu)
+v(A.bFa,B.F8)
+v(A.bG_,B.Fj)
+v(A.bGy,B.Fq)
+v(A.bGU,B.Ft)
+v(A.bJ0,B.FU)
+v(A.bKy,B.Gd)
+v(A.bJl,B.FY)
+v(A.bKo,B.Ga)
+v(A.bIM,B.FR)
+v(A.bJL,B.G2)
+v(A.bKt,B.Gc)
+v(A.bJQ,B.G3)
+v(A.bJg,B.FX)
+v(A.bIv,B.FO)
+v(A.bJV,B.G4)
+v(A.bKj,B.G9)
+v(A.bK9,B.G7)
+v(A.bKe,B.G8)
+v(A.bL6,B.Gk)
+v(A.bKN,B.Gg)
+v(A.bKI,B.Gf)
+v(A.bKX,B.Gi)
+v(A.bKS,B.Gh)
+v(A.bL1,B.Gj)
+v(A.bJG,B.G1)
+v(A.bIG,B.FQ)
+v(A.bJ6,B.FV)
+v(A.bIq,B.FN)
+v(A.bIR,B.FS)
+v(A.bJq,B.FZ)
+v(A.bIW,B.FT)
+v(A.bJB,B.G0)
+v(A.bJb,B.FW)
+v(A.bLc,B.Gl)
+v(A.bKD,B.Ge)
+v(A.bJw,B.G_)
+v(A.bHC,B.FC)
+v(A.bHM,B.FE)
+v(A.bHH,B.FD)
+v(A.bHR,B.FF)
+v(A.bHW,B.FG)
+v(A.bI0,B.FH)
+v(A.bHg,B.Fy)
+v(A.bHq,B.FA)
+v(A.bHv,B.FB)
+v(A.bHb,B.Fx)
+v(A.bHl,B.Fz)
+v(A.bEJ,B.F2)
+v(A.bMx,B.GC)
+v(A.bMi,B.Gy)
+v(A.bLY,B.Gu)
+v(A.bLN,B.Gs)
+v(A.bMs,B.GB)
+v(A.bLS,B.Gt)
+v(A.bMd,B.Gx)
+v(A.bLI,B.Gr)
+v(A.bM7,B.Gw)
+v(A.bM2,B.Gv)
+v(A.bMn,B.GA)
+v(A.bFE,B.Fd)
+v(A.bFz,B.Fc)
+v(A.bGi,B.Fm)
+v(A.bG3,B.Fi)
+v(A.bFY,B.Fh)
+v(A.bGd,B.Fl)
+v(A.bGt,B.Fo)
+v(A.bFp,B.Fa)
+v(A.bGn,B.Fn)
+v(A.bFk,B.F9)
+v(A.bG8,B.Fk)
+v(A.bFu,B.Fb)
+v(A.bFJ,B.Fe)
+v(A.bFT,B.Fg)
+v(A.bFO,B.Ff)
+v(A.bGM,B.Fs)
+v(A.bGC,B.Fp)
+v(A.bGH,B.Fr)
+v(A.bK1,B.G5)
+v(A.bK7,B.G6)
+v(A.bID,B.FP)
+u(B.oW,[A.cOY,A.cEC,A.cED,A.cEE,A.cEF,A.cEG,A.cEH,A.cEI,A.cEK,A.cEL,A.cEM,A.cEN,A.cEO,A.cEP,A.cEQ,A.cER,A.cES,A.cET,A.cEV,A.cEW,A.cEX,A.cEY,A.cEZ,A.cF_,A.cF0,A.cF1,A.cF2,A.cF3,A.cF5,A.cF6,A.cF7,A.cF8,A.cF9,A.cFa,A.cFb,A.cFc,A.cFd,A.cFe,A.cFg,A.cFh,A.cFi,A.cFj,A.cFk,A.cFl,A.cFm,A.cFn,A.cFo,A.cFp,A.cFr,A.cFs,A.cFt,A.cFu,A.cFv,A.cFw,A.cFx,A.cFy,A.cFz,A.cFA,A.cFC,A.cFD,A.cFE,A.cFF,A.cFG,A.cFH,A.cFI,A.cFJ,A.cFK,A.cFL,A.cFN,A.cFO,A.cFP,A.cFQ,A.cFR,A.cFS,A.cFT,A.cFU,A.cFV,A.cFW,A.cFY,A.cFZ,A.cG_,A.cG0,A.cG1,A.cG2,A.cG3,A.cG4,A.cG5,A.cG6,A.cG9,A.cGa,A.cGb,A.cGc,A.cGd,A.cGe,A.cGf,A.cGg,A.cGh,A.cGi,A.cGk,A.cGl,A.cGm,A.cGn,A.cGo,A.cGp,A.cGq,A.cGr,A.cGs,A.cGt,A.cGv,A.cGw,A.cGx,A.cGy,A.cGz,A.cGA,A.cGB,A.cGC,A.cGD,A.cGE,A.cGG,A.cGH,A.cGI,A.cGJ,A.cGK,A.cGL,A.cGM,A.cGN,A.cGO,A.cGP,A.cGR,A.cGS,A.cGT,A.cGU,A.cGV,A.cGW,A.cGX,A.cGY,A.cGZ,A.cH_,A.cH1,A.cH2,A.cH3,A.cH4,A.cH5,A.cH6,A.cH7,A.cH8,A.cH9,A.cHa,A.cHc,A.cHd,A.cHe,A.cHf,A.cHg,A.cHh,A.cHi,A.cHj,A.cHk,A.cHl,A.cHn,A.cHo,A.cHp,A.cHq,A.cHr,A.cHs,A.cHt,A.cHu,A.cHv,A.cHw,A.cHy,A.cHz,A.cHA,A.cHB,A.cHC,A.cHD,A.cHE,A.cHF,A.cHG,A.cHH,A.cHJ,A.cHK,A.cHL,A.cHM,A.cHN,A.cHO,A.cHP,A.cHQ,A.cHR,A.cHS,A.cHV,A.cHW,A.cHX,A.cHY,A.cHZ,A.cI_,A.cI0,A.cI1,A.cI2,A.cI3,A.cI5,A.cI6,A.cI7,A.cI8,A.cI9,A.cIa,A.cIb,A.cIc,A.cId,A.cIe,A.cIg,A.cIh,A.cIi,A.cIj,A.cIk,A.cIl,A.cIm,A.cIn,A.cIo,A.cIp,A.cIr,A.cIs,A.cIt,A.cIu,A.cIv,A.cIw,A.cIx,A.cIy,A.cIz,A.cIA,A.cIC,A.cID,A.cIE,A.cIF,A.cIG,A.cIH,A.cII,A.cIJ,A.cIK,A.cIL,A.cIN,A.cIO,A.cIP,A.cIQ,A.cIR,A.cIS,A.cIT,A.cIU,A.cIV,A.cIW,A.cIY,A.cIZ,A.cJ_,A.cJ0,A.cJ1,A.cJ2,A.cJ3,A.cJ4,A.cJ5,A.cJ6,A.cJ8,A.cJ9,A.cJa,A.cJb,A.cJc,A.cJd,A.cJe,A.cJf,A.cJg,A.cJh,A.cJj,A.cJk,A.cJl,A.cJm,A.cJn,A.cJo,A.cJp,A.cJq,A.cJr,A.cJs,A.cJu,A.cJv,A.cJw,A.cJx,A.cJy,A.cJz,A.cJA,A.cJB,A.cJC,A.cJD,A.cJG,A.cJH,A.cJI,A.cJJ,A.cJK,A.cJL,A.cJM,A.cJN,A.cJO,A.cJP,A.cJR,A.cJS,A.cJT,A.cJU,A.cJV,A.cJW,A.cJX,A.cJY,A.cJZ,A.cK_,A.cK1,A.cK2,A.cK3,A.cK4,A.cK5,A.cK6,A.cK7,A.cK8,A.cK9,A.cKa,A.cKc,A.cKd,A.cKe,A.cKf,A.cKg,A.cKh,A.cKi,A.cKj,A.cKk,A.cKl,A.cKn,A.cKo,A.cKp,A.cKq,A.cKr,A.cKs,A.cKt,A.cKu,A.cKv,A.cKw,A.cKy,A.cKz,A.cKA,A.cKB,A.cKC,A.cKD,A.cKE,A.cKF,A.cKG,A.cKH,A.cKJ,A.cKK,A.cKL,A.cKM,A.cKN,A.cKO,A.cKP,A.cKQ,A.cKR,A.cKS,A.cKU,A.cKV,A.cKW,A.cKX,A.cKY,A.cKZ,A.cL_,A.cL0,A.cL1,A.cL2,A.cL4,A.cL5,A.cL6,A.cL7,A.cL8,A.cL9,A.cLa,A.cLb,A.cLc,A.cLd,A.cLf,A.cLg,A.cLh,A.cLi,A.cLj,A.cLk,A.cLl,A.cLm,A.cLn,A.cLo,A.cLr,A.cLs,A.cLt,A.cLu,A.cLv,A.cLw,A.cLx,A.cLy,A.cLz,A.cLA,A.cLC,A.cLD,A.cLE,A.cLF,A.cLG,A.cLH,A.cLI,A.cLJ,A.cLK,A.cLL,A.cLN,A.cLO,A.cLP,A.cLQ,A.cLR,A.cLS,A.cLT])
+w(A.aXI,B.jv)})()
+B.alA(b.typeUniverse,JSON.parse('{"aFZ":{"fJ":[],"jv":["ed","fJ"]}}'))
+var y={r:"\n\n\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a, \u0436\u0430\u0440\u0430\u043c\u0434\u044b\u043b\u044b\u049b \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u2014 ",B:" Premium + AI \u0442\u0430\u0440\u0438\u0444\u0456\u043d\u0434\u0435 \u043a\u04af\u043d\u0456\u043d\u0435 5 \u0436\u0430\u0443\u0430\u043f \u0436\u04d9\u043d\u0435 AI \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0430\u0441\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u0433\u0456 \u0431\u0430\u0440.",i:" Premium \u0436\u0430\u0437\u044b\u043b\u044b\u043c\u044b\u043c\u0435\u043d AI \u0436\u0438\u0456\u0440\u0435\u043a \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456. \u0410\u043b \u0431\u04b1\u043b \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u04e9\u0437\u0456\u04a3\u0456\u0437 \u0442\u043e\u043b\u0442\u044b\u0440\u0430 \u0430\u043b\u0430\u0441\u044b\u0437",V:" \u0430\u043f\u0442\u0430\u0441\u044b\u043d\u0434\u0430 \u043d\u0435 \u0441\u04d9\u0442\u0442\u0456 \u0431\u043e\u043b\u0434\u044b \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u049b\u0430\u043b\u0430\u0439 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b?",M:" \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u0442\u043e\u049b\u0442\u0430\u0442\u044b\u04a3\u044b\u0437, \u04d9\u0439\u0442\u043f\u0435\u0441\u0435 \u0442\u04e9\u043b\u0435\u043c\u0434\u0435\u0440 \u0436\u0430\u043b\u0493\u0430\u0441\u0430 \u0431\u0435\u0440\u0435\u0434\u0456.",C:" \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u0493\u0430\u043d \u0441\u043e\u04a3, \u043c\u04b1\u043d\u0434\u0430 \u0430\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b.",L:" \u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0493\u0430 \u043a\u0456\u0440\u0435 \u0430\u043b\u043c\u0430\u0439\u0434\u044b, \u0430\u043b \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b, \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b \u0436\u04d9\u043d\u0435 \u0431\u04af\u043a\u0456\u043b \u0442\u0430\u0440\u0438\u0445\u044b \u0431\u0456\u0440\u0436\u043e\u043b\u0430 \u0436\u043e\u0439\u044b\u043b\u0430\u0434\u044b. \u0411\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0456 \u043a\u0435\u0440\u0456 \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441",F:" \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u044b\u043d\u0434\u0430\u0493\u044b \u0441\u044b\u0439\u043b\u044b\u049b: \u0431\u0430\u0493\u0430\u0441\u044b\u043d \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u043a\u0456\u043c \u0430\u043b\u0430 \u0430\u043b\u0430\u0442\u044b\u043d\u044b\u043d \u04e9\u0437\u0433\u0435\u0440\u0442\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",J:" \u043a\u043e\u0434\u044b\u043d \u0435\u043d\u0433\u0456\u0437.\n\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a, \u0436\u0430\u0440\u0430\u043c\u0434\u044b\u043b\u044b\u049b \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u2014 ",ed:" \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d\u0430 \u0445\u0430\u0442 \u0436\u0456\u0431\u0435\u0440\u0435\u043c\u0456\u0437. \u0425\u0430\u0442\u0442\u0430\u0493\u044b \u0441\u0456\u043b\u0442\u0435\u043c\u0435\u0433\u0435 \u04e9\u0442\u0456\u043f, \u0436\u0430\u04a3\u0430 \u049b\u04b1\u043f\u0438\u044f\u0441\u04e9\u0437 \u043e\u0440\u043d\u0430\u0442\u044b\u04a3\u044b\u0437.",_:" \u043e\u0441\u044b \u0430\u043f\u0442\u0430\u0493\u0430 \u0436\u0430\u04a3\u0430 \u0442\u0456\u0437\u0456\u043c \u0430\u043b\u0430\u0434\u044b. \u0411\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b",u:" \u043f\u0440\u043e\u0444\u0438\u043b\u0456 \u0430\u0448\u044b\u043b\u0430\u0434\u044b. \u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0435 \u0430\u0442\u0430-\u0430\u043d\u0430 \u043a\u043e\u0434\u044b \u0430\u0440\u049b\u044b\u043b\u044b \u049b\u0430\u0439\u0442\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",h:" \u0442\u0438\u044b\u043d \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0434\u0456 \u2014 \u043a\u04af\u043d\u0434\u0456\u043a \u043b\u0438\u043c\u0438\u0442. \u0422\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b \u0442\u043e\u043b\u044b\u049b \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0434\u0456",mA:" \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440. \u04d8\u0440 \u0442\u04af\u0440\u0456\u043d \u0431\u04e9\u043b\u0435\u043a \u04e9\u0448\u0456\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",lv:" \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u044b \u0440\u0435\u0442\u0456\u043d\u0434\u0435 \u0430\u043b\u0430\u0434\u044b. \u0411\u0430\u043b\u0430 \u043a\u04e9\u043c\u0435\u043a \u0441\u04b1\u0440\u0430\u0441\u0430, \u04e9\u0442\u0456\u043d\u0456\u0448\u0456 \u0434\u0435 \u043e\u0441\u044b\u043d\u0434\u0430 \u043a\u0435\u043b\u0435\u0434\u0456.",T:" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437: \u0431\u0430\u043b\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043f, \u043e\u043b\u0430\u0440 \u04af\u0448\u0456\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u0430\u0434\u044b, \u0430\u043b \u0441\u0456\u0437 \u043e\u043d\u044b\u04a3 \u049b\u0430\u043b\u0430\u0439 \u04e9\u0441\u0456\u043f \u0436\u0430\u0442\u049b\u0430\u043d\u044b\u043d \u043a\u04e9\u0440\u0435\u0441\u0456\u0437.\n\niPhone: ",q:" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d\u0430 \u043a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0441\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u04a3\u0434\u0430 \u0430\u0448:\n",mQ:" \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u049b\u0430\u043b\u0430\u0439 \u043e\u0439\u043d\u0430\u0439\u0442\u044b\u043d\u044b\u043d\u0430 \u049b\u0430\u0440\u0430\u0439 \u043a\u0435\u04a3\u0435\u0441 \u0431\u0435\u0440\u0435\u0434\u0456",k6:"225 \u04b1\u043f\u0430\u0439 \u04af\u0448\u0456\u043d \u0441\u043e\u04a3\u0493\u044b \u0441\u0430\u0442\u044b; \u0431\u04b1\u043b \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0442\u0456 \u0431\u0430\u0493\u0430\u043b\u0430\u0443 \u0435\u043c\u0435\u0441",z:"225 \u04b1\u043f\u0430\u0439 \u04af\u0448\u0456\u043d \u0441\u043e\u04a3\u0493\u044b \u0441\u0430\u0442\u044b; \u0431\u04b1\u043b \u043c\u0456\u043d\u0435\u0437\u0434\u0456 \u0431\u0430\u0493\u0430\u043b\u0430\u0443 \u0435\u043c\u0435\u0441",D:"225 \u04b1\u043f\u0430\u0439 \u04af\u0448\u0456\u043d \u0441\u043e\u04a3\u0493\u044b \u0441\u0430\u0442\u044b; \u0441\u043f\u043e\u0440\u0442\u0442\u044b\u049b \u043d\u043e\u0440\u043c\u0430\u0442\u0438\u0432 \u0436\u043e\u049b",lZ:"25 \u0456\u0441 \u0431\u043e\u043b\u0434\u044b! \u041a\u0456\u0448\u043a\u0435\u043d\u0442\u0430\u0439 \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0435\u0440 \u0436\u0438\u043d\u0430\u049b\u0442\u0430\u043b\u044b\u043f, \u0435\u043b\u0435\u0443\u043b\u0456 \u043d\u04d9\u0442\u0438\u0436\u0435 \u0431\u0435\u0440\u0435\u0434\u0456",d:"50 \u04b1\u043f\u0430\u0439 \u04af\u0448\u0456\u043d \u0435\u043a\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b; \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0435\u0448\u0442\u0435\u04a3\u0435 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u043c\u0435\u0439\u0434\u0456",b2:"50 \u04b1\u043f\u0430\u0439 \u04af\u0448\u0456\u043d \u0435\u043a\u0456\u043d\u0448\u0456 \u0441\u0430\u0442\u044b; \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0440\u0435\u0441\u0443\u0440\u0441 \u0431\u0435\u0440\u0456\u043b\u043c\u0435\u0439\u0434\u0456",c:": \u043e\u0441\u044b \u0430\u043f\u0442\u0430\u0434\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u049b\u0430\u043b\u0430\u0439 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u044b\u043f \u0436\u0430\u0442\u049b\u0430\u043d\u044b\u043d, \u043d\u0435 \u0431\u04d9\u0440\u0456\u043d\u0435\u043d \u0436\u0430\u049b\u0441\u044b \u0448\u044b\u0493\u044b\u043f \u0436\u0430\u0442\u049b\u0430\u043d\u044b\u043d \u0436\u04d9\u043d\u0435 \u043d\u0435\u043d\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u043a\u0435\u043d \u0436\u04e9\u043d \u0435\u043a\u0435\u043d\u0456\u043d \u0442\u0430\u043b\u0434\u0430\u043f \u0431\u0435\u0440",O:"AI \u049b\u0430\u0437\u0456\u0440 \u0431\u043e\u0441 \u0435\u043c\u0435\u0441. \u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",co:"Free \u0436\u04d9\u043d\u0435 Premium \u0442\u0430\u0440\u0438\u0444\u0442\u0435\u0440\u0456\u043d\u0434\u0435 \u0430\u0442\u0430-\u0430\u043d\u0430\u043b\u0430\u0440 \u043a\u04e9\u043c\u0435\u043a\u0448\u0456\u0441\u0456\u043d\u0435 \u0430\u0439\u044b\u043d\u0430 3 \u0440\u0435\u0442 \u0436\u04af\u0433\u0456\u043d\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b. ",s:"\xab\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u0431\u0430\u0440 \u043a\u0435\u043b\u0456\u0441\u0456\u043b\u0433\u0435\u043d \u0456\u0441\u0442\u0456 \u043e\u0440\u044b\u043d\u0434\u0430",lk:"\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456, \u0431\u04b1\u0440\u044b\u043d\u0493\u044b \u0456\u0441\u0442\u0435\u0440\u0456\u04a3 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u049b\u043e\u0441\u044b\u043b\u0434\u044b: ",H:"\xbb \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u0448\u0430\u049b\u044b\u0440\u0430\u0434\u044b. \u0421\u0456\u0437 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b\u043d \u043a\u04e9\u0440\u0456\u043f, \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u043c\u0430\u0440\u0430\u043f\u0430\u0442 \u0431\u0435\u0440\u0435\u0441\u0456\u0437. \u0428\u0430\u049b\u044b\u0440\u0443 ",c2:"\xbb \u04af\u0448\u0456\u043d \u043c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456. \u0421\u04b1\u0440\u0430\u0443 \u0436\u0456\u0431\u0435\u0440 \u2014 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3 \u043e\u043d\u044b \u049b\u0430\u0448\u0430\u043d \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u0442\u044b\u043d\u044b\u043d \u0448\u0435\u0448\u0435\u0434\u0456",y:"\xbb. \u041d\u0435 \u0456\u0441\u0442\u0435\u0443 \u043a\u0435\u0440\u0435\u043a\u0442\u0456\u0433\u0456\u043d \u0431\u0456\u043b\u0443 \u04af\u0448\u0456\u043d \u0448\u0430\u0440\u0442\u0442\u0430\u0440\u044b\u043d \u0430\u0448. \u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0434\u0430 \u043e\u0439\u044b\u043d \u0441\u044b\u0439\u043b\u044b\u0493\u044b \u0436\u043e\u049b",is:"\xbb. \u0428\u0430\u0440\u0442\u0442\u0430\u0440\u044b\u043d \u0430\u0448: \u043d\u0435 \u0456\u0441\u0442\u0435\u0443 \u043a\u0435\u0440\u0435\u043a \u0436\u04d9\u043d\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u043d\u0448\u0430 XP \u043c\u0435\u043d \u043c\u043e\u043d\u0435\u0442\u0430 \u0430\u043b\u0430\u0442\u044b\u043d\u044b\u04a3\u0434\u044b \u049b\u0430\u0440\u0430",A:"\u0406\u0441 \u043e\u0440\u044b\u043d\u0434\u0430, \u043e\u043d\u044b\u04a3 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0443\u044b\u043d \u043a\u04af\u0442, \u0441\u043e\u0441\u044b\u043d \u043e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0441\u04b1\u0440\u0430\u043f \u0430\u043b",W:"\u0406\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u043a\u04af\u043d\u0434\u0435\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0456\u0431\u0435\u0440\u0443 \u0441\u0435\u0440\u0438\u044f\u0441\u044b\u043d\u0430\u043d \u0431\u04e9\u043b\u0435\u043a \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0435\u0434\u0456; \u04af\u0437\u0456\u043b\u0456\u0441\u0442\u0435\u0440 \u0435\u0448\u0442\u0435\u04a3\u0435\u043d\u0456 \u043d\u04e9\u043b\u0433\u0435 \u0442\u04af\u0441\u0456\u0440\u043c\u0435\u0439\u0434\u0456",oq:"\u0406\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u043e\u043d \u043a\u04af\u043d \u0436\u0438\u043d\u0430. \u04ae\u0437\u0456\u043b\u0456\u0441 \u0436\u0430\u0441\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",dV:"\u0406\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u043e\u0442\u0431\u0430\u0441\u044b\u04a3\u043c\u0435\u043d \u043a\u0435\u043b\u0456\u0441\u043a\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u0430\u043b",k:"\u0406\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u044b\u04a3 \u0431\u0435\u0440\u0456\u043b\u0433\u0435\u043d\u0456 \u0430\u0442\u0430\u043f \u04e9\u0442\u0456\u043b\u0434\u0456. \u0410\u0442\u0430-\u0430\u043d\u0430\u043d\u044b \u043a\u04af\u0442\u043a\u0435\u043d \u043a\u0435\u0437\u0434\u0435 \u0431\u0430\u043b\u0430\u0434\u0430\u043d \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0456\u0441 \u0442\u0430\u043b\u0430\u043f \u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456",br:"\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u0442\u044b \u0436\u043e\u044e \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",R:"\u0410\u043b\u0434\u044b\u043c\u0435\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0431\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0441\u044b\u043d\u0430 \u0436\u04af\u043a\u0442\u0435\u043f \u0430\u043b\u044b\u04a3\u044b\u0437, \u0441\u043e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u043a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 QR-\u043a\u043e\u0434\u0442\u044b \u0441\u043a\u0430\u043d\u0435\u0440\u043b\u0435\u04a3\u0456\u0437",oJ:"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0430\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b. \u0411\u0430\u0493\u044b\u0442\u049b\u0430 \u0431\u0435\u0440\u0456\u043b\u0435\u0442\u0456\u043d +2 \u2014 \u043c\u0438\u0441\u0441\u0438\u044f\u043d\u044b\u04a3 \u043d\u04d9\u0442\u0438\u0436\u0435\u0441\u0456; \u0431\u0435\u043b\u0433\u0456 \u0435\u0448\u0442\u0435\u04a3\u0435 \u049b\u043e\u0441\u043f\u0430\u0439\u0434\u044b",Y:"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0431\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u043e\u0441\u0430\u0439\u044b\u049b \u2014 \u043e\u043b \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0441\u0456\u0437\u0431\u0435\u043d \u0431\u0456\u0440\u0433\u0435 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440\u0441\u0456\u043d",ki:"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u044b\u043d\u0434\u044b! \u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0443\u04d9\u0434\u0435 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b",g:"\u0410\u043b\u0493\u0430\u0448\u049b\u044b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u049b\u04b1\u0440\u044b\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0434\u0430\u0439\u044b\u043d\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437 \u2014 \u0431\u0430\u043b\u0430 \u043e\u043d\u044b \u04e9\u0437 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0435\u043d \u043a\u04e9\u0440\u0435\u0434\u0456",j:"\u0410\u043b\u0493\u0430\u0448\u049b\u044b\u0441\u044b\u043d \u049b\u04b1\u0440\u044b\u04a3\u044b\u0437 \u2014 \u0431\u0430\u043b\u0430 \u04e9\u0437 \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u043e\u0493\u0430\u043d \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0439 \u0430\u043b\u0430\u0434\u044b",I:"\u0410\u043f\u0442\u0430 \u043c\u0438\u0441\u0441\u0438\u044f\u0441\u044b\u043d \u0431\u0435\u0441 \u0440\u0435\u0442 \u0430\u044f\u049b\u0442\u0430. \u0410\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0434\u0435\u043c\u0430\u043b\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",iu:"\u0410\u043f\u0442\u0430 \u049b\u043e\u0440\u044b\u0442\u044b\u043d\u0434\u044b\u0441\u044b\u043d \u0434\u0430\u0439\u044b\u043d\u0434\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b",nP:"\u0410\u0442\u0430-\u0430\u043d\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d \u0430\u0448\u0443 \u04af\u0448\u0456\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u049b\u0430 \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437 \u2014 \u043a\u0456\u0440\u0433\u0435\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430 PIN \u043e\u0440\u043d\u0430\u0442\u0443\u0434\u044b \u0441\u04b1\u0440\u0430\u0439\u0434\u044b.",N:"\u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0436\u0430\u0437\u0493\u0430\u043d \u0435\u0441\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0434\u044b\u0440\u0443\u0493\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",f:"\u0410\u0442\u044b\u043d \u0442\u0435\u043a \u043f\u0440\u043e\u0444\u0438\u043b\u044c \u0438\u0435\u0441\u0456 \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0442\u0430-\u0430\u043d\u0430 \u04e9\u0437\u0433\u0435\u0440\u0442\u0435 \u0430\u043b\u0430\u0434\u044b.",oI:"\u0410\u0442\u044b\u04a3\u044b\u0437\u0434\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437: 1-\u0434\u0435\u043d 80 \u0442\u0430\u04a3\u0431\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d",eV:"\u0410\u049b\u044b\u043b \u2014 10-\u0434\u0435\u04a3\u0433\u0435\u0439! \u04ae\u043b\u043a\u0435\u043d \u0436\u043e\u043b\u044b\u04a3 \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f\u0434\u0430 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b",nX:"\u0410\u049b\u044b\u043b \u2014 2-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0406\u0441\u0442\u0435\u0440\u0456\u04a3\u043d\u0456\u04a3 \u04e9\u0437 \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0434\u044b",l:"\u0410\u049b\u044b\u043b \u2014 5-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0406\u0441\u0442\u0435\u0440\u0456\u04a3 \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435\u0433\u0435 \u0430\u0439\u043d\u0430\u043b\u044b\u043f \u0436\u0430\u0442\u044b\u0440",p:"\u0410\u049b\u044b\u043b\u044b\u04a3\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0443 \u04af\u0448\u0456\u043d \u043e\u0441\u044b \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u0431\u0430\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430",p3:"\u0411\u0430\u043b\u0430 \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u0431\u0435\u043b\u0433\u0456\u043d\u0456 \u0430\u043b\u0493\u0430\u0448\u049b\u044b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0456\u0441\u0456 \u04af\u0448\u0456\u043d \u0430\u043b\u0430\u0434\u044b",K:"\u0411\u0430\u043b\u0430 \u0431\u0430\u0440\u043b\u044b\u049b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u0441\u0430 \u0434\u0430, \u0431\u0456\u0440 \u043a\u04af\u043d\u0434\u0435 \u0431\u04b1\u0434\u0430\u043d \u0430\u0440\u0442\u044b\u049b \u0442\u0438\u044b\u043d \u0442\u0430\u0431\u0430 \u0430\u043b\u043c\u0430\u0439\u0434\u044b",ow:"\u0411\u0430\u043b\u0430 \u0440\u0435\u0436\u0438\u043c\u0456\u043d \u0430\u0448\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",f4:"\u0411\u0430\u043b\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u0493\u0430\u043d\u0434\u0430, \u043e\u043b \u043e\u0441\u044b\u043d\u0434\u0430 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",ck:"\u0411\u0430\u043b\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u04e9\u0437 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0435\u043d \u043a\u04e9\u0440\u0456\u043f, \u0441\u0456\u0437 \u0442\u0435\u043a\u0441\u0435\u0440\u0433\u0435\u043d\u043d\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u0430\u0434\u044b",E:"\u0411\u0430\u043b\u0430 \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u0431\u0456\u0440 \u043d\u04d9\u0440\u0441\u0435\u0433\u0435 \u0436\u04b1\u043c\u0441\u0430\u0439 \u0430\u043b\u0443\u044b \u04af\u0448\u0456\u043d",d9:"\u0411\u0430\u043b\u0430 \u0442\u0438\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u049b\u0430 \u0430\u0439\u044b\u0440\u0431\u0430\u0441\u0442\u0430\u0493\u0430\u043d\u0434\u0430, \u0441\u04b1\u0440\u0430\u043d\u044b\u0441 \u043e\u0441\u044b\u043d\u0434\u0430 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",a:"\u0411\u0430\u043b\u0430 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437 \u2014 \u0441\u043e\u043d\u0434\u0430 \u043c\u04b1\u043d\u0434\u0430 \u0447\u0430\u0442\u044b\u04a3\u044b\u0437 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",b:"\u0411\u0430\u043b\u0430 \u04d9\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u04af\u0448\u0456\u043d \u0430\u043b\u0430\u0442\u044b\u043d \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u043e\u0441\u044b \u0441\u0430\u043d\u0493\u0430 \u043a\u04e9\u0431\u0435\u0439\u0442\u0456\u043b\u0435\u0434\u0456. \xd71,0 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430 \u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440 \u04d9\u0434\u0435\u0442\u0442\u0435\u0433\u0456 \u049b\u0430\u0440\u049b\u044b\u043d\u043c\u0435\u043d \u04e9\u0441\u0435\u0434\u0456",v:"\u0411\u0430\u043b\u0430\u0434\u0430 \u0442\u0438\u044b\u043d \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0441\u0456\u0437. \u0411\u0430\u0441 \u0442\u0430\u0440\u0442\u044b\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u04b1\u0440\u0430\u0443\u0434\u044b \u043a\u0435\u0439\u0456\u043d\u0433\u0435 \u049b\u0430\u043b\u0434\u044b\u0440\u044b\u04a3\u044b\u0437",x:"\u0411\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u0430 \u0431\u0430\u0493\u0430 \u04d9\u0440\u0442\u04af\u0440\u043b\u0456 \u2014 \u0442\u0430\u04a3\u0434\u0430\u043b\u0493\u0430\u043d\u0434\u0430\u0440\u0434\u044b\u04a3 \u0431\u04d9\u0440\u0456\u043d\u0435 \u0431\u0456\u0440 \u0431\u0430\u0493\u0430 \u049b\u043e\u0439\u044b\u04a3\u044b\u0437",fD:"\u0411\u0430\u043b\u0430\u043d\u044b \u049b\u043e\u0441\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",b0:"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u0434\u0435\u04a3\u0433\u0435\u0439\u0456 \u043c\u0435\u043d \u049b\u044b\u0437\u044b\u0493\u0443\u0448\u044b\u043b\u044b\u049b\u0442\u0430\u0440\u044b\u043d\u0430 \u049b\u0430\u0440\u0430\u0439 \u0442\u0430\u04a3\u0434\u0430\u0434\u044b\u043c. \u04b0\u043d\u0430\u0493\u0430\u043d\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437: \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0430\u043b\u0434\u044b\u043c\u0435\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0441\u0430\u049b\u0442\u0430\u0439\u0441\u044b\u0437, \u0430\u043b \u0441\u044b\u0439\u043b\u044b\u049b \u043f\u0435\u043d \u043b\u0438\u043c\u0438\u0442 \u0431\u0456\u0440\u0434\u0435\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0430\u0434\u044b.",hW:"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u043d\u04d9\u0442\u0438\u0436\u0435\u0441\u0456\u043d \u0430\u0448\u044b\u04a3\u044b\u0437. \u041e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u049b\u044b\u0441\u049b\u0430\u0448\u0430 \u0442\u04af\u0441\u0456\u043d\u0434\u0456\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u04a3\u0456\u0437",gj:"\u0411\u0430\u043b\u0430\u043d\u044b\u04a3 \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0441\u044b\u043d\u0434\u0430 \xab\u041c\u0435\u043d \u0431\u0430\u043b\u0430\u043c\u044b\u043d\xbb \u0442\u0430\u0440\u043c\u0430\u0493\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u043f, 6 \u0442\u0430\u04a3\u0431\u0430\u043b\u044b \u043a\u043e\u0434\u0442\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437. \u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0448\u0443\u0493\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 QR \u043a\u043e\u0434\u044b\u043d \u0441\u043a\u0430\u043d\u0435\u0440\u043b\u0435\u0443\u0433\u0435 \u0434\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",iJ:"\u0411\u0430\u043b\u0430\u0493\u0430 \u0430\u043f\u0442\u0430\u0441\u044b\u043d\u0430 \u0431\u0435\u0440\u0456\u043b\u0435\u0442\u0456\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0441\u0430\u043d\u044b. \u0411\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b",i6:"\u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0493\u0430 \u0431\u0435\u0440\u0443\u0433\u0435 \u0434\u0430\u0439\u044b\u043d \u043d\u04d9\u0440\u0441\u0435\u043d\u0456 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437. \u041c\u044b\u0441\u0430\u043b\u044b, \u0431\u0456\u0440\u0433\u0435 \u04af\u0441\u0442\u0435\u043b \u043e\u0439\u044b\u043d\u0434\u0430\u0440\u044b\u043d \u043e\u0439\u043d\u0430\u0439\u0442\u044b\u043d \u043a\u0435\u0448. \u0411\u0430\u0493\u0430\u0441\u044b\u043d \u043c\u043e\u043d\u0435\u0442\u0430\u043c\u0435\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u04a3\u0456\u0437",m:"\u0411\u0430\u0440\u043b\u044b\u049b \u0441\u0435\u0430\u043d\u0441\u0442\u0430\u0440\u0434\u044b, \u0441\u043e\u043d\u044b\u04a3 \u0456\u0448\u0456\u043d\u0434\u0435 \u043e\u0441\u044b \u0441\u0435\u0430\u043d\u0441\u0442\u044b \u0434\u0430 \u0430\u044f\u049b\u0442\u0430\u0439\u043c\u044b\u0437. \u041e\u0440\u0430\u043b\u0443 \u04af\u0448\u0456\u043d \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0456\u04a3\u0456\u0437.",hV:"\u0411\u0430\u0441\u049b\u0430 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b \u043a\u0435\u0439\u0456\u043d \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0431\u0430\u0441\u0443\u043c\u0435\u043d \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",P:"\u0411\u0430\u0441\u049b\u0430 \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440\u0434\u044b \u0435\u0441\u0435\u043f\u0442\u0435\u0433\u0435\u043d\u0434\u0435 \u0442\u0438\u044b\u043d \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0441\u0456\u0437",Z:"\u0411\u0430\u0493\u0430\u043c\u0434\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",hn:"\u0411\u0435\u043b\u0433\u0456 \u0410\u049b\u044b\u043b\u0434\u044b\u04a3 2, 5 \u0436\u04d9\u043d\u0435 10-\u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0456\u043d\u0434\u0435 \u04e9\u0437\u0433\u0435\u0440\u0435\u0434\u0456",da:"\u0411\u0435\u043b\u0433\u0456 \u0416\u0430\u043d\u043d\u044b\u04a3 2, 5 \u0436\u04d9\u043d\u0435 10-\u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0456\u043d\u0434\u0435 \u04e9\u0437\u0433\u0435\u0440\u0435\u0434\u0456",S:"\u0411\u0435\u043b\u0433\u0456 \u041a\u04af\u0448\u0442\u0456\u04a3 2, 5 \u0436\u04d9\u043d\u0435 10-\u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0456\u043d\u0434\u0435 \u04e9\u0437\u0433\u0435\u0440\u0435\u0434\u0456",lW:"\u0411\u0435\u043b\u0433\u0456 \u0431\u04b1\u043b \u043c\u0438\u0441\u0441\u0438\u044f\u043b\u0430\u0440\u0434\u044b\u04a3 \u04d9\u0434\u0435\u0442\u0442\u0435\u0433\u0456 \u043d\u04d9\u0442\u0438\u0436\u0435\u043b\u0435\u0440\u0456\u043d\u0435 \u0435\u0448\u0442\u0435\u04a3\u0435 \u049b\u043e\u0441\u043f\u0430\u0439\u0434\u044b",fZ:"\u0411\u0435\u043b\u0433\u0456 \u0441\u0430\u043d\u0430\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u0430\u043b\u0443\u0430\u043d \u0442\u04af\u0440\u043b\u0456\u043b\u0456\u0433\u0456\u043d \u0430\u0442\u0430\u043f \u04e9\u0442\u0435\u0434\u0456; \u04af\u0448 \u0431\u0430\u0493\u044b\u0442\u0442\u044b \u0431\u0456\u0440\u0434\u0435\u0439 \u0434\u0430\u043c\u044b\u0442\u0443 \u0442\u0430\u043b\u0430\u043f \u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456",gp:"\u0411\u0435\u043b\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u04b1\u0440\u0430\u049b\u0442\u044b \u0436\u0456\u0431\u0435\u0440\u0443\u0434\u0456 \u0430\u0442\u0430\u043f \u04e9\u0442\u0435\u0434\u0456: \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0434\u0456 \u043a\u04af\u0442\u043f\u0435\u0439\u0434\u0456 \u0436\u04d9\u043d\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u043e\u0441\u044b\u043c\u0448\u0430 \u0431\u0435\u0440\u043c\u0435\u0439\u0434\u0456",eU:"\u0411\u0435\u043b\u0433\u0456\u043b\u0435\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0456\u0441\u0442\u0435\u0440\u0456\u043d \u0430\u0442\u0430\u043f \u04e9\u0442\u0435\u0434\u0456. \u041e\u043b\u0430\u0440 \u0442\u0438\u044b\u043d \u043c\u0435\u043d \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u0431\u0435\u0440\u043c\u0435\u0439\u0434\u0456 \u0436\u04d9\u043d\u0435 \u043c\u0456\u043d\u0435\u0437\u0434\u0456 \u0431\u0430\u0493\u0430\u043b\u0430\u043c\u0430\u0439\u0434\u044b; \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0456 \u0436\u043e\u049b",l3:"\u0411\u0435\u0441 \u043c\u0438\u0441\u0441\u0438\u044f \u0430\u0440\u0442\u0442\u0430 \u049b\u0430\u043b\u0434\u044b! \u04d8\u0440\u049b\u0430\u0439\u0441\u044b\u0441\u044b\u043d\u044b\u04a3 \u04e9\u0437 \u0436\u043e\u043b\u044b \u0431\u043e\u043b\u0434\u044b",j1:"\u0411\u0435\u0441 \u0456\u0441 \u0434\u0430\u0439\u044b\u043d! \u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f\u04a3\u0430 \u0436\u0430\u04a3\u0430 \u0431\u0435\u043b\u0433\u0456 \u049b\u043e\u0441\u044b\u043b\u0434\u044b",Q:"\u0411\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",ip:"\u0411\u0456\u0440 \u0440\u0435\u0442 1-\u0434\u0435\u043d 500 \u0442\u0438\u044b\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0431\u0435\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",it:"\u0411\u0456\u0440 \u0442\u0438\u044b\u043d\u043d\u044b\u04a3 \u043d\u0430\u049b\u0442\u044b \u0430\u049b\u0448\u0430\u0434\u0430\u0493\u044b \u049b\u04b1\u043d\u044b \u2014 \u0431\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0493\u0430 \u0431\u0456\u0440 \u0431\u0430\u0493\u0430\u043c",mT:"\u0411\u04af\u0433\u0456\u043d \u0441\u0435\u043d \u0431\u04d9\u0440\u0456\u043d\u0435\u043d \u043a\u0435\u0440\u0435\u043c\u0435\u0442\u0441\u0456\u04a3!\n\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440 \u0436\u04af\u043a\u0442\u0435\u043b\u0443\u0434\u0435...",n:"\u0411\u04af\u0433\u0456\u043d\u0433\u0456 AI \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b. \u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u04e9\u0437\u0456\u04a3\u0456\u0437 \u0442\u043e\u043b\u0442\u044b\u0440\u044b\u04a3\u044b\u0437",lQ:"\u0411\u04b1\u043b Oyna \u0448\u0430\u049b\u044b\u0440\u0443\u044b \u0435\u043c\u0435\u0441. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d QR-\u043a\u043e\u0434\u0442\u044b \u0441\u04b1\u0440\u0430.",hF:"\u0411\u04b1\u043b \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0434\u0430\u0493\u044b Oyna Family-\u0434\u0430 \u0436\u0430\u0441\u0430\u043b\u0430\u0434\u044b.",ga:"\u0411\u04b1\u043b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430\u0493\u044b \u0431\u0430\u0440\u043b\u044b\u049b \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u043e\u0440\u0442\u0430\u049b",jY:"\u0411\u04b1\u043b \u043a\u0432\u0435\u0441\u0442 \u04d9\u043b\u0434\u0435\u049b\u0430\u0448\u0430\u043d \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0433\u0435\u043d!",X:"\u0411\u04b1\u043b \u043a\u04af\u043d\u0434\u0456\u043a \u0448\u0435\u043a\u0442\u0435\u043d \u0430\u0441\u0430\u0434\u044b: \u0431\u0456\u0440 \u0431\u0430\u043b\u0430\u0493\u0430 \u043a\u04af\u043d\u0456\u043d\u0435 \u0435\u04a3 \u043a\u04e9\u0431\u0456 1000 \u0431\u043e\u043d\u0443\u0441 \u0442\u0438\u044b\u043d \u0431\u0435\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",nI:"\u0411\u04b1\u043b \u043c\u0435\u0440\u0437\u0456\u043c \u0435\u043d\u0434\u0456 \u0441\u04d9\u0439\u043a\u0435\u0441 \u043a\u0435\u043b\u043c\u0435\u0439\u0434\u0456. \u0411\u0430\u0441\u049b\u0430\u0441\u044b\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",mU:"\u0411\u04b1\u043b \u0441\u0456\u043b\u0442\u0435\u043c\u0435 Oyna Family-\u0434\u0430\u043d \u0442\u044b\u0441 \u0430\u0448\u044b\u043b\u0430\u0434\u044b. \u041c\u044b\u0441\u0430\u043b\u0434\u044b \u0435\u0440\u0435\u0441\u0435\u043a \u0430\u0434\u0430\u043c \u0448\u0435\u0448\u0441\u0456\u043d",h1:"\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 Oyna Family \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u044b\u043d\u0430\u043d \u2014 \u043e\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443\u0433\u0435 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b",e:"\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 Oyna Family \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u044b\u043d\u0430\u043d \u2014 \u043e\u043d\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u0443\u0433\u0435 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b, \u0431\u0456\u0440\u0430\u049b \u04b1\u049b\u0441\u0430\u0441\u044b\u043d \u049b\u04b1\u0440\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",cd:"\u0411\u04b1\u043b \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0431\u04af\u0433\u0456\u043d \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d. \u049a\u0430\u0439\u0442\u0430 \u0436\u0456\u0431\u0435\u0440\u0443 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0442\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u044b",kO:"\u0411\u04b1\u043b \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u0436\u0430\u04a3\u0430 \u043e\u0442\u0431\u0430\u0441\u044b\u0493\u0430 \u04e9\u0442\u0435\u0434\u0456 \u2014 \u0448\u0430\u049b\u044b\u0440\u0443\u0434\u044b \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0436\u0456\u0431\u0435\u0440\u0441\u0435 \u0493\u0430\u043d\u0430 \u043a\u0435\u043b\u0456\u0441",dL:"\u0411\u04b1\u043b \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u044b \u0431\u0430\u043b\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0456\u043d\u0435 \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u049b\u043e\u0441\u0430\u043c\u044b\u0437",er:"\u0411\u04b1\u043b \u0443\u0430\u049b\u044b\u0442\u0442\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443\u043b\u0430\u0440 \u0442\u0430\u04a3\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u043a\u04af\u0442\u0435 \u0442\u04b1\u0440\u0430\u0434\u044b",oR:"\u0411\u04b1\u043b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0434\u0430 \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0435\u043d\u0433\u0456\u0437\u0443 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437",jP:"\u0411\u04b1\u043b \u049b\u04b1\u0440\u044b\u043b\u0493\u044b\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0431\u0435\u0440\u0433\u0435\u043d \u043a\u043e\u0434\u0442\u044b \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437. QR-\u043a\u043e\u0434\u0442\u044b \u0441\u043a\u0430\u043d\u0435\u0440\u043b\u0435\u0443 \u04af\u0448\u0456\u043d \u043a\u0430\u043c\u0435\u0440\u0430\u0441\u044b \u0431\u0430\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u044b \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d.",jJ:"\u0414\u0430\u0439\u044b\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437, \u04e9\u0437\u0456\u04a3\u0456\u0437 \u043e\u0439\u043b\u0430\u043f \u0442\u0430\u0431\u044b\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 AI-\u0434\u0430\u043d \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437",fh:"\u0414\u0430\u0443\u044b\u0441\u0442\u044b \u0436\u0430\u0437\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",dO:"\u0414\u0430\u0443\u044b\u0441\u0442\u044b \u0442\u0456\u043a\u0435\u043b\u0435\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0434\u0430 \u043c\u04d9\u0442\u0456\u043d\u0433\u0435 \u0430\u0439\u043d\u0430\u043b\u0434\u044b\u0440\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0440 \u0440\u0435\u0442 61 \u041c\u0411 \u0436\u04af\u043a\u0442\u0435\u043f \u0430\u043b\u044b\u04a3\u044b\u0437. \u041a\u0435\u0439\u0456\u043d \u0431\u04b1\u043b \u04af\u0448\u0456\u043d \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442 \u049b\u0430\u0436\u0435\u0442 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b. \u0416\u0430\u0437\u0431\u0430 \u0434\u0430\u0439\u044b\u043d \u2014 \u043c\u04d9\u0442\u0456\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u0430\u044f\u049b\u0442\u0430\u043b\u0493\u0430\u043d \u0441\u043e\u04a3 \u0431\u0456\u0440\u0434\u0435\u043d \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",oo:"\u0414\u0435\u0440\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u04d9\u0437\u0456\u0440\u0433\u0435 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441. \u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0436\u0430\u04a3\u0430\u0440\u0442\u049b\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",an:"\u0415\u043b\u0443 \u0456\u0441! \u0411\u04b1\u043b \u0431\u0435\u043b\u0433\u0456\u043d\u0456\u04a3 \u0430\u0440\u0442\u044b\u043d\u0434\u0430 \u0441\u0435\u043d\u0456\u04a3 \u043a\u04e9\u043f\u0442\u0435\u0433\u0435\u043d \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0435\u0440\u0456\u04a3 \u0442\u04b1\u0440",bB:"\u0415\u043d\u0434\u0456 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d \u049b\u043e\u0441\u0443 \u0493\u0430\u043d\u0430 \u049b\u0430\u043b\u0434\u044b \u2014 \u043e\u043d\u044b\u04a3 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b \u0441\u043e\u043d\u0434\u0430 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",dJ:"\u0415\u043d\u0434\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043f, \u0441\u044b\u0439\u043b\u044b\u049b \u0430\u043b\u0430 \u0430\u043b\u0430\u0441\u044b\u04a3. \u049a\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3!",U:"\u0415\u0448\u0442\u0435\u04a3\u0435 \u0456\u0441\u0442\u0435\u0443\u0434\u0456\u04a3 \u049b\u0430\u0436\u0435\u0442\u0456 \u0436\u043e\u049b \u2014 \u043e\u043b \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0456\u043f \u049b\u043e\u0439\u0493\u0430\u043d",mf:"\u0416\u0430\u043d \u2014 10-\u0434\u0435\u04a3\u0433\u0435\u0439! \u04ae\u043b\u043a\u0435\u043d \u0436\u043e\u043b\u044b\u04a3 \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f\u0434\u0430 \u0441\u0430\u049b\u0442\u0430\u043b\u0434\u044b",gv:"\u0416\u0430\u043d \u2014 2-\u0434\u0435\u04a3\u0433\u0435\u0439! \u049a\u0430\u043c\u049b\u043e\u0440\u043b\u044b\u049b\u049b\u0430 \u0442\u043e\u043b\u044b \u0456\u0441\u0442\u0435\u0440\u0456\u04a3\u043d\u0456\u04a3 \u04e9\u0437 \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0434\u044b",nl:"\u0416\u0430\u043d \u2014 5-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0422\u0430\u0440\u0438\u0445\u044b\u04a3\u0434\u0430 \u049b\u0430\u043c\u049b\u043e\u0440\u043b\u044b\u049b\u049b\u0430 \u0442\u043e\u043b\u044b \u0456\u0441\u0442\u0435\u0440 \u043a\u04e9\u0431\u0435\u0439\u0434\u0456",o:"\u0416\u0430\u043d\u044b\u04a3\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u0443 \u04af\u0448\u0456\u043d \u043e\u0441\u044b \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u0431\u0430\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430",j6:"\u0416\u0430\u049b\u044b\u043d\u0434\u0430 \u0435\u043a\u0456\u043d\u0448\u0456 \u0435\u0440\u0435\u0441\u0435\u043a \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0430 \u049b\u043e\u0441\u044b\u043b\u0430 \u0430\u043b\u0430\u0434\u044b: \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043a\u04e9\u0440\u0456\u043f, \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u043c\u0430\u0440\u0430\u043f\u0430\u0442 \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u0434\u044b. \u0414\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0439\u043c\u044b\u0437",ku:"\u0416\u0430\u04a3\u0430 QR \u0434\u0430\u0439\u044b\u043d, \u0431\u04b1\u0440\u044b\u043d\u0493\u044b\u0441\u044b \u0435\u043d\u0434\u0456 \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u043c\u0435\u0439\u0434\u0456",k1:"\u0416\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437 \u2014 \u043c\u04d9\u0442\u0456\u043d \u0435\u043d\u0433\u0456\u0437\u0443 \u04e9\u0440\u0456\u0441\u0456\u043d\u0434\u0435 \u049b\u0430\u043b\u0434\u044b",w:"\u0416\u04af\u043a\u0442\u0435\u043c\u0435\u043d\u0456 \u04e9\u0437\u0433\u0435\u0440\u0442\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",o6:"\u0416\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",fq:"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437 \u2014 \u0441\u04b1\u0440\u0430\u0493\u044b\u04a3\u044b\u0437 \u0435\u043d\u0433\u0456\u0437\u0443 \u04e9\u0440\u0456\u0441\u0456\u043d\u0434\u0435 \u049b\u0430\u043b\u0434\u044b",ie:"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437 \u2014 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0433\u0435\u043d \u0431\u043e\u0439\u0434\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043b\u0430\u0440 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",iE:"\u041a\u0430\u043c\u0435\u0440\u0430 \u0430\u0448\u044b\u043b\u043c\u0430\u0434\u044b. \u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440 \u043d\u0435\u043c\u0435\u0441\u0435 \u043a\u043e\u0434\u0442\u044b \u049b\u043e\u043b\u043c\u0435\u043d \u0435\u043d\u0433\u0456\u0437.",fI:"\u041a\u0430\u043c\u0435\u0440\u0430 \u049b\u043e\u043b\u0436\u0435\u0442\u0456\u043c\u0441\u0456\u0437 \u2014 \u0444\u043e\u0442\u043e\u043d\u044b \u0433\u0430\u043b\u0435\u0440\u0435\u044f\u0434\u0430\u043d \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",fX:"\u041a\u0435\u043b\u0435\u0441\u0456 \u049b\u0430\u0434\u0430\u043c\u0434\u0430 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0430\u043d \u043a\u0456\u0440\u0443\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d QR-\u043a\u043e\u0434 \u043f\u0435\u043d \u043a\u043e\u0434\u0442\u044b \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u043c\u0456\u0437",iC:"\u041a\u0435\u043c\u0456\u043d\u0434\u0435 \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d\u0434\u0430, \u043a\u0435\u04a3\u0435\u0441 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",ia:"\u041a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440 \u0436\u0430\u0441\u044b\u0440\u044b\u043b\u0434\u044b. \u041e\u043b\u0430\u0440\u0434\u044b \xab\u041a\u04e9\u043c\u0435\u043a\xbb \u0431\u04e9\u043b\u0456\u043c\u0456\u043d\u0434\u0435 \u049b\u043e\u0441\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",bC:"\u041a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437",iV:"\u041a\u04af\u043d\u0434\u0435\u043b\u0456\u043a\u0442\u0456 \u043c\u0456\u043d\u0434\u0435\u0442\u0441\u0456\u0437 \u0436\u04d9\u043d\u0435 \u0436\u04af\u043a\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0440\u0442\u0442\u044b\u0440\u043c\u0430\u0439\u0442\u044b\u043d \u04b1\u0437\u0430\u049b \u043c\u0435\u0440\u0437\u0456\u043c\u0434\u0456 \u0431\u0430\u0493\u0434\u0430\u0440",f8:"\u041a\u04af\u043d\u0434\u0456\u043a \u0442\u0438\u044b\u043d \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u043e\u043b\u044b\u043f \u049b\u043e\u0439\u0493\u0430\u043d \u2014 \u0431\u0430\u043b\u0430 \u0442\u0435\u043a \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u04b1\u043f\u0430\u0439\u044b\u043d \u0430\u043b\u0434\u044b",fK:"\u041a\u04af\u0448 \u2014 10-\u0434\u0435\u04a3\u0433\u0435\u0439! \u04e8\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u04a3\u043c\u0435\u043d \u0436\u04af\u0440\u0456\u043f \u04e9\u0442\u043a\u0435\u043d \u04af\u043b\u043a\u0435\u043d \u0436\u043e\u043b",ei:"\u041a\u04af\u0448 \u2014 2-\u0434\u0435\u04a3\u0433\u0435\u0439! \u0406\u0441\u0442\u0435\u0440\u0456\u04a3 \u043c\u0435\u043d \u049b\u0438\u043c\u044b\u043b\u044b\u04a3 \u04e9\u0437 \u0431\u0435\u043b\u0433\u0456\u0441\u0456\u043d \u0430\u043b\u0434\u044b",fN:"\u041a\u04af\u0448 \u2014 5-\u0434\u0435\u04a3\u0433\u0435\u0439! \u04e8\u0437\u0456\u04a3\u0435 \u049b\u0430\u043b\u0430\u0439 \u044b\u04a3\u0493\u0430\u0439\u043b\u044b \u0431\u043e\u043b\u0441\u0430, \u0441\u043e\u043b\u0430\u0439 \u049b\u0438\u043c\u044b\u043b\u0434\u0430",bq:"\u041a\u04af\u0448\u0456\u04a3\u0434\u0456 \u0430\u0440\u0442\u0442\u044b\u0440\u0443 \u04af\u0448\u0456\u043d \u043e\u0441\u044b \u0431\u0435\u043b\u0433\u0456\u0441\u0456 \u0431\u0430\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430",m4:"\u041b\u0438\u043c\u0438\u0442\u0442\u0456 \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",ch:"\u041c\u0430\u049b\u0442\u0430\u0443: \u04d9\u0436\u0435\u0433\u0435 \u0430\u0439\u0442\u044b\u043f \u0431\u0435\u0440\u0443, \u0436\u04b1\u043c\u044b\u0441\u044b\u043d \u043a\u04e9\u0437\u0433\u0435 \u043a\u04e9\u0440\u0456\u043d\u0435\u0442\u0456\u043d \u0436\u0435\u0440\u0433\u0435 \u0456\u043b\u0443",G:"\u041c\u0430\u049b\u04b1\u043b\u0434\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",m1:"\u041c\u0438\u043a\u0440\u043e\u0444\u043e\u043d \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u043c\u0435\u0439 \u0442\u04b1\u0440 \u2014 \u043e\u043d\u044b \u049b\u043e\u04a3\u044b\u0440\u0430\u0443 \u043d\u0435 \u0431\u0430\u0441\u049b\u0430 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u043f \u0436\u0430\u0442\u049b\u0430\u043d \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d. \u049a\u043e\u04a3\u044b\u0440\u0430\u0443\u0434\u044b \u0430\u044f\u049b\u0442\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u043e\u043b \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0436\u0430\u0443\u044b\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",c0:"\u041c\u0438\u0441\u0441\u0438\u044f \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b! \u0410\u043f\u0442\u0430\u043d\u044b\u04a3 \u0431\u0430\u0440\u043b\u044b\u049b \u0456\u0441\u0442\u0435\u0440\u0456 \u043d\u04d9\u0442\u0438\u0436\u0435\u0433\u0435 \u0436\u0435\u0442\u0442\u0456",dj:"\u041c\u04b1\u043d\u0434\u0430 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440, \u0441\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043d\u044b\u0441\u0442\u0430\u0440\u044b \u0436\u04d9\u043d\u0435 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043b\u0430\u0440\u044b \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",el:"\u041c\u04d9\u0442\u0456\u043d\u0434\u0456 \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440\u0456\u04a3\u0456\u0437",iz:"\u041d\u0435 \u043a\u0435\u0434\u0435\u0440\u0433\u0456 \u043a\u0435\u043b\u0442\u0456\u0440\u0435\u0442\u0456\u043d\u0456\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u043d\u0435 \u0436\u0435\u0442\u0456\u0441\u043f\u0435\u0439\u0442\u0456\u043d\u0456\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437",ay:"\u041d\u0435 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443 \u0436\u0456\u0431\u0435\u0440\u0435\u0442\u0456\u043d\u0456\u043c\u0456\u0437\u0434\u0456 \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437. \u04d8\u0440 \u0442\u04af\u0440\u0456\u043d \u0431\u04e9\u043b\u0435\u043a \u04e9\u0448\u0456\u0440\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",f3:"\u041d\u0435 \u0456\u0441\u0442\u0435\u0443 \u043a\u0435\u0440\u0435\u043a \u0436\u04d9\u043d\u0435 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d\u044b\u043d \u049b\u0430\u043b\u0430\u0439 \u0431\u0456\u043b\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b",ho:"\u041d\u04d9\u0442\u0438\u0436\u0435\u043d\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u0430 \u0436\u0456\u0431\u0435\u0440\u0443 \u04af\u0448\u0456\u043d \xab\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441. XP \u043c\u0435\u043d \u043c\u043e\u043d\u0435\u0442\u0430\u043b\u0430\u0440 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0431\u0435\u0440\u0456\u043b\u0435\u0434\u0456",gV:"\u041d\u04d9\u0442\u0438\u0436\u0435\u043d\u0456 \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u0430 \u0436\u0456\u0431\u0435\u0440\u0443 \u04af\u0448\u0456\u043d \xab\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441. \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043e\u0439\u044b\u043d \u0441\u044b\u0439\u043b\u044b\u0493\u044b\u043d\u0441\u044b\u0437 \u0430\u044f\u049b\u0442\u0430\u043b\u0430\u0434\u044b",gD:"\u041d\u04d9\u0442\u0438\u0436\u0435\u043d\u0456\u04a3 \u0441\u0443\u0440\u0435\u0442\u0456\u043d \u049b\u043e\u0441\u044b\u043f, \xab\u041e\u0440\u044b\u043d\u0434\u0430\u0434\u044b\u043c\xbb \u0442\u04af\u0439\u043c\u0435\u0441\u0456\u043d \u0431\u0430\u0441. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0441\u0443\u0440\u0435\u0442\u0442\u0456 \u049b\u0430\u0440\u0430\u043f, \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0435\u0434\u0456",hX:"\u041e\u043b \u0442\u0435\u043a \u0441\u0456\u0437\u0434\u0456\u04a3 \u043e\u0442\u0431\u0430\u0441\u044b\u04a3\u044b\u0437\u0434\u0430\u0493\u044b \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456 \u2014 \u0442\u0456\u0437\u0456\u043c\u043d\u0435\u043d \u0431\u0430\u043b\u0430\u043d\u044b \u0442\u0430\u04a3\u0434\u0430\u04a3\u044b\u0437",he:"\u041e\u043b\u0430\u0440\u043c\u0435\u043d \u0431\u0430\u043b\u0430\u0493\u0430 \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u043a\u04af\u043d\u043d\u0435\u043d-\u0430\u049b \u049b\u044b\u0437\u044b\u049b \u0431\u043e\u043b\u0430\u0434\u044b \u2014 \u0430\u0437\u0434\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u04a3\u044b\u0437",mG:"\u041e\u043d\u044b \u0436\u043e\u044e \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441, \u0431\u0456\u0440\u0430\u049b \u0436\u0430\u0441\u044b\u0440\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b: \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u043e\u043d\u044b \u0435\u043d\u0434\u0456 \u043a\u04e9\u0440\u043c\u0435\u0439\u0434\u0456, \u0430\u043b \u0430\u0439\u044b\u0440\u0431\u0430\u0441 \u0442\u0430\u0440\u0438\u0445\u044b \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b",jh:"\u041e\u0441\u044b \u0430\u0439\u0434\u0430\u0493\u044b AI \u043b\u0438\u043c\u0438\u0442\u0456 \u0442\u0430\u0443\u0441\u044b\u043b\u0434\u044b. \u0421\u044b\u0439\u043b\u044b\u049b\u0442\u044b \u04e9\u0437\u0456\u04a3\u0456\u0437 \u0442\u043e\u043b\u0442\u044b\u0440\u044b\u04a3\u044b\u0437",kc:"\u041e\u0442\u0431\u0430\u0441\u044b \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437",lr:"\u041e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b AI \u0441\u04b1\u0440\u0430\u0443 \u043b\u0438\u043c\u0438\u0442\u0456 \u043a\u0435\u043b\u0435\u0441\u0456 \u0430\u0439\u0434\u044b\u04a3 \u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0436\u0430\u04a3\u0430\u0440\u0430\u0434\u044b",nD:"\u041e\u0442\u0431\u0430\u0441\u044b\u043d, \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0435\u0440\u0456\u043d, \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u0434\u044b \u0436\u04d9\u043d\u0435 \u0431\u04af\u043a\u0456\u043b \u0442\u0430\u0440\u0438\u0445\u0442\u044b \u0436\u043e\u044f\u043c\u044b\u0437. \u041e\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0442\u0456\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b.",db:"\u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430\u0493\u044b \u04d9\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u04e9\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b \u043c\u0435\u043d \u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0456 \u0431\u0430\u0440",m7:"\u041f\u0440\u043e\u0444\u0438\u043b\u044c\u0434\u0456 \u0436\u043e\u044e \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",iF:"\u0420\u0430\u049b\u043c\u0435\u0442! \u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043b\u0430\u0440 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0434\u0435 \u0431\u0456\u0437\u0433\u0435 \u0431\u0435\u0441 \u0436\u04b1\u043b\u0434\u044b\u0437 \u049b\u043e\u0439\u044b\u04a3\u044b\u0437 \u2014 \u0431\u04b1\u043b \u043a\u04e9\u043f \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456",j9:"\u0421\u0430\u0431\u0430\u049b, \u043a\u0456\u0442\u0430\u043f, \u0448\u0435\u0431\u0435\u0440\u043b\u0456\u043a \u0441\u044b\u043d\u044b\u0431\u044b, \u0448\u044b\u0493\u0430\u0440\u043c\u0430\u0448\u044b\u043b\u044b\u049b \u0436\u0438\u044b\u043d\u0442\u044b\u0493\u044b",nn:"\u0421\u0430\u0442\u044b\u043f \u0430\u043b\u0443\u044b\u04a3\u043c\u0435\u043d! \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u044b\u04a3 \u0440\u0430\u0441\u0442\u0430\u0443\u044b\u043d \u043a\u04af\u0442\u0435\u043c\u0456\u0437",aU:"\u0421\u0435\u043d \u0436\u0430\u04a3\u0430 \u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0433\u0435 \u0436\u0435\u0442\u0442\u0456\u04a3. 6\u201330 \u0434\u0435\u04a3\u0433\u0435\u0439\u043b\u0435\u0440\u0434\u0456 \u0430\u0448\u0443 \u04af\u0448\u0456\u043d \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u0434\u044b \u0448\u0430\u049b\u044b\u0440.",eQ:"\u0421\u0435\u043d\u0456 Oyna Family-\u0434\u0430\u0493\u044b \u043e\u0442\u0431\u0430\u0441\u044b\u0493\u0430 \u0448\u0430\u049b\u044b\u0440\u0434\u044b. \u049a\u043e\u0441\u044b\u043b\u0430\u0441\u044b\u04a3 \u0431\u0430?",ka:"\u0421\u0443\u0440\u0435\u0442\u0442\u0456 \u0436\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440",lF:"\u0421\u044b\u0439\u043b\u044b\u0493\u044b \u0431\u0430\u0440 50 \u0431\u04e9\u043b\u0435\u043a \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0430\u0442\u0430\u043f \u04e9\u0442\u0456\u043b\u0434\u0456. \u041a\u0435\u043b\u0435\u0441\u0456 \u0456\u0441\u0442\u0435\u0440\u0434\u0456\u04a3 \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b \u0430\u0440\u0442\u043f\u0430\u0439\u0434\u044b",hr:"\u0421\u044b\u0439\u043b\u044b\u0493\u044b \u0431\u0430\u0440 \u0431\u0435\u0441 \u0431\u04e9\u043b\u0435\u043a \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0434\u044b. \u0421\u044b\u0439\u043b\u044b\u049b \u043c\u04e9\u043b\u0448\u0435\u0440\u0456\u043d\u0435 \u049b\u0430\u0440\u0430\u043c\u0430\u0441\u0442\u0430\u043d \u04d9\u0440\u049b\u0430\u0439\u0441\u044b\u0441\u044b \u0431\u0456\u0440\u0434\u0435\u0439 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u0435\u0434\u0456",hR:"\u0421\u044b\u0439\u043b\u044b\u049b \u043e\u0439\u043b\u0430\u043f \u0442\u0430\u0431\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",lM:"\u0421\u044b\u0439\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u043b\u0493\u0430\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0456\u0441 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0436\u04d9\u043d\u0435 \u043e\u0442\u0431\u0430\u0441\u044b\u043b\u044b\u049b \u0443\u04d9\u0434\u0435 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b. \u049a\u043e\u0441\u044b\u043c\u0448\u0430 \u0435\u0448\u0442\u0435\u04a3\u0435 \u0435\u0441\u0435\u043f\u0442\u0435\u043b\u043c\u0435\u0439\u0434\u0456",aY:"\u0421\u044b\u0439\u043b\u044b\u049b \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0434\u044b \u2014 \u043e\u043b \u0436\u043e\u0439\u044b\u043b\u0493\u0430\u043d \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d",lU:"\u0421\u044b\u0439\u043b\u044b\u049b \u0442\u0430\u04a3\u0434\u0430\u043b\u0493\u0430\u043d \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0434\u04af\u043a\u0435\u043d\u0456\u043d\u0434\u0435 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",fb:"\u0421\u0456\u0437\u0434\u0456\u04a3 \u0431\u0430\u0493\u0430\u04a3\u044b\u0437 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0436\u0430\u049b\u0441\u0430\u0440\u0442\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456",bN:"\u0421\u0456\u043b\u0442\u0435\u043c\u0435 \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0493\u0430\u043d, \u04e9\u0448\u0456\u0440\u0456\u043b\u0433\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0436\u0430\u0440\u0430\u043c\u0441\u044b\u0437. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u044b\u0437\u0434\u0430\u043d \u0436\u0430\u04a3\u0430\u0441\u044b\u043d \u0436\u0430\u0441\u0430\u0443\u0434\u044b \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437.",iB:"\u0421\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456\u04a3 \u043c\u0435\u0440\u0437\u0456\u043c\u0456 \u0430\u044f\u049b\u0442\u0430\u043b\u0434\u044b. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3\u044b\u0437\u0434\u0430\u043d \u0436\u0430\u04a3\u0430\u0441\u044b\u043d \u0436\u0430\u0441\u0430\u0443\u0434\u044b \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437.",m8:"\u0421\u04b1\u0440\u0430\u043d\u044b\u0441 \u0442\u0456\u0437\u0456\u043c\u0434\u0435 \u049b\u0430\u043b\u0430\u0434\u044b, \u0430\u043b \u0442\u0438\u044b\u043d\u0434\u0430\u0440 \u0440\u0435\u0437\u0435\u0440\u0432\u0442\u0435 \u0442\u04b1\u0440\u0430\u0434\u044b",im:"\u0421\u04b1\u0440\u0430\u049b \u049b\u043e\u0439\u044b\u043f, \u0431\u0430\u043b\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u043a\u0435\u04a3\u0435\u0441 \u0430\u043b\u0443 \u04af\u0448\u0456\u043d \u043a\u04e9\u043c\u0435\u043a\u0448\u0456\u043d\u0456 \u049b\u043e\u0441\u044b\u04a3\u044b\u0437",t:"\u0421\u04d9\u043b\u0435\u043c! \u041c\u0435\u043d \u0424\u043e\u043a\u0441\u0438\u043a \u2014 \u0441\u0456\u0437\u0434\u0456\u04a3 AI-\u043a\u04e9\u043c\u0435\u043a\u0448\u0456\u04a3\u0456\u0437\u0431\u0456\u043d. \u0411\u0430\u043b\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u0436\u0430\u0493\u0434\u0430\u0439\u044b\u043d \u0430\u0439\u0442\u0430\u043c\u044b\u043d \u0436\u04d9\u043d\u0435 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u0430 \u0441\u04b1\u0440\u0430\u0493\u0430\u043d\u044b\u04a3\u044b\u0437\u0434\u044b \u04e9\u0437\u0456\u043c \u043e\u0440\u044b\u043d\u0434\u0430\u0439\u043c\u044b\u043d: \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u043d\u0435 \u0441\u044b\u0439\u043b\u044b\u049b \u049b\u04b1\u0440\u0430\u043c\u044b\u043d, \u0431\u043e\u043d\u0443\u0441 \u0431\u0435\u0440\u0435\u043c\u0456\u043d, \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0443\u0433\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u043c\u0456\u043d.",hO:"\u0421\u04e9\u0437\u0434\u0435\u0440\u0434\u0456 \u0442\u04af\u0441\u0456\u043d\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",pn:"\u0421\u04e9\u0439\u043b\u0435\u0443\u0434\u0456 \u0442\u0430\u043d\u0443\u0434\u044b \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",kU:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0456\u0431\u0435\u0440\u0443\u0434\u0456\u04a3 \u04af\u0448 \u043a\u04af\u043d\u0434\u0456\u043a \u0441\u0435\u0440\u0438\u044f\u0441\u044b. \u0411\u0435\u043b\u0433\u0456 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d\u044b\u043d \u0431\u0456\u043b\u0434\u0456\u0440\u043c\u0435\u0439\u0434\u0456 \u0436\u04d9\u043d\u0435 \u0435\u0448\u0442\u0435\u04a3\u0435 \u0435\u0441\u0435\u043f\u0442\u0435\u043c\u0435\u0439\u0434\u0456",gz:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456. \u0410\u0442\u0430-\u0430\u043d\u0430\u04a3 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u0430\u0442\u049b\u0430\u043d\u0434\u0430 \u0431\u0430\u0441\u049b\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u04a3\u0434\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",mp:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430 \u0442\u0430\u04a3\u0434\u0430\u043b\u0493\u0430\u043d \u04d9\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0434\u0435 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",my:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u0441\u04d9\u043b \u043a\u04e9\u043f \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u043b\u0430\u043d\u044b \u049b\u044b\u0437\u044b\u049b\u0442\u044b\u0440\u043c\u0430\u0439\u0434\u044b \u2014 \u0436\u04af\u043a\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0437\u0430\u0439\u0442\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",fQ:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u04e9\u0442\u0435 \u0436\u0430\u049b\u0441\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u044b\u043f \u0436\u0430\u0442\u044b\u0440, \u0436\u04af\u043a\u0442\u0435\u043c\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0431\u04e9\u043b\u0456\u043d\u0433\u0435\u043d",bS:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0436\u04d9\u043d\u0435 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0456 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b. \u041a\u0435\u0437 \u043a\u0435\u043b\u0433\u0435\u043d \u0443\u0430\u049b\u044b\u0442\u0442\u0430 \u049b\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0435 \u0430\u043b\u0430\u0441\u044b\u0437.",hH:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0435\u043a\u0441\u0435\u0440\u0443, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0436\u04d9\u043d\u0435 \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a",hI:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043a\u04e9\u0431\u0456 \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0434\u044b \u2014 \u043e\u0441\u044b\u043b\u0430\u0439 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u044b\u04a3\u044b\u0437",iU:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0436\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0442\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f, \u049b\u0430\u0439\u0442\u0430 \u043a\u04e9\u0440",kN:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u0441\u0443\u0440\u0435\u0442\u043a\u0435 \u0442\u04af\u0441\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0411\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u0434\u0430 Oyna Family-\u0493\u0430 \u043a\u0430\u043c\u0435\u0440\u0430\u043d\u044b \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440",a5:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043d\u044b \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",fp:"\u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u0493\u0430 \xab\u0416\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\xbb \u0431\u0435\u043b\u0433\u0456\u0441\u0456\u043d \u0430\u043b\u0434\u044b\u043d \u0430\u043b\u0430, \u043e\u0440\u044b\u043d\u0434\u0430\u043b\u0493\u0430\u043d\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u049b\u043e\u0439\u044b\u04a3\u044b\u0437: \u043d\u04d9\u0442\u0438\u0436\u0435\u043d\u0456 \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0493\u0430\u043d\u0434\u0430 \u0431\u0435\u043b\u0433\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. \u041e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430\u0493\u044b \u049b\u0430\u043c\u049b\u043e\u0440\u043b\u044b\u049b \u0431\u0435\u043b\u0433\u0456\u0433\u0435 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u044b \u0435\u043c\u0435\u0441",aN:"\u0422\u0430\u043f\u049b\u0430\u043d\u044b\u043d \u0431\u0430\u0441\u049b\u0430\u0493\u0430 \u0436\u04b1\u043c\u0441\u0430\u0443: \u0436\u0430\u049b\u044b\u043d\u044b\u043d\u0430 \u0441\u044b\u0439\u043b\u044b\u049b, \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440 \u0431\u0430\u0441\u043f\u0430\u043d\u0430\u0441\u044b\u043d\u0430 \u043a\u04e9\u043c\u0435\u043a",eR:"\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u043e\u043d\u044b \u0436\u043e\u044e\u0493\u0430 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b. \u041e\u043d\u044b \u0436\u0430\u0441\u044b\u0440\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b \u2014 \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u043e\u043d\u044b \u0435\u043d\u0434\u0456 \u043a\u04e9\u0440\u043c\u0435\u0439\u0434\u0456",oE:"\u0422\u0430\u0440\u0438\u0445\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",cf:"\u0422\u0435\u0433\u0456\u043d \u043d\u04b1\u0441\u049b\u0430\u0434\u0430 \u043e\u0442\u0431\u0430\u0441\u044b\u043d\u0434\u0430 \u0442\u0435\u043a \u0431\u0456\u0440 \u0431\u0430\u043b\u0430 \u0431\u043e\u043b\u0430 \u0430\u043b\u0430\u0434\u044b. Premium-\u043c\u0435\u043d \u04d9\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u04e9\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u044b, \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b \u0436\u04d9\u043d\u0435 \u043a\u0456\u0440\u0443 \u043a\u043e\u0434\u044b \u0431\u043e\u043b\u0430\u0434\u044b",f2:"\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430 \u043c\u0435\u043d \u0444\u043e\u0442\u043e\u043b\u0430\u0440\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440\u0456\u04a3\u0456\u0437",md:"\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u043a\u0430\u043c\u0435\u0440\u0430 \u043c\u0435\u043d \u0444\u043e\u0442\u043e\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0431\u0435\u0440",d2:"\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d\u0434\u0430 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u0493\u0430 \u0440\u04b1\u049b\u0441\u0430\u0442 \u0436\u043e\u049b. \u041c\u04d9\u0442\u0456\u043d\u0434\u0456 \u0434\u0430\u0443\u044b\u0441\u043f\u0435\u043d \u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d \u043e\u043d\u044b \u049b\u043e\u0441\u044b\u04a3\u044b\u0437",jq:"\u0422\u043e\u043b\u044b\u049b \u0448\u0435\u04a3\u0431\u0435\u0440! \u0406\u0441\u0442\u0435\u043d \u043d\u0430\u0493\u044b\u0437 \u0441\u044b\u0439\u043b\u044b\u049b\u049b\u0430 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u0431\u04af\u043a\u0456\u043b \u0436\u043e\u043b\u0434\u044b \u04e9\u0442\u0442\u0456\u04a3",kn:"\u0422\u044b\u043c \u043a\u04e9\u043f \u04d9\u0440\u0435\u043a\u0435\u0442. \u0411\u0456\u0440 \u043c\u0438\u043d\u0443\u0442\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",kJ:"\u0424\u043e\u043a\u0441\u0438\u043a \u0431\u04b1\u043b \u0431\u0430\u043b\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435 \u0430\u043b\u043c\u0430\u0439\u0434\u044b",ee:"\u0424\u043e\u043a\u0441\u0438\u043a\u043f\u0435\u043d \u04d9\u0440 \u0431\u0430\u043b\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u04b1\u0445\u0431\u0430\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u0431\u04d9\u0440\u0456 \u0436\u043e\u0439\u044b\u043b\u0430\u0434\u044b. \u0411\u04b1\u043b \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0456 \u049b\u0430\u0439\u0442\u0430\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441",jA:"\u0424\u043e\u043a\u0441\u0438\u043a\u0442\u0435\u043d \u0431\u0430\u043b\u0430 \u0442\u0443\u0440\u0430\u043b\u044b \u043a\u04af\u043d \u0441\u0430\u0439\u044b\u043d \u0441\u04b1\u0440\u0430\u0443 \u04af\u0448\u0456\u043d Premium + AI \u0442\u0430\u0440\u0438\u0444\u0456\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437",eS:"\u0424\u043e\u043a\u0441\u0442\u044b\u04a3 \u0437\u0430\u0442\u0442\u0430\u0440\u044b \u043c\u0435\u043d \u043a\u0435\u043b\u0431\u0435\u0442\u0456, \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u0434\u0430\u0493\u044b \u0437\u0430\u0442\u0442\u0430\u0440",kB:"\u0424\u043e\u0442\u043e\u043d\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430 \u0431\u0430\u0439\u049b\u0430\u043f \u043a\u04e9\u0440",lS:"\u0424\u043e\u0442\u043e\u043d\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u049a\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",df:"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043d\u044b 1000 \u0442\u0430\u04a3\u0431\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u049b\u044b\u0441\u049b\u0430\u0440\u0442\u044b\u04a3\u044b\u0437",nd:"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043d\u0434\u044b\u0440\u0443 \u0431\u0430\u043f\u0442\u0430\u0443\u043b\u0430\u0440\u044b\u043d \u0436\u04af\u043a\u0442\u0435\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b",bG:"\u0425\u0430\u0442\u0442\u044b \u0436\u0456\u0431\u0435\u0440\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0431\u043e\u043b\u043c\u0430\u0434\u044b. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",gR:"\u042b\u0440\u0493\u0430\u049b\u0442\u044b \u0430\u043f\u0442\u0430! \u0406\u0441\u043f\u0435\u043d \u04e9\u0442\u043a\u0435\u043d \u0436\u0435\u0442\u0456 \u043a\u04af\u043d \u2014 \u0435\u043b\u0435\u0443\u043b\u0456 \u0436\u043e\u043b",ph:"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0431\u0435\u0441 \u0456\u0441 \u0436\u0438\u043d\u0430. \u0410\u0441\u044b\u049b\u043f\u0430\u0439, \u04e9\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u04a3\u043c\u0435\u043d",p4:"\u049a\u0430\u0431\u044b\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0456\u0441\u0442\u0435\u0440\u0434\u0456 50-\u0433\u0435 \u0434\u0435\u0439\u0456\u043d \u0436\u0438\u043d\u0430\u0439 \u0431\u0435\u0440",ap:"\u049a\u0430\u0437\u0456\u0440 \u0434\u0435\u043c\u0430\u043b\u044b\u0441 \u0443\u0430\u049b\u044b\u0442\u044b. \u0422\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b 06:00-\u0434\u0435\u043d \u043a\u0435\u0439\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b.",bW:"\u049a\u0430\u0437\u0456\u0440 \u043b\u0438\u043c\u0438\u0442 \u0436\u043e\u049b. \u041e\u043b \u0436\u0430\u04a3\u0430 \u043c\u04d9\u043d\u0434\u0456 \u0441\u0430\u049b\u0442\u0430\u0493\u0430\u043d\u044b\u04a3\u044b\u0437\u0434\u0430 \u043e\u0440\u043d\u0430\u0442\u044b\u043b\u0430\u0434\u044b",lI:"\u049a\u0430\u0437\u0456\u0440 \u049b\u043e\u0441\u0430\u0442\u044b\u043d \u0435\u0448\u0442\u0435\u04a3\u0435 \u0436\u043e\u049b: \u0441\u04d9\u0439\u043a\u0435\u0441 \u043a\u0435\u043b\u0435\u0442\u0456\u043d\u043d\u0456\u04a3 \u0431\u04d9\u0440\u0456 \u0431\u0430\u043b\u0430\u0434\u0430 \u0431\u04b1\u0440\u044b\u043d\u043d\u0430\u043d \u0431\u0430\u0440. \u041a\u0435\u0439\u0456\u043d\u0456\u0440\u0435\u043a \u043c\u0435\u043d\u0435\u043d \u0442\u0430\u0493\u044b \u0441\u04b1\u0440\u0430\u04a3\u044b\u0437.",mH:"\u049a\u0430\u0437\u0456\u0440\u0433\u0456 \u0431\u0430\u0493\u0430\u043c \u0436\u0430\u04a3\u0430 \u0430\u0443\u049b\u044b\u043c\u043d\u0430\u043d \u0442\u044b\u0441. \u0416\u04af\u0433\u0456\u0440\u0442\u043a\u0456\u043d\u0456 \u0436\u044b\u043b\u0436\u044b\u0442\u043f\u0430\u0439\u044b\u043d\u0448\u0430 \u043e\u043b \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b",dd:"\u049a\u0430\u0439\u0442\u0430 \u043a\u0456\u0440\u0443 \u04af\u0448\u0456\u043d \u0430\u0442\u0430-\u0430\u043d\u0430\u04a3\u043d\u0430\u043d \u043a\u043e\u0434 \u043a\u0435\u0440\u0435\u043a \u0431\u043e\u043b\u0430\u0434\u044b.",jr:"\u049a\u0430\u0442\u0430\u0440\u044b\u043d\u0430\u043d \u0436\u0435\u0442\u0456 \u043a\u04af\u043d \u0456\u0441 \u0436\u0456\u0431\u0435\u0440. \u041a\u04af\u043d\u0456\u043d\u0435 \u0431\u0456\u0440 \u0456\u0441 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456",oU:"\u049a\u043e\u0437\u0493\u0430\u043b\u044b\u0441 \u043f\u0435\u043d \u043a\u04af\u043d \u0442\u04d9\u0440\u0442\u0456\u0431\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0430\u0439\u0441\u0430\u043b\u0434\u044b \u0435\u0441\u043a\u0435 \u0441\u0430\u043b\u0493\u044b\u0448\u0442\u0430\u0440",j8:"\u049a\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u043d\u044b \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\u043d\u0430 \u0436\u04af\u043a\u0442\u0435\u043f, \u043a\u043e\u0434 \u043d\u0435\u043c\u0435\u0441\u0435 QR \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u0456\u0440\u0456\u04a3\u0456\u0437 \u2014 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u043e\u043d\u0434\u0430 \u0431\u0456\u0440\u0434\u0435\u043d \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b",mS:"\u049a\u043e\u0448 \u043a\u0435\u043b\u0434\u0456\u04a3\u0456\u0437! \u041c\u0435\u043d \u0424\u043e\u043a\u0441\u0438\u043a \u2014 \u0441\u0456\u0437\u0434\u0456\u04a3 AI-\u043a\u04e9\u043c\u0435\u043a\u0448\u0456\u04a3\u0456\u0437\u0431\u0456\u043d, \u0431\u04d9\u0440\u0456\u043d \u0442\u04af\u0441\u0456\u043d\u0443\u0433\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u043c\u0456\u043d",fv:"\u04ae\u0448 \u0441\u0430\u043d\u0430\u0442 \u0436\u0438\u043d\u0430\u043b\u0434\u044b! \u0422\u04af\u0440\u043b\u0456 \u0456\u0441\u0442\u0435\u0440 \u0435\u043d\u0434\u0456 \u0441\u0435\u043d\u0456\u04a3 \u0442\u0430\u0440\u0438\u0445\u044b\u04a3\u0434\u0430",le:"\u04d8\u0437\u0456\u0440\u0433\u0435 \u04e9\u0441\u0443 \u04b1\u043f\u0430\u0439\u043b\u0430\u0440\u044b \u0436\u043e\u049b \u2014 \u043e\u043b\u0430\u0440 \u043c\u0430\u049b\u04b1\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u043c\u0435\u043d \u043a\u0435\u043b\u0435\u0434\u0456",eM:"\u04d8\u0440 \u0430\u043f\u0442\u0430 \u0441\u0430\u0439\u044b\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440\u044b \u0431\u0430\u0440 \u0436\u0430\u04a3\u0430 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440",lV:"\u04d8\u0440\u0435\u043a\u0435\u0442\u0442\u0435\u0440\u0434\u0456 \u0431\u0430\u0440 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0441\u044b\u0439\u043b\u044b\u049b\u0442\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u043c\u0456\u0437. \u0410\u044f\u049b\u0442\u0430\u043b\u0493\u0430\u043d \u049b\u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0434\u044b",iK:"\u04e8\u0437 \u0442\u0430\u043f\u0441\u044b\u0440\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u04b1\u0440\u044b\u04a3\u044b\u0437 \u2014 \u0431\u04b1\u043b \u0431\u0456\u0440 \u043c\u0438\u043d\u0443\u0442\u0442\u0430\u0439 \u0493\u0430\u043d\u0430 \u0443\u0430\u049b\u044b\u0442 \u0430\u043b\u0430\u0434\u044b",iR:"\u04e8\u0437 \u049b\u0430\u0440\u049b\u044b\u043d\u044b\u04a3\u043c\u0435\u043d \u043e\u043d \u043a\u04af\u043d! \u041e\u043b\u0430\u0440\u0434\u044b\u04a3 \u04d9\u0440\u049b\u0430\u0439\u0441\u044b\u0441\u044b \u0442\u0430\u0440\u0438\u0445\u044b\u04a3\u0434\u0430 \u049b\u0430\u043b\u0434\u044b",je:"\u04e8\u0437\u0433\u0435\u0440\u0456\u0441\u0442\u0435\u0440 \u0431\u0430\u043b\u0430\u043d\u044b\u04a3 \u0442\u0456\u0437\u0456\u043c\u0456\u043d\u0434\u0435 \u0431\u0456\u0440\u0434\u0435\u043d \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0434\u044b"}
+var x={p:B.a5("H<fB>"),j:B.a5("azL"),g:B.a5("e"),c:B.a5("jQ<ed,fJ>")};(function constants(){D.aYc=new B.cU(" \u0436\u04d9\u043d\u0435 ",null,null,C.ab,null,null,null,null,null,null,null)
+D.aYd=new B.cU("\u0416\u04af\u0439\u0435\u0433\u0435 \u043a\u0456\u0440\u0443 \u0430\u0440\u049b\u044b\u043b\u044b \u0441\u0456\u0437 ",null,null,C.ab,null,null,null,null,null,null,null)
+D.aYg=new B.cU(" \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d\u0430 \u0445\u0430\u0442 \u0436\u0456\u0431\u0435\u0440\u0434\u0456\u043a. \u0425\u0430\u0442\u0442\u0430\u0493\u044b \u0441\u0456\u043b\u0442\u0435\u043c\u0435\u043d\u0456 \u0430\u0448\u044b\u04a3\u044b\u0437, \u0441\u043e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u043a\u0456\u0440\u0456\u04a3\u0456\u0437",null,null,C.ab,null,null,null,null,null,null,null)
+D.aYq=new B.cU(" \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0439\u0441\u044b\u0437",null,null,C.ab,null,null,null,null,null,null,null)})()};
+(a=>{a["8KS6n2wmAo8nz+m2zgcJK030Los="]=a.current})($__dart_deferred_initializers__);
