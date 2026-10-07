@@ -31,6 +31,7 @@ const scenes = [
 {id:'parent-invite',role:'parent',title:'Пригласить ребёнка',detail:'Подсказка подключения телефона'},
 {id:'parent-review',role:'parent',title:'Проверить задание',detail:'Две подсказки без перехода на другую страницу'},
 {id:'parent-request',role:'parent',title:'Запрос награды',detail:'Переход к ожидающим запросам'},
+{id:'parent-existing',role:'parent',title:'Повторить обучение',detail:'Семья с заданиями, наградами и нагрузкой 9 / 21'},
 {id:'child-welcome',role:'child',title:'Добро пожаловать',detail:'Приветствие перед первыми шагами'},
 {id:'child-name',role:'child',title:'Выбрать имя',detail:'Обновлённая подсказка и сохранение'},
 {id:'child-task',role:'child',title:'Открыть задание',detail:'Дело на главном экране'},
@@ -53,7 +54,7 @@ function renderScenes(){
  for(const button of document.querySelectorAll('[data-role]'))button.setAttribute('aria-pressed',String(button.dataset.role===selected.role));
  document.querySelector('#look-label').hidden=selected.role==='parent';
 }
-function play(scene=selected){selected=scene;renderScenes();document.querySelector('#current').textContent=scene.title;const params=new URLSearchParams({scene:scene.id,locale:document.querySelector('#locale').value,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',scale:document.querySelector('#scale').value});history.replaceState(null,'','?'+params);document.querySelector('#status').hidden=false;params.set('run',String(Date.now()));frame.src='./runtime/c08388805ecabb9f/?'+params;}
+function play(scene=selected){selected=scene;renderScenes();document.querySelector('#current').textContent=scene.title;const params=new URLSearchParams({scene:scene.id,locale:document.querySelector('#locale').value,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',scale:document.querySelector('#scale').value});history.replaceState(null,'','?'+params);document.querySelector('#status').hidden=false;params.set('run',String(Date.now()));frame.src='./runtime/187011304066795e/?'+params;}
 for(const button of document.querySelectorAll('[data-role]'))button.addEventListener('click',()=>play(scenes.find(s=>s.role===button.dataset.role)));
 for(const id of ['locale','look','reduce'])document.getElementById(id).addEventListener('change',()=>play());
 document.querySelector('#replay').addEventListener('click',()=>play());

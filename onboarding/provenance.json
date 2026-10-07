@@ -1,17 +1,17 @@
 {
-  "built_at": "2026-10-07T06:55:25.857412+00:00",
-  "source_commit": "0cdf3c305b071e4fd15a219617c22c00bb8089ba",
+  "built_at": "2026-10-07T07:33:52.323405+00:00",
+  "source_commit": "61ccbed15bfc74edcec503f86764ac4917330634",
   "source_dirty": false,
   "backend": null,
   "data": "In-memory demonstration ports; no authenticated session",
   "implementation": "Production parent/child screens, GuidedOnboardingHost, BLoC and AppCoachMark",
-  "scenes": 12,
+  "scenes": 13,
   "sources": {
     "scripts/canvas/onboarding_preview_ports.dart": "e3d22d7de1c5e4b817729c51182b076e49c50fdcd180b5fcbc250d4f23f0fe94",
-    "scripts/canvas/onboarding_preview.dart": "796e5bd8c95d809e44acd7f084c21549bf5339ed4d7df509baafeaccb36a70fe",
-    "scripts/canvas/onboarding.html": "ce2d2b7228884633340a61f97d77c16b91e75b662de1a375aa6f9936c1326e2d",
-    "scripts/canvas/build_onboarding.sh": "dd90efcdd1dedd638b64611751a47c01cf2a66eef170551602d2bb8978e7eb1d"
+    "scripts/canvas/onboarding_preview.dart": "7809c8c603999019c95c0d9cdeba554a7a0a14fa7a6a076fe3fbbd0670436ab4",
+    "scripts/canvas/onboarding.html": "1970755845f64fc7bdc363e96be49ca81ee89597dc78dada555eebe9735b36c7",
+    "scripts/canvas/build_onboarding.sh": "ed655582540d1386ebc2c37e02444b5def40987734aabc176211b2a6203d5eb3"
   },
-  "runtime_path": "runtime/c08388805ecabb9f/",
-  "runtime_sha256": "304c11a8f62a9ca889bc8f7f9a05a222ca9632f84ee4bcf6d434abbf846025de"
+  "runtime_path": "runtime/187011304066795e/",
+  "runtime_sha256": "2b531e521c2fe537e82c781848493f23e54b7280fb90cc9c13a00083e06d3abe"
 }
