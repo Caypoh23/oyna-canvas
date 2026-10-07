@@ -14,7 +14,7 @@
 <header><nav aria-label="Разделы OYNA"><a href="../">Экраны</a><a href="../analytics/">Аналитика</a><a href="../foksik/">Фоксик</a><a href="../gamification/">Анимации</a><a href="./" class="on" aria-current="page">Онбординг</a></nav><h1>OYNA Canvas</h1></header>
 <main>
 <section class="story" aria-label="Сценарии онбординга">
-<h2>Первые шаги в OYNA</h2><p>Выбери роль и шаг. Подсказки работают поверх экранов приложения: выделенные элементы можно нажимать, имя — менять.</p>
+<h2>Первые шаги в OYNA</h2><p>Выбери роль и шаг. «Далее» переключает подсказки на текущем экране, «Готово» завершает обучение. Обычные кнопки приложения работают отдельно.</p>
 <div class="role" aria-label="Роль"><button data-role="parent" aria-pressed="false">Родитель</button><button data-role="child" aria-pressed="true">Ребёнок</button></div>
 <div class="scenes" id="scenes"></div>
 <div class="controls"><label>Язык <select id="locale"><option value="ru">Русский</option><option value="en">English</option><option value="uz">O‘zbekcha</option><option value="kk">Қазақша</option><option value="az">Azərbaycanca</option><option value="ar">العربية</option></select></label><label id="look-label">Вид <select id="look"><option value="kid">Ребёнок · день</option><option value="night">Ребёнок · ночь</option><option value="teen">Подросток</option></select></label><label><input type="checkbox" id="reduce">Уменьшить движение</label><label>Масштаб <select id="scale"><option value="actual">100%</option><option value="fit">Вписать в окно</option></select></label></div>
@@ -29,7 +29,7 @@ const scenes = [
 {id:'parent-reward',role:'parent',title:'Создать награду',detail:'Реальная полка наград и форма'},
 {id:'parent-task',role:'parent',title:'Добавить задание',detail:'Своя задача или готовый пример'},
 {id:'parent-invite',role:'parent',title:'Пригласить ребёнка',detail:'Подсказка подключения телефона'},
-{id:'parent-review',role:'parent',title:'Проверить задание',detail:'Ребёнок ждёт решения взрослого'},
+{id:'parent-review',role:'parent',title:'Проверить задание',detail:'Две подсказки без перехода на другую страницу'},
 {id:'parent-request',role:'parent',title:'Запрос награды',detail:'Переход к ожидающим запросам'},
 {id:'child-welcome',role:'child',title:'Добро пожаловать',detail:'Приветствие перед первыми шагами'},
 {id:'child-name',role:'child',title:'Выбрать имя',detail:'Обновлённая подсказка и сохранение'},
@@ -53,7 +53,7 @@ function renderScenes(){
  for(const button of document.querySelectorAll('[data-role]'))button.setAttribute('aria-pressed',String(button.dataset.role===selected.role));
  document.querySelector('#look-label').hidden=selected.role==='parent';
 }
-function play(scene=selected){selected=scene;renderScenes();document.querySelector('#current').textContent=scene.title;const params=new URLSearchParams({scene:scene.id,locale:document.querySelector('#locale').value,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',scale:document.querySelector('#scale').value});history.replaceState(null,'','?'+params);document.querySelector('#status').hidden=false;params.set('run',String(Date.now()));frame.src='./runtime/7db40f6294c006d5/?'+params;}
+function play(scene=selected){selected=scene;renderScenes();document.querySelector('#current').textContent=scene.title;const params=new URLSearchParams({scene:scene.id,locale:document.querySelector('#locale').value,look:document.querySelector('#look').value,motion:document.querySelector('#reduce').checked?'off':'on',scale:document.querySelector('#scale').value});history.replaceState(null,'','?'+params);document.querySelector('#status').hidden=false;params.set('run',String(Date.now()));frame.src='./runtime/412092aa73c44bb3/?'+params;}
 for(const button of document.querySelectorAll('[data-role]'))button.addEventListener('click',()=>play(scenes.find(s=>s.role===button.dataset.role)));
 for(const id of ['locale','look','reduce'])document.getElementById(id).addEventListener('change',()=>play());
 document.querySelector('#replay').addEventListener('click',()=>play());
