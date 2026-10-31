@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>OYNA Canvas — пейвол</title>
+<style>
+  :root { color-scheme: light; font: 15px/1.5 -apple-system,BlinkMacSystemFont,"Inter",sans-serif; color: #16181d; background: #e9e9ec; --muted: #636971; --line: #d5d6db; --orange: #ff8a16; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  header { position: sticky; top: 0; z-index: 3; background: #fff; border-bottom: 1px solid var(--line); padding: 12px 20px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  nav { display: flex; gap: 2px; border-radius: 10px; background: #f1f1f4; padding: 3px; overflow-x: auto; max-width: 100%; }
+  nav a { padding: 6px 11px; text-decoration: none; color: inherit; border-radius: 8px; white-space: nowrap; font-size: 13px; }
+  nav .on { background: #fff; box-shadow: 0 1px 3px #0002; font-weight: 600; }
+  header h1 { margin: 0; font-size: 16px; }
+  .toc { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; }
+  .toc a { color: var(--muted); text-decoration: none; } .toc a:hover { color: #16181d; }
+  main { max-width: 1180px; margin: auto; padding: 28px 24px 60px; }
+  section { margin: 0 0 44px; scroll-margin-top: 120px; }
+  h2 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -.02em; }
+  h3 { font-size: 16px; margin: 0 0 8px; }
+  p { margin: 0 0 14px; color: var(--muted); max-width: 70ch; }
+  .lead { font-size: 17px; color: #2b2f36; }
+  .small { font-size: 13px; }
+  a { color: #c25e00; }
+  .hero { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 36px; align-items: center; background: linear-gradient(135deg,#fff6ec,#fff); border: 1px solid #f3dcc2; border-radius: 24px; padding: 32px; }
+  .hero h2 { font-size: 34px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 18px; padding: 0; list-style: none; }
+  .chips li { background: #fff; border: 1px solid #f0d2b0; border-radius: 99px; padding: 4px 11px; font-size: 13px; }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btns a { text-decoration: none; background: #16181d; color: #fff; padding: 9px 16px; border-radius: 99px; font-weight: 600; font-size: 14px; }
+  .btns a.alt { background: #fff; color: #16181d; border: 1px solid var(--line); }
+  .hero figure { margin: 0; text-align: center; }
+  figure { margin: 0; }
+  figcaption { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  img { display: block; max-width: 100%; height: auto; cursor: zoom-in; }
+  img.phone, img.loop { border-radius: 22px; box-shadow: 0 6px 24px #0000001f; background: #ff8a16; }
+  .hero img.loop { width: 280px; margin: auto; }
+  .pairs { display: grid; gap: 18px; }
+  .pair { background: #fff; border-radius: 20px; padding: 20px; border: 1px solid #e2e2e6; display: grid; grid-template-columns: minmax(0,560px) minmax(0,1fr); gap: 24px; align-items: start; }
+  .pair .text { position: sticky; top: 120px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .clips { display: grid; grid-template-columns: repeat(auto-fill,minmax(500px,1fr)); gap: 18px; }
+  .clip { background: #fff; border-radius: 20px; padding: 16px; border: 1px solid #e2e2e6; display: grid; grid-template-columns: 240px minmax(0,1fr); gap: 18px; align-items: start; }
+  .clip ul { margin: 0; padding-left: 18px; color: #3a3f47; font-size: 14px; }
+  .clip li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 16px; overflow: hidden; border: 1px solid #e2e2e6; font-size: 14px; margin-top: 18px; }
+  th, td { text-align: left; padding: 10px 12px; border-top: 1px solid #ececf0; vertical-align: top; }
+  thead th { background: #f6f6f8; border-top: 0; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  tbody th { font-weight: 600; width: 18%; }
+  ol.how { list-style: none; counter-reset: step; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill,minmax(320px,1fr)); gap: 14px; }
+  ol.how li { counter-increment: step; background: #fff; border-radius: 18px; padding: 18px 18px 6px 58px; position: relative; border: 1px solid #e2e2e6; }
+  ol.how li::before { content: counter(step); position: absolute; left: 16px; top: 16px; width: 28px; height: 28px; border-radius: 50%; background: var(--orange); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 14px; }
+  .promo { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 20px; align-items: start; }
+  .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 6px 0 16px; font-size: 13px; }
+  .flow span { background: #fff; border: 1px solid #e2e2e6; border-radius: 10px; padding: 6px 10px; }
+  .flow b { color: var(--orange); }
+  .card { background: #fff; border-radius: 18px; padding: 18px 20px; border: 1px solid #e2e2e6; }
+  .card ul { margin: 0; padding-left: 18px; color: #3a3f47; font-size: 14px; } .card li { margin-bottom: 7px; }
+  .status { display: grid; gap: 8px; margin-top: 14px; }
+  .status div { border-radius: 12px; padding: 9px 12px; font-size: 13px; }
+  .ok { background: #ebf8ef; border: 1px solid #bfe5cb; } .wait { background: #fff4e5; border: 1px solid #f6d29f; }
+  pre { background: #16181d; color: #e8e8ea; border-radius: 16px; padding: 16px 18px; white-space: pre-wrap; overflow-wrap: anywhere; font: 12.5px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace; margin: 0; }
+  .states { display: grid; grid-template-columns: repeat(auto-fill,minmax(170px,1fr)); gap: 16px; align-items: start; }
+  .state img { max-height: 520px; width: auto; margin: auto; object-fit: contain; }
+  .state figcaption { text-align: center; }
+  ul.dev { background: #fff; border-radius: 18px; border: 1px solid #e2e2e6; padding: 18px 20px 10px 38px; margin: 0; }
+  ul.dev li { margin-bottom: 9px; color: #3a3f47; }
+  footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 18px; }
+  #lb { position: fixed; inset: 0; background: #0b0c10e6; z-index: 9; display: none; overflow: auto; padding: 30px 12px; }
+  #lb.on { display: block; }
+  #lb img { margin: auto; max-width: min(560px, 100%); cursor: zoom-out; border-radius: 20px; }
+  #lb button { position: fixed; top: 14px; right: 16px; background: #fff; border: 0; border-radius: 99px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  a:focus-visible, img:focus-visible, button:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+  @media (max-width: 860px) { .hero, .promo, .pair { grid-template-columns: 1fr; } .pair .text { position: static; } .clips { grid-template-columns: 1fr; } .hero { padding: 22px; } .hero h2 { font-size: 27px; } .clip { grid-template-columns: 150px minmax(0,1fr); } main { padding: 18px 14px 40px; } table { display: block; overflow-x: auto; } }
+  @media (max-width: 600px) { header { position: static; padding: 10px 12px; gap: 10px; } .toc { gap: 10px; } section { scroll-margin-top: 12px; } }
+  @media (prefers-reduced-motion: reduce) { img.loop { content-visibility: auto; } }
+</style>
+<header>
+  <nav aria-label="Разделы OYNA"><a href="../">Экраны</a><a href="../analytics/">Аналитика</a><a href="../foksik/">Фоксик</a><a href="../gamification/">Анимации</a><a href="../onboarding/">Онбординг</a><a href="./" class="on" aria-current="page">Пейвол</a></nav>
+  <h1>Пейвол OYNA Premium</h1>
+  <div class="toc"><a href="#compare">Макет ↔ приложение</a><a href="#motion">Анимации</a><a href="#how">Как сделан</a><a href="#promo">Акция на бэке</a><a href="#states">Состояния</a><a href="#deviations">Отличия</a></div>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <h2>Подписка 1 в 1 по Figma — с живой анимацией и честной логикой</h2>
+    <p class="lead">Новый экран подписки родителя для версии 1.0.10. Нарисован по разделу «Paywall» (6719:18389): координаты, цвета, шрифты и рисунки взяты из самого макета. Всё на экране — правда: цены из магазина или Paylov, пробная неделя — с сервера, таймер — до настоящего конца акции из Supabase.</p>
+    <ul class="chips"><li>ветка release/1.0.10</li><li>6 языков, арабский справа налево</li><li>iPhone SE и текст 200 %</li><li>без анимаций, если так в телефоне</li><li>6 записей движения</li><li>11 состояний</li></ul>
+    <div class="btns"><a href="https://www.figma.com/design/oSWQssRz3lQfpXKpEPc4lj/Oyna-App-Design?node-id=6719-18389" target="_blank" rel="noopener">Открыть макет в Figma</a><a class="alt" href="../#p-paywall">Раздел на холсте</a></div>
+  </div>
+  <figure><img class="loop" src="../img/p-paywall-motion-00_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-00.webp" alt="Открытие: OYNA! прыгает, части поднимаются, мел рисуется"><figcaption>Открытие страницы — запись с текущего кода, 25 кадров в секунду</figcaption></figure>
+</section>
+
+<section id="compare">
+  <h2>Макет ↔ приложение</h2>
+  <p>Слева кадр Figma, справа приложение на тестовых данных. Клик — во весь рост. Где тексты отличаются и почему — в разделе <a href="#deviations">«Отличия»</a>.</p>
+  <div class="pairs"><article class="pair">
+  <div class="two"><figure><img class="phone" src="../img/p-paywall-figma-00_t.webp" srcset="../img/p-paywall-figma-00_t.webp 360w, ../img/p-paywall-figma-00.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-figma-00.webp" alt="Annual · 6838:17208"><figcaption>Figma · Annual · 6838:17208</figcaption></figure>
+  <figure><img class="phone" src="../img/p-paywall-app-03_t.webp" srcset="../img/p-paywall-app-03_t.webp 360w, ../img/p-paywall-app-03.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-03.webp" alt="Акция идёт: таймер до конца"><figcaption>Приложение · Акция идёт: таймер до конца</figcaption></figure></div>
+  <div class="text card"><h3>Год и пробная неделя, акция идёт</h3><ul><li>Совпадает: небо с сердечками, OYNA!, билет «Пробная неделя бесплатно», доска «Что даёт Premium» с мелом, тарифы со звёздочками, стикер скидки, таймер, кнопка и строка под ней.</li><li>Иначе: заголовок «Задания от ИИ и вся семья в OYNA Premium» (задания безлимитны и без подписки), «Jey» вместо «Джея», «до 4 детей»; под юридической строкой — «Об оплате и продлении · Восстановить покупки».</li><li>Таймер виден, только пока идёт акция: её конец приходит из Supabase.</li></ul></div></article><article class="pair">
+  <div class="two"><figure><img class="phone" src="../img/p-paywall-figma-01_t.webp" srcset="../img/p-paywall-figma-01_t.webp 360w, ../img/p-paywall-figma-01.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-figma-01.webp" alt="Month · 6838:16951"><figcaption>Figma · Month · 6838:16951</figcaption></figure>
+  <figure><img class="phone" src="../img/p-paywall-app-02_t.webp" srcset="../img/p-paywall-app-02_t.webp 360w, ../img/p-paywall-app-02.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-02.webp" alt="Месяц — весь экран"><figcaption>Приложение · Месяц — весь экран</figcaption></figure></div>
+  <div class="text card"><h3>Месяц</h3><ul><li>Выбран месяц: его карточка залита, у года остаётся стикер скидки.</li><li>Без акции таймера нет — зачёркнутые цены стоят сами по себе.</li></ul></div></article><article class="pair">
+  <div class="two"><figure><img class="phone" src="../img/p-paywall-figma-02_t.webp" srcset="../img/p-paywall-figma-02_t.webp 360w, ../img/p-paywall-figma-02.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="2556" loading="lazy" decoding="async" data-full="../img/p-paywall-figma-02.webp" alt="Чекаут перед переходом · 6837:12853"><figcaption>Figma · Чекаут перед переходом · 6837:12853</figcaption></figure>
+  <figure><img class="phone" src="../img/p-paywall-app-07_t.webp" srcset="../img/p-paywall-app-07_t.webp 360w, ../img/p-paywall-app-07.webp 1080w" sizes="(max-width: 860px) 44vw, 272px" width="1179" height="2556" loading="lazy" decoding="async" data-full="../img/p-paywall-app-07.webp" alt="Узбекистан: выбор оплаты"><figcaption>Приложение · Узбекистан: выбор оплаты</figcaption></figure></div>
+  <div class="text card"><h3>Выбор оплаты в Узбекистане</h3><ul><li>Сумма, месяцы, скидка и итог — как спишет карта; HUMO / UZCARD — на защищённой странице Paylov.</li><li>Иначе: вместо «Бонус 7 дней бесплатно» — настоящая скидка тарифа, подзаголовок-заглушка заменён настоящим, вторая кнопка — магазин телефона по его цене, а не «Apple Pay».</li></ul></div></article></div>
+</section>
+
+<section id="motion">
+  <h2>Анимации</h2>
+  <p>Каждая запись — покадровый снимок текущего кода (тест <code>paywall_motion_capture_test.dart</code>), крутится по кругу. Ниже — таблица всего, что движется, с длительностями и кривыми из кода.</p>
+  <div class="clips"><article class="clip"><img class="loop" src="../img/p-paywall-motion-00_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-00.webp" alt="Открытие: OYNA! прыгает, части поднимаются, мел рисуется"><div><h3>Открытие</h3><ul><li>OYNA! приземляется с лёгким перелётом (первые 45 % из 1,15 с, easeOutBack), следом выезжает его «эхо».</li><li>Части поднимаются по очереди, у каждой своя доля открытия (easeOutCubic): заголовок (+16 pt), билет (+24), доска (+32), тарифы (+32), кнопка снизу (+48).</li><li>Мел на доске рисуется рукой, над небом всплывают сердечки.</li></ul></div></article><article class="clip"><img class="loop" src="../img/p-paywall-motion-01_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-01.webp" alt="Прокрутка: мел дорисовывается, подложка под статус-баром"><div><h3>Прокрутка до тарифов</h3><ul><li>Под часами проявляется цвет страницы: прозрачный в покое, полный через 24 pt прокрутки — часы и батарея не ложатся на белую карточку.</li><li>Каждый меловой рисунок дорисовывается, когда попадает на экран: 260 pt в секунду, от 0,28 до 1,1 с.</li><li>Сердечки всплывают, таймер акции тикает.</li></ul></div></article><article class="clip"><img class="loop" src="../img/p-paywall-motion-02_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-02.webp" alt="Месяц ↔ год: заливка от кружка, пружина, стикер качается"><div><h3>Месяц ↔ год</h3><ul><li>Новый вид заливает карточку кругом от галочки — 380 мс, easeInOutCubic.</li><li>Ширины карточек пружинят — 460 мс, Cubic(.2, 1.25, .32, 1).</li><li>Галочка выпрыгивает (easeOutBack), стикер «СКИДКА» качается и замирает.</li></ul></div></article><article class="clip"><img class="loop" src="../img/p-paywall-motion-03_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-03.webp" alt="Конец акции: цифры катятся, скидка исчезает"><div><h3>Конец акции</h3><ul><li>Таймер тикает ровно на границе секунды, цифры прокатываются за 380 мс.</li><li>В ноль таймер схлопывается, и вместе с ним исчезают зачёркнутые цены и стикер: после конца акции скидку не обещаем.</li></ul></div></article><article class="clip"><img class="loop" src="../img/p-paywall-motion-04_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-04.webp" alt="Узбекистан: шторка выбора оплаты"><div><h3>Выбор оплаты (Узбекистан)</h3><ul><li>Кнопка открывает шторку: HUMO / UZCARD на защищённой странице Paylov или магазин телефона по его цене.</li><li>Страница под шторкой темнеет; закрыть — тапом выше или вниз.</li></ul></div></article><article class="clip"><img class="loop" src="../img/p-paywall-motion-05_t.webp" width="393" height="852" loading="lazy" decoding="async" data-full="../img/p-paywall-motion-05.webp" alt="Покупка: спиннер и «Отлично!»"><div><h3>Покупка</h3><ul><li>Кнопка становится спиннером, пока магазин проводит оплату; второе нажатие ничего не спишет.</li><li>Сервер подтвердил Premium — праздник: лис и конфетти.</li></ul></div></article></div>
+  <table><thead><tr><th>Что</th><th>Когда</th><th>Как долго и по какой кривой</th><th>«Уменьшить движение»</th></tr></thead><tbody><tr><th>Открытие страницы</th><td>Когда страница открылась</td><td>1,15 с; части по очереди, easeOutCubic; логотип easeOutBack</td><td>Сразу открыта</td></tr><tr><th>Сердечки над небом</th><td>Всегда, пока страница видна</td><td>12 сердечек, круг 5,2 с: каждое в свой момент появляется, всплывает и тает</td><td>Нет</td></tr><tr><th>«Дыхание» логотипа</th><td>Всегда</td><td>Эхо OYNA! 3,6 с туда и обратно, easeInOut</td><td>Стоит</td></tr><tr><th>Блик на билете</th><td>Через 1,2 с после открытия, дальше по кругу</td><td>Проход 1,4 с (easeInOutCubic), пауза 3,2 с — в паузе кадры не рисуются</td><td>Нет</td></tr><tr><th>Мел на доске</th><td>Когда рисунок попадает на экран</td><td>260 pt/с, от 0,28 до 1,1 с; часть — с задержкой 120 или 260 мс</td><td>Уже нарисован</td></tr><tr><th>Подложка под часами</th><td>При прокрутке</td><td>Проявляется за первые 24 pt</td><td>Так же (это не анимация)</td></tr><tr><th>Выбор тарифа</th><td>Тап по карточке</td><td>Заливка от галочки 380 мс; пружина ширин 460 мс; галочка easeOutBack; стикер качается</td><td>Мгновенно</td></tr><tr><th>Поздние части</th><td>Пробная неделя и таймер пришли после загрузки</td><td>Место раскрывается за 420 мс (easeOutCubic), часть проявляется</td><td>Сразу</td></tr><tr><th>Таймер акции</th><td>Каждую секунду</td><td>Цифры прокатываются за 380 мс; в ноль таймер и скидка уходят</td><td>Цифры меняются без прокатки</td></tr><tr><th>Строка под кнопкой</th><td>Сменился тариф или состояние</td><td>Сменяется за 260 мс</td><td>Сразу</td></tr><tr><th>Шторка оплаты</th><td>Кнопка в Узбекистане</td><td>Выезжает снизу, страница темнеет</td><td>Без выезда</td></tr><tr><th>Покупка</th><td>Кнопка «Купить»</td><td>Спиннер, затем праздник с лисом и конфетти</td><td>Так же</td></tr></tbody></table>
+  <p class="small" style="margin-top:12px">Анимации дешёвые: каждый слой рисуется один раз и только двигается, блик ждёт таймером без кадров, все сердечки — на одном контроллере, и ничего не тикает, когда страница закрыта.</p>
+</section>
+
+<section id="how">
+  <h2>Как сделан</h2>
+  <ol class="how"><li><h3>Точные данные из Figma, а не на глаз</h3><p>Доступ к Figma API истёк, поэтому файл открыт в нашем собственном браузере без входа. Весь документ приходит по веб-сокету совместного редактирования в двоичном виде (kiwi, сжатие zstd); расшифровав его, получаем каждый слой: координаты, размеры, градиенты, тени, шрифты с межстрочными интервалами и векторные пути. Сверка с кадром: тексты стоят на месте с точностью до 1,3 pt, цвета — до 4 уровней из 255.</p></li><li><h3>Рисунок — кодом, без картинок</h3><p>Небо, OYNA!, сердечки, билет, мел на доске, звёздочки на тарифах и стикер — векторные пути из макета, перенесённые в Dart. Они чёткие на любом экране, весят килобайты, и мел можно рисовать вдоль линии. Мел в Figma — это «штампы» одной кисти; в приложении они ставятся одним вызовом (drawAtlas). Двенадцать сердечек в макете спрятаны (прозрачность 0) — из них сделана анимация неба.</p></li><li><h3>Сетка кадра</h3><p>Отступы и размеры — константы кадра 393 × 852. На широком экране страница держит колонку до 440 pt; на iPhone SE и при тексте 200 % ничего не обрезается и все кнопки доступны.</p></li><li><h3>Цвета, шрифты и кнопки — из дизайн-системы</h3><p>В коде экрана нет ни одного цвета: всё через токены oyna_uikit, кнопки — общие контролы. Шрифт Oyna Sans вместо SF Pro Rounded (его нет на Android), основной текст — Inter.</p></li><li><h3>Логика — в BLoC</h3><p>Экран только рисует состояние. PaywallBloc знает тариф семьи и его срок, пробную неделю, цены магазина и Paylov и акцию; ведёт покупку, восстановление и ждёт, пока сервер подтвердит оплату. Оплата картой Paylov и запуск пробной недели — в своих BLoC.</p></li><li><h3>Шесть языков и арабский справа налево</h3><p>Русский, английский, узбекский, казахский, азербайджанский и арабский. По-арабски страница зеркальная, а корешок билета переходит налево.</p></li><li><h3>Проверено</h3><p>Тесты BLoC, модели и экрана: покупка, выбор оплаты, пробная неделя, таймер и конец акции, арабский, маленькие экраны и крупный текст; архитектурные проверки и полный прогон — зелёные. Кадры и записи на этой странице сняты этими же тестами.</p></li></ol>
+</section>
+
+<section id="promo">
+  <h2>Акция — на бэке, а не в Remote Config</h2>
+  <div class="flow"><span>Команда в SQL editor</span><b>→</b><span>private.paywall_promotions</span><b>→</b><span>get_paywall_promotion()</span><b>→</b><span>приложение</span><b>→</b><span>таймер и скидка</span></div>
+  <div class="promo">
+    <div class="card"><ul>
+      <li>Акция — строка в таблице Supabase: название, начало, конец. Две акции сразу база не примет. Приложению видна только функция, таблица — нет.</li>
+      <li>Функция отвечает концом последней начавшейся акции и временем сервера.</li>
+      <li>Пока акция идёт — таймер до её конца по часам сервера: телефон с неверными часами покажет то же время.</li>
+      <li>Конец прошёл — нет ни таймера, ни зачёркнутых цен, ни стикера, пока не начнётся следующая. Ни одной акции — зачёркнутые цены без таймера.</li>
+      <li>Тарифы ждут ответа не дольше 5 с, чтобы скидка не мелькнула и не исчезла. Нет ответа — как без акции, «Повторить» спросит снова.</li>
+      <li>Сервер без этой функции считается сервером без акций.</li>
+    </ul>
+    <div class="status"><div class="ok"><b>DEV</b> — применено 31.10.2026, проверка 10/10. Идёт тестовая акция до 30.11.2026 23:59 по Ташкенту.</div><div class="wait"><b>PROD</b> — ещё не выкачено: до выката приложение показывает цены без таймера.</div></div></div>
+    <div><pre>-- Что сейчас видит приложение, и все акции
+select public.get_paywall_promotion();
+select * from private.paywall_promotions order by starts_at desc;
+
+-- Новая акция: время с поясом (+05 — Ташкент)
+insert into private.paywall_promotions (name, starts_at, ends_at)
+values (&#x27;Чёрная пятница 2026&#x27;, &#x27;2026-11-27 00:00+05&#x27;, &#x27;2026-11-30 23:59:59+05&#x27;);
+
+-- Закончить сейчас
+update private.paywall_promotions set ends_at = now()
+where starts_at &lt;= now() and now() &lt; ends_at;</pre><p class="small" style="margin-top:10px">Акция не меняет сами цены: цены в App Store, Google Play и Paylov меняются отдельно.</p></div>
+  </div>
+</section>
+
+<section id="states">
+  <h2>Все состояния</h2>
+  <p>Кадры приложения на тестовых данных (тест <code>paywall_capture_test.dart</code>). Клик — во весь рост.</p>
+  <div class="states"><figure class="state"><img class="phone" src="../img/p-paywall-app-00_t.webp" srcset="../img/p-paywall-app-00_t.webp 360w, ../img/p-paywall-app-00.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-00.webp" alt="Год · пробная неделя — весь экран"><figcaption>Год · пробная неделя — весь экран</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-01_t.webp" srcset="../img/p-paywall-app-01_t.webp 360w, ../img/p-paywall-app-01.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="2556" loading="lazy" decoding="async" data-full="../img/p-paywall-app-01.webp" alt="Первый экран телефона"><figcaption>Первый экран телефона</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-02_t.webp" srcset="../img/p-paywall-app-02_t.webp 360w, ../img/p-paywall-app-02.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-02.webp" alt="Месяц — весь экран"><figcaption>Месяц — весь экран</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-03_t.webp" srcset="../img/p-paywall-app-03_t.webp 360w, ../img/p-paywall-app-03.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-03.webp" alt="Акция идёт: таймер до конца"><figcaption>Акция идёт: таймер до конца</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-04_t.webp" srcset="../img/p-paywall-app-04_t.webp 360w, ../img/p-paywall-app-04.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-04.webp" alt="Акция закончилась: без зачёркнутых цен"><figcaption>Акция закончилась: без зачёркнутых цен</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-05_t.webp" srcset="../img/p-paywall-app-05_t.webp 360w, ../img/p-paywall-app-05.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-05.webp" alt="Пробная использована: покупка"><figcaption>Пробная использована: покупка</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-06_t.webp" srcset="../img/p-paywall-app-06_t.webp 360w, ../img/p-paywall-app-06.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-06.webp" alt="Узбекистан: суммы HUMO / UZCARD"><figcaption>Узбекистан: суммы HUMO / UZCARD</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-07_t.webp" srcset="../img/p-paywall-app-07_t.webp 360w, ../img/p-paywall-app-07.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="2556" loading="lazy" decoding="async" data-full="../img/p-paywall-app-07.webp" alt="Узбекистан: выбор оплаты"><figcaption>Узбекистан: выбор оплаты</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-08_t.webp" srcset="../img/p-paywall-app-08_t.webp 360w, ../img/p-paywall-app-08.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="4731" loading="lazy" decoding="async" data-full="../img/p-paywall-app-08.webp" alt="Premium уже есть"><figcaption>Premium уже есть</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-09_t.webp" srcset="../img/p-paywall-app-09_t.webp 360w, ../img/p-paywall-app-09.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="1179" height="2556" loading="lazy" decoding="async" data-full="../img/p-paywall-app-09.webp" alt="Цены не загрузились"><figcaption>Цены не загрузились</figcaption></figure><figure class="state"><img class="phone" src="../img/p-paywall-app-10_t.webp" srcset="../img/p-paywall-app-10_t.webp 360w, ../img/p-paywall-app-10.webp 1080w" sizes="(max-width: 760px) 30vw, 200px" width="960" height="1704" loading="lazy" decoding="async" data-full="../img/p-paywall-app-10.webp" alt="iPhone SE (320 pt)"><figcaption>iPhone SE (320 pt)</figcaption></figure></div>
+</section>
+
+<section id="deviations">
+  <h2>Где отличается от макета и почему</h2>
+  <ul class="dev"><li>Заголовок «Безлимитные задачи…» стал «Задания от ИИ и вся семья в OYNA Premium»: задания безлимитны и без подписки.</li><li>«Сколько угодно детей» — «до 4 детей», «Джея» — «Jey».</li><li>Пробная неделя — подарок с сервера, без карты и без автосписания: пока она предложена, кнопки покупки нет, под кнопкой — «Дальше — {цена} в год, по желанию».</li><li>Таймер идёт только до настоящего конца акции из Supabase; без акции его нет, после конца исчезают и зачёркнутые цены, и стикер.</li><li>Под юридической строкой — «Об оплате и продлении · Восстановить покупки»: этого требует App Store.</li><li>Кнопка магазина — «App Store» / «Google Play», а не «Apple Pay»: это покупка в приложении.</li><li>В шторке оплаты вместо «Бонус 7 дней бесплатно» и текста-заглушки — настоящая скидка тарифа и куда ведёт каждая кнопка.</li><li>SF Pro Rounded заменён на Oyna Sans.</li></ul>
+</section>
+
+<footer>Кадры и записи сняты с текущего кода ветки release/1.0.10 на тестовых данных: это вид приложения, а не проверка живого сервера. Макеты — из Figma «Oyna App Design». Обновлено 01.11.2026.</footer>
+</main>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Изображение целиком"><button type="button">Закрыть ✕</button><img alt=""></div>
+<script>
+const lb = document.getElementById('lb'), big = lb.querySelector('img');
+document.addEventListener('click', e => {
+  const img = e.target.closest('img[data-full]');
+  if (img && !lb.contains(img)) { big.src = img.dataset.full; big.alt = img.alt; lb.classList.add('on'); lb.scrollTop = 0; return; }
+  if (lb.classList.contains('on') && (e.target === lb || e.target === big || e.target.tagName === 'BUTTON')) lb.classList.remove('on');
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('on'); });
+</script>
+</html>

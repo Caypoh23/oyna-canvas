@@ -1351,114 +1351,106 @@
     "p-paywall-figma-00": {
       "kind": "figma_reference",
       "captured_at": null,
-      "image_sha256": "8801ac0d7d4cf27ffdfddcc16a52df1d1b581373fe6707153960be41d7930496",
+      "image_sha256": "0ae7c7d168759dc6e004dadc530dc73dbc9f82b50b04250e8975a0ebe5598586",
       "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
-      "thumbnail_sha256": "a70c7881cfff9fe134de2f5d375256c0fe705e848dd8d1929c318f5d6a4e0895",
-      "poster_sha256": "18d1f633279b16fe15d301e26aeeba5e1b5afea2dde429f3288aa4234ee89f06"
+      "thumbnail_sha256": "ddc1e9874e015cf3eccb4e70815dd3ee51fd7a1ae2d6bacb502ba956a0810341",
+      "poster_sha256": "79a590a9c2d4a8cdfc2e2e6217281cdb875080bb1fa325864494f70b4cc3a629"
     },
     "p-paywall-app-00": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.204643+00:00",
-      "image_sha256": "85a8274e6f1da99beec23232784b3cdf3e3496a35110c7865c2462706dbe9678",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "32722732ee53372f484154ae6a712016659bd5cb96a08fae1c4fe658a33f723d",
-      "poster_sha256": "f9f486644d12b6791b79f470b08f434b7e2bd1387e6c176351340935e6179919"
+      "captured_at": "2026-10-31T19:18:24.905144+00:00",
+      "image_sha256": "2ea56169a8631be30d813490cd91f357596ad2c54db1098e105330ac2e1c4947",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "d270a3d4dc3f439c72b9f2e4f4641d778a43bc807589cec42e0e831a13a6b6b6",
+      "poster_sha256": "52d79b6b3f6877a402db9589d1ee63069f363cae8c57716355547616d7b61649"
     },
     "p-paywall-app-01": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.346209+00:00",
-      "image_sha256": "2981a2b4c75738ce9152fd083a7af2040755e317585f91c4461677c092045950",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "631b707f7ba07bc65b16049fbf8290582c286b9004cd6da0c6ec01b2a57f016f",
-      "poster_sha256": "408e7a42444b95a787fc5411bbe0d392f680f0ff24a998e9d2918d29b4942b66"
+      "captured_at": "2026-10-31T19:18:27.058510+00:00",
+      "image_sha256": "8290053c6ea4a16814562b30d43225b396198103ac86bdcc555ea0ca9724b5b0",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "dc55af53af6e886faacd323c7fb5710ce0e7a9dad21ec663ee2ba5ef72619928",
+      "poster_sha256": "f7510a8668dc5122fe20af5a71b2aa3c7d7c3e540c775ba0146872142346d19c"
     },
     "p-paywall-app-02": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.626390+00:00",
-      "image_sha256": "d168255b38d79816566f6302a0df75b157785ac8c22bad889fb00315d206de59",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "4cb898f8ac412a24c507c701c346f3397337b4705a37d4aa74d52654e5c079ef",
-      "poster_sha256": "01e794b40713cd4c72bd96020fb59ffc10f3dea465e23c31316ae9623b32964f"
+      "captured_at": "2026-10-31T19:18:26.149301+00:00",
+      "image_sha256": "3310752b709c8e6d438a4bb77ff655f667ef3dc2de790abdfd503a7b42f94df7",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b51e9283e53907d5bbc003bf7bd0b329eaef2f7fb03d0dbf8cc276c49cf95fa2",
+      "poster_sha256": "aaa9b4bd99f93392a06c15e8e2870c2405551f5ba93b44ead7d8042b5ef78dba"
     },
     "p-paywall-app-03": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.761422+00:00",
-      "image_sha256": "80bf8badceeeea20c7175d390b2a754fa6a5b47d6fb45bd6cada552d0604bf2e",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "9f3be078b6cb58f798a5b494e9c3ab83643dd69d5a34aa5d8f133be57c029665",
-      "poster_sha256": "3a27a0568a0012fc0a0c774676e4771452a84faa1d2cd5c81b29ce57d73da886"
+      "captured_at": "2026-10-31T19:18:21.574613+00:00",
+      "image_sha256": "863fdd4fe69a566d5612358b75e1df823094f2ca7dc8182c73dfd4be41936c14",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "8f6211232e4cf87c2e1fc143e572da680cef6ae6aacf05de30159477589a21a4",
+      "poster_sha256": "397d8ece15f424111e5a9d1d5c31f8c57c0e69ef8f001a5e0dd8fdf5383b1f0b"
     },
     "p-paywall-app-04": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.486553+00:00",
-      "image_sha256": "1d31c4d0559ae93fae78af79d778e17e991338349c2b5c593b045388c1d76172",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "77a8602ee57cff828cb3ea35d18104dd396c84c7286414a67953b3e422c59a91",
-      "poster_sha256": "41008254c273e74bdf7f78d10d4214a2fc4be4b8d406d0ae36e009909faea550"
+      "captured_at": "2026-10-31T19:18:22.823177+00:00",
+      "image_sha256": "b650b0f182da5651f9dea5161672108bea869c49fe0f2ba6446126e84744a62d",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b3f4f8dc1aa483df3964716425d39e2df44d8855d0b780986c51372aebb2c443",
+      "poster_sha256": "8e6f3589b69440fe6aa13982c08b2e684a2df821ced125b5f9175e0c56b83fcc"
     },
     "p-paywall-app-05": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:34:54.003749+00:00",
-      "image_sha256": "dcfa2d17c355601e9f6af4a795feac779576e320c03910eeb15bbd4eb9a723aa",
-      "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
-      "thumbnail_sha256": "0b8e6e6a3f41688dd22c8952260bb75c9aab4923905a24ce4dad0c999af99a51",
-      "poster_sha256": "93257808d2d4006838c9c17be86cea8d669b68c8b05b6dc6fa69c9f622bda162"
+      "captured_at": "2026-10-31T19:18:28.187416+00:00",
+      "image_sha256": "f661186cd907a18450f73b1ca73a462e9611692e61ea243c26730c8ded108ebe",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b3ce8901a35f37c201375a1fecbd1710421d8880f4090ad579be869bcd617fa0",
+      "poster_sha256": "2732a7648073cd71352bdcf4718ad15e32be398e3675320660f8b9d40e914c06"
     },
     "p-paywall-app-06": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:48:51.531419+00:00",
-      "image_sha256": "f4e3e29919e4d91f962cc73c0d5e1b6208723b39405fbec662362e1a3b378a2b",
-      "note": "Текущий экран OYNA: загрузка или ошибка оплаты. WebView заменён тестовой заглушкой; банковская страница и сама оплата не проверялись.",
-      "thumbnail_sha256": "09b23ba284f438ff258187f446756ba98d06179b3a67cc524b07f6b8c0d72416",
-      "poster_sha256": "e3f7a5214d1d32bf8fd92e12766d60a0c6bbc58d0925ed8fd9f988c3aa64a1fe"
+      "captured_at": "2026-10-31T19:18:29.152535+00:00",
+      "image_sha256": "2a63afbe1c78078a9d09adaf6969e7c720e8a6f150fe56fb1cb63b21ada81af3",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "aca1061f692e366c0618e20caf6b1fac6af04141c1374fdb9ebe05a569517e8f",
+      "poster_sha256": "a82ae7efa7a5bb4f2c69cf31091b4202e07685d4ced12465f2589936f78633ac"
     },
     "p-paywall-app-07": {
       "kind": "current_widget_render",
-      "captured_at": "2026-10-02T10:48:51.632538+00:00",
-      "image_sha256": "c5f47610b1a6e32036ca13e38c70dd8cd63e8d3d6bb756715d0bdbeab3d4df7d",
-      "note": "Текущий экран OYNA: загрузка или ошибка оплаты. WebView заменён тестовой заглушкой; банковская страница и сама оплата не проверялись.",
-      "thumbnail_sha256": "a6430cec7ecfee7bade2df303cfcfbf061c0218478c60a75d082b8164d8d8eec",
-      "poster_sha256": "898feb6e61639402045e0b52e1f4af7293937b5a85165bb388bdfb8470e4336c"
+      "captured_at": "2026-10-31T19:19:20.237131+00:00",
+      "image_sha256": "8b9ae336bb1e4ff4785823d6cbe957f4198f086c970bd15a85ff8b8816346970",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "f50dd9c4184dde98429289fbc64d01b49a4695b7e95dbdc9dc22871aada153a9",
+      "poster_sha256": "51eac2b3c21b05dbb172a6b8ad13f5b42f99fbbd39f75ca88ce693dfd57b49c4"
     },
     "p-paywall-motion-00": {
-      "kind": "historical_capture",
-      "captured_at": null,
-      "image_sha256": "adfb72e232424f90364af0d93d7123f09d739af0746f803a8a50565bb5d72fc1",
-      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
-      "thumbnail_sha256": "a9100032b8bacaa779994c575b226d7ad6ddce64537ad44de2ad90ea15254ec6",
-      "poster_sha256": "a7136a250e38eb50b5300a0509b5b77ba9c296d143119bb8f2b16b72fe4ea119"
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:24:25.843510+00:00",
+      "image_sha256": "4a90937c2b177b33294430be8de3418f804d8ebb5af96a40ce7c285d846c8a80",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "63df65b68bf2425b1fddeb032b6eb0b54ff2037cfcab0a5542e56791e25ebcec",
+      "poster_sha256": "d68dabf954a163774e762853bdfcd16efbc8a7acfaa046eae29f2f434efab3de"
     },
     "p-paywall-motion-01": {
-      "kind": "historical_capture",
-      "captured_at": null,
-      "image_sha256": "ff5dc86fe3dcedb963bdba3148cac81e19f5fbe378cc3c6a2cbc538e1160f43d",
-      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
-      "thumbnail_sha256": "013338770e27716426e4e6e549201765cd35eea314f159f4c91a4e4513769c52",
-      "poster_sha256": "b5bb49a3b566f321840142067cae2df9ae1db99934fa69de0d976757e61342e8"
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:24:38.854758+00:00",
+      "image_sha256": "f701d8811b8a70d853d949d62e57a2b0a101eb9033aa6ce43eb88ba55743208a",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "5c849a01f3c724471d45a82c56ce70e73a951573c26e34b79da52315a9b6bfe4",
+      "poster_sha256": "71156ddc78ea288d44a580acd14a5fa9d918bc28a8d3ad0f67741cd428c79621"
     },
     "p-paywall-motion-02": {
-      "kind": "historical_capture",
-      "captured_at": null,
-      "image_sha256": "6f744d242c31f006256b3702806c10d55deec268bf52c6acc9d9d9403fe6c114",
-      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
-      "thumbnail_sha256": "4f327a35078d357ea76fe3eb761e21ae72b23a2545c52c795bf25273663d6852",
-      "poster_sha256": "0d95f832a051e7ebd955acb19096d4fef4c9407d65b508c92b6a34813232b870"
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:25:01.708469+00:00",
+      "image_sha256": "a58e15dd6bc8666b852fe75293771bccf73f4904d59f3f3d0ce38b0c397be103",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "552dbe6d1242aeba5dfc8b67bf3e605c102fdd8dcc1bfe72d0644214523d9adf",
+      "poster_sha256": "2063ea6dc465102d74b0787e466bbaae0b8d0302968b2d8b2e90798f6d521806"
     },
     "p-paywall-motion-03": {
-      "kind": "historical_capture",
-      "captured_at": null,
-      "image_sha256": "4421efe046e4fd1384528e17a5636ec5a7c6cd60b07e993d6623eed367a6dace",
-      "note": "Архивная иллюстрация. Актуальность по текущему коду не подтверждена.",
-      "thumbnail_sha256": "eea3fa4513e81e46be46b010a98ce4a3a9f121d42572bac68868dae16cd06a46",
-      "poster_sha256": "63f04ff1350709bde7de21684c44d42c3928ee4ce8d95596a073d1c55a42f8cf"
-    },
-    "p-paywall-device-00": {
-      "kind": "historical_runtime",
-      "captured_at": null,
-      "image_sha256": "d2bd118ba8b25138439c8493e69e9a27c558953c1ef8f6bfca181e7300f298e7",
-      "note": "Архивный снимок DEV-приложения. Актуальный вид требует повторной проверки.",
-      "thumbnail_sha256": "4356bd40576121c942c857a729d24c57538a14ed5402ed3786e97065498bea4b",
-      "poster_sha256": "567944fc5fddb893736b0dd7300ce8ddca778e77aeb97bbed644df791b3f45fe"
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:24:55.208449+00:00",
+      "image_sha256": "0814f6f0b73abd5fc7d714381ee8a5432d3283e57a2826e35fa08af2c22dcf44",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "57fb7b36fe87e433f796207424e610ef426ffdadef611b89e6529fe16f72a886",
+      "poster_sha256": "a7baeb47decafea15e5d2f29d0636748d96d1447ecabe4c247b0c7346387391d"
     },
     "p-analytics-figma-00": {
       "kind": "figma_reference",
@@ -3131,6 +3123,62 @@
       "note": "Снято с текущих Flutter-экранов на тестовых данных. Это вид приложения, а не проверка живого сервера.",
       "thumbnail_sha256": "25d545623c077d98eb54ea035abc962662e7a0c0ff350d5f234e380863775406",
       "poster_sha256": "606a918755c9078ee42cad525302e4a6c2fe7447cb6995355383d5780c4fdb30"
+    },
+    "p-paywall-figma-01": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "8098c893dd3c53918cae065f05fb3026641e13c6f56c82cd12c433ba64ca6f93",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "c45429e4d5f039e3c1840370f0e0e7460982567a08221b018822d0eeb4abb708",
+      "poster_sha256": "dadae802de57c1a57e9b3ad63810173992b50c34629ed282d8f06126d7043535"
+    },
+    "p-paywall-figma-02": {
+      "kind": "figma_reference",
+      "captured_at": null,
+      "image_sha256": "772118e385a4cdc7c8230dd178efa8e4861a460a74142c337eed3d3de5845cb9",
+      "note": "Макет Figma: ориентир дизайна, не экран работающего приложения.",
+      "thumbnail_sha256": "03914f181bc57c0ce3ac048860bc82fcc7d13b9857d88a91eb92f73285a185c6",
+      "poster_sha256": "e6a53355f6adb5fb1b2458a58e6c577b71e406781ff6fbc3c90d185fa117fed8"
+    },
+    "p-paywall-app-08": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:18:30.084539+00:00",
+      "image_sha256": "40d21e3459595839753139c8644c0d1f346de856c712f628558fff1295fe24ed",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "829c445c7127195d62afaf5b2ea9a2e9094458de6349848387ee18cce8e417d4",
+      "poster_sha256": "d57c55449fb11d6c3688118cc42c544c4daede9d6e035e75f21e09423541986d"
+    },
+    "p-paywall-app-09": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:18:30.843534+00:00",
+      "image_sha256": "69c7f3fe10e33af03a7472c28bb4069fa6f6b9e9ddf09db5f1cb06078cbde51f",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "b3e45d47bbef5c27d50d62569e74edae8a5d175b29de66ec5ce1bcbd887fc111",
+      "poster_sha256": "2c6fb2d16f98a633b349d59fc964d9d13e34853f28696573ea27fd3956cd51c2"
+    },
+    "p-paywall-app-10": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:18:31.624645+00:00",
+      "image_sha256": "605aefeed8db25a42175e42879a3932aeb6d7f20058fc476b2058cd53ee1b885",
+      "note": "Снято с текущих Flutter-экранов (ветка release/1.0.10, 467eb86ae) на тестовых данных, paywall_capture_test.dart. Это вид приложения, а не проверка живого сервера.",
+      "thumbnail_sha256": "574307752724bca1fc6077b3f3859a5c0fc701dc6b5a68632c59c34fa8814f78",
+      "poster_sha256": "fdae66c89148514dbdd858f6271bcae25c357afb51f09a992a821f7df70d6291"
+    },
+    "p-paywall-motion-04": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:25:05.940299+00:00",
+      "image_sha256": "9be928c161f26c68c3d2aeacb3890d6811ff28b63c38dbc006b8ccf728a6c375",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "b8180d0f2a1e4633496ae3323e06daa0a2d25624b1fbf26c948d63fbad4d47d7",
+      "poster_sha256": "bc8cd5fd917a6ae8385dd18f4dcf0593a7e6bd000f28224b134ef4531b31c719"
+    },
+    "p-paywall-motion-05": {
+      "kind": "current_widget_render",
+      "captured_at": "2026-10-31T19:25:15.661810+00:00",
+      "image_sha256": "abb7a2e9cef5f6e471e28e47d88d438e71f5240bbb0c8685878c7f405c9d78b8",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "0bbd8a46a8845750ce0150d185cd310c33c0b88f2e6f02c6c4000af6f01f6328",
+      "poster_sha256": "9430087dae4f2058e5b358648891868ccb83858a166b84f68e23077b952432c4"
     }
   }
 }
