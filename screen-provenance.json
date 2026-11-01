@@ -3174,6 +3174,14 @@
     },
     "p-paywall-motion-05": {
       "kind": "current_widget_render",
+      "captured_at": "2026-11-01T08:36:04.806816+00:00",
+      "image_sha256": "5367aea1e9bf772236f8ae085d6cfc058b5a71e524bf43e9def0d0b915824107",
+      "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, f86c11968) на тестовых данных, paywall_motion_capture_test.dart.",
+      "thumbnail_sha256": "1ca90a791b3ccc6bbf0af57fb4a008bb49de6e459cf3629dd5ddd449b1ecfc87",
+      "poster_sha256": "ebba02e6d73234cdd02a821f5bdc33d4c48b8ce1aca852c12aaa8419012d1bfa"
+    },
+    "p-paywall-motion-06": {
+      "kind": "current_widget_render",
       "captured_at": "2026-10-31T19:25:15.661810+00:00",
       "image_sha256": "abb7a2e9cef5f6e471e28e47d88d438e71f5240bbb0c8685878c7f405c9d78b8",
       "note": "Записано покадрово (25 кадров в секунду) с текущих Flutter-экранов (release/1.0.10, 467eb86ae) на тестовых данных, paywall_motion_capture_test.dart.",
